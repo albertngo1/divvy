@@ -119,7 +119,41 @@ body::after {
   z-index: 5;
   pointer-events: none;
 }
-.brand { display: flex; align-items: baseline; gap: 13px; }
+.brand { display: flex; align-items: baseline; gap: 13px; background: none; border: none; padding: 0; cursor: pointer; font: inherit; text-align: left; pointer-events: auto; }
+
+/* About / executive-summary modal */
+.about-overlay {
+  position: fixed; inset: 0; z-index: 40;
+  display: flex; align-items: center; justify-content: center; padding: 24px;
+  background: rgba(4, 5, 10, 0.6); backdrop-filter: blur(6px);
+  opacity: 0; pointer-events: none; transition: opacity 0.25s ease;
+}
+.about-overlay.open { opacity: 1; pointer-events: auto; }
+.about-card {
+  position: relative; max-width: 540px; width: 100%;
+  background: var(--bg-soft); border: 1px solid var(--line-strong); border-radius: 20px;
+  padding: 34px 36px 26px; box-shadow: 0 40px 100px rgba(0,0,0,0.6);
+  transform: translateY(10px) scale(0.98); transition: transform 0.25s cubic-bezier(0.22,1,0.36,1);
+  color: var(--ink-dim); font-size: 15px; line-height: 1.6;
+}
+.about-overlay.open .about-card { transform: none; }
+.about-card p { margin: 0 0 13px; }
+.about-card b { color: var(--ink); font-weight: 600; }
+.about-close {
+  position: absolute; top: 16px; right: 18px; width: 30px; height: 30px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(255,255,255,0.06); border: 1px solid var(--line); color: var(--ink-dim); cursor: pointer;
+}
+.about-close:hover { color: var(--ink); background: rgba(255,255,255,0.12); }
+.about-eyebrow { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 6px; }
+.about-title {
+  font-family: "Fraunces", serif; font-weight: 900; font-size: 40px; line-height: 1; margin: 0 0 6px;
+  background: linear-gradient(120deg, #fff 30%, #b794f6 130%);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; padding-bottom: 0.08em;
+}
+.about-lead { color: var(--ink); font-size: 17px; font-style: italic; margin-bottom: 16px !important; }
+.about-foot { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-faint); letter-spacing: 0.03em; }
+.about-foot span { font-family: "Fraunces", serif; font-style: italic; color: var(--ink-dim); }
 .mark {
   color: var(--c-self);
   font-size: 22px;

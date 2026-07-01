@@ -2,6 +2,90 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "last-pressing",
+      "title": "Last Pressing",
+      "hook": "A melancholy tycoon where you run the world's last optical-disc factory as the industry goes all-digital around you — squeeze out final print runs before the presses go cold for good.",
+      "tags": [
+        "game",
+        "tycoon",
+        "sim",
+        "narrative"
+      ],
+      "score": 57,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "minimal-genome",
+      "title": "Minimal Genome",
+      "hook": "An idle sim where you strip a living cell down to its smallest possible genome — cut a gene, watch it divide slower or die, and race toward the leanest self-replicating organism.",
+      "tags": [
+        "game",
+        "idle",
+        "biology",
+        "sim"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "union-label",
+      "title": "Union Label",
+      "hook": "A browser extension that, on any Amazon product page, quietly surfaces a worker-owned or co-op-made alternative for the same thing — turning the 22k-product co-op directory into a checkout-time nudge.",
+      "tags": [
+        "business",
+        "marketplace",
+        "automation",
+        "side-hustle"
+      ],
+      "score": 61,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "back-office",
+      "title": "Back Office",
+      "hook": "Drop your Etsy, eBay, or Discogs sales export into a browser tab and get instant pivot-table analytics — the data never leaves your laptop because the whole OLAP engine runs in WebAssembly.",
+      "tags": [
+        "business",
+        "saas",
+        "data-viz",
+        "privacy"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "wet-bulb",
+      "title": "Wet Bulb",
+      "hook": "A scheduling tool for outdoor crews that turns hyperlocal wet-bulb temperature and heat-mortality curves into a shift-by-shift 'safe to work' calendar — and the paper trail to prove you followed it.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "logistics"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "sunset-clause",
+      "title": "Sunset Clause",
+      "hook": "A watchdog that tracks every movie, game, and album you 'own' digitally and warns you the moment a publisher schedules it for deletion — so you can grab it before Sony does another vanishing act.",
+      "tags": [
+        "business",
+        "saas",
+        "privacy",
+        "automation"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "coin-slot",
       "title": "Coin Slot",
       "hook": "A honeypot endpoint that answers persistent bots with HTTP 402 Payment Required and, via x402 micropayments, quietly bills the scrapers that keep hammering you — with a leaderboard of who paid.",

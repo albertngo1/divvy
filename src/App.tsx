@@ -12,6 +12,7 @@ import ColorKey from "./components/ColorKey";
 import Tooltip from "./components/Tooltip";
 import FilterBar from "./components/FilterBar";
 import IdeaPanel from "./components/IdeaPanel";
+import About from "./components/About";
 
 // shallow-equal two vote-count maps, so an unchanged poll doesn't churn the cloud
 function sameCounts(a: Record<string, number>, b: Record<string, number>) {
@@ -29,6 +30,7 @@ export default function App() {
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
   const [hovered, setHovered] = useState<Idea | null>(null);
   const [hoverY, setHoverY] = useState(0);
+  const [aboutOpen, setAboutOpen] = useState(false);
   const [votes, setVotes] = useState<Record<string, number>>({}); // net count per idea (can be negative)
   const [voted, setVoted] = useState<Record<string, number>>({}); // this browser's own votes: slug -> 1 | -1
   const [views, setViews] = useState<Record<string, number>>({}); // shared total view counts
@@ -224,7 +226,8 @@ export default function App() {
         <p>generating idea cloud…</p>
       </div>
 
-      <TopBar count={ideas.length} lastScan={lastScan} />
+      <TopBar count={ideas.length} lastScan={lastScan} onAbout={() => setAboutOpen(true)} />
+      <About open={aboutOpen} onClose={() => setAboutOpen(false)} />
       <Controls search={search} onSearch={setSearch} onRandom={openRandom} />
 
       <main id="stage">
