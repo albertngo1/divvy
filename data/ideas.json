@@ -2,6 +2,240 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "last-maker",
+      "title": "Last Maker",
+      "hook": "A cozy 'one more turn' management game where you're the final living practitioner of a genuinely endangered craft — pulled from real Red List data — racing your own old age to train an apprentice before the skill dies with you.",
+      "tags": [
+        "management-sim",
+        "heritage",
+        "real-data"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "daemon-farm",
+      "title": "Daemon Farm",
+      "hook": "Stardew Valley reskinned over your real machine: long-running processes grow like crops, zombie PIDs sprout as weeds, and rebooting is the harvest you've been guiltily avoiding all week.",
+      "tags": [
+        "homelab",
+        "farm-sim",
+        "processes"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "silent-sonar",
+      "title": "Silent Sonar",
+      "hook": "Turn any laptop into a hand-tracking radar using nothing but its speaker and mic, emitting an inaudible chirp and reading the echo — a $30k mmWave rig reincarnated as a browser tab.",
+      "tags": [
+        "webaudio",
+        "sonar",
+        "no-camera"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "token-duel",
+      "title": "Token Duel",
+      "hook": "Read a real passage word by word and race a language model at guessing what comes next — then find out whether you or the machine is more predictable.",
+      "tags": [
+        "llm",
+        "wordgame",
+        "perplexity"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "endling",
+      "title": "Endling",
+      "hook": "Each round names a city and a dying trade — 'the only public bathhouse left' — and you race to pin the single survivor before the timer or your friends do.",
+      "tags": [
+        "geoguess",
+        "osm",
+        "party"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "churn-league",
+      "title": "Churn League",
+      "hook": "Draft a roster of Steam games and score every week on their real concurrent-player swings — fantasy sports for the internet's attention span.",
+      "tags": [
+        "fantasy",
+        "steam",
+        "leaderboard"
+      ],
+      "score": 73,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "invisible-ink",
+      "title": "Invisible Ink",
+      "hook": "Paste any AI-generated text and it x-rays the hidden watermarks — zero-width characters, statistical fingerprints, telltale unicode — then lets you strip them or forge your own.",
+      "tags": [
+        "ai-forensics",
+        "privacy",
+        "unicode"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "drop-rate",
+      "title": "Drop Rate",
+      "hook": "Every purchase gets an ARPG loot-rarity roll — that $9 phone cable is a Legendary drop, the $200 gadget you used twice is gray vendor trash.",
+      "tags": [
+        "finance",
+        "loot",
+        "receipts"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "beam-dump",
+      "title": "Beam Dump",
+      "hook": "Shut down your homelab with the gravitas of CERN powering off the LHC — an orchestrated decommissioning ritual with a physicist's logbook.",
+      "tags": [
+        "ops",
+        "homelab",
+        "ritual"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "belt-budget",
+      "title": "Belt Budget",
+      "hook": "Model your paycheck as a Satisfactory factory — income is ore on a conveyor, bills are machines that consume it, savings is the finished product, and you tune belt ratios until the bottleneck stops flashing red.",
+      "tags": [
+        "finance",
+        "gamedev",
+        "webapp"
+      ],
+      "score": 68,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "query-city",
+      "title": "Query City",
+      "hook": "Point it at your ad-blocker's DNS log and it grows an isometric city all year — busiest domains become the tallest towers, trackers pile up into a visibly smog-belching industrial district.",
+      "tags": [
+        "homelab",
+        "generative",
+        "dns"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "tab-warband",
+      "title": "Tab Warband",
+      "hook": "Your 87 open tabs are recruits in a Mount & Blade warband — the ones you actually use rise to elite, the ones you neglect lose morale and desert.",
+      "tags": [
+        "browser",
+        "gamedev",
+        "productivity"
+      ],
+      "score": 73,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cold-plan",
+      "title": "Cold Plan",
+      "hook": "A daily duel where you're shown two SQL queries and must call which one the planner runs faster — before you're allowed to see a single EXPLAIN.",
+      "tags": [
+        "sql",
+        "daily",
+        "guessing"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "windup-grand-prix",
+      "title": "Windup Grand Prix",
+      "hook": "You get a fixed spring budget, wind up a pull-back car, and let go — then chase the ghost of everyone who spent their coil differently on the same track.",
+      "tags": [
+        "physics",
+        "racer",
+        "ghost-race"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "adblock-arena",
+      "title": "Adblock Arena",
+      "hook": "A speedrun where you race to nuke a page's ads and dark-patterns by writing filter rules faster and cleaner than anyone else on the leaderboard.",
+      "tags": [
+        "speedrun",
+        "web",
+        "puzzle"
+      ],
+      "score": 75,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "heap-crawler",
+      "title": "Heap Crawler",
+      "hook": "Explore your live Postgres database as a Terraria-style minable cave where every 8KB page is a chunk, tuples are colored ore, and dead rows are the rubble of bloat waiting to be dug out.",
+      "tags": [
+        "postgres",
+        "dataviz",
+        "game"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "knock",
+      "title": "Knock",
+      "hook": "Tap any surface and your phone's mic tells you what's behind it — wood, metal, hollow drywall, or a stud — turning a research-grade material radar into a party trick that doubles as a stud finder.",
+      "tags": [
+        "audio",
+        "ml",
+        "hardware-free"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "ghost-server",
+      "title": "Ghost Server",
+      "hook": "A defibrillator for dying multiplayer games — find the ones down to their last hundred players and rally the survivors to log in at the same minute.",
+      "tags": [
+        "steam",
+        "multiplayer",
+        "community"
+      ],
+      "score": 75,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "state-fragrance-map",
       "title": "State Fragrance Map",
       "hook": "A US choropleth where every state reveals its most-searched scent and unfolds into a hoverable note pyramid.",
