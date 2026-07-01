@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "bylaws",
+      "title": "Bylaws",
+      "hook": "A robot small-claims judge for housemates: write your house rules in a friendly Rego-lite DSL, log the facts of a dispute, and the policy engine hands down a ruling with its full reasoning trace.",
+      "tags": [
+        "chores",
+        "policy-engine",
+        "roommates"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "preprint-league",
+      "title": "Preprint League",
+      "hook": "A fantasy-sports league for arXiv papers: draft this month's preprints onto your roster, then rack up points as they earn citations, HN front-page hits, and Altmetric buzz over the season.",
+      "tags": [
+        "arxiv",
+        "fantasy-league",
+        "science"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "beamline",
+      "title": "Beamline",
+      "hook": "A browser puzzle where you place bending and focusing magnets to steer two counter-rotating particle beams around a storage ring and smash them dead-center at a detector — mistune it and you dump the beam into the wall.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "canvas"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "servitor",
+      "title": "Servitor",
+      "hook": "A grimdark homelab dashboard where every Docker container is a captured, lobotomized labor-drone you enslave to a machine-task — neglect one and its machine-spirit goes rogue.",
+      "tags": [
+        "homelab",
+        "docker",
+        "grimdark"
+      ],
+      "score": 73,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "terrarium",
       "title": "Terrarium",
       "hook": "A cozy live wallpaper that renders your actually-running containers as a tiny ecosystem — pods are critters, CPU is weather, a crash is a fainting bug in the moss.",
