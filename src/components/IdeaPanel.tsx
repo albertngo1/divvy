@@ -14,9 +14,12 @@ interface Props {
   onClose: () => void;
   onToggleTag: (tag: string) => void;
   activeTags: Set<string>;
+  voteCount: number;
+  hasVoted: boolean;
+  onUpvote: (slug: string) => void;
 }
 
-export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags }: Props) {
+export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, voteCount, hasVoted, onUpvote }: Props) {
   const [shown, setShown] = useState<Idea | null>(null); // keeps content during slide-out
   const [html, setHtml] = useState("");
   const [loading, setLoading] = useState(false);
@@ -64,6 +67,15 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags }: Pr
             </div>
             <h2 id="panel-title">{shown.title}</h2>
             <p id="panel-hook" className="hook">{shown.hook}</p>
+            <button
+              className={"upvote" + (hasVoted ? " voted" : "")}
+              onClick={() => onUpvote(shown.slug)}
+              aria-pressed={hasVoted}
+            >
+              <span className="upvote-arrow">▲</span>
+              <span className="upvote-count">{voteCount}</span>
+              <span className="upvote-label">{hasVoted ? "upvoted" : "upvote"}</span>
+            </button>
           </div>
           <article id="panel-prd" className="prd" style={{ opacity: loading ? 0 : 1 }} dangerouslySetInnerHTML={{ __html: html }} />
         </>

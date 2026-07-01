@@ -4,7 +4,7 @@ import type { Idea, Node } from "./types";
 export type DimPredicate = (d: Idea) => boolean;
 
 export interface CloudHandlers {
-  onHover: (d: Idea | null) => void;
+  onHover: (d: Idea | null, clientY?: number) => void;
   onSelect: (d: Idea) => void;
   onReady?: () => void;
 }
@@ -112,7 +112,7 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     .join("g")
     .attr("class", "bubble")
     .on("click", (_e, d) => handlers.onSelect(d))
-    .on("mouseenter", (_e, d) => handlers.onHover(d))
+    .on("mouseenter", (e: MouseEvent, d) => handlers.onHover(d, e.clientY))
     .on("mouseleave", () => handlers.onHover(null));
 
   g.append("circle").attr("class", "halo").attr("r", (d) => d.r * 1.5)

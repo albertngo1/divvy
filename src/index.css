@@ -210,6 +210,25 @@ body::after {
   transition: opacity 0.16s ease, transform 0.16s ease;
 }
 .tooltip.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+/* flip to the bottom when the hovered bubble sits up in the tooltip's zone */
+.tooltip.at-bottom { top: auto; bottom: 22px; }
+.tooltip .tt-votes { color: var(--tt-accent, #fff); border-color: var(--tt-accent, var(--line-strong)); font-weight: 700; }
+
+/* upvote button (PRD panel) */
+.upvote {
+  margin-top: 18px;
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 9px 16px;
+  background: var(--accent-soft); border: 1px solid var(--accent);
+  color: var(--accent); border-radius: 999px;
+  font-family: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.12s ease;
+}
+.upvote:hover { transform: translateY(-1px); }
+.upvote.voted, .upvote:active { background: var(--accent); color: #0c0d12; }
+.upvote .upvote-arrow { font-size: 12px; }
+.upvote .upvote-count { font-variant-numeric: tabular-nums; }
+.upvote .upvote-label { font-size: 11px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.85; }
 .tooltip .tt-title {
   font-family: "Fraunces", serif; font-weight: 900; font-size: 18px;
   line-height: 1.12; letter-spacing: -0.01em; margin-bottom: 7px;
@@ -499,9 +518,10 @@ body::after {
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 32px;
-  line-height: 1.08;
+  line-height: 1.2;         /* was 1.08 — clipped descenders (g, y, p) under background-clip:text */
   letter-spacing: -0.02em;
   margin: 0 0 12px;
+  padding-bottom: 0.12em;   /* extra room so the gradient-clipped glyphs' tails aren't cut */
   background: linear-gradient(120deg, #fff 30%, var(--accent) 130%);
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }

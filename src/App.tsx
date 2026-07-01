@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Idea, IdeasFile } from "./types";
 import Cloud from "./components/Cloud";
 import TopBar from "./components/TopBar";
@@ -17,6 +17,13 @@ export default function App() {
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
   const [selected, setSelected] = useState<Idea | null>(null);
   const [hovered, setHovered] = useState<Idea | null>(null);
+  const [hoverY, setHoverY] = useState(0);
+  const [votes, setVotes] = useState<Record<string, number>>({});
+  const [voted, setVoted] = useState<Set<string>>(() => {
+    try { return new Set<string>(JSON.parse(localStorage.getItem("divvy_voted") || "[]")); } catch { return new Set(); }
+  });
+  const votedRef = useRef(voted);
+  votedRef.current = voted;
 
   useEffect(() => {
     fetch("./data/ideas.json", { cache: "no-store" })
@@ -29,6 +36,25 @@ export default function App() {
   }, []);
 
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
+
+  // load current vote counts (empty {} if the backend isn't wired yet — degrades fine)
+  useEffect(() => {
+    fetch("./api/votes", { cache: "no-store" }).then((r) => (r.ok ? r.json() : {})).then(setVotes).catch(() => {});
+  }, []);
+
+  const upvote = useCallback((slug: string) => {
+    const has = votedRef.current.has(slug);
+    const delta = has ? -1 : 1;
+    const next = new Set(votedRef.current);
+    has ? next.delete(slug) : next.add(slug);
+    setVoted(next);
+    try { localStorage.setItem("divvy_voted", JSON.stringify([...next])); } catch { /* ignore */ }
+    setVotes((v) => ({ ...v, [slug]: Math.max(0, (v[slug] || 0) + delta) })); // optimistic
+    fetch("./api/vote", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slug, delta }) })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((res) => { if (res && typeof res.count === "number") setVotes((v) => ({ ...v, [slug]: res.count })); })
+      .catch(() => { /* keep optimistic value */ });
+  }, []);
 
   // filter predicate: a bubble is dimmed if it fails the active tags OR the search
   const dim = useCallback((d: Idea) => {
@@ -53,7 +79,7 @@ export default function App() {
   }, []);
   const clearFilters = useCallback(() => { setActiveTags(new Set()); setSearch(""); }, []);
 
-  const onHover = useCallback((d: Idea | null) => setHovered(d), []);
+  const onHover = useCallback((d: Idea | null, y?: number) => { setHovered(d); if (d && typeof y === "number") setHoverY(y); }, []);
   const onSelect = useCallback((d: Idea) => setSelected((cur) => (cur && cur.slug === d.slug ? null : d)), []);
   const onReady = useCallback(() => setReady(true), []);
 
@@ -85,13 +111,18 @@ export default function App() {
 
       <main id="stage">
         <Cloud ideas={ideas} dim={dim} onHover={onHover} onSelect={onSelect} onReady={onReady} />
-        <Tooltip idea={hovered} />
+        <Tooltip idea={hovered} votes={hovered ? votes[hovered.slug] || 0 : 0} atBottom={!!hovered && hoverY < 240} />
         <FilterBar search={search} activeTags={activeTags} visible={visibleCount} onClear={clearFilters} />
         <ColorKey />
       </main>
 
       <TagFilter ideas={ideas} activeTags={activeTags} onToggle={toggleTag} onClear={clearFilters} />
-      <IdeaPanel idea={selected} onClose={() => setSelected(null)} onToggleTag={toggleTag} activeTags={activeTags} />
+      <IdeaPanel
+        idea={selected} onClose={() => setSelected(null)} onToggleTag={toggleTag} activeTags={activeTags}
+        voteCount={selected ? votes[selected.slug] || 0 : 0}
+        hasVoted={selected ? voted.has(selected.slug) : false}
+        onUpvote={upvote}
+      />
     </>
   );
 }

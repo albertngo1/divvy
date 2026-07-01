@@ -1,5 +1,12 @@
 name = "divvy"
 compatibility_date = "2026-07-01"
 # Cloudflare Pages project: build command "npm run build", output dir "dist".
-# Pages serves the output directory automatically — NO deploy command needed.
 pages_build_output_dir = "dist"
+
+# Upvotes backend: D1 (serverless SQLite) bound to the Pages Functions as env.DB.
+# Create it with `npx wrangler d1 create divvy`, paste the printed database_id below,
+# then seed it: `npx wrangler d1 execute divvy --remote --file=db/schema.sql`.
+[[d1_databases]]
+binding = "DB"
+database_name = "divvy"
+database_id = "PASTE_DATABASE_ID_FROM_wrangler_d1_create"
