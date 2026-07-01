@@ -2,6 +2,45 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "overdue",
+      "title": "Overdue",
+      "hook": "Personal finance as Dead by Daylight — your fixed monthly bills are the Killer stalking you across the map, and every payday you sprint between generators (rent, card, subscriptions) frantically repairing them before the 1st of the month, when the Killer hooks whatever you didn't finish.",
+      "tags": [
+        "finance",
+        "survival-horror",
+        "browser-game"
+      ],
+      "score": 64,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "strata",
+      "title": "Strata",
+      "hook": "A geologic core sample of your own machine — every day it silently deposits one 2px sediment layer colored by that day's dominant app, CPU heat, and idle time, so a year later you can read your life as rock strata and mine it for the week everything went sideways.",
+      "tags": [
+        "ambient",
+        "year-long",
+        "generative-art"
+      ],
+      "score": 75,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "freight",
+      "title": "Freight",
+      "hook": "Your homelab backups become Euro Truck Simulator long-hauls — every rsync job is a cargo truck grinding down a real-time highway, thermal throttling shows up as driver fatigue, and a failed transfer is a jackknifed rig on the shoulder.",
+      "tags": [
+        "homelab",
+        "trucking-sim",
+        "ambient-dashboard"
+      ],
+      "score": 69,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "echo-field",
       "title": "Echo Field",
       "hook": "A survival game where you can't tell what anything is made of by looking — you carry a handheld mmWave radar and must read each object's echo signature to know if that berry, that beam, or that pool is food, fuel, or poison.",
