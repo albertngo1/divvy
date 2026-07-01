@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "sublevel",
+      "title": "Sublevel",
+      "hook": "An underground garden that only grows while you're away from the keyboard — touch a key and the sunlight burns your mushrooms.",
+      "tags": [
+        "idle",
+        "focus",
+        "macos"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "retinue",
+      "title": "Retinue",
+      "hook": "Every self-hosted service on your homelab is a Rogue Trader crew member with a personality and a loyalty meter — let one crash and the whole bridge threatens mutiny.",
+      "tags": [
+        "homelab",
+        "crpg",
+        "self-hosted"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "gridlock",
+      "title": "Gridlock",
+      "hook": "Your week is a city and your calendar is its traffic — book back-to-backs and watch agent-based congestion grind your day to a standstill.",
+      "tags": [
+        "calendar",
+        "traffic-sim",
+        "time"
+      ],
+      "score": 70,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "sandman",
+      "title": "Sandman",
+      "hook": "Sleep badly and last night's Garmin data spawns a dungeon you cannot survive; sleep well and it hands you a floor full of loot.",
+      "tags": [
+        "roguelike",
+        "sleep",
+        "wearable"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "lobby-boss",
       "title": "Lobby Boss",
       "hook": "You don't play the match — you ARE the matchmaker, secretly stitching lobbies to keep whales happy, feed newbies winnable games, and quietly bury the sweatlords before everyone rage-quits.",
