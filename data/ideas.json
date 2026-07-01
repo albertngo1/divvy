@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "last-round",
+      "title": "Last Round",
+      "hook": "A GeoGuessr-meets-Pokémon-Go field game where you race other players to find, photograph, and 'claim' the last practitioners of dying local trades before they close for good.",
+      "tags": [
+        "field-game",
+        "heritage",
+        "leaderboard"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "signal-s-ance",
+      "title": "Signal Séance",
+      "hook": "A Phasmophobia-style co-op ghost hunt where the ghosts are the real Bluetooth and Wi-Fi devices haunting the room around you, and your 'EMF reader' is honest RF signal strength — so the party game is secretly a wardriving survey tool.",
+      "tags": [
+        "rf-scan",
+        "co-op",
+        "location"
+      ],
+      "score": 72,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "brow-morse",
+      "title": "Brow Morse",
+      "hook": "A webcam typing race where your only keys are your eyebrows — raise for dot, hold for dash — that's secretly a hands-free accessibility input method wearing a party-game costume.",
+      "tags": [
+        "webcam",
+        "accessibility",
+        "morse"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cost-golf",
+      "title": "Cost Golf",
+      "hook": "A daily puzzle where you hand-tune indexes and rewrites to beat par on a real Postgres query plan, and the leaderboard is measured in milliseconds of EXPLAIN ANALYZE.",
+      "tags": [
+        "postgres",
+        "puzzle",
+        "daily"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "compost",
       "title": "Compost",
       "hook": "Drop one image into a bin and walk away — an image model quietly re-eats its own output once a day for a year, slowly rotting your picture into abstract humus you can plant a new seed in.",
