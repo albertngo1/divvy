@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import type { Idea, IdeasFile } from "./types";
 import { canonTags } from "./tags";
 import { connectPresence, type PresenceHandle } from "./presence";
@@ -26,7 +27,6 @@ export default function App() {
   const [ready, setReady] = useState(false);
   const [search, setSearch] = useState("");
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
-  const [selected, setSelected] = useState<Idea | null>(null);
   const [hovered, setHovered] = useState<Idea | null>(null);
   const [hoverY, setHoverY] = useState(0);
   const [votes, setVotes] = useState<Record<string, number>>({}); // net count per idea (can be negative)
@@ -39,9 +39,26 @@ export default function App() {
   votedRef.current = voted;
   const votesRef = useRef(votes);
   votesRef.current = votes;
-  const initialSlug = useRef(new URLSearchParams(window.location.search).get("idea")); // deep-link target
   const cloudRef = useRef<CloudApi>(null);        // push peer cursors in imperatively
   const presenceRef = useRef<PresenceHandle | null>(null);
+
+  // the open idea lives in the URL (?idea=<slug>) via React Router, so back/forward and
+  // shared links Just Work. `selected` is derived from it; openIdea pushes a history entry.
+  const [searchParams, setSearchParams] = useSearchParams();
+  const selectedSlug = searchParams.get("idea");
+  const selected = useMemo(
+    () => (selectedSlug ? ideas.find((i) => i.slug === selectedSlug) || null : null),
+    [ideas, selectedSlug],
+  );
+  const selectedSlugRef = useRef(selectedSlug);
+  selectedSlugRef.current = selectedSlug;
+  const openIdea = useCallback((idea: Idea | null) => {
+    setSearchParams((prev) => {
+      const p = new URLSearchParams(prev);
+      if (idea) p.set("idea", idea.slug); else p.delete("idea");
+      return p;
+    });
+  }, [setSearchParams]);
 
   // realtime presence: live peer cursors + instant vote broadcasts (degrades silently
   // if the realtime Worker isn't deployed yet)
@@ -59,24 +76,12 @@ export default function App() {
     fetch("./data/ideas.json", { cache: "no-store" })
       .then((r) => r.json())
       .then((data: IdeasFile) => {
-        const list = Array.isArray(data.ideas) ? data.ideas : [];
-        setIdeas(list);
+        setIdeas(Array.isArray(data.ideas) ? data.ideas : []);
         setLastScan(data.lastScan || "—");
-        if (initialSlug.current) {
-          const found = list.find((i) => i.slug === initialSlug.current);
-          if (found) setSelected(found); // open the panel from ?idea=<slug>
-        }
+        // a ?idea=<slug> deep link opens automatically — `selected` is derived from the URL
       })
       .catch(() => setReady(true));
   }, []);
-
-  // keep the URL in sync with the open idea, so it's shareable / bookmarkable
-  useEffect(() => {
-    const url = new URL(window.location.href);
-    if (selected) url.searchParams.set("idea", selected.slug);
-    else url.searchParams.delete("idea");
-    window.history.replaceState(null, "", url);
-  }, [selected]);
 
   // opening an idea = a view: bump the shared count, and mark it seen for this browser
   useEffect(() => {
@@ -193,24 +198,24 @@ export default function App() {
   const clearFilters = useCallback(() => { setActiveTags(new Set()); setSearch(""); }, []);
 
   const onHover = useCallback((d: Idea | null, y?: number) => { setHovered(d); if (d && typeof y === "number") setHoverY(y); }, []);
-  const onSelect = useCallback((d: Idea) => setSelected((cur) => (cur && cur.slug === d.slug ? null : d)), []);
+  const onSelect = useCallback((d: Idea) => openIdea(selectedSlugRef.current === d.slug ? null : d), [openIdea]);
   const onReady = useCallback(() => setReady(true), []);
 
   const openRandom = useCallback(() => {
     const pool = ideas.filter((d) => !dim(d));
     const arr = pool.length ? pool : ideas;
-    if (arr.length) setSelected(arr[Math.floor(Math.random() * arr.length)]);
-  }, [ideas, dim]);
+    if (arr.length) openIdea(arr[Math.floor(Math.random() * arr.length)]);
+  }, [ideas, dim, openIdea]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "Escape") return;
-      if (selected) setSelected(null);
+      if (selected) openIdea(null);
       else clearFilters();
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [selected, clearFilters]);
+  }, [selected, clearFilters, openIdea]);
 
   return (
     <>
@@ -231,12 +236,12 @@ export default function App() {
         <Tooltip idea={hovered} votes={hovered ? votes[hovered.slug] || 0 : 0} atBottom={!!hovered && hoverY < 240} />
         <FilterBar search={search} activeTags={activeTags} visible={visibleCount} onClear={clearFilters} />
         <ColorKey />
-        <Scoreboard ideas={ideas} votes={votes} views={views} onOpen={setSelected} />
+        <Scoreboard ideas={ideas} votes={votes} views={views} onOpen={openIdea} />
       </main>
 
       <TagFilter ideas={ideas} activeTags={activeTags} onToggle={toggleTag} onClear={clearFilters} />
       <IdeaPanel
-        idea={selected} onClose={() => setSelected(null)} onToggleTag={toggleTag} activeTags={activeTags}
+        idea={selected} onClose={() => openIdea(null)} onToggleTag={toggleTag} activeTags={activeTags}
         voteCount={selected ? votes[selected.slug] || 0 : 0}
         viewCount={selected ? views[selected.slug] || 0 : 0}
         myVote={selected ? voted[selected.slug] || 0 : 0}

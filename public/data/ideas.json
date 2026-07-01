@@ -2,6 +2,88 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "coin-slot",
+      "title": "Coin Slot",
+      "hook": "A honeypot endpoint that answers persistent bots with HTTP 402 Payment Required and, via x402 micropayments, quietly bills the scrapers that keep hammering you — with a leaderboard of who paid.",
+      "tags": [
+        "security",
+        "automation",
+        "self-hosted"
+      ],
+      "score": 58,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "fair-share",
+      "title": "Fair Share",
+      "hook": "Run your household like an HPC cluster: `sbatch --job=dishes`, fair-share scheduling across roommates, priority, backfill, and a `squeue` of who owes chore-time.",
+      "tags": [
+        "chores",
+        "cli",
+        "self-hosted"
+      ],
+      "score": 61,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "woodcut",
+      "title": "Woodcut",
+      "hook": "A wallpaper that paints one 1-bit dithered column per day — your local weather and activity encoded in black-and-white — so by December 31 you have a printable full-year woodblock poster.",
+      "tags": [
+        "ambient",
+        "generative",
+        "wallpaper",
+        "art"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "blowby",
+      "title": "Blowby",
+      "hook": "A 3D physics puzzle where you assemble a running internal-combustion engine from loose parts — sloppy tolerances make it knock, seize, or blow a gasket in real time.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "sim",
+        "3d-viz"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "blocked",
+      "title": "Blocked",
+      "hook": "A roguelike deckbuilder generated from your actual calendar — every meeting is a monster with your coworkers' names, every free block is a heal, and Friday is the boss.",
+      "tags": [
+        "deckbuilder",
+        "roguelike",
+        "calendar",
+        "productivity"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "culture",
+      "title": "Culture",
+      "hook": "An idle cell-growth sim seeded by the day's synthetic-biology headline: your real steps feed the medium, and your colony only divides on days you actually move.",
+      "tags": [
+        "idle",
+        "quantified-self",
+        "biology",
+        "health"
+      ],
+      "score": 77,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "misfire",
       "title": "Misfire",
       "hook": "A daily audio whodunit: listen to a procedurally-sick engine idle and diagnose which cylinder is misfiring before it stalls.",
