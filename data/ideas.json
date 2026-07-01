@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "cruft",
+      "title": "Cruft",
+      "hook": "A roguelike where you're the daemon-god of one server that must stay up — but every extra day of uptime spawns nastier memory-leak slimes, so your high score and your only escape hatch are the exact same button: reboot.",
+      "tags": [
+        "roguelike",
+        "sysadmin",
+        "risk-reward"
+      ],
+      "score": 70,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "greater-fool",
+      "title": "Greater Fool",
+      "hook": "An Among Us-shaped party game where everyone trades a worthless fictional asset up a hidden curve — and the secret Insider, who knows the exact crash round, has to talk you into holding while they dump on your head.",
+      "tags": [
+        "social-deduction",
+        "economics",
+        "multiplayer"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "feast-day",
+      "title": "Feast Day",
+      "hook": "Every morning it hands you one real holiday happening somewhere on Earth today and a 30-second ritual to observe it; a year later you're holding a passport stamped with 300 celebrations you'd never have heard of.",
+      "tags": [
+        "ambient",
+        "calendar",
+        "world"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "move-out",
+      "title": "Move Out",
+      "hook": "A warehouse puzzle where you route loans of a crate to workers without ever crossing a mutable path with anything else — you're feeling the Rust borrow checker in your hands instead of reading its error messages.",
+      "tags": [
+        "puzzle",
+        "rust",
+        "teaching"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "leftover-cartel",
       "title": "Leftover Cartel",
       "hook": "Fridge management skinned as a clandestine supper-club empire — move your product before the heat (mold) busts you.",
