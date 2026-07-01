@@ -99,7 +99,7 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   });
 
   const sim = d3.forceSimulation<Node>(nodes)
-    .force("collide", d3.forceCollide<Node>().radius((d) => d.r + 4).strength(1).iterations(4))
+    .force("collide", d3.forceCollide<Node>().radius((d) => d.r + 9).strength(1).iterations(4))
     .force("x", d3.forceX<Node>(width / 2).strength(0.02))
     .force("y", d3.forceY<Node>(height / 2).strength(0.02))
     .alphaDecay(0.02);

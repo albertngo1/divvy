@@ -6,7 +6,7 @@ GitHub repos, and popular Steam games — cross-pollinates them into fresh weeke
 and video-game ideas, writes a PRD for each, and pushes them into the cloud so it grows
 between visits.
 
-Live: **https://albertngo1.github.io/divvy/**
+Live (Cloudflare Pages): **https://divvy-9ol.pages.dev/**
 
 ## Stack
 - **React + TypeScript + Vite** front-end (`src/`). The bubble cloud is a d3 force
@@ -32,13 +32,12 @@ PRDs, dedupes against existing titles, and writes `public/data/ideas.json` +
 - Wired to the `com.divvy-scanner` LaunchAgent (every 3h, `DIVVY_N=3`).
 - `scanner/overnight-burst.sh` is a one-off detached loop to grow to a target count.
 
-## Deploy
-- **GitHub Pages** via `.github/workflows/deploy.yml` — every push to `main` (including the
-  scanner's) builds with `npm run build` and deploys `dist/`. Pages source = GitHub Actions.
-- **Cloudflare Pages** (alt): connect the repo, build command `npm run build`, output `dist`.
-  `wrangler.toml` + `public/_headers` (cache-control) are already set up. Gives `divvy.pages.dev`
-  and is the path to a future backend (Pages Functions / D1 / Durable Objects) for the
-  planned multiplayer-voting v2.
+## Deploy — Cloudflare Pages
+Connected to this repo: build command **`npm run build`**, output directory **`dist`**.
+Every push to `main` (including the scanner's idea commits) auto-builds and deploys.
+`wrangler.toml` + `public/_headers` (cache-control, so no hard-refresh needed) are set up.
+This is also the on-ramp to a future backend — Pages Functions / D1 / Durable Objects — for
+the planned multiplayer-voting v2.
 
 ## Out of v1 (deliberately)
 Voting, friends, per-person work assignment — that's "Social Divvy" v2 (multiplayer voting
