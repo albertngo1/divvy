@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "decay-desk",
+      "title": "Decay Desk",
+      "hook": "Your desktop becomes a radioactive-decay diagram where every file and bookmark you stop touching visibly loses mass and glow on its own half-life, turning digital neglect into an ambient memento mori.",
+      "tags": [
+        "ambient",
+        "desktop",
+        "memento-mori"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "long-player",
+      "title": "Long Player",
+      "hook": "An ambient generative album that writes 30 seconds of music from your day's data every night, so by New Year's you own a three-hour record that is literally the sound of your year.",
+      "tags": [
+        "ambient",
+        "generative-music",
+        "year-long"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "falsify",
+      "title": "Falsify",
+      "hook": "A daily deduction puzzle where you're handed two rival scientific hypotheses and a stingy budget, and must design the single cheapest experiment that would prove one of them wrong.",
+      "tags": [
+        "puzzle",
+        "science",
+        "deduction"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "backlog-draft",
+      "title": "Backlog Draft",
+      "hook": "A fantasy-sports league where you and your friends draft each other's unplayed Steam backlogs, and you only score when someone finally beats a game they've owned for three years.",
+      "tags": [
+        "steam",
+        "fantasy-league",
+        "backlog"
+      ],
+      "score": 75,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "cordon",
       "title": "Cordon",
       "hook": "A falling-block puzzle where pods rain from the sky and you bin-pack them onto nodes respecting CPU, memory and affinity — Tetris for people who've been paged at 3am.",
