@@ -260,7 +260,7 @@ document.getElementById("tf-clear").addEventListener("click", clearFilters);
     if (e.target.closest("#tf-clear")) return;
     panelEl.classList.toggle("collapsed");
   });
-  if (window.matchMedia && window.matchMedia("(max-width: 640px)").matches) panelEl.classList.add("collapsed");
+  panelEl.classList.add("collapsed"); // start closed — click "Filter by tag" to open
 })();
 
 function render(ideas) {
@@ -345,8 +345,11 @@ function render(ideas) {
   function floatFrame(ts) {
     const t = ts / 1000;
     g.attr("transform", (d) => {
-      const fx = Math.sin(t * 0.5 + d._ph) * 3.5;
-      const fy = Math.cos(t * 0.42 + d._ph * 1.3) * 3.5;
+      // per-bubble amplitude/frequency so the cloud drifts organically, not in lockstep
+      const sx = 0.45 + (d._ph % 0.7);
+      const sy = 0.4 + ((d._ph * 1.3) % 0.7);
+      const fx = Math.sin(t * sx + d._ph) * 8;
+      const fy = Math.cos(t * sy + d._ph * 1.3) * 7;
       return `translate(${d.x + fx},${d.y + fy})`;
     });
     requestAnimationFrame(floatFrame);

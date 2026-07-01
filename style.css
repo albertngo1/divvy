@@ -132,8 +132,14 @@ body::after {
 /* ---- stage / cloud ---- */
 #stage { position: fixed; inset: 0; z-index: 1; }
 #cloud { width: 100%; height: 100%; display: block; cursor: grab; position: relative; z-index: 1; user-select: none; -webkit-user-select: none; touch-action: none; }
-.tf-chevron { display: none; }
 .tf-right { display: inline-flex; align-items: center; gap: 8px; }
+/* tag filter is a click-to-open dropdown on all screens */
+.tf-head { cursor: pointer; }
+.tf-chevron { display: inline-block; transition: transform 0.2s ease; color: var(--ink-faint); font-size: 11px; }
+.tagfilter.collapsed { max-height: none; }
+.tagfilter.collapsed .tf-head { margin-bottom: 0; }
+.tagfilter.collapsed .tf-list { display: none; }
+.tagfilter.collapsed .tf-chevron { transform: rotate(-90deg); }
 #cloud:active { cursor: grabbing; }
 
 #empty {
