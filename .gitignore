@@ -1,4 +1,5 @@
 scanner/scan.log
 scanner/launchd.log
+scanner/overnight-burst.log
 .DS_Store
 node_modules/
