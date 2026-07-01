@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "pack-rat",
+      "title": "Pack Rat",
+      "hook": "A puzzle game that makes you the compressor UPX automates away — squeeze a wall of bytes smaller by hand, hunting repeats and building your own dictionary, and get scored against gzip.",
+      "tags": [
+        "puzzle",
+        "compression",
+        "educational"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "the-tell",
+      "title": "The Tell",
+      "hook": "A social-deduction party game where one 'player' in the chat is secretly an LLM — and it's been given a hidden steganographic tell that sharp humans can learn to spot before the vote.",
+      "tags": [
+        "social-deduction",
+        "llm",
+        "party"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "slow-roast",
+      "title": "Slow Roast",
+      "hook": "An anti-idle game where you're the last barley-tea roaster in the city and every 'efficiency' you unlock quietly ruins the flavor — the only way to win is to refuse to optimize.",
+      "tags": [
+        "anti-idle",
+        "craft",
+        "narrative"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "view-source",
+      "title": "View Source",
+      "hook": "A whodunit that ships as a single innocent-looking webpage — every clue lives in the DOM, the network tab, and the CSS you have to un-hide, so the only way to win is to actually live inside Chrome DevTools.",
+      "tags": [
+        "devtools",
+        "puzzle",
+        "arg"
+      ],
+      "score": 78,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "bylaws",
       "title": "Bylaws",
       "hook": "A robot small-claims judge for housemates: write your house rules in a friendly Rego-lite DSL, log the facts of a dispute, and the policy engine hands down a ruling with its full reasoning trace.",
