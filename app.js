@@ -308,19 +308,15 @@ function render(ideas) {
   // settle, so the rest of the constellation stays put (no re-pack into a rectangle).
   const drag = d3.drag()
     .clickDistance(12) // a small hand-wobble still counts as a click, not a drag
-    .on("start", (event) => { if (event.sourceEvent) event.sourceEvent.stopPropagation(); })
-    .on("drag", (event, d) => { d.x = d.fx = event.x; d.y = d.fy = event.y; })
-    .on("end", (event, d) => { d.fx = null; d.fy = null; });
+    .on("start", (event, d) => { if (event.sourceEvent) event.sourceEvent.stopPropagation(); d.fx = d.x; d.fy = d.y; })
+    .on("drag", (event, d) => { sim.alphaTarget(0.3).restart(); d.fx = event.x; d.fy = event.y; }) // wake collide -> shove neighbors
+    .on("end", (event, d) => { sim.alphaTarget(0); d.fx = null; d.fy = null; });
   g.call(drag);
 
   // point-and-hold on empty space to pan; wheel to zoom
   const zoom = d3.zoom().scaleExtent([0.35, 3])
     .on("zoom", (event) => viewport.attr("transform", event.transform));
   svg.call(zoom).on("dblclick.zoom", null);
-  // start zoomed out (more so on phones) so there's a grabbable margin around the cloud
-  const k0 = width < 640 ? 0.5 : 0.82;
-  const t0 = (1 - k0) / 2;
-  svg.call(zoom.transform, d3.zoomIdentity.translate(width * t0, height * t0).scale(k0));
 
   // "random idea" button opens a random PRD
   const randomBtn = document.getElementById("random-btn");
@@ -330,17 +326,26 @@ function render(ideas) {
     if (pick) openPanel(pick);
   };
 
-  // sim maintains base positions; a rAF loop renders them + a gentle float so the
-  // cloud looks alive even at steady state.
-  sim.on("tick", () => {
-    allNodes.forEach((d) => {
-      d.x = Math.max(d.r, Math.min(width - d.r, d.x));
-      d.y = Math.max(d.r + 70, Math.min(height - d.r - 10, d.y));
-    });
-  });
-  // pre-settle the layout synchronously so bubbles don't visibly jump on load
+  // pre-settle the layout synchronously so bubbles don't visibly jump on load.
+  // (No position clamp — clamping only fires on the sim timer, so it used to SNAP the
+  // cloud into the viewport band on the first drag. The fit-zoom below frames it instead.)
   sim.stop();
   for (let i = 0; i < 240; i++) sim.tick();
+  // Drop the global cohesion forces but KEEP collision. Now a drag pushes nearby
+  // bubbles apart (local reaction) while there's no gravity to re-pack the whole cloud.
+  sim.force("charge", null).force("center", null).force("x", null).force("y", null);
+
+  // fit the settled constellation into view (auto-scales as the cloud grows)
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  allNodes.forEach((d) => {
+    minX = Math.min(minX, d.x - d.r); maxX = Math.max(maxX, d.x + d.r);
+    minY = Math.min(minY, d.y - d.r); maxY = Math.max(maxY, d.y + d.r);
+  });
+  const pad = width < 640 ? 24 : 80;
+  const k = Math.max(0.35, Math.min(1, (width - pad) / (maxX - minX), (height - pad) / (maxY - minY)));
+  const tx = width / 2 - k * (minX + maxX) / 2;
+  const ty = height / 2 - k * (minY + maxY) / 2;
+  svg.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 
   function floatFrame(ts) {
     const t = ts / 1000;
