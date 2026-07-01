@@ -11,16 +11,25 @@ export interface CloudHandlers {
 
 export interface CloudHandle {
   setDim: (pred: DimPredicate) => void;
+  setVotes: (v: Record<string, number>) => void;
   destroy: () => void;
 }
 
-// ---- color === score (cool blue = low, warm amber = high) ----
+// ---- color === "heat" (AI score + upvotes, votes weighted higher), spread by
+// percentile rank so the full cool-blue → warm-amber spectrum is always used. Raw AI
+// scores cluster high (everything looks "good"), so ranking spreads them apart. ----
+const HUE_LOW = 250;  // coldest (lowest-ranked) idea
+const HUE_HIGH = 22;  // hottest (highest-ranked) idea
+const hueBySlug = new Map<string, number>(); // populated by the live cloud's paint()
+
 function scoreHue(score: number): number {
+  // fallback used before the cloud has ranked everything (e.g. no distribution yet)
   const s = Math.max(30, Math.min(90, Number.isFinite(score) ? score : 55));
-  return 220 - ((s - 30) / 60) * 190;
+  return HUE_LOW - ((s - 30) / 60) * (HUE_LOW - HUE_HIGH);
 }
-const colorOf = (d: Idea) => `hsl(${scoreHue(d.score)}, 72%, 62%)`;
-const colorAlpha = (d: Idea, a: number) => `hsla(${scoreHue(d.score)}, 72%, 62%, ${a})`;
+const hueOf = (d: Idea) => hueBySlug.get(d.slug) ?? scoreHue(d.score);
+const colorOf = (d: Idea) => `hsl(${hueOf(d)}, 74%, 62%)`;
+const colorAlpha = (d: Idea, a: number) => `hsla(${hueOf(d)}, 74%, 62%, ${a})`;
 
 function radiusFor(score: number, n: number): number {
   const s = Number.isFinite(score) ? score : 50;
@@ -154,16 +163,19 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   sun.append("stop").attr("offset", "0%").attr("stop-color", "rgba(255,247,224,0.98)");
   sun.append("stop").attr("offset", "42%").attr("stop-color", "rgba(255,222,158,0.62)");
   sun.append("stop").attr("offset", "100%").attr("stop-color", "rgba(255,205,130,0)");
+  // per-node body gradient + glow; their stop colors are recolored live by paint()
+  const GRAD_STOPS = [{ o: "0%", a: 0.5 }, { o: "55%", a: 0.16 }, { o: "100%", a: 0.05 }];
+  const GLOW_STOPS = [{ o: "0%", a: 0.4 }, { o: "62%", a: 0.1 }, { o: "100%", a: 0 }];
+  type StopSel = d3.Selection<SVGStopElement, unknown, SVGRadialGradientElement, unknown>;
+  const gradStops = new Map<string, StopSel>();
+  const glowStops = new Map<string, StopSel>();
   nodes.forEach((d) => {
-    const h = scoreHue(d.score);
-    const g = defs.append("radialGradient").attr("id", `grad-${d.slug}`).attr("cx", "0.35").attr("cy", "0.3").attr("r", "0.85");
-    g.append("stop").attr("offset", "0%").attr("stop-color", `hsla(${h},72%,62%,0.5)`);
-    g.append("stop").attr("offset", "55%").attr("stop-color", `hsla(${h},72%,62%,0.16)`);
-    g.append("stop").attr("offset", "100%").attr("stop-color", `hsla(${h},72%,62%,0.05)`);
-    const gl = defs.append("radialGradient").attr("id", `glow-${d.slug}`).attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
-    gl.append("stop").attr("offset", "0%").attr("stop-color", `hsla(${h},72%,62%,0.4)`);
-    gl.append("stop").attr("offset", "62%").attr("stop-color", `hsla(${h},72%,62%,0.1)`);
-    gl.append("stop").attr("offset", "100%").attr("stop-color", `hsla(${h},72%,62%,0)`);
+    const grad = defs.append("radialGradient").attr("id", `grad-${d.slug}`).attr("cx", "0.35").attr("cy", "0.3").attr("r", "0.85");
+    GRAD_STOPS.forEach((s) => grad.append("stop").attr("offset", s.o));
+    const glow = defs.append("radialGradient").attr("id", `glow-${d.slug}`).attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
+    GLOW_STOPS.forEach((s) => glow.append("stop").attr("offset", s.o));
+    gradStops.set(d.slug, grad.selectAll<SVGStopElement, unknown>("stop"));
+    glowStops.set(d.slug, glow.selectAll<SVGStopElement, unknown>("stop"));
   });
 
   // keep each idea outside its galaxy's sun, so the ideas orbit the star instead of burying it
@@ -206,6 +218,33 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     .attr("fill", (d) => `url(#grad-${d.slug})`)
     .attr("stroke", (d) => colorAlpha(d, 0.85)).attr("stroke-width", 1.4);
   g.append("text").each(function (this: SVGTextElement, d) { fitText(this, d); });
+
+  // recolor every bubble from its "heat" (AI score + weighted upvotes), spread by
+  // percentile rank so the spectrum is fully used. Cheap enough to re-run on each vote.
+  let curVotes: Record<string, number> = {};
+  function paint() {
+    const scoreOf = (n: Node) => (Number.isFinite(n.score) ? n.score : 50);
+    const minS = Math.min(...nodes.map(scoreOf));
+    const maxS = Math.max(...nodes.map(scoreOf));
+    const maxV = Math.max(1, ...nodes.map((n) => curVotes[n.slug] || 0));
+    const heat = new Map<string, number>();
+    nodes.forEach((n) => {
+      const ns = maxS > minS ? (scoreOf(n) - minS) / (maxS - minS) : 0.5;
+      const nv = (curVotes[n.slug] || 0) / maxV;
+      heat.set(n.slug, ns + 3 * nv); // upvotes weighted 3× the AI score
+    });
+    const order = [...nodes].sort((a, b) => heat.get(a.slug)! - heat.get(b.slug)!);
+    const last = Math.max(1, order.length - 1);
+    order.forEach((n, i) => { n._hue = HUE_LOW - (i / last) * (HUE_LOW - HUE_HIGH); });
+    nodes.forEach((n) => {
+      const h = n._hue!;
+      hueBySlug.set(n.slug, h);
+      gradStops.get(n.slug)!.each(function (_d, i) { d3.select(this).attr("stop-color", `hsla(${h},74%,62%,${GRAD_STOPS[i].a})`); });
+      glowStops.get(n.slug)!.each(function (_d, i) { d3.select(this).attr("stop-color", `hsla(${h},74%,62%,${GLOW_STOPS[i].a})`); });
+    });
+    g.selectAll<SVGCircleElement, Node>("circle.body").attr("stroke", (n) => `hsla(${n._hue},74%,62%,0.85)`);
+  }
+  paint();
 
   const drag = d3.drag<SVGGElement, Node>()
     .clickDistance(12)
@@ -303,10 +342,12 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
 
   return {
     setDim(pred: DimPredicate) { dimPred = pred; applyDim(); },
+    setVotes(v: Record<string, number>) { curVotes = v || {}; paint(); },
     destroy() {
       cancelAnimationFrame(raf);
       window.removeEventListener("resize", onResize);
       sim.stop();
+      hueBySlug.clear();
       svg.selectAll("*").remove();
     },
   };

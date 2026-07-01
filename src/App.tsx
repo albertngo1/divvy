@@ -19,9 +19,7 @@ export default function App() {
   const [hovered, setHovered] = useState<Idea | null>(null);
   const [hoverY, setHoverY] = useState(0);
   const [votes, setVotes] = useState<Record<string, number>>({});
-  const [voted, setVoted] = useState<Set<string>>(() => {
-    try { return new Set<string>(JSON.parse(localStorage.getItem("divvy_voted") || "[]")); } catch { return new Set(); }
-  });
+  const [voted, setVoted] = useState<Set<string>>(new Set()); // server-authoritative (anon cookie identity)
   const votedRef = useRef(voted);
   votedRef.current = voted;
 
@@ -37,22 +35,27 @@ export default function App() {
 
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
 
-  // load current vote counts (empty {} if the backend isn't wired yet — degrades fine)
+  // load vote counts + which slugs this browser has voted (degrades to empty if backend unwired)
   useEffect(() => {
-    fetch("./api/votes", { cache: "no-store" }).then((r) => (r.ok ? r.json() : {})).then(setVotes).catch(() => {});
+    fetch("./api/votes", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : { counts: {}, voted: [] }))
+      .then((data) => { setVotes(data.counts || {}); setVoted(new Set<string>(data.voted || [])); })
+      .catch(() => {});
   }, []);
 
   const upvote = useCallback((slug: string) => {
     const has = votedRef.current.has(slug);
-    const delta = has ? -1 : 1;
     const next = new Set(votedRef.current);
     has ? next.delete(slug) : next.add(slug);
     setVoted(next);
-    try { localStorage.setItem("divvy_voted", JSON.stringify([...next])); } catch { /* ignore */ }
-    setVotes((v) => ({ ...v, [slug]: Math.max(0, (v[slug] || 0) + delta) })); // optimistic
-    fetch("./api/vote", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slug, delta }) })
+    setVotes((v) => ({ ...v, [slug]: Math.max(0, (v[slug] || 0) + (has ? -1 : 1)) })); // optimistic
+    fetch("./api/vote", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slug }) })
       .then((r) => (r.ok ? r.json() : null))
-      .then((res) => { if (res && typeof res.count === "number") setVotes((v) => ({ ...v, [slug]: res.count })); })
+      .then((res) => {
+        if (!res || typeof res.count !== "number") return;
+        setVotes((v) => ({ ...v, [slug]: res.count }));
+        setVoted((prev) => { const s = new Set(prev); res.voted ? s.add(slug) : s.delete(slug); return s; });
+      })
       .catch(() => { /* keep optimistic value */ });
   }, []);
 
@@ -110,7 +113,7 @@ export default function App() {
       <Controls search={search} onSearch={setSearch} onRandom={openRandom} />
 
       <main id="stage">
-        <Cloud ideas={ideas} dim={dim} onHover={onHover} onSelect={onSelect} onReady={onReady} />
+        <Cloud ideas={ideas} dim={dim} votes={votes} onHover={onHover} onSelect={onSelect} onReady={onReady} />
         <Tooltip idea={hovered} votes={hovered ? votes[hovered.slug] || 0 : 0} atBottom={!!hovered && hoverY < 240} />
         <FilterBar search={search} activeTags={activeTags} visible={visibleCount} onClear={clearFilters} />
         <ColorKey />
