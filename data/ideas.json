@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "terrarium",
+      "title": "Terrarium",
+      "hook": "A cozy live wallpaper that renders your actually-running containers as a tiny ecosystem — pods are critters, CPU is weather, a crash is a fainting bug in the moss.",
+      "tags": [
+        "ambient",
+        "homelab",
+        "wallpaper"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "standing-orders",
+      "title": "Standing Orders",
+      "hook": "A dungeon-crawl squad game where you can't control your crew — you write their orders in plain English and watch a language model hilariously, fatally, interpret them.",
+      "tags": [
+        "autobattler",
+        "llm",
+        "prompt-craft"
+      ],
+      "score": 78,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "sleep-debt",
+      "title": "Sleep Debt",
+      "hook": "A morning deckbuilder that deals last night's real sleep stages as your hand — deep sleep mints power cards, restless nights shuffle curses into your deck.",
+      "tags": [
+        "deckbuilder",
+        "quantified-self",
+        "daily"
+      ],
+      "score": 76,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "steep",
+      "title": "Steep",
+      "hook": "An idle succession game where you're the last maker of roasted barley tea, and your recipe rots a little every time you die unless you write it down.",
+      "tags": [
+        "idle",
+        "craft",
+        "entropy"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "upstream",
       "title": "Upstream",
       "hook": "A Satisfactory-style conveyor puzzle where you build belts to route commits between repos — splitters are branches, mergers are merges, and jams are merge conflicts.",
