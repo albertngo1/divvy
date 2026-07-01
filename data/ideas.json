@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "cordon",
+      "title": "Cordon",
+      "hook": "A falling-block puzzle where pods rain from the sky and you bin-pack them onto nodes respecting CPU, memory and affinity — Tetris for people who've been paged at 3am.",
+      "tags": [
+        "puzzle",
+        "kubernetes",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "committed",
+      "title": "Committed",
+      "hook": "A daily two-diffs-one-human game where you stake your reputation guessing which code was written by a person and which by an AI — because Godot just decided it can't tell.",
+      "tags": [
+        "daily-game",
+        "code",
+        "provenance"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "flotsam",
+      "title": "Flotsam",
+      "hook": "A screensaver that turns your bloated Downloads folder into a Raft-style ocean where old junk drifts past on the current and you hook only what's worth keeping before it sinks.",
+      "tags": [
+        "chores",
+        "screensaver",
+        "game-skin"
+      ],
+      "score": 68,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "varve",
+      "title": "Varve",
+      "hook": "A background daemon that lays down one thin sediment layer per day so that after a year you can scroll a tall image and read your life like an ice core.",
+      "tags": [
+        "ambient",
+        "generative",
+        "quantified-self"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "dialect",
       "title": "Dialect",
       "hook": "Watch a toy programming language mutate across eras as players vote its syntax terser or louder — then scramble to solve puzzles before your own dialect breaks.",
