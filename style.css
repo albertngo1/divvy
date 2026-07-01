@@ -165,10 +165,10 @@ body::after {
 
 /* ---- hover tooltip ---- */
 .tooltip {
-  /* fixed at bottom-center; updates in place on hover instead of chasing the cursor */
+  /* fixed at top-center (just under the controls) so the eye barely travels */
   position: fixed;
-  left: 50%; bottom: 22px;
-  transform: translateX(-50%) translateY(8px);
+  left: 50%; top: 74px;
+  transform: translateX(-50%) translateY(-8px);
   z-index: 7;
   pointer-events: none;
   width: min(520px, 68vw);
