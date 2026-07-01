@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "leftover-cartel",
+      "title": "Leftover Cartel",
+      "hook": "Fridge management skinned as a clandestine supper-club empire — move your product before the heat (mold) busts you.",
+      "tags": [
+        "chores",
+        "foodwaste",
+        "gamified"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "horde-night",
+      "title": "Horde Night",
+      "hook": "A menubar survival game where your machine's uptime is the run, memory leaks are the zombies, and every seventh day without a reboot triggers a siege.",
+      "tags": [
+        "menubar",
+        "homelab",
+        "survival"
+      ],
+      "score": 70,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "want-gallery",
+      "title": "Want Gallery",
+      "hook": "An adblocker run backwards: it deletes the article and hangs the ads on a museum wall with placards explaining who wants you and why.",
+      "tags": [
+        "extension",
+        "adtech",
+        "art"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "off-script",
+      "title": "Off Script",
+      "hook": "A daily word game where you win by being the most surprising thing a language model still considers a sane sentence.",
+      "tags": [
+        "wordgame",
+        "nlp",
+        "daily"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "vacuum-run",
       "title": "Vacuum Run",
       "hook": "Euro Truck Simulator's zen highway loop grafted onto Postgres: you cruise an autovacuum rig from table to table clearing dead tuples, and you can point it at your own database so real bloat becomes the road.",
