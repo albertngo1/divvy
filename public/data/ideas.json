@@ -2,6 +2,171 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "query-duel",
+      "title": "Query Duel",
+      "hook": "Two people race to answer the same analytics question in SQL against a real database running entirely in the browser — first correct result wins the round.",
+      "tags": [
+        "sql",
+        "competitive",
+        "leaderboard",
+        "devtool"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "golden-ears",
+      "title": "Golden Ears",
+      "hook": "A daily blind ABX gauntlet that finally settles whether you can actually hear the difference between 128k and lossless — and ranks the whole internet by who can.",
+      "tags": [
+        "audio",
+        "leaderboard",
+        "competitive",
+        "ml"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "ship-bet",
+      "title": "Ship Bet",
+      "hook": "Datamined but unreleased app features become tradable contracts — bet on whether Discord actually ships that hidden button, and when.",
+      "tags": [
+        "prediction-market",
+        "markets",
+        "automation",
+        "monetization"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "repossessed",
+      "title": "Repossessed",
+      "hook": "It hashes everything you 'own' across your storefronts and screams the moment a publisher silently deletes or edits a movie you paid for.",
+      "tags": [
+        "provenance",
+        "privacy",
+        "self-hosted",
+        "forensics"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "heckle",
+      "title": "Heckle",
+      "hook": "Your Twitch viewers stop watching your survival run and start paying pocket change to spawn the bear that ends it — and the deadliest hecklers get a leaderboard.",
+      "tags": [
+        "survival",
+        "multiplayer",
+        "monetization",
+        "social"
+      ],
+      "score": 77,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "dwell",
+      "title": "Dwell",
+      "hook": "A geofence in a trucker's pocket that timestamps every minute wasted at a loading dock and spits out an ironclad detention invoice.",
+      "tags": [
+        "logistics",
+        "automation",
+        "b2b",
+        "side-hustle"
+      ],
+      "score": 76,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cytosol",
+      "title": "Cytosol",
+      "hook": "A Terraria-style 2D dig-and-build game set inside a living cell that grows and divides around you — mine the ER for lipids, defend against a virus, then survive mitosis tearing your world in two.",
+      "tags": [
+        "game",
+        "procedural",
+        "biology",
+        "survival"
+      ],
+      "score": 77,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "payday-run",
+      "title": "Payday Run",
+      "hook": "Budgeting as an extraction shooter: every payday you 'deploy,' and you must extract cash into savings buckets before impulse-spend monsters sniff out the money sitting exposed in checking.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "roguelike"
+      ],
+      "score": 60,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "slow-packet",
+      "title": "Slow Packet",
+      "hook": "Drop in a .pcap and it renders a Ciechanowski-style scrubbable 3D animation of your own TLS handshake — every ClientHello, key exchange, and ACK you can drag a slider through.",
+      "tags": [
+        "data-viz",
+        "observability",
+        "security",
+        "3d-viz"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "deleted-scenes",
+      "title": "Deleted Scenes",
+      "hook": "A self-hosted watchdog that snapshots everything you 'own' across Steam, PSN, Kindle and streaming, then screams when a movie, game, or book you paid for silently vanishes or gets quietly re-edited.",
+      "tags": [
+        "provenance",
+        "self-hosted",
+        "privacy",
+        "forensics"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "idle-hands",
+      "title": "Idle Hands",
+      "hook": "An idle miner where your real Garmin steps dig the ore, your heart-rate zones smelt it, and — the twist — rest days pay the fattest passive income.",
+      "tags": [
+        "quantified-self",
+        "idle",
+        "health"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "nightfall",
+      "title": "Nightfall",
+      "hook": "Your git repo has a sanity meter like Don't Starve — leave branches stale, TODOs rotting, and PRs aging, and the dashboard literally goes dark and starts spawning gremlins.",
+      "tags": [
+        "git",
+        "devtool",
+        "quantified-self"
+      ],
+      "score": 63,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "last-pressing",
       "title": "Last Pressing",
       "hook": "A melancholy tycoon where you run the world's last optical-disc factory as the industry goes all-digital around you — squeeze out final print runs before the presses go cold for good.",
