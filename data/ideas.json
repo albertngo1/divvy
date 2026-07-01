@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "fallow",
+      "title": "Fallow",
+      "hook": "Your friendships are a greenhouse of houseplants that quietly wilt the longer you go without contact — and watering one means actually texting them.",
+      "tags": [
+        "care-sim",
+        "contacts",
+        "relationships"
+      ],
+      "score": 67,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "hunt-peck",
+      "title": "Hunt & Peck",
+      "hook": "One player types a famous phrase; everyone else sees only the audio waveform of their keystrokes and races to guess the words from rhythm alone.",
+      "tags": [
+        "party",
+        "audio",
+        "guessing"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "house-tartan",
+      "title": "House Tartan",
+      "hook": "A tiny daemon weaves one thread of colour per day from your weather or resting heart rate — by New Year's you have a personal tartan you can actually get milled into a scarf.",
+      "tags": [
+        "generative",
+        "ambient",
+        "textile"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "loot-ledger",
+      "title": "Loot Ledger",
+      "hook": "Import your bank statement and every purchase drops as ARPG loot — the $4 coffee is trash-grey common, the surprise vet bill a screen-shaking orange legendary.",
+      "tags": [
+        "arpg",
+        "finance",
+        "loot"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "sanitize",
       "title": "Sanitize",
       "hook": "A Sekiro-style deflection duel where the attacks flying at you are real SQL-injection payloads and you parry each one with the correct defense in the timing window — miss, and a live in-browser database visibly leaks.",
