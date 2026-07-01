@@ -23,6 +23,9 @@
 * { box-sizing: border-box; }
 /* the [hidden] attribute must always win over display:flex/grid on these elements */
 [hidden] { display: none !important; }
+/* nothing is text-selectable except the PRD side-panel content */
+body { user-select: none; -webkit-user-select: none; }
+.panel, .panel * { user-select: text; -webkit-user-select: text; }
 
 /* ---- loading overlay (hides the initial force-sim flicker) ---- */
 .loader {
@@ -136,9 +139,9 @@ body::after {
 /* tag filter is a click-to-open dropdown on all screens */
 .tf-head { cursor: pointer; }
 .tf-chevron { display: inline-block; transition: transform 0.2s ease; color: var(--ink-faint); font-size: 11px; }
-.tagfilter.collapsed { max-height: none; }
+.tagfilter.collapsed { max-height: 50px; }
 .tagfilter.collapsed .tf-head { margin-bottom: 0; }
-.tagfilter.collapsed .tf-list { display: none; }
+.tagfilter.collapsed .tf-list { opacity: 0; }
 .tagfilter.collapsed .tf-chevron { transform: rotate(-90deg); }
 #cloud:active { cursor: grabbing; }
 
@@ -220,7 +223,10 @@ body::after {
   border: 1px solid var(--line);
   border-radius: 16px;
   box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+.tf-list { transition: opacity 0.22s ease; }
 .tf-head {
   display: flex; align-items: center; justify-content: space-between;
   font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase;
@@ -547,19 +553,22 @@ body::after {
 .prd hr { border: none; border-top: 1px solid var(--line); margin: 22px 0; }
 
 @media (max-width: 640px) {
-  /* top bar: compact */
-  .topbar { padding: 12px 14px; align-items: center; }
-  .topbar h1 { font-size: 21px; }
+  /* top bar: single tidy row */
+  .topbar { padding: 14px 16px 0; align-items: center; }
+  .topbar h1 { font-size: 22px; }
   .tagline { display: none; }
-  .meta { font-size: 10px; }
+  .meta { font-size: 10.5px; align-self: center; }
   .scan-meta { display: none; }
 
-  /* controls: search fills the row, Random becomes the dice only */
-  .controls { top: 52px; left: 12px; right: 12px; transform: none; gap: 8px; }
-  .search-wrap { flex: 1; height: 38px; }
-  .search { width: 100%; max-width: none; }
+  /* controls: full-width search + a square dice button, aligned + evenly sized */
+  .controls { top: 56px; left: 14px; right: 14px; transform: none; gap: 10px; align-items: stretch; }
+  .search-wrap { flex: 1; height: 42px; padding: 0 14px; }
+  .search { width: 100%; max-width: none; font-size: 16px; } /* 16px stops iOS zoom-on-focus */
   .btn-label { display: none; }
-  .random-btn { height: 38px; padding: 0 14px; font-size: 16px; }
+  .random-btn {
+    flex: none; width: 42px; height: 42px; padding: 0; font-size: 18px; line-height: 1;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
 
   /* color-key: hide on mobile to reduce clutter (tag sheet takes the bottom) */
   .legend { display: none; }
@@ -567,7 +576,7 @@ body::after {
   .tooltip { display: none; }
 
   /* active-filter pill: top-right under controls, out of the bottom sheet's way */
-  .filterbar { top: 98px; right: 12px; bottom: auto; }
+  .filterbar { top: 108px; right: 14px; left: auto; bottom: auto; }
 
   /* tag filter becomes a collapsible bottom sheet */
   .tagfilter {
@@ -580,8 +589,7 @@ body::after {
   .tf-head { cursor: pointer; margin-bottom: 12px; }
   .tf-chevron { display: inline-block; transition: transform 0.2s ease; color: var(--ink-faint); }
   .tf-list { max-height: calc(44vh - 52px); }
-  .tagfilter.collapsed { max-height: 48px; overflow: hidden; }
-  .tagfilter.collapsed .tf-list { display: none; }
+  .tagfilter.collapsed { max-height: 48px; }
   .tagfilter.collapsed .tf-chevron { transform: rotate(-90deg); }
 
   /* PRD panel: full width, tighter */

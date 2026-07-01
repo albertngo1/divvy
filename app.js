@@ -275,7 +275,7 @@ function render(ideas) {
   const sim = d3.forceSimulation(allNodes)
     .force("charge", d3.forceManyBody().strength(-16)) // mild repulsion so bubbles spread, not clump
     .force("center", d3.forceCenter(width / 2, height / 2))
-    .force("collide", d3.forceCollide().radius((d) => d.r + 4).iterations(2))
+    .force("collide", d3.forceCollide().radius((d) => d.r + 6).strength(0.95).iterations(4))
     .force("x", d3.forceX(width / 2).strength(0.05))
     .force("y", d3.forceY(height / 2).strength(0.05));
 
@@ -309,8 +309,8 @@ function render(ideas) {
   const drag = d3.drag()
     .clickDistance(12) // a small hand-wobble still counts as a click, not a drag
     .on("start", (event, d) => { if (event.sourceEvent) event.sourceEvent.stopPropagation(); d.fx = d.x; d.fy = d.y; })
-    .on("drag", (event, d) => { sim.alphaTarget(0.3).restart(); d.fx = event.x; d.fy = event.y; }) // wake collide -> shove neighbors
-    .on("end", (event, d) => { sim.alphaTarget(0); d.fx = null; d.fy = null; });
+    .on("drag", (event, d) => { sim.alphaTarget(0.6).restart(); d.fx = event.x; d.fy = event.y; }) // wake collide -> shove neighbors
+    .on("end", (event, d) => { d.fx = null; d.fy = null; sim.alphaTarget(0).alpha(1).restart(); }); // full energy to drift home
   g.call(drag);
 
   // point-and-hold on empty space to pan; wheel to zoom
@@ -331,9 +331,15 @@ function render(ideas) {
   // cloud into the viewport band on the first drag. The fit-zoom below frames it instead.)
   sim.stop();
   for (let i = 0; i < 240; i++) sim.tick();
-  // Drop the global cohesion forces but KEEP collision. Now a drag pushes nearby
-  // bubbles apart (local reaction) while there's no gravity to re-pack the whole cloud.
-  sim.force("charge", null).force("center", null).force("x", null).force("y", null);
+  // Remember each bubble's settled "home", then replace the global gravity with a gentle
+  // spring toward that home (per-node, NOT a shared center — a center point would clump).
+  // Result: a drag shoves neighbors via collide, then everything drifts back like magnetism,
+  // and the overall constellation shape is preserved (no re-pack).
+  allNodes.forEach((d) => { d.hx = d.x; d.hy = d.y; });
+  sim.force("charge", null).force("center", null)
+    .force("x", d3.forceX((d) => d.hx).strength(0.4))
+    .force("y", d3.forceY((d) => d.hy).strength(0.4));
+  sim.alphaDecay(0.015); // let the sim run longer so displaced bubbles fully drift home
 
   // fit the settled constellation into view (auto-scales as the cloud grows)
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
