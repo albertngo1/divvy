@@ -98,6 +98,25 @@ export default function App() {
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
   useEffect(() => { document.body.classList.toggle("panel-open", !!selected); }, [selected]);
 
+  // Shift the top controls left ONLY by however much they'd overlap the open panel — if
+  // there's already room between them, don't move at all. Recomputed on open + resize.
+  useEffect(() => {
+    const apply = () => {
+      const el = document.getElementById("controls");
+      if (!el) return;
+      const vw = window.innerWidth;
+      if (!selected || vw < 1024) { el.style.transform = ""; return; } // CSS handles the centered/mobile case
+      const panelW = Math.min(580, vw * 0.94);
+      const cw = el.getBoundingClientRect().width;      // controls sit centered; right edge = vw/2 + cw/2
+      const overlap = cw / 2 + 24 + panelW - vw / 2;    // +24 desired gap; <=0 means there's already room
+      const shift = Math.max(0, overlap);
+      el.style.transform = `translateX(calc(-50% - ${shift}px))`;
+    };
+    apply();
+    window.addEventListener("resize", apply);
+    return () => window.removeEventListener("resize", apply);
+  }, [selected]);
+
   // Live multi-user sync: poll the shared vote counts every few seconds (and on tab focus)
   // so everyone sees each other's upvotes within seconds — bubbles recolor/resize live.
   // Plenty for a handful of voters; no websockets/Durable Objects needed.
