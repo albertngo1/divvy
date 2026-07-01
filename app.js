@@ -304,14 +304,13 @@ function render(ideas) {
 
   g.append("text").call((sel) => sel.each(function (d) { fitText(d3.select(this), d); }));
 
+  // Drag moves ONLY the grabbed bubble. The sim is never reheated after the initial
+  // settle, so the rest of the constellation stays put (no re-pack into a rectangle).
   const drag = d3.drag()
-    .clickDistance(12) // a small hand-wobble still counts as a click (fixes "clicking does nothing")
-    .on("start", (event, d) => {
-      if (event.sourceEvent) event.sourceEvent.stopPropagation(); // don't pan while dragging a bubble
-      d.fx = d.x; d.fy = d.y; // pin; DO NOT reheat here (a click fires start+end and would re-pack the cloud)
-    })
-    .on("drag", (event, d) => { sim.alphaTarget(0.15).restart(); d.fx = event.x; d.fy = event.y; }) // reheat only on real drag
-    .on("end", (event, d) => { sim.alphaTarget(0); d.fx = null; d.fy = null; });
+    .clickDistance(12) // a small hand-wobble still counts as a click, not a drag
+    .on("start", (event) => { if (event.sourceEvent) event.sourceEvent.stopPropagation(); })
+    .on("drag", (event, d) => { d.x = d.fx = event.x; d.y = d.fy = event.y; })
+    .on("end", (event, d) => { d.fx = null; d.fy = null; });
   g.call(drag);
 
   // point-and-hold on empty space to pan; wheel to zoom
@@ -359,10 +358,9 @@ function render(ideas) {
   const loader = document.getElementById("loader");
   if (loader) { loader.classList.add("gone"); setTimeout(() => loader.remove(), 550); }
 
+  // keep dims current for bounds math, but don't reheat the sim (that would re-pack the cloud)
   window.addEventListener("resize", () => {
     width = window.innerWidth; height = window.innerHeight;
-    sim.force("center", d3.forceCenter(width / 2, height / 2));
-    sim.alpha(0.3).restart();
   });
 
   applyFilter();
