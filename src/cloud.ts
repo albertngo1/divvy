@@ -131,7 +131,8 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   nodes.forEach((d) => (gmembers[d.galaxy!] = gmembers[d.galaxy!] || []).push(d));
   const clusterR: Record<string, number> = {};
   const sunR: Record<string, number> = {};
-  const ringInner: Record<string, number> = {}; // distance from sun center to the ring's inner edge
+  const ringInner: Record<string, number> = {}; // sun center → inner edge of the ring (gap boundary)
+  const orbitR: Record<string, number> = {};    // sun center → the ring band the ideas hug
   galaxyKeys.forEach((gk) => {
     const mem = gmembers[gk];
     const area = mem.reduce((s, m) => s + Math.PI * (m.r + 5) * (m.r + 5), 0);
@@ -139,6 +140,7 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     const inner = sunR[gk] + GAP;
     ringInner[gk] = inner;
     const outer = Math.sqrt(inner * inner + area / Math.PI); // annulus that holds the ideas
+    orbitR[gk] = (inner + outer) / 2; // middle of the band
     clusterR[gk] = outer * 1.12 + 34; // + whitespace between galaxies
   });
   const seedR = Math.min(width, height) * 0.5;
@@ -193,26 +195,32 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     glowStops.set(d.slug, glow.selectAll<SVGStopElement, unknown>("stop"));
   });
 
-  // hold every idea outside its galaxy's sun + gap, so a clear ring forms around the star
-  const sunOrbit = (alpha: number) => {
+  // Each idea orbits its galaxy's sun: a firm outward floor keeps the whole bubble beyond
+  // the gap (so the center stays empty), and a gentle pull hugs it toward the ring band
+  // (so the cluster stays compact and doesn't drift into its neighbours). No center pull —
+  // that was collapsing the gap by dragging bubbles onto the sun.
+  const orbit = (alpha: number) => {
     for (const d of nodes) {
       const c = gpos[d.galaxy!];
       const dx = d.x - c.x, dy = d.y - c.y;
       const dist = Math.hypot(dx, dy) || 0.01;
-      const min = ringInner[d.galaxy!] + d.r; // whole bubble sits beyond the gap
-      if (dist < min) {
-        const push = (min - dist) * alpha;
-        d.vx = (d.vx || 0) + (dx / dist) * push;
-        d.vy = (d.vy || 0) + (dy / dist) * push;
+      const ux = dx / dist, uy = dy / dist;
+      const floor = ringInner[d.galaxy!] + d.r; // whole bubble stays outside the gap
+      if (dist < floor) {
+        const push = (floor - dist) * alpha; // firm floor
+        d.vx = (d.vx || 0) + ux * push;
+        d.vy = (d.vy || 0) + uy * push;
+      } else {
+        const pull = (orbitR[d.galaxy!] - dist) * 0.12 * alpha; // gentle hug toward the band
+        d.vx = (d.vx || 0) + ux * pull;
+        d.vy = (d.vy || 0) + uy * pull;
       }
     }
   };
 
   const sim = d3.forceSimulation<Node>(nodes)
     .force("collide", d3.forceCollide<Node>().radius((d) => d.r + 3).strength(1).iterations(4))
-    .force("x", d3.forceX<Node>((d) => gpos[d.galaxy!].x).strength(0.55)) // localize the cluster
-    .force("y", d3.forceY<Node>((d) => gpos[d.galaxy!].y).strength(0.55))
-    .force("sun", sunOrbit) // clear the center for the star
+    .force("orbit", orbit)
     .alphaDecay(0.03);
 
   const viewport = svg.append("g").attr("class", "viewport");
@@ -327,33 +335,14 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   suns.append("circle").attr("class", "sun-body").attr("r", (gk) => sunR[gk]).attr("fill", "url(#sun-body-grad)");
   suns.append("text").attr("class", "sun-label").attr("text-anchor", "middle").attr("dy", "0.32em").text((gk) => gk);
 
-  // constellation links: same-tag ideas (small groups) as nearest-neighbor chains
-  const groups: Record<string, Node[]> = {};
-  nodes.forEach((d) => (d.tags || []).forEach((tg) => { (groups[tg] = groups[tg] || []).push(d); }));
-  const linkMap = new Map<string, { a: Node; b: Node }>();
-  Object.values(groups).forEach((members) => {
-    if (members.length < 2 || members.length > 5) return;
-    const rem = members.slice();
-    const chain = [rem.shift()!];
-    while (rem.length) {
-      const last = chain[chain.length - 1];
-      let bi = 0, bd = Infinity;
-      rem.forEach((m, i) => { const dd = Math.hypot(m.x - last.x, m.y - last.y); if (dd < bd) { bd = dd; bi = i; } });
-      chain.push(rem.splice(bi, 1)[0]);
-    }
-    for (let i = 0; i < chain.length - 1; i++) {
-      const a = chain[i], b = chain[i + 1];
-      const key = a.slug < b.slug ? a.slug + "|" + b.slug : b.slug + "|" + a.slug;
-      if (!linkMap.has(key)) linkMap.set(key, { a, b });
-    }
-  });
-  const links = [...linkMap.values()].slice(0, 340);
-  const linkSel = linkG.selectAll<SVGLineElement, { a: Node; b: Node }>("line").data(links).join("line").attr("class", "link");
+  // a faint spoke from each idea to its galaxy's sun — rays toward the domain, never across
+  // galaxies. The inner end tucks behind the sun (linkG sits below sunG), so it reads as a ray.
+  const linkSel = linkG.selectAll<SVGLineElement, Node>("line").data(nodes, (d) => d.slug).join("line").attr("class", "link");
 
   let dimPred: DimPredicate = () => false;
   function applyDim() {
     g.classed("dim", (d) => dimPred(d));
-    linkSel.style("opacity", (l) => (dimPred(l.a) || dimPred(l.b) ? 0.12 : 1));
+    linkSel.style("opacity", (d) => (dimPred(d) ? 0.1 : 1));
   }
 
   // WASD / arrow keys pan the viewport (each vector nudges the camera; applied per frame)
@@ -387,12 +376,12 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
       d._ry = d.y + Math.cos(t * sy + d._ph * 1.3) * 7;
     });
     g.attr("transform", (d) => `translate(${d._rx},${d._ry})`);
-    linkSel.attr("x1", (l) => l.a._rx!).attr("y1", (l) => l.a._ry!).attr("x2", (l) => l.b._rx!).attr("y2", (l) => l.b._ry!);
+    linkSel.attr("x1", (d) => d._rx!).attr("y1", (d) => d._ry!).attr("x2", (d) => gpos[d.galaxy!].x).attr("y2", (d) => gpos[d.galaxy!].y);
     if (panKeys.size) {
       let dx = 0, dy = 0;
       panKeys.forEach((k) => { dx += PAN_MAP[k][0]; dy += PAN_MAP[k][1]; });
       if (dx || dy) {
-        const step = 16 / d3.zoomTransform(svgEl).k; // constant on-screen speed at any zoom
+        const step = 7 / d3.zoomTransform(svgEl).k; // constant on-screen speed at any zoom
         svg.call(zoom.translateBy, dx * step, dy * step);
       }
     }
