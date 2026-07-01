@@ -2,6 +2,45 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "knockout",
+      "title": "Knockout",
+      "hook": "A roguelike deckbuilder where you snip genes out of a bloated synthetic genome one card at a time, trying to reach the smallest cell that can still grow and divide — before you accidentally kill it.",
+      "tags": [
+        "roguelike",
+        "deckbuilder",
+        "biology"
+      ],
+      "score": 78,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "escapement",
+      "title": "Escapement",
+      "hook": "A live-wallpaper physics contraption engineered to take exactly one calendar year to finish, ticking like a clock where the falling marble's position IS the date.",
+      "tags": [
+        "physics",
+        "ambient",
+        "generative"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "deaccession",
+      "title": "Deaccession",
+      "hook": "A quiet daemon that watches everything you 'own' and engraves a dated tombstone the moment it silently vanishes or gets edited out from under you.",
+      "tags": [
+        "ownership",
+        "ambient",
+        "archive"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "squint",
       "title": "Squint",
       "hook": "A twitchy reflex arcade where lookalike domains flash for a shrinking half-second and you snap SAFE or FAKE — secretly drilling your eye against real homoglyph phishing.",
