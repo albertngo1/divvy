@@ -192,6 +192,60 @@ body::after {
   padding: 2px 8px;
 }
 
+/* ---- fixed tag filter panel (below the title) ---- */
+.tagfilter {
+  position: fixed;
+  top: 84px; left: 26px;
+  z-index: 6;
+  width: 224px;
+  max-height: 58vh;
+  display: flex; flex-direction: column;
+  padding: 14px 14px 10px;
+  background: rgba(16, 18, 26, 0.62);
+  backdrop-filter: blur(var(--blur));
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+}
+.tf-head {
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--ink-faint); margin-bottom: 11px;
+}
+.tf-clear {
+  background: none; border: none; cursor: pointer;
+  color: var(--c-steam); font-size: 11px; letter-spacing: 0; text-transform: none;
+}
+.tf-clear:hover { color: #fff; }
+.tf-list {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  overflow-y: auto;
+  scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.16) transparent;
+}
+.tf-list::-webkit-scrollbar { width: 8px; }
+.tf-list::-webkit-scrollbar-track { background: transparent; }
+.tf-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.16); border-radius: 99px; border: 2px solid transparent; background-clip: padding-box; }
+.tf-list .tp {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  color: var(--ink-dim);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 10px; cursor: pointer;
+  transition: all 0.14s ease;
+}
+.tf-list .tp:hover { color: var(--ink); border-color: var(--line-strong); }
+.tf-list .tp.on { color: #0c0d12; background: var(--c-weekend-ideas); border-color: transparent; font-weight: 600; }
+.tf-list .tp .n { opacity: 0.5; margin-left: 5px; }
+
+/* ---- color-scale key (bottom-left) ---- */
+.score-bar {
+  display: inline-block; width: 130px; height: 9px; border-radius: 99px;
+  background: linear-gradient(90deg, hsl(220,72%,62%), hsl(160,72%,62%), hsl(90,72%,62%), hsl(30,72%,62%));
+  border: 1px solid var(--line);
+}
+
 /* ---- legend (color === source), doubles as filter ---- */
 .legend {
   position: fixed;
@@ -412,22 +466,8 @@ body::after {
 }
 .hook { color: var(--ink-dim); font-size: 15.5px; font-style: italic; line-height: 1.5; margin: 0; }
 
-/* PRD loading state — reuses the page spinner, tinted to the idea's accent */
-.prd-loading {
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 16px; padding: 60px 0; color: var(--ink-faint);
-  font-family: "JetBrains Mono", monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;
-}
-.prd-loading .spinner {
-  width: 34px; height: 34px;
-  border: 3px solid rgba(255,255,255,0.1);
-  border-top-color: var(--accent);
-  border-right-color: var(--accent);
-  filter: drop-shadow(0 0 8px var(--accent-soft));
-}
-
 /* markdown PRD — colorful, accent-driven */
-.prd { font-size: 15px; line-height: 1.68; color: #cfd3e0; }
+.prd { font-size: 15px; line-height: 1.68; color: #cfd3e0; transition: opacity 0.28s ease; }
 .prd h1 {
   font-family: "Fraunces", serif; font-size: 23px; letter-spacing: -0.01em;
   margin: 28px 0 10px; color: var(--ink);

@@ -33,10 +33,16 @@
       <span class="search-icon">⌕</span>
       <input id="search" class="search" type="search" placeholder="Search ideas, hooks, tags…" autocomplete="off" />
     </div>
-    <button id="tags-btn" class="tags-btn" aria-expanded="false">Tags <span class="caret">▾</span></button>
     <button id="random-btn" class="random-btn" title="open a random idea">🎲 Random</button>
-    <div id="tag-pop" class="tag-pop"></div>
   </div>
+
+  <aside id="tagfilter" class="tagfilter" aria-label="filter by tag">
+    <div class="tf-head">
+      <span>Filter by tag</span>
+      <button id="tf-clear" class="tf-clear" hidden>clear</button>
+    </div>
+    <div id="tagfilter-list" class="tf-list"></div>
+  </aside>
 
   <main id="stage">
     <svg id="cloud" aria-label="idea cloud"></svg>

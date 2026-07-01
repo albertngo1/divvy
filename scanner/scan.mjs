@@ -127,7 +127,7 @@ function callClaude(prompt) {
   return new Promise((resolve, reject) => {
     const child = spawn("claude", ["-p", prompt, "--dangerously-skip-permissions"], {
       stdio: ["ignore", "pipe", "inherit"],
-      timeout: 1000 * 240,
+      timeout: 1000 * 300,
     });
     let out = "";
     child.stdout.on("data", (c) => { out += c; });
@@ -148,7 +148,7 @@ async function main() {
   await mkdir(PRDS, { recursive: true });
   const store = await loadIdeas();
   const existing = new Set(store.ideas.map((i) => i.slug));
-  const avoid = store.ideas.map((i) => i.title);
+  const avoid = store.ideas.slice(0, 50).map((i) => i.title); // cap so the prompt stays bounded as the cloud grows
 
   const digest = await gatherSources();
   const raw = await callClaude(buildPrompt(digest, avoid));

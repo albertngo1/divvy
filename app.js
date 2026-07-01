@@ -134,8 +134,7 @@ async function openPanel(d) {
   });
 
   const prdEl = document.getElementById("panel-prd");
-  prdEl.innerHTML = `<div class="prd-loading"><div class="spinner"></div><span>loading PRD…</span></div>`;
-  prdEl.scrollTop = 0;
+  prdEl.style.opacity = "0"; // fade current content out to blank
   panel.hidden = false;
   requestAnimationFrame(() => panel.classList.add("open"));
 
@@ -150,6 +149,8 @@ async function openPanel(d) {
     if (panel.dataset.slug !== d.slug) return;
     prdEl.innerHTML = "<p style='color:var(--ink-dim)'>No PRD written yet for this idea.</p>";
   }
+  prdEl.scrollTop = 0;
+  requestAnimationFrame(() => { prdEl.style.opacity = "1"; }); // fade new content in
 }
 function closePanel() {
   panel.classList.remove("open");
@@ -160,9 +161,7 @@ function closePanel() {
 document.getElementById("panel-close").addEventListener("click", closePanel);
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
-    closePanel();
-    const pop = document.getElementById("tag-pop");
-    if (pop && pop.classList.contains("open")) { pop.classList.remove("open"); document.getElementById("tags-btn").setAttribute("aria-expanded", "false"); }
+    if (panel.classList.contains("open")) closePanel();
     else clearFilters();
   }
 });
@@ -182,9 +181,10 @@ function isDimmed(d) {
 }
 function applyFilter() {
   svg.selectAll("g.bubble").classed("dim", isDimmed);
-  legendEl.querySelectorAll(".tagchip").forEach((chip) => chip.classList.toggle("on", activeTags.has(chip.dataset.tag)));
-  document.querySelectorAll("#tag-pop .tp").forEach((el) => el.classList.toggle("on", activeTags.has(el.dataset.tag)));
+  document.querySelectorAll("#tagfilter-list .tp").forEach((el) => el.classList.toggle("on", activeTags.has(el.dataset.tag)));
   document.querySelectorAll("#panel-tags span:not(.score-chip)").forEach((el) => el.classList.toggle("active", activeTags.has(el.textContent)));
+  const tfClear = document.getElementById("tf-clear");
+  if (tfClear) tfClear.hidden = activeTags.size === 0;
 
   const chips = [];
   if (searchQuery) chips.push(`“${searchQuery}”`);
@@ -211,53 +211,31 @@ function toggleTag(tag) {
   else { activeTags.clear(); activeTags.add(tag); }
   applyFilter();
 }
-// bottom-left = quick tag filters (the most common tags); color === score
-function buildTagLegend(nodes) {
-  const counts = {};
-  nodes.forEach((d) => (d.tags || []).forEach((t) => { counts[t] = (counts[t] || 0) + 1; }));
-  const top = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b)).slice(0, 12);
-  legendEl.innerHTML = "";
-  const cap = document.createElement("span");
-  cap.className = "legend-cap";
-  cap.textContent = "filter by tag · color = score (cool→warm)";
-  legendEl.appendChild(cap);
-  top.forEach((t) => {
-    const chip = document.createElement("button");
-    chip.className = "chip tagchip";
-    chip.dataset.tag = t;
-    chip.innerHTML = `${t} <span class="n">${counts[t]}</span>`;
-    chip.addEventListener("click", () => toggleTag(t));
-    legendEl.appendChild(chip);
-  });
+// bottom-left = a small color-scale key (color === score)
+function buildColorKey() {
+  legendEl.innerHTML = `<span class="legend-cap">color = score</span><span class="score-bar" title="low → high"></span>`;
 }
 
-function buildTagPop(nodes) {
+// fixed left panel = full tag filter (all tags, sorted by frequency)
+function buildTagFilter(nodes) {
   const counts = {};
   nodes.forEach((d) => (d.tags || []).forEach((t) => { counts[t] = (counts[t] || 0) + 1; }));
   const tags = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
-  const pop = document.getElementById("tag-pop");
-  pop.innerHTML = "";
+  const list = document.getElementById("tagfilter-list");
+  list.innerHTML = "";
   tags.forEach((t) => {
     const el = document.createElement("button");
     el.className = "tp";
     el.dataset.tag = t;
     el.innerHTML = `${t}<span class="n">${counts[t]}</span>`;
     el.addEventListener("click", () => toggleTag(t));
-    pop.appendChild(el);
+    list.appendChild(el);
   });
 }
 
 // control wiring (elements exist at load)
 document.getElementById("search").addEventListener("input", (e) => { searchQuery = e.target.value.trim(); applyFilter(); });
-(function () {
-  const btn = document.getElementById("tags-btn");
-  const pop = document.getElementById("tag-pop");
-  btn.addEventListener("click", () => {
-    const willOpen = !pop.classList.contains("open");
-    pop.classList.toggle("open", willOpen);
-    btn.setAttribute("aria-expanded", String(willOpen));
-  });
-})();
+document.getElementById("tf-clear").addEventListener("click", clearFilters);
 
 function render(ideas) {
   document.getElementById("idea-count").textContent = ideas.length;
@@ -265,8 +243,8 @@ function render(ideas) {
 
   allNodes = ideas.map((d, i) => ({ ...d, r: radiusFor(d.score), _ph: i * 1.7 }));
   buildDefs(allNodes);
-  buildTagLegend(allNodes);
-  buildTagPop(allNodes);
+  buildColorKey();
+  buildTagFilter(allNodes);
 
   const sim = d3.forceSimulation(allNodes)
     .force("charge", d3.forceManyBody().strength(12))
