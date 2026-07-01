@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "vacuum-run",
+      "title": "Vacuum Run",
+      "hook": "Euro Truck Simulator's zen highway loop grafted onto Postgres: you cruise an autovacuum rig from table to table clearing dead tuples, and you can point it at your own database so real bloat becomes the road.",
+      "tags": [
+        "cozy-sim",
+        "postgres",
+        "maintenance"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "zone-deck",
+      "title": "Zone Deck",
+      "hook": "A roguelike deckbuilder where your deck is minted from your real Garmin/Strava workouts — intervals deal burst damage, rest days are the rare heal cards, and overtraining literally curses your hand.",
+      "tags": [
+        "deckbuilder",
+        "quantified-self",
+        "strava"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "long-shutdown",
+      "title": "Long Shutdown",
+      "hook": "A reverse Cities: Skylines where you don't grow a mega-machine — you spend a decade safely decommissioning a particle collider, honoring real isotope half-lives so waiting becomes a legitimate move.",
+      "tags": [
+        "reverse-builder",
+        "decommission",
+        "half-life"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "star-bubble",
+      "title": "Star Bubble",
+      "hook": "Mackay's 1852 'Madness of Crowds' as a game show: you're shown a trending repo's early star curve and bet how high the hype climbs before it pops.",
+      "tags": [
+        "prediction",
+        "github",
+        "hype"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "last-maker",
       "title": "Last Maker",
       "hook": "A cozy 'one more turn' management game where you're the final living practitioner of a genuinely endangered craft — pulled from real Red List data — racing your own old age to train an apprentice before the skill dies with you.",
