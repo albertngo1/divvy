@@ -198,6 +198,14 @@ body::after {
 /* constellation lines linking same-tag ideas */
 .link { stroke: rgba(198,214,255,0.32); stroke-width: 1.1; pointer-events: none; }
 .link.lit { stroke: rgba(220,232,255,0.7); stroke-width: 1.5; }
+
+/* live peer cursors */
+.cursor { transition: transform 0.09s linear; }
+.cursor-arrow { stroke: rgba(4,5,10,0.6); stroke-width: 1; }
+.cursor-name {
+  font-family: "Inter", system-ui, sans-serif; font-size: 12px; font-weight: 600;
+  paint-order: stroke; stroke: rgba(4,5,10,0.82); stroke-width: 3px;
+}
 .bubble text {
   fill: #fff;
   text-anchor: middle;

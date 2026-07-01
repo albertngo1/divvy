@@ -7,11 +7,16 @@ export interface CloudHandlers {
   onHover: (d: Idea | null, clientY?: number) => void;
   onSelect: (d: Idea) => void;
   onReady?: () => void;
+  onCursor?: (worldX: number, worldY: number) => void; // local cursor moved (world coords)
 }
+
+export interface CloudPeer { id: string; name: string; color: string; x: number; y: number; }
 
 export interface CloudHandle {
   setDim: (pred: DimPredicate) => void;
   setVotes: (v: Record<string, number>) => void;
+  setPeer: (p: CloudPeer) => void;   // upsert a remote cursor
+  removePeer: (id: string) => void;  // peer left
   destroy: () => void;
 }
 
@@ -300,9 +305,39 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     .on("end", () => { sim.alphaTarget(0).alpha(0.35).restart(); });
   g.call(drag);
 
+  // --- live cursors overlay (topmost, drawn in world coords so they track pan/zoom) ---
+  interface Peer { id: string; name: string; color: string; x: number; y: number; }
+  const cursorsG = viewport.append("g").attr("class", "cursors").style("pointer-events", "none");
+  const peerMap = new Map<string, Peer>();
+  const CURSOR_PATH = "M0 0 L0 15 L4 11.5 L6.6 17.2 L8.7 16.2 L6.1 10.6 L11 10.4 Z";
+  function renderCursors() {
+    const k = d3.zoomTransform(svgEl).k || 1;
+    const sel = cursorsG.selectAll<SVGGElement, Peer>("g.cursor").data([...peerMap.values()], (d) => d.id);
+    const ent = sel.enter().append("g").attr("class", "cursor");
+    ent.append("path").attr("class", "cursor-arrow").attr("d", CURSOR_PATH);
+    ent.append("text").attr("class", "cursor-name").attr("x", 14).attr("y", 13);
+    sel.exit().remove();
+    const all = ent.merge(sel);
+    all.attr("transform", (d) => `translate(${d.x},${d.y}) scale(${1 / k})`); // constant on-screen size
+    all.select<SVGPathElement>(".cursor-arrow").attr("fill", (d) => d.color);
+    all.select<SVGTextElement>(".cursor-name").attr("fill", (d) => d.color).text((d) => d.name);
+  }
+
   const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.02, 4])
-    .on("zoom", (event) => viewport.attr("transform", event.transform.toString()));
+    .on("zoom", (event) => { viewport.attr("transform", event.transform.toString()); renderCursors(); });
   svg.call(zoom).on("dblclick.zoom", null);
+
+  // stream this browser's cursor (in world coords) to peers, throttled
+  let lastCursor = 0;
+  svg.on("mousemove.cursor", (event: MouseEvent) => {
+    if (!handlers.onCursor) return;
+    const now = event.timeStamp;
+    if (now - lastCursor < 45) return;
+    lastCursor = now;
+    const [lx, ly] = d3.pointer(event, svgEl);
+    const [wx, wy] = d3.zoomTransform(svgEl).invert([lx, ly]);
+    handlers.onCursor(wx, wy);
+  });
 
   // pre-settle synchronously
   sim.stop();
@@ -399,11 +434,19 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   return {
     setDim(pred: DimPredicate) { dimPred = pred; applyDim(); },
     setVotes(v: Record<string, number>) { curVotes = v || {}; resize(); paint(); },
+    setPeer(p: CloudPeer) {
+      const ex = peerMap.get(p.id);
+      if (ex) { ex.x = p.x; ex.y = p.y; if (p.name) ex.name = p.name; if (p.color) ex.color = p.color; }
+      else peerMap.set(p.id, { id: p.id, x: p.x, y: p.y, name: p.name || "someone", color: p.color || "#8ab4ff" });
+      renderCursors();
+    },
+    removePeer(id: string) { peerMap.delete(id); renderCursors(); },
     destroy() {
       cancelAnimationFrame(raf);
       window.removeEventListener("resize", onResize);
       window.removeEventListener("keydown", onKeyDown);
       window.removeEventListener("keyup", onKeyUp);
+      svg.on("mousemove.cursor", null);
       sim.stop();
       hueBySlug.clear();
       svg.selectAll("*").remove();

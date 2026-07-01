@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Idea, IdeasFile } from "./types";
 import { canonTags } from "./tags";
-import Cloud from "./components/Cloud";
+import { connectPresence, type PresenceHandle } from "./presence";
+import Cloud, { type CloudApi } from "./components/Cloud";
 import Scoreboard from "./components/Scoreboard";
 import TopBar from "./components/TopBar";
 import Controls from "./components/Controls";
@@ -32,7 +33,23 @@ export default function App() {
   const [voted, setVoted] = useState<Record<string, number>>({}); // this browser's own votes: slug -> 1 | -1
   const votedRef = useRef(voted);
   votedRef.current = voted;
+  const votesRef = useRef(votes);
+  votesRef.current = votes;
   const initialSlug = useRef(new URLSearchParams(window.location.search).get("idea")); // deep-link target
+  const cloudRef = useRef<CloudApi>(null);        // push peer cursors in imperatively
+  const presenceRef = useRef<PresenceHandle | null>(null);
+
+  // realtime presence: live peer cursors + instant vote broadcasts (degrades silently
+  // if the realtime Worker isn't deployed yet)
+  useEffect(() => {
+    const p = connectPresence({
+      onPeer: (peer) => cloudRef.current?.setPeer(peer),
+      onLeave: (id) => cloudRef.current?.removePeer(id),
+      onVote: (slug, count) => setVotes((v) => ({ ...v, [slug]: count })),
+    });
+    presenceRef.current = p;
+    return () => { p.close(); presenceRef.current = null; };
+  }, []);
 
   useEffect(() => {
     fetch("./data/ideas.json", { cache: "no-store" })
@@ -92,12 +109,15 @@ export default function App() {
       if (nextVal === 0) delete n[slug]; else n[slug] = nextVal;
       return n;
     });
-    setVotes((v) => ({ ...v, [slug]: (v[slug] || 0) + delta })); // optimistic
+    const optimistic = (votesRef.current[slug] || 0) + delta;
+    setVotes((v) => ({ ...v, [slug]: optimistic })); // optimistic
+    presenceRef.current?.sendVote(slug, optimistic); // let peers see it immediately
     fetch("./api/vote", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slug, dir }) })
       .then((r) => (r.ok ? r.json() : null))
       .then((res) => {
         if (!res || typeof res.count !== "number") return;
         setVotes((v) => ({ ...v, [slug]: res.count }));
+        presenceRef.current?.sendVote(slug, res.count); // reconcile peers to the server count
         setVoted((prev) => {
           const n = { ...prev };
           if (res.val === 0) delete n[slug]; else n[slug] = res.val;
@@ -162,7 +182,11 @@ export default function App() {
       <Controls search={search} onSearch={setSearch} onRandom={openRandom} />
 
       <main id="stage">
-        <Cloud ideas={ideas} dim={dim} votes={votes} onHover={onHover} onSelect={onSelect} onReady={onReady} />
+        <Cloud
+          ref={cloudRef} ideas={ideas} dim={dim} votes={votes}
+          onHover={onHover} onSelect={onSelect} onReady={onReady}
+          onCursor={(x, y) => presenceRef.current?.sendCursor(x, y)}
+        />
         <Tooltip idea={hovered} votes={hovered ? votes[hovered.slug] || 0 : 0} atBottom={!!hovered && hoverY < 240} />
         <FilterBar search={search} activeTags={activeTags} visible={visibleCount} onClear={clearFilters} />
         <ColorKey />
