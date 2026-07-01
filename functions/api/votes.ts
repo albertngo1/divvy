@@ -1,6 +1,6 @@
-// GET /api/votes  ->  { counts: { "<slug>": <n>, ... }, voted: ["<slug>", ...] }
-// counts = distinct voters per idea; voted = the slugs THIS browser (cookie identity)
-// has voted for. Sets the anonymous id cookie on first visit so voting is stable.
+// GET /api/votes  ->  { counts: { "<slug>": <netVotes>, ... }, mine: { "<slug>": 1 | -1 } }
+// counts = SUM(val) per idea (can be negative); mine = this browser's own up/down votes.
+// Sets the anonymous id cookie on first visit so voting is stable.
 interface Env { DB: D1Database }
 
 const COOKIE = "divvy_uid";
@@ -13,7 +13,7 @@ function readUid(request: Request): string | null {
 
 async function ensureTable(env: Env) {
   await env.DB.prepare(
-    "CREATE TABLE IF NOT EXISTS votes_by_user (slug TEXT NOT NULL, voter TEXT NOT NULL, PRIMARY KEY (slug, voter))"
+    "CREATE TABLE IF NOT EXISTS vote_rows (slug TEXT NOT NULL, voter TEXT NOT NULL, val INTEGER NOT NULL, PRIMARY KEY (slug, voter))"
   ).run();
 }
 
@@ -27,12 +27,13 @@ export const onRequestGet = async ({ request, env }: { request: Request; env: En
   try {
     await ensureTable(env);
     const counts: Record<string, number> = {};
-    const all = await env.DB.prepare("SELECT slug, COUNT(*) AS count FROM votes_by_user GROUP BY slug").all<{ slug: string; count: number }>();
+    const all = await env.DB.prepare("SELECT slug, SUM(val) AS count FROM vote_rows GROUP BY slug").all<{ slug: string; count: number }>();
     for (const r of all.results ?? []) counts[r.slug] = r.count;
-    const mine = await env.DB.prepare("SELECT slug FROM votes_by_user WHERE voter = ?").bind(uid).all<{ slug: string }>();
-    const voted = (mine.results ?? []).map((r) => r.slug);
-    return Response.json({ counts, voted }, { headers });
+    const mine: Record<string, number> = {};
+    const rows = await env.DB.prepare("SELECT slug, val FROM vote_rows WHERE voter = ?").bind(uid).all<{ slug: string; val: number }>();
+    for (const r of rows.results ?? []) mine[r.slug] = r.val;
+    return Response.json({ counts, mine }, { headers });
   } catch {
-    return Response.json({ counts: {}, voted: [] }, { headers });
+    return Response.json({ counts: {}, mine: {} }, { headers });
   }
 };

@@ -232,21 +232,68 @@ body::after {
 .tooltip.at-bottom { top: auto; bottom: 22px; }
 .tooltip .tt-votes { color: var(--tt-accent, #fff); border-color: var(--tt-accent, var(--line-strong)); font-weight: 700; }
 
-/* upvote button (PRD panel) */
-.upvote {
+/* up/down vote box (PRD panel) */
+.votebox {
   margin-top: 18px;
-  display: inline-flex; align-items: center; gap: 9px;
-  padding: 9px 16px;
-  background: var(--accent-soft); border: 1px solid var(--accent);
-  color: var(--accent); border-radius: 999px;
-  font-family: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease, transform 0.12s ease;
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 5px 8px;
+  background: rgba(255,255,255,0.04); border: 1px solid var(--line);
+  border-radius: 999px;
 }
-.upvote:hover { transform: translateY(-1px); }
-.upvote.voted, .upvote:active { background: var(--accent); color: #0c0d12; }
-.upvote .upvote-arrow { font-size: 12px; }
-.upvote .upvote-count { font-variant-numeric: tabular-nums; }
-.upvote .upvote-label { font-size: 11px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.85; }
+.votebtn {
+  width: 30px; height: 30px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: transparent; border: none; cursor: pointer;
+  color: var(--ink-dim); font-size: 13px; line-height: 1;
+  transition: background 0.14s ease, color 0.14s ease, transform 0.1s ease;
+}
+.votebtn:hover { transform: translateY(-1px); color: var(--ink); }
+.votebtn.up.on { background: #4ade80; color: #06210f; }      /* upvoted → warm/green accent */
+.votebtn.down.on { background: #f87171; color: #2a0808; }    /* downvoted → red accent */
+.votebox-count {
+  min-width: 22px; text-align: center;
+  font-variant-numeric: tabular-nums; font-weight: 700; font-size: 15px; color: var(--ink);
+}
+.votebox-count.pos { color: #7ef0a6; }
+.votebox-count.neg { color: #ff9b9b; }
+
+/* top-ideas scoreboard (left side, clear of the right panel) */
+.scoreboard {
+  position: fixed; left: 28px; top: 158px; z-index: 6;
+  width: 240px; max-height: 46vh; display: flex; flex-direction: column;
+  background: var(--bg-soft); backdrop-filter: blur(20px);
+  border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
+}
+.sb-head {
+  display: flex; align-items: center; justify-content: space-between; width: 100%;
+  padding: 12px 15px; background: none; border: none; cursor: pointer;
+  color: var(--ink); font-family: inherit; font-size: 12px; font-weight: 650;
+  letter-spacing: 0.05em; text-transform: uppercase;
+}
+.sb-chevron { transition: transform 0.2s ease; opacity: 0.55; }
+.scoreboard.collapsed .sb-chevron { transform: rotate(-90deg); }
+.sb-list { list-style: none; margin: 0; padding: 0 8px 10px; overflow-y: auto; }
+.scoreboard.collapsed .sb-list { display: none; }
+.sb-row {
+  display: flex; align-items: center; gap: 9px; width: 100%;
+  padding: 7px 8px; background: none; border: none; border-radius: 9px;
+  color: var(--ink-dim); font-family: inherit; font-size: 12.5px; cursor: pointer; text-align: left;
+  transition: background 0.13s ease, color 0.13s ease;
+}
+.sb-row:hover { background: rgba(255,255,255,0.06); color: var(--ink); }
+.sb-rank { width: 15px; text-align: center; font-variant-numeric: tabular-nums; opacity: 0.5; font-weight: 700; }
+.sb-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sb-votes { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink-dim); }
+.sb-votes.pos { color: #7ef0a6; }
+.sb-votes.neg { color: #ff9b9b; }
+
+/* when the side panel opens, slide the top controls clear of it (desktop only) */
+.controls { transition: transform 0.34s cubic-bezier(0.22, 1, 0.36, 1); }
+.topbar .meta { transition: opacity 0.28s ease, transform 0.34s cubic-bezier(0.22, 1, 0.36, 1); }
+@media (min-width: 900px) {
+  body.panel-open .controls { transform: translateX(calc(min(580px, 94vw) / -2)); }
+  body.panel-open .topbar .meta { opacity: 0; transform: translateX(-30px); pointer-events: none; }
+}
 .tooltip .tt-title {
   font-family: "Fraunces", serif; font-weight: 900; font-size: 18px;
   line-height: 1.12; letter-spacing: -0.01em; margin-bottom: 7px;

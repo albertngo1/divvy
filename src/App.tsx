@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Idea, IdeasFile } from "./types";
 import { canonTags } from "./tags";
 import Cloud from "./components/Cloud";
+import Scoreboard from "./components/Scoreboard";
 import TopBar from "./components/TopBar";
 import Controls from "./components/Controls";
 import TagFilter from "./components/TagFilter";
@@ -27,8 +28,8 @@ export default function App() {
   const [selected, setSelected] = useState<Idea | null>(null);
   const [hovered, setHovered] = useState<Idea | null>(null);
   const [hoverY, setHoverY] = useState(0);
-  const [votes, setVotes] = useState<Record<string, number>>({});
-  const [voted, setVoted] = useState<Set<string>>(new Set()); // server-authoritative (anon cookie identity)
+  const [votes, setVotes] = useState<Record<string, number>>({}); // net count per idea (can be negative)
+  const [voted, setVoted] = useState<Record<string, number>>({}); // this browser's own votes: slug -> 1 | -1
   const votedRef = useRef(voted);
   votedRef.current = voted;
 
@@ -43,6 +44,7 @@ export default function App() {
   }, []);
 
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
+  useEffect(() => { document.body.classList.toggle("panel-open", !!selected); }, [selected]);
 
   // Live multi-user sync: poll the shared vote counts every few seconds (and on tab focus)
   // so everyone sees each other's upvotes within seconds — bubbles recolor/resize live.
@@ -51,12 +53,12 @@ export default function App() {
     let alive = true;
     const pull = (initial = false) =>
       fetch("./api/votes", { cache: "no-store" })
-        .then((r) => (r.ok ? r.json() : { counts: {}, voted: [] }))
+        .then((r) => (r.ok ? r.json() : { counts: {}, mine: {} }))
         .then((data) => {
           if (!alive) return;
           const next: Record<string, number> = data.counts || {};
           setVotes((prev) => (sameCounts(prev, next) ? prev : next)); // keep ref stable if unchanged
-          if (initial) setVoted(new Set<string>(data.voted || []));
+          if (initial) setVoted(data.mine || {});
         })
         .catch(() => {});
     pull(true);
@@ -66,18 +68,27 @@ export default function App() {
     return () => { alive = false; clearInterval(id); document.removeEventListener("visibilitychange", onVis); };
   }, []);
 
-  const upvote = useCallback((slug: string) => {
-    const has = votedRef.current.has(slug);
-    const next = new Set(votedRef.current);
-    has ? next.delete(slug) : next.add(slug);
-    setVoted(next);
-    setVotes((v) => ({ ...v, [slug]: Math.max(0, (v[slug] || 0) + (has ? -1 : 1)) })); // optimistic
-    fetch("./api/vote", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slug }) })
+  // dir = +1 (up) or -1 (down); clicking the current direction again clears the vote
+  const vote = useCallback((slug: string, dir: 1 | -1) => {
+    const cur = votedRef.current[slug] || 0;
+    const nextVal = cur === dir ? 0 : dir;
+    const delta = nextVal - cur;
+    setVoted((prev) => {
+      const n = { ...prev };
+      if (nextVal === 0) delete n[slug]; else n[slug] = nextVal;
+      return n;
+    });
+    setVotes((v) => ({ ...v, [slug]: (v[slug] || 0) + delta })); // optimistic
+    fetch("./api/vote", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slug, dir }) })
       .then((r) => (r.ok ? r.json() : null))
       .then((res) => {
         if (!res || typeof res.count !== "number") return;
         setVotes((v) => ({ ...v, [slug]: res.count }));
-        setVoted((prev) => { const s = new Set(prev); res.voted ? s.add(slug) : s.delete(slug); return s; });
+        setVoted((prev) => {
+          const n = { ...prev };
+          if (res.val === 0) delete n[slug]; else n[slug] = res.val;
+          return n;
+        });
       })
       .catch(() => { /* keep optimistic value */ });
   }, []);
@@ -141,14 +152,15 @@ export default function App() {
         <Tooltip idea={hovered} votes={hovered ? votes[hovered.slug] || 0 : 0} atBottom={!!hovered && hoverY < 240} />
         <FilterBar search={search} activeTags={activeTags} visible={visibleCount} onClear={clearFilters} />
         <ColorKey />
+        <Scoreboard ideas={ideas} votes={votes} onOpen={setSelected} />
       </main>
 
       <TagFilter ideas={ideas} activeTags={activeTags} onToggle={toggleTag} onClear={clearFilters} />
       <IdeaPanel
         idea={selected} onClose={() => setSelected(null)} onToggleTag={toggleTag} activeTags={activeTags}
         voteCount={selected ? votes[selected.slug] || 0 : 0}
-        hasVoted={selected ? voted.has(selected.slug) : false}
-        onUpvote={upvote}
+        myVote={selected ? voted[selected.slug] || 0 : 0}
+        onVote={vote}
       />
     </>
   );

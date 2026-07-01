@@ -281,7 +281,8 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   function resize() {
     let changed = false;
     for (const n of nodes) {
-      const nr = n._baseR! * (1 + VOTE_SIZE * Math.min(curVotes[n.slug] || 0, 8));
+      const v = Math.max(-4, Math.min(8, curVotes[n.slug] || 0)); // downvotes shrink, upvotes grow
+      const nr = n._baseR! * Math.max(0.55, 1 + VOTE_SIZE * v);
       if (Math.abs(nr - n.r) > 0.5) { n.r = nr; changed = true; }
     }
     if (!changed) return;
