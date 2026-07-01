@@ -6,20 +6,22 @@ import { colorOf } from "../cloud";
 // hovered bubble is up in the tooltip's zone — so it never hides what you're pointing at.
 export default function Tooltip({ idea, votes, atBottom }: { idea: Idea | null; votes: number; atBottom: boolean }) {
   const [shown, setShown] = useState<Idea | null>(null);
+  const [pos, setPos] = useState(false); // latched at-bottom; only changes on a real hover, not during fade-out
   const timer = useRef<number>();
 
   useEffect(() => {
     if (idea) {
       if (timer.current) clearTimeout(timer.current);
       setShown(idea);
+      setPos(atBottom); // update position only while a bubble is actually hovered
     } else {
       timer.current = window.setTimeout(() => setShown(null), 200);
     }
     return () => { if (timer.current) clearTimeout(timer.current); };
-  }, [idea]);
+  }, [idea, atBottom]);
 
   const style = shown ? ({ ["--tt-accent" as never]: colorOf(shown) }) : undefined;
-  const cls = "tooltip" + (idea ? " show" : "") + (atBottom ? " at-bottom" : "");
+  const cls = "tooltip" + (idea ? " show" : "") + (pos ? " at-bottom" : "");
 
   return (
     <div id="tooltip" className={cls} style={style}>
