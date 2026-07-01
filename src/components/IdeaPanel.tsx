@@ -55,7 +55,7 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
     <aside id="panel" className={"panel" + (idea ? " open" : "")} style={style} aria-hidden={!idea}>
       <button id="panel-close" className="panel-close" aria-label="close" onClick={onClose}>✕</button>
       {shown && (
-        <>
+        <div className="panel-scroll">
           <div className="panel-head">
             <div id="panel-tags" className="tags">
               <span className="score-chip" style={{ color: accent, borderColor: colorAlpha(shown, 0.6) }}>
@@ -79,7 +79,7 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
             </button>
           </div>
           <article id="panel-prd" className="prd" style={{ opacity: loading ? 0 : 1 }} dangerouslySetInnerHTML={{ __html: html }} />
-        </>
+        </div>
       )}
     </aside>
   );
