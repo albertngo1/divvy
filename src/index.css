@@ -307,11 +307,12 @@ body::after {
 .sb-votes.neg { color: #ff9b9b; }
 
 /* when the side panel opens, slide the top controls clear of it (desktop only) */
-.controls { transition: transform 0.34s cubic-bezier(0.22, 1, 0.36, 1); }
+.controls { transition: left 0.34s cubic-bezier(0.22, 1, 0.36, 1); }
 .topbar .meta { transition: opacity 0.28s ease, transform 0.34s cubic-bezier(0.22, 1, 0.36, 1); }
-@media (min-width: 900px) {
-  /* keep the -50% centering AND shift fully clear of the panel (+ a comfortable gap) */
-  body.panel-open .controls { transform: translateX(calc(-50% - min(580px, 94vw) / 2 - 24px)); }
+/* only re-center when the viewport is wide enough for the controls to sit beside the panel */
+@media (min-width: 1024px) {
+  /* recenter the controls in the space left of the panel — scales with the viewport */
+  body.panel-open .controls { left: calc((100vw - min(580px, 94vw)) / 2); }
   body.panel-open .topbar .meta { opacity: 0; transform: translateX(-30px); pointer-events: none; }
 }
 .tooltip .tt-title {
