@@ -11,10 +11,12 @@ binding = "DB"
 database_name = "divvy"
 database_id = "9b02171a-5849-4e7e-aaba-0b7d76a9098f"
 
-# Realtime presence (live cursors + vote broadcasts). Binds the PresenceRoom Durable
-# Object from the separate divvy-realtime Worker — deploy that first:
-#   cd realtime && npm install && npx wrangler deploy
-[[durable_objects.bindings]]
-name = "ROOM"
-class_name = "PresenceRoom"
-script_name = "divvy-realtime"
+# Realtime presence (live cursors + vote broadcasts). This binding is COMMENTED OUT until
+# the divvy-realtime Worker is deployed — Pages fails the whole deploy if it references a
+# Worker that doesn't exist yet. To enable live cursors:
+#   1) cd realtime && npm install && npx wrangler deploy   (deploys divvy-realtime + PresenceRoom)
+#   2) uncomment the block below and push (Pages rebinds ROOM on the next build)
+# [[durable_objects.bindings]]
+# name = "ROOM"
+# class_name = "PresenceRoom"
+# script_name = "divvy-realtime"

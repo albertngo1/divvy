@@ -12,6 +12,7 @@ export const onRequest = async ({ request, env }: { request: Request; env: Env }
   if (request.headers.get("Upgrade") !== "websocket") {
     return new Response("expected websocket", { status: 426 });
   }
+  if (!env.ROOM) return new Response("realtime not enabled", { status: 503 }); // binding parked until Worker deployed
   const id = env.ROOM.idFromName("divvy-global");
   return env.ROOM.get(id).fetch(request);
 };
