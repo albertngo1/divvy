@@ -408,23 +408,50 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   window.addEventListener("keydown", onKeyDown);
   window.addEventListener("keyup", onKeyUp);
 
+  // The static (sun) end of each spoke never moves — set it once, not every frame.
+  linkSel.attr("x2", (d) => gpos[d.galaxy!].x).attr("y2", (d) => gpos[d.galaxy!].y);
+  // Cache raw DOM nodes (parallel to `nodes`) so the hot loop bypasses d3's per-element
+  // machinery, and place everything once so culled/offscreen bubbles still sit correctly.
+  const gEls = g.nodes();
+  const lineEls = linkSel.nodes();
+  for (let i = 0; i < nodes.length; i++) {
+    const d = nodes[i];
+    d._rx = d.x; d._ry = d.y;
+    gEls[i].setAttribute("transform", `translate(${d.x},${d.y})`);
+    lineEls[i].setAttribute("x1", `${d.x}`); lineEls[i].setAttribute("y1", `${d.y}`);
+  }
+
   let raf = 0;
+  let lastWobble = 0;
   function floatFrame(ts: number) {
-    const t = ts / 1000;
-    nodes.forEach((d) => {
-      const sx = 0.45 + (d._ph % 0.7);
-      const sy = 0.4 + ((d._ph * 1.3) % 0.7);
-      d._rx = d.x + Math.sin(t * sx + d._ph) * 8;
-      d._ry = d.y + Math.cos(t * sy + d._ph * 1.3) * 7;
-    });
-    g.attr("transform", (d) => `translate(${d._rx},${d._ry})`);
-    linkSel.attr("x1", (d) => d._rx!).attr("y1", (d) => d._ry!).attr("x2", (d) => gpos[d.galaxy!].x).attr("y2", (d) => gpos[d.galaxy!].y);
+    // pan every frame so key-held panning stays smooth
     if (panKeys.size) {
       let dx = 0, dy = 0;
       panKeys.forEach((k) => { dx += PAN_MAP[k][0]; dy += PAN_MAP[k][1]; });
       if (dx || dy) {
         const step = 7 / d3.zoomTransform(svgEl).k; // constant on-screen speed at any zoom
         svg.call(zoom.translateBy, dx * step, dy * step);
+      }
+    }
+    // ambient wobble: ~33fps, and only redraw bubbles currently on screen (viewport cull)
+    if (ts - lastWobble >= 30) {
+      lastWobble = ts;
+      const t = ts / 1000;
+      const tf = d3.zoomTransform(svgEl);
+      const pad = 90 / tf.k;
+      const [vx0, vy0] = tf.invert([0, 0]);
+      const [vx1, vy1] = tf.invert([width, height]);
+      const minX = vx0 - pad, minY = vy0 - pad, maxX = vx1 + pad, maxY = vy1 + pad;
+      for (let i = 0; i < nodes.length; i++) {
+        const d = nodes[i];
+        if (d.x < minX || d.x > maxX || d.y < minY || d.y > maxY) continue; // offscreen → skip
+        const sx = 0.45 + (d._ph % 0.7);
+        const sy = 0.4 + ((d._ph * 1.3) % 0.7);
+        const rx = d.x + Math.sin(t * sx + d._ph) * 8;
+        const ry = d.y + Math.cos(t * sy + d._ph * 1.3) * 7;
+        d._rx = rx; d._ry = ry;
+        gEls[i].setAttribute("transform", `translate(${rx},${ry})`);
+        lineEls[i].setAttribute("x1", `${rx}`); lineEls[i].setAttribute("y1", `${ry}`);
       }
     }
     raf = requestAnimationFrame(floatFrame);
