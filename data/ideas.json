@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "upstream",
+      "title": "Upstream",
+      "hook": "A Satisfactory-style conveyor puzzle where you build belts to route commits between repos — splitters are branches, mergers are merges, and jams are merge conflicts.",
+      "tags": [
+        "puzzle",
+        "git",
+        "factory"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "marked-deck",
+      "title": "Marked Deck",
+      "hook": "Send the same document to five people and every copy carries a unique invisible fingerprint, so when one leaks you know exactly which card was marked.",
+      "tags": [
+        "steganography",
+        "security",
+        "privacy"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "dowser",
+      "title": "Dowser",
+      "hook": "A $20 mmWave radar board skinned as a mystical dowsing rod that actually finds studs, pipes, and water behind your walls by classifying material permittivity.",
+      "tags": [
+        "radar",
+        "hardware",
+        "diy"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "mainspring",
+      "title": "Mainspring",
+      "hook": "A pull-back toy-car derby where you engineer the spring, gears, and wheels to nail a target distance — a child's toy tuned with the seriousness of a real drivetrain.",
+      "tags": [
+        "physics",
+        "game",
+        "engineering"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "cold-spot",
       "title": "Cold Spot",
       "hook": "Phasmophobia for your laptop: something is haunting your battery, so grab your evidence tools, cross off the bestiary, and name the poltergeist process before it drains you.",
