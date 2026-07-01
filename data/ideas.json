@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "compost",
+      "title": "Compost",
+      "hook": "Drop one image into a bin and walk away — an image model quietly re-eats its own output once a day for a year, slowly rotting your picture into abstract humus you can plant a new seed in.",
+      "tags": [
+        "ambient",
+        "generative",
+        "year-long"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "understudy",
+      "title": "Understudy",
+      "hook": "A slow apprenticeship game where you learn a dying craft only by watching the last aging master — and any technique you fail to master before they pass is erased from your save forever.",
+      "tags": [
+        "slow-game",
+        "permadeath",
+        "craft"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cutaway",
+      "title": "Cutaway",
+      "hook": "Paste a tiny function and watch it explode into an animated mechanical teardown diagram — registers as labeled parts, data flowing through the gears like a wound-up pull-back car.",
+      "tags": [
+        "assembly",
+        "teardown",
+        "education"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "home-turf",
+      "title": "Home Turf",
+      "hook": "Generate a Project-Zomboid-style zombie-survival map of your actual neighborhood from real OpenStreetMap data, with your own house as the starting safehouse.",
+      "tags": [
+        "gis",
+        "survival",
+        "procgen"
+      ],
+      "score": 75,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "sublevel",
       "title": "Sublevel",
       "hook": "An underground garden that only grows while you're away from the keyboard — touch a key and the sunlight burns your mushrooms.",
