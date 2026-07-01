@@ -120,7 +120,9 @@ async function openPanel(d) {
   try {
     const res = await fetch(`./data/prds/${d.slug}.md`, { cache: "no-store" });
     if (!res.ok) throw new Error(res.status);
-    prdEl.innerHTML = marked.parse(await res.text());
+    // strip a leading H1 that just repeats the title (the panel already shows it)
+    const md = (await res.text()).replace(/^\s*#\s+.*\r?\n+/, "");
+    prdEl.innerHTML = marked.parse(md);
   } catch (e) {
     prdEl.innerHTML = "<p style='color:var(--ink-dim)'>No PRD written yet for this idea.</p>";
   }
