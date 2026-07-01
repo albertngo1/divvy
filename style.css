@@ -139,8 +139,6 @@ body::after {
 /* tag filter is a click-to-open dropdown on all screens */
 .tf-head { cursor: pointer; }
 .tf-chevron { display: inline-block; transition: transform 0.2s ease; color: var(--ink-faint); font-size: 11px; }
-.tagfilter.collapsed { grid-template-rows: auto 0fr; }
-.tagfilter.collapsed .tf-list { opacity: 0; }
 .tagfilter.collapsed .tf-chevron { transform: rotate(-90deg); }
 #cloud:active { cursor: grabbing; }
 
@@ -208,41 +206,44 @@ body::after {
   padding: 2px 8px;
 }
 
-/* ---- fixed tag filter panel (below the title) ---- */
+/* ---- tag filter: click-to-open dropdown (header bar + ABSOLUTE overlay list) ---- */
+/* The list is position:absolute so opening/closing never reflows layout -> zero jitter. */
 .tagfilter {
   position: fixed;
   top: 84px; left: 26px;
   z-index: 6;
   width: 224px;
-  max-height: 58vh;
-  display: grid; grid-template-rows: auto minmax(0, 1fr);
-  padding: 14px 14px 10px;
+}
+.tf-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 11px 14px; cursor: pointer;
+  font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-faint);
   background: rgba(16, 18, 26, 0.62);
   backdrop-filter: blur(var(--blur));
   border: 1px solid var(--line);
-  border-radius: 16px;
-  box-shadow: 0 16px 40px rgba(0,0,0,0.35);
-  overflow: hidden;
-  /* animate the LIST ROW height (1fr->0fr) — clips smoothly, never reflows the chips */
-  transition: grid-template-rows 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 13px;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
-.tf-list { transition: opacity 0.22s ease; min-height: 0; }
-.tf-head {
-  display: flex; align-items: center; justify-content: space-between;
-  font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase;
-  color: var(--ink-faint); margin-bottom: 11px;
-}
+.tf-head:hover { color: var(--ink); border-color: var(--line-strong); }
 .tf-clear {
   background: none; border: none; cursor: pointer;
   color: var(--c-steam); font-size: 11px; letter-spacing: 0; text-transform: none;
 }
 .tf-clear:hover { color: #fff; }
 .tf-list {
-  display: flex; flex-wrap: wrap; gap: 6px;
-  overflow-y: auto;
-  scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.16) transparent;
-  scrollbar-gutter: stable; /* reserve scrollbar space so chips don't rewrap/jitter on collapse */
+  position: absolute; top: calc(100% + 8px); left: 0; right: 0;
+  max-height: 56vh; overflow-y: auto;
+  display: flex; flex-wrap: wrap; gap: 6px; padding: 14px;
+  background: rgba(16, 18, 26, 0.94);
+  backdrop-filter: blur(var(--blur));
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  box-shadow: 0 18px 44px rgba(0,0,0,0.5);
+  scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.16) transparent; scrollbar-gutter: stable;
+  transform-origin: top center;
+  transition: opacity 0.2s ease, transform 0.24s cubic-bezier(0.22, 1, 0.36, 1);
 }
+.tagfilter.collapsed .tf-list { opacity: 0; transform: translateY(-8px) scaleY(0.96); pointer-events: none; }
 .tf-list::-webkit-scrollbar { width: 8px; }
 .tf-list::-webkit-scrollbar-track { background: transparent; }
 .tf-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.16); border-radius: 99px; border: 2px solid transparent; background-clip: padding-box; }
@@ -579,16 +580,17 @@ body::after {
   /* active-filter pill: top-right under controls, out of the bottom sheet's way */
   .filterbar { top: 108px; right: 14px; left: auto; bottom: auto; }
 
-  /* tag filter becomes a collapsible bottom sheet */
-  .tagfilter {
-    top: auto; bottom: 0; left: 0; right: 0;
-    width: auto; max-height: 44vh;
-    border-radius: 16px 16px 0 0;
-    border-bottom: none;
-    padding: 12px 14px calc(12px + env(safe-area-inset-bottom));
+  /* tag filter: bottom bar; list opens UPWARD as an overlay */
+  .tagfilter { top: auto; bottom: 0; left: 12px; right: 12px; width: auto; }
+  .tf-head {
+    padding: 13px 16px calc(13px + env(safe-area-inset-bottom));
+    border-radius: 14px 14px 0 0;
   }
-  .tf-head { cursor: pointer; margin-bottom: 12px; }
-  .tf-chevron { display: inline-block; transition: transform 0.2s ease; color: var(--ink-faint); }
+  .tf-list {
+    top: auto; bottom: calc(100% + 8px); left: 0; right: 0;
+    max-height: 52vh; transform-origin: bottom center;
+  }
+  .tagfilter.collapsed .tf-list { transform: translateY(10px) scaleY(0.96); }
 
   /* PRD panel: full width, tighter */
   .panel { width: 100vw; padding: 26px 20px calc(60px + env(safe-area-inset-bottom)); }
