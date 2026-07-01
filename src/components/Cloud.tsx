@@ -6,6 +6,7 @@ interface Props {
   ideas: Idea[];
   dim: DimPredicate;
   votes: Record<string, number>;
+  seen: Set<string>;
   onHover: (d: Idea | null, y?: number) => void;
   onSelect: (d: Idea) => void;
   onReady: () => void;
@@ -19,7 +20,7 @@ export interface CloudApi {
 }
 
 const Cloud = forwardRef<CloudApi, Props>(function Cloud(
-  { ideas, dim, votes, onHover, onSelect, onReady, onCursor },
+  { ideas, dim, votes, seen, onHover, onSelect, onReady, onCursor },
   ref,
 ) {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -37,6 +38,7 @@ const Cloud = forwardRef<CloudApi, Props>(function Cloud(
     handleRef.current = handle;
     handle.setDim(dim);
     handle.setVotes(votes);
+    handle.setSeen(seen);
     return () => handle.destroy();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ideas]);
@@ -46,6 +48,9 @@ const Cloud = forwardRef<CloudApi, Props>(function Cloud(
 
   // recolor from "heat" (score + votes) whenever counts change
   useEffect(() => { handleRef.current?.setVotes(votes); }, [votes]);
+
+  // update the "unseen" pips as you open bubbles
+  useEffect(() => { handleRef.current?.setSeen(seen); }, [seen]);
 
   return <svg id="cloud" ref={svgRef} aria-label="idea cloud" />;
 });

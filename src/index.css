@@ -199,6 +199,10 @@ body::after {
 .link { stroke: rgba(198,214,255,0.32); stroke-width: 1.1; pointer-events: none; }
 .link.lit { stroke: rgba(220,232,255,0.7); stroke-width: 1.5; }
 
+/* "unseen" pip — a small glowing dot marking bubbles you haven't opened yet */
+.newpip { fill: #ffd166; filter: drop-shadow(0 0 3px rgba(255,209,102,0.9)); }
+.bubble.seen .newpip { display: none; }
+
 /* live peer cursors */
 .cursor { transition: transform 0.09s linear; }
 .cursor-arrow { stroke: rgba(4,5,10,0.6); stroke-width: 1; }
@@ -302,9 +306,8 @@ body::after {
 .sb-row:hover { background: rgba(255,255,255,0.06); color: var(--ink); }
 .sb-rank { width: 15px; text-align: center; font-variant-numeric: tabular-nums; opacity: 0.5; font-weight: 700; }
 .sb-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sb-votes { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink-dim); }
-.sb-votes.pos { color: #7ef0a6; }
-.sb-votes.neg { color: #ff9b9b; }
+.sb-votes { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink); min-width: 26px; text-align: right; }
+.sb-views { font-size: 11px; color: var(--ink-dim); opacity: 0.72; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 /* when the side panel opens, slide the top controls clear of it (desktop only) */
 .controls { transition: left 0.34s cubic-bezier(0.22, 1, 0.36, 1); }

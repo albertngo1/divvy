@@ -17,11 +17,12 @@ interface Props {
   onToggleTag: (tag: string) => void;
   activeTags: Set<string>;
   voteCount: number;
+  viewCount: number;
   myVote: number; // 1, -1, or 0
   onVote: (slug: string, dir: 1 | -1) => void;
 }
 
-export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, voteCount, myVote, onVote }: Props) {
+export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, voteCount, viewCount, myVote, onVote }: Props) {
   const [shown, setShown] = useState<Idea | null>(null); // keeps content during slide-out
   const [html, setHtml] = useState("");
   const [loading, setLoading] = useState(false);
@@ -76,6 +77,7 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
                 score {heuristicScore(shown.score, voteCount)}
               </span>
               {shown.created && <span className="date-chip">added {fmtDate(shown.created)}</span>}
+              <span className="date-chip">👁 {viewCount} {viewCount === 1 ? "view" : "views"}</span>
               {canonTags(shown.tags).map((t) => (
                 <span key={t} className={activeTags.has(t) ? "active" : ""} onClick={() => onToggleTag(t)}>{t}</span>
               ))}

@@ -31,6 +31,10 @@ export default function App() {
   const [hoverY, setHoverY] = useState(0);
   const [votes, setVotes] = useState<Record<string, number>>({}); // net count per idea (can be negative)
   const [voted, setVoted] = useState<Record<string, number>>({}); // this browser's own votes: slug -> 1 | -1
+  const [views, setViews] = useState<Record<string, number>>({}); // shared total view counts
+  const [seen, setSeen] = useState<Set<string>>(() => {           // slugs THIS browser has opened
+    try { return new Set<string>(JSON.parse(localStorage.getItem("divvy_seen") || "[]")); } catch { return new Set(); }
+  });
   const votedRef = useRef(voted);
   votedRef.current = voted;
   const votesRef = useRef(votes);
@@ -74,6 +78,23 @@ export default function App() {
     window.history.replaceState(null, "", url);
   }, [selected]);
 
+  // opening an idea = a view: bump the shared count, and mark it seen for this browser
+  useEffect(() => {
+    const slug = selected?.slug;
+    if (!slug) return;
+    setViews((v) => ({ ...v, [slug]: (v[slug] || 0) + 1 })); // optimistic
+    fetch("./api/view", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slug }) })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((res) => { if (res && typeof res.count === "number") setViews((v) => ({ ...v, [slug]: res.count })); })
+      .catch(() => {});
+    setSeen((prev) => {
+      if (prev.has(slug)) return prev;
+      const n = new Set(prev); n.add(slug);
+      try { localStorage.setItem("divvy_seen", JSON.stringify([...n])); } catch { /* ignore */ }
+      return n;
+    });
+  }, [selected?.slug]);
+
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
   useEffect(() => { document.body.classList.toggle("panel-open", !!selected); }, [selected]);
 
@@ -89,6 +110,7 @@ export default function App() {
           if (!alive) return;
           const next: Record<string, number> = data.counts || {};
           setVotes((prev) => (sameCounts(prev, next) ? prev : next)); // keep ref stable if unchanged
+          setViews((prev) => (sameCounts(prev, data.views || {}) ? prev : (data.views || {})));
           if (initial) setVoted(data.mine || {});
         })
         .catch(() => {});
@@ -183,20 +205,21 @@ export default function App() {
 
       <main id="stage">
         <Cloud
-          ref={cloudRef} ideas={ideas} dim={dim} votes={votes}
+          ref={cloudRef} ideas={ideas} dim={dim} votes={votes} seen={seen}
           onHover={onHover} onSelect={onSelect} onReady={onReady}
           onCursor={(x, y) => presenceRef.current?.sendCursor(x, y)}
         />
         <Tooltip idea={hovered} votes={hovered ? votes[hovered.slug] || 0 : 0} atBottom={!!hovered && hoverY < 240} />
         <FilterBar search={search} activeTags={activeTags} visible={visibleCount} onClear={clearFilters} />
         <ColorKey />
-        <Scoreboard ideas={ideas} votes={votes} onOpen={setSelected} />
+        <Scoreboard ideas={ideas} votes={votes} views={views} onOpen={setSelected} />
       </main>
 
       <TagFilter ideas={ideas} activeTags={activeTags} onToggle={toggleTag} onClear={clearFilters} />
       <IdeaPanel
         idea={selected} onClose={() => setSelected(null)} onToggleTag={toggleTag} activeTags={activeTags}
         voteCount={selected ? votes[selected.slug] || 0 : 0}
+        viewCount={selected ? views[selected.slug] || 0 : 0}
         myVote={selected ? voted[selected.slug] || 0 : 0}
         onVote={vote}
       />

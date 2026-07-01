@@ -15,6 +15,7 @@ export interface CloudPeer { id: string; name: string; color: string; x: number;
 export interface CloudHandle {
   setDim: (pred: DimPredicate) => void;
   setVotes: (v: Record<string, number>) => void;
+  setSeen: (seen: Set<string>) => void; // mark which bubbles this browser has opened
   setPeer: (p: CloudPeer) => void;   // upsert a remote cursor
   removePeer: (id: string) => void;  // peer left
   destroy: () => void;
@@ -248,6 +249,9 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     .attr("fill", (d) => `url(#grad-${d.slug})`)
     .attr("stroke", (d) => colorAlpha(d, 0.85)).attr("stroke-width", 1.4);
   g.append("text").each(function (this: SVGTextElement, d) { fitText(this, d); });
+  // "unseen" pip (top-right); hidden once the bubble is marked seen
+  g.append("circle").attr("class", "newpip").attr("r", 4)
+    .attr("cx", (d) => d.r * 0.72).attr("cy", (d) => -d.r * 0.72).style("pointer-events", "none");
 
   // recolor every bubble from its "heat" (AI score + weighted upvotes), spread by
   // percentile rank so the spectrum is fully used. Cheap enough to re-run on each vote.
@@ -293,6 +297,7 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     if (!changed) return;
     g.select<SVGCircleElement>("circle.halo").attr("r", (d) => d.r * 1.5);
     g.select<SVGCircleElement>("circle.body").attr("r", (d) => d.r);
+    g.select<SVGCircleElement>("circle.newpip").attr("cx", (d) => d.r * 0.72).attr("cy", (d) => -d.r * 0.72);
     g.select<SVGTextElement>("text").each(function (this: SVGTextElement, d) { fitText(this, d); });
     sim.alpha(0.4).restart(); // let collide re-space around the grown bubbles
   }
@@ -434,6 +439,7 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   return {
     setDim(pred: DimPredicate) { dimPred = pred; applyDim(); },
     setVotes(v: Record<string, number>) { curVotes = v || {}; resize(); paint(); },
+    setSeen(seen: Set<string>) { g.classed("seen", (d) => seen.has(d.slug)); },
     setPeer(p: CloudPeer) {
       const ex = peerMap.get(p.id);
       if (ex) { ex.x = p.x; ex.y = p.y; if (p.name) ex.name = p.name; if (p.color) ex.color = p.color; }

@@ -15,6 +15,9 @@ async function ensureTable(env: Env) {
   await env.DB.prepare(
     "CREATE TABLE IF NOT EXISTS vote_rows (slug TEXT NOT NULL, voter TEXT NOT NULL, val INTEGER NOT NULL, PRIMARY KEY (slug, voter))"
   ).run();
+  await env.DB.prepare(
+    "CREATE TABLE IF NOT EXISTS views (slug TEXT PRIMARY KEY, count INTEGER NOT NULL DEFAULT 0)"
+  ).run();
 }
 
 export const onRequestGet = async ({ request, env }: { request: Request; env: Env }) => {
@@ -32,8 +35,11 @@ export const onRequestGet = async ({ request, env }: { request: Request; env: En
     const mine: Record<string, number> = {};
     const rows = await env.DB.prepare("SELECT slug, val FROM vote_rows WHERE voter = ?").bind(uid).all<{ slug: string; val: number }>();
     for (const r of rows.results ?? []) mine[r.slug] = r.val;
-    return Response.json({ counts, mine }, { headers });
+    const views: Record<string, number> = {};
+    const vrows = await env.DB.prepare("SELECT slug, count FROM views").all<{ slug: string; count: number }>();
+    for (const r of vrows.results ?? []) views[r.slug] = r.count;
+    return Response.json({ counts, mine, views }, { headers });
   } catch {
-    return Response.json({ counts: {}, mine: {} }, { headers });
+    return Response.json({ counts: {}, mine: {}, views: {} }, { headers });
   }
 };
