@@ -38,7 +38,22 @@ python3 -m http.server 8080     # then open http://localhost:8080
 DIVVY_N=3 node scanner/scan.mjs
 ```
 
-## Deploy (when ready — not yet public)
-1. Create public repo `albertngo1/divvy`, push.
-2. Settings → Pages → deploy from `main` / root.
-3. Site: `https://albertngo1.github.io/divvy/`.
+## Live
+- Site: **https://albertngo1.github.io/divvy/** (GitHub Pages, `main` / root).
+- Repo: `albertngo1/divvy` (public). Develop with plain `git push`.
+
+## Autonomous timer (`com.divvy-scanner`)
+A LaunchAgent runs the scanner on a schedule so the cloud grows hands-off.
+- Plist: `~/Library/LaunchAgents/com.divvy-scanner.plist`
+- Cadence: `StartInterval` 10800s (3h); `DIVVY_N=3` ideas/run (~24/day). Tune in the plist.
+- Logs: `scanner/launchd.log` (launchd) + `scanner/scan.log` (per-run detail).
+
+```bash
+# load / reload after editing the plist
+launchctl bootout gui/501/com.divvy-scanner 2>/dev/null
+launchctl bootstrap gui/501 ~/Library/LaunchAgents/com.divvy-scanner.plist
+
+# run once now, or stop the timer
+launchctl kickstart -k gui/501/com.divvy-scanner
+launchctl bootout   gui/501/com.divvy-scanner
+```
