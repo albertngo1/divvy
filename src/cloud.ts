@@ -109,6 +109,7 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     { name: "ai & ml", tags: ["llm", "ml", "language-model", "agents", "agent-loop", "prompt-craft", "turing-test", "perplexity", "ai-forensics"] },
     { name: "science & nature", tags: ["science", "physics", "physics-toy", "audio-physics", "astronomy", "geology", "nature", "mycology", "materials", "dendro", "morphogen", "cellular-automata", "phenology-drift", "entropy", "radar", "sonar", "computer-vision", "color-science", "biometrics"] },
     { name: "finance", tags: ["finance", "economics", "economy", "prediction-market", "prediction", "risk-reward"] },
+    { name: "business & work", tags: ["business", "saas", "marketplace", "b2b", "startup", "monetization", "logistics", "crm", "automation", "ops-tool", "side-hustle"] },
     { name: "language & text", tags: ["language", "nlp", "corporate-linguistics", "literary-rhythm", "wordgame", "unicode", "steganography", "japanese", "ocr", "compression"] },
     { name: "art & sound", tags: ["generative", "generative-art", "art", "canvas", "webgl", "graphics", "three-js", "wallpaper", "screensaver", "color", "animation", "audio", "audio-waveform-grid", "generative-music", "rhythm", "pop-music", "webaudio", "morse"] },
     { name: "life & self", tags: ["productivity", "calendar", "contacts", "email", "focus", "quantified-self", "self-tracking", "chores", "receipts", "relationships", "roommates", "care-sim", "wearable", "sleep", "treadmill", "strava", "location"] },

@@ -75,6 +75,9 @@ const PROVOCATIONS = [
   "Invert a popular repo's purpose — what's the mischievous or artful opposite?",
   "What ambient/background artifact could quietly generate itself over a year?",
   "Steal a game genre (roguelike, idle, deckbuilder, tycoon) and graft it onto real personal data.",
+  "Pitch a real BUSINESS: who pays, for what, and why now — a small SaaS, marketplace, or service someone would actually pay for this year.",
+  "Spot a painful manual workflow in a boring industry (logistics, dental, HVAC, permits, freight) and productize the fix.",
+  "Find an arbitrage: data or capability that's cheap for you and valuable to a specific niche who can't get it themselves.",
 ];
 
 async function gatherSources() {
@@ -99,6 +102,7 @@ const DOMAIN_TAGS = {
   "ai & ml": ["llm", "ml", "agents", "prompt", "computer-vision", "embeddings"],
   "science & nature": ["physics", "astronomy", "biology", "chemistry", "nature", "materials", "cellular-automata"],
   "finance": ["finance", "economics", "prediction-market", "markets", "budgeting"],
+  "business & work": ["business", "saas", "marketplace", "b2b", "startup", "monetization", "logistics", "crm", "automation", "ops-tool", "side-hustle"],
   "language & text": ["language", "nlp", "wordgame", "writing", "translation", "steganography"],
   "art & sound": ["generative", "art", "music", "audio", "graphics", "animation", "wallpaper"],
   "life & self": ["productivity", "quantified-self", "calendar", "health", "habits", "relationships", "chores"],
