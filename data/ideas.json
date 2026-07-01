@@ -2,6 +2,45 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "sev-one",
+      "title": "Sev One",
+      "hook": "A daily whodunit where everyone gets the same synthetic outage log stream and races to name the failing service and root cause before the leaderboard fills.",
+      "tags": [
+        "logs",
+        "daily",
+        "incident"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "preload",
+      "title": "Preload",
+      "hook": "A physics sandbox where you cock spring-loaded snares — like the ballista spider or a pull-back toy car — and time their release to catch scurrying critters.",
+      "tags": [
+        "physics",
+        "puzzle",
+        "traps"
+      ],
+      "score": 76,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "green-ink",
+      "title": "Green Ink",
+      "hook": "Two coders wage a Splatoon-style turf war over a shared buggy library, painting every line their tests execute in their own color.",
+      "tags": [
+        "coverage",
+        "competitive",
+        "testing"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "kanji-safari",
       "title": "Kanji Safari",
       "hook": "Point your phone at Japanese text in the wild, OCR it, and every new kanji gets 'captured' into a personal dex with the source photo as its card art — Pokémon Go meets Monkeytype for learners.",
