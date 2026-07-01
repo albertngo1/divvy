@@ -224,9 +224,14 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   let curVotes: Record<string, number> = {};
   function paint() {
     const scoreOf = (n: Node) => (Number.isFinite(n.score) ? n.score : 50);
-    const minS = Math.min(...nodes.map(scoreOf));
-    const maxS = Math.max(...nodes.map(scoreOf));
-    const maxV = Math.max(1, ...nodes.map((n) => curVotes[n.slug] || 0));
+    // single pass (spreading a huge array into Math.min/max would blow the arg limit as the cloud grows)
+    let minS = Infinity, maxS = -Infinity, maxV = 1;
+    for (const n of nodes) {
+      const s = scoreOf(n);
+      if (s < minS) minS = s;
+      if (s > maxS) maxS = s;
+      maxV = Math.max(maxV, curVotes[n.slug] || 0);
+    }
     const heat = new Map<string, number>();
     nodes.forEach((n) => {
       const ns = maxS > minS ? (scoreOf(n) - minS) / (maxS - minS) : 0.5;
@@ -353,4 +358,4 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   };
 }
 
-export { colorOf, colorAlpha, scoreHue };
+export { colorOf, colorAlpha };

@@ -6,7 +6,7 @@ interface Props {
   ideas: Idea[];
   dim: DimPredicate;
   votes: Record<string, number>;
-  onHover: (d: Idea | null) => void;
+  onHover: (d: Idea | null, y?: number) => void;
   onSelect: (d: Idea) => void;
   onReady: () => void;
 }
