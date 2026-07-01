@@ -108,7 +108,7 @@ Return ONLY a JSON array (no prose, no code fence). Each element:
   "tags": ["3", "short", "tags"],
   "score": 40-85 integer gut-feel of how good/novel it is,
   "source": "hn" | "github" | "steam" | "wild" (which feed sparked it most),
-  "prd": "a markdown PRD with sections: ## Problem, ## What it is, ## v1 (humiliatingly small), ## Done means"
+  "prd": "a DETAILED markdown PRD, 350-600 words, with these sections: ## Overview (what it is, for whom); ## Problem (the itch); ## How it works (the core mechanic/flow, concretely); ## Technical approach (be specific and technical where it helps — name the stack, real data sources/APIs/endpoints, data model, key algorithms or data structures, and the genuinely hard part); ## v1 scope (humiliatingly small) as bullets; ## Out of scope (for now); ## Risks & unknowns; ## Done means (a concrete, testable definition)"
 }
 
 Live signals:

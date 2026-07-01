@@ -2,6 +2,475 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "state-fragrance-map",
+      "title": "State Fragrance Map",
+      "hook": "A US choropleth where every state reveals its most-searched scent and unfolds into a hoverable note pyramid.",
+      "tags": [
+        "fragrance",
+        "choropleth",
+        "weekend-ideas"
+      ],
+      "score": 58,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "tap-water-card",
+      "title": "Tap Water Card",
+      "hook": "Type your ZIP and get a plain-language card of exactly what's swimming in your tap water.",
+      "tags": [
+        "water-quality",
+        "epa",
+        "weekend-ideas"
+      ],
+      "score": 32,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "palette-drift",
+      "title": "Palette Drift",
+      "hook": "Watch decades of game box art flow into a color-stream that proves the era when everything went brown.",
+      "tags": [
+        "color",
+        "games",
+        "weekend-ideas"
+      ],
+      "score": 63,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "backlog-graveyard",
+      "title": "Backlog Graveyard",
+      "hook": "Your Steam library rendered as a graveyard of unplayed games, each tombstone engraved with its zero-hour epitaph.",
+      "tags": [
+        "steam",
+        "games",
+        "weekend-ideas"
+      ],
+      "score": 35,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "explorable-toy",
+      "title": "Explorable Toy",
+      "hook": "A single reactive explainer where dragging a number mid-sentence rewrites the conclusion and the diagram at once.",
+      "tags": [
+        "explorable",
+        "interactive",
+        "weekend-ideas"
+      ],
+      "score": 72,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "pitch-of-a-city",
+      "title": "The pitch of a city",
+      "hook": "Collide urban bird-song and traffic noise on one shared Hz axis, block by block, and see which species got squeezed out of the spectrum.",
+      "tags": [
+        "birds-vs-traffic",
+        "map-spectrogram",
+        "weekend-ideas"
+      ],
+      "score": 64,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "prose-tempo",
+      "title": "Prose tempo, read aloud",
+      "hook": "Every English novel rendered as a 30-second TTS waveform, small-multiples wall from 1700 to 2020 — watch the rhythm get clipped.",
+      "tags": [
+        "literary-rhythm",
+        "audio-waveform-grid",
+        "weekend-ideas"
+      ],
+      "score": 60,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "phase-shift-clock",
+      "title": "Migration phase-shift clock",
+      "hook": "Each tracked species on a polar 12-month clock with a ghost of its historical baseline — climate calendar-drift as a visible rotation.",
+      "tags": [
+        "phenology-drift",
+        "polar-clock",
+        "weekend-ideas"
+      ],
+      "score": 79,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "ikea-etymology-atlas",
+      "title": "IKEA name etymology atlas",
+      "hook": "Trace every IKEA product name to its Nordic place-of-origin and watch the catalog migrate north over 70 years.",
+      "tags": [
+        "corporate-linguistics",
+        "animated-map",
+        "weekend-ideas"
+      ],
+      "score": 57,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "chart-topper-glyph",
+      "title": "Fingerprint of a #1",
+      "hook": "Every Billboard chart-topper as a single audio-fingerprint glyph via Essentia; decade grids reveal the slow death of dynamic range.",
+      "tags": [
+        "pop-music",
+        "glyph-small-multiples",
+        "weekend-ideas"
+      ],
+      "score": 36,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "smell-of-the-news",
+      "title": "Word-of-the-year by smell",
+      "hook": "150 years of US newspapers as a sparkline grid of scent adjectives — visualizing what the country's nose was paying attention to.",
+      "tags": [
+        "time",
+        "data-viz",
+        "weekend-ideas"
+      ],
+      "score": 62,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "aftershock-metronome",
+      "title": "Aftershock metronome",
+      "hook": "Every M5+ quake since 1900 as a tick on a clock that spins once per century — seismic clustering becomes a visible heartbeat.",
+      "tags": [
+        "time",
+        "animation",
+        "weekend-ideas"
+      ],
+      "score": 55,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "patent-drawing-entropy",
+      "title": "Patent drawing entropy",
+      "hook": "Edge density of the lead figure on every US utility patent, 1836 to today — watch drawings get busier through WWII, transistor, software eras.",
+      "tags": [
+        "time",
+        "computer-vision",
+        "weekend-ideas"
+      ],
+      "score": 80,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "species-ledger",
+      "title": "Species ledger",
+      "hook": "IUCN Red List status changes as a time-axis Sankey — watch taxa migrate LC to EX across the decades, a ledger of loss drawn as flow.",
+      "tags": [
+        "time",
+        "data-viz",
+        "weekend-ideas"
+      ],
+      "score": 58,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "cpi-component-drift",
+      "title": "CPI component drift",
+      "hook": "The 200+ items in the CPI basket as a sparkline wall sorted by peak decade — watch payphones and film developing get retired from the cart.",
+      "tags": [
+        "time",
+        "data-viz",
+        "weekend-ideas"
+      ],
+      "score": 78,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "dollar-general-vs-hospital-closures",
+      "title": "Dollar General openings × rural hospital closures",
+      "hook": "County-level 2010–2024: which arrives first, the dollar store or the hospital closure — and does the lead/lag flip by region? One map that ends an argument.",
+      "tags": [
+        "spatial-join",
+        "data-viz",
+        "weekend-ideas"
+      ],
+      "score": 84,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "light-pollution-vs-astronomy-clubs",
+      "title": "Light pollution × astronomy-club density",
+      "hook": "NASA VIIRS night-lights under astronomy-club halos: where is the sky still worth driving to, and how far is the drive from where the stargazers actually live?",
+      "tags": [
+        "spatial-join",
+        "map",
+        "weekend-ideas"
+      ],
+      "score": 62,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "golden-retriever-line",
+      "title": "The golden-retriever line",
+      "hook": "A concentric breed gradient keyed to lot size: frenchies in the core, goldens in the donut, labs on the fringe. The suburban ring, decoded by dog.",
+      "tags": [
+        "spatial-join",
+        "data-viz",
+        "weekend-ideas"
+      ],
+      "score": 60,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "superfund-half-life",
+      "title": "Superfund half-life",
+      "hook": "How long does a town remember its poison? Per-region decay curves of home-price recovery near EPA Superfund sites — with the diff-in-diff honesty the finding demands.",
+      "tags": [
+        "spatial-join",
+        "data-viz",
+        "weekend-ideas"
+      ],
+      "score": 34,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "cemetery-surname-half-life",
+      "title": "Cemetery surname half-life",
+      "hook": "Ethnicity has a half-life measured in headstones: OSM cemetery polygons × ACS surnames reveal the gap between who's buried here and who lives here now.",
+      "tags": [
+        "spatial-join",
+        "map",
+        "weekend-ideas"
+      ],
+      "score": 72,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "seen-from-this-bench",
+      "title": "What's been seen from this exact bench",
+      "hook": "Paste a lat/lon, get a 50m-radius species pillar of every fungus, lichen, beetle, and bird ever logged at arm's reach — scrubbable by season, shareable as one PNG.",
+      "tags": [
+        "nature",
+        "map-pillar",
+        "weekend-ideas"
+      ],
+      "score": 88,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "half-life-of-your-kitchen",
+      "title": "Half-life of your kitchen",
+      "hook": "Tag the objects in one room and re-render the scene as a timeline tower: banana peel at the bottom (2 weeks), granite countertop towering into geologic time.",
+      "tags": [
+        "materials",
+        "timeline-tower",
+        "weekend-ideas"
+      ],
+      "score": 62,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "gaia-parallax-porch",
+      "title": "Gaia parallax porch",
+      "hook": "Enter your address and birthdate; see the night sky over your porch with each star annotated by how far it has drifted since you were born.",
+      "tags": [
+        "astronomy",
+        "sky-overlay",
+        "weekend-ideas"
+      ],
+      "score": 55,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "mycelium-commute",
+      "title": "Mycelium commute",
+      "hook": "Race the fastest documented fungus at its real cm/day rate along your actual commute route. 'Your bus beat the honey fungus by 4 hours.'",
+      "tags": [
+        "mycology",
+        "route-race",
+        "weekend-ideas"
+      ],
+      "score": 72,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "mineral-inventory-of-one-human",
+      "title": "Mineral inventory of one human",
+      "hook": "A body silhouette laced with ribbons to real mines: your iron to Carajás, your phosphorus to Bou Craa — the ~60 elements you're made of, sourced to specific pits on Earth.",
+      "tags": [
+        "geology",
+        "silhouette-ribbons",
+        "weekend-ideas"
+      ],
+      "score": 53,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "stage-direction-atlas",
+      "title": "Stage Direction Atlas",
+      "hook": "Every playwright's stage directions plotted as verb-class density across the play — Beckett is pauses, Mamet is exits, Ibsen is furniture, Shakespeare barely directs. The shape of a playwright's silence.",
+      "tags": [
+        "language",
+        "dataviz",
+        "weekend-ideas"
+      ],
+      "score": 82,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "loanword-arrival-map",
+      "title": "Loanword Arrival Map",
+      "hook": "English borrowings by donor language and semantic domain, animated across nine centuries — French floods law and food 1200-1400, Italian owns 1600s music, Japanese owns 1980s tech.",
+      "tags": [
+        "language",
+        "dataviz",
+        "weekend-ideas"
+      ],
+      "score": 52,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "scotus-dissent-prosody",
+      "title": "SCOTUS Dissent Prosody",
+      "hook": "Do justices write angrier when they lose? Pair each justice's majority vs dissent prosody — sentence length and clause depth — and watch Scalia's dissents spike.",
+      "tags": [
+        "language",
+        "dataviz",
+        "weekend-ideas"
+      ],
+      "score": 60,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "recipe-imperative-drift",
+      "title": "Recipe Imperative Drift",
+      "hook": "Cookbooks 1800-2020 measured for imperatives vs prose and step length — pre-1900 recipes are essays, post-1990 they're command-line scripts. Watch the sentence contract.",
+      "tags": [
+        "language",
+        "dataviz",
+        "weekend-ideas"
+      ],
+      "score": 62,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "wikipedia-revert-war-lexicon",
+      "title": "Wikipedia Revert-War Lexicon",
+      "hook": "Edit summaries from the most-reverted articles, clustered by rhetorical move — 'per WP:RS,' 'rv vandalism,' 'see talk.' A sociolinguistic map of gatekeeping in four-word phrases.",
+      "tags": [
+        "language",
+        "dataviz",
+        "weekend-ideas"
+      ],
+      "score": 72,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "mohs-the-page",
+      "title": "Mohs the Page",
+      "hook": "Drag a diamond across your screen and watch it gouge talc — the scratch IS the encoding.",
+      "tags": [
+        "perceptual",
+        "webgl",
+        "weekend-ideas"
+      ],
+      "score": 85,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "true-spectrum",
+      "title": "True Spectrum",
+      "hook": "The honest visible spectrum via CIE 1931 — not a fake rainbow — with animal vision bands and pitch on hover.",
+      "tags": [
+        "perceptual",
+        "color-science",
+        "weekend-ideas"
+      ],
+      "score": 55,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "pressure-atlas",
+      "title": "Pressure Atlas",
+      "hook": "Press and hold to compare every sport's ball-at-impact contact pressure on one scale.",
+      "tags": [
+        "perceptual",
+        "interactive",
+        "weekend-ideas"
+      ],
+      "score": 68,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "viscosity-drip",
+      "title": "Viscosity Drip",
+      "hook": "Eighty liquids dripping at true relative viscosity — scrub a temperature slider and watch honey thin.",
+      "tags": [
+        "perceptual",
+        "fluid-sim",
+        "weekend-ideas"
+      ],
+      "score": 64,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "piano-in-pascals",
+      "title": "Piano in Pascals",
+      "hook": "All 88 keys of a Steinway D with true string length, tension, and SPL — click to hear it and see the string vibrate at f/100.",
+      "tags": [
+        "perceptual",
+        "audio-physics",
+        "weekend-ideas"
+      ],
+      "score": 52,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "album-topography",
+      "title": "Album Topography",
+      "hook": "Every pixel of an album cover becomes a colored voxel in a 3D cube; fly in until the image dissolves into its atoms.",
+      "tags": [
+        "3d-viz",
+        "three-js",
+        "weekend-ideas",
+        "built"
+      ],
+      "score": 62,
+      "source": "weekend-ideas",
+      "created": "2026-06-30"
+    },
+    {
       "slug": "overdue",
       "title": "Overdue",
       "hook": "Personal finance as Dead by Daylight — your fixed monthly bills are the Killer stalking you across the map, and every payday you sprint between generators (rent, card, subscriptions) frantically repairing them before the 1st of the month, when the Killer hooks whatever you didn't finish.",
