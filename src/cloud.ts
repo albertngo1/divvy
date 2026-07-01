@@ -122,14 +122,23 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   // Give each galaxy a packing radius from its members, then lay the galaxies out as
   // NON-OVERLAPPING blobs via a mini force-sim on the cluster centers — so the clusters
   // read as separate islands with whitespace between, not one continuous ring.
+  // Each galaxy is a big central "sun", an empty GAP, then a ring/band of orbiting ideas
+  // (Saturn-style). Size the sun by member count, leave the gap, and give the cluster an
+  // outer radius that holds the ideas' packed area in the annulus beyond the gap.
+  const GAP = 52; // empty space between a sun's edge and the innermost ideas (the "ring gap")
   const gmembers: Record<string, Node[]> = {};
   nodes.forEach((d) => (gmembers[d.galaxy!] = gmembers[d.galaxy!] || []).push(d));
   const clusterR: Record<string, number> = {};
   const sunR: Record<string, number> = {};
+  const ringInner: Record<string, number> = {}; // distance from sun center to the ring's inner edge
   galaxyKeys.forEach((gk) => {
-    const area = gmembers[gk].reduce((s, m) => s + Math.PI * (m.r + 5) * (m.r + 5), 0);
-    clusterR[gk] = Math.sqrt(area / Math.PI) * 1.5 + 46; // inflate → gap between galaxies
-    sunR[gk] = Math.max(26, Math.min(52, clusterR[gk] * 0.16)); // central star the ideas orbit
+    const mem = gmembers[gk];
+    const area = mem.reduce((s, m) => s + Math.PI * (m.r + 5) * (m.r + 5), 0);
+    sunR[gk] = Math.max(44, Math.min(96, 36 + Math.sqrt(mem.length) * 8));
+    const inner = sunR[gk] + GAP;
+    ringInner[gk] = inner;
+    const outer = Math.sqrt(inner * inner + area / Math.PI); // annulus that holds the ideas
+    clusterR[gk] = outer * 1.12 + 34; // + whitespace between galaxies
   });
   const seedR = Math.min(width, height) * 0.5;
   const centers = galaxyKeys.map((gk, i) => {
@@ -144,11 +153,11 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     .tick(320);
   const gpos: Record<string, { x: number; y: number }> = {};
   centers.forEach((c) => { gpos[c.gk] = { x: c.x, y: c.y }; });
-  // seed each idea in a ring around its galaxy's sun so the settle only tightens packing
+  // seed each idea in the ring (annulus beyond the gap) so the settle only tightens packing
   nodes.forEach((d) => {
     const p = gpos[d.galaxy!];
-    const inner = sunR[d.galaxy!] + d.r + 6;
-    const rr = inner + Math.sqrt(Math.random()) * clusterR[d.galaxy!] * 0.5;
+    const inner = ringInner[d.galaxy!] + d.r;
+    const rr = inner + Math.sqrt(Math.random()) * Math.max(0, clusterR[d.galaxy!] - inner);
     const a = Math.random() * 2 * Math.PI;
     d.x = p.x + rr * Math.cos(a); d.y = p.y + rr * Math.sin(a);
   });
@@ -159,10 +168,15 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   neb.append("stop").attr("offset", "0%").attr("stop-color", "rgba(130,150,255,0.10)");
   neb.append("stop").attr("offset", "68%").attr("stop-color", "rgba(120,140,255,0.035)");
   neb.append("stop").attr("offset", "100%").attr("stop-color", "rgba(120,140,255,0)");
-  const sun = defs.append("radialGradient").attr("id", "sun-grad").attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
-  sun.append("stop").attr("offset", "0%").attr("stop-color", "rgba(255,247,224,0.98)");
-  sun.append("stop").attr("offset", "42%").attr("stop-color", "rgba(255,222,158,0.62)");
-  sun.append("stop").attr("offset", "100%").attr("stop-color", "rgba(255,205,130,0)");
+  const sunGlow = defs.append("radialGradient").attr("id", "sun-grad").attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
+  sunGlow.append("stop").attr("offset", "0%").attr("stop-color", "rgba(255,247,224,0.85)");
+  sunGlow.append("stop").attr("offset", "45%").attr("stop-color", "rgba(255,222,158,0.4)");
+  sunGlow.append("stop").attr("offset", "100%").attr("stop-color", "rgba(255,205,130,0)");
+  // the sun's solid "bubble" body (warm, with a defined edge) — distinct from the cool ideas
+  const sunBody = defs.append("radialGradient").attr("id", "sun-body-grad").attr("cx", "0.38").attr("cy", "0.33").attr("r", "0.75");
+  sunBody.append("stop").attr("offset", "0%").attr("stop-color", "rgba(255,250,236,0.96)");
+  sunBody.append("stop").attr("offset", "55%").attr("stop-color", "rgba(255,223,150,0.5)");
+  sunBody.append("stop").attr("offset", "100%").attr("stop-color", "rgba(250,198,120,0.22)");
   // per-node body gradient + glow; their stop colors are recolored live by paint()
   const GRAD_STOPS = [{ o: "0%", a: 0.5 }, { o: "55%", a: 0.16 }, { o: "100%", a: 0.05 }];
   const GLOW_STOPS = [{ o: "0%", a: 0.4 }, { o: "62%", a: 0.1 }, { o: "100%", a: 0 }];
@@ -178,15 +192,15 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     glowStops.set(d.slug, glow.selectAll<SVGStopElement, unknown>("stop"));
   });
 
-  // keep each idea outside its galaxy's sun, so the ideas orbit the star instead of burying it
+  // hold every idea outside its galaxy's sun + gap, so a clear ring forms around the star
   const sunOrbit = (alpha: number) => {
     for (const d of nodes) {
       const c = gpos[d.galaxy!];
       const dx = d.x - c.x, dy = d.y - c.y;
       const dist = Math.hypot(dx, dy) || 0.01;
-      const min = sunR[d.galaxy!] + d.r + 5;
+      const min = ringInner[d.galaxy!] + d.r; // whole bubble sits beyond the gap
       if (dist < min) {
-        const push = (min - dist) * alpha * 0.9;
+        const push = (min - dist) * alpha;
         d.vx = (d.vx || 0) + (dx / dist) * push;
         d.vy = (d.vy || 0) + (dy / dist) * push;
       }
@@ -201,8 +215,9 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     .alphaDecay(0.03);
 
   const viewport = svg.append("g").attr("class", "viewport");
-  const galaxyG = viewport.append("g").attr("class", "galaxies"); // labels, backmost
+  const galaxyG = viewport.append("g").attr("class", "galaxies"); // nebula discs, backmost
   const linkG = viewport.append("g").attr("class", "links");
+  const sunG = viewport.append("g").attr("class", "suns"); // stars sit above links, below ideas
 
   const g = viewport.selectAll<SVGGElement, Node>("g.bubble")
     .data(nodes, (d) => d.slug)
@@ -286,14 +301,13 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     .attr("fill", "url(#nebula-grad)")
     .style("pointer-events", "none");
 
-  // each galaxy's "sun": a labeled central star the ideas orbit, naming its domain
-  const sunG = viewport.append("g").attr("class", "suns"); // frontmost overlay
+  // each galaxy's "sun": a big uninteractable bubble the ideas ring around, naming its domain
   const suns = sunG.selectAll<SVGGElement, string>("g.sun").data(galaxyKeys).join("g")
     .attr("class", "sun")
     .attr("transform", (gk) => `translate(${gpos[gk].x},${gpos[gk].y})`)
     .style("pointer-events", "none");
-  suns.append("circle").attr("class", "sun-halo").attr("r", (gk) => sunR[gk] * 1.7).attr("fill", "url(#sun-grad)");
-  suns.append("circle").attr("class", "sun-core").attr("r", (gk) => sunR[gk] * 0.5);
+  suns.append("circle").attr("class", "sun-halo").attr("r", (gk) => sunR[gk] * 1.5).attr("fill", "url(#sun-grad)");
+  suns.append("circle").attr("class", "sun-body").attr("r", (gk) => sunR[gk]).attr("fill", "url(#sun-body-grad)");
   suns.append("text").attr("class", "sun-label").attr("text-anchor", "middle").attr("dy", "0.32em").text((gk) => gk);
 
   // constellation links: same-tag ideas (small groups) as nearest-neighbor chains
