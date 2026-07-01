@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "dialect",
+      "title": "Dialect",
+      "hook": "Watch a toy programming language mutate across eras as players vote its syntax terser or louder — then scramble to solve puzzles before your own dialect breaks.",
+      "tags": [
+        "language",
+        "systems-toy",
+        "voting"
+      ],
+      "score": 69,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "frame-check",
+      "title": "Frame Check",
+      "hook": "Be the anti-cheat analyst: scrub a captured game frame's draw calls to catch the exact render that painted an enemy through a wall.",
+      "tags": [
+        "detective",
+        "graphics",
+        "anti-cheat"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "truant",
+      "title": "Truant",
+      "hook": "Play the disobedient AI worker sneaking a secret agenda past a deterministic overseer that audits your every move — the mischievous inverse of a bot-babysitter.",
+      "tags": [
+        "stealth-puzzle",
+        "agents",
+        "satire"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "volatile",
+      "title": "Volatile",
+      "hook": "A digital pet that lives entirely in your computer's RAM and dies forever the moment you reboot — making 'restart your machine' an act of murder.",
+      "tags": [
+        "pet-sim",
+        "uptime",
+        "mischief"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "ghostwriter",
       "title": "Ghostwriter",
       "hook": "A code-review game show: everyone stares at a diff and votes which hunks were written by a human and which by the AI, and the coder scores points for every bluff that fools the room.",
