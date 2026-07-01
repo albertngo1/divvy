@@ -139,8 +139,7 @@ body::after {
 /* tag filter is a click-to-open dropdown on all screens */
 .tf-head { cursor: pointer; }
 .tf-chevron { display: inline-block; transition: transform 0.2s ease; color: var(--ink-faint); font-size: 11px; }
-.tagfilter.collapsed { max-height: 50px; }
-.tagfilter.collapsed .tf-head { margin-bottom: 0; }
+.tagfilter.collapsed { grid-template-rows: auto 0fr; }
 .tagfilter.collapsed .tf-list { opacity: 0; }
 .tagfilter.collapsed .tf-chevron { transform: rotate(-90deg); }
 #cloud:active { cursor: grabbing; }
@@ -216,7 +215,7 @@ body::after {
   z-index: 6;
   width: 224px;
   max-height: 58vh;
-  display: flex; flex-direction: column;
+  display: grid; grid-template-rows: auto minmax(0, 1fr);
   padding: 14px 14px 10px;
   background: rgba(16, 18, 26, 0.62);
   backdrop-filter: blur(var(--blur));
@@ -224,9 +223,10 @@ body::after {
   border-radius: 16px;
   box-shadow: 0 16px 40px rgba(0,0,0,0.35);
   overflow: hidden;
-  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  /* animate the LIST ROW height (1fr->0fr) — clips smoothly, never reflows the chips */
+  transition: grid-template-rows 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.tf-list { transition: opacity 0.22s ease; }
+.tf-list { transition: opacity 0.22s ease; min-height: 0; }
 .tf-head {
   display: flex; align-items: center; justify-content: space-between;
   font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase;
@@ -589,9 +589,6 @@ body::after {
   }
   .tf-head { cursor: pointer; margin-bottom: 12px; }
   .tf-chevron { display: inline-block; transition: transform 0.2s ease; color: var(--ink-faint); }
-  .tf-list { max-height: calc(44vh - 52px); }
-  .tagfilter.collapsed { max-height: 48px; }
-  .tagfilter.collapsed .tf-chevron { transform: rotate(-90deg); }
 
   /* PRD panel: full width, tighter */
   .panel { width: 100vw; padding: 26px 20px calc(60px + env(safe-area-inset-bottom)); }

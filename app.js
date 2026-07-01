@@ -267,7 +267,17 @@ function render(ideas) {
   document.getElementById("idea-count").textContent = ideas.length;
   document.getElementById("empty").hidden = ideas.length > 0;
 
-  allNodes = ideas.map((d, i) => ({ ...d, r: radiusFor(d.score, ideas.length), _ph: i * 1.7 }));
+  // seed a spread phyllotaxis (sunflower) layout around center so the initial settle
+  // only has to refine spacing — not un-crunch a tight pile (which left overlaps).
+  allNodes = ideas.map((d, i) => {
+    const angle = i * 2.3999632; // golden angle
+    const rr = 22 * Math.sqrt(i + 0.5);
+    return {
+      ...d, r: radiusFor(d.score, ideas.length), _ph: i * 1.7,
+      x: width / 2 + rr * Math.cos(angle),
+      y: height / 2 + rr * Math.sin(angle),
+    };
+  });
   buildDefs(allNodes);
   buildColorKey();
   buildTagFilter(allNodes);
@@ -276,9 +286,9 @@ function render(ideas) {
   // together with no gaps. Pull one out and neighbors flow in to fill the hole; the
   // dragged bubble gently rejoins instead of snapping to a fixed home.
   const sim = d3.forceSimulation(allNodes)
-    .force("collide", d3.forceCollide().radius((d) => d.r + 3).strength(0.9).iterations(3))
-    .force("x", d3.forceX(width / 2).strength(0.055))
-    .force("y", d3.forceY(height / 2).strength(0.055))
+    .force("collide", d3.forceCollide().radius((d) => d.r + 4).strength(1).iterations(4))
+    .force("x", d3.forceX(width / 2).strength(0.045))
+    .force("y", d3.forceY(height / 2).strength(0.045))
     .alphaDecay(0.02);
 
   // viewport group so we can pan/zoom the whole cloud
@@ -334,7 +344,7 @@ function render(ideas) {
   // (No position clamp — clamping only fires on the sim timer, so it used to SNAP the
   // cloud into the viewport band on the first drag. The fit-zoom below frames it instead.)
   sim.stop();
-  for (let i = 0; i < 240; i++) sim.tick();
+  for (let i = 0; i < 360; i++) sim.tick();
 
   // fit the settled constellation into view (auto-scales as the cloud grows)
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
