@@ -24,8 +24,18 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
   const [shown, setShown] = useState<Idea | null>(null); // keeps content during slide-out
   const [html, setHtml] = useState("");
   const [loading, setLoading] = useState(false);
+  const [copied, setCopied] = useState(false);
   const hideTimer = useRef<number>();
   const reqId = useRef(0);
+
+  const copyLink = () => {
+    if (!shown) return;
+    const url = `${window.location.origin}${window.location.pathname}?idea=${shown.slug}`;
+    navigator.clipboard?.writeText(url).then(() => {
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1600);
+    }).catch(() => {});
+  };
 
   useEffect(() => {
     if (idea) {
@@ -68,18 +78,23 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
             </div>
             <h2 id="panel-title">{shown.title}</h2>
             <p id="panel-hook" className="hook">{shown.hook}</p>
-            <div className="votebox" role="group" aria-label="vote">
-              <button
-                className={"votebtn up" + (myVote === 1 ? " on" : "")}
-                onClick={() => onVote(shown.slug, 1)}
-                aria-pressed={myVote === 1} aria-label="upvote"
-              >▲</button>
-              <span className={"votebox-count" + (voteCount > 0 ? " pos" : voteCount < 0 ? " neg" : "")}>{voteCount}</span>
-              <button
-                className={"votebtn down" + (myVote === -1 ? " on" : "")}
-                onClick={() => onVote(shown.slug, -1)}
-                aria-pressed={myVote === -1} aria-label="downvote"
-              >▼</button>
+            <div className="panel-actions">
+              <div className="votebox" role="group" aria-label="vote">
+                <button
+                  className={"votebtn up" + (myVote === 1 ? " on" : "")}
+                  onClick={() => onVote(shown.slug, 1)}
+                  aria-pressed={myVote === 1} aria-label="upvote"
+                >▲</button>
+                <span className={"votebox-count" + (voteCount > 0 ? " pos" : voteCount < 0 ? " neg" : "")}>{voteCount}</span>
+                <button
+                  className={"votebtn down" + (myVote === -1 ? " on" : "")}
+                  onClick={() => onVote(shown.slug, -1)}
+                  aria-pressed={myVote === -1} aria-label="downvote"
+                >▼</button>
+              </div>
+              <button className={"copylink" + (copied ? " copied" : "")} onClick={copyLink}>
+                {copied ? "✓ copied" : "🔗 copy link"}
+              </button>
             </div>
           </div>
           <article id="panel-prd" className="prd" style={{ opacity: loading ? 0 : 1 }} dangerouslySetInnerHTML={{ __html: html }} />

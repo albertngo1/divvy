@@ -232,9 +232,20 @@ body::after {
 .tooltip.at-bottom { top: auto; bottom: 22px; }
 .tooltip .tt-votes { color: var(--tt-accent, #fff); border-color: var(--tt-accent, var(--line-strong)); font-weight: 700; }
 
+/* actions row: votebox + copy link */
+.panel-actions { margin-top: 18px; display: flex; align-items: center; gap: 12px; }
+.copylink {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 14px; border-radius: 999px;
+  background: rgba(255,255,255,0.04); border: 1px solid var(--line);
+  color: var(--ink-dim); font-family: inherit; font-size: 12.5px; font-weight: 550; cursor: pointer;
+  transition: background 0.14s ease, color 0.14s ease, border-color 0.14s ease;
+}
+.copylink:hover { color: var(--ink); background: rgba(255,255,255,0.08); }
+.copylink.copied { color: #7ef0a6; border-color: rgba(126,240,166,0.5); }
+
 /* up/down vote box (PRD panel) */
 .votebox {
-  margin-top: 18px;
   display: inline-flex; align-items: center; gap: 4px;
   padding: 5px 8px;
   background: rgba(255,255,255,0.04); border: 1px solid var(--line);

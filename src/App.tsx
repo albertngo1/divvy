@@ -32,16 +32,30 @@ export default function App() {
   const [voted, setVoted] = useState<Record<string, number>>({}); // this browser's own votes: slug -> 1 | -1
   const votedRef = useRef(voted);
   votedRef.current = voted;
+  const initialSlug = useRef(new URLSearchParams(window.location.search).get("idea")); // deep-link target
 
   useEffect(() => {
     fetch("./data/ideas.json", { cache: "no-store" })
       .then((r) => r.json())
       .then((data: IdeasFile) => {
-        setIdeas(Array.isArray(data.ideas) ? data.ideas : []);
+        const list = Array.isArray(data.ideas) ? data.ideas : [];
+        setIdeas(list);
         setLastScan(data.lastScan || "—");
+        if (initialSlug.current) {
+          const found = list.find((i) => i.slug === initialSlug.current);
+          if (found) setSelected(found); // open the panel from ?idea=<slug>
+        }
       })
       .catch(() => setReady(true));
   }, []);
+
+  // keep the URL in sync with the open idea, so it's shareable / bookmarkable
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    if (selected) url.searchParams.set("idea", selected.slug);
+    else url.searchParams.delete("idea");
+    window.history.replaceState(null, "", url);
+  }, [selected]);
 
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
   useEffect(() => { document.body.classList.toggle("panel-open", !!selected); }, [selected]);
