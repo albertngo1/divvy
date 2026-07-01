@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "sanitize",
+      "title": "Sanitize",
+      "hook": "A Sekiro-style deflection duel where the attacks flying at you are real SQL-injection payloads and you parry each one with the correct defense in the timing window — miss, and a live in-browser database visibly leaks.",
+      "tags": [
+        "security",
+        "sql",
+        "rhythm"
+      ],
+      "score": 72,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "thirty-baud",
+      "title": "Thirty Baud",
+      "hook": "A party game where you must describe a picture through a maddeningly low-bandwidth channel — no free typing, just nudging a predictive-text tree — so both players finally feel what brain-typing actually costs.",
+      "tags": [
+        "party",
+        "bandwidth",
+        "coop"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "will-it-hover",
+      "title": "Will It Hover",
+      "hook": "A brutally honest pre-build calculator that tells first-time drone builders 'this WON'T leave the ground' before they spend $400 finding out on the field.",
+      "tags": [
+        "drones",
+        "physics",
+        "calculator"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "borrowed-time",
+      "title": "Borrowed Time",
+      "hook": "A heist-puzzle where the only way through a locked room is Rust's borrow checker — hand out many photocopies OR the one master key, never both.",
+      "tags": [
+        "puzzle",
+        "rust",
+        "ownership"
+      ],
+      "score": 76,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "cruft",
       "title": "Cruft",
       "hook": "A roguelike where you're the daemon-god of one server that must stay up — but every extra day of uptime spawns nastier memory-leak slimes, so your high score and your only escape hatch are the exact same button: reboot.",
