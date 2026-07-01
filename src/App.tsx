@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Idea, IdeasFile } from "./types";
+import { canonTags } from "./tags";
 import Cloud from "./components/Cloud";
 import TopBar from "./components/TopBar";
 import Controls from "./components/Controls";
@@ -61,12 +62,13 @@ export default function App() {
 
   // filter predicate: a bubble is dimmed if it fails the active tags OR the search
   const dim = useCallback((d: Idea) => {
-    if (activeTags.size && !(d.tags || []).some((t) => activeTags.has(t))) return true;
+    const tags = canonTags(d.tags);
+    if (activeTags.size && !tags.some((t) => activeTags.has(t))) return true;
     const q = search.trim().toLowerCase();
     if (q && !(
       d.title.toLowerCase().includes(q) ||
       (d.hook || "").toLowerCase().includes(q) ||
-      (d.tags || []).some((t) => t.toLowerCase().includes(q))
+      tags.some((t) => t.includes(q))
     )) return true;
     return false;
   }, [activeTags, search]);

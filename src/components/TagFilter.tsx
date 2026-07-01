@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import type { Idea } from "../types";
+import { consolidatedTags } from "../tags";
 
 interface Props {
   ideas: Idea[];
@@ -11,11 +12,7 @@ interface Props {
 export default function TagFilter({ ideas, activeTags, onToggle, onClear }: Props) {
   const [open, setOpen] = useState(false);
 
-  const tags = useMemo(() => {
-    const counts: Record<string, number> = {};
-    ideas.forEach((d) => (d.tags || []).forEach((t) => { counts[t] = (counts[t] || 0) + 1; }));
-    return Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b)).map((t) => ({ t, n: counts[t] }));
-  }, [ideas]);
+  const tags = useMemo(() => consolidatedTags(ideas.map((d) => d.tags || [])), [ideas]);
 
   // whole panel toggles open/closed, except clicks on a chip or the clear button
   const onPanelClick = (e: React.MouseEvent) => {

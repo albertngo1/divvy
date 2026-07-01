@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { marked } from "marked";
 import type { Idea } from "../types";
 import { colorOf, colorAlpha } from "../cloud";
+import { canonTags } from "../tags";
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 function fmtDate(s: string) {
@@ -61,7 +62,7 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
                 score {Number.isFinite(shown.score) ? shown.score : "—"}
               </span>
               {shown.created && <span className="date-chip">added {fmtDate(shown.created)}</span>}
-              {(shown.tags || []).map((t) => (
+              {canonTags(shown.tags).map((t) => (
                 <span key={t} className={activeTags.has(t) ? "active" : ""} onClick={() => onToggleTag(t)}>{t}</span>
               ))}
             </div>

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { Idea } from "../types";
 import { colorOf } from "../cloud";
+import { canonTags } from "../tags";
 
 // Fixed hover tooltip. Sits top-center by default, but flips to the bottom when the
 // hovered bubble is up in the tooltip's zone — so it never hides what you're pointing at.
@@ -31,7 +32,7 @@ export default function Tooltip({ idea, votes, atBottom }: { idea: Idea | null; 
           {shown.hook && <div className="tt-hook">{shown.hook}</div>}
           <div className="tt-tags">
             <span className="tt-votes">▲ {votes}</span>
-            {(shown.tags || []).map((t) => <span key={t}>{t}</span>)}
+            {canonTags(shown.tags).map((t) => <span key={t}>{t}</span>)}
           </div>
         </>
       )}
