@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "cold-spot",
+      "title": "Cold Spot",
+      "hook": "Phasmophobia for your laptop: something is haunting your battery, so grab your evidence tools, cross off the bestiary, and name the poltergeist process before it drains you.",
+      "tags": [
+        "deduction",
+        "telemetry",
+        "macos"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "evict",
+      "title": "Evict",
+      "hook": "kubectl for your browser tabs — a real scheduler with liveness probes and memory-pressure eviction that reaps the 47 zombies you swore you'd read later.",
+      "tags": [
+        "extension",
+        "kubernetes",
+        "tabs"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "the-director",
+      "title": "The Director",
+      "hook": "A roguelike whose difficulty scales with elapsed time — bolted onto your task list, so the monsters get nastier the longer you leave that thing rotting.",
+      "tags": [
+        "roguelike",
+        "productivity",
+        "gamedev"
+      ],
+      "score": 75,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cover-band",
+      "title": "Cover Band",
+      "hook": "Two functions that share zero characters yet pass the exact same tests — Cover Band breeds a whole family of look-nothing-alike twins from one seed and dares you to spot the doppelgängers.",
+      "tags": [
+        "ast",
+        "refactor",
+        "game"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "exploded-view",
       "title": "Exploded View",
       "hook": "A puzzle game where you don't build machines — you tear them apart to deduce how they work, pulling a car back to watch the energy path light up through its guts.",
