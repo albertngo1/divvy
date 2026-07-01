@@ -69,7 +69,7 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
       {shown && (
         <div className="panel-scroll">
           <div className="panel-head">
-            <div id="panel-tags" className="tags">
+            <div className="meta-chips">
               <span
                 className="score-chip" style={{ color: accent, borderColor: colorAlpha(shown, 0.6) }}
                 title={`AI ${Number.isFinite(shown.score) ? shown.score : "—"} + ${voteCount} votes`}
@@ -78,12 +78,14 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
               </span>
               {shown.created && <span className="date-chip">added {fmtDate(shown.created)}</span>}
               <span className="date-chip">👁 {viewCount} {viewCount === 1 ? "view" : "views"}</span>
+            </div>
+            <h2 id="panel-title">{shown.title}</h2>
+            <p id="panel-hook" className="hook">{shown.hook}</p>
+            <div id="panel-tags" className="tags">
               {canonTags(shown.tags).map((t) => (
                 <span key={t} className={activeTags.has(t) ? "active" : ""} onClick={() => onToggleTag(t)}>{t}</span>
               ))}
             </div>
-            <h2 id="panel-title">{shown.title}</h2>
-            <p id="panel-hook" className="hook">{shown.hook}</p>
             <div className="panel-actions">
               <div className="votebox" role="group" aria-label="vote">
                 <button

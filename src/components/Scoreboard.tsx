@@ -12,7 +12,7 @@ interface Props {
 // Ranked leaderboard of the hottest ideas — by heuristic score (AI score + votes).
 // Scrollable; shows each idea's total view count.
 export default function Scoreboard({ ideas, votes, views, onOpen }: Props) {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(() => !(typeof window !== "undefined" && window.matchMedia("(max-width: 640px)").matches));
   const ranked = useMemo(
     () =>
       ideas

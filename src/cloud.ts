@@ -24,8 +24,9 @@ export interface CloudHandle {
 // ---- color === "heat" (AI score + upvotes, votes weighted higher), spread by
 // percentile rank so the full cool-blue → warm-amber spectrum is always used. Raw AI
 // scores cluster high (everything looks "good"), so ranking spreads them apart. ----
-const HUE_LOW = 250;  // coldest (lowest-ranked) idea
-const HUE_HIGH = 22;  // hottest (highest-ranked) idea
+// Stellar temperature convention (fits the sun/galaxy theme): coolest = red, hottest = blue.
+const HUE_LOW = 18;   // lowest-ranked idea → red (cool star)
+const HUE_HIGH = 220; // highest-ranked idea → blue-white (hot star)
 const hueBySlug = new Map<string, number>(); // populated by the live cloud's paint()
 
 function scoreHue(score: number): number {
@@ -275,14 +276,17 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     });
     const order = [...nodes].sort((a, b) => heat.get(a.slug)! - heat.get(b.slug)!);
     const last = Math.max(1, order.length - 1);
-    order.forEach((n, i) => { n._hue = HUE_LOW - (i / last) * (HUE_LOW - HUE_HIGH); });
+    order.forEach((n, i) => { n._hue = HUE_LOW - (i / last) * (HUE_LOW - HUE_HIGH); n._p = i / last; });
     nodes.forEach((n) => {
       const h = n._hue!;
+      const p = n._p ?? 0.5;
+      const shine = 0.82 + 0.55 * p; // subtle: hotter ideas glow a little brighter to catch the eye
       hueBySlug.set(n.slug, h);
       gradStops.get(n.slug)!.each(function (_d, i) { d3.select(this).attr("stop-color", `hsla(${h},74%,62%,${GRAD_STOPS[i].a})`); });
-      glowStops.get(n.slug)!.each(function (_d, i) { d3.select(this).attr("stop-color", `hsla(${h},74%,62%,${GLOW_STOPS[i].a})`); });
+      glowStops.get(n.slug)!.each(function (_d, i) { d3.select(this).attr("stop-color", `hsla(${h},76%,64%,${(GLOW_STOPS[i].a * shine).toFixed(3)})`); });
     });
-    g.selectAll<SVGCircleElement, Node>("circle.body").attr("stroke", (n) => `hsla(${n._hue},74%,62%,0.85)`);
+    g.selectAll<SVGCircleElement, Node>("circle.halo").attr("r", (n) => n.r * (1.4 + (n._p ?? 0.5) * 0.5));
+    g.selectAll<SVGCircleElement, Node>("circle.body").attr("stroke", (n) => `hsla(${n._hue},74%,62%,${(0.7 + 0.3 * (n._p ?? 0.5)).toFixed(2)})`);
   }
 
   // upvotes visibly grow the bubble too (+16% radius each, capped) — high impact for a few voters
@@ -421,6 +425,10 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     lineEls[i].setAttribute("x1", `${d.x}`); lineEls[i].setAttribute("y1", `${d.y}`);
   }
 
+  // On phones / coarse pointers, skip the continuous ambient wobble (it's the main per-frame
+  // cost). There we only redraw while the sim is actively moving (drag/settle) or panning.
+  const reduceMotion = window.matchMedia?.("(pointer: coarse)")?.matches || window.innerWidth <= 640;
+
   let raf = 0;
   let lastWobble = 0;
   function floatFrame(ts: number) {
@@ -433,8 +441,9 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
         svg.call(zoom.translateBy, dx * step, dy * step);
       }
     }
-    // ambient wobble: ~33fps, and only redraw bubbles currently on screen (viewport cull)
-    if (ts - lastWobble >= 30) {
+    // draw at ~33fps, viewport-culled. On reduced-motion, only when something's actually moving.
+    const shouldDraw = !reduceMotion || sim.alpha() > 0.02 || panKeys.size > 0;
+    if (shouldDraw && ts - lastWobble >= 30) {
       lastWobble = ts;
       const t = ts / 1000;
       const tf = d3.zoomTransform(svgEl);
@@ -445,10 +454,13 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
       for (let i = 0; i < nodes.length; i++) {
         const d = nodes[i];
         if (d.x < minX || d.x > maxX || d.y < minY || d.y > maxY) continue; // offscreen → skip
-        const sx = 0.45 + (d._ph % 0.7);
-        const sy = 0.4 + ((d._ph * 1.3) % 0.7);
-        const rx = d.x + Math.sin(t * sx + d._ph) * 8;
-        const ry = d.y + Math.cos(t * sy + d._ph * 1.3) * 7;
+        let rx = d.x, ry = d.y;
+        if (!reduceMotion) {
+          const sx = 0.45 + (d._ph % 0.7);
+          const sy = 0.4 + ((d._ph * 1.3) % 0.7);
+          rx = d.x + Math.sin(t * sx + d._ph) * 8;
+          ry = d.y + Math.cos(t * sy + d._ph * 1.3) * 7;
+        }
         d._rx = rx; d._ry = ry;
         gEls[i].setAttribute("transform", `translate(${rx},${ry})`);
         lineEls[i].setAttribute("x1", `${rx}`); lineEls[i].setAttribute("y1", `${ry}`);

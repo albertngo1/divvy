@@ -27,5 +27,6 @@ export interface Node extends Idea {
   _rx?: number;
   _ry?: number;
   _hue?: number;
+  _p?: number; // heat rank fraction 0..1 (drives glow intensity)
   galaxy?: string;
 }
