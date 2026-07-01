@@ -10,6 +10,11 @@
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
+  <div id="loader" class="loader">
+    <div class="spinner"></div>
+    <p>generating idea cloud…</p>
+  </div>
+
   <header class="topbar">
     <div class="brand">
       <span class="mark">◍</span>
@@ -30,7 +35,7 @@
     </div>
     <button id="tags-btn" class="tags-btn" aria-expanded="false">Tags <span class="caret">▾</span></button>
     <button id="random-btn" class="random-btn" title="open a random idea">🎲 Random</button>
-    <div id="tag-pop" class="tag-pop" hidden></div>
+    <div id="tag-pop" class="tag-pop"></div>
   </div>
 
   <main id="stage">

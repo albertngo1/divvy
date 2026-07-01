@@ -103,8 +103,13 @@ function moveTooltip(event) {
 function hideTooltip() { tooltip.hidden = true; }
 
 // ---- PRD panel ----
+function togglePanel(d) {
+  if (panel.classList.contains("open") && panel.dataset.slug === d.slug) closePanel();
+  else openPanel(d);
+}
 async function openPanel(d) {
   if (window.getSelection) window.getSelection().removeAllRanges(); // don't leave a click-drag text selection
+  panel.dataset.slug = d.slug;
   const accent = colorOf(d);
   panel.style.setProperty("--accent", accent);
   panel.style.setProperty("--accent-soft", colorAlpha(d, 0.14));
@@ -144,6 +149,7 @@ async function openPanel(d) {
 }
 function closePanel() {
   panel.classList.remove("open");
+  panel.dataset.slug = "";
   setTimeout(() => { panel.hidden = true; }, 320);
 }
 document.getElementById("panel-close").addEventListener("click", closePanel);
@@ -151,7 +157,7 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     closePanel();
     const pop = document.getElementById("tag-pop");
-    if (pop && !pop.hidden) { pop.hidden = true; document.getElementById("tags-btn").setAttribute("aria-expanded", "false"); }
+    if (pop && pop.classList.contains("open")) { pop.classList.remove("open"); document.getElementById("tags-btn").setAttribute("aria-expanded", "false"); }
     else clearFilters();
   }
 });
@@ -242,8 +248,8 @@ document.getElementById("search").addEventListener("input", (e) => { searchQuery
   const btn = document.getElementById("tags-btn");
   const pop = document.getElementById("tag-pop");
   btn.addEventListener("click", () => {
-    const willOpen = pop.hidden;
-    pop.hidden = !willOpen;
+    const willOpen = !pop.classList.contains("open");
+    pop.classList.toggle("open", willOpen);
     btn.setAttribute("aria-expanded", String(willOpen));
   });
 })();
@@ -270,7 +276,7 @@ function render(ideas) {
     .data(allNodes, (d) => d.slug)
     .join("g")
     .attr("class", "bubble")
-    .on("click", (_, d) => openPanel(d))
+    .on("click", (_, d) => togglePanel(d))
     .on("mouseenter", (e, d) => showTooltip(e, d))
     .on("mousemove", (e) => moveTooltip(e))
     .on("mouseleave", hideTooltip);
@@ -323,6 +329,10 @@ function render(ideas) {
       d.y = Math.max(d.r + 70, Math.min(height - d.r - 10, d.y));
     });
   });
+  // pre-settle the layout synchronously so bubbles don't visibly jump on load
+  sim.stop();
+  for (let i = 0; i < 240; i++) sim.tick();
+
   function floatFrame(ts) {
     const t = ts / 1000;
     g.attr("transform", (d) => {
@@ -333,6 +343,11 @@ function render(ideas) {
     requestAnimationFrame(floatFrame);
   }
   requestAnimationFrame(floatFrame);
+
+  // reveal: fade the settled cloud in and dismiss the loader
+  document.body.classList.add("ready");
+  const loader = document.getElementById("loader");
+  if (loader) { loader.classList.add("gone"); setTimeout(() => loader.remove(), 550); }
 
   window.addEventListener("resize", () => {
     width = window.innerWidth; height = window.innerHeight;
