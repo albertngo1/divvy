@@ -84,6 +84,41 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     };
   });
 
+  // --- galaxies: cluster ideas by DOMAIN (what the idea is about), not source/medium ---
+  const DOMAINS: { name: string; tags: string[] }[] = [
+    { name: "games", tags: ["game", "games", "gamedev", "roguelike", "deckbuilder", "arpg", "autobattler", "idle", "tycoon", "sim", "management-sim", "farm-sim", "cozy-sim", "pet-sim", "procedural", "procgen", "permadeath", "speedrun", "browser-game", "party-game", "field-game", "racer", "crpg", "survival", "survival-horror", "horror", "fantasy", "grimdark", "sandbox", "puzzle", "physics-puzzle", "stealth-puzzle", "daily-game", "wordgame", "guessing", "geoguess", "teardown-sim", "trucking-sim", "detective", "narrative"] },
+    { name: "data viz", tags: ["data-viz", "dataviz", "map", "animated-map", "choropleth", "glyph-small-multiples", "spatial-join", "polar-clock", "timeline-tower", "silhouette-ribbons", "map-pillar", "map-spectrogram", "3d-viz", "playable-data", "gis", "osm"] },
+    { name: "dev & ops", tags: ["devtool", "devtools", "git", "ci", "docker", "kubernetes", "rust", "sql", "postgres", "code", "code-review", "refactor", "testing", "coverage", "homelab", "sysadmin", "ops", "self-hosted", "incident", "logs", "telemetry", "cron", "dns", "bandwidth", "processes", "assembly", "ast", "reverse-engineering", "engineering", "hardware", "teardown", "inspection"] },
+    { name: "ai & ml", tags: ["llm", "ml", "language-model", "agents", "agent-loop", "prompt-craft", "turing-test", "perplexity", "ai-forensics"] },
+    { name: "science & nature", tags: ["science", "physics", "physics-toy", "audio-physics", "astronomy", "geology", "nature", "mycology", "materials", "dendro", "morphogen", "cellular-automata", "phenology-drift", "entropy", "radar", "sonar", "computer-vision", "color-science", "biometrics"] },
+    { name: "finance", tags: ["finance", "economics", "economy", "prediction-market", "prediction", "risk-reward"] },
+    { name: "language & text", tags: ["language", "nlp", "corporate-linguistics", "literary-rhythm", "wordgame", "unicode", "steganography", "japanese", "ocr", "compression"] },
+    { name: "art & sound", tags: ["generative", "generative-art", "art", "canvas", "webgl", "graphics", "three-js", "wallpaper", "screensaver", "color", "animation", "audio", "audio-waveform-grid", "generative-music", "rhythm", "pop-music", "webaudio", "morse"] },
+    { name: "life & self", tags: ["productivity", "calendar", "contacts", "email", "focus", "quantified-self", "self-tracking", "chores", "receipts", "relationships", "roommates", "care-sim", "wearable", "sleep", "treadmill", "strava", "location"] },
+    { name: "ambient & toys", tags: ["ambient", "ambient-dashboard", "whimsy", "desktop-toy", "desktop", "menubar", "macos", "tamagotchi", "systems-toy", "ritual", "memento-mori", "screensaver"] },
+    { name: "social & party", tags: ["social", "party", "multiplayer", "coop", "co-op", "deduction", "social-deduction", "competitive", "leaderboard", "matchmaking", "fantasy-league", "voting", "community", "party-game"] },
+    { name: "security & privacy", tags: ["security", "privacy", "forensics", "anti-cheat", "adtech", "provenance", "heritage", "identification"] },
+  ];
+  const domTag = new Map<string, string>();
+  DOMAINS.forEach((dom) => dom.tags.forEach((t) => { if (!domTag.has(t)) domTag.set(t, dom.name); }));
+  nodes.forEach((d) => {
+    const score: Record<string, number> = {};
+    (d.tags || []).forEach((t) => { const dom = domTag.get(t); if (dom) score[dom] = (score[dom] || 0) + 1; });
+    let best = "other", bestC = 0;
+    for (const [dom, c] of Object.entries(score)) if (c > bestC) { bestC = c; best = dom; }
+    d.galaxy = best;
+  });
+  const galaxyKeys = DOMAINS.map((d) => d.name).filter((g) => nodes.some((n) => n.galaxy === g));
+  if (nodes.some((n) => n.galaxy === "other")) galaxyKeys.push("other");
+  // arrange galaxies on a ring; pull each idea toward its galaxy
+  const gR = Math.min(width, height) * 0.72;
+  const gpos: Record<string, { x: number; y: number }> = {};
+  galaxyKeys.forEach((gk, i) => {
+    const a = (i / galaxyKeys.length) * 2 * Math.PI - Math.PI / 2;
+    gpos[gk] = { x: width / 2 + gR * Math.cos(a), y: height / 2 + gR * Math.sin(a) };
+  });
+  nodes.forEach((d) => { const p = gpos[d.galaxy!]; d.x = p.x + (Math.random() - 0.5) * 70; d.y = p.y + (Math.random() - 0.5) * 70; });
+
   // gradient + glow defs, one per node (score-hued)
   const defs = svg.append("defs");
   nodes.forEach((d) => {
@@ -99,12 +134,13 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   });
 
   const sim = d3.forceSimulation<Node>(nodes)
-    .force("collide", d3.forceCollide<Node>().radius((d) => d.r + 9).strength(1).iterations(4))
-    .force("x", d3.forceX<Node>(width / 2).strength(0.02))
-    .force("y", d3.forceY<Node>(height / 2).strength(0.02))
+    .force("collide", d3.forceCollide<Node>().radius((d) => d.r + 6).strength(1).iterations(4))
+    .force("x", d3.forceX<Node>((d) => gpos[d.galaxy!].x).strength(0.45)) // cluster into galaxies
+    .force("y", d3.forceY<Node>((d) => gpos[d.galaxy!].y).strength(0.45))
     .alphaDecay(0.02);
 
   const viewport = svg.append("g").attr("class", "viewport");
+  const galaxyG = viewport.append("g").attr("class", "galaxies"); // labels, backmost
   const linkG = viewport.append("g").attr("class", "links");
 
   const g = viewport.selectAll<SVGGElement, Node>("g.bubble")
@@ -148,6 +184,19 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   const tx = width / 2 - (k * (minX + maxX)) / 2;
   const ty = height / 2 - (k * (minY + maxY)) / 2;
   svg.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+
+  // galaxy labels above each cluster
+  const glabels = galaxyKeys.map((gk) => {
+    const members = nodes.filter((n) => n.galaxy === gk);
+    const cx = d3.mean(members, (m) => m.x) ?? width / 2;
+    const topY = Math.min(...members.map((m) => m.y - m.r));
+    return { gk, x: cx, y: topY - 16 };
+  });
+  galaxyG.selectAll("text").data(glabels).join("text")
+    .attr("class", "galaxy-label")
+    .attr("x", (l) => l.x).attr("y", (l) => l.y)
+    .attr("text-anchor", "middle")
+    .text((l) => l.gk);
 
   // constellation links: same-tag ideas (small groups) as nearest-neighbor chains
   const groups: Record<string, Node[]> = {};

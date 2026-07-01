@@ -25,4 +25,5 @@ export interface Node extends Idea {
   fy?: number | null;
   _rx?: number;
   _ry?: number;
+  galaxy?: string;
 }

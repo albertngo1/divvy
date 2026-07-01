@@ -177,6 +177,15 @@ body::after {
 .bubble:hover circle.halo { opacity: 1; transform: scale(1.16); }
 .bubble.dim { opacity: 0.06; pointer-events: none; }
 
+/* galaxy labels (domain clusters) */
+.galaxy-label {
+  fill: rgba(220,230,255,0.42);
+  font-family: "Fraunces", serif;
+  font-size: 26px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  pointer-events: none;
+  paint-order: stroke; stroke: rgba(5,6,10,0.6); stroke-width: 4px;
+}
+
 /* constellation lines linking same-tag ideas */
 .link { stroke: rgba(198,214,255,0.32); stroke-width: 1.1; pointer-events: none; }
 .link.lit { stroke: rgba(220,232,255,0.7); stroke-width: 1.5; }
