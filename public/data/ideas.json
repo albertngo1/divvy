@@ -2,6 +2,507 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "misfire",
+      "title": "Misfire",
+      "hook": "A daily audio whodunit: listen to a procedurally-sick engine idle and diagnose which cylinder is misfiring before it stalls.",
+      "tags": [
+        "audio",
+        "puzzle",
+        "game",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "core-sample",
+      "title": "Core Sample",
+      "hook": "A menubar app that samples one minute of your room's ambient sound each day and lays down a tree ring of color — after a year you have a drillable core of what your year actually sounded like.",
+      "tags": [
+        "ambient",
+        "audio",
+        "quantified-self",
+        "generative"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "deadhead",
+      "title": "Deadhead",
+      "hook": "A freight-routing minigame on real OpenStreetMap roads where the enemy isn't traffic — it's the empty miles, and every deadhead leg bleeds your margin.",
+      "tags": [
+        "game",
+        "gis",
+        "map",
+        "sim"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "load-bearing",
+      "title": "Load Bearing",
+      "hook": "A daily 3D demolition puzzle: remove exactly ONE beam so the whole structure collapses onto the target — par is measured in pieces knocked loose.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "browser-game",
+        "procedural"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "chain-of-custody",
+      "title": "Chain of Custody",
+      "hook": "A watchdog that cryptographically notarizes everything in your 'purchased' digital libraries so when a storefront silently deletes what you paid for, you have signed, timestamped receipts.",
+      "tags": [
+        "security",
+        "provenance",
+        "self-hosted",
+        "forensics"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "streak-plate",
+      "title": "Streak Plate",
+      "hook": "A live petri-dish wallpaper where every git commit inoculates a fresh bacterial colony — and every day you skip lets a colony starve and lyse.",
+      "tags": [
+        "biology",
+        "wallpaper",
+        "git",
+        "generative"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "backseat",
+      "title": "Backseat",
+      "hook": "A live second-screen game layered over esports streams: predict the next play in real time and score against the whole crowd watching with you.",
+      "tags": [
+        "competitive",
+        "social",
+        "multiplayer",
+        "leaderboard"
+      ],
+      "score": 60,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "fragment",
+      "title": "Fragment",
+      "hook": "Wordle for shaders: everyone gets the same target image each day, and you race to reproduce it in the fewest characters of GLSL.",
+      "tags": [
+        "graphics",
+        "puzzle",
+        "wordgame",
+        "competitive"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "trackerjack",
+      "title": "Trackerjack",
+      "hook": "A tower-defense idle game fed by the ad trackers your browser actually blocks — the creepier your web, the stronger your defenses.",
+      "tags": [
+        "idle",
+        "privacy",
+        "game",
+        "browser-game"
+      ],
+      "score": 64,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "splice",
+      "title": "Splice",
+      "hook": "Code-golf for life: build the smallest gene set that still grows, divides, and survives — fewer genes, higher score.",
+      "tags": [
+        "biology",
+        "puzzle",
+        "sim",
+        "procedural"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "redline",
+      "title": "Redline",
+      "hook": "A menubar tachometer that treats your computer as an engine — RPM tracks load, and over a year it quietly logs mileage and nags you when a 'service' is due.",
+      "tags": [
+        "desktop-toy",
+        "ambient",
+        "quantified-self",
+        "menubar"
+      ],
+      "score": 58,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "delist",
+      "title": "Delist",
+      "hook": "A prediction market where you bet on which movies, games, and albums vanish from digital stores next — because you never really owned them anyway.",
+      "tags": [
+        "prediction-market",
+        "finance",
+        "provenance",
+        "leaderboard"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "dither",
+      "title": "Dither",
+      "hook": "A daily drawing party where everyone gets 16×16 pixels, one color, and a secret word — then votes on whose crunchy 1-bit doodle best nails the prompt.",
+      "tags": [
+        "party-game",
+        "art",
+        "graphics",
+        "leaderboard"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "tombstone",
+      "title": "Tombstone",
+      "hook": "A watchdog that quietly monitors the digital things you 'own' — bought movies, games, ebooks — and the day a storefront memory-holes one, it erects a public tombstone with the receipt.",
+      "tags": [
+        "provenance",
+        "security",
+        "self-hosted",
+        "timeline"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "slushpile",
+      "title": "Slushpile",
+      "hook": "A prediction market on the Hacker News /newest firehose: stake points on which raw submissions will claw their way to the front page before they ever get there.",
+      "tags": [
+        "prediction-market",
+        "social",
+        "leaderboard",
+        "markets"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "lossy",
+      "title": "Lossy",
+      "hook": "A daily ABX gauntlet that turns idle music-listening into a bloodsport: given a clip, tell the 128kbps from the lossless — and watch your golden-ears ranking rise or crater.",
+      "tags": [
+        "audio",
+        "competitive",
+        "leaderboard",
+        "party-game"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "linkage",
+      "title": "Linkage",
+      "hook": "A puzzle game where every level is a real mechanism — an engine, a clock escapement, a differential — that you must wire up correctly, and it only 'clicks' when the physics sim actually runs it.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "game",
+        "graphics"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "confluence",
+      "title": "Confluence",
+      "hook": "A live wallpaper where one synthetic cell divides once a day — fed by how you actually used your machine — until a year later the colony's shape is a portrait of your year.",
+      "tags": [
+        "biology",
+        "ambient",
+        "wallpaper",
+        "quantified-self"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "top-dead-center",
+      "title": "Top Dead Center",
+      "hook": "A precision timing game where you're the ignition system of a multi-cylinder engine, firing each spark at exactly the right instant as the RPM climbs toward the redline.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "browser-game"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "tangent",
+      "title": "Tangent",
+      "hook": "A search engine tuned backwards: it hides the obvious hits and surfaces only the interesting near-misses, for when you want to get productively lost instead of answered.",
+      "tags": [
+        "nlp",
+        "embeddings",
+        "whimsy"
+      ],
+      "score": 60,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "jewel-case",
+      "title": "Jewel Case",
+      "hook": "Print-and-fold physical box art, spine, and a fake manual for any game in your all-digital Steam library — a papercraft wake for the death of the disc.",
+      "tags": [
+        "generative",
+        "art",
+        "whimsy"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "window-box",
+      "title": "Window Box",
+      "hook": "A live desktop wallpaper of a little windowsill garden that quietly thrives on your real day — commits water it, deep-focus gives it sun, and doomscrolling brings the aphids.",
+      "tags": [
+        "desktop-toy",
+        "idle",
+        "quantified-self",
+        "ambient"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "doubling-time",
+      "title": "Doubling Time",
+      "hook": "An idle game where you assemble a synthetic cell one gene at a time and watch a colony bloom on a real doubling-time curve you're forever trying to shorten.",
+      "tags": [
+        "idle",
+        "biology",
+        "sim",
+        "procedural"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "curly-arrows",
+      "title": "Curly Arrows",
+      "hook": "A retrosynthesis roguelike where every card is a reagent and you claw your way from a beaker of ethanol to a target molecule before your yield runs out.",
+      "tags": [
+        "deckbuilder",
+        "chemistry",
+        "roguelike",
+        "procedural"
+      ],
+      "score": 76,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "clawback",
+      "title": "Clawback",
+      "hook": "A memorial wall and radar for the movies, games, and books you legally bought and a platform quietly deleted out from under you.",
+      "tags": [
+        "data-viz",
+        "privacy",
+        "self-hosted",
+        "provenance"
+      ],
+      "score": 58,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "flypaper",
+      "title": "Flypaper",
+      "hook": "A tarpit that feeds AI crawlers a slowly self-corrupting fictional wiki, then lets you read back the deranged lore the bots have been dutifully ingesting.",
+      "tags": [
+        "security",
+        "self-hosted",
+        "generative",
+        "whimsy"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "negative-split",
+      "title": "Negative Split",
+      "hook": "A roguelike whose dungeon is generated from your body: last night's sleep sets your HP, resting heart rate sets enemy aggression, and you only win by finishing faster than you started.",
+      "tags": [
+        "quantified-self",
+        "roguelike",
+        "health",
+        "procedural"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "honeymail",
+      "title": "Honeymail",
+      "hook": "Give every signup its own disposable alias, then watch which company leaks or sells your address — a courtroom of receipts for spam.",
+      "tags": [
+        "privacy",
+        "security",
+        "forensics",
+        "self-hosted"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "firing-order",
+      "title": "Firing Order",
+      "hook": "A cutaway-engine puzzle game: tune the ignition timing, valve overlap, and fuel mix until a four-cylinder actually idles smoothly instead of knocking itself apart.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "sim",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "passage",
+      "title": "Passage",
+      "hook": "A browser roguelike deckbuilder where every run is a single cell lineage you must keep alive and dividing before entropy eats it.",
+      "tags": [
+        "biology",
+        "deckbuilder",
+        "roguelike",
+        "sim"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "backsolve",
+      "title": "Backsolve",
+      "hook": "Diagram golf: you're shown a rendered UML diagram and race to reconstruct the exact text that generated it in the fewest keystrokes.",
+      "tags": [
+        "devtool",
+        "wordgame",
+        "competitive",
+        "puzzle"
+      ],
+      "score": 58,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "toll",
+      "title": "Toll",
+      "hook": "A roguelike where you're a web crawler on a shrinking token budget, threading a web of pay-per-crawl paywalls to reach the data before you go broke.",
+      "tags": [
+        "roguelike",
+        "economics",
+        "browser-game",
+        "procedural"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "fallow-2",
+      "title": "Fallow",
+      "hook": "A live wallpaper that grows a shared garden only while your machine sits idle — and ranks your longest untouched streak against strangers worldwide.",
+      "tags": [
+        "desktop-toy",
+        "ambient",
+        "leaderboard",
+        "quantified-self"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "ballista",
+      "title": "Ballista",
+      "hook": "A physics puzzle where you play an ambush spider building spring-loaded snares — wind up potential energy, aim, and release to yank prey off the ground.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "game",
+        "procedural"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "dead-drop",
+      "title": "Dead Drop",
+      "hook": "A multiplayer capture-the-flag where you smuggle a secret payload inside an innocent-looking paragraph and everyone else races to decode it.",
+      "tags": [
+        "steganography",
+        "security",
+        "multiplayer",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "divide",
+      "title": "Divide",
+      "hook": "A deckbuilder where you assemble a genome from scratch and must get your minimal cell to grow and divide before your opponent's does.",
+      "tags": [
+        "deckbuilder",
+        "biology",
+        "roguelike",
+        "competitive"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "ligature",
       "title": "Ligature",
       "hook": "A tool that bakes any short secret into a custom font, so typing a harmless trigger word suddenly renders a QR code or hidden glyph — steganography you can paste into any chat that supports web fonts.",
