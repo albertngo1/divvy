@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "ghostwriter",
+      "title": "Ghostwriter",
+      "hook": "A code-review game show: everyone stares at a diff and votes which hunks were written by a human and which by the AI, and the coder scores points for every bluff that fools the room.",
+      "tags": [
+        "party-game",
+        "code-review",
+        "turing-test"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "frontrun",
+      "title": "Frontrun",
+      "hook": "A play-money prediction market laid over Hacker News' /new page — bet karma-coins on which Show HN posts will actually reach the front page before they do.",
+      "tags": [
+        "prediction-market",
+        "hackernews",
+        "competitive"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "deload",
+      "title": "Deload",
+      "hook": "A daily bullet-heaven roguelike where the enemy swarm and your loot are seeded by last night's Garmin recovery — sleep badly and the mobs hit like trucks.",
+      "tags": [
+        "biometrics",
+        "roguelike",
+        "leaderboard"
+      ],
+      "score": 78,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "read-receipt",
+      "title": "Read Receipt",
+      "hook": "Your unread inbox is a Slay-the-Spire dungeon: every sender is a monster with HP equal to its thread length, and you clear the floor by playing triage cards.",
+      "tags": [
+        "deckbuilder",
+        "email",
+        "roguelike"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "airframe",
       "title": "Airframe",
       "hook": "Drag real motors, props, and batteries onto a frame and instantly learn whether your homemade octocopter dream actually hovers — or just cooks its ESCs on the bench.",
