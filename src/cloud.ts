@@ -8,6 +8,7 @@ export interface CloudHandlers {
   onSelect: (d: Idea) => void;
   onReady?: () => void;
   onCursor?: (worldX: number, worldY: number) => void; // local cursor moved (world coords)
+  onView?: (x: number, y: number, k: number) => void;  // pan/zoom transform changed (for parallax bg)
 }
 
 export interface CloudPeer { id: string; name: string; color: string; x: number; y: number; }
@@ -334,7 +335,11 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   }
 
   const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.02, 4])
-    .on("zoom", (event) => { viewport.attr("transform", event.transform.toString()); renderCursors(); });
+    .on("zoom", (event) => {
+      viewport.attr("transform", event.transform.toString());
+      renderCursors();
+      handlers.onView?.(event.transform.x, event.transform.y, event.transform.k);
+    });
   svg.call(zoom).on("dblclick.zoom", null);
 
   // stream this browser's cursor (in world coords) to peers, throttled

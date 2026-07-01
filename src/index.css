@@ -78,29 +78,36 @@ body::before {
   pointer-events: none;
   will-change: transform;
 }
-body::after {
-  /* starfield + vignette */
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  background:
-    radial-gradient(3.2px 3.2px at 12% 22%, rgba(255,255,255,0.98), transparent 62%),
-    radial-gradient(2.4px 2.4px at 27% 68%, rgba(210,225,255,0.85), transparent 62%),
-    radial-gradient(4px 4px at 41% 12%, #fff, transparent 64%),
-    radial-gradient(2.2px 2.2px at 55% 44%, rgba(255,255,255,0.72), transparent 62%),
-    radial-gradient(3.4px 3.4px at 63% 82%, rgba(255,255,255,0.92), transparent 62%),
-    radial-gradient(2.4px 2.4px at 74% 33%, rgba(210,225,255,0.75), transparent 62%),
-    radial-gradient(3.8px 3.8px at 84% 61%, rgba(255,255,255,0.96), transparent 64%),
-    radial-gradient(2.2px 2.2px at 92% 18%, rgba(255,255,255,0.68), transparent 62%),
-    radial-gradient(2.8px 2.8px at 6% 88%, rgba(255,255,255,0.82), transparent 62%),
-    radial-gradient(2.2px 2.2px at 48% 92%, rgba(255,255,255,0.66), transparent 62%),
-    radial-gradient(2.6px 2.6px at 33% 40%, rgba(255,255,255,0.72), transparent 62%),
-    radial-gradient(3px 3px at 88% 88%, rgba(255,255,255,0.86), transparent 62%),
-    radial-gradient(2.2px 2.2px at 18% 52%, rgba(210,225,255,0.62), transparent 62%),
-    radial-gradient(2.8px 2.8px at 68% 6%, rgba(255,255,255,0.82), transparent 62%),
-    radial-gradient(120% 90% at 50% 0%, transparent 50%, rgba(0,0,0,0.62) 100%);
-  pointer-events: none;
+/* the starfield is now the parallax <Starfield> component (behind the cloud) */
+.starfield { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.star-layer { position: absolute; inset: 0; background-repeat: repeat; will-change: background-position; }
+.star-layer.far {
+  background-size: 300px 300px;
+  background-image:
+    radial-gradient(2px 2px at 40px 60px, rgba(255,255,255,0.7), transparent 60%),
+    radial-gradient(1.6px 1.6px at 160px 120px, rgba(210,225,255,0.6), transparent 60%),
+    radial-gradient(2px 2px at 240px 210px, rgba(255,255,255,0.6), transparent 60%),
+    radial-gradient(1.5px 1.5px at 90px 250px, rgba(255,255,255,0.5), transparent 60%),
+    radial-gradient(1.6px 1.6px at 285px 40px, rgba(210,225,255,0.5), transparent 60%);
+}
+.star-layer.mid {
+  background-size: 480px 480px;
+  background-image:
+    radial-gradient(3px 3px at 80px 120px, rgba(255,255,255,0.9), transparent 62%),
+    radial-gradient(2.4px 2.4px at 360px 200px, rgba(210,225,255,0.75), transparent 62%),
+    radial-gradient(2.6px 2.6px at 220px 400px, rgba(255,255,255,0.8), transparent 62%),
+    radial-gradient(2.2px 2.2px at 440px 440px, rgba(255,255,255,0.7), transparent 62%);
+}
+.star-layer.near {
+  background-size: 720px 720px;
+  background-image:
+    radial-gradient(4px 4px at 140px 220px, #fff, transparent 64%),
+    radial-gradient(3.4px 3.4px at 560px 480px, rgba(255,255,255,0.95), transparent 64%),
+    radial-gradient(3px 3px at 380px 640px, rgba(220,235,255,0.85), transparent 64%);
+}
+.star-vignette {
+  position: absolute; inset: 0;
+  background: radial-gradient(120% 90% at 50% 0%, transparent 52%, rgba(0,0,0,0.6) 100%);
 }
 @keyframes drift {
   0%   { transform: translate3d(0,0,0) scale(1); }

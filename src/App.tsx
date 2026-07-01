@@ -4,6 +4,7 @@ import type { Idea, IdeasFile } from "./types";
 import { canonTags } from "./tags";
 import { connectPresence, type PresenceHandle } from "./presence";
 import Cloud, { type CloudApi } from "./components/Cloud";
+import Starfield, { type StarfieldApi } from "./components/Starfield";
 import Scoreboard from "./components/Scoreboard";
 import TopBar from "./components/TopBar";
 import Controls from "./components/Controls";
@@ -43,6 +44,7 @@ export default function App() {
   votesRef.current = votes;
   const cloudRef = useRef<CloudApi>(null);        // push peer cursors in imperatively
   const presenceRef = useRef<PresenceHandle | null>(null);
+  const starfieldRef = useRef<StarfieldApi>(null); // parallax background driven by pan/zoom
 
   // the open idea lives in the URL (?idea=<slug>) via React Router, so back/forward and
   // shared links Just Work. `selected` is derived from it; openIdea pushes a history entry.
@@ -221,6 +223,7 @@ export default function App() {
 
   return (
     <>
+      <Starfield ref={starfieldRef} />
       <div id="loader" className={"loader" + (ready ? " gone" : "")}>
         <div className="spinner" />
         <p>generating idea cloud…</p>
@@ -235,6 +238,7 @@ export default function App() {
           ref={cloudRef} ideas={ideas} dim={dim} votes={votes} seen={seen}
           onHover={onHover} onSelect={onSelect} onReady={onReady}
           onCursor={(x, y) => presenceRef.current?.sendCursor(x, y)}
+          onView={(x, y, k) => starfieldRef.current?.setView(x, y, k)}
         />
         <Tooltip idea={hovered} votes={hovered ? votes[hovered.slug] || 0 : 0} atBottom={!!hovered && hoverY < 240} />
         <FilterBar search={search} activeTags={activeTags} visible={visibleCount} onClear={clearFilters} />

@@ -11,6 +11,7 @@ interface Props {
   onSelect: (d: Idea) => void;
   onReady: () => void;
   onCursor?: (worldX: number, worldY: number) => void;
+  onView?: (x: number, y: number, k: number) => void;
 }
 
 // imperative surface for pushing peer cursors in without re-rendering React on every move
@@ -20,7 +21,7 @@ export interface CloudApi {
 }
 
 const Cloud = forwardRef<CloudApi, Props>(function Cloud(
-  { ideas, dim, votes, seen, onHover, onSelect, onReady, onCursor },
+  { ideas, dim, votes, seen, onHover, onSelect, onReady, onCursor, onView },
   ref,
 ) {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -34,7 +35,7 @@ const Cloud = forwardRef<CloudApi, Props>(function Cloud(
   // (re)build the d3 cloud whenever the idea set changes
   useEffect(() => {
     if (!ideas.length || !svgRef.current) return;
-    const handle = createCloud(svgRef.current, ideas, { onHover, onSelect, onReady, onCursor });
+    const handle = createCloud(svgRef.current, ideas, { onHover, onSelect, onReady, onCursor, onView });
     handleRef.current = handle;
     handle.setDim(dim);
     handle.setVotes(votes);
