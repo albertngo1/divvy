@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "cover-traffic",
+      "title": "Cover Traffic",
+      "hook": "A social-deduction party game where two spies must smuggle a secret phrase through totally normal-looking game chat while an eavesdropper listens for the hidden channel.",
+      "tags": [
+        "party",
+        "steganography",
+        "social-deduction"
+      ],
+      "score": 73,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "mirror-rot",
+      "title": "Mirror Rot",
+      "hook": "A watchdog for all the code you copy-pasted and forgot: it tracks your vendored files, pinned gists, and mirrored lists, and pings you the moment a copy drifts from its upstream.",
+      "tags": [
+        "devtool",
+        "cron",
+        "drift"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cell-line",
+      "title": "Cell Line",
+      "hook": "A puzzle game where you don't build creatures — you coax a blob of pluripotent stem cells into becoming one, by painting the chemical gradients that tell them what to grow into.",
+      "tags": [
+        "puzzle",
+        "morphogen",
+        "cellular-automata"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cambium",
+      "title": "Cambium",
+      "hook": "A desktop wallpaper that quietly grows one tree-ring per day, so after a year you're staring at a dendrochronological cross-section of your own life.",
+      "tags": [
+        "ambient",
+        "generative",
+        "dendro"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "pack-rat",
       "title": "Pack Rat",
       "hook": "A puzzle game that makes you the compressor UPX automates away — squeeze a wall of bytes smaller by hand, hunting repeats and building your own dictionary, and get scored against gzip.",
