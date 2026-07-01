@@ -110,17 +110,50 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   });
   const galaxyKeys = DOMAINS.map((d) => d.name).filter((g) => nodes.some((n) => n.galaxy === g));
   if (nodes.some((n) => n.galaxy === "other")) galaxyKeys.push("other");
-  // arrange galaxies on a ring; pull each idea toward its galaxy
-  const gR = Math.min(width, height) * 0.72;
-  const gpos: Record<string, { x: number; y: number }> = {};
-  galaxyKeys.forEach((gk, i) => {
-    const a = (i / galaxyKeys.length) * 2 * Math.PI - Math.PI / 2;
-    gpos[gk] = { x: width / 2 + gR * Math.cos(a), y: height / 2 + gR * Math.sin(a) };
+  // Give each galaxy a packing radius from its members, then lay the galaxies out as
+  // NON-OVERLAPPING blobs via a mini force-sim on the cluster centers — so the clusters
+  // read as separate islands with whitespace between, not one continuous ring.
+  const gmembers: Record<string, Node[]> = {};
+  nodes.forEach((d) => (gmembers[d.galaxy!] = gmembers[d.galaxy!] || []).push(d));
+  const clusterR: Record<string, number> = {};
+  const sunR: Record<string, number> = {};
+  galaxyKeys.forEach((gk) => {
+    const area = gmembers[gk].reduce((s, m) => s + Math.PI * (m.r + 5) * (m.r + 5), 0);
+    clusterR[gk] = Math.sqrt(area / Math.PI) * 1.5 + 46; // inflate → gap between galaxies
+    sunR[gk] = Math.max(26, Math.min(52, clusterR[gk] * 0.16)); // central star the ideas orbit
   });
-  nodes.forEach((d) => { const p = gpos[d.galaxy!]; d.x = p.x + (Math.random() - 0.5) * 70; d.y = p.y + (Math.random() - 0.5) * 70; });
+  const seedR = Math.min(width, height) * 0.5;
+  const centers = galaxyKeys.map((gk, i) => {
+    const a = (i / galaxyKeys.length) * 2 * Math.PI - Math.PI / 2;
+    return { gk, r: clusterR[gk], x: width / 2 + seedR * Math.cos(a), y: height / 2 + seedR * Math.sin(a) };
+  });
+  d3.forceSimulation(centers as unknown as d3.SimulationNodeDatum[])
+    .force("collide", d3.forceCollide<{ r: number } & d3.SimulationNodeDatum>((c) => c.r).strength(1).iterations(8))
+    .force("x", d3.forceX(width / 2).strength(0.06))
+    .force("y", d3.forceY(height / 2).strength(0.06))
+    .stop()
+    .tick(320);
+  const gpos: Record<string, { x: number; y: number }> = {};
+  centers.forEach((c) => { gpos[c.gk] = { x: c.x, y: c.y }; });
+  // seed each idea in a ring around its galaxy's sun so the settle only tightens packing
+  nodes.forEach((d) => {
+    const p = gpos[d.galaxy!];
+    const inner = sunR[d.galaxy!] + d.r + 6;
+    const rr = inner + Math.sqrt(Math.random()) * clusterR[d.galaxy!] * 0.5;
+    const a = Math.random() * 2 * Math.PI;
+    d.x = p.x + rr * Math.cos(a); d.y = p.y + rr * Math.sin(a);
+  });
 
   // gradient + glow defs, one per node (score-hued)
   const defs = svg.append("defs");
+  const neb = defs.append("radialGradient").attr("id", "nebula-grad").attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
+  neb.append("stop").attr("offset", "0%").attr("stop-color", "rgba(130,150,255,0.10)");
+  neb.append("stop").attr("offset", "68%").attr("stop-color", "rgba(120,140,255,0.035)");
+  neb.append("stop").attr("offset", "100%").attr("stop-color", "rgba(120,140,255,0)");
+  const sun = defs.append("radialGradient").attr("id", "sun-grad").attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
+  sun.append("stop").attr("offset", "0%").attr("stop-color", "rgba(255,247,224,0.98)");
+  sun.append("stop").attr("offset", "42%").attr("stop-color", "rgba(255,222,158,0.62)");
+  sun.append("stop").attr("offset", "100%").attr("stop-color", "rgba(255,205,130,0)");
   nodes.forEach((d) => {
     const h = scoreHue(d.score);
     const g = defs.append("radialGradient").attr("id", `grad-${d.slug}`).attr("cx", "0.35").attr("cy", "0.3").attr("r", "0.85");
@@ -133,11 +166,27 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     gl.append("stop").attr("offset", "100%").attr("stop-color", `hsla(${h},72%,62%,0)`);
   });
 
+  // keep each idea outside its galaxy's sun, so the ideas orbit the star instead of burying it
+  const sunOrbit = (alpha: number) => {
+    for (const d of nodes) {
+      const c = gpos[d.galaxy!];
+      const dx = d.x - c.x, dy = d.y - c.y;
+      const dist = Math.hypot(dx, dy) || 0.01;
+      const min = sunR[d.galaxy!] + d.r + 5;
+      if (dist < min) {
+        const push = (min - dist) * alpha * 0.9;
+        d.vx = (d.vx || 0) + (dx / dist) * push;
+        d.vy = (d.vy || 0) + (dy / dist) * push;
+      }
+    }
+  };
+
   const sim = d3.forceSimulation<Node>(nodes)
-    .force("collide", d3.forceCollide<Node>().radius((d) => d.r + 6).strength(1).iterations(4))
-    .force("x", d3.forceX<Node>((d) => gpos[d.galaxy!].x).strength(0.45)) // cluster into galaxies
-    .force("y", d3.forceY<Node>((d) => gpos[d.galaxy!].y).strength(0.45))
-    .alphaDecay(0.02);
+    .force("collide", d3.forceCollide<Node>().radius((d) => d.r + 3).strength(1).iterations(4))
+    .force("x", d3.forceX<Node>((d) => gpos[d.galaxy!].x).strength(0.55)) // localize the cluster
+    .force("y", d3.forceY<Node>((d) => gpos[d.galaxy!].y).strength(0.55))
+    .force("sun", sunOrbit) // clear the center for the star
+    .alphaDecay(0.03);
 
   const viewport = svg.append("g").attr("class", "viewport");
   const galaxyG = viewport.append("g").attr("class", "galaxies"); // labels, backmost
@@ -180,23 +229,28 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     minY = Math.min(minY, d.y - d.r); maxY = Math.max(maxY, d.y + d.r);
   });
   const pad = width < 640 ? 24 : 80;
-  const k = Math.max(0.35, Math.min(1, (width - pad) / (maxX - minX), (height - pad) / (maxY - minY)));
+  const k = Math.max(0.15, Math.min(1, (width - pad) / (maxX - minX), (height - pad) / (maxY - minY)));
   const tx = width / 2 - (k * (minX + maxX)) / 2;
   const ty = height / 2 - (k * (minY + maxY)) / 2;
   svg.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 
-  // galaxy labels above each cluster
-  const glabels = galaxyKeys.map((gk) => {
-    const members = nodes.filter((n) => n.galaxy === gk);
-    const cx = d3.mean(members, (m) => m.x) ?? width / 2;
-    const topY = Math.min(...members.map((m) => m.y - m.r));
-    return { gk, x: cx, y: topY - 16 };
-  });
-  galaxyG.selectAll("text").data(glabels).join("text")
-    .attr("class", "galaxy-label")
-    .attr("x", (l) => l.x).attr("y", (l) => l.y)
-    .attr("text-anchor", "middle")
-    .text((l) => l.gk);
+  // faint nebula disc behind each galaxy so the clusters read at a glance
+  galaxyG.selectAll("circle.nebula").data(galaxyKeys).join("circle")
+    .attr("class", "nebula")
+    .attr("cx", (gk) => gpos[gk].x).attr("cy", (gk) => gpos[gk].y)
+    .attr("r", (gk) => clusterR[gk] * 0.94)
+    .attr("fill", "url(#nebula-grad)")
+    .style("pointer-events", "none");
+
+  // each galaxy's "sun": a labeled central star the ideas orbit, naming its domain
+  const sunG = viewport.append("g").attr("class", "suns"); // frontmost overlay
+  const suns = sunG.selectAll<SVGGElement, string>("g.sun").data(galaxyKeys).join("g")
+    .attr("class", "sun")
+    .attr("transform", (gk) => `translate(${gpos[gk].x},${gpos[gk].y})`)
+    .style("pointer-events", "none");
+  suns.append("circle").attr("class", "sun-halo").attr("r", (gk) => sunR[gk] * 1.7).attr("fill", "url(#sun-grad)");
+  suns.append("circle").attr("class", "sun-core").attr("r", (gk) => sunR[gk] * 0.5);
+  suns.append("text").attr("class", "sun-label").attr("text-anchor", "middle").attr("dy", "0.32em").text((gk) => gk);
 
   // constellation links: same-tag ideas (small groups) as nearest-neighbor chains
   const groups: Record<string, Node[]> = {};
