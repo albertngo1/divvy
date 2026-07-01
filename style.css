@@ -333,6 +333,11 @@ body::after {
   transition: opacity 0.2s ease, transform 0.24s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .tag-pop.open { opacity: 1; transform: translateX(-50%) translateY(0) scale(1); pointer-events: auto; }
+.tag-pop { scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.16) transparent; align-content: flex-start; }
+.tag-pop::-webkit-scrollbar { width: 8px; }
+.tag-pop::-webkit-scrollbar-track { background: transparent; margin: 8px 0; }
+.tag-pop::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.16); border-radius: 99px; border: 2px solid transparent; background-clip: padding-box; }
+.tag-pop::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); background-clip: padding-box; }
 .tag-pop .tp {
   font-family: "JetBrains Mono", monospace;
   font-size: 11.5px;
@@ -406,6 +411,20 @@ body::after {
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .hook { color: var(--ink-dim); font-size: 15.5px; font-style: italic; line-height: 1.5; margin: 0; }
+
+/* PRD loading state — reuses the page spinner, tinted to the idea's accent */
+.prd-loading {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 16px; padding: 60px 0; color: var(--ink-faint);
+  font-family: "JetBrains Mono", monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.prd-loading .spinner {
+  width: 34px; height: 34px;
+  border: 3px solid rgba(255,255,255,0.1);
+  border-top-color: var(--accent);
+  border-right-color: var(--accent);
+  filter: drop-shadow(0 0 8px var(--accent-soft));
+}
 
 /* markdown PRD — colorful, accent-driven */
 .prd { font-size: 15px; line-height: 1.68; color: #cfd3e0; }

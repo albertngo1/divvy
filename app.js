@@ -103,11 +103,13 @@ function moveTooltip(event) {
 function hideTooltip() { tooltip.hidden = true; }
 
 // ---- PRD panel ----
+let hideTimer = null;
 function togglePanel(d) {
   if (panel.classList.contains("open") && panel.dataset.slug === d.slug) closePanel();
   else openPanel(d);
 }
 async function openPanel(d) {
+  if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; } // cancel a pending close
   if (window.getSelection) window.getSelection().removeAllRanges(); // don't leave a click-drag text selection
   panel.dataset.slug = d.slug;
   const accent = colorOf(d);
@@ -132,7 +134,7 @@ async function openPanel(d) {
   });
 
   const prdEl = document.getElementById("panel-prd");
-  prdEl.innerHTML = "<p style='color:var(--ink-dim)'>loading PRD…</p>";
+  prdEl.innerHTML = `<div class="prd-loading"><div class="spinner"></div><span>loading PRD…</span></div>`;
   prdEl.scrollTop = 0;
   panel.hidden = false;
   requestAnimationFrame(() => panel.classList.add("open"));
@@ -142,15 +144,18 @@ async function openPanel(d) {
     if (!res.ok) throw new Error(res.status);
     // strip a leading H1 that just repeats the title (the panel already shows it)
     const md = (await res.text()).replace(/^\s*#\s+.*\r?\n+/, "");
+    if (panel.dataset.slug !== d.slug) return; // a newer click won the race — don't clobber it
     prdEl.innerHTML = marked.parse(md);
   } catch (e) {
+    if (panel.dataset.slug !== d.slug) return;
     prdEl.innerHTML = "<p style='color:var(--ink-dim)'>No PRD written yet for this idea.</p>";
   }
 }
 function closePanel() {
   panel.classList.remove("open");
   panel.dataset.slug = "";
-  setTimeout(() => { panel.hidden = true; }, 320);
+  if (hideTimer) clearTimeout(hideTimer);
+  hideTimer = setTimeout(() => { panel.hidden = true; hideTimer = null; }, 320);
 }
 document.getElementById("panel-close").addEventListener("click", closePanel);
 document.addEventListener("keydown", (e) => {
