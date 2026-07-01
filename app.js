@@ -32,6 +32,7 @@ let height = window.innerHeight;
 const activeTags = new Set(); // tags selected in the tag popover / legend
 let searchQuery = "";
 let allNodes = [];
+let linkSel = null;
 
 function radiusFor(score, n) {
   const s = Number.isFinite(score) ? score : 50;
@@ -197,6 +198,7 @@ function isDimmed(d) {
 }
 function applyFilter() {
   svg.selectAll("g.bubble").classed("dim", isDimmed);
+  if (linkSel) linkSel.style("opacity", (l) => (isDimmed(l.a) || isDimmed(l.b)) ? 0.12 : 1);
   document.querySelectorAll("#tagfilter-list .tp").forEach((el) => el.classList.toggle("on", activeTags.has(el.dataset.tag)));
   document.querySelectorAll("#panel-tags span:not(.score-chip):not(.date-chip)").forEach((el) => el.classList.toggle("active", activeTags.has(el.textContent)));
   const tfClear = document.getElementById("tf-clear");
@@ -293,6 +295,7 @@ function render(ideas) {
 
   // viewport group so we can pan/zoom the whole cloud
   const viewport = svg.selectAll("g.viewport").data([0]).join("g").attr("class", "viewport");
+  const linkG = viewport.append("g").attr("class", "links"); // constellation lines, behind bubbles
   const g = viewport.selectAll("g.bubble")
     .data(allNodes, (d) => d.slug)
     .join("g")
@@ -358,16 +361,40 @@ function render(ideas) {
   const ty = height / 2 - k * (minY + maxY) / 2;
   svg.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 
+  // constellation links: connect same-tag ideas (small groups only, 2..5) as
+  // nearest-neighbor chains, so the cloud reads as star constellations, not a hairball.
+  const groups = {};
+  allNodes.forEach((d) => (d.tags || []).forEach((tg) => { (groups[tg] = groups[tg] || []).push(d); }));
+  const linkMap = new Map();
+  Object.values(groups).forEach((members) => {
+    if (members.length < 2 || members.length > 5) return;
+    const rem = members.slice();
+    const chain = [rem.shift()];
+    while (rem.length) {
+      const last = chain[chain.length - 1];
+      let bi = 0, bd = Infinity;
+      rem.forEach((m, i) => { const dd = Math.hypot(m.x - last.x, m.y - last.y); if (dd < bd) { bd = dd; bi = i; } });
+      chain.push(rem.splice(bi, 1)[0]);
+    }
+    for (let i = 0; i < chain.length - 1; i++) {
+      const a = chain[i], b = chain[i + 1];
+      const key = a.slug < b.slug ? a.slug + "|" + b.slug : b.slug + "|" + a.slug;
+      if (!linkMap.has(key)) linkMap.set(key, { a, b });
+    }
+  });
+  const links = [...linkMap.values()].slice(0, 340);
+  linkSel = linkG.selectAll("line").data(links).join("line").attr("class", "link");
+
   function floatFrame(ts) {
     const t = ts / 1000;
-    g.attr("transform", (d) => {
-      // per-bubble amplitude/frequency so the cloud drifts organically, not in lockstep
+    allNodes.forEach((d) => {
       const sx = 0.45 + (d._ph % 0.7);
       const sy = 0.4 + ((d._ph * 1.3) % 0.7);
-      const fx = Math.sin(t * sx + d._ph) * 8;
-      const fy = Math.cos(t * sy + d._ph * 1.3) * 7;
-      return `translate(${d.x + fx},${d.y + fy})`;
+      d._rx = d.x + Math.sin(t * sx + d._ph) * 8;   // rendered position incl. float
+      d._ry = d.y + Math.cos(t * sy + d._ph * 1.3) * 7;
     });
+    g.attr("transform", (d) => `translate(${d._rx},${d._ry})`);
+    linkSel.attr("x1", (l) => l.a._rx).attr("y1", (l) => l.a._ry).attr("x2", (l) => l.b._rx).attr("y2", (l) => l.b._ry);
     requestAnimationFrame(floatFrame);
   }
   requestAnimationFrame(floatFrame);
