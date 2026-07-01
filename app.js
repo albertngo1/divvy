@@ -86,21 +86,21 @@ function buildDefs(nodes) {
   });
 }
 
-// ---- tooltip ----
-function showTooltip(event, d) {
+// ---- hover tooltip (fixed at bottom-center, not cursor-following) ----
+let ttTimer = null;
+function showTooltip(d) {
+  if (ttTimer) { clearTimeout(ttTimer); ttTimer = null; }
   tooltip.innerHTML =
     `<div class="tt-title">${d.title}</div>` +
     (d.hook ? `<div class="tt-hook">${d.hook}</div>` : "") +
     `<div class="tt-tags">${(d.tags || []).map((t) => `<span>${t}</span>`).join("")}</div>`;
   tooltip.style.setProperty("--tt-accent", colorOf(d));
-  tooltip.hidden = false;
-  moveTooltip(event);
+  tooltip.classList.add("show");
 }
-function moveTooltip(event) {
-  tooltip.style.left = event.clientX + "px";
-  tooltip.style.top = event.clientY + "px";
+function hideTooltip() {
+  if (ttTimer) clearTimeout(ttTimer);
+  ttTimer = setTimeout(() => { tooltip.classList.remove("show"); ttTimer = null; }, 140);
 }
-function hideTooltip() { tooltip.hidden = true; }
 
 // ---- PRD panel ----
 let hideTimer = null;
@@ -260,8 +260,7 @@ function render(ideas) {
     .join("g")
     .attr("class", "bubble")
     .on("click", (_, d) => togglePanel(d))
-    .on("mouseenter", (e, d) => showTooltip(e, d))
-    .on("mousemove", (e) => moveTooltip(e))
+    .on("mouseenter", (_, d) => showTooltip(d))
     .on("mouseleave", hideTooltip);
 
   g.append("circle")

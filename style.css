@@ -165,18 +165,24 @@ body::after {
 
 /* ---- hover tooltip ---- */
 .tooltip {
+  /* fixed at bottom-center; updates in place on hover instead of chasing the cursor */
   position: fixed;
+  left: 50%; bottom: 22px;
+  transform: translateX(-50%) translateY(8px);
   z-index: 7;
   pointer-events: none;
-  max-width: 260px;
-  padding: 10px 13px;
-  background: rgba(14, 16, 23, 0.96);
+  width: min(520px, 68vw);
+  padding: 13px 18px;
+  background: rgba(14, 16, 23, 0.94);
+  backdrop-filter: blur(var(--blur));
   border: 1px solid var(--line-strong);
   border-left: 3px solid var(--tt-accent, var(--line-strong));
-  border-radius: 12px;
-  box-shadow: 0 12px 34px rgba(0,0,0,0.5);
-  transform: translate(-50%, calc(-100% - 14px));
+  border-radius: 14px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: opacity 0.16s ease, transform 0.16s ease;
 }
+.tooltip.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 .tooltip .tt-title {
   font-family: "Fraunces", serif; font-weight: 900; font-size: 18px;
   line-height: 1.12; letter-spacing: -0.01em; margin-bottom: 7px;
@@ -406,8 +412,6 @@ body::after {
 .tag-pop .tp.on { color: #0c0d12; background: var(--c-weekend-ideas); border-color: transparent; font-weight: 600; }
 .tag-pop .tp .n { opacity: 0.55; margin-left: 5px; }
 .tooltip .tt-hook { color: #d7dae6; font-size: 13px; line-height: 1.5; margin: 0; font-style: italic; }
-.tooltip { animation: ttpop 0.16s ease-out; }
-@keyframes ttpop { from { opacity: 0; transform: translate(-50%, calc(-100% - 8px)); } to { opacity: 1; transform: translate(-50%, calc(-100% - 14px)); } }
 
 /* ---- PRD panel ---- */
 .scrim { display: none; } /* deprecated — panel no longer blocks the cloud */
