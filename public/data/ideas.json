@@ -1981,20 +1981,6 @@
       "created": "2026-06-11"
     },
     {
-      "slug": "album-topography",
-      "title": "Album Topography",
-      "hook": "Every pixel of an album cover becomes a colored voxel in a 3D cube; fly in until the image dissolves into its atoms.",
-      "tags": [
-        "3d-viz",
-        "three-js",
-        "weekend-ideas",
-        "built"
-      ],
-      "score": 62,
-      "source": "weekend-ideas",
-      "created": "2026-06-12"
-    },
-    {
       "slug": "overdue",
       "title": "Overdue",
       "hook": "Personal finance as Dead by Daylight — your fixed monthly bills are the Killer stalking you across the map, and every payday you sprint between generators (rent, card, subscriptions) frantically repairing them before the 1st of the month, when the Killer hooks whatever you didn't finish.",
