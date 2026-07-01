@@ -1,6 +1,7 @@
 name = "divvy-realtime"
 main = "src/index.ts"
 compatibility_date = "2026-07-01"
+workers_dev = false  # no public URL needed — reached only via the Pages DO binding
 
 # The presence room. SQLite-backed DO class (required for new namespaces / free plan).
 [[durable_objects.bindings]]
