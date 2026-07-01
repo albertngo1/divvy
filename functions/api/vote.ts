@@ -11,6 +11,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: E
   const delta = body?.delta === -1 ? -1 : 1;
 
   try {
+    await env.DB.prepare("CREATE TABLE IF NOT EXISTS votes (slug TEXT PRIMARY KEY, count INTEGER NOT NULL DEFAULT 0)").run();
     await env.DB.prepare("INSERT OR IGNORE INTO votes (slug, count) VALUES (?, 0)").bind(slug).run();
     await env.DB.prepare("UPDATE votes SET count = MAX(0, count + ?) WHERE slug = ?").bind(delta, slug).run();
     const row = await env.DB.prepare("SELECT count FROM votes WHERE slug = ?").bind(slug).first<{ count: number }>();
