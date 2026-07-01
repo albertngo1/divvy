@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "exploded-view",
+      "title": "Exploded View",
+      "hook": "A puzzle game where you don't build machines — you tear them apart to deduce how they work, pulling a car back to watch the energy path light up through its guts.",
+      "tags": [
+        "teardown",
+        "physics-puzzle",
+        "reverse-engineering"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "mothball",
+      "title": "Mothball",
+      "hook": "A reverse city-builder where you don't grow a place — you carefully, expensively dismantle a dead nuclear plant without spreading contamination.",
+      "tags": [
+        "teardown-sim",
+        "decommission",
+        "puzzle"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "deadmill",
+      "title": "Deadmill",
+      "hook": "A horror-escape game where your real treadmill pace is the only thing keeping the thing in the dark from catching you.",
+      "tags": [
+        "treadmill",
+        "horror",
+        "bluetooth"
+      ],
+      "score": 77,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cherry-pick",
+      "title": "Cherry Pick",
+      "hook": "You're customs at the border between two git repos, stamping each incoming commit APPROVE or REJECT while hunting for smuggled secrets and license contraband.",
+      "tags": [
+        "papers-please",
+        "git",
+        "inspection"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "last-round",
       "title": "Last Round",
       "hook": "A GeoGuessr-meets-Pokémon-Go field game where you race other players to find, photograph, and 'claim' the last practitioners of dying local trades before they close for good.",
