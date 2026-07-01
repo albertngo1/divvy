@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "airframe",
+      "title": "Airframe",
+      "hook": "Drag real motors, props, and batteries onto a frame and instantly learn whether your homemade octocopter dream actually hovers — or just cooks its ESCs on the bench.",
+      "tags": [
+        "sandbox",
+        "engineering",
+        "drones"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "black-bar",
+      "title": "Black Bar",
+      "hook": "Papers, Please but you're a government redaction clerk racing a quota to black out every SSN before release — miss one and it leaks, black out too much and the press revolts.",
+      "tags": [
+        "papers-please",
+        "privacy",
+        "sim"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "zero-width-2",
+      "title": "Zero Width",
+      "hook": "Godot just banned AI-authored code and Claude Code reportedly marks its output with invisible characters — so this reads that watermark straight out of your pull requests.",
+      "tags": [
+        "steganography",
+        "ci",
+        "provenance"
+      ],
+      "score": 78,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "watershed",
+      "title": "Watershed",
+      "hook": "Your cursor is a river carving a generative topo map into your wallpaper, and after a year your desktop is an eroded landscape of everywhere you actually go.",
+      "tags": [
+        "ambient",
+        "generative",
+        "wallpaper"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "cover-traffic",
       "title": "Cover Traffic",
       "hook": "A social-deduction party game where two spies must smuggle a secret phrase through totally normal-looking game chat while an eavesdropper listens for the hidden channel.",
