@@ -221,10 +221,10 @@ function clearFilters() {
   document.querySelectorAll("#panel-tags .active").forEach((el) => el.classList.remove("active"));
   applyFilter();
 }
-// radio-style: click a tag -> filter to only it; click the sole active tag -> back to all
+// multi-select: toggle each tag independently; a bubble stays lit if it has ANY active tag
 function toggleTag(tag) {
-  if (activeTags.has(tag) && activeTags.size === 1) activeTags.clear();
-  else { activeTags.clear(); activeTags.add(tag); }
+  if (activeTags.has(tag)) activeTags.delete(tag);
+  else activeTags.add(tag);
   applyFilter();
 }
 // bottom-left = a small color-scale key (color === score)
@@ -328,7 +328,7 @@ function render(ideas) {
   g.call(drag);
 
   // point-and-hold on empty space to pan; wheel to zoom
-  const zoom = d3.zoom().scaleExtent([0.35, 3])
+  const zoom = d3.zoom().scaleExtent([0.02, 4])
     .on("zoom", (event) => viewport.attr("transform", event.transform));
   svg.call(zoom).on("dblclick.zoom", null);
 
