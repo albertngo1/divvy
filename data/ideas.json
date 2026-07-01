@@ -2,6 +2,45 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "kanji-safari",
+      "title": "Kanji Safari",
+      "hook": "Point your phone at Japanese text in the wild, OCR it, and every new kanji gets 'captured' into a personal dex with the source photo as its card art — Pokémon Go meets Monkeytype for learners.",
+      "tags": [
+        "ocr",
+        "japanese",
+        "ar"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "burn-rate",
+      "title": "Burn Rate",
+      "hook": "A management sim where you run a shop of AI temps, route gig tickets to cheap-dumb or pricey-smart models, and watch every real API call debit your play-money budget — Theme Hospital for the '24/7 AI workforce' hype.",
+      "tags": [
+        "sim",
+        "llm",
+        "economy"
+      ],
+      "score": 75,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "warm-boot",
+      "title": "Warm Boot",
+      "hook": "A live desktop pet fused to your machine's uptime, where the longer you brag about not rebooting the more bloated and sore-covered it gets — the flex and the punishment are the same number.",
+      "tags": [
+        "desktop-toy",
+        "uptime",
+        "leaderboard"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "decay-desk",
       "title": "Decay Desk",
       "hook": "Your desktop becomes a radioactive-decay diagram where every file and bookmark you stop touching visibly loses mass and glow on its own half-life, turning digital neglect into an ambient memento mori.",
