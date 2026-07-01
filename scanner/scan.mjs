@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, "..");
-const DATA = join(ROOT, "data");
+const DATA = join(ROOT, "public", "data"); // Vite serves public/ at the site root
 const PRDS = join(DATA, "prds");
 const IDEAS_FILE = join(DATA, "ideas.json");
 

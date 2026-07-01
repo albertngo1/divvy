@@ -1,0 +1,6 @@
+name = "divvy"
+compatibility_date = "2026-07-01"
+# Vite builds the static site into dist/. Cloudflare Pages: build command "npm run build",
+# output directory "dist". (Backend resources — D1/KV/Durable Objects — would be declared
+# here later if/when the multiplayer-voting v2 needs a backend.)
+pages_build_output_dir = "dist"

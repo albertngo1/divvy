@@ -15,15 +15,15 @@ cd "$REPO"
 LOG="$REPO/scanner/scan.log"
 echo "=== $(date) ===" >> "$LOG"
 
-# Generate ideas + PRDs (writes data/ideas.json and data/prds/*.md).
+# Generate ideas + PRDs (writes public/data/ideas.json and public/data/prds/*.md).
 if ! node "$REPO/scanner/scan.mjs" >> "$LOG" 2>&1; then
   echo "scan.mjs failed — see log" >> "$LOG"
   exit 1
 fi
 
 # Commit + push only if something changed.
-if [[ -n "$(git status --porcelain data/)" ]]; then
-  git add data/
+if [[ -n "$(git status --porcelain public/data/)" ]]; then
+  git add public/data/
   git commit -q -m "divvy: scan $(date +%F) — new ideas from HN"
   git push -q
   echo "pushed" >> "$LOG"

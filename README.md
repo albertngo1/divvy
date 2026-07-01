@@ -1,59 +1,45 @@
 # Divvy
 
-**An idea cloud that grows itself.** Each bubble is an idea; click it for a full PRD. An
-autonomous scanner reads several public feeds on a timer — Hacker News, trending GitHub repos,
-and the most-played Steam games — cross-pollinates them into fresh weekend-project and
-video-game ideas, writes a PRD for each, and pushes them into the cloud so it grows between
-visits. Sources are modular (`src*` functions in `scan.mjs`); add more freely.
+**An idea cloud that grows itself.** Each bubble is an idea; click it for a full PRD.
+An autonomous scanner reads several public feeds on a timer — Hacker News, trending
+GitHub repos, and popular Steam games — cross-pollinates them into fresh weekend-project
+and video-game ideas, writes a PRD for each, and pushes them into the cloud so it grows
+between visits.
 
-## v1 goal (not allowed to expand until shipped)
-A static GitHub Pages site that renders a bubble cloud from `data/ideas.json` and shows
-`data/prds/<slug>.md` when you click a bubble. A local scanner generates the data and pushes it.
+Live: **https://albertngo1.github.io/divvy/**
 
-**Explicitly out of v1:** voting, friends, per-person work assignment, progress bars.
+## Stack
+- **React + TypeScript + Vite** front-end (`src/`). The bubble cloud is a d3 force
+  layout in a typed imperative module (`src/cloud.ts`) driven by a React component; the
+  rest of the UI (controls, tag dropdown, PRD panel, tooltip) is React components.
+- **color = score** (cool blue → warm amber); bubbles nestle cohesively and drift; same-tag
+  ideas are linked into faint **constellations**; pan/zoom, search, multi-select tag filter.
+- Data is static JSON in `public/data/` (served at the site root) — no backend.
 
-## How it works
-```
-Mac mini (private)                         GitHub Pages (public)
-  scanner/run.sh  (LaunchAgent, timer)       albertngo1.github.io/divvy
-   -> scan.mjs: scrape HN+GitHub+Steam         static bubble cloud (d3)
-   -> claude -p: cross-pollinate ideas+PRDs git fetch data/ideas.json
-   -> write data/ + git push  ───────push───▶  click bubble -> PRD md
-```
-No backend, no accounts, no secrets in the repo — the scanner runs locally where the token lives.
-
-## Layout
-- `index.html`, `style.css`, `app.js` — the static front-end (d3 force cloud + PRD panel).
-- `data/ideas.json` — the bubbles.
-- `data/prds/<slug>.md` — one PRD per idea.
-- `scanner/scan.mjs` — scrape HN, call `claude -p`, merge ideas, write PRDs.
-- `scanner/run.sh` — run the scan, commit, push. Wire to a LaunchAgent when ready.
-
-## Run locally
+## Develop
 ```bash
-# serve the static site
-python3 -m http.server 8080     # then open http://localhost:8080
-
-# run one scan by hand (needs `claude` on PATH)
-DIVVY_N=3 node scanner/scan.mjs
+npm install
+npm run dev        # local dev server (HMR)
+npm run build      # type-check + build to dist/
+npm run preview    # serve the production build
 ```
 
-## Live
-- Site: **https://albertngo1.github.io/divvy/** (GitHub Pages, `main` / root).
-- Repo: `albertngo1/divvy` (public). Develop with plain `git push`.
+## Scanner (the "grows itself" engine)
+`scanner/scan.mjs` scrapes HN + GitHub + Steam, calls `claude -p` to riff N ideas +
+PRDs, dedupes against existing titles, and writes `public/data/ideas.json` +
+`public/data/prds/<slug>.md`. `scanner/run.sh` runs it and commits+pushes.
+- Needs `CLAUDE_CODE_OAUTH_TOKEN` (whitespace-stripped from `~/.happy/claude-token.txt`).
+- Wired to the `com.divvy-scanner` LaunchAgent (every 3h, `DIVVY_N=3`).
+- `scanner/overnight-burst.sh` is a one-off detached loop to grow to a target count.
 
-## Autonomous timer (`com.divvy-scanner`)
-A LaunchAgent runs the scanner on a schedule so the cloud grows hands-off.
-- Plist: `~/Library/LaunchAgents/com.divvy-scanner.plist`
-- Cadence: `StartInterval` 10800s (3h); `DIVVY_N=3` ideas/run (~24/day). Tune in the plist.
-- Logs: `scanner/launchd.log` (launchd) + `scanner/scan.log` (per-run detail).
+## Deploy
+- **GitHub Pages** via `.github/workflows/deploy.yml` — every push to `main` (including the
+  scanner's) builds with `npm run build` and deploys `dist/`. Pages source = GitHub Actions.
+- **Cloudflare Pages** (alt): connect the repo, build command `npm run build`, output `dist`.
+  `wrangler.toml` + `public/_headers` (cache-control) are already set up. Gives `divvy.pages.dev`
+  and is the path to a future backend (Pages Functions / D1 / Durable Objects) for the
+  planned multiplayer-voting v2.
 
-```bash
-# load / reload after editing the plist
-launchctl bootout gui/501/com.divvy-scanner 2>/dev/null
-launchctl bootstrap gui/501 ~/Library/LaunchAgents/com.divvy-scanner.plist
-
-# run once now, or stop the timer
-launchctl kickstart -k gui/501/com.divvy-scanner
-launchctl bootout   gui/501/com.divvy-scanner
-```
+## Out of v1 (deliberately)
+Voting, friends, per-person work assignment — that's "Social Divvy" v2 (multiplayer voting
+sessions; likely PartyKit / Cloudflare Durable Objects).

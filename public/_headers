@@ -1,0 +1,8 @@
+# Cloudflare Pages headers.
+# no-cache = the browser MUST revalidate before reusing a cached file, so a new deploy
+# shows up on a normal refresh (returns 304 when unchanged, so it's still fast).
+# This is the fix for the "I pushed but still see the old build" hard-refresh problem.
+/*
+  Cache-Control: no-cache
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer

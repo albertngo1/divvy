@@ -15,7 +15,7 @@ TARGET=150
 GAP=720          # ~12 min between runs
 MAX_FAILS=8      # bail if this many consecutive runs fail (e.g. token expired)
 
-count() { node -e "console.log(require('$REPO/data/ideas.json').ideas.length)" 2>/dev/null || echo 0; }
+count() { node -e "console.log(require('$REPO/public/data/ideas.json').ideas.length)" 2>/dev/null || echo 0; }
 tok()   { tr -d '[:space:]' < "$HOME/.happy/claude-token.txt"; }
 
 echo "=== overnight burst START $(date) | current=$(count) target=$TARGET ===" >> "$LOG"
@@ -34,8 +34,8 @@ while :; do
 
   export CLAUDE_CODE_OAUTH_TOKEN="$(tok)"   # re-read each run in case it rotates
   if DIVVY_N=$n node "$REPO/scanner/scan.mjs" < /dev/null >> "$LOG" 2>&1; then
-    if ! git diff --quiet data/; then
-      git add data/
+    if ! git diff --quiet public/data/; then
+      git add public/data/
       git commit -q -m "divvy: overnight burst -> $(count) ideas" >> "$LOG" 2>&1
       if git push -q >> "$LOG" 2>&1; then echo "pushed ($(count))" >> "$LOG"; else echo "push failed" >> "$LOG"; fi
     else
