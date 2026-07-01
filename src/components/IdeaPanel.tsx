@@ -3,6 +3,7 @@ import { marked } from "marked";
 import type { Idea } from "../types";
 import { colorOf, colorAlpha } from "../cloud";
 import { canonTags } from "../tags";
+import { heuristicScore } from "../score";
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 function fmtDate(s: string) {
@@ -68,8 +69,11 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
         <div className="panel-scroll">
           <div className="panel-head">
             <div id="panel-tags" className="tags">
-              <span className="score-chip" style={{ color: accent, borderColor: colorAlpha(shown, 0.6) }}>
-                score {Number.isFinite(shown.score) ? shown.score : "—"}
+              <span
+                className="score-chip" style={{ color: accent, borderColor: colorAlpha(shown, 0.6) }}
+                title={`AI ${Number.isFinite(shown.score) ? shown.score : "—"} + ${voteCount} votes`}
+              >
+                score {heuristicScore(shown.score, voteCount)}
               </span>
               {shown.created && <span className="date-chip">added {fmtDate(shown.created)}</span>}
               {canonTags(shown.tags).map((t) => (
