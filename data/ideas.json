@@ -2,6 +2,45 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "squint",
+      "title": "Squint",
+      "hook": "A twitchy reflex arcade where lookalike domains flash for a shrinking half-second and you snap SAFE or FAKE — secretly drilling your eye against real homoglyph phishing.",
+      "tags": [
+        "security",
+        "arcade",
+        "phishing"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "warren",
+      "title": "Warren",
+      "hook": "A dungeon that builds itself one room a night — each real day of your life becomes a tile-mapped chamber you can walk through at year's end.",
+      "tags": [
+        "ambient",
+        "tiled",
+        "dungeon"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "trapline",
+      "title": "Trapline",
+      "hook": "Play the ballista spider: engineer a spring-loaded silk snare, latch it, and watch stored elastic energy snap shut on a line of patrolling ants.",
+      "tags": [
+        "physics",
+        "puzzle",
+        "spider"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "sev-one",
       "title": "Sev One",
       "hook": "A daily whodunit where everyone gets the same synthetic outage log stream and races to name the failing service and root cause before the leaderboard fills.",
