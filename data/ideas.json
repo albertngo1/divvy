@@ -2,6 +2,58 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "lobby-boss",
+      "title": "Lobby Boss",
+      "hook": "You don't play the match — you ARE the matchmaker, secretly stitching lobbies to keep whales happy, feed newbies winnable games, and quietly bury the sweatlords before everyone rage-quits.",
+      "tags": [
+        "management-sim",
+        "matchmaking",
+        "systems"
+      ],
+      "score": 68,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "silent-typer",
+      "title": "Silent Typer",
+      "hook": "A co-op party game where you can only 'speak' by tapping words a language model suggests — race to make your partner guess a secret phrase using nothing but a swipe-keyboard's prediction bar.",
+      "tags": [
+        "party-game",
+        "language-model",
+        "coop"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "star-league",
+      "title": "Star League",
+      "hook": "Fantasy sports for GitHub Trending — draft a roster of hot repos on Monday, score points off the week's star velocity and releases, and trash-talk your friends when their AI framework flatlines.",
+      "tags": [
+        "fantasy",
+        "github",
+        "competitive"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "reboot-rings",
+      "title": "Reboot Rings",
+      "hook": "Every time you restart your computer, a living tree-ring wallpaper engraves one more ring — a year of your machine's life rendered as cross-cut wood you never sat down to make.",
+      "tags": [
+        "ambient",
+        "generative",
+        "menubar"
+      ],
+      "score": 78,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "fallow",
       "title": "Fallow",
       "hook": "Your friendships are a greenhouse of houseplants that quietly wilt the longer you go without contact — and watering one means actually texting them.",
