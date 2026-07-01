@@ -23,6 +23,16 @@
     </div>
   </header>
 
+  <div id="controls" class="controls">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input id="search" class="search" type="search" placeholder="Search ideas, hooks, tags…" autocomplete="off" />
+    </div>
+    <button id="tags-btn" class="tags-btn" aria-expanded="false">Tags <span class="caret">▾</span></button>
+    <button id="random-btn" class="random-btn" title="open a random idea">🎲 Random</button>
+    <div id="tag-pop" class="tag-pop" hidden></div>
+  </div>
+
   <main id="stage">
     <svg id="cloud" aria-label="idea cloud"></svg>
     <p id="empty" hidden>No ideas yet. Run the scanner to grow the cloud.</p>
