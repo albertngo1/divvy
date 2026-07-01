@@ -10,6 +10,14 @@ import Tooltip from "./components/Tooltip";
 import FilterBar from "./components/FilterBar";
 import IdeaPanel from "./components/IdeaPanel";
 
+// shallow-equal two vote-count maps, so an unchanged poll doesn't churn the cloud
+function sameCounts(a: Record<string, number>, b: Record<string, number>) {
+  const ak = Object.keys(a);
+  if (ak.length !== Object.keys(b).length) return false;
+  for (const k of ak) if (a[k] !== b[k]) return false;
+  return true;
+}
+
 export default function App() {
   const [ideas, setIdeas] = useState<Idea[]>([]);
   const [lastScan, setLastScan] = useState("—");
@@ -36,12 +44,26 @@ export default function App() {
 
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
 
-  // load vote counts + which slugs this browser has voted (degrades to empty if backend unwired)
+  // Live multi-user sync: poll the shared vote counts every few seconds (and on tab focus)
+  // so everyone sees each other's upvotes within seconds — bubbles recolor/resize live.
+  // Plenty for a handful of voters; no websockets/Durable Objects needed.
   useEffect(() => {
-    fetch("./api/votes", { cache: "no-store" })
-      .then((r) => (r.ok ? r.json() : { counts: {}, voted: [] }))
-      .then((data) => { setVotes(data.counts || {}); setVoted(new Set<string>(data.voted || [])); })
-      .catch(() => {});
+    let alive = true;
+    const pull = (initial = false) =>
+      fetch("./api/votes", { cache: "no-store" })
+        .then((r) => (r.ok ? r.json() : { counts: {}, voted: [] }))
+        .then((data) => {
+          if (!alive) return;
+          const next: Record<string, number> = data.counts || {};
+          setVotes((prev) => (sameCounts(prev, next) ? prev : next)); // keep ref stable if unchanged
+          if (initial) setVoted(new Set<string>(data.voted || []));
+        })
+        .catch(() => {});
+    pull(true);
+    const id = window.setInterval(() => { if (document.visibilityState === "visible") pull(); }, 5000);
+    const onVis = () => { if (document.visibilityState === "visible") pull(); };
+    document.addEventListener("visibilitychange", onVis);
+    return () => { alive = false; clearInterval(id); document.removeEventListener("visibilitychange", onVis); };
   }, []);
 
   const upvote = useCallback((slug: string) => {
