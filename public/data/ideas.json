@@ -2,6 +2,48 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "compost-2",
+      "title": "Compost",
+      "hook": "The mischievous opposite of self-managing agent memory: your notes rot on a half-life unless you tend them, and the ones that die decompose into keyword 'soil' that seeds whatever you write next.",
+      "tags": [
+        "productivity",
+        "writing",
+        "whimsy",
+        "sim"
+      ],
+      "score": 63,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "backtick",
+      "title": "Backtick",
+      "hook": "Your shell history is your deck: every command you actually ran this week becomes a card, and the dungeon's monsters are the real exit codes and errors that bit you.",
+      "tags": [
+        "roguelike",
+        "deckbuilder",
+        "cli",
+        "quantified-self"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "cutaway-2",
+      "title": "Cutaway",
+      "hook": "Plug a $12 dongle into your car and watch a Ciechanowski-style animated engine cutaway fire its pistons in perfect sync with your real RPM and throttle.",
+      "tags": [
+        "physics",
+        "data-viz",
+        "quantified-self",
+        "animation"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "query-duel",
       "title": "Query Duel",
       "hook": "Two people race to answer the same analytics question in SQL against a real database running entirely in the browser — first correct result wins the round.",
