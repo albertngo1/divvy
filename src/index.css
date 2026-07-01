@@ -310,7 +310,8 @@ body::after {
 .controls { transition: transform 0.34s cubic-bezier(0.22, 1, 0.36, 1); }
 .topbar .meta { transition: opacity 0.28s ease, transform 0.34s cubic-bezier(0.22, 1, 0.36, 1); }
 @media (min-width: 900px) {
-  body.panel-open .controls { transform: translateX(calc(min(580px, 94vw) / -2)); }
+  /* keep the -50% centering AND shift fully clear of the panel (+ a comfortable gap) */
+  body.panel-open .controls { transform: translateX(calc(-50% - min(580px, 94vw) / 2 - 24px)); }
   body.panel-open .topbar .meta { opacity: 0; transform: translateX(-30px); pointer-events: none; }
 }
 .tooltip .tt-title {
