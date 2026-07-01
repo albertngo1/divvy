@@ -89,6 +89,25 @@ async function gatherSources() {
   return blocks.join("\n\n");
 }
 
+// Controlled tag vocabulary, grouped by the DOMAINS the cloud clusters ideas into (the
+// "galaxies"). Keeping the scanner's tags in this vocabulary stops tag sprawl and keeps
+// every idea landing cleanly in a galaxy instead of the "other" bucket.
+const DOMAIN_TAGS = {
+  "games": ["game", "roguelike", "deckbuilder", "idle", "tycoon", "sim", "puzzle", "survival", "party-game", "procedural", "narrative", "browser-game"],
+  "data viz": ["data-viz", "map", "timeline", "3d-viz", "gis", "dashboard"],
+  "dev & ops": ["devtool", "git", "ci", "docker", "kubernetes", "sql", "postgres", "homelab", "self-hosted", "observability", "cli"],
+  "ai & ml": ["llm", "ml", "agents", "prompt", "computer-vision", "embeddings"],
+  "science & nature": ["physics", "astronomy", "biology", "chemistry", "nature", "materials", "cellular-automata"],
+  "finance": ["finance", "economics", "prediction-market", "markets", "budgeting"],
+  "language & text": ["language", "nlp", "wordgame", "writing", "translation", "steganography"],
+  "art & sound": ["generative", "art", "music", "audio", "graphics", "animation", "wallpaper"],
+  "life & self": ["productivity", "quantified-self", "calendar", "health", "habits", "relationships", "chores"],
+  "ambient & toys": ["ambient", "desktop-toy", "screensaver", "whimsy", "menubar"],
+  "social & party": ["social", "multiplayer", "party", "social-deduction", "leaderboard", "competitive"],
+  "security & privacy": ["security", "privacy", "forensics", "provenance"],
+};
+const DOMAIN_LINES = Object.entries(DOMAIN_TAGS).map(([d, ts]) => `  - ${d}: ${ts.join(", ")}`).join("\n");
+
 function buildPrompt(digest, avoid) {
   const spark = shuffle(PROVOCATIONS).slice(0, 2).map((p) => `- ${p}`).join("\n");
   const avoidBlock = avoid.length
@@ -105,11 +124,18 @@ Return ONLY a JSON array (no prose, no code fence). Each element:
 {
   "title": "2-4 word punchy name",
   "hook": "one vivid sentence pitching it",
-  "tags": ["3", "short", "tags"],
-  "score": 40-85 integer gut-feel of how good/novel it is,
+  "tags": ["2-4 tags"],   // FIRST tag MUST be a domain tag from the vocabulary below (places it in a galaxy); prefer vocabulary tags for the rest, lowercase & hyphenated. Only coin a new specific tag if nothing fits.
+  "score": integer 40-90 — calibrate HONESTLY against this rubric. Be a harsh critic; SPREAD the scores, do not cluster them. Most ideas land 55-68.
+           40-54: derivative, or you doubt it would get built or used
+           55-67: solid but seen-before — fine weekend fodder
+           68-77: genuinely novel angle, you'd be excited to build it
+           78-90: rare drop-everything standout — award to at most ONE idea this run, usually none,
   "source": "hn" | "github" | "steam" | "wild" (which feed sparked it most),
   "prd": "a DETAILED markdown PRD, 350-600 words, with these sections: ## Overview (what it is, for whom); ## Problem (the itch); ## How it works (the core mechanic/flow, concretely); ## Technical approach (be specific and technical where it helps — name the stack, real data sources/APIs/endpoints, data model, key algorithms or data structures, and the genuinely hard part); ## v1 scope (humiliatingly small) as bullets; ## Out of scope (for now); ## Risks & unknowns; ## Done means (a concrete, testable definition)"
 }
+
+Tag vocabulary by domain (first tag picks the domain/galaxy):
+${DOMAIN_LINES}
 
 Live signals:
 ${digest}${avoidBlock}`;

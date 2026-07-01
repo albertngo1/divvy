@@ -2,6 +2,48 @@
   "lastScan": "2026-07-01",
   "ideas": [
     {
+      "slug": "ligature",
+      "title": "Ligature",
+      "hook": "A tool that bakes any short secret into a custom font, so typing a harmless trigger word suddenly renders a QR code or hidden glyph — steganography you can paste into any chat that supports web fonts.",
+      "tags": [
+        "steganography",
+        "generative",
+        "wordgame",
+        "graphics"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "last-call",
+      "title": "Last Call",
+      "hook": "A watch-race league where friends compete to finish movies before streaming services delete them — turning your guilt-ridden watchlist into a scoreboard against the expiry clock.",
+      "tags": [
+        "leaderboard",
+        "social",
+        "competitive",
+        "timeline"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "s-ance",
+      "title": "Séance",
+      "hook": "Co-op ghost hunting for your homelab: an incident spawns a haunting, and you and your on-call crew collect readings from spooky instruments until you can name and banish the root cause.",
+      "tags": [
+        "observability",
+        "homelab",
+        "multiplayer",
+        "party-game"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
       "slug": "knockout",
       "title": "Knockout",
       "hook": "A roguelike deckbuilder where you snip genes out of a bloated synthetic genome one card at a time, trying to reach the smallest cell that can still grow and divide — before you accidentally kill it.",
