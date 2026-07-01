@@ -1,0 +1,161 @@
+{
+  "lastScan": "2026-07-01",
+  "ideas": [
+    {
+      "slug": "echo-field",
+      "title": "Echo Field",
+      "hook": "A survival game where you can't tell what anything is made of by looking — you carry a handheld mmWave radar and must read each object's echo signature to know if that berry, that beam, or that pool is food, fuel, or poison.",
+      "tags": [
+        "survival",
+        "radar-mechanic",
+        "identification"
+      ],
+      "score": 62,
+      "source": "steam",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "pull",
+      "title": "Pull",
+      "hook": "A drag-toy that models a real pull-back car — wind the spring by dragging back (true Hooke's-law energy stored), let go, and watch the stored joules convert to distance across surfaces with honest friction, where over-winding makes it flip instead of go.",
+      "tags": [
+        "physics-toy",
+        "drag",
+        "playable-data"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "zero-width",
+      "title": "Zero-Width",
+      "hook": "A party word-game where one player smuggles a secret word into an ordinary group chat using invisible steganographic characters, and everyone else — reading the same visible text — has to sniff out who's hiding a signal and what it says.",
+      "tags": [
+        "party-game",
+        "steganography",
+        "social-deduction"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "uptime-rings",
+      "title": "Uptime Rings",
+      "hook": "A tiny app that turns your Mac's own reboot, sleep, and wake log into a slowly-growing tree-ring mandala — one full ring per year, one scar per crash, so your machine quietly draws a portrait of its own life while you use it.",
+      "tags": [
+        "ambient",
+        "generative-art",
+        "self-tracking"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "sell-the-top",
+      "title": "Sell The Top",
+      "hook": "A daily Wordle-style game where you ride a real historical mania — tulips, South Sea, dotcom — and try to sell before the crowd, then get graded against how the actual 1637 crowd behaved.",
+      "tags": [
+        "daily-game",
+        "history",
+        "finance"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "canary-text",
+      "title": "Canary Text",
+      "hook": "Paste your group-chat drama through it and each friend gets an invisibly fingerprinted copy — so when it leaks, the zero-width characters rat out exactly who screenshotted.",
+      "tags": [
+        "steganography",
+        "social",
+        "forensics"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "uptime-familiar",
+      "title": "Uptime Familiar",
+      "hook": "A menubar creature that feeds on your machine's uptime — it grows fat and strange the longer you refuse to restart, and rebooting is euthanasia.",
+      "tags": [
+        "menubar",
+        "tamagotchi",
+        "whimsy"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-01"
+    },
+    {
+      "slug": "divvy-itself",
+      "title": "Divvy",
+      "hook": "An idea cloud that grows itself and writes a PRD for every bubble.",
+      "tags": [
+        "meta",
+        "tooling",
+        "agent-loop"
+      ],
+      "score": 90,
+      "source": "self",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "hn-decay-graveyard",
+      "title": "Show HN Graveyard",
+      "hook": "Track every 'Show HN' launch and chart how many are still alive a year later.",
+      "tags": [
+        "hacker-news",
+        "data-viz",
+        "web"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "roguelike-changelog",
+      "title": "Changelog Roguelike",
+      "hook": "A dungeon crawler where each floor is generated from a real open-source project's git history.",
+      "tags": [
+        "game",
+        "procedural",
+        "git"
+      ],
+      "score": 66,
+      "source": "games",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "front-page-sentiment",
+      "title": "Front-Page Mood Ring",
+      "hook": "One color per day, derived from the sentiment of the HN front page. A year = a stripe painting.",
+      "tags": [
+        "hacker-news",
+        "data-viz",
+        "ambient"
+      ],
+      "score": 58,
+      "source": "hn",
+      "created": "2026-06-30"
+    },
+    {
+      "slug": "idle-homelab-tycoon",
+      "title": "Homelab Tycoon",
+      "hook": "An idle game where you build a self-hosted stack and fight entropy: cert expiries, stale mounts, OOM kills.",
+      "tags": [
+        "game",
+        "idle",
+        "homelab"
+      ],
+      "score": 61,
+      "source": "games",
+      "created": "2026-06-30"
+    }
+  ]
+}
