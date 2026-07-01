@@ -9,4 +9,4 @@ pages_build_output_dir = "dist"
 [[d1_databases]]
 binding = "DB"
 database_name = "divvy"
-database_id = "PASTE_DATABASE_ID_FROM_wrangler_d1_create"
+database_id = "9b02171a-5849-4e7e-aaba-0b7d76a9098f"
