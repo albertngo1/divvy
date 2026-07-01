@@ -148,10 +148,11 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     const a = (i / galaxyKeys.length) * 2 * Math.PI - Math.PI / 2;
     return { gk, r: clusterR[gk], x: width / 2 + seedR * Math.cos(a), y: height / 2 + seedR * Math.sin(a) };
   });
+  const SPREAD = 1.5; // extra whitespace between galaxies (collide radius > actual cluster radius)
   d3.forceSimulation(centers as unknown as d3.SimulationNodeDatum[])
-    .force("collide", d3.forceCollide<{ r: number } & d3.SimulationNodeDatum>((c) => c.r).strength(1).iterations(8))
-    .force("x", d3.forceX(width / 2).strength(0.06))
-    .force("y", d3.forceY(height / 2).strength(0.06))
+    .force("collide", d3.forceCollide<{ r: number } & d3.SimulationNodeDatum>((c) => c.r * SPREAD).strength(1).iterations(8))
+    .force("x", d3.forceX(width / 2).strength(0.05))
+    .force("y", d3.forceY(height / 2).strength(0.05))
     .stop()
     .tick(320);
   const gpos: Record<string, { x: number; y: number }> = {};
