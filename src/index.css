@@ -189,10 +189,10 @@ body::after {
 /* per-galaxy central "sun" bubble naming its domain */
 .sun-body { stroke: rgba(255,224,150,0.55); stroke-width: 1.4px; }
 .sun-label {
-  fill: rgba(40,26,8,0.92);
+  fill: rgba(255,252,245,0.98);
   font-family: "Fraunces", serif;
-  font-size: 16px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
-  paint-order: stroke; stroke: rgba(255,246,225,0.55); stroke-width: 3px;
+  font-size: 17px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  paint-order: stroke; stroke: rgba(46,26,4,0.9); stroke-width: 4.5px;
 }
 
 /* constellation lines linking same-tag ideas */

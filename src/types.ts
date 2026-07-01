@@ -16,6 +16,7 @@ export interface IdeasFile {
 // a node in the force simulation = an Idea plus layout fields
 export interface Node extends Idea {
   r: number;
+  _baseR?: number; // score-based radius before vote-driven growth
   _ph: number;
   x: number;
   y: number;

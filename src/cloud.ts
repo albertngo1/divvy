@@ -86,8 +86,9 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   const nodes: Node[] = ideas.map((d, i) => {
     const angle = i * 2.3999632;
     const rr = 22 * Math.sqrt(i + 0.5);
+    const r0 = radiusFor(d.score, ideas.length);
     return {
-      ...d, r: radiusFor(d.score, ideas.length), _ph: i * 1.7,
+      ...d, r: r0, _baseR: r0, _ph: i * 1.7,
       x: width / 2 + rr * Math.cos(angle),
       y: height / 2 + rr * Math.sin(angle),
     };
@@ -240,18 +241,19 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   function paint() {
     const scoreOf = (n: Node) => (Number.isFinite(n.score) ? n.score : 50);
     // single pass (spreading a huge array into Math.min/max would blow the arg limit as the cloud grows)
-    let minS = Infinity, maxS = -Infinity, maxV = 1;
+    let minS = Infinity, maxS = -Infinity;
     for (const n of nodes) {
       const s = scoreOf(n);
       if (s < minS) minS = s;
       if (s > maxS) maxS = s;
-      maxV = Math.max(maxV, curVotes[n.slug] || 0);
     }
+    // heat = normalized AI score (0-1) + a big absolute bump per upvote. With only a
+    // handful of voters, each vote outweighs the whole score range, so ANY upvoted idea
+    // jumps to the hot end of the spectrum — votes clearly dominate.
     const heat = new Map<string, number>();
     nodes.forEach((n) => {
       const ns = maxS > minS ? (scoreOf(n) - minS) / (maxS - minS) : 0.5;
-      const nv = (curVotes[n.slug] || 0) / maxV;
-      heat.set(n.slug, ns + 3 * nv); // upvotes weighted 3× the AI score
+      heat.set(n.slug, ns + 2 * (curVotes[n.slug] || 0));
     });
     const order = [...nodes].sort((a, b) => heat.get(a.slug)! - heat.get(b.slug)!);
     const last = Math.max(1, order.length - 1);
@@ -263,6 +265,21 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
       glowStops.get(n.slug)!.each(function (_d, i) { d3.select(this).attr("stop-color", `hsla(${h},74%,62%,${GLOW_STOPS[i].a})`); });
     });
     g.selectAll<SVGCircleElement, Node>("circle.body").attr("stroke", (n) => `hsla(${n._hue},74%,62%,0.85)`);
+  }
+
+  // upvotes visibly grow the bubble too (+16% radius each, capped) — high impact for a few voters
+  const VOTE_SIZE = 0.16;
+  function resize() {
+    let changed = false;
+    for (const n of nodes) {
+      const nr = n._baseR! * (1 + VOTE_SIZE * Math.min(curVotes[n.slug] || 0, 8));
+      if (Math.abs(nr - n.r) > 0.5) { n.r = nr; changed = true; }
+    }
+    if (!changed) return;
+    g.select<SVGCircleElement>("circle.halo").attr("r", (d) => d.r * 1.5);
+    g.select<SVGCircleElement>("circle.body").attr("r", (d) => d.r);
+    g.select<SVGTextElement>("text").each(function (this: SVGTextElement, d) { fitText(this, d); });
+    sim.alpha(0.4).restart(); // let collide re-space around the grown bubbles
   }
   paint();
 
@@ -339,6 +356,27 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     linkSel.style("opacity", (l) => (dimPred(l.a) || dimPred(l.b) ? 0.12 : 1));
   }
 
+  // WASD / arrow keys pan the viewport (each vector nudges the camera; applied per frame)
+  const panKeys = new Set<string>();
+  const PAN_MAP: Record<string, [number, number]> = {
+    arrowup: [0, 1], w: [0, 1], arrowdown: [0, -1], s: [0, -1],
+    arrowleft: [1, 0], a: [1, 0], arrowright: [-1, 0], d: [-1, 0],
+  };
+  const isTyping = (el: EventTarget | null) => {
+    const t = el as HTMLElement | null;
+    return !!t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+  };
+  const onKeyDown = (e: KeyboardEvent) => {
+    if (e.metaKey || e.ctrlKey || e.altKey || isTyping(e.target)) return;
+    const k = e.key.toLowerCase();
+    if (!PAN_MAP[k]) return;
+    e.preventDefault();
+    panKeys.add(k);
+  };
+  const onKeyUp = (e: KeyboardEvent) => { panKeys.delete(e.key.toLowerCase()); };
+  window.addEventListener("keydown", onKeyDown);
+  window.addEventListener("keyup", onKeyUp);
+
   let raf = 0;
   function floatFrame(ts: number) {
     const t = ts / 1000;
@@ -350,6 +388,14 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     });
     g.attr("transform", (d) => `translate(${d._rx},${d._ry})`);
     linkSel.attr("x1", (l) => l.a._rx!).attr("y1", (l) => l.a._ry!).attr("x2", (l) => l.b._rx!).attr("y2", (l) => l.b._ry!);
+    if (panKeys.size) {
+      let dx = 0, dy = 0;
+      panKeys.forEach((k) => { dx += PAN_MAP[k][0]; dy += PAN_MAP[k][1]; });
+      if (dx || dy) {
+        const step = 16 / d3.zoomTransform(svgEl).k; // constant on-screen speed at any zoom
+        svg.call(zoom.translateBy, dx * step, dy * step);
+      }
+    }
     raf = requestAnimationFrame(floatFrame);
   }
   raf = requestAnimationFrame(floatFrame);
@@ -361,10 +407,12 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
 
   return {
     setDim(pred: DimPredicate) { dimPred = pred; applyDim(); },
-    setVotes(v: Record<string, number>) { curVotes = v || {}; paint(); },
+    setVotes(v: Record<string, number>) { curVotes = v || {}; resize(); paint(); },
     destroy() {
       cancelAnimationFrame(raf);
       window.removeEventListener("resize", onResize);
+      window.removeEventListener("keydown", onKeyDown);
+      window.removeEventListener("keyup", onKeyUp);
       sim.stop();
       hueBySlug.clear();
       svg.selectAll("*").remove();
