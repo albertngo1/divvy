@@ -33,9 +33,12 @@ const activeTags = new Set(); // tags selected in the tag popover / legend
 let searchQuery = "";
 let allNodes = [];
 
-function radiusFor(score) {
+function radiusFor(score, n) {
   const s = Number.isFinite(score) ? score : 50;
-  return 36 + (Math.max(0, Math.min(100, s)) / 100) * 58;
+  const base = 36 + (Math.max(0, Math.min(100, s)) / 100) * 58; // 36..94
+  // shrink as the cloud grows so ~N bubbles stay spread instead of packing into a blob
+  const scale = Math.min(1, Math.sqrt(70 / Math.max(n || 1, 1)));
+  return Math.max(15, base * scale);
 }
 
 // Fit the title inside the circle: shrink font + wrap until it fits width AND height,
@@ -249,22 +252,32 @@ function buildTagFilter(nodes) {
 // control wiring (elements exist at load)
 document.getElementById("search").addEventListener("input", (e) => { searchQuery = e.target.value.trim(); applyFilter(); });
 document.getElementById("tf-clear").addEventListener("click", clearFilters);
+// tag panel collapse (used on mobile, where it's a bottom sheet)
+(function () {
+  const head = document.getElementById("tf-head");
+  const panelEl = document.getElementById("tagfilter");
+  if (head) head.addEventListener("click", (e) => {
+    if (e.target.closest("#tf-clear")) return;
+    panelEl.classList.toggle("collapsed");
+  });
+  if (window.matchMedia && window.matchMedia("(max-width: 640px)").matches) panelEl.classList.add("collapsed");
+})();
 
 function render(ideas) {
   document.getElementById("idea-count").textContent = ideas.length;
   document.getElementById("empty").hidden = ideas.length > 0;
 
-  allNodes = ideas.map((d, i) => ({ ...d, r: radiusFor(d.score), _ph: i * 1.7 }));
+  allNodes = ideas.map((d, i) => ({ ...d, r: radiusFor(d.score, ideas.length), _ph: i * 1.7 }));
   buildDefs(allNodes);
   buildColorKey();
   buildTagFilter(allNodes);
 
   const sim = d3.forceSimulation(allNodes)
-    .force("charge", d3.forceManyBody().strength(12))
+    .force("charge", d3.forceManyBody().strength(-16)) // mild repulsion so bubbles spread, not clump
     .force("center", d3.forceCenter(width / 2, height / 2))
-    .force("collide", d3.forceCollide().radius((d) => d.r + 7).iterations(3))
-    .force("x", d3.forceX(width / 2).strength(0.035))
-    .force("y", d3.forceY(height / 2).strength(0.035));
+    .force("collide", d3.forceCollide().radius((d) => d.r + 4).iterations(2))
+    .force("x", d3.forceX(width / 2).strength(0.05))
+    .force("y", d3.forceY(height / 2).strength(0.05));
 
   // viewport group so we can pan/zoom the whole cloud
   const viewport = svg.selectAll("g.viewport").data([0]).join("g").attr("class", "viewport");
@@ -295,18 +308,20 @@ function render(ideas) {
     .clickDistance(12) // a small hand-wobble still counts as a click (fixes "clicking does nothing")
     .on("start", (event, d) => {
       if (event.sourceEvent) event.sourceEvent.stopPropagation(); // don't pan while dragging a bubble
-      if (!event.active) sim.alphaTarget(0.12).restart(); d.fx = d.x; d.fy = d.y;
+      d.fx = d.x; d.fy = d.y; // pin; DO NOT reheat here (a click fires start+end and would re-pack the cloud)
     })
-    .on("drag", (event, d) => { d.fx = event.x; d.fy = event.y; })
-    .on("end", (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; });
+    .on("drag", (event, d) => { sim.alphaTarget(0.15).restart(); d.fx = event.x; d.fy = event.y; }) // reheat only on real drag
+    .on("end", (event, d) => { sim.alphaTarget(0); d.fx = null; d.fy = null; });
   g.call(drag);
 
   // point-and-hold on empty space to pan; wheel to zoom
   const zoom = d3.zoom().scaleExtent([0.35, 3])
     .on("zoom", (event) => viewport.attr("transform", event.transform));
   svg.call(zoom).on("dblclick.zoom", null);
-  // start slightly zoomed out so there's a grabbable margin around the dense cloud
-  svg.call(zoom.transform, d3.zoomIdentity.translate(width * 0.09, height * 0.09).scale(0.82));
+  // start zoomed out (more so on phones) so there's a grabbable margin around the cloud
+  const k0 = width < 640 ? 0.5 : 0.82;
+  const t0 = (1 - k0) / 2;
+  svg.call(zoom.transform, d3.zoomIdentity.translate(width * t0, height * t0).scale(k0));
 
   // "random idea" button opens a random PRD
   const randomBtn = document.getElementById("random-btn");

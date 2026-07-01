@@ -25,9 +25,7 @@
       <span class="tagline">an idea cloud that grows itself</span>
     </div>
     <div class="meta">
-      <span id="idea-count">—</span> ideas
-      <span class="sep">·</span>
-      last scan <span id="last-scan">—</span>
+      <span id="idea-count">—</span> ideas<span class="scan-meta"> <span class="sep">·</span> last scan <span id="last-scan">—</span></span>
     </div>
   </header>
 
@@ -36,13 +34,16 @@
       <span class="search-icon">⌕</span>
       <input id="search" class="search" type="search" placeholder="Search ideas, hooks, tags…" autocomplete="off" />
     </div>
-    <button id="random-btn" class="random-btn" title="open a random idea">🎲 Random</button>
+    <button id="random-btn" class="random-btn" title="open a random idea">🎲<span class="btn-label"> Random</span></button>
   </div>
 
   <aside id="tagfilter" class="tagfilter" aria-label="filter by tag">
-    <div class="tf-head">
+    <div class="tf-head" id="tf-head">
       <span>Filter by tag</span>
-      <button id="tf-clear" class="tf-clear" hidden>clear</button>
+      <span class="tf-right">
+        <button id="tf-clear" class="tf-clear" hidden>clear</button>
+        <span class="tf-chevron" aria-hidden="true">▾</span>
+      </span>
     </div>
     <div id="tagfilter-list" class="tf-list"></div>
   </aside>
