@@ -11,6 +11,13 @@ function scoreHue(score) {
 const colorOf = (d) => `hsl(${scoreHue(d.score)}, 72%, 62%)`;
 const colorAlpha = (d, a) => `hsla(${scoreHue(d.score)}, 72%, 62%, ${a})`;
 
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+function fmtDate(s) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(s || ""));
+  if (!m) return String(s || "");
+  return `${MONTHS[+m[2] - 1] || "?"} ${+m[3]}, ${m[1]}`;
+}
+
 const svg = d3.select("#cloud");
 const panel = document.getElementById("panel");
 const scrim = document.getElementById("scrim");
@@ -125,6 +132,12 @@ async function openPanel(d) {
   sc.style.color = accent;
   sc.style.borderColor = colorAlpha(d, 0.6);
   tags.appendChild(sc);
+  if (d.created) {
+    const dc = document.createElement("span");
+    dc.className = "date-chip";
+    dc.textContent = "added " + fmtDate(d.created);
+    tags.appendChild(dc);
+  }
   (d.tags || []).forEach((tg) => {
     const el = document.createElement("span");
     el.textContent = tg;
@@ -182,7 +195,7 @@ function isDimmed(d) {
 function applyFilter() {
   svg.selectAll("g.bubble").classed("dim", isDimmed);
   document.querySelectorAll("#tagfilter-list .tp").forEach((el) => el.classList.toggle("on", activeTags.has(el.dataset.tag)));
-  document.querySelectorAll("#panel-tags span:not(.score-chip)").forEach((el) => el.classList.toggle("active", activeTags.has(el.textContent)));
+  document.querySelectorAll("#panel-tags span:not(.score-chip):not(.date-chip)").forEach((el) => el.classList.toggle("active", activeTags.has(el.textContent)));
   const tfClear = document.getElementById("tf-clear");
   if (tfClear) tfClear.hidden = activeTags.size === 0;
 

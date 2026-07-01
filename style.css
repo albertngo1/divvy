@@ -457,6 +457,8 @@ body::after {
 .tags span:hover { color: var(--ink); border-color: var(--line-strong); background: rgba(255,255,255,0.05); }
 .tags span.score-chip { color: var(--ink); font-family: "JetBrains Mono", monospace; cursor: default; }
 .tags span.score-chip:hover { background: none; }
+.tags span.date-chip { color: var(--ink-faint); font-family: "JetBrains Mono", monospace; cursor: default; }
+.tags span.date-chip:hover { background: none; border-color: var(--line); }
 .tags span.active { color: #0c0d12; background: var(--accent); border-color: transparent; font-weight: 600; }
 #panel-title {
   font-family: "Fraunces", serif;
