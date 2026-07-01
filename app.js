@@ -3,24 +3,13 @@
 // a source legend that doubles as a filter, hover tooltips, and clickable tags.
 // Click a bubble -> fetch data/prds/<slug>.md and render it.
 
-const SOURCE_META = {
-  self:            { label: "self",          color: "#ffd166" },
-  "weekend-ideas": { label: "weekend-ideas", color: "#b794f6" },
-  hn:              { label: "hacker news",   color: "#ff9d5c" },
-  github:          { label: "github",        color: "#7cc4ff" },
-  steam:           { label: "steam",         color: "#66e0c2" },
-  wild:            { label: "wild",          color: "#f97ba3" },
-  games:           { label: "games",         color: "#c3f27b" },
-  scan:            { label: "scan",          color: "#9aa0b4" },
-};
-const sourceOf = (d) => (SOURCE_META[d.source] ? d.source : "scan");
-const colorOf = (d) => SOURCE_META[sourceOf(d)].color;
-
-function hexToRgba(hex, a) {
-  const h = hex.replace("#", "");
-  const r = parseInt(h.slice(0, 2), 16), g = parseInt(h.slice(2, 4), 16), b = parseInt(h.slice(4, 6), 16);
-  return `rgba(${r},${g},${b},${a})`;
+// Color === score (heat scale). Low score = cool blue, high score = warm amber.
+function scoreHue(score) {
+  const s = Math.max(30, Math.min(90, Number.isFinite(score) ? score : 55));
+  return 220 - ((s - 30) / 60) * 190; // 220 (blue) -> 30 (amber)
 }
+const colorOf = (d) => `hsl(${scoreHue(d.score)}, 72%, 62%)`;
+const colorAlpha = (d, a) => `hsla(${scoreHue(d.score)}, 72%, 62%, ${a})`;
 
 const svg = d3.select("#cloud");
 const panel = document.getElementById("panel");
@@ -33,8 +22,7 @@ let width = window.innerWidth;
 let height = window.innerHeight;
 
 // filter state
-const offSources = new Set(); // sources toggled OFF in the legend
-const activeTags = new Set(); // tags selected in the tag popover
+const activeTags = new Set(); // tags selected in the tag popover / legend
 let searchQuery = "";
 let allNodes = [];
 
@@ -48,13 +36,13 @@ function radiusFor(score) {
 function fitText(t, d) {
   const r = d.r;
   const words = String(d.title).split(/\s+/);
-  const maxLines = r < 44 ? 2 : (r < 70 ? 3 : 4);
-  const padW = r * 1.5;   // usable width (leaves rim padding)
-  const padH = r * 1.45;  // usable height
-  let fs = Math.min(17, Math.max(9, r * 0.3));
+  const maxLines = r < 46 ? 2 : (r < 72 ? 3 : 4);
+  const padW = r * 1.42;  // usable width (leaves rim padding)
+  const padH = r * 1.32;  // usable height
+  let fs = Math.min(16, Math.max(9, r * 0.29));
   let lines = [];
   while (true) {
-    const maxChars = Math.max(3, Math.floor(padW / (fs * 0.56)));
+    const maxChars = Math.max(3, Math.floor(padW / (fs * 0.6)));
     lines = [];
     let cur = "";
     for (const w of words) {
@@ -81,19 +69,20 @@ function fitText(t, d) {
   });
 }
 
-function buildDefs() {
+function buildDefs(nodes) {
+  svg.selectAll("defs").remove();
   const defs = svg.append("defs");
-  Object.entries(SOURCE_META).forEach(([key, meta]) => {
+  nodes.forEach((d) => {
+    const h = scoreHue(d.score);
     const g = defs.append("radialGradient")
-      .attr("id", `grad-${key}`).attr("cx", "0.35").attr("cy", "0.3").attr("r", "0.85");
-    g.append("stop").attr("offset", "0%").attr("stop-color", hexToRgba(meta.color, 0.5));
-    g.append("stop").attr("offset", "55%").attr("stop-color", hexToRgba(meta.color, 0.16));
-    g.append("stop").attr("offset", "100%").attr("stop-color", hexToRgba(meta.color, 0.05));
-    // cheap glow (pure gradient, no expensive blur filter)
-    const gl = defs.append("radialGradient").attr("id", `glow-${key}`).attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
-    gl.append("stop").attr("offset", "0%").attr("stop-color", hexToRgba(meta.color, 0.45));
-    gl.append("stop").attr("offset", "62%").attr("stop-color", hexToRgba(meta.color, 0.12));
-    gl.append("stop").attr("offset", "100%").attr("stop-color", hexToRgba(meta.color, 0));
+      .attr("id", `grad-${d.slug}`).attr("cx", "0.35").attr("cy", "0.3").attr("r", "0.85");
+    g.append("stop").attr("offset", "0%").attr("stop-color", `hsla(${h},72%,62%,0.5)`);
+    g.append("stop").attr("offset", "55%").attr("stop-color", `hsla(${h},72%,62%,0.16)`);
+    g.append("stop").attr("offset", "100%").attr("stop-color", `hsla(${h},72%,62%,0.05)`);
+    const gl = defs.append("radialGradient").attr("id", `glow-${d.slug}`).attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
+    gl.append("stop").attr("offset", "0%").attr("stop-color", `hsla(${h},72%,62%,0.4)`);
+    gl.append("stop").attr("offset", "62%").attr("stop-color", `hsla(${h},72%,62%,0.1)`);
+    gl.append("stop").attr("offset", "100%").attr("stop-color", `hsla(${h},72%,62%,0)`);
   });
 }
 
@@ -115,20 +104,20 @@ function hideTooltip() { tooltip.hidden = true; }
 
 // ---- PRD panel ----
 async function openPanel(d) {
+  if (window.getSelection) window.getSelection().removeAllRanges(); // don't leave a click-drag text selection
   const accent = colorOf(d);
   panel.style.setProperty("--accent", accent);
-  panel.style.setProperty("--accent-soft", hexToRgba(accent, 0.14));
+  panel.style.setProperty("--accent-soft", colorAlpha(d, 0.14));
   document.getElementById("panel-title").textContent = d.title;
   document.getElementById("panel-hook").textContent = d.hook || "";
   const tags = document.getElementById("panel-tags");
   tags.innerHTML = "";
-  const src = document.createElement("span");
-  src.className = "source-tag";
-  src.textContent = SOURCE_META[sourceOf(d)].label;
-  src.style.borderColor = hexToRgba(accent, 0.6);
-  src.style.color = accent;
-  src.title = "source (color)";
-  tags.appendChild(src);
+  const sc = document.createElement("span");
+  sc.className = "score-chip";
+  sc.textContent = "score " + (Number.isFinite(d.score) ? d.score : "—");
+  sc.style.color = accent;
+  sc.style.borderColor = colorAlpha(d, 0.6);
+  tags.appendChild(sc);
   (d.tags || []).forEach((tg) => {
     const el = document.createElement("span");
     el.textContent = tg;
@@ -139,8 +128,8 @@ async function openPanel(d) {
 
   const prdEl = document.getElementById("panel-prd");
   prdEl.innerHTML = "<p style='color:var(--ink-dim)'>loading PRD…</p>";
+  prdEl.scrollTop = 0;
   panel.hidden = false;
-  scrim.hidden = false;
   requestAnimationFrame(() => panel.classList.add("open"));
 
   try {
@@ -155,11 +144,9 @@ async function openPanel(d) {
 }
 function closePanel() {
   panel.classList.remove("open");
-  scrim.hidden = true;
   setTimeout(() => { panel.hidden = true; }, 320);
 }
 document.getElementById("panel-close").addEventListener("click", closePanel);
-scrim.addEventListener("click", closePanel);
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     closePanel();
@@ -178,16 +165,15 @@ function matchesSearch(d) {
     (d.tags || []).some((t) => t.toLowerCase().includes(q));
 }
 function isDimmed(d) {
-  if (offSources.has(sourceOf(d))) return true;
   if (activeTags.size && !(d.tags || []).some((t) => activeTags.has(t))) return true;
   if (!matchesSearch(d)) return true;
   return false;
 }
 function applyFilter() {
   svg.selectAll("g.bubble").classed("dim", isDimmed);
-  legendEl.querySelectorAll(".chip").forEach((chip) => chip.classList.toggle("off", offSources.has(chip.dataset.source)));
+  legendEl.querySelectorAll(".tagchip").forEach((chip) => chip.classList.toggle("on", activeTags.has(chip.dataset.tag)));
   document.querySelectorAll("#tag-pop .tp").forEach((el) => el.classList.toggle("on", activeTags.has(el.dataset.tag)));
-  document.querySelectorAll("#panel-tags span:not(.source-tag)").forEach((el) => el.classList.toggle("active", activeTags.has(el.textContent)));
+  document.querySelectorAll("#panel-tags span:not(.score-chip)").forEach((el) => el.classList.toggle("active", activeTags.has(el.textContent)));
 
   const chips = [];
   if (searchQuery) chips.push(`“${searchQuery}”`);
@@ -214,24 +200,22 @@ function toggleTag(tag) {
   else { activeTags.clear(); activeTags.add(tag); }
   applyFilter();
 }
-function toggleSource(src) { if (offSources.has(src)) offSources.delete(src); else offSources.add(src); applyFilter(); }
-
-function buildLegend(nodes) {
+// bottom-left = quick tag filters (the most common tags); color === score
+function buildTagLegend(nodes) {
   const counts = {};
-  nodes.forEach((d) => { const s = sourceOf(d); counts[s] = (counts[s] || 0) + 1; });
-  const order = Object.keys(SOURCE_META).filter((s) => counts[s]);
+  nodes.forEach((d) => (d.tags || []).forEach((t) => { counts[t] = (counts[t] || 0) + 1; }));
+  const top = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b)).slice(0, 12);
   legendEl.innerHTML = "";
   const cap = document.createElement("span");
   cap.className = "legend-cap";
-  cap.textContent = "color = source · click to filter";
+  cap.textContent = "filter by tag · color = score (cool→warm)";
   legendEl.appendChild(cap);
-  order.forEach((s) => {
-    const meta = SOURCE_META[s];
+  top.forEach((t) => {
     const chip = document.createElement("button");
-    chip.className = "chip";
-    chip.dataset.source = s;
-    chip.innerHTML = `<span class="dot" style="background:${meta.color};color:${meta.color}"></span>${meta.label} <span class="n">${counts[s]}</span>`;
-    chip.addEventListener("click", () => toggleSource(s));
+    chip.className = "chip tagchip";
+    chip.dataset.tag = t;
+    chip.innerHTML = `${t} <span class="n">${counts[t]}</span>`;
+    chip.addEventListener("click", () => toggleTag(t));
     legendEl.appendChild(chip);
   });
 }
@@ -268,9 +252,9 @@ function render(ideas) {
   document.getElementById("idea-count").textContent = ideas.length;
   document.getElementById("empty").hidden = ideas.length > 0;
 
-  allNodes = ideas.map((d) => ({ ...d, r: radiusFor(d.score) }));
-  buildDefs();
-  buildLegend(allNodes);
+  allNodes = ideas.map((d, i) => ({ ...d, r: radiusFor(d.score), _ph: i * 1.7 }));
+  buildDefs(allNodes);
+  buildTagLegend(allNodes);
   buildTagPop(allNodes);
 
   const sim = d3.forceSimulation(allNodes)
@@ -294,22 +278,23 @@ function render(ideas) {
   g.append("circle")
     .attr("class", "halo")
     .attr("r", (d) => d.r * 1.5)
-    .attr("fill", (d) => `url(#glow-${sourceOf(d)})`)
+    .attr("fill", (d) => `url(#glow-${d.slug})`)
     .style("pointer-events", "none");
 
   g.append("circle")
     .attr("class", "body")
     .attr("r", (d) => d.r)
-    .attr("fill", (d) => `url(#grad-${sourceOf(d)})`)
-    .attr("stroke", (d) => hexToRgba(colorOf(d), 0.85))
+    .attr("fill", (d) => `url(#grad-${d.slug})`)
+    .attr("stroke", (d) => colorAlpha(d, 0.85))
     .attr("stroke-width", 1.4);
 
   g.append("text").call((sel) => sel.each(function (d) { fitText(d3.select(this), d); }));
 
   const drag = d3.drag()
+    .clickDistance(12) // a small hand-wobble still counts as a click (fixes "clicking does nothing")
     .on("start", (event, d) => {
       if (event.sourceEvent) event.sourceEvent.stopPropagation(); // don't pan while dragging a bubble
-      if (!event.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y;
+      if (!event.active) sim.alphaTarget(0.12).restart(); d.fx = d.x; d.fy = d.y;
     })
     .on("drag", (event, d) => { d.fx = event.x; d.fy = event.y; })
     .on("end", (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; });
@@ -330,13 +315,24 @@ function render(ideas) {
     if (pick) openPanel(pick);
   };
 
+  // sim maintains base positions; a rAF loop renders them + a gentle float so the
+  // cloud looks alive even at steady state.
   sim.on("tick", () => {
-    g.attr("transform", (d) => {
+    allNodes.forEach((d) => {
       d.x = Math.max(d.r, Math.min(width - d.r, d.x));
-      d.y = Math.max(d.r + 60, Math.min(height - d.r - 10, d.y));
-      return `translate(${d.x},${d.y})`;
+      d.y = Math.max(d.r + 70, Math.min(height - d.r - 10, d.y));
     });
   });
+  function floatFrame(ts) {
+    const t = ts / 1000;
+    g.attr("transform", (d) => {
+      const fx = Math.sin(t * 0.5 + d._ph) * 3.5;
+      const fy = Math.cos(t * 0.42 + d._ph * 1.3) * 3.5;
+      return `translate(${d.x + fx},${d.y + fy})`;
+    });
+    requestAnimationFrame(floatFrame);
+  }
+  requestAnimationFrame(floatFrame);
 
   window.addEventListener("resize", () => {
     width = window.innerWidth; height = window.innerHeight;

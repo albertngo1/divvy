@@ -21,6 +21,8 @@
 }
 
 * { box-sizing: border-box; }
+/* the [hidden] attribute must always win over display:flex/grid on these elements */
+[hidden] { display: none !important; }
 
 html, body {
   margin: 0;
@@ -103,7 +105,7 @@ body::after {
 
 /* ---- stage / cloud ---- */
 #stage { position: fixed; inset: 0; z-index: 1; }
-#cloud { width: 100%; height: 100%; display: block; cursor: grab; position: relative; z-index: 1; }
+#cloud { width: 100%; height: 100%; display: block; cursor: grab; position: relative; z-index: 1; user-select: none; -webkit-user-select: none; }
 #cloud:active { cursor: grabbing; }
 
 #empty {
@@ -181,7 +183,9 @@ body::after {
   user-select: none;
 }
 .legend .chip:hover { border-color: var(--line-strong); color: var(--ink); }
-.legend .chip.off { opacity: 0.38; }
+.legend .tagchip { font-family: "JetBrains Mono", monospace; font-size: 11px; }
+.legend .tagchip.on { color: #0c0d12; background: var(--c-weekend-ideas); border-color: transparent; font-weight: 600; }
+.legend .tagchip.on .n { opacity: 0.6; }
 .legend .chip .dot {
   width: 9px; height: 9px; border-radius: 50%;
   box-shadow: 0 0 9px 0 currentColor;
@@ -305,12 +309,7 @@ body::after {
 .tooltip .tt-hook { color: var(--ink-dim); font-size: 12.5px; line-height: 1.45; margin: 2px 0 8px; font-style: italic; }
 
 /* ---- PRD panel ---- */
-.scrim {
-  /* transparent click-catcher — closing/opening the panel must NOT hide the cloud */
-  position: fixed; inset: 0;
-  background: transparent;
-  z-index: 8;
-}
+.scrim { display: none; } /* deprecated — panel no longer blocks the cloud */
 .panel {
   --accent: #b794f6;
   --accent-soft: rgba(183,148,246,0.14);
@@ -351,7 +350,8 @@ body::after {
   transition: all 0.15s ease;
 }
 .tags span:hover { color: var(--ink); border-color: var(--line-strong); background: rgba(255,255,255,0.05); }
-.tags span.source-tag { color: var(--ink); }
+.tags span.score-chip { color: var(--ink); font-family: "JetBrains Mono", monospace; cursor: default; }
+.tags span.score-chip:hover { background: none; }
 .tags span.active { color: #0c0d12; background: var(--accent); border-color: transparent; font-weight: 600; }
 #panel-title {
   font-family: "Fraunces", serif;
