@@ -1,5 +1,5 @@
 #!/bin/bash
-# Divvy scanner runner: generate ideas from Hacker News, commit, push.
+# Divvy scanner runner: generate ideas from an arbitrary subset of trusted feeds, commit, push.
 # Wire to a LaunchAgent (StartInterval) once you're happy with it.
 set -euo pipefail
 
@@ -24,7 +24,7 @@ fi
 # Commit + push only if something changed.
 if [[ -n "$(git status --porcelain public/data/)" ]]; then
   git add public/data/
-  git commit -q -m "divvy: scan $(date +%F) — new ideas from HN"
+  git commit -q -m "divvy: scan $(date +%F) — new ideas"
   git push -q
   echo "pushed" >> "$LOG"
 else

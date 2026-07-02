@@ -35,6 +35,25 @@ async function tryFetchJSON(url, opts) {
   return res.json();
 }
 
+async function tryFetchText(url, opts) {
+  const res = await fetch(url, opts);
+  if (!res.ok) throw new Error(`${url} -> ${res.status}`);
+  return res.text();
+}
+
+// Pull entry titles out of an Atom/RSS feed without an XML dependency.
+function feedTitles(xml, max) {
+  const chunks = xml.split(/<(?:entry|item)[ >]/i).slice(1); // drop the feed-level header
+  const titles = [];
+  for (const c of chunks) {
+    const m = c.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+    if (!m) continue;
+    const t = m[1].replace(/<!\[CDATA\[|\]\]>/g, "").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
+    if (t) titles.push(t);
+  }
+  return titles.slice(0, max);
+}
+
 // --- sources: each returns { label, lines } or throws (skipped on failure) ---
 
 async function srcHN() {
@@ -66,6 +85,31 @@ async function srcSteam() {
   return { label: "Popular Steam games (last 2 weeks)", lines };
 }
 
+async function srcLobsters() {
+  const json = await tryFetchJSON("https://lobste.rs/hottest.json", {
+    headers: { "User-Agent": "divvy-scanner" },
+  });
+  const lines = (Array.isArray(json) ? json : []).filter((s) => s.title).slice(0, 20)
+    .map((s) => `- ${s.title}${s.url ? ` (${s.url})` : ""} [${s.score || 0} pts]`);
+  return { label: "Lobsters hottest", lines };
+}
+
+async function srcProductHunt() {
+  const xml = await tryFetchText("https://www.producthunt.com/feed", {
+    headers: { "User-Agent": "divvy-scanner" },
+  });
+  const lines = feedTitles(xml, 20).map((t) => `- ${t}`);
+  return { label: "Product Hunt new launches", lines };
+}
+
+async function srcArxiv() {
+  // Newest human-computer-interaction & graphics papers — fertile, offbeat sparks.
+  const url = "http://export.arxiv.org/api/query?search_query=cat:cs.HC+OR+cat:cs.GR&sortBy=submittedDate&sortOrder=descending&max_results=20";
+  const xml = await tryFetchText(url, { headers: { "User-Agent": "divvy-scanner" } });
+  const lines = feedTitles(xml, 18).map((t) => `- ${t}`);
+  return { label: "Recent arXiv HCI/graphics papers", lines };
+}
+
 // Rotating provocations so runs don't converge on the same flavor.
 const PROVOCATIONS = [
   "Cross-pollinate: take a mechanic from a Steam game and apply it somewhere absurd (finance, chores, homelab ops).",
@@ -80,8 +124,14 @@ const PROVOCATIONS = [
   "Find an arbitrage: data or capability that's cheap for you and valuable to a specific niche who can't get it themselves.",
 ];
 
+// Curated pool of trusted feeds. Each run draws an ARBITRARY subset so no single
+// feed (historically HN) anchors every run and skews the idea mix.
+const TRUSTED_SOURCES = [srcHN, srcGitHub, srcSteam, srcLobsters, srcProductHunt, srcArxiv];
+const SOURCES_PER_RUN = Number(process.env.DIVVY_SOURCES || 4);
+
 async function gatherSources() {
-  const settled = await Promise.allSettled([srcHN(), srcGitHub(), srcSteam()]);
+  const picked = shuffle(TRUSTED_SOURCES).slice(0, Math.max(2, SOURCES_PER_RUN));
+  const settled = await Promise.allSettled(picked.map((fn) => fn()));
   const blocks = [];
   for (const s of settled) {
     if (s.status === "fulfilled" && s.value.lines.length) {
@@ -117,7 +167,7 @@ function buildPrompt(digest, avoid) {
   const avoidBlock = avoid.length
     ? `\n\nAlready in the cloud — do NOT repeat these or produce near-duplicates of them:\n${avoid.map((t) => `- ${t}`).join("\n")}`
     : "";
-  return `You are the idea engine for "Divvy", an idea cloud. Below are live signals scraped from several public feeds — Hacker News, trending GitHub repos, and the most-played Steam games.
+  return `You are the idea engine for "Divvy", an idea cloud. Below are live signals scraped from an arbitrary subset of several trusted public feeds (which feeds appear varies run to run).
 
 Riff ${HOW_MANY} FRESH, buildable weekend-project or video-game ideas. Let the feeds spark you SIDEWAYS — do not summarize or clone them. Cross-pollinate across sources. Favor a novel ANGLE over a novel topic. Be genuinely creative and a little mischievous. Skip anything generic or done to death (another wrapper, another to-do app, "run a local model", a straight clone of something in the feed).
 
@@ -134,7 +184,7 @@ Return ONLY a JSON array (no prose, no code fence). Each element:
            55-67: solid but seen-before — fine weekend fodder
            68-77: genuinely novel angle, you'd be excited to build it
            78-90: rare drop-everything standout — award to at most ONE idea this run, usually none,
-  "source": "hn" | "github" | "steam" | "wild" (which feed sparked it most),
+  "source": "hn" | "github" | "steam" | "lobsters" | "producthunt" | "arxiv" | "wild" (which feed sparked it most; only the feeds shown below are valid, plus "wild" for a leap not tied to any single feed),
   "prd": "a DETAILED markdown PRD, 350-600 words, with these sections: ## Overview (what it is, for whom); ## Problem (the itch); ## How it works (the core mechanic/flow, concretely); ## Technical approach (be specific and technical where it helps — name the stack, real data sources/APIs/endpoints, data model, key algorithms or data structures, and the genuinely hard part); ## v1 scope (humiliatingly small) as bullets; ## Out of scope (for now); ## Risks & unknowns; ## Done means (a concrete, testable definition)"
 }
 
@@ -183,7 +233,7 @@ async function main() {
   const digest = await gatherSources();
   const raw = await callClaude(buildPrompt(digest, avoid));
   const fresh = extractJSON(raw);
-  const SOURCES = new Set(["hn", "github", "steam", "wild"]);
+  const SOURCES = new Set(["hn", "github", "steam", "lobsters", "producthunt", "arxiv", "wild"]);
   const today = new Date().toISOString().slice(0, 10);
   let added = 0;
 
@@ -209,7 +259,10 @@ async function main() {
 
   store.lastScan = today;
   await writeFile(IDEAS_FILE, JSON.stringify(store, null, 2) + "\n");
-  console.log(`Divvy scan: added ${added} idea(s); ${store.ideas.length} total.`);
+  const bySource = {};
+  for (const i of store.ideas.slice(0, added)) bySource[i.source] = (bySource[i.source] || 0) + 1;
+  const breakdown = Object.entries(bySource).map(([s, n]) => `${s}:${n}`).join(" ");
+  console.log(`Divvy scan: added ${added} idea(s) [${breakdown}]; ${store.ideas.length} total.`);
 }
 
 main().catch((e) => { console.error("scan failed:", e.message); process.exit(1); });
