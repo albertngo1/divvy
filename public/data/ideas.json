@@ -2,6 +2,48 @@
   "lastScan": "2026-07-02",
   "ideas": [
     {
+      "slug": "die-set",
+      "title": "Die Set",
+      "hook": "Paint a stiffness map around a soft tube, squeeze, and watch what faceted shape squirts out — the same trick wombats use to poop cubes, quietly repurposed into a real extrusion-die design sandbox.",
+      "tags": [
+        "physics",
+        "materials",
+        "sim",
+        "whimsy"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "overnight",
+      "title": "Overnight",
+      "hook": "A self-hosted forum that runs on 1994 physics: your posts sit in an outbox and only sync once a night, so a thread you start today gets its first replies tomorrow — doomscrolling made impossible by design.",
+      "tags": [
+        "social",
+        "ambient",
+        "self-hosted",
+        "whimsy"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "single-crystal",
+      "title": "Single Crystal",
+      "hook": "A factory tycoon where you can't buy the recipe for jet-engine turbine blades — you have to burn a hundred failed castings to reverse-engineer a metallurgy nobody will sell you.",
+      "tags": [
+        "tycoon",
+        "sim",
+        "materials",
+        "procedural"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
       "slug": "cover-charge",
       "title": "Cover Charge",
       "hook": "A browser turnstile that makes you pay a real, surge-priced toll to open your own time-wasting sites — and the fee doubles every visit that day.",
