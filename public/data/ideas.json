@@ -1,6 +1,48 @@
 {
-  "lastScan": "2026-07-01",
+  "lastScan": "2026-07-02",
   "ideas": [
+    {
+      "slug": "detention",
+      "title": "Detention",
+      "hook": "Your truck rolls into a dock, sits three hours, and the app quietly builds the timestamped proof you need to actually bill for the wait.",
+      "tags": [
+        "logistics",
+        "b2b",
+        "automation",
+        "saas"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "demake",
+      "title": "Demake",
+      "hook": "Every day you're handed one modern game screenshot and 64 black-and-white pixels to recreate it — closest match to the source wins the leaderboard.",
+      "tags": [
+        "game",
+        "competitive",
+        "browser-game",
+        "leaderboard"
+      ],
+      "score": 70,
+      "source": "steam",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "nameplate",
+      "title": "Nameplate",
+      "hook": "Snap a photo of a rusty HVAC rating plate and instantly know its age, tonnage, refrigerant, and whether the warranty is dead.",
+      "tags": [
+        "b2b",
+        "computer-vision",
+        "saas",
+        "logistics"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-02"
+    },
     {
       "slug": "compost-2",
       "title": "Compost",
