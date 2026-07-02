@@ -215,11 +215,11 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
   const FRAME_MS = 30;    // ~33fps cap for the ambient redraw
   let raf = 0;
   let running = false;
-  let paused = false;   // panel open etc. — stop the loop, freeing the main thread
+  let paused = false;   // panel open etc. — suppress the ambient wobble (interactions still draw)
+  let wobbleAmp = 1;    // ambient-wobble amplitude, eased 1↔0 so motion settles/resumes smoothly
   let lastFrame = 0;
   let lastActivity = performance.now();
   function wake() {
-    if (paused) return; // frozen: ignore wobble/interaction wake-ups until resumed
     lastActivity = performance.now();
     if (!running) { running = true; raf = requestAnimationFrame(frame); }
   }
@@ -573,7 +573,6 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
 
   // ---- animation loop: pan, wobble, hover ease, idle-stop ----
   function frame(ts: number) {
-    if (paused) { running = false; return; } // frozen — resume() calls wake() to restart
     // key-held panning (every frame for smoothness)
     if (panKeys.size) {
       let dx = 0, dy = 0;
@@ -596,12 +595,17 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
     }
 
     const idle = ts - lastActivity > IDLE_MS;
-    const wobbleOn = !reduceMotion && !idle && transform.k > 0.08;
+    // wobble is suppressed while the panel is open (paused), when idle, on reduced-motion,
+    // or zoomed way out. Ease the amplitude toward the target so it settles/resumes smoothly
+    // instead of snapping (the snap looked "funky" as the panel opened).
+    const wobbleWanted = !reduceMotion && !paused && !idle && transform.k > 0.08;
+    wobbleAmp += ((wobbleWanted ? 1 : 0) - wobbleAmp) * 0.16;
+    if (wobbleAmp < 0.01) wobbleAmp = 0;
     const simActive = sim.alpha() > 0.005;
+    const recentlyActive = ts - lastActivity < 160; // keep drawing right after any interaction
 
     if (ts - lastFrame >= FRAME_MS) {
       lastFrame = ts;
-      // ambient wobble: nudge on-screen bubbles; skip entirely when idle/reduced/zoomed-out
       const tsec = ts / 1000;
       const [vx0, vy0] = transform.invert([0, 0]);
       const [vx1, vy1] = transform.invert([width, height]);
@@ -609,21 +613,21 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       const wMinX = vx0 - pad2, wMinY = vy0 - pad2, wMaxX = vx1 + pad2, wMaxY = vy1 + pad2;
       for (const d of nodes) {
         if (d.fx != null) { d._rx = d.x; d._ry = d.y; continue; } // pinned/dragged: exact
-        if (wobbleOn && d.x >= wMinX && d.x <= wMaxX && d.y >= wMinY && d.y <= wMaxY) {
+        if (wobbleAmp > 0 && d.x >= wMinX && d.x <= wMaxX && d.y >= wMinY && d.y <= wMaxY) {
           const sx = 0.45 + (d._ph % 0.7);
           const sy = 0.4 + ((d._ph * 1.3) % 0.7);
-          d._rx = d.x + Math.sin(tsec * sx + d._ph) * 8;
-          d._ry = d.y + Math.cos(tsec * sy + d._ph * 1.3) * 7;
+          d._rx = d.x + Math.sin(tsec * sx + d._ph) * 8 * wobbleAmp;
+          d._ry = d.y + Math.cos(tsec * sy + d._ph * 1.3) * 7 * wobbleAmp;
         } else { d._rx = d.x; d._ry = d.y; }
       }
       draw(ts);
     }
 
-    // keep looping only while something can still change; otherwise idle-stop
-    if (simActive || panKeys.size || hoverAnimating || wobbleOn) {
+    // keep looping while anything can still change; otherwise idle-stop (0 fps)
+    if (simActive || panKeys.size || hoverAnimating || wobbleAmp > 0 || recentlyActive) {
       raf = requestAnimationFrame(frame);
     } else {
-      running = false; // frozen — any interaction calls wake() to resume
+      running = false; // any interaction (incl. wheel-zoom while the panel is open) calls wake()
     }
   }
 
@@ -654,8 +658,11 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
     setPaused(v: boolean) {
       if (paused === v) return;
       paused = v;
-      if (v) { cancelAnimationFrame(raf); running = false; } // stop burning the main thread
-      else wake(); // resume the ambient loop
+      // don't hard-stop: interactions (wheel-zoom/pan/drag) must still redraw while the panel
+      // is open. Pausing only eases the ambient wobble to rest, then the loop idle-stops on its
+      // own; unpausing eases it back. Clear hover so no bubble stays stuck at hover scale.
+      if (v) hovered = null;
+      wake();
     },
     destroy() {
       cancelAnimationFrame(raf);
