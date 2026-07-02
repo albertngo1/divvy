@@ -493,7 +493,7 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       if (dimPred(d)) continue;
       const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
       if (rx < cMinX || rx > cMaxX || ry < cMinY || ry > cMaxY) continue;
-      if (d.r * k < 6) continue; // LOD: no bloom for tiny bubbles
+      if (d.r * k < 2.5) continue; // LOD: skip bloom only when truly minuscule
       const p = d._p ?? 0.5;
       const hv = d._hv ?? 0;
       // only the hot HALF blooms, ramping steeply — cool bubbles stay dark so the hot ones
@@ -537,11 +537,17 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       const h = d._hue ?? 200;
       const p = d._p ?? 0.5;
 
-      // tiny at this zoom → cheap flat dot, no gradient/halo/text
-      if (er < 5) {
-        ctx.globalAlpha = alpha * 0.9;
-        ctx.fillStyle = `hsl(${h},74%,60%)`;
-        ctx.beginPath(); ctx.arc(rx, ry, d.r, 0, 2 * Math.PI); ctx.fill();
+      // zoomed out → render as a soft luminous POINT (star-like), not a hard flat dot.
+      // Keeps the galaxy look and lets the heat bloom underneath show through.
+      if (er < 13) {
+        const gr = d.r * (1.5 + 0.7 * p);
+        const L = 60 + 16 * p; // hotter points read a touch brighter
+        const grad = ctx.createRadialGradient(rx, ry, 0, rx, ry, gr);
+        grad.addColorStop(0, `hsla(${h},88%,${L}%,${alpha.toFixed(3)})`);
+        grad.addColorStop(0.4, `hsla(${h},88%,${(L - 4)}%,${(alpha * 0.6).toFixed(3)})`);
+        grad.addColorStop(1, `hsla(${h},88%,${(L - 4)}%,0)`);
+        ctx.fillStyle = grad;
+        ctx.beginPath(); ctx.arc(rx, ry, gr, 0, 2 * Math.PI); ctx.fill();
         ctx.globalAlpha = 1;
         continue;
       }
