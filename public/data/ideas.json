@@ -2,6 +2,48 @@
   "lastScan": "2026-07-02",
   "ideas": [
     {
+      "slug": "yanked",
+      "title": "Yanked",
+      "hook": "A searchable graveyard of deleted and yanked packages across npm, PyPI, and crates.io — the diffs, the drama, and the supply-chain history registries would rather you couldn't see.",
+      "tags": [
+        "security",
+        "provenance",
+        "devtool",
+        "self-hosted"
+      ],
+      "score": 69,
+      "source": "github",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "restitution",
+      "title": "Restitution",
+      "hook": "A co-op stealth game that inverts the heist: you break INTO museums to secretly put looted artifacts BACK on their pedestals while guards hunt the 'thief' they don't realize is returning things.",
+      "tags": [
+        "game",
+        "multiplayer",
+        "stealth",
+        "narrative"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "wrack",
+      "title": "Wrack",
+      "hook": "A find-forecast for beachcombers that turns cheap tide, swell, and storm data into a next-good-day map for sea glass, agates, fossils, and shark teeth.",
+      "tags": [
+        "gis",
+        "map",
+        "nature",
+        "side-hustle"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
       "slug": "deadlock",
       "title": "Deadlock",
       "hook": "An extraction roguelike where you're on-call at 3am: drop into a randomly-broken production database, hunt the monster query strangling it with a limited diagnostic budget, and fix it before the pager kills your run.",
