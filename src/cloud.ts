@@ -537,10 +537,22 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       const h = d._hue ?? 200;
       const p = d._p ?? 0.5;
 
-      // tiny at this zoom → cheap flat dot, no gradient/halo/text
-      if (er < 5) {
-        ctx.globalAlpha = alpha * 0.9;
-        ctx.fillStyle = `hsl(${h},74%,60%)`;
+      // zoomed out → a glowing MARBLE: a soft colored glow halo behind a crisp, vivid
+      // core dot (keeps the vibrant color that made it read, but no longer a flat bead).
+      if (er < 12) {
+        const gr = d.r * 2.1;
+        const halo = ctx.createRadialGradient(rx, ry, d.r * 0.5, rx, ry, gr);
+        halo.addColorStop(0, `hsla(${h},85%,62%,${(0.42 * alpha).toFixed(3)})`);
+        halo.addColorStop(0.5, `hsla(${h},85%,62%,${(0.1 * alpha).toFixed(3)})`);
+        halo.addColorStop(1, `hsla(${h},85%,62%,0)`);
+        ctx.fillStyle = halo;
+        ctx.beginPath(); ctx.arc(rx, ry, gr, 0, 2 * Math.PI); ctx.fill();
+        // crisp core with a slight top-left highlight so it reads as a little sphere
+        const core = ctx.createRadialGradient(rx - d.r * 0.32, ry - d.r * 0.38, d.r * 0.1, rx, ry, d.r);
+        core.addColorStop(0, `hsl(${h},88%,72%)`);
+        core.addColorStop(1, `hsl(${h},72%,55%)`);
+        ctx.globalAlpha = alpha;
+        ctx.fillStyle = core;
         ctx.beginPath(); ctx.arc(rx, ry, d.r, 0, 2 * Math.PI); ctx.fill();
         ctx.globalAlpha = 1;
         continue;
