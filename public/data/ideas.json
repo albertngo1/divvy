@@ -2,6 +2,48 @@
   "lastScan": "2026-07-02",
   "ideas": [
     {
+      "slug": "deadlock",
+      "title": "Deadlock",
+      "hook": "An extraction roguelike where you're on-call at 3am: drop into a randomly-broken production database, hunt the monster query strangling it with a limited diagnostic budget, and fix it before the pager kills your run.",
+      "tags": [
+        "game",
+        "roguelike",
+        "sql",
+        "observability"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "heartwood",
+      "title": "Heartwood",
+      "hook": "A live wallpaper that grows one tree-ring a day from your machine's pulse—wide green rings for good days, charred fire-scars for the outages, a readable cross-section by New Year's.",
+      "tags": [
+        "ambient",
+        "wallpaper",
+        "quantified-self",
+        "generative"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "backflow",
+      "title": "Backflow",
+      "hook": "The one-tap field app that turns a plumber's annual backflow-preventer test into the exact PDF your water district demands—filed before the truck leaves the curb.",
+      "tags": [
+        "logistics",
+        "ops-tool",
+        "automation",
+        "b2b"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-02"
+    },
+    {
       "slug": "die-set",
       "title": "Die Set",
       "hook": "Paint a stiffness map around a soft tube, squeeze, and watch what faceted shape squirts out — the same trick wombats use to poop cubes, quietly repurposed into a real extrusion-die design sandbox.",
