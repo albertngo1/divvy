@@ -11,8 +11,11 @@ Live (Cloudflare Pages): **https://divvy-9ol.pages.dev/**
 
 ## Stack
 - **React + TypeScript + Vite** front-end (`src/`). The bubble cloud is a d3 force
-  layout in a typed imperative module (`src/cloud.ts`) driven by a React component; the
-  rest of the UI (controls, tag dropdown, PRD panel, tooltip, scoreboard) is React.
+  layout rendered to a single **`<canvas>`** in a typed imperative module (`src/cloud.ts`)
+  driven by a React component — canvas (not SVG-DOM) so it stays smooth as the idea count
+  grows; interactions use canvas-level hit-testing, and the ambient wobble idle-stops (0
+  fps) when nothing's happening. The rest of the UI (controls, tag dropdown, PRD panel,
+  tooltip, scoreboard) is React.
 - **Cloudflare Pages** hosting + **Pages Functions** (`functions/api/*`) for the API.
 - **D1** (serverless SQLite) stores votes; a **Durable Object** Worker (`realtime/`)
   powers live presence over WebSockets.

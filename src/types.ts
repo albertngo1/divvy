@@ -29,4 +29,10 @@ export interface Node extends Idea {
   _hue?: number;
   _p?: number; // heat rank fraction 0..1 (drives glow intensity)
   galaxy?: string;
+  // canvas render caches
+  _hv?: number;                 // hover animation 0..1 (eased)
+  _lines?: string[];            // wrapped title lines (recomputed when r changes)
+  _fs?: number;                 // font size for the wrapped title
+  _grad?: CanvasGradient;       // cached body gradient
+  _gradKey?: string;            // invalidation key (hue|radius) for _grad
 }

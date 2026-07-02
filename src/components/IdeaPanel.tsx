@@ -26,8 +26,11 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
   const [shown, setShown] = useState<Idea | null>(null); // keeps content during slide-out
   const [html, setHtml] = useState("");
   const [loading, setLoading] = useState(false);
+  const [slid, setSlid] = useState(false); // mount the heavy PRD only AFTER the slide, so the
+                                            // marked→innerHTML parse doesn't jank the open animation
   const [copied, setCopied] = useState(false);
   const hideTimer = useRef<number>();
+  const slidTimer = useRef<number>();
   const reqId = useRef(0);
 
   const copyLink = () => {
@@ -44,6 +47,9 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
       if (hideTimer.current) clearTimeout(hideTimer.current);
       setShown(idea);
       setLoading(true);
+      // if the panel is opening fresh, hold the PRD out of the DOM until the slide lands;
+      // if it's already open (switching ideas), mount immediately — no slide to protect.
+      if (!slid) { if (slidTimer.current) clearTimeout(slidTimer.current); slidTimer.current = window.setTimeout(() => setSlid(true), 360); }
       const id = ++reqId.current;
       window.getSelection?.()?.removeAllRanges();
       fetch(`./data/prds/${idea.slug}.md`, { cache: "no-store" })
@@ -55,6 +61,8 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
         })
         .catch(() => { if (reqId.current === id) { setHtml("<p style='color:var(--ink-dim)'>No PRD written yet for this idea.</p>"); setLoading(false); } });
     } else {
+      if (slidTimer.current) clearTimeout(slidTimer.current);
+      setSlid(false);
       hideTimer.current = window.setTimeout(() => setShown(null), 340);
     }
     return () => { if (hideTimer.current) clearTimeout(hideTimer.current); };
@@ -105,7 +113,7 @@ export default function IdeaPanel({ idea, onClose, onToggleTag, activeTags, vote
               </button>
             </div>
           </div>
-          <article id="panel-prd" className="prd" style={{ opacity: loading ? 0 : 1 }} dangerouslySetInnerHTML={{ __html: html }} />
+          <article id="panel-prd" className="prd" style={{ opacity: slid && !loading ? 1 : 0 }} dangerouslySetInnerHTML={{ __html: slid ? html : "" }} />
         </div>
       )}
     </aside>

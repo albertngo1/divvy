@@ -604,14 +604,17 @@ body::before {
   top: 0; right: 0;
   height: 100%;
   width: min(580px, 94vw);
-  background: var(--bg-soft);
-  backdrop-filter: blur(26px);
+  /* Near-opaque instead of a translucent panel + backdrop-filter: a moving element
+     with backdrop-filter forces a full-screen re-blur of the cloud EVERY frame of the
+     slide (measured ~24fps under load). Over the dark cloud this reads the same. */
+  background: rgba(16, 18, 26, 0.97);
   border-left: 1px solid var(--line-strong);
   box-shadow: -40px 0 80px rgba(0,0,0,0.5), inset 4px 0 0 -1px var(--accent);
   z-index: 9;
   overflow: hidden; /* the inner .panel-scroll scrolls; the panel itself stays put */
   transform: translateX(102%);
   transition: transform 0.34s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform; /* promote to its own compositor layer for a cheap GPU slide */
 }
 .panel.open { transform: translateX(0); }
 /* only this inner wrapper scrolls, so the absolute close button below stays pinned */

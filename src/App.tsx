@@ -235,7 +235,7 @@ export default function App() {
 
       <main id="stage">
         <Cloud
-          ref={cloudRef} ideas={ideas} dim={dim} votes={votes} seen={seen}
+          ref={cloudRef} ideas={ideas} dim={dim} votes={votes} seen={seen} paused={!!selected}
           onHover={onHover} onSelect={onSelect} onReady={onReady}
           onCursor={(x, y) => presenceRef.current?.sendCursor(x, y)}
           onView={(x, y, k) => starfieldRef.current?.setView(x, y, k)}

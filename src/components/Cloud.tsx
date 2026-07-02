@@ -7,6 +7,7 @@ interface Props {
   dim: DimPredicate;
   votes: Record<string, number>;
   seen: Set<string>;
+  paused?: boolean; // freeze the render loop while the PRD panel is open
   onHover: (d: Idea | null, y?: number) => void;
   onSelect: (d: Idea) => void;
   onReady: () => void;
@@ -21,10 +22,10 @@ export interface CloudApi {
 }
 
 const Cloud = forwardRef<CloudApi, Props>(function Cloud(
-  { ideas, dim, votes, seen, onHover, onSelect, onReady, onCursor, onView },
+  { ideas, dim, votes, seen, paused, onHover, onSelect, onReady, onCursor, onView },
   ref,
 ) {
-  const svgRef = useRef<SVGSVGElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
   const handleRef = useRef<CloudHandle | null>(null);
 
   useImperativeHandle(ref, () => ({
@@ -34,8 +35,8 @@ const Cloud = forwardRef<CloudApi, Props>(function Cloud(
 
   // (re)build the d3 cloud whenever the idea set changes
   useEffect(() => {
-    if (!ideas.length || !svgRef.current) return;
-    const handle = createCloud(svgRef.current, ideas, { onHover, onSelect, onReady, onCursor, onView });
+    if (!ideas.length || !canvasRef.current) return;
+    const handle = createCloud(canvasRef.current, ideas, { onHover, onSelect, onReady, onCursor, onView });
     handleRef.current = handle;
     handle.setDim(dim);
     handle.setVotes(votes);
@@ -53,7 +54,15 @@ const Cloud = forwardRef<CloudApi, Props>(function Cloud(
   // update the "unseen" pips as you open bubbles
   useEffect(() => { handleRef.current?.setSeen(seen); }, [seen]);
 
-  return <svg id="cloud" ref={svgRef} aria-label="idea cloud" />;
+  // freeze the cloud while a panel is open (pause immediately); on close, resume only
+  // after the slide-out finishes so the wobble doesn't compete with the closing animation
+  useEffect(() => {
+    if (paused) { handleRef.current?.setPaused(true); return; }
+    const id = window.setTimeout(() => handleRef.current?.setPaused(false), 360);
+    return () => clearTimeout(id);
+  }, [paused]);
+
+  return <canvas id="cloud" ref={canvasRef} aria-label="idea cloud" />;
 });
 
 export default Cloud;

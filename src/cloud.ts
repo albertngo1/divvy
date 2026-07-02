@@ -19,6 +19,7 @@ export interface CloudHandle {
   setSeen: (seen: Set<string>) => void; // mark which bubbles this browser has opened
   setPeer: (p: CloudPeer) => void;   // upsert a remote cursor
   removePeer: (id: string) => void;  // peer left
+  setPaused: (v: boolean) => void;   // freeze the render loop (e.g. while the PRD panel is open)
   destroy: () => void;
 }
 
@@ -46,9 +47,10 @@ function radiusFor(score: number, n: number): number {
   return Math.max(15, base * scale);
 }
 
-// fit the title inside the circle
-function fitText(el: SVGTextElement, d: Node) {
-  const t = d3.select(el);
+// ---- canvas text: wrap a title to fit inside its circle, pick a font size. Mirrors the
+// old SVG fitText but measures with the 2D context. Result cached on the node (keyed by r). ----
+const BUBBLE_FONT = '600 %FSpx "Inter", system-ui, -apple-system, sans-serif';
+function fitLines(ctx: CanvasRenderingContext2D, d: Node): { lines: string[]; fs: number } {
   const r = d.r;
   const words = String(d.title).split(/\s+/);
   const maxLines = r < 46 ? 2 : r < 72 ? 3 : 4;
@@ -57,38 +59,44 @@ function fitText(el: SVGTextElement, d: Node) {
   let fs = Math.min(16, Math.max(9, r * 0.29));
   let lines: string[] = [];
   while (true) {
-    const maxChars = Math.max(3, Math.floor(padW / (fs * 0.6)));
+    ctx.font = BUBBLE_FONT.replace("%FS", fs.toFixed(1));
     lines = [];
     let cur = "";
     for (const w of words) {
-      if (cur && (cur + " " + w).length > maxChars) { lines.push(cur); cur = w; }
-      else cur = cur ? cur + " " + w : w;
+      const trial = cur ? cur + " " + w : w;
+      if (cur && ctx.measureText(trial).width > padW) { lines.push(cur); cur = w; }
+      else cur = trial;
     }
     if (cur) lines.push(cur);
     const lineH = fs * 1.08;
     if ((lines.length <= maxLines && lines.length * lineH <= padH) || fs <= 8.5) {
       if (lines.length > maxLines) {
         const kept = lines.slice(0, maxLines);
-        kept[maxLines - 1] = kept[maxLines - 1].slice(0, Math.max(1, maxChars - 1)) + "…";
+        let last = kept[maxLines - 1];
+        while (last.length > 1 && ctx.measureText(last + "…").width > padW) last = last.slice(0, -1);
+        kept[maxLines - 1] = last + "…";
         lines = kept;
       }
       break;
     }
     fs -= 1;
   }
-  const lineH = fs * 1.08;
-  t.text(null);
-  const y0 = -((lines.length - 1) * lineH) / 2;
-  lines.forEach((ln, i) => {
-    t.append("tspan").attr("x", 0).attr("y", y0 + i * lineH).attr("font-size", fs.toFixed(1)).text(ln);
-  });
+  return { lines, fs };
 }
 
-export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: CloudHandlers): CloudHandle {
+export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers: CloudHandlers): CloudHandle {
   let width = window.innerWidth;
   let height = window.innerHeight;
-  const svg = d3.select(svgEl);
-  svg.selectAll("*").remove();
+  const ctx = canvasEl.getContext("2d")!;
+  let dpr = Math.min(2, window.devicePixelRatio || 1);
+  function sizeCanvas() {
+    dpr = Math.min(2, window.devicePixelRatio || 1);
+    canvasEl.width = Math.round(width * dpr);
+    canvasEl.height = Math.round(height * dpr);
+    canvasEl.style.width = width + "px";
+    canvasEl.style.height = height + "px";
+  }
+  sizeCanvas();
 
   // seed a spread sunflower layout so the initial settle only refines spacing
   const nodes: Node[] = ideas.map((d, i) => {
@@ -132,9 +140,6 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   // Give each galaxy a packing radius from its members, then lay the galaxies out as
   // NON-OVERLAPPING blobs via a mini force-sim on the cluster centers — so the clusters
   // read as separate islands with whitespace between, not one continuous ring.
-  // Each galaxy is a big central "sun", an empty GAP, then a ring/band of orbiting ideas
-  // (Saturn-style). Size the sun by member count, leave the gap, and give the cluster an
-  // outer radius that holds the ideas' packed area in the annulus beyond the gap.
   const GAP = 52; // empty space between a sun's edge and the innermost ideas (the "ring gap")
   const gmembers: Record<string, Node[]> = {};
   nodes.forEach((d) => (gmembers[d.galaxy!] = gmembers[d.galaxy!] || []).push(d));
@@ -175,40 +180,8 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     d.x = p.x + rr * Math.cos(a); d.y = p.y + rr * Math.sin(a);
   });
 
-  // gradient + glow defs, one per node (score-hued)
-  const defs = svg.append("defs");
-  const neb = defs.append("radialGradient").attr("id", "nebula-grad").attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
-  neb.append("stop").attr("offset", "0%").attr("stop-color", "rgba(130,150,255,0.10)");
-  neb.append("stop").attr("offset", "68%").attr("stop-color", "rgba(120,140,255,0.035)");
-  neb.append("stop").attr("offset", "100%").attr("stop-color", "rgba(120,140,255,0)");
-  const sunGlow = defs.append("radialGradient").attr("id", "sun-grad").attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
-  sunGlow.append("stop").attr("offset", "0%").attr("stop-color", "rgba(255,247,224,0.85)");
-  sunGlow.append("stop").attr("offset", "45%").attr("stop-color", "rgba(255,222,158,0.4)");
-  sunGlow.append("stop").attr("offset", "100%").attr("stop-color", "rgba(255,205,130,0)");
-  // the sun's solid "bubble" body (warm, with a defined edge) — distinct from the cool ideas
-  const sunBody = defs.append("radialGradient").attr("id", "sun-body-grad").attr("cx", "0.38").attr("cy", "0.33").attr("r", "0.75");
-  sunBody.append("stop").attr("offset", "0%").attr("stop-color", "rgba(255,250,236,0.96)");
-  sunBody.append("stop").attr("offset", "55%").attr("stop-color", "rgba(255,223,150,0.5)");
-  sunBody.append("stop").attr("offset", "100%").attr("stop-color", "rgba(250,198,120,0.22)");
-  // per-node body gradient + glow; their stop colors are recolored live by paint()
-  const GRAD_STOPS = [{ o: "0%", a: 0.5 }, { o: "55%", a: 0.16 }, { o: "100%", a: 0.05 }];
-  const GLOW_STOPS = [{ o: "0%", a: 0.4 }, { o: "62%", a: 0.1 }, { o: "100%", a: 0 }];
-  type StopSel = d3.Selection<SVGStopElement, unknown, SVGRadialGradientElement, unknown>;
-  const gradStops = new Map<string, StopSel>();
-  const glowStops = new Map<string, StopSel>();
-  nodes.forEach((d) => {
-    const grad = defs.append("radialGradient").attr("id", `grad-${d.slug}`).attr("cx", "0.35").attr("cy", "0.3").attr("r", "0.85");
-    GRAD_STOPS.forEach((s) => grad.append("stop").attr("offset", s.o));
-    const glow = defs.append("radialGradient").attr("id", `glow-${d.slug}`).attr("cx", "0.5").attr("cy", "0.5").attr("r", "0.5");
-    GLOW_STOPS.forEach((s) => glow.append("stop").attr("offset", s.o));
-    gradStops.set(d.slug, grad.selectAll<SVGStopElement, unknown>("stop"));
-    glowStops.set(d.slug, glow.selectAll<SVGStopElement, unknown>("stop"));
-  });
-
   // Each idea orbits its galaxy's sun: a firm outward floor keeps the whole bubble beyond
-  // the gap (so the center stays empty), and a gentle pull hugs it toward the ring band
-  // (so the cluster stays compact and doesn't drift into its neighbours). No center pull —
-  // that was collapsing the gap by dragging bubbles onto the sun.
+  // the gap (so the center stays empty), and a gentle pull hugs it toward the ring band.
   const orbit = (alpha: number) => {
     for (const d of nodes) {
       const c = gpos[d.galaxy!];
@@ -231,46 +204,36 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
   const sim = d3.forceSimulation<Node>(nodes)
     .force("collide", d3.forceCollide<Node>().radius((d) => d.r + 3).strength(1).iterations(4))
     .force("orbit", orbit)
-    .alphaDecay(0.03);
+    .alphaDecay(0.03)
+    .on("tick", () => wake());
 
-  const viewport = svg.append("g").attr("class", "viewport");
-  const galaxyG = viewport.append("g").attr("class", "galaxies"); // nebula discs, backmost
-  const linkG = viewport.append("g").attr("class", "links");
-  const sunG = viewport.append("g").attr("class", "suns"); // stars sit above links, below ideas
+  // ---- view transform (pan/zoom). d3-zoom owns it on the canvas element; we read it back. ----
+  let transform = d3.zoomIdentity;
 
-  const g = viewport.selectAll<SVGGElement, Node>("g.bubble")
-    .data(nodes, (d) => d.slug)
-    .join("g")
-    .attr("class", "bubble")
-    .on("click", (_e, d) => handlers.onSelect(d))
-    .on("mouseenter", (e: MouseEvent, d) => handlers.onHover(d, e.clientY))
-    .on("mouseleave", () => handlers.onHover(null));
+  // ---- animation-loop state (declared early: paint()/tick call wake() during setup) ----
+  const IDLE_MS = 4000;   // freeze the wobble after this long with no interaction
+  const FRAME_MS = 30;    // ~33fps cap for the ambient redraw
+  let raf = 0;
+  let running = false;
+  let paused = false;   // panel open etc. — stop the loop, freeing the main thread
+  let lastFrame = 0;
+  let lastActivity = performance.now();
+  function wake() {
+    if (paused) return; // frozen: ignore wobble/interaction wake-ups until resumed
+    lastActivity = performance.now();
+    if (!running) { running = true; raf = requestAnimationFrame(frame); }
+  }
 
-  g.append("circle").attr("class", "halo").attr("r", (d) => d.r * 1.5)
-    .attr("fill", (d) => `url(#glow-${d.slug})`).style("pointer-events", "none");
-  g.append("circle").attr("class", "body").attr("r", (d) => d.r)
-    .attr("fill", (d) => `url(#grad-${d.slug})`)
-    .attr("stroke", (d) => colorAlpha(d, 0.85)).attr("stroke-width", 1.4);
-  g.append("text").each(function (this: SVGTextElement, d) { fitText(this, d); });
-  // "unseen" pip (top-right); hidden once the bubble is marked seen
-  g.append("circle").attr("class", "newpip").attr("r", 4)
-    .attr("cx", (d) => d.r * 0.72).attr("cy", (d) => -d.r * 0.72).style("pointer-events", "none");
-
-  // recolor every bubble from its "heat" (AI score + weighted upvotes), spread by
-  // percentile rank so the spectrum is fully used. Cheap enough to re-run on each vote.
+  // ---- heat coloring: recompute each node's hue + rank fraction from AI score + votes ----
   let curVotes: Record<string, number> = {};
   function paint() {
     const scoreOf = (n: Node) => (Number.isFinite(n.score) ? n.score : 50);
-    // single pass (spreading a huge array into Math.min/max would blow the arg limit as the cloud grows)
     let minS = Infinity, maxS = -Infinity;
     for (const n of nodes) {
       const s = scoreOf(n);
       if (s < minS) minS = s;
       if (s > maxS) maxS = s;
     }
-    // heat = normalized AI score (0-1) + a big absolute bump per upvote. With only a
-    // handful of voters, each vote outweighs the whole score range, so ANY upvoted idea
-    // jumps to the hot end of the spectrum — votes clearly dominate.
     const heat = new Map<string, number>();
     nodes.forEach((n) => {
       const ns = maxS > minS ? (scoreOf(n) - minS) / (maxS - minS) : 0.5;
@@ -279,125 +242,123 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     const order = [...nodes].sort((a, b) => heat.get(a.slug)! - heat.get(b.slug)!);
     const last = Math.max(1, order.length - 1);
     order.forEach((n, i) => { n._hue = HUE_LOW - (i / last) * (HUE_LOW - HUE_HIGH); n._p = i / last; });
-    nodes.forEach((n) => {
-      const h = n._hue!;
-      const p = n._p ?? 0.5;
-      const shine = 0.82 + 0.55 * p; // subtle: hotter ideas glow a little brighter to catch the eye
-      hueBySlug.set(n.slug, h);
-      gradStops.get(n.slug)!.each(function (_d, i) { d3.select(this).attr("stop-color", `hsla(${h},74%,62%,${GRAD_STOPS[i].a})`); });
-      glowStops.get(n.slug)!.each(function (_d, i) { d3.select(this).attr("stop-color", `hsla(${h},76%,64%,${(GLOW_STOPS[i].a * shine).toFixed(3)})`); });
-    });
-    g.selectAll<SVGCircleElement, Node>("circle.halo").attr("r", (n) => n.r * (1.4 + (n._p ?? 0.5) * 0.5));
-    g.selectAll<SVGCircleElement, Node>("circle.body").attr("stroke", (n) => `hsla(${n._hue},74%,62%,${(0.7 + 0.3 * (n._p ?? 0.5)).toFixed(2)})`);
+    nodes.forEach((n) => { hueBySlug.set(n.slug, n._hue!); n._gradKey = undefined; }); // invalidate cached gradients
+    wake();
   }
 
-  // upvotes visibly grow the bubble too (+16% radius each, capped) — high impact for a few voters
+  // upvotes visibly grow the bubble too (+16% radius each, capped)
   const VOTE_SIZE = 0.16;
   function resize() {
     let changed = false;
     for (const n of nodes) {
-      const v = Math.max(-4, Math.min(8, curVotes[n.slug] || 0)); // downvotes shrink, upvotes grow
+      const v = Math.max(-4, Math.min(8, curVotes[n.slug] || 0));
       const nr = n._baseR! * Math.max(0.55, 1 + VOTE_SIZE * v);
-      if (Math.abs(nr - n.r) > 0.5) { n.r = nr; changed = true; }
+      if (Math.abs(nr - n.r) > 0.5) { n.r = nr; changed = true; n._lines = undefined; n._gradKey = undefined; }
     }
-    if (!changed) return;
-    g.select<SVGCircleElement>("circle.halo").attr("r", (d) => d.r * 1.5);
-    g.select<SVGCircleElement>("circle.body").attr("r", (d) => d.r);
-    g.select<SVGCircleElement>("circle.newpip").attr("cx", (d) => d.r * 0.72).attr("cy", (d) => -d.r * 0.72);
-    g.select<SVGTextElement>("text").each(function (this: SVGTextElement, d) { fitText(this, d); });
-    sim.alpha(0.4).restart(); // let collide re-space around the grown bubbles
+    if (changed) sim.alpha(0.4).restart();
   }
   paint();
 
-  const drag = d3.drag<SVGGElement, Node>()
-    .clickDistance(12)
-    .on("start", (event, d) => { if (event.sourceEvent) event.sourceEvent.stopPropagation(); d.fx = d.x; d.fy = d.y; })
-    .on("drag", (event, d) => { sim.alphaTarget(0.35).restart(); d.fx = event.x; d.fy = event.y; })
-    .on("end", () => { sim.alphaTarget(0).alpha(0.35).restart(); });
-  g.call(drag);
-
-  // --- live cursors overlay (topmost, drawn in world coords so they track pan/zoom) ---
-  interface Peer { id: string; name: string; color: string; x: number; y: number; }
-  const cursorsG = viewport.append("g").attr("class", "cursors").style("pointer-events", "none");
-  const peerMap = new Map<string, Peer>();
-  const CURSOR_PATH = "M0 0 L0 15 L4 11.5 L6.6 17.2 L8.7 16.2 L6.1 10.6 L11 10.4 Z";
-  function renderCursors() {
-    const k = d3.zoomTransform(svgEl).k || 1;
-    const sel = cursorsG.selectAll<SVGGElement, Peer>("g.cursor").data([...peerMap.values()], (d) => d.id);
-    const ent = sel.enter().append("g").attr("class", "cursor");
-    ent.append("path").attr("class", "cursor-arrow").attr("d", CURSOR_PATH);
-    ent.append("text").attr("class", "cursor-name").attr("x", 14).attr("y", 13);
-    sel.exit().remove();
-    const all = ent.merge(sel);
-    all.attr("transform", (d) => `translate(${d.x},${d.y}) scale(${1 / k})`); // constant on-screen size
-    all.select<SVGPathElement>(".cursor-arrow").attr("fill", (d) => d.color);
-    all.select<SVGTextElement>(".cursor-name").attr("fill", (d) => d.color).text((d) => d.name);
-  }
-
-  const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.02, 4])
-    .on("zoom", (event) => {
-      viewport.attr("transform", event.transform.toString());
-      renderCursors();
-      handlers.onView?.(event.transform.x, event.transform.y, event.transform.k);
-    });
-  svg.call(zoom).on("dblclick.zoom", null);
-
-  // stream this browser's cursor (in world coords) to peers, throttled
-  let lastCursor = 0;
-  svg.on("mousemove.cursor", (event: MouseEvent) => {
-    if (!handlers.onCursor) return;
-    const now = event.timeStamp;
-    if (now - lastCursor < 45) return;
-    lastCursor = now;
-    const [lx, ly] = d3.pointer(event, svgEl);
-    const [wx, wy] = d3.zoomTransform(svgEl).invert([lx, ly]);
-    handlers.onCursor(wx, wy);
-  });
-
-  // pre-settle synchronously
-  sim.stop();
-  for (let i = 0; i < 360; i++) sim.tick();
-
-  // fit the settled cloud into view
-  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-  nodes.forEach((d) => {
-    minX = Math.min(minX, d.x - d.r); maxX = Math.max(maxX, d.x + d.r);
-    minY = Math.min(minY, d.y - d.r); maxY = Math.max(maxY, d.y + d.r);
-  });
-  const pad = width < 640 ? 24 : 80;
-  const k = Math.max(0.15, Math.min(1, (width - pad) / (maxX - minX), (height - pad) / (maxY - minY)));
-  const tx = width / 2 - (k * (minX + maxX)) / 2;
-  const ty = height / 2 - (k * (minY + maxY)) / 2;
-  svg.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
-
-  // faint nebula disc behind each galaxy so the clusters read at a glance
-  galaxyG.selectAll("circle.nebula").data(galaxyKeys).join("circle")
-    .attr("class", "nebula")
-    .attr("cx", (gk) => gpos[gk].x).attr("cy", (gk) => gpos[gk].y)
-    .attr("r", (gk) => clusterR[gk] * 0.94)
-    .attr("fill", "url(#nebula-grad)")
-    .style("pointer-events", "none");
-
-  // each galaxy's "sun": a big uninteractable bubble the ideas ring around, naming its domain
-  const suns = sunG.selectAll<SVGGElement, string>("g.sun").data(galaxyKeys).join("g")
-    .attr("class", "sun")
-    .attr("transform", (gk) => `translate(${gpos[gk].x},${gpos[gk].y})`)
-    .style("pointer-events", "none");
-  suns.append("circle").attr("class", "sun-halo").attr("r", (gk) => sunR[gk] * 1.5).attr("fill", "url(#sun-grad)");
-  suns.append("circle").attr("class", "sun-body").attr("r", (gk) => sunR[gk]).attr("fill", "url(#sun-body-grad)");
-  suns.append("text").attr("class", "sun-label").attr("text-anchor", "middle").attr("dy", "0.32em").text((gk) => gk);
-
-  // a faint spoke from each idea to its galaxy's sun — rays toward the domain, never across
-  // galaxies. The inner end tucks behind the sun (linkG sits below sunG), so it reads as a ray.
-  const linkSel = linkG.selectAll<SVGLineElement, Node>("line").data(nodes, (d) => d.slug).join("line").attr("class", "link");
-
+  // ---- hit-testing (replaces per-element SVG events). Reverse scan so the topmost
+  // (last-drawn) bubble wins; dimmed & tiny bubbles are non-interactive. ----
   let dimPred: DimPredicate = () => false;
-  function applyDim() {
-    g.classed("dim", (d) => dimPred(d));
-    linkSel.style("opacity", (d) => (dimPred(d) ? 0.1 : 1));
+  function hitTest(wx: number, wy: number): Node | null {
+    for (let i = nodes.length - 1; i >= 0; i--) {
+      const d = nodes[i];
+      if (dimPred(d)) continue;
+      const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
+      const dx = wx - rx, dy = wy - ry;
+      if (dx * dx + dy * dy <= d.r * d.r) return d;
+    }
+    return null;
   }
+  const worldFromEvent = (ev: { clientX: number; clientY: number }) => {
+    const rect = canvasEl.getBoundingClientRect();
+    return transform.invert([ev.clientX - rect.left, ev.clientY - rect.top]);
+  };
 
-  // WASD / arrow keys pan the viewport (each vector nudges the camera; applied per frame)
+  // ---- zoom (pan + wheel). Coexists with node-drag: pan only fires on empty space. ----
+  const zoom = d3.zoom<HTMLCanvasElement, unknown>()
+    .scaleExtent([0.02, 4])
+    .filter((event: any) => {
+      if (event.type === "wheel") return !event.ctrlKey; // wheel always zooms
+      if (event.button) return false;
+      const [wx, wy] = worldFromEvent(event.touches ? event.touches[0] : event);
+      return !hitTest(wx, wy); // pan only when NOT on a bubble (bubbles are dragged instead)
+    })
+    .on("zoom", (event) => {
+      transform = event.transform;
+      handlers.onView?.(transform.x, transform.y, transform.k);
+      wake();
+    });
+  const canvas = d3.select(canvasEl);
+  canvas.call(zoom).on("dblclick.zoom", null);
+
+  // ---- node drag: subject returns the bubble under the pointer (in screen coords so
+  // d3-drag's event.x/y stay in screen space); we invert to world to pin fx/fy. ----
+  const drag = d3.drag<HTMLCanvasElement, unknown>()
+    .clickDistance(12)
+    .subject((event) => {
+      const [wx, wy] = worldFromEvent(event.sourceEvent);
+      const n = hitTest(wx, wy);
+      if (!n) return null as any;
+      const [sx, sy] = transform.apply([n._rx ?? n.x, n._ry ?? n.y]);
+      return { node: n, x: sx, y: sy };
+    })
+    .on("start", (event) => {
+      const n = (event.subject as any).node as Node;
+      n.fx = n.x; n.fy = n.y;
+      wake();
+    })
+    .on("drag", (event) => {
+      const n = (event.subject as any).node as Node;
+      const [wx, wy] = transform.invert([event.x, event.y]);
+      sim.alphaTarget(0.35).restart();
+      n.fx = wx; n.fy = wy;
+      wake();
+    })
+    .on("end", (event) => {
+      const n = (event.subject as any).node as Node;
+      // pin the bubble where it was dropped (matches the old behavior: no snap-back)
+      n.fx = n.x; n.fy = n.y;
+      sim.alphaTarget(0).alpha(0.35).restart();
+      wake();
+    });
+  canvas.call(drag);
+
+  // click → select (d3-drag suppresses this when the pointer moved past clickDistance)
+  canvasEl.addEventListener("click", (ev) => {
+    const [wx, wy] = worldFromEvent(ev);
+    const n = hitTest(wx, wy);
+    if (n) handlers.onSelect(n);
+  });
+
+  // ---- hover + local cursor streaming ----
+  let hovered: Node | null = null;
+  let lastCursor = 0;
+  canvasEl.addEventListener("mousemove", (ev) => {
+    wake();
+    const [wx, wy] = worldFromEvent(ev);
+    const n = hitTest(wx, wy);
+    if (n !== hovered) {
+      hovered = n;
+      handlers.onHover(n ? n : null, ev.clientY);
+      canvasEl.style.cursor = n ? "pointer" : "";
+    }
+    if (handlers.onCursor && ev.timeStamp - lastCursor > 45) {
+      lastCursor = ev.timeStamp;
+      handlers.onCursor(wx, wy);
+    }
+  });
+  canvasEl.addEventListener("mouseleave", () => {
+    if (hovered) { hovered = null; handlers.onHover(null); }
+  });
+
+  // ---- live peer cursors ----
+  const peerMap = new Map<string, CloudPeer>();
+  const CURSOR_PATH = new Path2D("M0 0 L0 15 L4 11.5 L6.6 17.2 L8.7 16.2 L6.1 10.6 L11 10.4 Z");
+
+  // ---- WASD / arrow-key panning ----
   const panKeys = new Set<string>();
   const PAN_MAP: Record<string, [number, number]> = {
     arrowup: [0, 1], w: [0, 1], arrowdown: [0, -1], s: [0, -1],
@@ -413,94 +374,299 @@ export function createCloud(svgEl: SVGSVGElement, ideas: Idea[], handlers: Cloud
     if (!PAN_MAP[k]) return;
     e.preventDefault();
     panKeys.add(k);
+    wake();
   };
   const onKeyUp = (e: KeyboardEvent) => { panKeys.delete(e.key.toLowerCase()); };
   window.addEventListener("keydown", onKeyDown);
   window.addEventListener("keyup", onKeyUp);
 
-  // The static (sun) end of each spoke never moves — set it once, not every frame.
-  linkSel.attr("x2", (d) => gpos[d.galaxy!].x).attr("y2", (d) => gpos[d.galaxy!].y);
-  // Cache raw DOM nodes (parallel to `nodes`) so the hot loop bypasses d3's per-element
-  // machinery, and place everything once so culled/offscreen bubbles still sit correctly.
-  const gEls = g.nodes();
-  const lineEls = linkSel.nodes();
-  for (let i = 0; i < nodes.length; i++) {
-    const d = nodes[i];
-    d._rx = d.x; d._ry = d.y;
-    gEls[i].setAttribute("transform", `translate(${d.x},${d.y})`);
-    lineEls[i].setAttribute("x1", `${d.x}`); lineEls[i].setAttribute("y1", `${d.y}`);
+  // pre-settle synchronously, then freeze the sim (drag/vote reheat it)
+  sim.stop();
+  for (let i = 0; i < 360; i++) sim.tick();
+  nodes.forEach((d) => { d._rx = d.x; d._ry = d.y; });
+
+  // fit the settled cloud into view
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  nodes.forEach((d) => {
+    minX = Math.min(minX, d.x - d.r); maxX = Math.max(maxX, d.x + d.r);
+    minY = Math.min(minY, d.y - d.r); maxY = Math.max(maxY, d.y + d.r);
+  });
+  const pad = width < 640 ? 24 : 80;
+  const fitK = Math.max(0.15, Math.min(1, (width - pad) / (maxX - minX), (height - pad) / (maxY - minY)));
+  const tx = width / 2 - (fitK * (minX + maxX)) / 2;
+  const ty = height / 2 - (fitK * (minY + maxY)) / 2;
+  canvas.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(fitK));
+
+  let seenSet = new Set<string>();
+
+  // ---- rendering ----
+  // On phones / coarse pointers OR very large clouds, drop the continuous ambient wobble
+  // (the main per-frame cost). Elsewhere it plays until the cloud goes idle.
+  const reduceMotion = window.matchMedia?.("(pointer: coarse)")?.matches
+    || window.innerWidth <= 640 || nodes.length > 600;
+
+  function bodyGradient(n: Node): CanvasGradient {
+    const key = `${Math.round(n._hue ?? 0)}|${Math.round(n.r)}`;
+    if (n._gradKey === key && n._grad) return n._grad;
+    const r = n.r, h = n._hue ?? 200;
+    const g = ctx.createRadialGradient(-r * 0.15, -r * 0.2, r * 0.06, 0, 0, r * 1.05);
+    g.addColorStop(0, `hsla(${h},74%,62%,0.5)`);
+    g.addColorStop(0.55, `hsla(${h},74%,62%,0.16)`);
+    g.addColorStop(1, `hsla(${h},74%,62%,0.05)`);
+    n._grad = g; n._gradKey = key;
+    return g;
   }
 
-  // On phones / coarse pointers, skip the continuous ambient wobble (it's the main per-frame
-  // cost). There we only redraw while the sim is actively moving (drag/settle) or panning.
-  const reduceMotion = window.matchMedia?.("(pointer: coarse)")?.matches || window.innerWidth <= 640;
+  function draw(t: number) {
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, width, height);
+    ctx.translate(transform.x, transform.y);
+    ctx.scale(transform.k, transform.k);
+    const k = transform.k;
 
-  let raf = 0;
-  let lastWobble = 0;
-  function floatFrame(ts: number) {
-    // pan every frame so key-held panning stays smooth
+    // viewport bounds in world coords (for culling)
+    const [vx0, vy0] = transform.invert([0, 0]);
+    const [vx1, vy1] = transform.invert([width, height]);
+    const cullPad = 120 / k;
+    const cMinX = vx0 - cullPad, cMinY = vy0 - cullPad, cMaxX = vx1 + cullPad, cMaxY = vy1 + cullPad;
+
+    // 1) nebula discs behind each galaxy
+    for (const gk of galaxyKeys) {
+      const p = gpos[gk], R = clusterR[gk] * 0.94;
+      const g = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, R);
+      g.addColorStop(0, "rgba(130,150,255,0.10)");
+      g.addColorStop(0.68, "rgba(120,140,255,0.035)");
+      g.addColorStop(1, "rgba(120,140,255,0)");
+      ctx.fillStyle = g;
+      ctx.beginPath(); ctx.arc(p.x, p.y, R, 0, 2 * Math.PI); ctx.fill();
+    }
+
+    // 2) rays from each idea to its galaxy sun (skip when dimmed / far offscreen)
+    ctx.lineWidth = 1.1;
+    for (const d of nodes) {
+      const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
+      if (rx < cMinX || rx > cMaxX || ry < cMinY || ry > cMaxY) continue;
+      const c = gpos[d.galaxy!];
+      ctx.strokeStyle = dimPred(d) ? "rgba(198,214,255,0.05)" : "rgba(198,214,255,0.32)";
+      ctx.beginPath(); ctx.moveTo(rx, ry); ctx.lineTo(c.x, c.y); ctx.stroke();
+    }
+
+    // 3) galaxy suns (glow + warm body + label)
+    for (const gk of galaxyKeys) {
+      const p = gpos[gk], R = sunR[gk];
+      const glow = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, R * 1.5);
+      glow.addColorStop(0, "rgba(255,247,224,0.85)");
+      glow.addColorStop(0.45, "rgba(255,222,158,0.4)");
+      glow.addColorStop(1, "rgba(255,205,130,0)");
+      ctx.fillStyle = glow;
+      ctx.beginPath(); ctx.arc(p.x, p.y, R * 1.5, 0, 2 * Math.PI); ctx.fill();
+      const body = ctx.createRadialGradient(p.x - R * 0.24, p.y - R * 0.34, R * 0.05, p.x, p.y, R);
+      body.addColorStop(0, "rgba(255,250,236,0.96)");
+      body.addColorStop(0.55, "rgba(255,223,150,0.5)");
+      body.addColorStop(1, "rgba(250,198,120,0.22)");
+      ctx.fillStyle = body;
+      ctx.beginPath(); ctx.arc(p.x, p.y, R, 0, 2 * Math.PI); ctx.fill();
+      ctx.lineWidth = 1.4; ctx.strokeStyle = "rgba(255,224,150,0.55)"; ctx.stroke();
+      if (k > 0.12) {
+        ctx.font = '700 17px "Fraunces", serif';
+        ctx.textAlign = "center"; ctx.textBaseline = "middle";
+        ctx.lineWidth = 4.5; ctx.strokeStyle = "rgba(46,26,4,0.9)";
+        ctx.strokeText(gk.toUpperCase(), p.x, p.y);
+        ctx.fillStyle = "rgba(255,252,245,0.98)";
+        ctx.fillText(gk.toUpperCase(), p.x, p.y);
+      }
+    }
+
+    // 4) idea bubbles
+    ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    for (const d of nodes) {
+      const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
+      if (rx < cMinX || rx > cMaxX || ry < cMinY || ry > cMaxY) continue;
+      const dim = dimPred(d);
+      const hv = d._hv ?? 0;                 // hover animation 0..1
+      const er = d.r * k;                    // effective on-screen radius (LOD gate)
+      const alpha = dim ? 0.06 : 1;
+      ctx.globalAlpha = alpha;
+      const h = d._hue ?? 200;
+      const p = d._p ?? 0.5;
+
+      // tiny at this zoom → cheap flat dot, no gradient/halo/text
+      if (er < 5) {
+        ctx.globalAlpha = alpha * 0.9;
+        ctx.fillStyle = `hsl(${h},74%,60%)`;
+        ctx.beginPath(); ctx.arc(rx, ry, d.r, 0, 2 * Math.PI); ctx.fill();
+        ctx.globalAlpha = 1;
+        continue;
+      }
+
+      ctx.save();
+      ctx.translate(rx, ry);
+
+      // halo glow (skip at low zoom); grows on hover
+      if (er > 12 && !dim) {
+        const hr = d.r * (1.4 + p * 0.5) * (1 + 0.16 * hv);
+        const glow = ctx.createRadialGradient(0, 0, 0, 0, 0, hr);
+        const shine = 0.82 + 0.55 * p;
+        glow.addColorStop(0, `hsla(${h},76%,64%,${(0.4 * shine * (0.85 + 0.4 * hv)).toFixed(3)})`);
+        glow.addColorStop(0.62, `hsla(${h},76%,64%,${(0.1 * shine).toFixed(3)})`);
+        glow.addColorStop(1, `hsla(${h},76%,64%,0)`);
+        ctx.fillStyle = glow;
+        ctx.beginPath(); ctx.arc(0, 0, hr, 0, 2 * Math.PI); ctx.fill();
+      }
+
+      // body (glassy gradient + bright stroke ring), spring-scaled on hover
+      const bodyScale = 1 + 0.075 * hv;
+      ctx.save();
+      ctx.scale(bodyScale, bodyScale);
+      ctx.fillStyle = bodyGradient(d);
+      ctx.beginPath(); ctx.arc(0, 0, d.r, 0, 2 * Math.PI); ctx.fill();
+      ctx.lineWidth = (1.4 + 0.8 * hv);
+      ctx.strokeStyle = `hsla(${h},74%,62%,${(0.7 + 0.3 * p).toFixed(2)})`;
+      ctx.stroke();
+      ctx.restore();
+
+      // title (skip when too small to read)
+      if (er > 15 && !dim) {
+        if (!d._lines) { const fit = fitLines(ctx, d); d._lines = fit.lines; d._fs = fit.fs; }
+        const fs = d._fs!, lineH = fs * 1.08;
+        ctx.font = BUBBLE_FONT.replace("%FS", fs.toFixed(1));
+        ctx.fillStyle = "#fff";
+        ctx.shadowColor = "rgba(0,0,0,0.55)"; ctx.shadowBlur = 6; ctx.shadowOffsetY = 1;
+        const y0 = -((d._lines.length - 1) * lineH) / 2;
+        d._lines.forEach((ln, i) => ctx.fillText(ln, 0, y0 + i * lineH));
+        ctx.shadowColor = "transparent"; ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
+      }
+
+      // "unseen" pip
+      if (er > 12 && !dim && !seenSet.has(d.slug)) {
+        ctx.fillStyle = "#ffd166";
+        ctx.shadowColor = "rgba(255,209,102,0.9)"; ctx.shadowBlur = 3;
+        ctx.beginPath(); ctx.arc(d.r * 0.72, -d.r * 0.72, 4, 0, 2 * Math.PI); ctx.fill();
+        ctx.shadowColor = "transparent"; ctx.shadowBlur = 0;
+      }
+
+      ctx.restore();
+      ctx.globalAlpha = 1;
+    }
+
+    // 5) peer cursors (constant on-screen size)
+    if (peerMap.size) {
+      for (const peer of peerMap.values()) {
+        ctx.save();
+        ctx.translate(peer.x, peer.y);
+        ctx.scale(1 / k, 1 / k);
+        ctx.fillStyle = peer.color || "#8ab4ff";
+        ctx.lineWidth = 1; ctx.strokeStyle = "rgba(4,5,10,0.6)";
+        ctx.fill(CURSOR_PATH); ctx.stroke(CURSOR_PATH);
+        if (peer.name) {
+          ctx.font = '600 12px "Inter", system-ui, sans-serif';
+          ctx.textAlign = "left"; ctx.textBaseline = "alphabetic";
+          ctx.lineWidth = 3; ctx.strokeStyle = "rgba(4,5,10,0.82)";
+          ctx.strokeText(peer.name, 14, 13);
+          ctx.fillStyle = peer.color || "#8ab4ff";
+          ctx.fillText(peer.name, 14, 13);
+        }
+        ctx.restore();
+      }
+    }
+  }
+
+  // ---- animation loop: pan, wobble, hover ease, idle-stop ----
+  function frame(ts: number) {
+    if (paused) { running = false; return; } // frozen — resume() calls wake() to restart
+    // key-held panning (every frame for smoothness)
     if (panKeys.size) {
       let dx = 0, dy = 0;
-      panKeys.forEach((k) => { dx += PAN_MAP[k][0]; dy += PAN_MAP[k][1]; });
+      panKeys.forEach((key) => { dx += PAN_MAP[key][0]; dy += PAN_MAP[key][1]; });
       if (dx || dy) {
-        const step = 7 / d3.zoomTransform(svgEl).k; // constant on-screen speed at any zoom
-        svg.call(zoom.translateBy, dx * step, dy * step);
+        const step = 7 / transform.k;
+        canvas.call(zoom.translateBy, dx * step, dy * step);
       }
     }
-    // draw at ~33fps, viewport-culled. On reduced-motion, only when something's actually moving.
-    const shouldDraw = !reduceMotion || sim.alpha() > 0.02 || panKeys.size > 0;
-    if (shouldDraw && ts - lastWobble >= 30) {
-      lastWobble = ts;
-      const t = ts / 1000;
-      const tf = d3.zoomTransform(svgEl);
-      const pad = 90 / tf.k;
-      const [vx0, vy0] = tf.invert([0, 0]);
-      const [vx1, vy1] = tf.invert([width, height]);
-      const minX = vx0 - pad, minY = vy0 - pad, maxX = vx1 + pad, maxY = vy1 + pad;
-      for (let i = 0; i < nodes.length; i++) {
-        const d = nodes[i];
-        if (d.x < minX || d.x > maxX || d.y < minY || d.y > maxY) continue; // offscreen → skip
-        let rx = d.x, ry = d.y;
-        if (!reduceMotion) {
+
+    // ease hover scale toward its target; note if anything is still animating
+    let hoverAnimating = false;
+    for (const d of nodes) {
+      const target = d === hovered ? 1 : 0;
+      const cur = d._hv ?? 0;
+      if (Math.abs(cur - target) > 0.005) {
+        d._hv = cur + (target - cur) * 0.25;
+        hoverAnimating = true;
+      } else d._hv = target;
+    }
+
+    const idle = ts - lastActivity > IDLE_MS;
+    const wobbleOn = !reduceMotion && !idle && transform.k > 0.08;
+    const simActive = sim.alpha() > 0.005;
+
+    if (ts - lastFrame >= FRAME_MS) {
+      lastFrame = ts;
+      // ambient wobble: nudge on-screen bubbles; skip entirely when idle/reduced/zoomed-out
+      const tsec = ts / 1000;
+      const [vx0, vy0] = transform.invert([0, 0]);
+      const [vx1, vy1] = transform.invert([width, height]);
+      const pad2 = 90 / transform.k;
+      const wMinX = vx0 - pad2, wMinY = vy0 - pad2, wMaxX = vx1 + pad2, wMaxY = vy1 + pad2;
+      for (const d of nodes) {
+        if (d.fx != null) { d._rx = d.x; d._ry = d.y; continue; } // pinned/dragged: exact
+        if (wobbleOn && d.x >= wMinX && d.x <= wMaxX && d.y >= wMinY && d.y <= wMaxY) {
           const sx = 0.45 + (d._ph % 0.7);
           const sy = 0.4 + ((d._ph * 1.3) % 0.7);
-          rx = d.x + Math.sin(t * sx + d._ph) * 8;
-          ry = d.y + Math.cos(t * sy + d._ph * 1.3) * 7;
-        }
-        d._rx = rx; d._ry = ry;
-        gEls[i].setAttribute("transform", `translate(${rx},${ry})`);
-        lineEls[i].setAttribute("x1", `${rx}`); lineEls[i].setAttribute("y1", `${ry}`);
+          d._rx = d.x + Math.sin(tsec * sx + d._ph) * 8;
+          d._ry = d.y + Math.cos(tsec * sy + d._ph * 1.3) * 7;
+        } else { d._rx = d.x; d._ry = d.y; }
       }
+      draw(ts);
     }
-    raf = requestAnimationFrame(floatFrame);
-  }
-  raf = requestAnimationFrame(floatFrame);
 
-  const onResize = () => { width = window.innerWidth; height = window.innerHeight; };
-  window.addEventListener("resize", onResize);
+    // keep looping only while something can still change; otherwise idle-stop
+    if (simActive || panKeys.size || hoverAnimating || wobbleOn) {
+      raf = requestAnimationFrame(frame);
+    } else {
+      running = false; // frozen — any interaction calls wake() to resume
+    }
+  }
 
   handlers.onReady?.();
+  draw(performance.now());
+  wake();
+
+  const onResize = () => {
+    width = window.innerWidth; height = window.innerHeight;
+    sizeCanvas();
+    wake();
+  };
+  window.addEventListener("resize", onResize);
+
+  function applyDim() { wake(); }
 
   return {
     setDim(pred: DimPredicate) { dimPred = pred; applyDim(); },
     setVotes(v: Record<string, number>) { curVotes = v || {}; resize(); paint(); },
-    setSeen(seen: Set<string>) { g.classed("seen", (d) => seen.has(d.slug)); },
+    setSeen(seen: Set<string>) { seenSet = seen; wake(); },
     setPeer(p: CloudPeer) {
       const ex = peerMap.get(p.id);
       if (ex) { ex.x = p.x; ex.y = p.y; if (p.name) ex.name = p.name; if (p.color) ex.color = p.color; }
       else peerMap.set(p.id, { id: p.id, x: p.x, y: p.y, name: p.name || "someone", color: p.color || "#8ab4ff" });
-      renderCursors();
+      wake();
     },
-    removePeer(id: string) { peerMap.delete(id); renderCursors(); },
+    removePeer(id: string) { peerMap.delete(id); wake(); },
+    setPaused(v: boolean) {
+      if (paused === v) return;
+      paused = v;
+      if (v) { cancelAnimationFrame(raf); running = false; } // stop burning the main thread
+      else wake(); // resume the ambient loop
+    },
     destroy() {
       cancelAnimationFrame(raf);
+      running = false;
       window.removeEventListener("resize", onResize);
       window.removeEventListener("keydown", onKeyDown);
       window.removeEventListener("keyup", onKeyUp);
-      svg.on("mousemove.cursor", null);
       sim.stop();
       hueBySlug.clear();
-      svg.selectAll("*").remove();
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.clearRect(0, 0, canvasEl.width, canvasEl.height);
     },
   };
 }
