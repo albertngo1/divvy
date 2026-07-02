@@ -477,7 +477,46 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       }
     }
 
-    // 4) idea bubbles
+    // 4a) BLOOM pass — hot (high-heat) bubbles blow out and bleed light into their
+    // neighbours. globalCompositeOperation "lighter" sums overlapping glows, so the hottest
+    // clusters glow brightest and the very hottest go white-hot. Cool bubbles add ~nothing.
+    ctx.globalCompositeOperation = "lighter";
+    for (const d of nodes) {
+      if (dimPred(d)) continue;
+      const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
+      if (rx < cMinX || rx > cMaxX || ry < cMinY || ry > cMaxY) continue;
+      if (d.r * k < 6) continue; // LOD: no bloom for tiny bubbles
+      const p = d._p ?? 0.5;
+      const hv = d._hv ?? 0;
+      // only the hot HALF blooms, ramping steeply — cool bubbles stay dark so the hot ones
+      // pop by contrast (they're still visible via their body + stroke).
+      let heat = (p - 0.5) / 0.5;
+      heat = heat > 0 ? heat * heat : 0; // quadratic ramp, 0 below the midline
+      if (heat < 0.015 && hv < 0.01) continue;
+      const h = d._hue ?? 200;
+      const glowA = 0.6 * heat + 0.22 * hv;          // saturated colored bloom, no white haze
+      const R = d.r * (1.3 + 1.7 * heat + 0.3 * hv); // tighter than before
+      const L = 60 + 16 * heat;
+      const g = ctx.createRadialGradient(rx, ry, 0, rx, ry, R);
+      g.addColorStop(0, `hsla(${h},88%,${L}%,${glowA.toFixed(3)})`);
+      g.addColorStop(0.4, `hsla(${h},88%,${L}%,${(glowA * 0.3).toFixed(3)})`);
+      g.addColorStop(1, `hsla(${h},88%,${L}%,0)`);
+      ctx.fillStyle = g;
+      ctx.beginPath(); ctx.arc(rx, ry, R, 0, 2 * Math.PI); ctx.fill();
+      // white-hot core for the very hottest handful
+      if (p > 0.82) {
+        const t = (p - 0.82) / 0.18;
+        const cr = d.r * (0.8 + 0.4 * hv);
+        const cg = ctx.createRadialGradient(rx, ry, 0, rx, ry, cr);
+        cg.addColorStop(0, `hsla(${h},70%,97%,${(0.5 * t).toFixed(3)})`);
+        cg.addColorStop(1, `hsla(${h},70%,97%,0)`);
+        ctx.fillStyle = cg;
+        ctx.beginPath(); ctx.arc(rx, ry, cr, 0, 2 * Math.PI); ctx.fill();
+      }
+    }
+    ctx.globalCompositeOperation = "source-over";
+
+    // 4b) idea bubbles (bodies, titles, pips)
     ctx.textAlign = "center"; ctx.textBaseline = "middle";
     for (const d of nodes) {
       const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
@@ -501,18 +540,6 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
 
       ctx.save();
       ctx.translate(rx, ry);
-
-      // halo glow (skip at low zoom); grows on hover
-      if (er > 12 && !dim) {
-        const hr = d.r * (1.4 + p * 0.5) * (1 + 0.16 * hv);
-        const glow = ctx.createRadialGradient(0, 0, 0, 0, 0, hr);
-        const shine = 0.82 + 0.55 * p;
-        glow.addColorStop(0, `hsla(${h},76%,64%,${(0.4 * shine * (0.85 + 0.4 * hv)).toFixed(3)})`);
-        glow.addColorStop(0.62, `hsla(${h},76%,64%,${(0.1 * shine).toFixed(3)})`);
-        glow.addColorStop(1, `hsla(${h},76%,64%,0)`);
-        ctx.fillStyle = glow;
-        ctx.beginPath(); ctx.arc(0, 0, hr, 0, 2 * Math.PI); ctx.fill();
-      }
 
       // body (glassy gradient + bright stroke ring), spring-scaled on hover
       const bodyScale = 1 + 0.075 * hv;
