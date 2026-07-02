@@ -2,6 +2,48 @@
   "lastScan": "2026-07-02",
   "ideas": [
     {
+      "slug": "brigade",
+      "title": "Brigade",
+      "hook": "A single-player influence-op tycoon: run a stable of sockpuppets to nudge a simulated forum's consensus your way before a rising coordination-detector bans your whole ring.",
+      "tags": [
+        "sim",
+        "tycoon",
+        "social",
+        "nlp"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "conveyor",
+      "title": "Conveyor",
+      "hook": "A Satisfactory-style factory builder where the resource on the belts is your paycheck — route income through splitters and buffers into rent, debt, and savings, and watch overflow pile up wherever your budget is actually broken.",
+      "tags": [
+        "budgeting",
+        "sim",
+        "game",
+        "data-viz"
+      ],
+      "score": 72,
+      "source": "steam",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "recuse",
+      "title": "Recuse",
+      "hook": "Cross-references every federal judge's financial disclosures against the parties in cases on their docket and pings you the moment a judge is sitting on a case they own stock in.",
+      "tags": [
+        "saas",
+        "finance",
+        "automation",
+        "forensics"
+      ],
+      "score": 76,
+      "source": "github",
+      "created": "2026-07-02"
+    },
+    {
       "slug": "rounding-error",
       "title": "Rounding Error",
       "hook": "A satirical price-fixing tycoon where you run an egg cartel, collude in smoke-filled Slack channels, and treat every regulator's fine as a line item — because crime pays.",
