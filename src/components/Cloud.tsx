@@ -54,11 +54,16 @@ const Cloud = forwardRef<CloudApi, Props>(function Cloud(
   // update the "unseen" pips as you open bubbles
   useEffect(() => { handleRef.current?.setSeen(seen); }, [seen]);
 
-  // freeze the cloud while a panel is open (pause immediately); on close, resume only
-  // after the slide-out finishes so the wobble doesn't compete with the closing animation
+  // Pause the ambient wobble ONLY during the panel's open/close slide (so it doesn't
+  // compete with the animation), then resume — the cloud keeps living while the panel
+  // sits open. Both transitions (open and close) trigger the brief pause; skip the
+  // initial mount so we don't freeze the cloud at startup.
+  const prevPaused = useRef(paused);
   useEffect(() => {
-    if (paused) { handleRef.current?.setPaused(true); return; }
-    const id = window.setTimeout(() => handleRef.current?.setPaused(false), 360);
+    if (prevPaused.current === paused) return; // no real toggle (first render)
+    prevPaused.current = paused;
+    handleRef.current?.setPaused(true);
+    const id = window.setTimeout(() => handleRef.current?.setPaused(false), 380);
     return () => clearTimeout(id);
   }, [paused]);
 
