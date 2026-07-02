@@ -2,6 +2,46 @@
   "lastScan": "2026-07-02",
   "ideas": [
     {
+      "slug": "rounding-error",
+      "title": "Rounding Error",
+      "hook": "A satirical price-fixing tycoon where you run an egg cartel, collude in smoke-filled Slack channels, and treat every regulator's fine as a line item — because crime pays.",
+      "tags": [
+        "tycoon",
+        "economics",
+        "sim"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "sleeper-agent",
+      "title": "Sleeper Agent",
+      "hook": "A daily dev puzzle that inverts a model checker: plant the sneakiest one-character bug that still keeps every test suspiciously green.",
+      "tags": [
+        "devtool",
+        "puzzle",
+        "ci"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "attention-check",
+      "title": "Attention Check",
+      "hook": "The AI-era survey-fraud detector that catches respondents quietly ChatGPT-ing their open-ended answers before your data is poisoned.",
+      "tags": [
+        "saas",
+        "llm",
+        "b2b",
+        "automation"
+      ],
+      "score": 78,
+      "source": "arxiv",
+      "created": "2026-07-02"
+    },
+    {
       "slug": "yanked",
       "title": "Yanked",
       "hook": "A searchable graveyard of deleted and yanked packages across npm, PyPI, and crates.io — the diffs, the drama, and the supply-chain history registries would rather you couldn't see.",
