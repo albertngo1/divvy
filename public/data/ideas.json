@@ -2,6 +2,48 @@
   "lastScan": "2026-07-02",
   "ideas": [
     {
+      "slug": "cover-charge",
+      "title": "Cover Charge",
+      "hook": "A browser turnstile that makes you pay a real, surge-priced toll to open your own time-wasting sites — and the fee doubles every visit that day.",
+      "tags": [
+        "productivity",
+        "whimsy",
+        "habits",
+        "monetization"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "setback",
+      "title": "Setback",
+      "hook": "Snap your address, say \"6-foot cedar fence\" or \"120 sq ft shed,\" and it tells you in ten seconds whether you need a permit here — before you waste a Saturday at the counter.",
+      "tags": [
+        "ops-tool",
+        "gis",
+        "saas",
+        "automation"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "underhand",
+      "title": "Underhand",
+      "hook": "A daily code-golf duel where you must sneak a backdoor past an AI senior reviewer — the commit only counts if it gets APPROVED *and* the secret payload actually fires.",
+      "tags": [
+        "puzzle",
+        "security",
+        "llm",
+        "competitive"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
       "slug": "axle",
       "title": "Axle",
       "hook": "A Tetris-meets-DOT-scale puzzle where you pack a big rig with real physics so no single axle goes overweight — because in freight the fine isn't for hauling too much, it's for stacking it wrong.",
