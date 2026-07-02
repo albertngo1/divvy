@@ -2,6 +2,48 @@
   "lastScan": "2026-07-02",
   "ideas": [
     {
+      "slug": "axle",
+      "title": "Axle",
+      "hook": "A Tetris-meets-DOT-scale puzzle where you pack a big rig with real physics so no single axle goes overweight — because in freight the fine isn't for hauling too much, it's for stacking it wrong.",
+      "tags": [
+        "puzzle",
+        "logistics",
+        "physics",
+        "browser-game"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "krebs",
+      "title": "Krebs",
+      "hook": "A Satisfactory-style factory game where the factory is one of your cells, its conveyor belts run on your real daily steps, and sitting still visibly starves the production line.",
+      "tags": [
+        "idle",
+        "quantified-self",
+        "health",
+        "sim"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-02"
+    },
+    {
+      "slug": "charge-sheet",
+      "title": "Charge Sheet",
+      "hook": "A phone ledger that turns an HVAC tech's messy pocketful of refrigerant cylinder readings into the EPA-608 compliance record the law actually requires — QR-scan the tank, punch in pounds, done.",
+      "tags": [
+        "ops-tool",
+        "automation",
+        "b2b",
+        "logistics"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-02"
+    },
+    {
       "slug": "detention",
       "title": "Detention",
       "hook": "Your truck rolls into a dock, sits three hours, and the app quietly builds the timestamped proof you need to actually bill for the wait.",
