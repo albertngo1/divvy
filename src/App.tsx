@@ -10,6 +10,7 @@ import TopBar from "./components/TopBar";
 import Controls from "./components/Controls";
 import TagFilter from "./components/TagFilter";
 import ColorKey from "./components/ColorKey";
+import ViewControls from "./components/ViewControls";
 import Tooltip from "./components/Tooltip";
 import FilterBar from "./components/FilterBar";
 import IdeaPanel from "./components/IdeaPanel";
@@ -107,19 +108,20 @@ export default function App() {
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
   useEffect(() => { document.body.classList.toggle("panel-open", !!selected); }, [selected]);
 
-  // Shift the top controls left ONLY by however much they'd overlap the open panel — if
-  // there's already room between them, don't move at all. Recomputed on open + resize.
+  // Shift the top-center overlays (controls + hover tooltip) left ONLY by however much
+  // they'd overlap the open panel — if there's already room, don't move. Published as the
+  // --panel-shift CSS var so every centered overlay picks it up uniformly. Recomputed on
+  // open + resize.
   useEffect(() => {
     const apply = () => {
-      const el = document.getElementById("controls");
-      if (!el) return;
       const vw = window.innerWidth;
-      if (!selected || vw < 1024) { el.style.transform = ""; return; } // CSS handles the centered/mobile case
-      const panelW = Math.min(580, vw * 0.94);
-      const cw = el.getBoundingClientRect().width;      // controls sit centered; right edge = vw/2 + cw/2
-      const overlap = cw / 2 + 24 + panelW - vw / 2;    // +24 desired gap; <=0 means there's already room
-      const shift = Math.max(0, overlap);
-      el.style.transform = `translateX(calc(-50% - ${shift}px))`;
+      let shift = 0;
+      if (selected && vw >= 1024) {
+        const panelW = Math.min(580, vw * 0.94);
+        const HALF = 280; // half the widest centered overlay (tooltip ≈520) + a little
+        shift = Math.max(0, HALF + 24 + panelW - vw / 2); // +24 desired gap
+      }
+      document.body.style.setProperty("--panel-shift", shift + "px");
     };
     apply();
     window.addEventListener("resize", apply);
@@ -243,6 +245,11 @@ export default function App() {
         <Tooltip idea={hovered} votes={hovered ? votes[hovered.slug] || 0 : 0} atBottom={!!hovered && hoverY < 240} />
         <FilterBar search={search} activeTags={activeTags} visible={visibleCount} onClear={clearFilters} />
         <ColorKey />
+        <ViewControls
+          onZoom={(f) => cloudRef.current?.zoomBy(f)}
+          onPan={(dx, dy) => cloudRef.current?.panBy(dx, dy)}
+          onReset={() => cloudRef.current?.resetView()}
+        />
         <Scoreboard ideas={ideas} votes={votes} views={views} onOpen={openIdea} />
       </main>
 

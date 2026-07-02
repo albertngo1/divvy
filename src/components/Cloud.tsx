@@ -15,10 +15,14 @@ interface Props {
   onView?: (x: number, y: number, k: number) => void;
 }
 
-// imperative surface for pushing peer cursors in without re-rendering React on every move
+// imperative surface for pushing peer cursors in without re-rendering React on every move,
+// plus the on-screen view controls (zoom / pan / reset)
 export interface CloudApi {
   setPeer: (p: CloudPeer) => void;
   removePeer: (id: string) => void;
+  zoomBy: (factor: number) => void;
+  panBy: (dx: number, dy: number) => void;
+  resetView: () => void;
 }
 
 const Cloud = forwardRef<CloudApi, Props>(function Cloud(
@@ -31,6 +35,9 @@ const Cloud = forwardRef<CloudApi, Props>(function Cloud(
   useImperativeHandle(ref, () => ({
     setPeer: (p) => handleRef.current?.setPeer(p),
     removePeer: (id) => handleRef.current?.removePeer(id),
+    zoomBy: (f) => handleRef.current?.zoomBy(f),
+    panBy: (dx, dy) => handleRef.current?.panBy(dx, dy),
+    resetView: () => handleRef.current?.resetView(),
   }), []);
 
   // (re)build the d3 cloud whenever the idea set changes

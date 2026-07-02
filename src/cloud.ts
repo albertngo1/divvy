@@ -20,6 +20,9 @@ export interface CloudHandle {
   setPeer: (p: CloudPeer) => void;   // upsert a remote cursor
   removePeer: (id: string) => void;  // peer left
   setPaused: (v: boolean) => void;   // freeze the render loop (e.g. while the PRD panel is open)
+  zoomBy: (factor: number) => void;  // on-screen zoom buttons
+  panBy: (dx: number, dy: number) => void; // on-screen pan buttons (screen px)
+  resetView: () => void;             // fit the whole cloud back into view
   destroy: () => void;
 }
 
@@ -385,17 +388,22 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
   for (let i = 0; i < 360; i++) sim.tick();
   nodes.forEach((d) => { d._rx = d.x; d._ry = d.y; });
 
-  // fit the settled cloud into view
-  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-  nodes.forEach((d) => {
-    minX = Math.min(minX, d.x - d.r); maxX = Math.max(maxX, d.x + d.r);
-    minY = Math.min(minY, d.y - d.r); maxY = Math.max(maxY, d.y + d.r);
-  });
-  const pad = width < 640 ? 24 : 80;
-  const fitK = Math.max(0.15, Math.min(1, (width - pad) / (maxX - minX), (height - pad) / (maxY - minY)));
-  const tx = width / 2 - (fitK * (minX + maxX)) / 2;
-  const ty = height / 2 - (fitK * (minY + maxY)) / 2;
-  canvas.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(fitK));
+  // fit the whole settled cloud into view (used on load and by the reset button)
+  function fitView(animate = false) {
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    nodes.forEach((d) => {
+      minX = Math.min(minX, d.x - d.r); maxX = Math.max(maxX, d.x + d.r);
+      minY = Math.min(minY, d.y - d.r); maxY = Math.max(maxY, d.y + d.r);
+    });
+    const pad = width < 640 ? 24 : 80;
+    const fitK = Math.max(0.15, Math.min(1, (width - pad) / (maxX - minX), (height - pad) / (maxY - minY)));
+    const tx = width / 2 - (fitK * (minX + maxX)) / 2;
+    const ty = height / 2 - (fitK * (minY + maxY)) / 2;
+    const t = d3.zoomIdentity.translate(tx, ty).scale(fitK);
+    (animate ? canvas.transition().duration(420) as any : canvas).call(zoom.transform, t);
+    wake();
+  }
+  fitView(false);
 
   let seenSet = new Set<string>();
 
@@ -682,6 +690,15 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       wake();
     },
     removePeer(id: string) { peerMap.delete(id); wake(); },
+    zoomBy(factor: number) {
+      canvas.transition().duration(200).call(zoom.scaleBy, factor, [width / 2, height / 2]);
+      wake();
+    },
+    panBy(dx: number, dy: number) {
+      canvas.transition().duration(200).call(zoom.translateBy, dx / transform.k, dy / transform.k);
+      wake();
+    },
+    resetView() { fitView(true); },
     setPaused(v: boolean) {
       if (paused === v) return;
       paused = v;
