@@ -493,7 +493,7 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       if (dimPred(d)) continue;
       const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
       if (rx < cMinX || rx > cMaxX || ry < cMinY || ry > cMaxY) continue;
-      if (d.r * k < 6) continue; // LOD: no bloom for tiny bubbles
+      if (d.r * k < 2) continue; // skip bloom only when truly minuscule
       const p = d._p ?? 0.5;
       const hv = d._hv ?? 0;
       // only the hot HALF blooms, ramping steeply — cool bubbles stay dark so the hot ones
@@ -537,27 +537,8 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       const h = d._hue ?? 200;
       const p = d._p ?? 0.5;
 
-      // zoomed out → a glowing MARBLE: a soft colored glow halo behind a crisp, vivid
-      // core dot (keeps the vibrant color that made it read, but no longer a flat bead).
-      if (er < 12) {
-        const gr = d.r * 2.1;
-        const halo = ctx.createRadialGradient(rx, ry, d.r * 0.5, rx, ry, gr);
-        halo.addColorStop(0, `hsla(${h},85%,62%,${(0.42 * alpha).toFixed(3)})`);
-        halo.addColorStop(0.5, `hsla(${h},85%,62%,${(0.1 * alpha).toFixed(3)})`);
-        halo.addColorStop(1, `hsla(${h},85%,62%,0)`);
-        ctx.fillStyle = halo;
-        ctx.beginPath(); ctx.arc(rx, ry, gr, 0, 2 * Math.PI); ctx.fill();
-        // crisp core with a slight top-left highlight so it reads as a little sphere
-        const core = ctx.createRadialGradient(rx - d.r * 0.32, ry - d.r * 0.38, d.r * 0.1, rx, ry, d.r);
-        core.addColorStop(0, `hsl(${h},88%,72%)`);
-        core.addColorStop(1, `hsl(${h},72%,55%)`);
-        ctx.globalAlpha = alpha;
-        ctx.fillStyle = core;
-        ctx.beginPath(); ctx.arc(rx, ry, d.r, 0, 2 * Math.PI); ctx.fill();
-        ctx.globalAlpha = 1;
-        continue;
-      }
-
+      // Always render the full glassy bubble (never a degraded flat dot/marble) so the
+      // cloud looks the same at every zoom — just smaller when zoomed out.
       ctx.save();
       ctx.translate(rx, ry);
 
@@ -572,8 +553,8 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       ctx.stroke();
       ctx.restore();
 
-      // title (skip when too small to read)
-      if (er > 15 && !dim) {
+      // title (drawn at all zooms; fitLines scales/truncates it to the circle)
+      if (er > 6 && !dim) {
         if (!d._lines) { const fit = fitLines(ctx, d); d._lines = fit.lines; d._fs = fit.fs; }
         const fs = d._fs!, lineH = fs * 1.08;
         ctx.font = BUBBLE_FONT.replace("%FS", fs.toFixed(1));
@@ -585,7 +566,7 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       }
 
       // "unseen" pip
-      if (er > 12 && !dim && !seenSet.has(d.slug)) {
+      if (er > 8 && !dim && !seenSet.has(d.slug)) {
         ctx.fillStyle = "#ffd166";
         ctx.shadowColor = "rgba(255,209,102,0.9)"; ctx.shadowBlur = 3;
         ctx.beginPath(); ctx.arc(d.r * 0.72, -d.r * 0.72, 4, 0, 2 * Math.PI); ctx.fill();
