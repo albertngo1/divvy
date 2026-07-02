@@ -578,7 +578,7 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       let dx = 0, dy = 0;
       panKeys.forEach((key) => { dx += PAN_MAP[key][0]; dy += PAN_MAP[key][1]; });
       if (dx || dy) {
-        const step = 7 / transform.k;
+        const step = 20 / transform.k; // ~1200px/s on-screen, constant at any zoom
         canvas.call(zoom.translateBy, dx * step, dy * step);
       }
     }
