@@ -2,6 +2,47 @@
   "lastScan": "2026-07-03",
   "ideas": [
     {
+      "slug": "quorum",
+      "title": "Quorum",
+      "hook": "A Zachtronics-style puzzle where you ARE the transaction scheduler — hand-route messages between flickering nodes so they all agree, while the network drops, reorders, and partitions your carefully-laid plans.",
+      "tags": [
+        "game",
+        "puzzle",
+        "observability"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "waterline",
+      "title": "Waterline",
+      "hook": "A map that answers the one question every western angler asks before hitching the boat trailer: is my launch ramp actually above water today, or is the reservoir now 30 feet below the concrete?",
+      "tags": [
+        "gis",
+        "map",
+        "nature",
+        "side-hustle"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "pattern-of-life",
+      "title": "Pattern of Life",
+      "hook": "Point it at your own photo library and it shows you the stalker's-eye view — your home, your route, your kid's school — all reconstructed from the GPS you never knew you were baking into every JPEG.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics",
+        "map"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-03"
+    },
+    {
       "slug": "pinpoint",
       "title": "Pinpoint",
       "hook": "You're handed a scatter of 'anonymized' location pings and one job: figure out who this is — their home, their job, their gym, and the thing they'd rather nobody knew.",
