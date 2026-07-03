@@ -2,6 +2,48 @@
   "lastScan": "2026-07-03",
   "ideas": [
     {
+      "slug": "autograph",
+      "title": "Autograph",
+      "hook": "A dependency linter that hunts for the fingerprints of machine authorship — so you can enforce a 'no LLM slop in my supply chain' policy the way you'd enforce a license check.",
+      "tags": [
+        "security",
+        "provenance",
+        "devtool",
+        "llm"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "foxing",
+      "title": "Foxing",
+      "hook": "The anti-Immich: a photo wall where memories you never revisit slowly go grainy and lo-fi — every neglected month silently re-compresses them — until only what you look at stays sharp.",
+      "tags": [
+        "generative",
+        "art",
+        "screensaver",
+        "whimsy"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "stratagem",
+      "title": "Stratagem",
+      "hook": "Run your homelab from the menubar by punching in Helldivers-style arrow-key stratagem codes — and the more destructive the command, the longer the code you have to nail.",
+      "tags": [
+        "homelab",
+        "cli",
+        "automation",
+        "whimsy"
+      ],
+      "score": 72,
+      "source": "steam",
+      "created": "2026-07-03"
+    },
+    {
       "slug": "quorum",
       "title": "Quorum",
       "hook": "A Zachtronics-style puzzle where you ARE the transaction scheduler — hand-route messages between flickering nodes so they all agree, while the network drops, reorders, and partitions your carefully-laid plans.",
