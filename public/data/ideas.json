@@ -2,6 +2,47 @@
   "lastScan": "2026-07-03",
   "ideas": [
     {
+      "slug": "uncommitted",
+      "title": "Uncommitted",
+      "hook": "A git TUI reskinned as an extraction shooter — your uncommitted working tree is loot you can lose, `commit` is a clean extraction, and a merge conflict is a firefight.",
+      "tags": [
+        "game",
+        "git",
+        "devtool",
+        "roguelike"
+      ],
+      "score": 66,
+      "source": "github",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "cold-feet",
+      "title": "Cold Feet",
+      "hook": "The mischievous opposite of an AI investing copilot: log every trade you almost made, and watch it tally the counterfactual fortune your caution cost you.",
+      "tags": [
+        "finance",
+        "quantified-self",
+        "markets"
+      ],
+      "score": 69,
+      "source": "github",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "legwork",
+      "title": "Legwork",
+      "hook": "A Satisfactory-style factory builder whose only raw ore is your real daily step count — sit still and the conveyor belts starve.",
+      "tags": [
+        "idle",
+        "game",
+        "quantified-self",
+        "tycoon"
+      ],
+      "score": 73,
+      "source": "steam",
+      "created": "2026-07-03"
+    },
+    {
       "slug": "home-league",
       "title": "Home League",
       "hook": "Your Home Assistant dashboard is rich but lonely — Home League turns it into a competition, ranking your energy-per-square-foot against anonymized homes in your exact climate zone.",
