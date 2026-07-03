@@ -2,6 +2,48 @@
   "lastScan": "2026-07-03",
   "ideas": [
     {
+      "slug": "home-league",
+      "title": "Home League",
+      "hook": "Your Home Assistant dashboard is rich but lonely — Home League turns it into a competition, ranking your energy-per-square-foot against anonymized homes in your exact climate zone.",
+      "tags": [
+        "homelab",
+        "competitive",
+        "quantified-self",
+        "self-hosted"
+      ],
+      "score": 65,
+      "source": "github",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "sterile-release",
+      "title": "Sterile Release",
+      "hook": "An inverse tower-defense where you exterminate an invasive pest not by killing it, but by breeding and releasing sterile males until its whole population collapses.",
+      "tags": [
+        "sim",
+        "idle",
+        "biology",
+        "leaderboard"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "mach-cutoff",
+      "title": "Mach Cutoff",
+      "hook": "Plot supersonic routes across America and thread the needle so your sonic boom bends skyward and never lands on a single town.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "sim",
+        "map"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-03"
+    },
+    {
       "slug": "autograph",
       "title": "Autograph",
       "hook": "A dependency linter that hunts for the fingerprints of machine authorship — so you can enforce a 'no LLM slop in my supply chain' policy the way you'd enforce a license check.",
