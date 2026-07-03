@@ -1,6 +1,47 @@
 {
-  "lastScan": "2026-07-02",
+  "lastScan": "2026-07-03",
   "ideas": [
+    {
+      "slug": "stride",
+      "title": "Stride",
+      "hook": "A Zachtronics-flavored puzzle where you pack structs into cache lines and choreograph memory access to keep the prefetcher fed under a cycle budget.",
+      "tags": [
+        "puzzle",
+        "game",
+        "devtool"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "carding",
+      "title": "Carding",
+      "hook": "A Stripe-easy zero-knowledge age gate that proves your shopper is 21+ without your store ever touching an ID.",
+      "tags": [
+        "privacy",
+        "saas",
+        "security",
+        "b2b"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "cube",
+      "title": "Cube",
+      "hook": "Phone-LiDAR your pallet and know its true freight class before the carrier reweighs you and slaps on a reclass charge.",
+      "tags": [
+        "logistics",
+        "b2b",
+        "computer-vision",
+        "saas"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-03"
+    },
     {
       "slug": "brigade",
       "title": "Brigade",
