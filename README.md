@@ -1,9 +1,10 @@
 # Divvy
 
 **An idea cloud that grows itself.** Each bubble is an idea; click it for a full PRD.
-An autonomous scanner reads several public feeds on a timer — Hacker News, trending
-GitHub repos, and popular Steam games — cross-pollinates them into fresh weekend-project
-and video-game ideas, writes a PRD for each, and pushes them into the cloud so it grows
+An autonomous scanner reads an arbitrary subset of several trusted public feeds on a timer
+— Hacker News, Lobsters, trending GitHub repos, popular Steam games, Product Hunt, and
+recent arXiv (HCI/graphics) — cross-pollinates them into fresh weekend-project and
+video-game ideas, writes a PRD for each, and pushes them into the cloud so it grows
 between visits. A handful of friends can then browse it together in real time and vote
 ideas up or down.
 
@@ -27,8 +28,10 @@ Live (Cloudflare Pages): **https://divvy-9ol.pages.dev/**
 - **color = heat.** Hue is AI score **+ votes** (votes weighted heavily), spread by
   percentile rank so the full cool→warm spectrum is used (raw AI scores cluster high).
   Upvotes warm and **grow** a bubble; downvotes cool and shrink it.
-- **Navigation.** Pan/zoom (mouse or **WASD / arrow keys**), search, multi-select tag
-  filter (consolidated vocabulary, `src/tags.ts`), and a **🏆 scoreboard** of top ideas.
+- **Navigation.** Pan/zoom (scroll/drag, **WASD / arrow keys**, or the on-screen zoom /
+  pan / fit controls bottom-right, with a **?** keyboard-and-mouse legend), search,
+  multi-select tag filter (consolidated vocabulary, `src/tags.ts`), and a **🏆 scoreboard**
+  of top ideas. The hottest bubbles bloom; the labeled glassy look holds at every zoom.
 - **Deep links.** `?idea=<slug>` opens that idea's panel; a *copy link* button shares it.
 
 ## Votes (D1)
@@ -69,10 +72,12 @@ Votes/presence need the deployed Functions + Worker; on a bare local build they 
 to no-op (counts show 0, no peer cursors).
 
 ## Scanner (the "grows itself" engine)
-`scanner/scan.mjs` scrapes HN + GitHub + Steam, calls `claude -p` to riff N ideas + PRDs,
-dedupes against existing titles, and writes `public/data/ideas.json` +
-`public/data/prds/<slug>.md`. Scoring uses a **calibrated rubric** (be stingy, spread the
-scores) and tags come from a **controlled vocabulary** aligned to the galaxy domains.
+`scanner/scan.mjs` draws a **random subset** (default 4) of a pool of 6 trusted feeds — HN,
+Lobsters, GitHub, Steam, Product Hunt, arXiv (cs.HC/cs.GR) — so no single feed anchors every
+run, then calls `claude -p` to riff N ideas + PRDs, dedupes against existing titles, and
+writes `public/data/ideas.json` + `public/data/prds/<slug>.md`. Scoring uses a **calibrated
+rubric** (be stingy, spread the scores) and tags come from a **controlled vocabulary**
+aligned to the galaxy domains. (`DIVVY_SOURCES` sets how many feeds per run.)
 - Needs `CLAUDE_CODE_OAUTH_TOKEN` (whitespace-stripped from `~/.happy/claude-token.txt`).
 - `scanner/run.sh` runs it and commits+pushes; wired to the `com.divvy-scanner`
   LaunchAgent (every 3h, `DIVVY_N=3`). `scanner/overnight-burst.sh` grows to a target.

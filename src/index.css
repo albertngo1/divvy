@@ -491,7 +491,9 @@ body::before {
 /* ---- active tag filter bar ---- */
 .filterbar {
   position: fixed;
-  right: 28px; bottom: 24px;
+  left: 50%; bottom: 24px;
+  transform: translateX(calc(-50% - var(--panel-shift, 0px))); /* clears the bottom-right view controls; shifts with an open panel */
+  transition: transform 0.34s cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 6;
   display: flex;
   align-items: center;
@@ -831,7 +833,7 @@ body::before {
   .vc-legend { width: min(230px, 62vw); }
 
   /* active-filter pill: top-right under controls, out of the bottom sheet's way */
-  .filterbar { top: 108px; right: 14px; left: auto; bottom: auto; }
+  .filterbar { top: 108px; right: 14px; left: auto; bottom: auto; transform: none; }
 
   /* tag filter: bottom bar; list opens UPWARD as an overlay */
   .tagfilter { top: auto; bottom: 0; left: 12px; right: 12px; width: auto; }
