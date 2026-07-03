@@ -2,6 +2,48 @@
   "lastScan": "2026-07-03",
   "ideas": [
     {
+      "slug": "pinpoint",
+      "title": "Pinpoint",
+      "hook": "You're handed a scatter of 'anonymized' location pings and one job: figure out who this is — their home, their job, their gym, and the thing they'd rather nobody knew.",
+      "tags": [
+        "privacy",
+        "puzzle",
+        "data-viz",
+        "forensics"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "scope-creep",
+      "title": "Scope Creep",
+      "hook": "A home-repair sim where the monster isn't a boss — it's the fact that fixing the leak requires replacing the pipe, which requires removing the cabinet, which reveals mold, which requires a permit.",
+      "tags": [
+        "sim",
+        "tycoon",
+        "narrative",
+        "procedural"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "corner-case",
+      "title": "Corner Case",
+      "hook": "Enter the couch's dimensions and the stairwell landing's angles, and it tells you whether — and exactly how — to tilt it around the turn before you carry it up three flights.",
+      "tags": [
+        "logistics",
+        "gis",
+        "b2b",
+        "automation"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-07-03"
+    },
+    {
       "slug": "piecework",
       "title": "Piecework",
       "hook": "A household chore board that runs like a crypto exchange: kids post bids and asks, a matching engine clears the trades, and Sunday's dish pile hits surge pricing.",
