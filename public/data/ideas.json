@@ -2,6 +2,48 @@
   "lastScan": "2026-07-03",
   "ideas": [
     {
+      "slug": "piecework",
+      "title": "Piecework",
+      "hook": "A household chore board that runs like a crypto exchange: kids post bids and asks, a matching engine clears the trades, and Sunday's dish pile hits surge pricing.",
+      "tags": [
+        "marketplace",
+        "finance",
+        "chores",
+        "whimsy"
+      ],
+      "score": 63,
+      "source": "github",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "remanence",
+      "title": "Remanence",
+      "hook": "A Zachtronics-flavored puzzle where you race a cooling RAM chip to pull an encryption key out of decaying bits before they rot to zero — the cold-boot attack as a game.",
+      "tags": [
+        "puzzle",
+        "game",
+        "security",
+        "forensics"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-03"
+    },
+    {
+      "slug": "hunger-stone",
+      "title": "Hunger Stone",
+      "hook": "Drag a single water-level slider down and watch the world's drowned villages, sunken wrecks, and frozen bodies surface exactly as they do in real droughts and thaws.",
+      "tags": [
+        "map",
+        "data-viz",
+        "timeline",
+        "nature"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-03"
+    },
+    {
       "slug": "stride",
       "title": "Stride",
       "hook": "A Zachtronics-flavored puzzle where you pack structs into cache lines and choreograph memory access to keep the prefetcher fed under a cycle budget.",
