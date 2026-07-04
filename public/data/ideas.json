@@ -2,6 +2,48 @@
   "lastScan": "2026-07-04",
   "ideas": [
     {
+      "slug": "transpire",
+      "title": "Transpire",
+      "hook": "An interactive physics toy of how a 115-meter redwood pulls water to its top branches with no pump at all — crank the heat and dry air until a xylem vessel snaps with an audible embolism.",
+      "tags": [
+        "physics",
+        "biology",
+        "nature",
+        "sim"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "carve",
+      "title": "Carve",
+      "hook": "Monster Hunter for your cloud + subscription bill: your monthly spend is a monster with a health bar, each recurring charge is a body part you break, and every cancel carves out savings as loot.",
+      "tags": [
+        "finance",
+        "ops-tool",
+        "budgeting",
+        "game"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "loss-leader",
+      "title": "Loss Leader",
+      "hook": "An anti-Amazon warehouse-club tycoon where curating FEWER items and selling the rotisserie chicken at a loss is the winning move — you're scored on member renewals, not margin.",
+      "tags": [
+        "tycoon",
+        "sim",
+        "business",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
       "slug": "reaper",
       "title": "Reaper",
       "hook": "When the Linux OOM killer executes one of your homelab processes, Reaper shows up like a coroner — reconstructs the memory scene at time of death and tells you exactly which knob would have saved it.",
