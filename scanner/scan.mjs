@@ -3,11 +3,10 @@
 // popular Steam games), riff new project/game ideas via `claude -p`, then merge into
 // data/ideas.json and write data/prds/<slug>.md for each new idea.
 
-import { spawn } from "node:child_process";
-import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { slugify, shuffle, extractJSON, callClaude, loadIdeas } from "./lib.mjs";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, "..");
 const DATA = join(ROOT, "public", "data"); // Vite serves public/ at the site root
@@ -15,19 +14,6 @@ const PRDS = join(DATA, "prds");
 const IDEAS_FILE = join(DATA, "ideas.json");
 
 const HOW_MANY = Number(process.env.DIVVY_N || 3);
-
-function slugify(s) {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 48);
-}
-
-function shuffle(arr) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 async function tryFetchJSON(url, opts) {
   const res = await fetch(url, opts);
@@ -195,38 +181,9 @@ Live signals:
 ${digest}${avoidBlock}`;
 }
 
-function extractJSON(stdout) {
-  const start = stdout.indexOf("[");
-  const end = stdout.lastIndexOf("]");
-  if (start === -1 || end === -1) throw new Error("no JSON array in claude output");
-  return JSON.parse(stdout.slice(start, end + 1));
-}
-
-function callClaude(prompt) {
-  // One-shot print mode. stdin is ignored so claude doesn't block waiting on it.
-  return new Promise((resolve, reject) => {
-    const child = spawn("claude", ["-p", prompt, "--dangerously-skip-permissions"], {
-      stdio: ["ignore", "pipe", "inherit"],
-      timeout: 1000 * 300,
-    });
-    let out = "";
-    child.stdout.on("data", (c) => { out += c; });
-    child.on("error", reject);
-    child.on("close", (code) => {
-      if (code !== 0) reject(new Error(`claude exited ${code}`));
-      else resolve(out);
-    });
-  });
-}
-
-async function loadIdeas() {
-  if (!existsSync(IDEAS_FILE)) return { lastScan: "", ideas: [] };
-  return JSON.parse(await readFile(IDEAS_FILE, "utf8"));
-}
-
 async function main() {
   await mkdir(PRDS, { recursive: true });
-  const store = await loadIdeas();
+  const store = await loadIdeas(IDEAS_FILE);
   const existing = new Set(store.ideas.map((i) => i.slug));
   const avoid = store.ideas.slice(0, 50).map((i) => i.title); // cap so the prompt stays bounded as the cloud grows
 

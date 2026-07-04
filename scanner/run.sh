@@ -15,16 +15,21 @@ cd "$REPO"
 LOG="$REPO/scanner/scan.log"
 echo "=== $(date) ===" >> "$LOG"
 
-# Generate ideas + PRDs (writes public/data/ideas.json and public/data/prds/*.md).
+# Generate feed-sparked ideas + PRDs (writes public/data/ideas.json + public/data/prds/*.md).
 if ! node "$REPO/scanner/scan.mjs" >> "$LOG" 2>&1; then
   echo "scan.mjs failed — see log" >> "$LOG"
-  exit 1
+fi
+
+# Fan out a batch of concurrent-room party games via parallel agents. Independent of the
+# feed scan above — a failure in either one still lets the other's ideas get committed.
+if ! node "$REPO/scanner/party.mjs" >> "$LOG" 2>&1; then
+  echo "party.mjs failed — see log" >> "$LOG"
 fi
 
 # Commit + push only if something changed.
 if [[ -n "$(git status --porcelain public/data/)" ]]; then
   git add public/data/
-  git commit -q -m "divvy: scan $(date +%F) — new ideas"
+  git commit -q -m "divvy: scan + party $(date +%F) — new ideas"
   git push -q
   echo "pushed" >> "$LOG"
 else

@@ -78,9 +78,21 @@ run, then calls `claude -p` to riff N ideas + PRDs, dedupes against existing tit
 writes `public/data/ideas.json` + `public/data/prds/<slug>.md`. Scoring uses a **calibrated
 rubric** (be stingy, spread the scores) and tags come from a **controlled vocabulary**
 aligned to the galaxy domains. (`DIVVY_SOURCES` sets how many feeds per run.)
+
+`scanner/party.mjs` is the **party-game half** of the same worker: it spawns
+`DIVVY_PARTY_AGENTS` (default 3) `claude` agents **in parallel**, each handed a different
+theme (imposter, synchrony, sensor+room, LLM-entropy, "coordination as the failure mode",
+etc.) and asked for `DIVVY_PARTY_N` (default 2) concurrent-room party games — a host TV +
+phones as private controllers, under two hard rules (per-phone privacy must be load-bearing;
+v1 humiliatingly small). Winners merge into `ideas.json` with `source: "party"`. Shared
+helpers for both generators live in `scanner/lib.mjs`. `DIVVY_DRY=1` calls the agents but
+writes nothing (verification).
+
 - Needs `CLAUDE_CODE_OAUTH_TOKEN` (whitespace-stripped from `~/.happy/claude-token.txt`).
-- `scanner/run.sh` runs it and commits+pushes; wired to the `com.divvy-scanner`
-  LaunchAgent (every 3h, `DIVVY_N=3`). `scanner/overnight-burst.sh` grows to a target.
+- `scanner/run.sh` runs **both** generators (feed scan, then the parallel party fan-out),
+  then commits+pushes once; wired to the `com.divvy-scanner` LaunchAgent (every 3h,
+  `DIVVY_N=3`). Either generator can fail without blocking the other's commit.
+  `scanner/overnight-burst.sh` grows to a target.
 
 ## Deploy — Cloudflare Pages
 Connected to this repo: build command **`npm run build`**, output directory **`dist`**.
