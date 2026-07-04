@@ -2,6 +2,47 @@
   "lastScan": "2026-07-04",
   "ideas": [
     {
+      "slug": "driftwood",
+      "title": "Driftwood",
+      "hook": "Your Downloads folder is an ocean current: files drift past on the tide, you hook the keepers to sort them, and whatever you ignore sinks into the deep and gets quietly purged.",
+      "tags": [
+        "chores",
+        "self-hosted",
+        "whimsy",
+        "productivity"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "deflate",
+      "title": "Deflate",
+      "hook": "A daily word game where you write a sentence using five required words and win by making it gzip to the fewest bytes — competitive information theory disguised as Wordle.",
+      "tags": [
+        "wordgame",
+        "puzzle",
+        "language"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "reef",
+      "title": "Reef",
+      "hook": "A gorgeous coral-reef screensaver fed by your homelab's live network flows — and the moment a port scan or beaconing malware shows up, a predator fish arrives to eat the intruder.",
+      "tags": [
+        "security",
+        "ambient",
+        "observability",
+        "self-hosted"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-07-04"
+    },
+    {
       "slug": "relay",
       "title": "Relay",
       "hook": "A historical logistics puzzle where you save 17th-century Amsterdam from fire by stringing pumps and flexible leather hose across the canal grid — water pressure bleeds off with every meter and every corner, so you must build the relay chain fast enough to beat the flames spreading block to block.",
