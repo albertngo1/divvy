@@ -2,6 +2,48 @@
   "lastScan": "2026-07-04",
   "ideas": [
     {
+      "slug": "embolism",
+      "title": "Embolism",
+      "hook": "You are a giant tree's plumbing: pull water 100 meters up under tension all day, and when heat pops air bubbles into your xylem, reroute around the dead conduits before the canopy starves.",
+      "tags": [
+        "sim",
+        "biology",
+        "idle",
+        "procedural"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "bucket-brigade",
+      "title": "Bucket Brigade",
+      "hook": "Lay leather fire-hose from the canals of 1673 Amsterdam to a burning house — spend the least hose and beat the town's daily par before the flames spread.",
+      "tags": [
+        "puzzle",
+        "logistics",
+        "procedural",
+        "leaderboard"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "throughline",
+      "title": "Throughline",
+      "hook": "Two random Wikipedia articles, one blank line: race the world to write the shortest true sentence that genuinely connects them, judged live by an in-browser language model.",
+      "tags": [
+        "wordgame",
+        "competitive",
+        "llm",
+        "leaderboard"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
       "slug": "driftwood",
       "title": "Driftwood",
       "hook": "Your Downloads folder is an ocean current: files drift past on the tide, you hook the keepers to sort them, and whatever you ignore sinks into the deep and gets quietly purged.",
