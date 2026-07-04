@@ -2,6 +2,48 @@
   "lastScan": "2026-07-04",
   "ideas": [
     {
+      "slug": "dead-stick",
+      "title": "Dead Stick",
+      "hook": "A night-bomber stealth game where the enemy hears you, not sees you — climb for altitude, cut the engine, and glide silently over the listening posts like the Night Witches did.",
+      "tags": [
+        "game",
+        "audio",
+        "browser-game",
+        "physics"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "fug",
+      "title": "Fug",
+      "hook": "A self-hosted CO2 leaderboard that ranks every room in your house live and publicly shames whoever's stuffy den crosses 1000ppm into opening a window.",
+      "tags": [
+        "homelab",
+        "competitive",
+        "quantified-self",
+        "self-hosted"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "syrinx",
+      "title": "Syrinx",
+      "hook": "A daily game where you hear half a real bird's song and must pick which continuation obeys the species' actual grammar — birdwatching turned into a syntax duel.",
+      "tags": [
+        "puzzle",
+        "competitive",
+        "audio",
+        "nature"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
       "slug": "embolism",
       "title": "Embolism",
       "hook": "You are a giant tree's plumbing: pull water 100 meters up under tension all day, and when heat pops air bubbles into your xylem, reroute around the dead conduits before the canopy starves.",
