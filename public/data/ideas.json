@@ -2,6 +2,48 @@
   "lastScan": "2026-07-04",
   "ideas": [
     {
+      "slug": "relay",
+      "title": "Relay",
+      "hook": "A historical logistics puzzle where you save 17th-century Amsterdam from fire by stringing pumps and flexible leather hose across the canal grid — water pressure bleeds off with every meter and every corner, so you must build the relay chain fast enough to beat the flames spreading block to block.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "logistics",
+        "gis"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "petabyte",
+      "title": "Petabyte",
+      "hook": "A desktop monster-collector where every Docker container in your homelab is a little creature whose HP, mood, and evolution stage are wired to its real metrics — restarts deal damage, 100 days of uptime triggers an evolution, and an OOMKill leaves it fainted on your dock.",
+      "tags": [
+        "sim",
+        "homelab",
+        "self-hosted",
+        "desktop-toy"
+      ],
+      "score": 67,
+      "source": "github",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "stack-effect",
+      "title": "Stack Effect",
+      "hook": "An idle city-builder whose economy is throttled by the real CO2 in your room — let the air go stale and your little workers get too dumb to gather resources, so you have to physically crack a window to keep the game growing.",
+      "tags": [
+        "idle",
+        "quantified-self",
+        "health",
+        "ambient"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
       "slug": "transpire",
       "title": "Transpire",
       "hook": "An interactive physics toy of how a 115-meter redwood pulls water to its top branches with no pump at all — crank the heat and dry air until a xylem vessel snaps with an audible embolism.",
