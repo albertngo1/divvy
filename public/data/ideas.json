@@ -1,6 +1,48 @@
 {
-  "lastScan": "2026-07-03",
+  "lastScan": "2026-07-04",
   "ideas": [
+    {
+      "slug": "reaper",
+      "title": "Reaper",
+      "hook": "When the Linux OOM killer executes one of your homelab processes, Reaper shows up like a coroner — reconstructs the memory scene at time of death and tells you exactly which knob would have saved it.",
+      "tags": [
+        "homelab",
+        "observability",
+        "self-hosted",
+        "cli"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "cupbearer",
+      "title": "Cupbearer",
+      "hook": "A food-taster for your AI agent: a local MCP proxy that sniffs every tool *response* for prompt-injection and secret-exfil before your agent ever swallows it.",
+      "tags": [
+        "security",
+        "agents",
+        "self-hosted",
+        "observability"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "cavitation",
+      "title": "Cavitation",
+      "hook": "A puzzle game where you pull water up a giant tree under negative pressure — one careless move snaps the water column into an air bubble that locks the vessel forever.",
+      "tags": [
+        "puzzle",
+        "biology",
+        "physics",
+        "procedural"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-04"
+    },
     {
       "slug": "uncommitted",
       "title": "Uncommitted",
