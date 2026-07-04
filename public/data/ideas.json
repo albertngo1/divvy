@@ -4,7 +4,7 @@
     {
       "slug": "dead-stick",
       "title": "Dead Stick",
-      "hook": "A night-bomber stealth game where the enemy hears you, not sees you — climb for altitude, cut the engine, and glide silently over the listening posts like the Night Witches did.",
+      "hook": "A night-bomber stealth game where the enemy hears you, not sees you \u2014 climb for altitude, cut the engine, and glide silently over the listening posts like the Night Witches did.",
       "tags": [
         "game",
         "audio",
@@ -32,7 +32,7 @@
     {
       "slug": "syrinx",
       "title": "Syrinx",
-      "hook": "A daily game where you hear half a real bird's song and must pick which continuation obeys the species' actual grammar — birdwatching turned into a syntax duel.",
+      "hook": "A daily game where you hear half a real bird's song and must pick which continuation obeys the species' actual grammar \u2014 birdwatching turned into a syntax duel.",
       "tags": [
         "puzzle",
         "competitive",
@@ -60,7 +60,7 @@
     {
       "slug": "bucket-brigade",
       "title": "Bucket Brigade",
-      "hook": "Lay leather fire-hose from the canals of 1673 Amsterdam to a burning house — spend the least hose and beat the town's daily par before the flames spread.",
+      "hook": "Lay leather fire-hose from the canals of 1673 Amsterdam to a burning house \u2014 spend the least hose and beat the town's daily par before the flames spread.",
       "tags": [
         "puzzle",
         "logistics",
@@ -102,7 +102,7 @@
     {
       "slug": "deflate",
       "title": "Deflate",
-      "hook": "A daily word game where you write a sentence using five required words and win by making it gzip to the fewest bytes — competitive information theory disguised as Wordle.",
+      "hook": "A daily word game where you write a sentence using five required words and win by making it gzip to the fewest bytes \u2014 competitive information theory disguised as Wordle.",
       "tags": [
         "wordgame",
         "puzzle",
@@ -115,7 +115,7 @@
     {
       "slug": "reef",
       "title": "Reef",
-      "hook": "A gorgeous coral-reef screensaver fed by your homelab's live network flows — and the moment a port scan or beaconing malware shows up, a predator fish arrives to eat the intruder.",
+      "hook": "A gorgeous coral-reef screensaver fed by your homelab's live network flows \u2014 and the moment a port scan or beaconing malware shows up, a predator fish arrives to eat the intruder.",
       "tags": [
         "security",
         "ambient",
@@ -129,7 +129,7 @@
     {
       "slug": "relay",
       "title": "Relay",
-      "hook": "A historical logistics puzzle where you save 17th-century Amsterdam from fire by stringing pumps and flexible leather hose across the canal grid — water pressure bleeds off with every meter and every corner, so you must build the relay chain fast enough to beat the flames spreading block to block.",
+      "hook": "A historical logistics puzzle where you save 17th-century Amsterdam from fire by stringing pumps and flexible leather hose across the canal grid \u2014 water pressure bleeds off with every meter and every corner, so you must build the relay chain fast enough to beat the flames spreading block to block.",
       "tags": [
         "puzzle",
         "browser-game",
@@ -143,7 +143,7 @@
     {
       "slug": "petabyte",
       "title": "Petabyte",
-      "hook": "A desktop monster-collector where every Docker container in your homelab is a little creature whose HP, mood, and evolution stage are wired to its real metrics — restarts deal damage, 100 days of uptime triggers an evolution, and an OOMKill leaves it fainted on your dock.",
+      "hook": "A desktop monster-collector where every Docker container in your homelab is a little creature whose HP, mood, and evolution stage are wired to its real metrics \u2014 restarts deal damage, 100 days of uptime triggers an evolution, and an OOMKill leaves it fainted on your dock.",
       "tags": [
         "sim",
         "homelab",
@@ -157,7 +157,7 @@
     {
       "slug": "stack-effect",
       "title": "Stack Effect",
-      "hook": "An idle city-builder whose economy is throttled by the real CO2 in your room — let the air go stale and your little workers get too dumb to gather resources, so you have to physically crack a window to keep the game growing.",
+      "hook": "An idle city-builder whose economy is throttled by the real CO2 in your room \u2014 let the air go stale and your little workers get too dumb to gather resources, so you have to physically crack a window to keep the game growing.",
       "tags": [
         "idle",
         "quantified-self",
@@ -171,7 +171,7 @@
     {
       "slug": "transpire",
       "title": "Transpire",
-      "hook": "An interactive physics toy of how a 115-meter redwood pulls water to its top branches with no pump at all — crank the heat and dry air until a xylem vessel snaps with an audible embolism.",
+      "hook": "An interactive physics toy of how a 115-meter redwood pulls water to its top branches with no pump at all \u2014 crank the heat and dry air until a xylem vessel snaps with an audible embolism.",
       "tags": [
         "physics",
         "biology",
@@ -199,7 +199,7 @@
     {
       "slug": "loss-leader",
       "title": "Loss Leader",
-      "hook": "An anti-Amazon warehouse-club tycoon where curating FEWER items and selling the rotisserie chicken at a loss is the winning move — you're scored on member renewals, not margin.",
+      "hook": "An anti-Amazon warehouse-club tycoon where curating FEWER items and selling the rotisserie chicken at a loss is the winning move \u2014 you're scored on member renewals, not margin.",
       "tags": [
         "tycoon",
         "sim",
@@ -213,7 +213,7 @@
     {
       "slug": "reaper",
       "title": "Reaper",
-      "hook": "When the Linux OOM killer executes one of your homelab processes, Reaper shows up like a coroner — reconstructs the memory scene at time of death and tells you exactly which knob would have saved it.",
+      "hook": "When the Linux OOM killer executes one of your homelab processes, Reaper shows up like a coroner \u2014 reconstructs the memory scene at time of death and tells you exactly which knob would have saved it.",
       "tags": [
         "homelab",
         "observability",
@@ -241,7 +241,7 @@
     {
       "slug": "cavitation",
       "title": "Cavitation",
-      "hook": "A puzzle game where you pull water up a giant tree under negative pressure — one careless move snaps the water column into an air bubble that locks the vessel forever.",
+      "hook": "A puzzle game where you pull water up a giant tree under negative pressure \u2014 one careless move snaps the water column into an air bubble that locks the vessel forever.",
       "tags": [
         "puzzle",
         "biology",
@@ -255,7 +255,7 @@
     {
       "slug": "uncommitted",
       "title": "Uncommitted",
-      "hook": "A git TUI reskinned as an extraction shooter — your uncommitted working tree is loot you can lose, `commit` is a clean extraction, and a merge conflict is a firefight.",
+      "hook": "A git TUI reskinned as an extraction shooter \u2014 your uncommitted working tree is loot you can lose, `commit` is a clean extraction, and a merge conflict is a firefight.",
       "tags": [
         "game",
         "git",
@@ -282,7 +282,7 @@
     {
       "slug": "legwork",
       "title": "Legwork",
-      "hook": "A Satisfactory-style factory builder whose only raw ore is your real daily step count — sit still and the conveyor belts starve.",
+      "hook": "A Satisfactory-style factory builder whose only raw ore is your real daily step count \u2014 sit still and the conveyor belts starve.",
       "tags": [
         "idle",
         "game",
@@ -296,7 +296,7 @@
     {
       "slug": "home-league",
       "title": "Home League",
-      "hook": "Your Home Assistant dashboard is rich but lonely — Home League turns it into a competition, ranking your energy-per-square-foot against anonymized homes in your exact climate zone.",
+      "hook": "Your Home Assistant dashboard is rich but lonely \u2014 Home League turns it into a competition, ranking your energy-per-square-foot against anonymized homes in your exact climate zone.",
       "tags": [
         "homelab",
         "competitive",
@@ -338,7 +338,7 @@
     {
       "slug": "autograph",
       "title": "Autograph",
-      "hook": "A dependency linter that hunts for the fingerprints of machine authorship — so you can enforce a 'no LLM slop in my supply chain' policy the way you'd enforce a license check.",
+      "hook": "A dependency linter that hunts for the fingerprints of machine authorship \u2014 so you can enforce a 'no LLM slop in my supply chain' policy the way you'd enforce a license check.",
       "tags": [
         "security",
         "provenance",
@@ -352,7 +352,7 @@
     {
       "slug": "foxing",
       "title": "Foxing",
-      "hook": "The anti-Immich: a photo wall where memories you never revisit slowly go grainy and lo-fi — every neglected month silently re-compresses them — until only what you look at stays sharp.",
+      "hook": "The anti-Immich: a photo wall where memories you never revisit slowly go grainy and lo-fi \u2014 every neglected month silently re-compresses them \u2014 until only what you look at stays sharp.",
       "tags": [
         "generative",
         "art",
@@ -366,7 +366,7 @@
     {
       "slug": "stratagem",
       "title": "Stratagem",
-      "hook": "Run your homelab from the menubar by punching in Helldivers-style arrow-key stratagem codes — and the more destructive the command, the longer the code you have to nail.",
+      "hook": "Run your homelab from the menubar by punching in Helldivers-style arrow-key stratagem codes \u2014 and the more destructive the command, the longer the code you have to nail.",
       "tags": [
         "homelab",
         "cli",
@@ -380,7 +380,7 @@
     {
       "slug": "quorum",
       "title": "Quorum",
-      "hook": "A Zachtronics-style puzzle where you ARE the transaction scheduler — hand-route messages between flickering nodes so they all agree, while the network drops, reorders, and partitions your carefully-laid plans.",
+      "hook": "A Zachtronics-style puzzle where you ARE the transaction scheduler \u2014 hand-route messages between flickering nodes so they all agree, while the network drops, reorders, and partitions your carefully-laid plans.",
       "tags": [
         "game",
         "puzzle",
@@ -407,7 +407,7 @@
     {
       "slug": "pattern-of-life",
       "title": "Pattern of Life",
-      "hook": "Point it at your own photo library and it shows you the stalker's-eye view — your home, your route, your kid's school — all reconstructed from the GPS you never knew you were baking into every JPEG.",
+      "hook": "Point it at your own photo library and it shows you the stalker's-eye view \u2014 your home, your route, your kid's school \u2014 all reconstructed from the GPS you never knew you were baking into every JPEG.",
       "tags": [
         "security",
         "privacy",
@@ -421,7 +421,7 @@
     {
       "slug": "pinpoint",
       "title": "Pinpoint",
-      "hook": "You're handed a scatter of 'anonymized' location pings and one job: figure out who this is — their home, their job, their gym, and the thing they'd rather nobody knew.",
+      "hook": "You're handed a scatter of 'anonymized' location pings and one job: figure out who this is \u2014 their home, their job, their gym, and the thing they'd rather nobody knew.",
       "tags": [
         "privacy",
         "puzzle",
@@ -435,7 +435,7 @@
     {
       "slug": "scope-creep",
       "title": "Scope Creep",
-      "hook": "A home-repair sim where the monster isn't a boss — it's the fact that fixing the leak requires replacing the pipe, which requires removing the cabinet, which reveals mold, which requires a permit.",
+      "hook": "A home-repair sim where the monster isn't a boss \u2014 it's the fact that fixing the leak requires replacing the pipe, which requires removing the cabinet, which reveals mold, which requires a permit.",
       "tags": [
         "sim",
         "tycoon",
@@ -449,7 +449,7 @@
     {
       "slug": "corner-case",
       "title": "Corner Case",
-      "hook": "Enter the couch's dimensions and the stairwell landing's angles, and it tells you whether — and exactly how — to tilt it around the turn before you carry it up three flights.",
+      "hook": "Enter the couch's dimensions and the stairwell landing's angles, and it tells you whether \u2014 and exactly how \u2014 to tilt it around the turn before you carry it up three flights.",
       "tags": [
         "logistics",
         "gis",
@@ -477,7 +477,7 @@
     {
       "slug": "remanence",
       "title": "Remanence",
-      "hook": "A Zachtronics-flavored puzzle where you race a cooling RAM chip to pull an encryption key out of decaying bits before they rot to zero — the cold-boot attack as a game.",
+      "hook": "A Zachtronics-flavored puzzle where you race a cooling RAM chip to pull an encryption key out of decaying bits before they rot to zero \u2014 the cold-boot attack as a game.",
       "tags": [
         "puzzle",
         "game",
@@ -560,7 +560,7 @@
     {
       "slug": "conveyor",
       "title": "Conveyor",
-      "hook": "A Satisfactory-style factory builder where the resource on the belts is your paycheck — route income through splitters and buffers into rent, debt, and savings, and watch overflow pile up wherever your budget is actually broken.",
+      "hook": "A Satisfactory-style factory builder where the resource on the belts is your paycheck \u2014 route income through splitters and buffers into rent, debt, and savings, and watch overflow pile up wherever your budget is actually broken.",
       "tags": [
         "budgeting",
         "sim",
@@ -588,7 +588,7 @@
     {
       "slug": "rounding-error",
       "title": "Rounding Error",
-      "hook": "A satirical price-fixing tycoon where you run an egg cartel, collude in smoke-filled Slack channels, and treat every regulator's fine as a line item — because crime pays.",
+      "hook": "A satirical price-fixing tycoon where you run an egg cartel, collude in smoke-filled Slack channels, and treat every regulator's fine as a line item \u2014 because crime pays.",
       "tags": [
         "tycoon",
         "economics",
@@ -628,7 +628,7 @@
     {
       "slug": "yanked",
       "title": "Yanked",
-      "hook": "A searchable graveyard of deleted and yanked packages across npm, PyPI, and crates.io — the diffs, the drama, and the supply-chain history registries would rather you couldn't see.",
+      "hook": "A searchable graveyard of deleted and yanked packages across npm, PyPI, and crates.io \u2014 the diffs, the drama, and the supply-chain history registries would rather you couldn't see.",
       "tags": [
         "security",
         "provenance",
@@ -684,7 +684,7 @@
     {
       "slug": "heartwood",
       "title": "Heartwood",
-      "hook": "A live wallpaper that grows one tree-ring a day from your machine's pulse—wide green rings for good days, charred fire-scars for the outages, a readable cross-section by New Year's.",
+      "hook": "A live wallpaper that grows one tree-ring a day from your machine's pulse\u2014wide green rings for good days, charred fire-scars for the outages, a readable cross-section by New Year's.",
       "tags": [
         "ambient",
         "wallpaper",
@@ -698,7 +698,7 @@
     {
       "slug": "backflow",
       "title": "Backflow",
-      "hook": "The one-tap field app that turns a plumber's annual backflow-preventer test into the exact PDF your water district demands—filed before the truck leaves the curb.",
+      "hook": "The one-tap field app that turns a plumber's annual backflow-preventer test into the exact PDF your water district demands\u2014filed before the truck leaves the curb.",
       "tags": [
         "logistics",
         "ops-tool",
@@ -712,7 +712,7 @@
     {
       "slug": "die-set",
       "title": "Die Set",
-      "hook": "Paint a stiffness map around a soft tube, squeeze, and watch what faceted shape squirts out — the same trick wombats use to poop cubes, quietly repurposed into a real extrusion-die design sandbox.",
+      "hook": "Paint a stiffness map around a soft tube, squeeze, and watch what faceted shape squirts out \u2014 the same trick wombats use to poop cubes, quietly repurposed into a real extrusion-die design sandbox.",
       "tags": [
         "physics",
         "materials",
@@ -726,7 +726,7 @@
     {
       "slug": "overnight",
       "title": "Overnight",
-      "hook": "A self-hosted forum that runs on 1994 physics: your posts sit in an outbox and only sync once a night, so a thread you start today gets its first replies tomorrow — doomscrolling made impossible by design.",
+      "hook": "A self-hosted forum that runs on 1994 physics: your posts sit in an outbox and only sync once a night, so a thread you start today gets its first replies tomorrow \u2014 doomscrolling made impossible by design.",
       "tags": [
         "social",
         "ambient",
@@ -740,7 +740,7 @@
     {
       "slug": "single-crystal",
       "title": "Single Crystal",
-      "hook": "A factory tycoon where you can't buy the recipe for jet-engine turbine blades — you have to burn a hundred failed castings to reverse-engineer a metallurgy nobody will sell you.",
+      "hook": "A factory tycoon where you can't buy the recipe for jet-engine turbine blades \u2014 you have to burn a hundred failed castings to reverse-engineer a metallurgy nobody will sell you.",
       "tags": [
         "tycoon",
         "sim",
@@ -754,7 +754,7 @@
     {
       "slug": "cover-charge",
       "title": "Cover Charge",
-      "hook": "A browser turnstile that makes you pay a real, surge-priced toll to open your own time-wasting sites — and the fee doubles every visit that day.",
+      "hook": "A browser turnstile that makes you pay a real, surge-priced toll to open your own time-wasting sites \u2014 and the fee doubles every visit that day.",
       "tags": [
         "productivity",
         "whimsy",
@@ -768,7 +768,7 @@
     {
       "slug": "setback",
       "title": "Setback",
-      "hook": "Snap your address, say \"6-foot cedar fence\" or \"120 sq ft shed,\" and it tells you in ten seconds whether you need a permit here — before you waste a Saturday at the counter.",
+      "hook": "Snap your address, say \"6-foot cedar fence\" or \"120 sq ft shed,\" and it tells you in ten seconds whether you need a permit here \u2014 before you waste a Saturday at the counter.",
       "tags": [
         "ops-tool",
         "gis",
@@ -782,7 +782,7 @@
     {
       "slug": "underhand",
       "title": "Underhand",
-      "hook": "A daily code-golf duel where you must sneak a backdoor past an AI senior reviewer — the commit only counts if it gets APPROVED *and* the secret payload actually fires.",
+      "hook": "A daily code-golf duel where you must sneak a backdoor past an AI senior reviewer \u2014 the commit only counts if it gets APPROVED *and* the secret payload actually fires.",
       "tags": [
         "puzzle",
         "security",
@@ -796,7 +796,7 @@
     {
       "slug": "axle",
       "title": "Axle",
-      "hook": "A Tetris-meets-DOT-scale puzzle where you pack a big rig with real physics so no single axle goes overweight — because in freight the fine isn't for hauling too much, it's for stacking it wrong.",
+      "hook": "A Tetris-meets-DOT-scale puzzle where you pack a big rig with real physics so no single axle goes overweight \u2014 because in freight the fine isn't for hauling too much, it's for stacking it wrong.",
       "tags": [
         "puzzle",
         "logistics",
@@ -824,7 +824,7 @@
     {
       "slug": "charge-sheet",
       "title": "Charge Sheet",
-      "hook": "A phone ledger that turns an HVAC tech's messy pocketful of refrigerant cylinder readings into the EPA-608 compliance record the law actually requires — QR-scan the tank, punch in pounds, done.",
+      "hook": "A phone ledger that turns an HVAC tech's messy pocketful of refrigerant cylinder readings into the EPA-608 compliance record the law actually requires \u2014 QR-scan the tank, punch in pounds, done.",
       "tags": [
         "ops-tool",
         "automation",
@@ -852,7 +852,7 @@
     {
       "slug": "demake",
       "title": "Demake",
-      "hook": "Every day you're handed one modern game screenshot and 64 black-and-white pixels to recreate it — closest match to the source wins the leaderboard.",
+      "hook": "Every day you're handed one modern game screenshot and 64 black-and-white pixels to recreate it \u2014 closest match to the source wins the leaderboard.",
       "tags": [
         "game",
         "competitive",
@@ -922,7 +922,7 @@
     {
       "slug": "query-duel",
       "title": "Query Duel",
-      "hook": "Two people race to answer the same analytics question in SQL against a real database running entirely in the browser — first correct result wins the round.",
+      "hook": "Two people race to answer the same analytics question in SQL against a real database running entirely in the browser \u2014 first correct result wins the round.",
       "tags": [
         "sql",
         "competitive",
@@ -936,7 +936,7 @@
     {
       "slug": "golden-ears",
       "title": "Golden Ears",
-      "hook": "A daily blind ABX gauntlet that finally settles whether you can actually hear the difference between 128k and lossless — and ranks the whole internet by who can.",
+      "hook": "A daily blind ABX gauntlet that finally settles whether you can actually hear the difference between 128k and lossless \u2014 and ranks the whole internet by who can.",
       "tags": [
         "audio",
         "leaderboard",
@@ -950,7 +950,7 @@
     {
       "slug": "ship-bet",
       "title": "Ship Bet",
-      "hook": "Datamined but unreleased app features become tradable contracts — bet on whether Discord actually ships that hidden button, and when.",
+      "hook": "Datamined but unreleased app features become tradable contracts \u2014 bet on whether Discord actually ships that hidden button, and when.",
       "tags": [
         "prediction-market",
         "markets",
@@ -978,7 +978,7 @@
     {
       "slug": "heckle",
       "title": "Heckle",
-      "hook": "Your Twitch viewers stop watching your survival run and start paying pocket change to spawn the bear that ends it — and the deadliest hecklers get a leaderboard.",
+      "hook": "Your Twitch viewers stop watching your survival run and start paying pocket change to spawn the bear that ends it \u2014 and the deadliest hecklers get a leaderboard.",
       "tags": [
         "survival",
         "multiplayer",
@@ -1006,7 +1006,7 @@
     {
       "slug": "cytosol",
       "title": "Cytosol",
-      "hook": "A Terraria-style 2D dig-and-build game set inside a living cell that grows and divides around you — mine the ER for lipids, defend against a virus, then survive mitosis tearing your world in two.",
+      "hook": "A Terraria-style 2D dig-and-build game set inside a living cell that grows and divides around you \u2014 mine the ER for lipids, defend against a virus, then survive mitosis tearing your world in two.",
       "tags": [
         "game",
         "procedural",
@@ -1033,7 +1033,7 @@
     {
       "slug": "slow-packet",
       "title": "Slow Packet",
-      "hook": "Drop in a .pcap and it renders a Ciechanowski-style scrubbable 3D animation of your own TLS handshake — every ClientHello, key exchange, and ACK you can drag a slider through.",
+      "hook": "Drop in a .pcap and it renders a Ciechanowski-style scrubbable 3D animation of your own TLS handshake \u2014 every ClientHello, key exchange, and ACK you can drag a slider through.",
       "tags": [
         "data-viz",
         "observability",
@@ -1061,7 +1061,7 @@
     {
       "slug": "idle-hands",
       "title": "Idle Hands",
-      "hook": "An idle miner where your real Garmin steps dig the ore, your heart-rate zones smelt it, and — the twist — rest days pay the fattest passive income.",
+      "hook": "An idle miner where your real Garmin steps dig the ore, your heart-rate zones smelt it, and \u2014 the twist \u2014 rest days pay the fattest passive income.",
       "tags": [
         "quantified-self",
         "idle",
@@ -1074,7 +1074,7 @@
     {
       "slug": "nightfall",
       "title": "Nightfall",
-      "hook": "Your git repo has a sanity meter like Don't Starve — leave branches stale, TODOs rotting, and PRs aging, and the dashboard literally goes dark and starts spawning gremlins.",
+      "hook": "Your git repo has a sanity meter like Don't Starve \u2014 leave branches stale, TODOs rotting, and PRs aging, and the dashboard literally goes dark and starts spawning gremlins.",
       "tags": [
         "git",
         "devtool",
@@ -1087,7 +1087,7 @@
     {
       "slug": "last-pressing",
       "title": "Last Pressing",
-      "hook": "A melancholy tycoon where you run the world's last optical-disc factory as the industry goes all-digital around you — squeeze out final print runs before the presses go cold for good.",
+      "hook": "A melancholy tycoon where you run the world's last optical-disc factory as the industry goes all-digital around you \u2014 squeeze out final print runs before the presses go cold for good.",
       "tags": [
         "game",
         "tycoon",
@@ -1101,7 +1101,7 @@
     {
       "slug": "minimal-genome",
       "title": "Minimal Genome",
-      "hook": "An idle sim where you strip a living cell down to its smallest possible genome — cut a gene, watch it divide slower or die, and race toward the leanest self-replicating organism.",
+      "hook": "An idle sim where you strip a living cell down to its smallest possible genome \u2014 cut a gene, watch it divide slower or die, and race toward the leanest self-replicating organism.",
       "tags": [
         "game",
         "idle",
@@ -1115,7 +1115,7 @@
     {
       "slug": "union-label",
       "title": "Union Label",
-      "hook": "A browser extension that, on any Amazon product page, quietly surfaces a worker-owned or co-op-made alternative for the same thing — turning the 22k-product co-op directory into a checkout-time nudge.",
+      "hook": "A browser extension that, on any Amazon product page, quietly surfaces a worker-owned or co-op-made alternative for the same thing \u2014 turning the 22k-product co-op directory into a checkout-time nudge.",
       "tags": [
         "business",
         "marketplace",
@@ -1129,7 +1129,7 @@
     {
       "slug": "back-office",
       "title": "Back Office",
-      "hook": "Drop your Etsy, eBay, or Discogs sales export into a browser tab and get instant pivot-table analytics — the data never leaves your laptop because the whole OLAP engine runs in WebAssembly.",
+      "hook": "Drop your Etsy, eBay, or Discogs sales export into a browser tab and get instant pivot-table analytics \u2014 the data never leaves your laptop because the whole OLAP engine runs in WebAssembly.",
       "tags": [
         "business",
         "saas",
@@ -1143,7 +1143,7 @@
     {
       "slug": "wet-bulb",
       "title": "Wet Bulb",
-      "hook": "A scheduling tool for outdoor crews that turns hyperlocal wet-bulb temperature and heat-mortality curves into a shift-by-shift 'safe to work' calendar — and the paper trail to prove you followed it.",
+      "hook": "A scheduling tool for outdoor crews that turns hyperlocal wet-bulb temperature and heat-mortality curves into a shift-by-shift 'safe to work' calendar \u2014 and the paper trail to prove you followed it.",
       "tags": [
         "business",
         "saas",
@@ -1157,7 +1157,7 @@
     {
       "slug": "sunset-clause",
       "title": "Sunset Clause",
-      "hook": "A watchdog that tracks every movie, game, and album you 'own' digitally and warns you the moment a publisher schedules it for deletion — so you can grab it before Sony does another vanishing act.",
+      "hook": "A watchdog that tracks every movie, game, and album you 'own' digitally and warns you the moment a publisher schedules it for deletion \u2014 so you can grab it before Sony does another vanishing act.",
       "tags": [
         "business",
         "saas",
@@ -1171,7 +1171,7 @@
     {
       "slug": "coin-slot",
       "title": "Coin Slot",
-      "hook": "A honeypot endpoint that answers persistent bots with HTTP 402 Payment Required and, via x402 micropayments, quietly bills the scrapers that keep hammering you — with a leaderboard of who paid.",
+      "hook": "A honeypot endpoint that answers persistent bots with HTTP 402 Payment Required and, via x402 micropayments, quietly bills the scrapers that keep hammering you \u2014 with a leaderboard of who paid.",
       "tags": [
         "security",
         "automation",
@@ -1197,7 +1197,7 @@
     {
       "slug": "woodcut",
       "title": "Woodcut",
-      "hook": "A wallpaper that paints one 1-bit dithered column per day — your local weather and activity encoded in black-and-white — so by December 31 you have a printable full-year woodblock poster.",
+      "hook": "A wallpaper that paints one 1-bit dithered column per day \u2014 your local weather and activity encoded in black-and-white \u2014 so by December 31 you have a printable full-year woodblock poster.",
       "tags": [
         "ambient",
         "generative",
@@ -1211,7 +1211,7 @@
     {
       "slug": "blowby",
       "title": "Blowby",
-      "hook": "A 3D physics puzzle where you assemble a running internal-combustion engine from loose parts — sloppy tolerances make it knock, seize, or blow a gasket in real time.",
+      "hook": "A 3D physics puzzle where you assemble a running internal-combustion engine from loose parts \u2014 sloppy tolerances make it knock, seize, or blow a gasket in real time.",
       "tags": [
         "puzzle",
         "physics",
@@ -1225,7 +1225,7 @@
     {
       "slug": "blocked",
       "title": "Blocked",
-      "hook": "A roguelike deckbuilder generated from your actual calendar — every meeting is a monster with your coworkers' names, every free block is a heal, and Friday is the boss.",
+      "hook": "A roguelike deckbuilder generated from your actual calendar \u2014 every meeting is a monster with your coworkers' names, every free block is a heal, and Friday is the boss.",
       "tags": [
         "deckbuilder",
         "roguelike",
@@ -1267,7 +1267,7 @@
     {
       "slug": "core-sample",
       "title": "Core Sample",
-      "hook": "A menubar app that samples one minute of your room's ambient sound each day and lays down a tree ring of color — after a year you have a drillable core of what your year actually sounded like.",
+      "hook": "A menubar app that samples one minute of your room's ambient sound each day and lays down a tree ring of color \u2014 after a year you have a drillable core of what your year actually sounded like.",
       "tags": [
         "ambient",
         "audio",
@@ -1281,7 +1281,7 @@
     {
       "slug": "deadhead",
       "title": "Deadhead",
-      "hook": "A freight-routing minigame on real OpenStreetMap roads where the enemy isn't traffic — it's the empty miles, and every deadhead leg bleeds your margin.",
+      "hook": "A freight-routing minigame on real OpenStreetMap roads where the enemy isn't traffic \u2014 it's the empty miles, and every deadhead leg bleeds your margin.",
       "tags": [
         "game",
         "gis",
@@ -1295,7 +1295,7 @@
     {
       "slug": "load-bearing",
       "title": "Load Bearing",
-      "hook": "A daily 3D demolition puzzle: remove exactly ONE beam so the whole structure collapses onto the target — par is measured in pieces knocked loose.",
+      "hook": "A daily 3D demolition puzzle: remove exactly ONE beam so the whole structure collapses onto the target \u2014 par is measured in pieces knocked loose.",
       "tags": [
         "puzzle",
         "physics",
@@ -1323,7 +1323,7 @@
     {
       "slug": "streak-plate",
       "title": "Streak Plate",
-      "hook": "A live petri-dish wallpaper where every git commit inoculates a fresh bacterial colony — and every day you skip lets a colony starve and lyse.",
+      "hook": "A live petri-dish wallpaper where every git commit inoculates a fresh bacterial colony \u2014 and every day you skip lets a colony starve and lyse.",
       "tags": [
         "biology",
         "wallpaper",
@@ -1365,7 +1365,7 @@
     {
       "slug": "trackerjack",
       "title": "Trackerjack",
-      "hook": "A tower-defense idle game fed by the ad trackers your browser actually blocks — the creepier your web, the stronger your defenses.",
+      "hook": "A tower-defense idle game fed by the ad trackers your browser actually blocks \u2014 the creepier your web, the stronger your defenses.",
       "tags": [
         "idle",
         "privacy",
@@ -1379,7 +1379,7 @@
     {
       "slug": "splice",
       "title": "Splice",
-      "hook": "Code-golf for life: build the smallest gene set that still grows, divides, and survives — fewer genes, higher score.",
+      "hook": "Code-golf for life: build the smallest gene set that still grows, divides, and survives \u2014 fewer genes, higher score.",
       "tags": [
         "biology",
         "puzzle",
@@ -1393,7 +1393,7 @@
     {
       "slug": "redline",
       "title": "Redline",
-      "hook": "A menubar tachometer that treats your computer as an engine — RPM tracks load, and over a year it quietly logs mileage and nags you when a 'service' is due.",
+      "hook": "A menubar tachometer that treats your computer as an engine \u2014 RPM tracks load, and over a year it quietly logs mileage and nags you when a 'service' is due.",
       "tags": [
         "desktop-toy",
         "ambient",
@@ -1407,7 +1407,7 @@
     {
       "slug": "delist",
       "title": "Delist",
-      "hook": "A prediction market where you bet on which movies, games, and albums vanish from digital stores next — because you never really owned them anyway.",
+      "hook": "A prediction market where you bet on which movies, games, and albums vanish from digital stores next \u2014 because you never really owned them anyway.",
       "tags": [
         "prediction-market",
         "finance",
@@ -1421,7 +1421,7 @@
     {
       "slug": "dither",
       "title": "Dither",
-      "hook": "A daily drawing party where everyone gets 16×16 pixels, one color, and a secret word — then votes on whose crunchy 1-bit doodle best nails the prompt.",
+      "hook": "A daily drawing party where everyone gets 16\u00d716 pixels, one color, and a secret word \u2014 then votes on whose crunchy 1-bit doodle best nails the prompt.",
       "tags": [
         "party-game",
         "art",
@@ -1435,7 +1435,7 @@
     {
       "slug": "tombstone",
       "title": "Tombstone",
-      "hook": "A watchdog that quietly monitors the digital things you 'own' — bought movies, games, ebooks — and the day a storefront memory-holes one, it erects a public tombstone with the receipt.",
+      "hook": "A watchdog that quietly monitors the digital things you 'own' \u2014 bought movies, games, ebooks \u2014 and the day a storefront memory-holes one, it erects a public tombstone with the receipt.",
       "tags": [
         "provenance",
         "security",
@@ -1463,7 +1463,7 @@
     {
       "slug": "lossy",
       "title": "Lossy",
-      "hook": "A daily ABX gauntlet that turns idle music-listening into a bloodsport: given a clip, tell the 128kbps from the lossless — and watch your golden-ears ranking rise or crater.",
+      "hook": "A daily ABX gauntlet that turns idle music-listening into a bloodsport: given a clip, tell the 128kbps from the lossless \u2014 and watch your golden-ears ranking rise or crater.",
       "tags": [
         "audio",
         "competitive",
@@ -1477,7 +1477,7 @@
     {
       "slug": "linkage",
       "title": "Linkage",
-      "hook": "A puzzle game where every level is a real mechanism — an engine, a clock escapement, a differential — that you must wire up correctly, and it only 'clicks' when the physics sim actually runs it.",
+      "hook": "A puzzle game where every level is a real mechanism \u2014 an engine, a clock escapement, a differential \u2014 that you must wire up correctly, and it only 'clicks' when the physics sim actually runs it.",
       "tags": [
         "puzzle",
         "physics",
@@ -1491,7 +1491,7 @@
     {
       "slug": "confluence",
       "title": "Confluence",
-      "hook": "A live wallpaper where one synthetic cell divides once a day — fed by how you actually used your machine — until a year later the colony's shape is a portrait of your year.",
+      "hook": "A live wallpaper where one synthetic cell divides once a day \u2014 fed by how you actually used your machine \u2014 until a year later the colony's shape is a portrait of your year.",
       "tags": [
         "biology",
         "ambient",
@@ -1531,7 +1531,7 @@
     {
       "slug": "jewel-case",
       "title": "Jewel Case",
-      "hook": "Print-and-fold physical box art, spine, and a fake manual for any game in your all-digital Steam library — a papercraft wake for the death of the disc.",
+      "hook": "Print-and-fold physical box art, spine, and a fake manual for any game in your all-digital Steam library \u2014 a papercraft wake for the death of the disc.",
       "tags": [
         "generative",
         "art",
@@ -1544,7 +1544,7 @@
     {
       "slug": "window-box",
       "title": "Window Box",
-      "hook": "A live desktop wallpaper of a little windowsill garden that quietly thrives on your real day — commits water it, deep-focus gives it sun, and doomscrolling brings the aphids.",
+      "hook": "A live desktop wallpaper of a little windowsill garden that quietly thrives on your real day \u2014 commits water it, deep-focus gives it sun, and doomscrolling brings the aphids.",
       "tags": [
         "desktop-toy",
         "idle",
@@ -1628,7 +1628,7 @@
     {
       "slug": "honeymail",
       "title": "Honeymail",
-      "hook": "Give every signup its own disposable alias, then watch which company leaks or sells your address — a courtroom of receipts for spam.",
+      "hook": "Give every signup its own disposable alias, then watch which company leaks or sells your address \u2014 a courtroom of receipts for spam.",
       "tags": [
         "privacy",
         "security",
@@ -1698,7 +1698,7 @@
     {
       "slug": "fallow-2",
       "title": "Fallow",
-      "hook": "A live wallpaper that grows a shared garden only while your machine sits idle — and ranks your longest untouched streak against strangers worldwide.",
+      "hook": "A live wallpaper that grows a shared garden only while your machine sits idle \u2014 and ranks your longest untouched streak against strangers worldwide.",
       "tags": [
         "desktop-toy",
         "ambient",
@@ -1712,7 +1712,7 @@
     {
       "slug": "ballista",
       "title": "Ballista",
-      "hook": "A physics puzzle where you play an ambush spider building spring-loaded snares — wind up potential energy, aim, and release to yank prey off the ground.",
+      "hook": "A physics puzzle where you play an ambush spider building spring-loaded snares \u2014 wind up potential energy, aim, and release to yank prey off the ground.",
       "tags": [
         "puzzle",
         "physics",
@@ -1754,7 +1754,7 @@
     {
       "slug": "ligature",
       "title": "Ligature",
-      "hook": "A tool that bakes any short secret into a custom font, so typing a harmless trigger word suddenly renders a QR code or hidden glyph — steganography you can paste into any chat that supports web fonts.",
+      "hook": "A tool that bakes any short secret into a custom font, so typing a harmless trigger word suddenly renders a QR code or hidden glyph \u2014 steganography you can paste into any chat that supports web fonts.",
       "tags": [
         "steganography",
         "generative",
@@ -1768,7 +1768,7 @@
     {
       "slug": "last-call",
       "title": "Last Call",
-      "hook": "A watch-race league where friends compete to finish movies before streaming services delete them — turning your guilt-ridden watchlist into a scoreboard against the expiry clock.",
+      "hook": "A watch-race league where friends compete to finish movies before streaming services delete them \u2014 turning your guilt-ridden watchlist into a scoreboard against the expiry clock.",
       "tags": [
         "leaderboard",
         "social",
@@ -1781,7 +1781,7 @@
     },
     {
       "slug": "s-ance",
-      "title": "Séance",
+      "title": "S\u00e9ance",
       "hook": "Co-op ghost hunting for your homelab: an incident spawns a haunting, and you and your on-call crew collect readings from spooky instruments until you can name and banish the root cause.",
       "tags": [
         "observability",
@@ -1796,7 +1796,7 @@
     {
       "slug": "knockout",
       "title": "Knockout",
-      "hook": "A roguelike deckbuilder where you snip genes out of a bloated synthetic genome one card at a time, trying to reach the smallest cell that can still grow and divide — before you accidentally kill it.",
+      "hook": "A roguelike deckbuilder where you snip genes out of a bloated synthetic genome one card at a time, trying to reach the smallest cell that can still grow and divide \u2014 before you accidentally kill it.",
       "tags": [
         "roguelike",
         "deckbuilder",
@@ -1835,7 +1835,7 @@
     {
       "slug": "squint",
       "title": "Squint",
-      "hook": "A twitchy reflex arcade where lookalike domains flash for a shrinking half-second and you snap SAFE or FAKE — secretly drilling your eye against real homoglyph phishing.",
+      "hook": "A twitchy reflex arcade where lookalike domains flash for a shrinking half-second and you snap SAFE or FAKE \u2014 secretly drilling your eye against real homoglyph phishing.",
       "tags": [
         "security",
         "arcade",
@@ -1848,7 +1848,7 @@
     {
       "slug": "warren",
       "title": "Warren",
-      "hook": "A dungeon that builds itself one room a night — each real day of your life becomes a tile-mapped chamber you can walk through at year's end.",
+      "hook": "A dungeon that builds itself one room a night \u2014 each real day of your life becomes a tile-mapped chamber you can walk through at year's end.",
       "tags": [
         "ambient",
         "tiled",
@@ -1887,7 +1887,7 @@
     {
       "slug": "preload",
       "title": "Preload",
-      "hook": "A physics sandbox where you cock spring-loaded snares — like the ballista spider or a pull-back toy car — and time their release to catch scurrying critters.",
+      "hook": "A physics sandbox where you cock spring-loaded snares \u2014 like the ballista spider or a pull-back toy car \u2014 and time their release to catch scurrying critters.",
       "tags": [
         "physics",
         "puzzle",
@@ -1913,7 +1913,7 @@
     {
       "slug": "kanji-safari",
       "title": "Kanji Safari",
-      "hook": "Point your phone at Japanese text in the wild, OCR it, and every new kanji gets 'captured' into a personal dex with the source photo as its card art — Pokémon Go meets Monkeytype for learners.",
+      "hook": "Point your phone at Japanese text in the wild, OCR it, and every new kanji gets 'captured' into a personal dex with the source photo as its card art \u2014 Pok\u00e9mon Go meets Monkeytype for learners.",
       "tags": [
         "ocr",
         "japanese",
@@ -1926,7 +1926,7 @@
     {
       "slug": "burn-rate",
       "title": "Burn Rate",
-      "hook": "A management sim where you run a shop of AI temps, route gig tickets to cheap-dumb or pricey-smart models, and watch every real API call debit your play-money budget — Theme Hospital for the '24/7 AI workforce' hype.",
+      "hook": "A management sim where you run a shop of AI temps, route gig tickets to cheap-dumb or pricey-smart models, and watch every real API call debit your play-money budget \u2014 Theme Hospital for the '24/7 AI workforce' hype.",
       "tags": [
         "sim",
         "llm",
@@ -1939,7 +1939,7 @@
     {
       "slug": "warm-boot",
       "title": "Warm Boot",
-      "hook": "A live desktop pet fused to your machine's uptime, where the longer you brag about not rebooting the more bloated and sore-covered it gets — the flex and the punishment are the same number.",
+      "hook": "A live desktop pet fused to your machine's uptime, where the longer you brag about not rebooting the more bloated and sore-covered it gets \u2014 the flex and the punishment are the same number.",
       "tags": [
         "desktop-toy",
         "uptime",
@@ -2004,7 +2004,7 @@
     {
       "slug": "cordon",
       "title": "Cordon",
-      "hook": "A falling-block puzzle where pods rain from the sky and you bin-pack them onto nodes respecting CPU, memory and affinity — Tetris for people who've been paged at 3am.",
+      "hook": "A falling-block puzzle where pods rain from the sky and you bin-pack them onto nodes respecting CPU, memory and affinity \u2014 Tetris for people who've been paged at 3am.",
       "tags": [
         "puzzle",
         "kubernetes",
@@ -2017,7 +2017,7 @@
     {
       "slug": "committed",
       "title": "Committed",
-      "hook": "A daily two-diffs-one-human game where you stake your reputation guessing which code was written by a person and which by an AI — because Godot just decided it can't tell.",
+      "hook": "A daily two-diffs-one-human game where you stake your reputation guessing which code was written by a person and which by an AI \u2014 because Godot just decided it can't tell.",
       "tags": [
         "daily-game",
         "code",
@@ -2056,7 +2056,7 @@
     {
       "slug": "dialect",
       "title": "Dialect",
-      "hook": "Watch a toy programming language mutate across eras as players vote its syntax terser or louder — then scramble to solve puzzles before your own dialect breaks.",
+      "hook": "Watch a toy programming language mutate across eras as players vote its syntax terser or louder \u2014 then scramble to solve puzzles before your own dialect breaks.",
       "tags": [
         "language",
         "systems-toy",
@@ -2082,7 +2082,7 @@
     {
       "slug": "truant",
       "title": "Truant",
-      "hook": "Play the disobedient AI worker sneaking a secret agenda past a deterministic overseer that audits your every move — the mischievous inverse of a bot-babysitter.",
+      "hook": "Play the disobedient AI worker sneaking a secret agenda past a deterministic overseer that audits your every move \u2014 the mischievous inverse of a bot-babysitter.",
       "tags": [
         "stealth-puzzle",
         "agents",
@@ -2095,7 +2095,7 @@
     {
       "slug": "volatile",
       "title": "Volatile",
-      "hook": "A digital pet that lives entirely in your computer's RAM and dies forever the moment you reboot — making 'restart your machine' an act of murder.",
+      "hook": "A digital pet that lives entirely in your computer's RAM and dies forever the moment you reboot \u2014 making 'restart your machine' an act of murder.",
       "tags": [
         "pet-sim",
         "uptime",
@@ -2121,7 +2121,7 @@
     {
       "slug": "frontrun",
       "title": "Frontrun",
-      "hook": "A play-money prediction market laid over Hacker News' /new page — bet karma-coins on which Show HN posts will actually reach the front page before they do.",
+      "hook": "A play-money prediction market laid over Hacker News' /new page \u2014 bet karma-coins on which Show HN posts will actually reach the front page before they do.",
       "tags": [
         "prediction-market",
         "hackernews",
@@ -2134,7 +2134,7 @@
     {
       "slug": "deload",
       "title": "Deload",
-      "hook": "A daily bullet-heaven roguelike where the enemy swarm and your loot are seeded by last night's Garmin recovery — sleep badly and the mobs hit like trucks.",
+      "hook": "A daily bullet-heaven roguelike where the enemy swarm and your loot are seeded by last night's Garmin recovery \u2014 sleep badly and the mobs hit like trucks.",
       "tags": [
         "biometrics",
         "roguelike",
@@ -2160,7 +2160,7 @@
     {
       "slug": "airframe",
       "title": "Airframe",
-      "hook": "Drag real motors, props, and batteries onto a frame and instantly learn whether your homemade octocopter dream actually hovers — or just cooks its ESCs on the bench.",
+      "hook": "Drag real motors, props, and batteries onto a frame and instantly learn whether your homemade octocopter dream actually hovers \u2014 or just cooks its ESCs on the bench.",
       "tags": [
         "sandbox",
         "engineering",
@@ -2173,7 +2173,7 @@
     {
       "slug": "black-bar",
       "title": "Black Bar",
-      "hook": "Papers, Please but you're a government redaction clerk racing a quota to black out every SSN before release — miss one and it leaks, black out too much and the press revolts.",
+      "hook": "Papers, Please but you're a government redaction clerk racing a quota to black out every SSN before release \u2014 miss one and it leaks, black out too much and the press revolts.",
       "tags": [
         "papers-please",
         "privacy",
@@ -2186,7 +2186,7 @@
     {
       "slug": "zero-width-2",
       "title": "Zero Width",
-      "hook": "Godot just banned AI-authored code and Claude Code reportedly marks its output with invisible characters — so this reads that watermark straight out of your pull requests.",
+      "hook": "Godot just banned AI-authored code and Claude Code reportedly marks its output with invisible characters \u2014 so this reads that watermark straight out of your pull requests.",
       "tags": [
         "steganography",
         "ci",
@@ -2238,7 +2238,7 @@
     {
       "slug": "cell-line",
       "title": "Cell Line",
-      "hook": "A puzzle game where you don't build creatures — you coax a blob of pluripotent stem cells into becoming one, by painting the chemical gradients that tell them what to grow into.",
+      "hook": "A puzzle game where you don't build creatures \u2014 you coax a blob of pluripotent stem cells into becoming one, by painting the chemical gradients that tell them what to grow into.",
       "tags": [
         "puzzle",
         "morphogen",
@@ -2264,7 +2264,7 @@
     {
       "slug": "pack-rat",
       "title": "Pack Rat",
-      "hook": "A puzzle game that makes you the compressor UPX automates away — squeeze a wall of bytes smaller by hand, hunting repeats and building your own dictionary, and get scored against gzip.",
+      "hook": "A puzzle game that makes you the compressor UPX automates away \u2014 squeeze a wall of bytes smaller by hand, hunting repeats and building your own dictionary, and get scored against gzip.",
       "tags": [
         "puzzle",
         "compression",
@@ -2277,7 +2277,7 @@
     {
       "slug": "the-tell",
       "title": "The Tell",
-      "hook": "A social-deduction party game where one 'player' in the chat is secretly an LLM — and it's been given a hidden steganographic tell that sharp humans can learn to spot before the vote.",
+      "hook": "A social-deduction party game where one 'player' in the chat is secretly an LLM \u2014 and it's been given a hidden steganographic tell that sharp humans can learn to spot before the vote.",
       "tags": [
         "social-deduction",
         "llm",
@@ -2290,7 +2290,7 @@
     {
       "slug": "slow-roast",
       "title": "Slow Roast",
-      "hook": "An anti-idle game where you're the last barley-tea roaster in the city and every 'efficiency' you unlock quietly ruins the flavor — the only way to win is to refuse to optimize.",
+      "hook": "An anti-idle game where you're the last barley-tea roaster in the city and every 'efficiency' you unlock quietly ruins the flavor \u2014 the only way to win is to refuse to optimize.",
       "tags": [
         "anti-idle",
         "craft",
@@ -2303,7 +2303,7 @@
     {
       "slug": "view-source",
       "title": "View Source",
-      "hook": "A whodunit that ships as a single innocent-looking webpage — every clue lives in the DOM, the network tab, and the CSS you have to un-hide, so the only way to win is to actually live inside Chrome DevTools.",
+      "hook": "A whodunit that ships as a single innocent-looking webpage \u2014 every clue lives in the DOM, the network tab, and the CSS you have to un-hide, so the only way to win is to actually live inside Chrome DevTools.",
       "tags": [
         "devtools",
         "puzzle",
@@ -2342,7 +2342,7 @@
     {
       "slug": "beamline",
       "title": "Beamline",
-      "hook": "A browser puzzle where you place bending and focusing magnets to steer two counter-rotating particle beams around a storage ring and smash them dead-center at a detector — mistune it and you dump the beam into the wall.",
+      "hook": "A browser puzzle where you place bending and focusing magnets to steer two counter-rotating particle beams around a storage ring and smash them dead-center at a detector \u2014 mistune it and you dump the beam into the wall.",
       "tags": [
         "puzzle",
         "physics",
@@ -2355,7 +2355,7 @@
     {
       "slug": "servitor",
       "title": "Servitor",
-      "hook": "A grimdark homelab dashboard where every Docker container is a captured, lobotomized labor-drone you enslave to a machine-task — neglect one and its machine-spirit goes rogue.",
+      "hook": "A grimdark homelab dashboard where every Docker container is a captured, lobotomized labor-drone you enslave to a machine-task \u2014 neglect one and its machine-spirit goes rogue.",
       "tags": [
         "homelab",
         "docker",
@@ -2368,7 +2368,7 @@
     {
       "slug": "terrarium",
       "title": "Terrarium",
-      "hook": "A cozy live wallpaper that renders your actually-running containers as a tiny ecosystem — pods are critters, CPU is weather, a crash is a fainting bug in the moss.",
+      "hook": "A cozy live wallpaper that renders your actually-running containers as a tiny ecosystem \u2014 pods are critters, CPU is weather, a crash is a fainting bug in the moss.",
       "tags": [
         "ambient",
         "homelab",
@@ -2381,7 +2381,7 @@
     {
       "slug": "standing-orders",
       "title": "Standing Orders",
-      "hook": "A dungeon-crawl squad game where you can't control your crew — you write their orders in plain English and watch a language model hilariously, fatally, interpret them.",
+      "hook": "A dungeon-crawl squad game where you can't control your crew \u2014 you write their orders in plain English and watch a language model hilariously, fatally, interpret them.",
       "tags": [
         "autobattler",
         "llm",
@@ -2394,7 +2394,7 @@
     {
       "slug": "sleep-debt",
       "title": "Sleep Debt",
-      "hook": "A morning deckbuilder that deals last night's real sleep stages as your hand — deep sleep mints power cards, restless nights shuffle curses into your deck.",
+      "hook": "A morning deckbuilder that deals last night's real sleep stages as your hand \u2014 deep sleep mints power cards, restless nights shuffle curses into your deck.",
       "tags": [
         "deckbuilder",
         "quantified-self",
@@ -2420,7 +2420,7 @@
     {
       "slug": "upstream",
       "title": "Upstream",
-      "hook": "A Satisfactory-style conveyor puzzle where you build belts to route commits between repos — splitters are branches, mergers are merges, and jams are merge conflicts.",
+      "hook": "A Satisfactory-style conveyor puzzle where you build belts to route commits between repos \u2014 splitters are branches, mergers are merges, and jams are merge conflicts.",
       "tags": [
         "puzzle",
         "git",
@@ -2459,7 +2459,7 @@
     {
       "slug": "mainspring",
       "title": "Mainspring",
-      "hook": "A pull-back toy-car derby where you engineer the spring, gears, and wheels to nail a target distance — a child's toy tuned with the seriousness of a real drivetrain.",
+      "hook": "A pull-back toy-car derby where you engineer the spring, gears, and wheels to nail a target distance \u2014 a child's toy tuned with the seriousness of a real drivetrain.",
       "tags": [
         "physics",
         "game",
@@ -2485,7 +2485,7 @@
     {
       "slug": "evict",
       "title": "Evict",
-      "hook": "kubectl for your browser tabs — a real scheduler with liveness probes and memory-pressure eviction that reaps the 47 zombies you swore you'd read later.",
+      "hook": "kubectl for your browser tabs \u2014 a real scheduler with liveness probes and memory-pressure eviction that reaps the 47 zombies you swore you'd read later.",
       "tags": [
         "extension",
         "kubernetes",
@@ -2498,7 +2498,7 @@
     {
       "slug": "the-director",
       "title": "The Director",
-      "hook": "A roguelike whose difficulty scales with elapsed time — bolted onto your task list, so the monsters get nastier the longer you leave that thing rotting.",
+      "hook": "A roguelike whose difficulty scales with elapsed time \u2014 bolted onto your task list, so the monsters get nastier the longer you leave that thing rotting.",
       "tags": [
         "roguelike",
         "productivity",
@@ -2511,7 +2511,7 @@
     {
       "slug": "cover-band",
       "title": "Cover Band",
-      "hook": "Two functions that share zero characters yet pass the exact same tests — Cover Band breeds a whole family of look-nothing-alike twins from one seed and dares you to spot the doppelgängers.",
+      "hook": "Two functions that share zero characters yet pass the exact same tests \u2014 Cover Band breeds a whole family of look-nothing-alike twins from one seed and dares you to spot the doppelg\u00e4ngers.",
       "tags": [
         "ast",
         "refactor",
@@ -2524,7 +2524,7 @@
     {
       "slug": "exploded-view",
       "title": "Exploded View",
-      "hook": "A puzzle game where you don't build machines — you tear them apart to deduce how they work, pulling a car back to watch the energy path light up through its guts.",
+      "hook": "A puzzle game where you don't build machines \u2014 you tear them apart to deduce how they work, pulling a car back to watch the energy path light up through its guts.",
       "tags": [
         "teardown",
         "physics-puzzle",
@@ -2537,7 +2537,7 @@
     {
       "slug": "mothball",
       "title": "Mothball",
-      "hook": "A reverse city-builder where you don't grow a place — you carefully, expensively dismantle a dead nuclear plant without spreading contamination.",
+      "hook": "A reverse city-builder where you don't grow a place \u2014 you carefully, expensively dismantle a dead nuclear plant without spreading contamination.",
       "tags": [
         "teardown-sim",
         "decommission",
@@ -2576,7 +2576,7 @@
     {
       "slug": "last-round",
       "title": "Last Round",
-      "hook": "A GeoGuessr-meets-Pokémon-Go field game where you race other players to find, photograph, and 'claim' the last practitioners of dying local trades before they close for good.",
+      "hook": "A GeoGuessr-meets-Pok\u00e9mon-Go field game where you race other players to find, photograph, and 'claim' the last practitioners of dying local trades before they close for good.",
       "tags": [
         "field-game",
         "heritage",
@@ -2588,8 +2588,8 @@
     },
     {
       "slug": "signal-s-ance",
-      "title": "Signal Séance",
-      "hook": "A Phasmophobia-style co-op ghost hunt where the ghosts are the real Bluetooth and Wi-Fi devices haunting the room around you, and your 'EMF reader' is honest RF signal strength — so the party game is secretly a wardriving survey tool.",
+      "title": "Signal S\u00e9ance",
+      "hook": "A Phasmophobia-style co-op ghost hunt where the ghosts are the real Bluetooth and Wi-Fi devices haunting the room around you, and your 'EMF reader' is honest RF signal strength \u2014 so the party game is secretly a wardriving survey tool.",
       "tags": [
         "rf-scan",
         "co-op",
@@ -2602,7 +2602,7 @@
     {
       "slug": "brow-morse",
       "title": "Brow Morse",
-      "hook": "A webcam typing race where your only keys are your eyebrows — raise for dot, hold for dash — that's secretly a hands-free accessibility input method wearing a party-game costume.",
+      "hook": "A webcam typing race where your only keys are your eyebrows \u2014 raise for dot, hold for dash \u2014 that's secretly a hands-free accessibility input method wearing a party-game costume.",
       "tags": [
         "webcam",
         "accessibility",
@@ -2628,7 +2628,7 @@
     {
       "slug": "compost",
       "title": "Compost",
-      "hook": "Drop one image into a bin and walk away — an image model quietly re-eats its own output once a day for a year, slowly rotting your picture into abstract humus you can plant a new seed in.",
+      "hook": "Drop one image into a bin and walk away \u2014 an image model quietly re-eats its own output once a day for a year, slowly rotting your picture into abstract humus you can plant a new seed in.",
       "tags": [
         "ambient",
         "generative",
@@ -2641,7 +2641,7 @@
     {
       "slug": "understudy",
       "title": "Understudy",
-      "hook": "A slow apprenticeship game where you learn a dying craft only by watching the last aging master — and any technique you fail to master before they pass is erased from your save forever.",
+      "hook": "A slow apprenticeship game where you learn a dying craft only by watching the last aging master \u2014 and any technique you fail to master before they pass is erased from your save forever.",
       "tags": [
         "slow-game",
         "permadeath",
@@ -2654,7 +2654,7 @@
     {
       "slug": "cutaway",
       "title": "Cutaway",
-      "hook": "Paste a tiny function and watch it explode into an animated mechanical teardown diagram — registers as labeled parts, data flowing through the gears like a wound-up pull-back car.",
+      "hook": "Paste a tiny function and watch it explode into an animated mechanical teardown diagram \u2014 registers as labeled parts, data flowing through the gears like a wound-up pull-back car.",
       "tags": [
         "assembly",
         "teardown",
@@ -2680,7 +2680,7 @@
     {
       "slug": "sublevel",
       "title": "Sublevel",
-      "hook": "An underground garden that only grows while you're away from the keyboard — touch a key and the sunlight burns your mushrooms.",
+      "hook": "An underground garden that only grows while you're away from the keyboard \u2014 touch a key and the sunlight burns your mushrooms.",
       "tags": [
         "idle",
         "focus",
@@ -2693,7 +2693,7 @@
     {
       "slug": "retinue",
       "title": "Retinue",
-      "hook": "Every self-hosted service on your homelab is a Rogue Trader crew member with a personality and a loyalty meter — let one crash and the whole bridge threatens mutiny.",
+      "hook": "Every self-hosted service on your homelab is a Rogue Trader crew member with a personality and a loyalty meter \u2014 let one crash and the whole bridge threatens mutiny.",
       "tags": [
         "homelab",
         "crpg",
@@ -2706,7 +2706,7 @@
     {
       "slug": "gridlock",
       "title": "Gridlock",
-      "hook": "Your week is a city and your calendar is its traffic — book back-to-backs and watch agent-based congestion grind your day to a standstill.",
+      "hook": "Your week is a city and your calendar is its traffic \u2014 book back-to-backs and watch agent-based congestion grind your day to a standstill.",
       "tags": [
         "calendar",
         "traffic-sim",
@@ -2732,7 +2732,7 @@
     {
       "slug": "lobby-boss",
       "title": "Lobby Boss",
-      "hook": "You don't play the match — you ARE the matchmaker, secretly stitching lobbies to keep whales happy, feed newbies winnable games, and quietly bury the sweatlords before everyone rage-quits.",
+      "hook": "You don't play the match \u2014 you ARE the matchmaker, secretly stitching lobbies to keep whales happy, feed newbies winnable games, and quietly bury the sweatlords before everyone rage-quits.",
       "tags": [
         "management-sim",
         "matchmaking",
@@ -2745,7 +2745,7 @@
     {
       "slug": "silent-typer",
       "title": "Silent Typer",
-      "hook": "A co-op party game where you can only 'speak' by tapping words a language model suggests — race to make your partner guess a secret phrase using nothing but a swipe-keyboard's prediction bar.",
+      "hook": "A co-op party game where you can only 'speak' by tapping words a language model suggests \u2014 race to make your partner guess a secret phrase using nothing but a swipe-keyboard's prediction bar.",
       "tags": [
         "party-game",
         "language-model",
@@ -2758,7 +2758,7 @@
     {
       "slug": "star-league",
       "title": "Star League",
-      "hook": "Fantasy sports for GitHub Trending — draft a roster of hot repos on Monday, score points off the week's star velocity and releases, and trash-talk your friends when their AI framework flatlines.",
+      "hook": "Fantasy sports for GitHub Trending \u2014 draft a roster of hot repos on Monday, score points off the week's star velocity and releases, and trash-talk your friends when their AI framework flatlines.",
       "tags": [
         "fantasy",
         "github",
@@ -2771,7 +2771,7 @@
     {
       "slug": "reboot-rings",
       "title": "Reboot Rings",
-      "hook": "Every time you restart your computer, a living tree-ring wallpaper engraves one more ring — a year of your machine's life rendered as cross-cut wood you never sat down to make.",
+      "hook": "Every time you restart your computer, a living tree-ring wallpaper engraves one more ring \u2014 a year of your machine's life rendered as cross-cut wood you never sat down to make.",
       "tags": [
         "ambient",
         "generative",
@@ -2784,7 +2784,7 @@
     {
       "slug": "fallow",
       "title": "Fallow",
-      "hook": "Your friendships are a greenhouse of houseplants that quietly wilt the longer you go without contact — and watering one means actually texting them.",
+      "hook": "Your friendships are a greenhouse of houseplants that quietly wilt the longer you go without contact \u2014 and watering one means actually texting them.",
       "tags": [
         "care-sim",
         "contacts",
@@ -2810,7 +2810,7 @@
     {
       "slug": "house-tartan",
       "title": "House Tartan",
-      "hook": "A tiny daemon weaves one thread of colour per day from your weather or resting heart rate — by New Year's you have a personal tartan you can actually get milled into a scarf.",
+      "hook": "A tiny daemon weaves one thread of colour per day from your weather or resting heart rate \u2014 by New Year's you have a personal tartan you can actually get milled into a scarf.",
       "tags": [
         "generative",
         "ambient",
@@ -2823,7 +2823,7 @@
     {
       "slug": "loot-ledger",
       "title": "Loot Ledger",
-      "hook": "Import your bank statement and every purchase drops as ARPG loot — the $4 coffee is trash-grey common, the surprise vet bill a screen-shaking orange legendary.",
+      "hook": "Import your bank statement and every purchase drops as ARPG loot \u2014 the $4 coffee is trash-grey common, the surprise vet bill a screen-shaking orange legendary.",
       "tags": [
         "arpg",
         "finance",
@@ -2836,7 +2836,7 @@
     {
       "slug": "sanitize",
       "title": "Sanitize",
-      "hook": "A Sekiro-style deflection duel where the attacks flying at you are real SQL-injection payloads and you parry each one with the correct defense in the timing window — miss, and a live in-browser database visibly leaks.",
+      "hook": "A Sekiro-style deflection duel where the attacks flying at you are real SQL-injection payloads and you parry each one with the correct defense in the timing window \u2014 miss, and a live in-browser database visibly leaks.",
       "tags": [
         "security",
         "sql",
@@ -2849,7 +2849,7 @@
     {
       "slug": "thirty-baud",
       "title": "Thirty Baud",
-      "hook": "A party game where you must describe a picture through a maddeningly low-bandwidth channel — no free typing, just nudging a predictive-text tree — so both players finally feel what brain-typing actually costs.",
+      "hook": "A party game where you must describe a picture through a maddeningly low-bandwidth channel \u2014 no free typing, just nudging a predictive-text tree \u2014 so both players finally feel what brain-typing actually costs.",
       "tags": [
         "party",
         "bandwidth",
@@ -2875,7 +2875,7 @@
     {
       "slug": "borrowed-time",
       "title": "Borrowed Time",
-      "hook": "A heist-puzzle where the only way through a locked room is Rust's borrow checker — hand out many photocopies OR the one master key, never both.",
+      "hook": "A heist-puzzle where the only way through a locked room is Rust's borrow checker \u2014 hand out many photocopies OR the one master key, never both.",
       "tags": [
         "puzzle",
         "rust",
@@ -2888,7 +2888,7 @@
     {
       "slug": "cruft",
       "title": "Cruft",
-      "hook": "A roguelike where you're the daemon-god of one server that must stay up — but every extra day of uptime spawns nastier memory-leak slimes, so your high score and your only escape hatch are the exact same button: reboot.",
+      "hook": "A roguelike where you're the daemon-god of one server that must stay up \u2014 but every extra day of uptime spawns nastier memory-leak slimes, so your high score and your only escape hatch are the exact same button: reboot.",
       "tags": [
         "roguelike",
         "sysadmin",
@@ -2901,7 +2901,7 @@
     {
       "slug": "greater-fool",
       "title": "Greater Fool",
-      "hook": "An Among Us-shaped party game where everyone trades a worthless fictional asset up a hidden curve — and the secret Insider, who knows the exact crash round, has to talk you into holding while they dump on your head.",
+      "hook": "An Among Us-shaped party game where everyone trades a worthless fictional asset up a hidden curve \u2014 and the secret Insider, who knows the exact crash round, has to talk you into holding while they dump on your head.",
       "tags": [
         "social-deduction",
         "economics",
@@ -2927,7 +2927,7 @@
     {
       "slug": "move-out",
       "title": "Move Out",
-      "hook": "A warehouse puzzle where you route loans of a crate to workers without ever crossing a mutable path with anything else — you're feeling the Rust borrow checker in your hands instead of reading its error messages.",
+      "hook": "A warehouse puzzle where you route loans of a crate to workers without ever crossing a mutable path with anything else \u2014 you're feeling the Rust borrow checker in your hands instead of reading its error messages.",
       "tags": [
         "puzzle",
         "rust",
@@ -2940,7 +2940,7 @@
     {
       "slug": "leftover-cartel",
       "title": "Leftover Cartel",
-      "hook": "Fridge management skinned as a clandestine supper-club empire — move your product before the heat (mold) busts you.",
+      "hook": "Fridge management skinned as a clandestine supper-club empire \u2014 move your product before the heat (mold) busts you.",
       "tags": [
         "chores",
         "foodwaste",
@@ -3005,7 +3005,7 @@
     {
       "slug": "zone-deck",
       "title": "Zone Deck",
-      "hook": "A roguelike deckbuilder where your deck is minted from your real Garmin/Strava workouts — intervals deal burst damage, rest days are the rare heal cards, and overtraining literally curses your hand.",
+      "hook": "A roguelike deckbuilder where your deck is minted from your real Garmin/Strava workouts \u2014 intervals deal burst damage, rest days are the rare heal cards, and overtraining literally curses your hand.",
       "tags": [
         "deckbuilder",
         "quantified-self",
@@ -3018,7 +3018,7 @@
     {
       "slug": "long-shutdown",
       "title": "Long Shutdown",
-      "hook": "A reverse Cities: Skylines where you don't grow a mega-machine — you spend a decade safely decommissioning a particle collider, honoring real isotope half-lives so waiting becomes a legitimate move.",
+      "hook": "A reverse Cities: Skylines where you don't grow a mega-machine \u2014 you spend a decade safely decommissioning a particle collider, honoring real isotope half-lives so waiting becomes a legitimate move.",
       "tags": [
         "reverse-builder",
         "decommission",
@@ -3044,7 +3044,7 @@
     {
       "slug": "last-maker",
       "title": "Last Maker",
-      "hook": "A cozy 'one more turn' management game where you're the final living practitioner of a genuinely endangered craft — pulled from real Red List data — racing your own old age to train an apprentice before the skill dies with you.",
+      "hook": "A cozy 'one more turn' management game where you're the final living practitioner of a genuinely endangered craft \u2014 pulled from real Red List data \u2014 racing your own old age to train an apprentice before the skill dies with you.",
       "tags": [
         "management-sim",
         "heritage",
@@ -3070,7 +3070,7 @@
     {
       "slug": "silent-sonar",
       "title": "Silent Sonar",
-      "hook": "Turn any laptop into a hand-tracking radar using nothing but its speaker and mic, emitting an inaudible chirp and reading the echo — a $30k mmWave rig reincarnated as a browser tab.",
+      "hook": "Turn any laptop into a hand-tracking radar using nothing but its speaker and mic, emitting an inaudible chirp and reading the echo \u2014 a $30k mmWave rig reincarnated as a browser tab.",
       "tags": [
         "webaudio",
         "sonar",
@@ -3083,7 +3083,7 @@
     {
       "slug": "token-duel",
       "title": "Token Duel",
-      "hook": "Read a real passage word by word and race a language model at guessing what comes next — then find out whether you or the machine is more predictable.",
+      "hook": "Read a real passage word by word and race a language model at guessing what comes next \u2014 then find out whether you or the machine is more predictable.",
       "tags": [
         "llm",
         "wordgame",
@@ -3096,7 +3096,7 @@
     {
       "slug": "endling",
       "title": "Endling",
-      "hook": "Each round names a city and a dying trade — 'the only public bathhouse left' — and you race to pin the single survivor before the timer or your friends do.",
+      "hook": "Each round names a city and a dying trade \u2014 'the only public bathhouse left' \u2014 and you race to pin the single survivor before the timer or your friends do.",
       "tags": [
         "geoguess",
         "osm",
@@ -3109,7 +3109,7 @@
     {
       "slug": "churn-league",
       "title": "Churn League",
-      "hook": "Draft a roster of Steam games and score every week on their real concurrent-player swings — fantasy sports for the internet's attention span.",
+      "hook": "Draft a roster of Steam games and score every week on their real concurrent-player swings \u2014 fantasy sports for the internet's attention span.",
       "tags": [
         "fantasy",
         "steam",
@@ -3122,7 +3122,7 @@
     {
       "slug": "invisible-ink",
       "title": "Invisible Ink",
-      "hook": "Paste any AI-generated text and it x-rays the hidden watermarks — zero-width characters, statistical fingerprints, telltale unicode — then lets you strip them or forge your own.",
+      "hook": "Paste any AI-generated text and it x-rays the hidden watermarks \u2014 zero-width characters, statistical fingerprints, telltale unicode \u2014 then lets you strip them or forge your own.",
       "tags": [
         "ai-forensics",
         "privacy",
@@ -3135,7 +3135,7 @@
     {
       "slug": "drop-rate",
       "title": "Drop Rate",
-      "hook": "Every purchase gets an ARPG loot-rarity roll — that $9 phone cable is a Legendary drop, the $200 gadget you used twice is gray vendor trash.",
+      "hook": "Every purchase gets an ARPG loot-rarity roll \u2014 that $9 phone cable is a Legendary drop, the $200 gadget you used twice is gray vendor trash.",
       "tags": [
         "finance",
         "loot",
@@ -3148,7 +3148,7 @@
     {
       "slug": "beam-dump",
       "title": "Beam Dump",
-      "hook": "Shut down your homelab with the gravitas of CERN powering off the LHC — an orchestrated decommissioning ritual with a physicist's logbook.",
+      "hook": "Shut down your homelab with the gravitas of CERN powering off the LHC \u2014 an orchestrated decommissioning ritual with a physicist's logbook.",
       "tags": [
         "ops",
         "homelab",
@@ -3161,7 +3161,7 @@
     {
       "slug": "belt-budget",
       "title": "Belt Budget",
-      "hook": "Model your paycheck as a Satisfactory factory — income is ore on a conveyor, bills are machines that consume it, savings is the finished product, and you tune belt ratios until the bottleneck stops flashing red.",
+      "hook": "Model your paycheck as a Satisfactory factory \u2014 income is ore on a conveyor, bills are machines that consume it, savings is the finished product, and you tune belt ratios until the bottleneck stops flashing red.",
       "tags": [
         "finance",
         "gamedev",
@@ -3174,7 +3174,7 @@
     {
       "slug": "query-city",
       "title": "Query City",
-      "hook": "Point it at your ad-blocker's DNS log and it grows an isometric city all year — busiest domains become the tallest towers, trackers pile up into a visibly smog-belching industrial district.",
+      "hook": "Point it at your ad-blocker's DNS log and it grows an isometric city all year \u2014 busiest domains become the tallest towers, trackers pile up into a visibly smog-belching industrial district.",
       "tags": [
         "homelab",
         "generative",
@@ -3187,7 +3187,7 @@
     {
       "slug": "tab-warband",
       "title": "Tab Warband",
-      "hook": "Your 87 open tabs are recruits in a Mount & Blade warband — the ones you actually use rise to elite, the ones you neglect lose morale and desert.",
+      "hook": "Your 87 open tabs are recruits in a Mount & Blade warband \u2014 the ones you actually use rise to elite, the ones you neglect lose morale and desert.",
       "tags": [
         "browser",
         "gamedev",
@@ -3200,7 +3200,7 @@
     {
       "slug": "cold-plan",
       "title": "Cold Plan",
-      "hook": "A daily duel where you're shown two SQL queries and must call which one the planner runs faster — before you're allowed to see a single EXPLAIN.",
+      "hook": "A daily duel where you're shown two SQL queries and must call which one the planner runs faster \u2014 before you're allowed to see a single EXPLAIN.",
       "tags": [
         "sql",
         "daily",
@@ -3213,7 +3213,7 @@
     {
       "slug": "windup-grand-prix",
       "title": "Windup Grand Prix",
-      "hook": "You get a fixed spring budget, wind up a pull-back car, and let go — then chase the ghost of everyone who spent their coil differently on the same track.",
+      "hook": "You get a fixed spring budget, wind up a pull-back car, and let go \u2014 then chase the ghost of everyone who spent their coil differently on the same track.",
       "tags": [
         "physics",
         "racer",
@@ -3252,7 +3252,7 @@
     {
       "slug": "knock",
       "title": "Knock",
-      "hook": "Tap any surface and your phone's mic tells you what's behind it — wood, metal, hollow drywall, or a stud — turning a research-grade material radar into a party trick that doubles as a stud finder.",
+      "hook": "Tap any surface and your phone's mic tells you what's behind it \u2014 wood, metal, hollow drywall, or a stud \u2014 turning a research-grade material radar into a party trick that doubles as a stud finder.",
       "tags": [
         "audio",
         "ml",
@@ -3265,7 +3265,7 @@
     {
       "slug": "ghost-server",
       "title": "Ghost Server",
-      "hook": "A defibrillator for dying multiplayer games — find the ones down to their last hundred players and rally the survivors to log in at the same minute.",
+      "hook": "A defibrillator for dying multiplayer games \u2014 find the ones down to their last hundred players and rally the survivors to log in at the same minute.",
       "tags": [
         "steam",
         "multiplayer",
@@ -3356,7 +3356,7 @@
     {
       "slug": "prose-tempo",
       "title": "Prose tempo, read aloud",
-      "hook": "Every English novel rendered as a 30-second TTS waveform, small-multiples wall from 1700 to 2020 — watch the rhythm get clipped.",
+      "hook": "Every English novel rendered as a 30-second TTS waveform, small-multiples wall from 1700 to 2020 \u2014 watch the rhythm get clipped.",
       "tags": [
         "literary-rhythm",
         "audio-waveform-grid",
@@ -3369,7 +3369,7 @@
     {
       "slug": "phase-shift-clock",
       "title": "Migration phase-shift clock",
-      "hook": "Each tracked species on a polar 12-month clock with a ghost of its historical baseline — climate calendar-drift as a visible rotation.",
+      "hook": "Each tracked species on a polar 12-month clock with a ghost of its historical baseline \u2014 climate calendar-drift as a visible rotation.",
       "tags": [
         "phenology-drift",
         "polar-clock",
@@ -3408,7 +3408,7 @@
     {
       "slug": "smell-of-the-news",
       "title": "Word-of-the-year by smell",
-      "hook": "150 years of US newspapers as a sparkline grid of scent adjectives — visualizing what the country's nose was paying attention to.",
+      "hook": "150 years of US newspapers as a sparkline grid of scent adjectives \u2014 visualizing what the country's nose was paying attention to.",
       "tags": [
         "time",
         "data-viz",
@@ -3421,7 +3421,7 @@
     {
       "slug": "aftershock-metronome",
       "title": "Aftershock metronome",
-      "hook": "Every M5+ quake since 1900 as a tick on a clock that spins once per century — seismic clustering becomes a visible heartbeat.",
+      "hook": "Every M5+ quake since 1900 as a tick on a clock that spins once per century \u2014 seismic clustering becomes a visible heartbeat.",
       "tags": [
         "time",
         "animation",
@@ -3434,7 +3434,7 @@
     {
       "slug": "patent-drawing-entropy",
       "title": "Patent drawing entropy",
-      "hook": "Edge density of the lead figure on every US utility patent, 1836 to today — watch drawings get busier through WWII, transistor, software eras.",
+      "hook": "Edge density of the lead figure on every US utility patent, 1836 to today \u2014 watch drawings get busier through WWII, transistor, software eras.",
       "tags": [
         "time",
         "computer-vision",
@@ -3447,7 +3447,7 @@
     {
       "slug": "species-ledger",
       "title": "Species ledger",
-      "hook": "IUCN Red List status changes as a time-axis Sankey — watch taxa migrate LC to EX across the decades, a ledger of loss drawn as flow.",
+      "hook": "IUCN Red List status changes as a time-axis Sankey \u2014 watch taxa migrate LC to EX across the decades, a ledger of loss drawn as flow.",
       "tags": [
         "time",
         "data-viz",
@@ -3460,7 +3460,7 @@
     {
       "slug": "cpi-component-drift",
       "title": "CPI component drift",
-      "hook": "The 200+ items in the CPI basket as a sparkline wall sorted by peak decade — watch payphones and film developing get retired from the cart.",
+      "hook": "The 200+ items in the CPI basket as a sparkline wall sorted by peak decade \u2014 watch payphones and film developing get retired from the cart.",
       "tags": [
         "time",
         "data-viz",
@@ -3472,8 +3472,8 @@
     },
     {
       "slug": "dollar-general-vs-hospital-closures",
-      "title": "Dollar General openings × rural hospital closures",
-      "hook": "County-level 2010–2024: which arrives first, the dollar store or the hospital closure — and does the lead/lag flip by region? One map that ends an argument.",
+      "title": "Dollar General openings \u00d7 rural hospital closures",
+      "hook": "County-level 2010\u20132024: which arrives first, the dollar store or the hospital closure \u2014 and does the lead/lag flip by region? One map that ends an argument.",
       "tags": [
         "spatial-join",
         "data-viz",
@@ -3485,7 +3485,7 @@
     },
     {
       "slug": "light-pollution-vs-astronomy-clubs",
-      "title": "Light pollution × astronomy-club density",
+      "title": "Light pollution \u00d7 astronomy-club density",
       "hook": "NASA VIIRS night-lights under astronomy-club halos: where is the sky still worth driving to, and how far is the drive from where the stargazers actually live?",
       "tags": [
         "spatial-join",
@@ -3512,7 +3512,7 @@
     {
       "slug": "superfund-half-life",
       "title": "Superfund half-life",
-      "hook": "How long does a town remember its poison? Per-region decay curves of home-price recovery near EPA Superfund sites — with the diff-in-diff honesty the finding demands.",
+      "hook": "How long does a town remember its poison? Per-region decay curves of home-price recovery near EPA Superfund sites \u2014 with the diff-in-diff honesty the finding demands.",
       "tags": [
         "spatial-join",
         "data-viz",
@@ -3525,7 +3525,7 @@
     {
       "slug": "cemetery-surname-half-life",
       "title": "Cemetery surname half-life",
-      "hook": "Ethnicity has a half-life measured in headstones: OSM cemetery polygons × ACS surnames reveal the gap between who's buried here and who lives here now.",
+      "hook": "Ethnicity has a half-life measured in headstones: OSM cemetery polygons \u00d7 ACS surnames reveal the gap between who's buried here and who lives here now.",
       "tags": [
         "spatial-join",
         "map",
@@ -3538,7 +3538,7 @@
     {
       "slug": "seen-from-this-bench",
       "title": "What's been seen from this exact bench",
-      "hook": "Paste a lat/lon, get a 50m-radius species pillar of every fungus, lichen, beetle, and bird ever logged at arm's reach — scrubbable by season, shareable as one PNG.",
+      "hook": "Paste a lat/lon, get a 50m-radius species pillar of every fungus, lichen, beetle, and bird ever logged at arm's reach \u2014 scrubbable by season, shareable as one PNG.",
       "tags": [
         "nature",
         "map-pillar",
@@ -3590,7 +3590,7 @@
     {
       "slug": "mineral-inventory-of-one-human",
       "title": "Mineral inventory of one human",
-      "hook": "A body silhouette laced with ribbons to real mines: your iron to Carajás, your phosphorus to Bou Craa — the ~60 elements you're made of, sourced to specific pits on Earth.",
+      "hook": "A body silhouette laced with ribbons to real mines: your iron to Caraj\u00e1s, your phosphorus to Bou Craa \u2014 the ~60 elements you're made of, sourced to specific pits on Earth.",
       "tags": [
         "geology",
         "silhouette-ribbons",
@@ -3603,7 +3603,7 @@
     {
       "slug": "stage-direction-atlas",
       "title": "Stage Direction Atlas",
-      "hook": "Every playwright's stage directions plotted as verb-class density across the play — Beckett is pauses, Mamet is exits, Ibsen is furniture, Shakespeare barely directs. The shape of a playwright's silence.",
+      "hook": "Every playwright's stage directions plotted as verb-class density across the play \u2014 Beckett is pauses, Mamet is exits, Ibsen is furniture, Shakespeare barely directs. The shape of a playwright's silence.",
       "tags": [
         "language",
         "dataviz",
@@ -3616,7 +3616,7 @@
     {
       "slug": "loanword-arrival-map",
       "title": "Loanword Arrival Map",
-      "hook": "English borrowings by donor language and semantic domain, animated across nine centuries — French floods law and food 1200-1400, Italian owns 1600s music, Japanese owns 1980s tech.",
+      "hook": "English borrowings by donor language and semantic domain, animated across nine centuries \u2014 French floods law and food 1200-1400, Italian owns 1600s music, Japanese owns 1980s tech.",
       "tags": [
         "language",
         "dataviz",
@@ -3629,7 +3629,7 @@
     {
       "slug": "scotus-dissent-prosody",
       "title": "SCOTUS Dissent Prosody",
-      "hook": "Do justices write angrier when they lose? Pair each justice's majority vs dissent prosody — sentence length and clause depth — and watch Scalia's dissents spike.",
+      "hook": "Do justices write angrier when they lose? Pair each justice's majority vs dissent prosody \u2014 sentence length and clause depth \u2014 and watch Scalia's dissents spike.",
       "tags": [
         "language",
         "dataviz",
@@ -3642,7 +3642,7 @@
     {
       "slug": "recipe-imperative-drift",
       "title": "Recipe Imperative Drift",
-      "hook": "Cookbooks 1800-2020 measured for imperatives vs prose and step length — pre-1900 recipes are essays, post-1990 they're command-line scripts. Watch the sentence contract.",
+      "hook": "Cookbooks 1800-2020 measured for imperatives vs prose and step length \u2014 pre-1900 recipes are essays, post-1990 they're command-line scripts. Watch the sentence contract.",
       "tags": [
         "language",
         "dataviz",
@@ -3655,7 +3655,7 @@
     {
       "slug": "wikipedia-revert-war-lexicon",
       "title": "Wikipedia Revert-War Lexicon",
-      "hook": "Edit summaries from the most-reverted articles, clustered by rhetorical move — 'per WP:RS,' 'rv vandalism,' 'see talk.' A sociolinguistic map of gatekeeping in four-word phrases.",
+      "hook": "Edit summaries from the most-reverted articles, clustered by rhetorical move \u2014 'per WP:RS,' 'rv vandalism,' 'see talk.' A sociolinguistic map of gatekeeping in four-word phrases.",
       "tags": [
         "language",
         "dataviz",
@@ -3668,7 +3668,7 @@
     {
       "slug": "mohs-the-page",
       "title": "Mohs the Page",
-      "hook": "Drag a diamond across your screen and watch it gouge talc — the scratch IS the encoding.",
+      "hook": "Drag a diamond across your screen and watch it gouge talc \u2014 the scratch IS the encoding.",
       "tags": [
         "perceptual",
         "webgl",
@@ -3681,7 +3681,7 @@
     {
       "slug": "true-spectrum",
       "title": "True Spectrum",
-      "hook": "The honest visible spectrum via CIE 1931 — not a fake rainbow — with animal vision bands and pitch on hover.",
+      "hook": "The honest visible spectrum via CIE 1931 \u2014 not a fake rainbow \u2014 with animal vision bands and pitch on hover.",
       "tags": [
         "perceptual",
         "color-science",
@@ -3707,7 +3707,7 @@
     {
       "slug": "viscosity-drip",
       "title": "Viscosity Drip",
-      "hook": "Eighty liquids dripping at true relative viscosity — scrub a temperature slider and watch honey thin.",
+      "hook": "Eighty liquids dripping at true relative viscosity \u2014 scrub a temperature slider and watch honey thin.",
       "tags": [
         "perceptual",
         "fluid-sim",
@@ -3720,7 +3720,7 @@
     {
       "slug": "piano-in-pascals",
       "title": "Piano in Pascals",
-      "hook": "All 88 keys of a Steinway D with true string length, tension, and SPL — click to hear it and see the string vibrate at f/100.",
+      "hook": "All 88 keys of a Steinway D with true string length, tension, and SPL \u2014 click to hear it and see the string vibrate at f/100.",
       "tags": [
         "perceptual",
         "audio-physics",
@@ -3733,7 +3733,7 @@
     {
       "slug": "overdue",
       "title": "Overdue",
-      "hook": "Personal finance as Dead by Daylight — your fixed monthly bills are the Killer stalking you across the map, and every payday you sprint between generators (rent, card, subscriptions) frantically repairing them before the 1st of the month, when the Killer hooks whatever you didn't finish.",
+      "hook": "Personal finance as Dead by Daylight \u2014 your fixed monthly bills are the Killer stalking you across the map, and every payday you sprint between generators (rent, card, subscriptions) frantically repairing them before the 1st of the month, when the Killer hooks whatever you didn't finish.",
       "tags": [
         "finance",
         "survival-horror",
@@ -3746,7 +3746,7 @@
     {
       "slug": "strata",
       "title": "Strata",
-      "hook": "A geologic core sample of your own machine — every day it silently deposits one 2px sediment layer colored by that day's dominant app, CPU heat, and idle time, so a year later you can read your life as rock strata and mine it for the week everything went sideways.",
+      "hook": "A geologic core sample of your own machine \u2014 every day it silently deposits one 2px sediment layer colored by that day's dominant app, CPU heat, and idle time, so a year later you can read your life as rock strata and mine it for the week everything went sideways.",
       "tags": [
         "ambient",
         "year-long",
@@ -3759,7 +3759,7 @@
     {
       "slug": "freight",
       "title": "Freight",
-      "hook": "Your homelab backups become Euro Truck Simulator long-hauls — every rsync job is a cargo truck grinding down a real-time highway, thermal throttling shows up as driver fatigue, and a failed transfer is a jackknifed rig on the shoulder.",
+      "hook": "Your homelab backups become Euro Truck Simulator long-hauls \u2014 every rsync job is a cargo truck grinding down a real-time highway, thermal throttling shows up as driver fatigue, and a failed transfer is a jackknifed rig on the shoulder.",
       "tags": [
         "homelab",
         "trucking-sim",
@@ -3772,7 +3772,7 @@
     {
       "slug": "echo-field",
       "title": "Echo Field",
-      "hook": "A survival game where you can't tell what anything is made of by looking — you carry a handheld mmWave radar and must read each object's echo signature to know if that berry, that beam, or that pool is food, fuel, or poison.",
+      "hook": "A survival game where you can't tell what anything is made of by looking \u2014 you carry a handheld mmWave radar and must read each object's echo signature to know if that berry, that beam, or that pool is food, fuel, or poison.",
       "tags": [
         "survival",
         "radar-mechanic",
@@ -3785,7 +3785,7 @@
     {
       "slug": "pull",
       "title": "Pull",
-      "hook": "A drag-toy that models a real pull-back car — wind the spring by dragging back (true Hooke's-law energy stored), let go, and watch the stored joules convert to distance across surfaces with honest friction, where over-winding makes it flip instead of go.",
+      "hook": "A drag-toy that models a real pull-back car \u2014 wind the spring by dragging back (true Hooke's-law energy stored), let go, and watch the stored joules convert to distance across surfaces with honest friction, where over-winding makes it flip instead of go.",
       "tags": [
         "physics-toy",
         "drag",
@@ -3798,7 +3798,7 @@
     {
       "slug": "zero-width",
       "title": "Zero-Width",
-      "hook": "A party word-game where one player smuggles a secret word into an ordinary group chat using invisible steganographic characters, and everyone else — reading the same visible text — has to sniff out who's hiding a signal and what it says.",
+      "hook": "A party word-game where one player smuggles a secret word into an ordinary group chat using invisible steganographic characters, and everyone else \u2014 reading the same visible text \u2014 has to sniff out who's hiding a signal and what it says.",
       "tags": [
         "party-game",
         "steganography",
@@ -3811,7 +3811,7 @@
     {
       "slug": "uptime-rings",
       "title": "Uptime Rings",
-      "hook": "A tiny app that turns your Mac's own reboot, sleep, and wake log into a slowly-growing tree-ring mandala — one full ring per year, one scar per crash, so your machine quietly draws a portrait of its own life while you use it.",
+      "hook": "A tiny app that turns your Mac's own reboot, sleep, and wake log into a slowly-growing tree-ring mandala \u2014 one full ring per year, one scar per crash, so your machine quietly draws a portrait of its own life while you use it.",
       "tags": [
         "ambient",
         "generative-art",
@@ -3824,7 +3824,7 @@
     {
       "slug": "sell-the-top",
       "title": "Sell The Top",
-      "hook": "A daily Wordle-style game where you ride a real historical mania — tulips, South Sea, dotcom — and try to sell before the crowd, then get graded against how the actual 1637 crowd behaved.",
+      "hook": "A daily Wordle-style game where you ride a real historical mania \u2014 tulips, South Sea, dotcom \u2014 and try to sell before the crowd, then get graded against how the actual 1637 crowd behaved.",
       "tags": [
         "daily-game",
         "history",
@@ -3837,7 +3837,7 @@
     {
       "slug": "canary-text",
       "title": "Canary Text",
-      "hook": "Paste your group-chat drama through it and each friend gets an invisibly fingerprinted copy — so when it leaks, the zero-width characters rat out exactly who screenshotted.",
+      "hook": "Paste your group-chat drama through it and each friend gets an invisibly fingerprinted copy \u2014 so when it leaks, the zero-width characters rat out exactly who screenshotted.",
       "tags": [
         "steganography",
         "social",
@@ -3850,7 +3850,7 @@
     {
       "slug": "uptime-familiar",
       "title": "Uptime Familiar",
-      "hook": "A menubar creature that feeds on your machine's uptime — it grows fat and strange the longer you refuse to restart, and rebooting is euthanasia.",
+      "hook": "A menubar creature that feeds on your machine's uptime \u2014 it grows fat and strange the longer you refuse to restart, and rebooting is euthanasia.",
       "tags": [
         "menubar",
         "tamagotchi",
@@ -3924,6 +3924,876 @@
       "score": 61,
       "source": "games",
       "created": "2026-06-30"
+    },
+    {
+      "slug": "vow",
+      "title": "Vow",
+      "hook": "Cooperative silent-monastery party game where any voice above a whisper on any phone's mic breaks the vow and fails the round.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "audio",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "semaphore",
+      "title": "Semaphore",
+      "hook": "Party game where phones become signal lights \u2014 coders flash color patterns across the room and decoders read them back.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "browser-game",
+        "whimsy"
+      ],
+      "score": 68,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "dm",
+      "title": "DM",
+      "hook": "Party-scale asymmetric dungeon crawl where one phone is the master map and every other phone is a character sheet blind to the geography.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "roguelike",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "air-traffic",
+      "title": "Air Traffic",
+      "hook": "Cooperative real-time chaos where one phone is the tower radar and every other phone is a pilot flying blind \u2014 land every plane before they collide.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "compass-rose",
+      "title": "Compass Rose",
+      "hook": "A cooperative party game where everyone points their phone at a shared bearing before the timer runs out.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "sensor",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "flash-mob",
+      "title": "Flash Mob",
+      "hook": "Room-scale party game where each phone is one pixel in a synchronized light-show photo.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "browser-game",
+        "whimsy"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "blend-in",
+      "title": "Blend In",
+      "hook": "Per-phone Chameleon: everyone sees the secret cell except one faker who has to bluff their clue.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "first-word",
+      "title": "First Word",
+      "hook": "Per-phone Anomia: when two phones' category cards match, those players race to shout an example first.",
+      "tags": [
+        "party",
+        "game",
+        "competitive",
+        "audio",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "autocomplete-party",
+      "title": "Autocomplete",
+      "hook": "Party word game where a small in-browser LLM's log-perplexity is the scoring engine \u2014 coherent-but-unpredictable completions win.",
+      "tags": [
+        "party",
+        "ai",
+        "wordgame",
+        "browser-game",
+        "competitive"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "stand-in",
+      "title": "Stand-In",
+      "hook": "Improv social deduction where an LLM generates two subtly-different lines, players read theirs with conviction, and the group votes who had which.",
+      "tags": [
+        "party",
+        "ai",
+        "social-deduction",
+        "generative",
+        "competitive"
+      ],
+      "score": 73,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "souvenir",
+      "title": "Souvenir",
+      "hook": "A cooperative party game whose only win condition is the postcard-sized keepsake artifact the group composes together.",
+      "tags": [
+        "party",
+        "cooperative",
+        "whimsy",
+        "generative",
+        "game"
+      ],
+      "score": 68,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "vanish",
+      "title": "Vanish",
+      "hook": "Inverted social deduction \u2014 every player has a hidden persona and wins by staying anonymous while answering personal prompts.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "competitive",
+        "deception",
+        "game"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "uncommon",
+      "title": "Uncommon",
+      "hook": "Inverse Blank Slate: score points by being the ONLY player whose one-word answer nobody else thought of, judged by an in-browser embedding model.",
+      "tags": [
+        "party",
+        "game",
+        "wordgame",
+        "competitive",
+        "ai"
+      ],
+      "score": 71,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "territory",
+      "title": "Territory",
+      "hook": "Silent cooperative turf-claim on a hex board \u2014 no talking (mic-enforced), and any tile two players pick gets voided for both.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "strategy"
+      ],
+      "score": 69,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "second-screen",
+      "title": "Second Screen",
+      "hook": "Ambient betting layer for group movie/TV nights \u2014 a GM types quick prediction prompts, everyone bets privately, reveals land when the show does.",
+      "tags": [
+        "party",
+        "game",
+        "ambient",
+        "social"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "menu-wars",
+      "title": "Menu Wars",
+      "hook": "Everyone privately builds a hypothetical 3-item takeout order from the same menu under a hidden budget, then the group votes Best/Worst/Chaotic.",
+      "tags": [
+        "party",
+        "game",
+        "competitive",
+        "social",
+        "whimsy"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "pass-it",
+      "title": "Pass It",
+      "hook": "Sushi Go-style card drafting reduced to its Platonic form: pick one, and the rest of your hand teleports to the next phone in 100ms.",
+      "tags": [
+        "party",
+        "game",
+        "deckbuilder",
+        "competitive",
+        "strategy"
+      ],
+      "score": 71,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "sealed-bid",
+      "title": "Sealed Bid",
+      "hook": "Silent auction party game \u2014 bid privately on absurd items ('right to name Marc's next pet'); Vickrey-esque twist makes the second-highest bidder pay too.",
+      "tags": [
+        "party",
+        "game",
+        "auction",
+        "competitive",
+        "strategy"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "tuning-fork",
+      "title": "Tuning Fork",
+      "hook": "Cooperative pitch-matching game where players hum until every phone's mic detects the same pitch, locking the group in unison.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 71,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "pass-the-volume",
+      "title": "Pass The Volume",
+      "hook": "Hot-potato party game where the potato lives on whichever phone's mic is picking up the loudest voice \u2014 silence is safe, loudest at zero loses.",
+      "tags": [
+        "party",
+        "game",
+        "competitive",
+        "audio",
+        "sensor"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "split-brain",
+      "title": "Split Brain",
+      "hook": "Cooperative visual puzzle where each phone shows one tile of a cropped image and the group must describe their pieces via a word-budgeted chat to guess the whole.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "distributed-alibi",
+      "title": "Distributed Alibi",
+      "hook": "LLM-generated mystery where each phone privately holds one witness testimony \u2014 some of which are lies \u2014 and the group must jointly identify culprit and liars.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "ai",
+        "mystery"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "loyal-wolf",
+      "title": "Loyal Wolf",
+      "hook": "Werewolf inverted: villagers are secretly bonded to the wolf and must protect them from an LLM-driven Judge that forces night-time accusations.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "ai",
+        "deception"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "hot-kitchen",
+      "title": "Hot Kitchen",
+      "hook": "Overcooked inverted into PvP \u2014 every player runs their own private kitchen on their phone but fights over a shared refrigerator and can sabotage neighbors.",
+      "tags": [
+        "party",
+        "game",
+        "competitive",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "back-channel",
+      "title": "Back-Channel",
+      "hook": "Two secret Agents must smuggle a target phrase to each other through a normal-looking group chat while an Eavesdropper hunts for the covert channel.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "security",
+        "deception"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "sleeper",
+      "title": "Sleeper",
+      "hook": "One player is privately given a codeword they must slip into an unrelated group discussion; everyone else votes on the Sleeper's identity and the smuggled word.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "deception"
+      ],
+      "score": 73,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "tell",
+      "title": "Tell",
+      "hook": "Everyone has a hidden axis for placing words; one player's axis is subtly shifted \u2014 vote out the odd one.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "wordgame",
+        "deception"
+      ],
+      "score": 75,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "splinter",
+      "title": "Splinter",
+      "hook": "Everyone reads a short news article on their phone; one player reads an LLM-altered version \u2014 discuss and vote on who read the different one.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "ai",
+        "deception"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "latency",
+      "title": "Latency",
+      "hook": "The imposter's phone shows the group's task 5 seconds late \u2014 they must fake real-time reactions from context clues.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "deception"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "beacon",
+      "title": "Beacon",
+      "hook": "Everyone shares a map with private points; the imposter's map is subtly different \u2014 ask yes/no questions and lie plausibly.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "deception",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "room-26",
+      "title": "Room 26",
+      "hook": "One player is quietly swapped out for an LLM impersonating them for a round; identify the bot from chat behavior.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "ai",
+        "deception"
+      ],
+      "score": 73,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "chorus",
+      "title": "Chorus",
+      "hook": "Simultaneous one-word answers to a prompt; your score is the size of your matching cluster.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "wire",
+      "title": "Wire",
+      "hook": "Every phone secretly holds a word; the Editor improvises a spoken sentence using each word in order \u2014 reveals type live on all phones.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "wordgame",
+        "whimsy"
+      ],
+      "score": 75,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "metronome",
+      "title": "Metronome",
+      "hook": "Group taps a rhythm together with no visible timing \u2014 coordinate by feel and ambient audio, score on aggregate tightness.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "rhythm",
+        "audio"
+      ],
+      "score": 68,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "cadence",
+      "title": "Cadence",
+      "hook": "Everyone privately scrolls the same deck at their own pace \u2014 group wins if all phones land on the same card at the buzzer.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "same-wavelength",
+      "title": "Same Wavelength",
+      "hook": "Assigned pairs must independently type the same word from a category with zero communication.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 71,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "overload",
+      "title": "Overload",
+      "hook": "Spaceteam in the browser \u2014 commands stream at your phone but the required knob is on somebody else's, so you shout.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "voice",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "bailout",
+      "title": "Bailout",
+      "hook": "One player flies a plane blind; each other player holds one instrument and shouts numbers so the pilot can land.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "voice",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "shift",
+      "title": "Shift",
+      "hook": "A shared machine breaks; each phone holds partial repair steps that only unlock when someone else shouts the right cue.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "voice",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "odds",
+      "title": "Odds",
+      "hook": "Each player privately bets on bold yes/no predictions about the next three minutes in this exact room.",
+      "tags": [
+        "party",
+        "game",
+        "prediction",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "fold",
+      "title": "Fold",
+      "hook": "Poker-style trivia where you bet chips on your confidence \u2014 the humble folder beats the confident wrongster.",
+      "tags": [
+        "party",
+        "game",
+        "trivia",
+        "competitive",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "shortlist",
+      "title": "Shortlist",
+      "hook": "Privately rank 10 items by an objective external truth (IMDB, Trends) \u2014 closest guess wins the reveal.",
+      "tags": [
+        "party",
+        "game",
+        "competitive",
+        "trivia",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "truth-serum",
+      "title": "Truth Serum",
+      "hook": "Anonymous 'who's most likely to X' group vote where the room only ever sees aggregate counts, never individual ballots.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "fingerprint",
+      "title": "Fingerprint",
+      "hook": "Privately confess whether a real-life scenario has happened to you, then the group tries to guess who the confessors are.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "confessional",
+      "title": "Confessional",
+      "hook": "One player gets a private prompt and a secret truth-or-lie coin flip; they narrate aloud while the room votes on whether to believe them.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "deception",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "second-draft",
+      "title": "Second Draft",
+      "hook": "Telephone game where an LLM corrupts the message between every human hop and the full chain of drift is revealed at the end.",
+      "tags": [
+        "party",
+        "game",
+        "ai",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "campfire",
+      "title": "Campfire",
+      "hook": "Cooperative one-word-at-a-time storytelling where no single player can steer the direction and the finished story reveals on every phone.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "wordgame",
+        "wholesome"
+      ],
+      "score": 68,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "redact",
+      "title": "Redact",
+      "hook": "Everyone sees the same paragraph on their phone but with different words blacked out; ask yes/no questions to reconstruct the original as a group.",
+      "tags": [
+        "party",
+        "game",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "echo",
+      "title": "Echo",
+      "hook": "Every player gets a secret LLM-generated persona to fake in a shared group chat; guess who was who at the end.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "ai",
+        "deception"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "foghorn",
+      "title": "Foghorn",
+      "hook": "Every phone plays a low tone; one is subtly off-key \u2014 walk the room and vote on the impostor speaker.",
+      "tags": [
+        "party",
+        "game",
+        "audio",
+        "sensor",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "mirror",
+      "title": "Mirror",
+      "hook": "Pairs stand back-to-back and try to mimic each other's phone tilts blind; gyro delta is the score.",
+      "tags": [
+        "party",
+        "game",
+        "sensor",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 66,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "shake",
+      "title": "Shake",
+      "hook": "Each phone is a different instrument \u2014 kick, hat, cowbell \u2014 and the group shakes a song into existence together.",
+      "tags": [
+        "party",
+        "game",
+        "audio",
+        "rhythm",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "two-rooms",
+      "title": "Two Rooms",
+      "hook": "The group is split into two hidden 'rooms' by phone; each room negotiates one 40-character message per round.",
+      "tags": [
+        "party",
+        "game",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "seance",
+      "title": "S\u00e9ance",
+      "hook": "Ask yes/no questions of an LLM oracle applying a secret rule; reverse-engineer the rule to win.",
+      "tags": [
+        "party",
+        "game",
+        "ai",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "the-nightly",
+      "title": "The Nightly",
+      "hook": "An improv anchor stitches everyone's hidden LLM-generated story cards into a coherent 60-second live newscast.",
+      "tags": [
+        "party",
+        "game",
+        "ai",
+        "whimsy",
+        "cooperative"
+      ],
+      "score": 75,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "rally",
+      "title": "Rally",
+      "hook": "A cooperative rhythm game where one song's note track is scattered across every phone in the room \u2014 miss your notes and the group's combo dies.",
+      "tags": [
+        "party",
+        "game",
+        "rhythm",
+        "cooperative",
+        "audio"
+      ],
+      "score": 74,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "draft-party",
+      "title": "Draft",
+      "hook": "A 15-minute deckbuilder party game where losing a round trades one of your cards into the winner's hand, and card values drift with the group's taste over 8 rounds.",
+      "tags": [
+        "party",
+        "game",
+        "deckbuilder",
+        "competitive",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "combo-chain",
+      "title": "Combo Chain",
+      "hook": "Fighting-game timing as a party game \u2014 each phone gets a private combo string, and landing yours within a second of someone else's triggers a cross-phone chain bonus.",
+      "tags": [
+        "party",
+        "game",
+        "competitive",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "brainstorm",
+      "created": "2026-07-04"
+    },
+    {
+      "slug": "perma-death",
+      "title": "Perma-Death",
+      "hook": "A roguelike survivor party game where losing all your lives turns your phone into a heckler seat with veto power over the living \u2014 last survivor wins.",
+      "tags": [
+        "party",
+        "game",
+        "roguelike",
+        "competitive",
+        "whimsy"
+      ],
+      "score": 73,
+      "source": "brainstorm",
+      "created": "2026-07-04"
     }
   ]
 }
