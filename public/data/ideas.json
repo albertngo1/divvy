@@ -2,6 +2,104 @@
   "lastScan": "2026-07-05",
   "ideas": [
     {
+      "slug": "barbershop",
+      "title": "Barbershop",
+      "hook": "Everyone gets a secret note, spreads to the far corners, and hums at once — each phone privately judges only its own singer, and the chord on the TV only resolves when all of you hold your pitch together.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "planetarium",
+      "title": "Planetarium",
+      "hook": "Point your phone at the walls and ceiling to reveal hidden stars only you can see, then two of you must aim at the exact same instant to draw a constellation across the room.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "overcorrect",
+      "title": "Overcorrect",
+      "hook": "You can see your own gauge sliding into the red but can't touch it — only the person next to you can, if you scream the right instructions fast enough.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "squelch",
+      "title": "Squelch",
+      "hook": "The whole room shares one push-to-talk radio channel, and if two of you key up at once, both messages die in a burst of static.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "waterworks",
+      "title": "Waterworks",
+      "hook": "Choreograph a Bellagio-style dancing-fountain show to your own music — keyframe the jets to the beat, then share the light show as a link.",
+      "tags": [
+        "generative",
+        "music",
+        "audio",
+        "physics"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "out-of-order",
+      "title": "Out of Order",
+      "hook": "Hide a secret message in the ORDER of an ordinary playlist or list — the arrangement looks arbitrary but carries bits, and it survives the re-encoding that kills pixel steganography.",
+      "tags": [
+        "steganography",
+        "privacy",
+        "music",
+        "cli"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "serpentine",
+      "title": "Serpentine",
+      "hook": "A puzzle game where you build freestanding wavy brick walls that stand without buttresses — cover the span, survive the wind, spend the fewest bricks.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "procedural",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-05"
+    },
+    {
       "slug": "outlier",
       "title": "Outlier",
       "hook": "Fill the blank with a word the tiny in-browser LLM would never expect but that humans still accept — you're paid in the model's surprise, and paid nothing if the room says your answer doesn't make sense.",
