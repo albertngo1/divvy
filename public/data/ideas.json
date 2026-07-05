@@ -2,6 +2,128 @@
   "lastScan": "2026-07-05",
   "ideas": [
     {
+      "slug": "on-three",
+      "title": "On Three",
+      "hook": "Some bolts take more than one pair of hands — your phone tells you which latches are yours but never who shares them, so you shout across the room to find your partners and pull on the count.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "read-back",
+      "title": "Read Back",
+      "hook": "A cockpit where the only way to execute a command is to say it back perfectly — and a hidden crewmate holds the true text and decides if your read-back lives or dies.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "skew",
+      "title": "Skew",
+      "hook": "The room cooperatively steers a dot to the exit by privately tapping direction pads — but one player's grid is secretly rotated 90°, so their honest taps keep dragging everyone off course.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "parallax",
+      "title": "Parallax",
+      "hook": "Everyone gives one-word clues about the same target symbol — except one player unknowingly sees the target shifted one seat over, and their sincere clues quietly betray them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "grubstake",
+      "title": "Grubstake",
+      "hook": "A blind race across a hidden ore grid where the one player who can see the board is secretly bankrolling a favorite — and feeding them just enough true tips to make everyone wonder if they're the chosen one or the sucker.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-info",
+        "competitive"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "ground-control",
+      "title": "Ground Control",
+      "hook": "One player is Dispatch, silently steering a room full of blind occupants out of a burning building using nothing but a private arrow on each of their phones.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "hidden-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "sat-gap",
+      "title": "Sat Gap",
+      "hook": "Tells an astrophotographer the exact next 40-minute window when no bright satellite will streak across their framed shot — the clean sky the megaconstellations keep ruining.",
+      "tags": [
+        "astronomy",
+        "saas",
+        "gis",
+        "side-hustle"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "barium-meal",
+      "title": "Barium Meal",
+      "hook": "Everyone gets the same secret briefing — except each copy is invisibly watermarked, so when the mole leaks it, the fingerprint in the leak rats them out.",
+      "tags": [
+        "party-game",
+        "social-deduction",
+        "steganography",
+        "multiplayer"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "deep-plate",
+      "title": "Deep Plate",
+      "hook": "Point it at a downtown of empty 'zombie' towers and it tells developers which ones are physically convertible to apartments — from public building footprints alone.",
+      "tags": [
+        "saas",
+        "gis",
+        "b2b",
+        "business"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
       "slug": "whittle",
       "title": "Whittle",
       "hook": "A grid of twelve tiles, and every tick you all secretly tap ONE to protect — the least-protected tiles die, the board shrinks, and you're silently racing to converge on the single tile everyone else was also guarding, never knowing the vote counts.",
