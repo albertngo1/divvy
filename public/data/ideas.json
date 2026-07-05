@@ -2,6 +2,130 @@
   "lastScan": "2026-07-05",
   "ideas": [
     {
+      "slug": "outlier",
+      "title": "Outlier",
+      "hook": "Fill the blank with a word the tiny in-browser LLM would never expect but that humans still accept — you're paid in the model's surprise, and paid nothing if the room says your answer doesn't make sense.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "llm"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "flatline",
+      "title": "Flatline",
+      "hook": "Smuggle a mandated oddball word into the most boring sentence you can write — the tiny in-browser LLM's perplexity is the judge, and the flattest, least-surprised reading wins.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "llm"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "dibs",
+      "title": "Dibs",
+      "hook": "Five treasures sit on the table, each phone secretly knows how much YOU'D pay for each — call dibs at the same instant, and anything two people grab shatters in their hands.",
+      "tags": [
+        "party",
+        "hidden-info",
+        "bluffing"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "crumple",
+      "title": "Crumple",
+      "hook": "Everyone drives a token across a shared intersection at the same instant, blind to each other's next move — and any two tokens that lunge into the same square both crumple into scrap.",
+      "tags": [
+        "party",
+        "real-time",
+        "spatial-grid"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "long-shot",
+      "title": "Long Shot",
+      "hook": "A short clip plays on the TV while your phone quietly deals you three private prop bets and a payout line that bleeds down every second — lock early on your gut for a fat multiplier, or wait until it's obvious and win almost nothing.",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "video"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "the-usual",
+      "title": "The Usual",
+      "hook": "One friend secretly orders off the menu on the TV while everyone else privately bets chips on what they'll pick — and the weird contrarian read pays ten times the obvious one.",
+      "tags": [
+        "party",
+        "betting",
+        "social-read",
+        "hidden-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "encounter-table",
+      "title": "Encounter Table",
+      "hook": "Tonight it rolls tomorrow's calendar into a roguelike dungeon and hands you your Garmin body-battery as an HP pool — plan which meetings to fight, skip, or flee before you route in.",
+      "tags": [
+        "roguelike",
+        "game",
+        "calendar",
+        "quantified-self"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "screen-test",
+      "title": "Screen Test",
+      "hook": "A daily GeoGuessr for cinema: you're shown a cropped frame of a computer glowing in some movie, and you have to name the film.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "wordgame",
+        "leaderboard"
+      ],
+      "score": 58,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "kill-screen",
+      "title": "Kill Screen",
+      "hook": "An interactive map-and-timeline graveyard of multiplayer games whose servers got switched off — cause of death, delist date, and whether a community keeps the lights on.",
+      "tags": [
+        "timeline",
+        "data-viz",
+        "map",
+        "games"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
       "slug": "shibboleth",
       "title": "Shibboleth",
       "hook": "A Chameleon riff where two secret words split the room — you only see your own, never the split size — and one spoken clue each must out your tribe without outing you to the other.",
