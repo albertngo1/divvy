@@ -2,6 +2,130 @@
   "lastScan": "2026-07-05",
   "ideas": [
     {
+      "slug": "shibboleth",
+      "title": "Shibboleth",
+      "hook": "A Chameleon riff where two secret words split the room — you only see your own, never the split size — and one spoken clue each must out your tribe without outing you to the other.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "quickdraw",
+      "title": "Quickdraw",
+      "hook": "An Anomia-style word duel where your deck is secret and a symbol match ambushes exactly two phones with the enemy's category — while the room watches you scramble over words they can't see.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "pocket",
+      "title": "Pocket",
+      "hook": "One drum kit split across the room — each phone is a single instrument, and the moment you drop your part the whole TV mix audibly loses it.",
+      "tags": [
+        "party",
+        "rhythm",
+        "cooperative",
+        "audio"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "frame-trap",
+      "title": "Frame Trap",
+      "hook": "Buffer a whole three-hit combo in secret on your phone, all fighters lock at once, and the TV replays the tangle of who out-read whom.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "simultaneous-reveal",
+        "hidden-info"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "baffle",
+      "title": "Baffle",
+      "hook": "A cooperative silent orchestra where every phone secretly owes the room a sound at the wrong moment — and you can't talk to coordinate, because talking spends the very noise budget you're all guarding.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "holdout",
+      "title": "Holdout",
+      "hook": "A silent war of attrition where your phone is the referee — the last mouth to stay shut takes the pot, but only you know how much this round is secretly worth to you.",
+      "tags": [
+        "party",
+        "audio",
+        "bluffing",
+        "sensor"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "red-pill",
+      "title": "Red Pill",
+      "hook": "A bluffing puzzle game where you're malware sniffing whether you woke up inside a real machine or an analyst's sandbox — detonate and you win, but detonate in a trap and you're caught.",
+      "tags": [
+        "game",
+        "security",
+        "puzzle",
+        "forensics"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "deadclick",
+      "title": "Deadclick",
+      "hook": "A monitor that clicks every button on your site like a confused user and flags the ghosts — clickable-looking elements with no handler, buttons that double-submit, and buttons quietly doing three jobs at once.",
+      "tags": [
+        "saas",
+        "automation",
+        "devtool",
+        "b2b"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "bookbell",
+      "title": "Bookbell",
+      "hook": "Upload any ebook and it becomes a workout: the app reads the book aloud and calls out reps every time a chosen word, chapter, or event fires — the Moby Dick Workout for your whole shelf.",
+      "tags": [
+        "health",
+        "quantified-self",
+        "writing",
+        "audio"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
       "slug": "corpse-run",
       "title": "Corpse Run",
       "hook": "A same-seed roguelike race where everyone crawls the identical dungeon on their own phone at the same time, permadeath is real, and the instant you die your loot-stuffed corpse drops into everyone else's dungeon as bait with your name on it.",
