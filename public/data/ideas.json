@@ -1,6 +1,131 @@
 {
-  "lastScan": "2026-07-04",
+  "lastScan": "2026-07-05",
   "ideas": [
+    {
+      "slug": "whittle",
+      "title": "Whittle",
+      "hook": "A grid of twelve tiles, and every tick you all secretly tap ONE to protect — the least-protected tiles die, the board shrinks, and you're silently racing to converge on the single tile everyone else was also guarding, never knowing the vote counts.",
+      "tags": [
+        "party",
+        "convergence",
+        "elimination"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "simmer",
+      "title": "Simmer",
+      "hook": "Everyone secretly drags a private slider toward the same spot on a spectrum — you can't see anyone else, only a shared thermometer that glows hotter the tighter the room clusters, and you have to blind-anneal your way to consensus before the timer runs out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "sensor"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "ballast",
+      "title": "Ballast",
+      "hook": "The whole room tilts their phones to keep a listing ship level on the TV, but one secret Ballast is dead weight dragging it under — spot the wobble that doesn't belong.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "social-deduction"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "sightline",
+      "title": "Sightline",
+      "hook": "A silent compass duel where everyone secretly aims their phone at a target across the room, and you only score if you drew a bead on your mark before anyone drew on you.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "hidden-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "deadfall",
+      "title": "Deadfall",
+      "hook": "One player secretly seeds a grid with traps only their phone knows; everyone else races across blind, and every trap you discover is private currency you can hoard or betray to the room.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-info",
+        "asymmetric"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "fathom",
+      "title": "Fathom",
+      "hook": "Nobody can see the whole map — each phone holds one secret slice of the terrain, and one player must fathom the full board from the babble.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "brownout",
+      "title": "Brownout",
+      "hook": "Your budget is a Satisfactory power grid: every subscription is a machine drawing wattage forever, your paycheck is the generator, and if monthly draw tops supply the whole grid browns out.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "sim",
+        "quantified-self"
+      ],
+      "score": 70,
+      "source": "steam",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "contact-call",
+      "title": "Contact Call",
+      "hook": "A daily wordgame where a bird hands you three of its calls and their replies, and you have to crack the grammar well enough to sing back the fourth.",
+      "tags": [
+        "wordgame",
+        "language",
+        "puzzle",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "off-peak",
+      "title": "Off-Peak",
+      "hook": "Run your homelab maintenance window like a PAYDAY heist: case the dependency graph, choose loud or stealth, and get out before the alarms wake the users.",
+      "tags": [
+        "sim",
+        "homelab",
+        "ops-tool",
+        "self-hosted"
+      ],
+      "score": 67,
+      "source": "steam",
+      "created": "2026-07-05"
+    },
     {
       "slug": "dragnet",
       "title": "Dragnet",
