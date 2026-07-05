@@ -2,6 +2,132 @@
   "lastScan": "2026-07-05",
   "ideas": [
     {
+      "slug": "creak",
+      "title": "Creak",
+      "hook": "The map-holder is the house's Ear — they see the whole dark floor plan and a sleeping guard, and can send exactly one silent FREEZE buzz per tick to one blind burglar before their footsteps wake the room.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-info",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "geiger",
+      "title": "Geiger",
+      "hook": "One player is the operator staring at a hidden grid; everyone else is a blind detector whose phone only buzzes faster as they close in on the prize.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "hidden-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "darkroom",
+      "title": "Darkroom",
+      "hook": "Roam the room hunting light and shadow until your phone's lux matches your secret exposure, and the whole group slowly develops a photograph on the TV.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "flinch",
+      "title": "Flinch",
+      "hook": "Red-Light-Green-Light where your own phone is the incorruptible motion snitch that catches the twitch you didn't know you made.",
+      "tags": [
+        "party",
+        "sensor",
+        "physical",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "swerve",
+      "title": "Swerve",
+      "hook": "Write the continuation that most SURPRISES a tiny in-browser LLM — without losing the humans, who privately vote whether you're brilliant or just word salad.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "voting"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "coax",
+      "title": "Coax",
+      "hook": "Secretly steer a tiny in-browser language model into blurting YOUR hidden word as its very next token — no cheating, no saying it.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-info"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "detached-head",
+      "title": "Detached Head",
+      "hook": "A dungeon roguelike where the map IS your real git repository — you crawl the commit DAG, merge conflicts are monsters that block the corridor, and rebase is a spell that collapses a whole branch behind you.",
+      "tags": [
+        "git",
+        "roguelike",
+        "devtool",
+        "procedural"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "overdraft",
+      "title": "Overdraft",
+      "hook": "A Vampire-Survivors bullet-heaven where the endless swarm chewing your HP is your own bank statement — every Netflix, gym, and forgotten SaaS renewal spawns as an enemy, and canceling one is a screen-clearing bomb.",
+      "tags": [
+        "budgeting",
+        "roguelike",
+        "quantified-self",
+        "finance"
+      ],
+      "score": 72,
+      "source": "steam",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "wythe",
+      "title": "Wythe",
+      "hook": "A material-golf puzzle where you snake a serpentine garden wall across a plot and try to fence it in with the fewest bricks — because wavy walls, it turns out, cheat physics.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "procedural",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-05"
+    },
+    {
       "slug": "off-by-one",
       "title": "Off By One",
       "hook": "The whole room silently rearranges a shared row of tiles toward a target order everyone's phone shows them — except the imposter's target is off by a single swap, and their moves are the only tell.",
