@@ -2,6 +2,127 @@
   "lastScan": "2026-07-05",
   "ideas": [
     {
+      "slug": "corpse-run",
+      "title": "Corpse Run",
+      "hook": "A same-seed roguelike race where everyone crawls the identical dungeon on their own phone at the same time, permadeath is real, and the instant you die your loot-stuffed corpse drops into everyone else's dungeon as bait with your name on it.",
+      "tags": [
+        "party",
+        "roguelike",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "hitstop",
+      "title": "Hitstop",
+      "hook": "A two-player fighting game stripped to pure mind-games: both of you secretly assemble a three-move combo on your phone, then the TV animates the clash link by link — no execution skill, all yomi.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "hidden-info"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "failsafe",
+      "title": "Failsafe",
+      "hook": "You own a bomb module you can touch but can't solve — because the rule for it is printed on a teammate's phone, and the whole thing keeps drifting while you argue.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "hearsay",
+      "title": "Hearsay",
+      "hook": "Everyone shouts at once in a ring — your phone shows the word your neighbor must say, but your own mic has to hear you say a word you'll never see.",
+      "tags": [
+        "party",
+        "voice",
+        "audio",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "fine-print",
+      "title": "Fine Print",
+      "hook": "Everyone follows the same rulebook to sort a row of cards — but the imposter's fine print says something subtly different, so their 'mistakes' are perfectly reasonable right up until they're not.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-info",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "redact-2",
+      "title": "Redact",
+      "hook": "You all read the same leaked memo on your phones — except the imposter's copy blacks out different words, so paraphrasing it aloud is a minefield of things you shouldn't know and things you can't see.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-info",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "storyboard",
+      "title": "Storyboard",
+      "hook": "Paste a Postgres EXPLAIN ANALYZE and get back a comic strip — each plan node a little character doing its job — so you can literally see which panel is the villain slowing your query.",
+      "tags": [
+        "sql",
+        "data-viz",
+        "devtool"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "haystack",
+      "title": "Haystack",
+      "hook": "The mischievous opposite of VeraCrypt: instead of hiding one secret behind decoys, it drowns your drive in thousands of statistically perfect fake encrypted vaults so nobody can find the needle — including you.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics"
+      ],
+      "score": 66,
+      "source": "github",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "one-job",
+      "title": "One Job",
+      "hook": "A daily puzzle where every level is a single button that lies about what it does, and you must deduce its real behavior in five pokes or fewer.",
+      "tags": [
+        "browser-game",
+        "puzzle",
+        "whimsy"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
       "slug": "creak",
       "title": "Creak",
       "hook": "The map-holder is the house's Ear — they see the whole dark floor plan and a sleeping guard, and can send exactly one silent FREEZE buzz per tick to one blind burglar before their footsteps wake the room.",
