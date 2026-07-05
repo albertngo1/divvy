@@ -2,6 +2,132 @@
   "lastScan": "2026-07-05",
   "ideas": [
     {
+      "slug": "off-by-one",
+      "title": "Off By One",
+      "hook": "The whole room silently rearranges a shared row of tiles toward a target order everyone's phone shows them — except the imposter's target is off by a single swap, and their moves are the only tell.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-info",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "eyewitness",
+      "title": "Eyewitness",
+      "hook": "Every phone flashes the 'same' crime-scene photo for eight seconds — but one witness saw a subtly-doctored version, and nobody, not even them, is told they're the unreliable one.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-info",
+        "memory"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "last-mile",
+      "title": "Last Mile",
+      "hook": "The map-holder knows where every room is but not what anyone wants; each blind courier knows their own delivery but not where it is — and the only bridge is everyone yelling at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "hidden-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "crosswire",
+      "title": "Crosswire",
+      "hook": "One phone is the maze; the blind pieces steering across it each have their swipe controls secretly rotated a different way, and the lone guide has to figure out everyone's scramble on the fly.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "hidden-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "off-color",
+      "title": "Off-Color",
+      "hook": "You and your two neighbors each secretly pick a color and must all differ — but you can't talk, can't see their pick, and every match flashes red and burns you both.",
+      "tags": [
+        "party",
+        "puzzle",
+        "competitive",
+        "blind-coordination"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "backoff",
+      "title": "Backoff",
+      "hook": "A shared radio channel that only works when exactly one of you talks at a time — the instant two phones grab the same open slot, both jam into static.",
+      "tags": [
+        "party",
+        "real-time",
+        "reaction",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "reweigh",
+      "title": "Reweigh",
+      "hook": "Snap a photo of the pallet, and it computes the freight class, then catches the carrier when they quietly reweigh-and-reclass your shipment for an extra $80.",
+      "tags": [
+        "logistics",
+        "ops-tool",
+        "computer-vision",
+        "b2b"
+      ],
+      "score": 62,
+      "source": "wild",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "trainspotter",
+      "title": "Trainspotter",
+      "hook": "Feed it tonight's astrophotography plan and it tells you, minute by minute, which sub-exposures a Starlink train is about to streak straight through your frame.",
+      "tags": [
+        "astronomy",
+        "gis",
+        "cli",
+        "self-hosted"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
+      "slug": "basecamp",
+      "title": "Basecamp",
+      "hook": "A permadeath climbing roguelike where the mountain is a real one built from USGS elevation data, and the only currency that buys altitude is the vertical gain you actually earn in real life.",
+      "tags": [
+        "roguelike",
+        "quantified-self",
+        "gis",
+        "game"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-05"
+    },
+    {
       "slug": "on-three",
       "title": "On Three",
       "hook": "Some bolts take more than one pair of hands — your phone tells you which latches are yours but never who shares them, so you shout across the room to find your partners and pull on the count.",
