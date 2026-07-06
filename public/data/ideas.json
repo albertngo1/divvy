@@ -2,6 +2,129 @@
   "lastScan": "2026-07-06",
   "ideas": [
     {
+      "slug": "warmer",
+      "title": "Warmer",
+      "hook": "One player buries treasure on a board only they can see; everyone else gropes across it blind with nothing but a private 'warmer/colder' pulse — and the board-keeper gets to secretly move the loot exactly once.",
+      "tags": [
+        "party",
+        "competitive",
+        "hidden-info"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "due-north",
+      "title": "Due North",
+      "hook": "One player sees the whole maze; everyone else is a blind runner inside it whose phone secretly points a different way, so the guide's every shouted 'go up!' scatters the room in four directions at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-info",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "offbeat",
+      "title": "Offbeat",
+      "hook": "Everyone claps along to the same beat in their earbud — except one player's private track is dragging half a beat behind, and the room has to hear who's out of time.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "rhythm"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "understudy-2",
+      "title": "Understudy",
+      "hook": "Your troupe performs a tiny whodunit from private scripts read off your phones — but one actor's script quietly rewrote the facts, and you have to catch the liar before the curtain falls.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "improv",
+        "hidden-role"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "singleton",
+      "title": "Singleton",
+      "hook": "A Just One riff where every clue-giver writes one word blind and simultaneously — duplicates cancel before the guesser sees them — and your phone privately warns you how likely your word is to collide.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "lockstep",
+      "title": "Lockstep",
+      "hook": "The Mind, but every phone hides its own numbers and the whole room must empty their hands in ascending order by held-breath feel alone — no talking, no signals.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "chum",
+      "title": "Chum",
+      "hook": "Inverts a leak-hunting framework: instead of scanning for your real breaches, it manufactures believable fake ones and seeds them where scrapers look, so a decoy phoning home is your earliest breach alarm.",
+      "tags": [
+        "security",
+        "privacy",
+        "self-hosted",
+        "forensics"
+      ],
+      "score": 69,
+      "source": "github",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "siteswap",
+      "title": "Siteswap",
+      "hook": "A browser puzzle where you compose juggling in mathematical notation and a two-handed physics sim throws it back at you — solve for a valid 4-ball pattern with exactly one gap.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "browser-game",
+        "procedural"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "muddle",
+      "title": "Muddle",
+      "hook": "The evil twin of a linter: it rewrites your code to be behavior-identical but comprehension-poison to coding agents, while your test suite stays green.",
+      "tags": [
+        "security",
+        "devtool",
+        "llm",
+        "privacy"
+      ],
+      "score": 73,
+      "source": "arxiv",
+      "created": "2026-07-06"
+    },
+    {
       "slug": "gag-order",
       "title": "Gag Order",
       "hook": "Every second of silence banks you points while your own phone privately feeds you personalized dares designed to make you crack — and the mic is the referee counting your slip.",
