@@ -2,6 +2,132 @@
   "lastScan": "2026-07-06",
   "ideas": [
     {
+      "slug": "swell",
+      "title": "Swell",
+      "hook": "The room has to sing one rising-and-falling volume curve together — but only your phone knows which swells are yours to carry and which to shut up for.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "switchboard",
+      "title": "Switchboard",
+      "hook": "One frantic operator at a plugboard tries to patch three shouting callers to the right line — but every jack looks the same, and they all light up at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "clash",
+      "title": "Clash",
+      "hook": "A four-piece band that must fill every beat of a bar with exactly one instrument each — but you tap in private, and landing on the same beat as someone else clangs and voids you both.",
+      "tags": [
+        "party",
+        "rhythm",
+        "anti-coordination",
+        "audio"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "setback-2",
+      "title": "Setback",
+      "hook": "A blind, real-time land-grab where you greedily grow your plot across a field you can't see — and any patch two players both claim is deleted from BOTH of you.",
+      "tags": [
+        "party",
+        "real-time",
+        "anti-coordination",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "quarry",
+      "title": "Quarry",
+      "hook": "One player hides a monster only their phone can see and moves it every turn, while the blind hunters each feel a private heartbeat that pounds faster the closer their own token creeps — and they have to drop the net on the same square, together.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-info",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "usher",
+      "title": "Usher",
+      "hook": "One player's phone is a pitch-black manor only they can see, and they sweep a lantern that lights just one blind guest's phone at a time — so everyone else must feel their way to the ballroom before the candle gutters.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-info",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "anchorage",
+      "title": "Anchorage",
+      "hook": "A daily prediction market on real cargo ships: bet which of two vessels clears the harbor first using live AIS tracks, and turn idle ship-watching into a bloodsport.",
+      "tags": [
+        "prediction-market",
+        "map",
+        "leaderboard",
+        "logistics"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "unlabeled",
+      "title": "Unlabeled",
+      "hook": "A daily 'name that chart' — we strip the title and axis labels off a real published graph and you race the world to guess what it actually plots.",
+      "tags": [
+        "data-viz",
+        "party-game",
+        "leaderboard",
+        "competitive"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "reclass",
+      "title": "Reclass",
+      "hook": "Snap a pallet, get its NMFC freight class in seconds, and dodge the carrier's reweigh-and-reclass surprise fee before your BOL ever ships.",
+      "tags": [
+        "logistics",
+        "ops-tool",
+        "computer-vision",
+        "automation"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-07-06"
+    },
+    {
       "slug": "warden",
       "title": "Warden",
       "hook": "One warden watches the whole prison from above while blindfolded inmates grope cell by cell toward the fence — and every tick the warden drops one searchlight on the spot they bet a body is about to be.",
