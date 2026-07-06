@@ -2,6 +2,132 @@
   "lastScan": "2026-07-06",
   "ideas": [
     {
+      "slug": "table-stakes",
+      "title": "Table Stakes",
+      "hook": "A ridiculous restaurant menu fills the TV and every phone secretly does two things at once — orders the one dish they'd actually eat, and bets chips on what the whole table will order.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "social",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "watch-time",
+      "title": "Watch Time",
+      "hook": "The TV auto-plays a doomscroll feed while every phone secretly holds a hidden \"keep watching\" button — and you've already bet chips on which clip the room won't be able to look away from.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "attention",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "pace-count",
+      "title": "Pace Count",
+      "hook": "Screen dark, you cross the room to a secret spot guided only by your phone buzzing turn-by-turn — three players dead-reckoning three private routes at once.",
+      "tags": [
+        "party",
+        "sensor",
+        "physical",
+        "cooperative"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "lodestone",
+      "title": "Lodestone",
+      "hook": "Every phone becomes a private metal detector and the real iron in your room — radiator, fridge, table legs — is the treasure map you sweep to fill in.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "open-outcry",
+      "title": "Open Outcry",
+      "hook": "A commodities pit where everyone shouts trades across the room at once, each phone hides a different hand and a secret order, and a deal only clears when two phones slam down matching terms in the same breath.",
+      "tags": [
+        "party",
+        "voice",
+        "negotiation",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "squawk",
+      "title": "Squawk",
+      "hook": "One player privately reads the radar while the others fly blind in their own cockpits, and the only way to keep two planes from touching is to talk them down with letter-perfect readback.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "tarpit",
+      "title": "Tarpit",
+      "hook": "A tower-defense dashboard where the creeps are real bots crawling your server for exposed secrets, and your towers are the fake .git/config and .env honeypots you plant to catch them.",
+      "tags": [
+        "security",
+        "self-hosted",
+        "homelab",
+        "game"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "word-bank",
+      "title": "Word Bank",
+      "hook": "An idle tycoon where every foreign-vocab flashcard you actually review deposits into a compounding 'cognitive reserve' account that's forever draining against the clock of aging.",
+      "tags": [
+        "idle",
+        "quantified-self",
+        "language",
+        "health"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "sludge",
+      "title": "Sludge",
+      "hook": "A point-and-click escape room where every button lies — unsubscribe, delete your account, or decline the offer, but the interface is fighting you the whole way.",
+      "tags": [
+        "browser-game",
+        "puzzle",
+        "roguelike",
+        "privacy"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-06"
+    },
+    {
       "slug": "warmer",
       "title": "Warmer",
       "hook": "One player buries treasure on a board only they can see; everyone else gropes across it blind with nothing but a private 'warmer/colder' pulse — and the board-keeper gets to secretly move the loot exactly once.",
