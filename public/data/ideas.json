@@ -2,6 +2,130 @@
   "lastScan": "2026-07-06",
   "ideas": [
     {
+      "slug": "highroll",
+      "title": "Highroll",
+      "hook": "Steal the auto-battler shop phase: everyone frantically snipes units from one shared, scarce river on their own phone, hides their comp, then watches the secret squads collide on the TV.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-info",
+        "auto-battler"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "enrage",
+      "title": "Enrage",
+      "hook": "A living-room MMO raid where the boss screams STACK—SPREAD—MOVE and every phone secretly tells only YOU where to stand before the enrage timer wipes the party.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "hidden-info"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "strikeout",
+      "title": "Strikeout",
+      "hook": "Everyone secretly writes a one-word clue for the guesser at the same time — but any two clues that match get struck out and vanish, so the guesser only ever sees the words nobody else thought of.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "nerve",
+      "title": "Nerve",
+      "hook": "A wordless co-op where every phone hides one secret number and the whole room must play them onto the shared pile in ascending order — no talking, just nerve and timing.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "gantry",
+      "title": "Gantry",
+      "hook": "You each hold one control of a single crane — left/right, forward/back, grab — and only your neighbor can see where the load actually needs to go, so you steer it entirely by talking.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "dead-air",
+      "title": "Dead Air",
+      "hook": "One shared radio channel, everyone holds private traffic to pass, and the instant two of you key up at once you both lose the message in a screech of static.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "buffer-zone",
+      "title": "Buffer Zone",
+      "hook": "A tower-defense budgeting game where your recurring bills are timed enemy waves that hit on their real due dates, and your cash buffer is the wall you build to survive each month without breaching zero.",
+      "tags": [
+        "budgeting",
+        "finance",
+        "tycoon",
+        "habits"
+      ],
+      "score": 62,
+      "source": "wild",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "backwater",
+      "title": "Backwater",
+      "hook": "A competitive scavenger hunt for the internet's least-viewed but still genuinely-watchable videos, where your score is the inverse of the view count you can defend.",
+      "tags": [
+        "competitive",
+        "social",
+        "leaderboard",
+        "wild"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "stack-rank",
+      "title": "Stack Rank",
+      "hook": "Your homelab's real Docker containers become auto-battler units on a bench, drafted for synergies from their actual compose relationships and thrown into a synthetic-load fight that quietly reveals your resource contention.",
+      "tags": [
+        "homelab",
+        "docker",
+        "competitive",
+        "observability"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-06"
+    },
+    {
       "slug": "spread",
       "title": "Spread",
       "hook": "The psychic sees the hidden target on the spectrum and gives one clue — then everyone places their OWN dial in secret, and the reveal is how wildly the room diverged.",
