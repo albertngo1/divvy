@@ -2,6 +2,130 @@
   "lastScan": "2026-07-06",
   "ideas": [
     {
+      "slug": "spread",
+      "title": "Spread",
+      "hook": "The psychic sees the hidden target on the spectrum and gives one clue — then everyone places their OWN dial in secret, and the reveal is how wildly the room diverged.",
+      "tags": [
+        "party",
+        "browser-game",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "ditto",
+      "title": "Ditto",
+      "hook": "Everyone writes one secret clue for the same word — but any two clues that mean the same thing both burn before the guesser ever sees them.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "roll-call",
+      "title": "Roll Call",
+      "hook": "A substitute-teacher's-nightmare voice scramble where your phone never buzzes — you have to realize from your private inventory that the summons means YOU and sound off before someone else claims it or the room falls silent.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 65,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "party-line",
+      "title": "Party Line",
+      "hook": "A hidden call-and-response chain where the only wire connecting players is the air — your phone never says it's your turn; you fire only when you HEAR your secret cue shouted across the room.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "swatch",
+      "title": "Swatch",
+      "hook": "Your phone camera hands you a secret paint chip and the whole room is your palette — race to point it at the one real object that matches before your rivals fill the mosaic.",
+      "tags": [
+        "party",
+        "sensor",
+        "camera",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "sonar",
+      "title": "Sonar",
+      "hook": "Every phone hums its own tone and eavesdrops on the others, so the room becomes a living distance graph you have to fix by silently rearranging your bodies.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "trawl",
+      "title": "Trawl",
+      "hook": "Cast a line into cellular-automata rule-space and reel in living creatures nobody has ever seen, then breed the keepers into a bestiary.",
+      "tags": [
+        "cellular-automata",
+        "generative",
+        "procedural",
+        "whimsy"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "set-dressing",
+      "title": "Set Dressing",
+      "hook": "A daily Wordle for film nerds: guess the movie from a wobbling CRT shot of its fake computer interface.",
+      "tags": [
+        "game",
+        "puzzle",
+        "browser-game",
+        "leaderboard"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "null-route",
+      "title": "Null Route",
+      "hook": "A tower-defense you play against your own home network — live connections march down the lane and you place firewall towers to stop the bad ones.",
+      "tags": [
+        "game",
+        "homelab",
+        "observability",
+        "security"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-06"
+    },
+    {
       "slug": "graze",
       "title": "Graze",
       "hook": "Everyone tilts their phone through their OWN private bullet-hell, and skimming bullets dangerously close is exactly how you load a barrage to dump into a rival's screen.",
