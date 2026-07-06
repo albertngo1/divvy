@@ -1,6 +1,125 @@
 {
-  "lastScan": "2026-07-05",
+  "lastScan": "2026-07-06",
   "ideas": [
+    {
+      "slug": "graze",
+      "title": "Graze",
+      "hook": "Everyone tilts their phone through their OWN private bullet-hell, and skimming bullets dangerously close is exactly how you load a barrage to dump into a rival's screen.",
+      "tags": [
+        "party",
+        "sensor",
+        "arcade"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "reroll",
+      "title": "Reroll",
+      "hook": "A blind auto-battler where every phone gets its own secret shop drawn from one shared unit pool — so buying the last Knight quietly starves everyone else's rolls.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "drafting"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "quilt",
+      "title": "Quilt",
+      "hook": "The room paints one continuous mural split into panels — one per phone — and your lines have to flow across the seams into your neighbors' work, with the finished framed image as the only prize everyone keeps.",
+      "tags": [
+        "party",
+        "cooperative",
+        "drawing",
+        "real-time"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "committee",
+      "title": "Committee",
+      "hook": "The room secretly co-writes one thank-you note that has to read like a single person wrote it — you win only if the letter gets sealed as a keepsake and nobody fingers your line as the odd voice.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "social-deduction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "kickline",
+      "title": "Kickline",
+      "hook": "A chorus line where everyone follows a private routine on their phone — but one dancer's card has a single move swapped, and the whole game is spotting who breaks formation.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "physical"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity",
+      "hook": "Everyone's a film continuity supervisor reviewing the same frame out loud — except the imposter is staring at a subtly-wrong take and doesn't know which prop is off.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-info"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "above-the-fold",
+      "title": "Above the Fold",
+      "hook": "A satirical browser game where you ARE a button whose one job is to stay clickable, dodging cookie walls, newsletter modals, and layout reflows that conspire to bury you.",
+      "tags": [
+        "browser-game",
+        "whimsy",
+        "generative"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "scrap-run",
+      "title": "Scrap Run",
+      "hook": "Lethal Company's ratcheting quota-or-die loop transplanted onto decluttering: the \"Company\" sets a rising weekly resale quota, and you scavenge your own house to hit it before it fires you.",
+      "tags": [
+        "chores",
+        "budgeting",
+        "game"
+      ],
+      "score": 67,
+      "source": "steam",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "dyno",
+      "title": "Dyno",
+      "hook": "A Zachtronics-style browser puzzle where you hand-edit an engine's 3D fuel and spark maps against a deterministic physics sim to hit a power target without knocking it to pieces.",
+      "tags": [
+        "puzzle",
+        "sim",
+        "game"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-06"
+    },
     {
       "slug": "barbershop",
       "title": "Barbershop",
