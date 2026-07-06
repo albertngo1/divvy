@@ -2,6 +2,131 @@
   "lastScan": "2026-07-06",
   "ideas": [
     {
+      "slug": "gag-order",
+      "title": "Gag Order",
+      "hook": "Every second of silence banks you points while your own phone privately feeds you personalized dares designed to make you crack — and the mic is the referee counting your slip.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "low-talker",
+      "title": "Low Talker",
+      "hook": "Whisper a secret word to your target across the room at exactly the right tiny volume — too loud and your own phone snitches, too quiet and the message dies.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "claim-jump",
+      "title": "Claim Jump",
+      "hook": "Everyone secretly stakes plots on the same gold map at once — but any plot two of you grab gets burned to nothing and fines you both.",
+      "tags": [
+        "party",
+        "spatial",
+        "hidden-info"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "deadlock-2",
+      "title": "Deadlock",
+      "hook": "Three trains, one single-track chokepoint, nobody can see anyone else's intentions — go at the same tick and you both derail.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "cash-out",
+      "title": "Cash Out",
+      "hook": "A 60-second clip plays on the TV and every phone is a live sportsbook — bet on what happens next, ride your streak, and pray you cash out before the room busts you.",
+      "tags": [
+        "party",
+        "press-your-luck",
+        "prediction",
+        "realtime"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "split-the-check",
+      "title": "Split the Check",
+      "hook": "A dinner menu becomes a hidden-info betting market where your own secret order is the one card no one else can see.",
+      "tags": [
+        "party",
+        "hidden-info",
+        "social",
+        "bluffing"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "burn-multiple",
+      "title": "Burn Multiple",
+      "hook": "An idle tycoon where you run an AI-agent startup, torching VC millions on token spend while your agents ship slightly-wrong PRs and 'AGI' stays perpetually two weeks away.",
+      "tags": [
+        "idle",
+        "tycoon",
+        "llm",
+        "monetization"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "colorburst",
+      "title": "Colorburst",
+      "hook": "A cellular automaton rendered through a decaying 1980s composite-video signal, where the dot crawl and color bleed leak back into the CA's rules and start growing things the pixels never intended.",
+      "tags": [
+        "generative",
+        "cellular-automata",
+        "art",
+        "wallpaper"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "demurrage",
+      "title": "Demurrage",
+      "hook": "A driver's phone quietly geofences every dock and rail siding, stamping gate-in and gate-out so the detention claim writes itself before the trucker even leaves the lot.",
+      "tags": [
+        "logistics",
+        "automation",
+        "b2b",
+        "gis"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-06"
+    },
+    {
       "slug": "highroll",
       "title": "Highroll",
       "hook": "Steal the auto-battler shop phase: everyone frantically snipes units from one shared, scarce river on their own phone, hides their comp, then watches the secret squads collide on the TV.",
