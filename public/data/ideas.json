@@ -2,6 +2,128 @@
   "lastScan": "2026-07-06",
   "ideas": [
     {
+      "slug": "warden",
+      "title": "Warden",
+      "hook": "One warden watches the whole prison from above while blindfolded inmates grope cell by cell toward the fence — and every tick the warden drops one searchlight on the spot they bet a body is about to be.",
+      "tags": [
+        "party",
+        "hidden-movement",
+        "one-vs-many"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "lighthouse",
+      "title": "Lighthouse",
+      "hook": "One keeper sees the whole rock-strewn sea and sweeps a single beam; the blind boats steer for harbor on nothing but the glimpses that beam grants them, one at a time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "wheel",
+      "title": "Wheel",
+      "hook": "A booster draft where every phone secretly holds a different pack at once — pick one card, pass the rest instantly, and read what 'wheels' back to you to sniff out what your neighbors are hoarding.",
+      "tags": [
+        "party",
+        "drafting",
+        "deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "sunk-cost",
+      "title": "Sunk Cost",
+      "hook": "A sealed-bid auction where everyone pays what they bid — even the losers — so bluffing a rival into overpaying is as good as winning yourself.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "ghost-note",
+      "title": "Ghost Note",
+      "hook": "A cooperative drum circle where each phone privately owns a few beats of the loop and you clap to fill them — except one player was handed a corrupted beat map and is secretly clapping wrong to rot the groove without getting caught.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "baton",
+      "title": "Baton",
+      "hook": "A virtual baton lives on exactly one phone; to pass it you tap 'throw' and your phone chirps into the room, and whichever teammate is physically closest catches it — so you literally sprint the baton around the furniture before the timer blows in your hand.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "bestiary",
+      "title": "Bestiary",
+      "hook": "A homelab honeypot that turns every drive-by scanner probing your ports into an illustrated creature, slowly filling a Pokédex of the internet's background radiation over a year.",
+      "tags": [
+        "security",
+        "ambient",
+        "homelab",
+        "self-hosted"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "schema-i",
+      "title": "Schema I",
+      "hook": "A puzzle game where every startup feature request — a job queue, a cache, cron, pub/sub, full-text search — must be satisfied using nothing but Postgres, graded live against a real database in your browser.",
+      "tags": [
+        "postgres",
+        "puzzle",
+        "sql",
+        "devtool"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-06"
+    },
+    {
+      "slug": "sport",
+      "title": "Sport",
+      "hook": "A screensaver that breeds a new cellular automaton every night, scores it for weirdness, and presses the best specimens into a year-long herbarium of accidentally-discovered rules.",
+      "tags": [
+        "cellular-automata",
+        "ambient",
+        "screensaver",
+        "generative"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-06"
+    },
+    {
       "slug": "table-stakes",
       "title": "Table Stakes",
       "hook": "A ridiculous restaurant menu fills the TV and every phone secretly does two things at once — orders the one dish they'd actually eat, and bets chips on what the whole table will order.",
