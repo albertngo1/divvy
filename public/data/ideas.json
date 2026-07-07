@@ -2,6 +2,88 @@
   "lastScan": "2026-07-07",
   "ideas": [
     {
+      "slug": "watering-hole",
+      "title": "Watering Hole",
+      "hook": "Every round you privately slip through one of four identical doors and only feel how crowded YOUR door is — herd blind until the whole room piles into one.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "murmur",
+      "title": "Murmur",
+      "hook": "You're each handed one secret neighbor to color-match; chase them and the whole hidden ring gossips its way into a single hue.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "test-audience",
+      "title": "Test Audience",
+      "hook": "The TV plays a reel of short clips; on each one you privately log your real reaction AND secretly bet on what the room's reaction will be — you win by reading the crowd, not the screen.",
+      "tags": [
+        "party",
+        "betting",
+        "audio",
+        "social"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "two-top",
+      "title": "Two-Top",
+      "hook": "The TV shows a restaurant menu; one hidden diner has secretly ordered, and the rest of you are a betting syndicate placing chips on their order — each of you holding a different private tip about what they'll pick.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "social"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "compound",
+      "title": "Compound",
+      "hook": "Every phone secretly holds one half of a word — FIRE, or -FLY — and the room becomes a shouting trading floor where you audio-hunt the stranger whose half completes a real word before the reactor melts down.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "number-station",
+      "title": "Number Station",
+      "hook": "The room must count aloud from one to twenty, but each phone secretly owns only a scattered handful of the numbers — so you track the climbing count by ear and know it's your voice from a ledger nobody else can see.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
       "slug": "graze-2",
       "title": "Graze",
       "hook": "A bullet-hell wave fills the TV, but the shots aimed at YOU are invisible to you and to the screen — only your teammates' phones can see them, so survival is one long panicked chorus of 'LEFT! LEFT! DIVE!'",
