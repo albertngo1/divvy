@@ -2,6 +2,129 @@
   "lastScan": "2026-07-07",
   "ideas": [
     {
+      "slug": "tiptoe",
+      "title": "Tiptoe",
+      "hook": "Everyone has secret chores to finish and a sleeping dragon on the TV that wakes if the room gets loud — so you must negotiate the whole plan without a single word.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "lip-service",
+      "title": "Lip Service",
+      "hook": "Mouth the secret word to your partner — but the second your throat makes a sound, your own phone rats you out and the point is dead.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "competitive"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "pigeonhole",
+      "title": "Pigeonhole",
+      "hook": "Secretly dealt a random word, you race to write the one fill-in-the-blank sentence so airtight that the little language model can only guess a single answer.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "static",
+      "title": "Static",
+      "hook": "Everyone writes a sentence, but one player is secretly sabotaged — and the little language model's perplexity ranking is the only lie-detector on the table.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "flock",
+      "title": "Flock",
+      "hook": "On each shared pulse the whole room performs a private hand-motion at once, and you silently steer the flock toward all doing the exact same move without ever agreeing on which.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "on-three-2",
+      "title": "On Three",
+      "hook": "Everyone slaps down a face-down symbol at once and the room tries to silently collapse onto a single shared pick as every matched symbol burns off the board forever.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "ignition",
+      "title": "Ignition",
+      "hook": "A Jackbox-style party game where everyone holds a piece of the answer but the shared screen only fits three ideas at once — say the wrong thing and someone's clue gets evicted forever.",
+      "tags": [
+        "party-game",
+        "social",
+        "multiplayer",
+        "coordination"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "backflow-2",
+      "title": "Backflow",
+      "hook": "A one-tap field app that walks a certified tester through a backflow-preventer test and spits out the exact jurisdiction's completed PDF, so nobody transcribes gauge readings onto paper again.",
+      "tags": [
+        "ops-tool",
+        "b2b",
+        "automation",
+        "logistics"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "riprap",
+      "title": "Riprap",
+      "hook": "A physics wave-defense puzzle where you stack interlocking concrete armor units to keep a procedurally-storming ocean from smashing your harbor.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "game",
+        "procedural"
+      ],
+      "score": 68,
+      "source": "steam",
+      "created": "2026-07-07"
+    },
+    {
       "slug": "off-the-record",
       "title": "Off the Record",
       "hook": "The room co-writes one anonymous confession sheet from your real answers — and you only get to keep it if nobody can prove who wrote which line.",
