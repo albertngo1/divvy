@@ -2,6 +2,129 @@
   "lastScan": "2026-07-07",
   "ideas": [
     {
+      "slug": "off-the-record",
+      "title": "Off the Record",
+      "hook": "The room co-writes one anonymous confession sheet from your real answers — and you only get to keep it if nobody can prove who wrote which line.",
+      "tags": [
+        "party",
+        "anonymity",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "flipbook",
+      "title": "Flipbook",
+      "hook": "Three phones each secretly animate a few frames of the same looping GIF, negotiating only the seams in real time — and the finished loop is the keepsake you all keep, no winner.",
+      "tags": [
+        "party",
+        "keepsake",
+        "drawing-game",
+        "cooperative"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "snap",
+      "title": "Snap",
+      "hook": "Your phone quietly flips category cards until it collides with someone else's — then only your two phones buzz, and you duel head-to-head while three other duels rage in parallel across the room.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "crib",
+      "title": "Crib",
+      "hook": "Two teams each hold four secret words only their own phones can see, and every clue you shout to your partner is also a crack the enemy is quietly trying to pry open.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "place-card",
+      "title": "Place Card",
+      "hook": "Each phone holds a secret map of who's-who around the table — but the imposter's map has two codenames swapped, so when the room points, their finger is quietly, consistently wrong.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "house-rules",
+      "title": "House Rules",
+      "hook": "Everyone plays the same 60-second card game, but one player's phone quietly shows an inverted rulebook — and their sincere, backwards strategy is the only tell.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "cardgame"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "glint",
+      "title": "Glint",
+      "hook": "Point your phone at an office ceiling and it spits out a Unified Glare Rating—turning a $2,000 luminance-meter compliance job into a free snapshot.",
+      "tags": [
+        "computer-vision",
+        "ops-tool",
+        "health"
+      ],
+      "score": 64,
+      "source": "arxiv",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "checkout",
+      "title": "Checkout",
+      "hook": "A bot-vs-bot arena where you program a shopping bot to snipe limited stock in a simulated sneaker/GPU drop—all the scalper adrenaline, none of the real-world victims.",
+      "tags": [
+        "game",
+        "competitive",
+        "agents",
+        "sim"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "first-pass",
+      "title": "First Pass",
+      "hook": "Feed it your raw home-sequenced DNA and it tells you—entirely offline—how fast you burn caffeine, codeine, and warfarin, no doctor and no cloud involved.",
+      "tags": [
+        "biology",
+        "health",
+        "privacy",
+        "self-hosted"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-07-07"
+    },
+    {
       "slug": "undertow",
       "title": "Undertow",
       "hook": "Everyone edits the same sentence, but each phone is secretly chasing a different word — you win by rewriting the setup so the tiny in-browser model would most likely blurt YOUR secret next.",
