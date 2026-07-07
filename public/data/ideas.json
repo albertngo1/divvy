@@ -1,6 +1,130 @@
 {
-  "lastScan": "2026-07-06",
+  "lastScan": "2026-07-07",
   "ideas": [
+    {
+      "slug": "crawlspace",
+      "title": "Crawlspace",
+      "hook": "A survival-horror hunt on a foggy map where one phone is the thing in the dark seeing everything, and the survivors each see only the room they're standing in — so the terror lives entirely in what your phone won't show you.",
+      "tags": [
+        "party",
+        "asymmetric",
+        "stealth",
+        "hidden-info"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "engine",
+      "title": "Engine",
+      "hook": "A deckbuilder where all four players buy, draw, and combo AT ONCE on their own phones — the shared market is the only battlefield, and two players reaching for the same card both go home empty-handed.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "simultaneous",
+        "hidden-info"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "order-up",
+      "title": "Order Up",
+      "hook": "A gorgeous diner menu fills the TV, everyone secretly picks what they'd really order, and then you spend the whole game betting chips on what your friends chose — reading their tastes like a bookie reads a horse.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "hidden-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "tote",
+      "title": "Tote",
+      "hook": "A short clip plays on the TV and every phone becomes a private betting window in a live pari-mutuel market where the odds lurch as the room secretly piles chips on 'will he actually open the box?'",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "long-tail",
+      "title": "Long Tail",
+      "hook": "Race to fill one blank with a word the language model finds totally plausible but nobody else in the room thought of — claim your own slice of its imagination.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "hedge",
+      "title": "Hedge",
+      "hook": "Bet your chips on exactly where a tiny language model will get confused — read its next-token entropy like a poker tell, one word at a time.",
+      "tags": [
+        "party",
+        "betting",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "type-specimen",
+      "title": "Type Specimen",
+      "hook": "A daily hunt through a shared cellular-automata rulespace where the first player to find a stable new creature gets to name it forever.",
+      "tags": [
+        "game",
+        "cellular-automata",
+        "leaderboard",
+        "generative"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "effigy",
+      "title": "Effigy",
+      "hook": "Instead of hiding your leaked .git directory, serve crawlers a bottomless fake one wired with canary credentials so their own theft rats them out.",
+      "tags": [
+        "security",
+        "self-hosted",
+        "forensics",
+        "automation"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "low-bridge",
+      "title": "Low Bridge",
+      "hook": "A trip planner for oversize truck loads that plots a route and screams before you wedge a 13'6\" trailer under an 11'8\" bridge.",
+      "tags": [
+        "logistics",
+        "gis",
+        "map",
+        "b2b"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-07"
+    },
     {
       "slug": "swell",
       "title": "Swell",
