@@ -2,6 +2,130 @@
   "lastScan": "2026-07-07",
   "ideas": [
     {
+      "slug": "deadfall-2",
+      "title": "Deadfall",
+      "hook": "One phone is a grid only the Trapper sees, secretly seeding pits; the prey creep across blind, each feeling only a private, maddeningly vague 'something's close' buzz.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "asymmetric",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "portage",
+      "title": "Portage",
+      "hook": "One phone is the only map of a pitch-dark cavern; the Guide is muted and can spotlight just one blind Porter per tick, so someone is always stumbling in the dark.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "continuity-error",
+      "title": "Continuity Error",
+      "hook": "Two of you are script supervisors watching the same scene on different phones, and the only way to catch what changed between takes is to describe your screen out loud fast enough to point at it together.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "browser-game"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "keyed-up",
+      "title": "Keyed Up",
+      "hook": "Everyone shares one voice channel that can only carry a single talker, so filing your ticking backlog of incidents means grabbing the mic before someone steps on you.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "slalom",
+      "title": "Slalom",
+      "hook": "Each phone secretly owns a few word-slots in one shared sentence and fills them completely blind, and you all win only if the Frankenstein sentence you assemble lands the model's perplexity needle inside a narrow green gate — too coherent fails, too random fails.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "cold-read",
+      "title": "Cold Read",
+      "hook": "Stop guessing the right word and start guessing the boring word — everyone privately races to name what a dumb little language model thinks comes next, and picking the same answer as your neighbor splits the pot.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "bottleneck",
+      "title": "Bottleneck",
+      "hook": "A Satisfactory-style conveyor-belt factory view of your homelab where each service is a machine, real bytes/sec is belt throughput, and belts visibly clog and back up when something stalls.",
+      "tags": [
+        "observability",
+        "homelab",
+        "data-viz",
+        "self-hosted"
+      ],
+      "score": 65,
+      "source": "steam",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "severance",
+      "title": "Severance",
+      "hook": "Lethal Company's escalating scrap-quota grafted onto your junk drawer: your house is the moon, every item gets appraised against real eBay sold prices, and if you don't hit this week's rising declutter quota, the Company lets you go.",
+      "tags": [
+        "side-hustle",
+        "chores",
+        "game",
+        "marketplace"
+      ],
+      "score": 75,
+      "source": "steam",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "under-construction",
+      "title": "Under Construction",
+      "hook": "A cron builds one tiny brutalist webpage per day from your activity and links them prev/next like a 90s webring, so by New Year's you've hand-woven a 365-page site of your life that's forever, deliberately, under construction.",
+      "tags": [
+        "ambient",
+        "self-hosted",
+        "generative",
+        "quantified-self"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-07"
+    },
+    {
       "slug": "watering-hole",
       "title": "Watering Hole",
       "hook": "Every round you privately slip through one of four identical doors and only feel how crowded YOUR door is — herd blind until the whole room piles into one.",
