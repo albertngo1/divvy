@@ -2,6 +2,132 @@
   "lastScan": "2026-07-07",
   "ideas": [
     {
+      "slug": "graze-2",
+      "title": "Graze",
+      "hook": "A bullet-hell wave fills the TV, but the shots aimed at YOU are invisible to you and to the screen — only your teammates' phones can see them, so survival is one long panicked chorus of 'LEFT! LEFT! DIVE!'",
+      "tags": [
+        "party",
+        "bullet-hell",
+        "cooperative",
+        "asymmetric"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "leak",
+      "title": "Leak",
+      "hook": "Build a secret gauntlet on your own phone, then quietly aim a swarm of creeps down a rival's lane and watch the TV find out who forgot to patch a hole.",
+      "tags": [
+        "party",
+        "tower-defense",
+        "hidden-info",
+        "simultaneous"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "cellmate",
+      "title": "Cellmate",
+      "hook": "Two prisoners in separate cells must smuggle a secret word to each other in tap code — because the instant either of them says a single word out loud, the guard hears it and the message is lost.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "holdout-2",
+      "title": "Holdout",
+      "hook": "A silence-endurance auction where you win the lot you secretly want by being the last one who never makes a sound — while the people who don't want it heckle you until you crack.",
+      "tags": [
+        "party",
+        "audio",
+        "competitive",
+        "auction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "laugh-track",
+      "title": "Laugh Track",
+      "hook": "Everyone watches the same dumb clip while secretly betting whether the room cracks up or dies — and your own phone's mic is snitching on how hard you're actually laughing.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "betting"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "kickback",
+      "title": "Kickback",
+      "hook": "The table is picking one takeout order together, and you're secretly betting chips on which dish wins while pretending your loud opinions aren't completely rigged.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "bluffing",
+        "social-deduction"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "skim",
+      "title": "Skim",
+      "hook": "An honest reading receipt that watches how you scroll and quietly tells you 'you actually read 38% of this' — no self-deception allowed.",
+      "tags": [
+        "quantified-self",
+        "computer-vision",
+        "productivity",
+        "writing"
+      ],
+      "score": 63,
+      "source": "arxiv",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "roach-motel",
+      "title": "Roach Motel",
+      "hook": "A browser extension that grades every site on how hard it makes leaving — and posts the shadiest cancel-flows to a public wall of shame.",
+      "tags": [
+        "privacy",
+        "security",
+        "browser-game",
+        "leaderboard"
+      ],
+      "score": 68,
+      "source": "arxiv",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "stoke",
+      "title": "Stoke",
+      "hook": "A Don't-Starve campfire lives on your desktop and only survives while YOU physically move — sit too long and the camp goes dark.",
+      "tags": [
+        "idle",
+        "quantified-self",
+        "survival",
+        "menubar"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-07-07"
+    },
+    {
       "slug": "tiptoe",
       "title": "Tiptoe",
       "hook": "Everyone has secret chores to finish and a sleeping dragon on the TV that wakes if the room gets loud — so you must negotiate the whole plan without a single word.",
