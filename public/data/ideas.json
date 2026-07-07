@@ -2,6 +2,129 @@
   "lastScan": "2026-07-07",
   "ideas": [
     {
+      "slug": "undertow",
+      "title": "Undertow",
+      "hook": "Everyone edits the same sentence, but each phone is secretly chasing a different word — you win by rewriting the setup so the tiny in-browser model would most likely blurt YOUR secret next.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "chalk",
+      "title": "Chalk",
+      "hook": "Every phone privately splits a stack of chips onto which word a tiny in-browser language model thinks comes next — and betting the crowd's favorite pays peanuts.",
+      "tags": [
+        "party",
+        "betting",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "wipe",
+      "title": "Wipe",
+      "hook": "An MMO raid boss on the TV hands each phone a SECRET mechanic — spread, stack, take the tower — and the whole room must physically scramble to the right floor spots before the cast bar fills or everyone wipes.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-info",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "undercard",
+      "title": "Undercard",
+      "hook": "A phone-native auto-battler where you draft and secretly position a tiny warband from a shared shop, then watch the TV auto-resolve your blind bet against comps you never got to see.",
+      "tags": [
+        "party",
+        "auto-battler",
+        "hidden-info",
+        "simultaneous"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "downbeat",
+      "title": "Downbeat",
+      "hook": "With no count-in and no shared sound, the whole room tries to tap their phones at the exact same instant — each phone privately whispering, through haptics, whether you tend to rush or drag the group's invisible pulse.",
+      "tags": [
+        "party",
+        "cooperative",
+        "rhythm"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "handshake",
+      "title": "Handshake",
+      "hook": "Everyone secretly points a finger at one other player; a pair only clicks into place when the choice is mutual, and the whole room must silently converge on a perfect matching before the clock runs out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "sidelobe",
+      "title": "Sidelobe",
+      "hook": "A phased-array puzzle where you steer an invisible beam onto targets by tuning each emitter's phase — chasing a tight main lobe while a stray sidelobe threatens to trip the wrong sensor.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "browser-game",
+        "generative"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "overlock",
+      "title": "Overlock",
+      "hook": "The compliance autopilot for self-storage lien auctions — track every delinquent unit's state-specific notice clock, generate legally-timed certified notices, and hand a clean, defensible unit off to online auction.",
+      "tags": [
+        "saas",
+        "b2b",
+        "logistics",
+        "automation"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-07-07"
+    },
+    {
+      "slug": "overburden",
+      "title": "Overburden",
+      "hook": "git bisect reimagined as a Terraria-style mining descent — dig down through layered commit strata, running checks at each seam until you strike the exact commit that buried your regression.",
+      "tags": [
+        "git",
+        "devtool",
+        "browser-game",
+        "puzzle"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-07"
+    },
+    {
       "slug": "crawlspace",
       "title": "Crawlspace",
       "hook": "A survival-horror hunt on a foggy map where one phone is the thing in the dark seeing everything, and the survivors each see only the room they're standing in — so the terror lives entirely in what your phone won't show you.",
