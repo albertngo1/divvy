@@ -2,6 +2,131 @@
   "lastScan": "2026-07-08",
   "ideas": [
     {
+      "slug": "dead-reckoning",
+      "title": "Dead Reckoning",
+      "hook": "The whole room steers one token to the exit by silent majority vote—but one player's map has the exit in the wrong spot, and it might be yours.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative",
+        "hidden-role"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "prime-witness",
+      "title": "Prime Witness",
+      "hook": "You all saw the same crime-scene photo—but one witness's copy was quietly doctored, and their honest, certain memory is the tell.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "readback",
+      "title": "Readback",
+      "hook": "One player watches the radar but knows no callsigns; every other player is a blind pilot who knows only their own aircraft — so clearances only land when the controller talks and the right pilot recognizes it's them.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "tumbler",
+      "title": "Tumbler",
+      "hook": "You're each one wheel of the same safe, feeling for your own click by vibration alone, and it only cracks if every wheel is held on-number at the same instant.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "even-hand",
+      "title": "Even Hand",
+      "hook": "Everyone hand-writes the exact same line on a group card, disguising their own handwriting — and you win only if nobody can pick your scrawl out of the lineup.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "keepsake",
+        "anonymity"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "marginalia",
+      "title": "Marginalia",
+      "hook": "Everyone scribbles in the margins of the same page at once — each secretly playing a different obsessive reader — until the passage looks like a beloved book passed through a hundred hands, and you keep the palimpsest.",
+      "tags": [
+        "party",
+        "cooperative",
+        "keepsake",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "beat-error",
+      "title": "Beat Error",
+      "hook": "Regulate a simulated mechanical watch on a virtual timegrapher — nudge hairspring length, poise, and beat until the trace snaps to a clean +0/-2 seconds a day.",
+      "tags": [
+        "puzzle",
+        "sim",
+        "physics"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "weft",
+      "title": "Weft",
+      "hook": "A nightly cron stamps one QR-font glyph encoding your day's single private log line, weaving a 12×31 poster that by New Year's is both abstract textile art and a fully scannable diary.",
+      "tags": [
+        "ambient",
+        "generative",
+        "steganography",
+        "quantified-self"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "second-payload",
+      "title": "Second Payload",
+      "hook": "A daily deobfuscation race where you peel the layers off a self-evaluating script one reveal at a time until the hidden flag falls out — the Uniqlo-t-shirt blog turned into a leaderboard sport.",
+      "tags": [
+        "security",
+        "puzzle",
+        "forensics",
+        "leaderboard"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-08"
+    },
+    {
       "slug": "moon-logic",
       "title": "Moon Logic",
       "hook": "A point-and-click adventure squeezed into three phones, where the absurd 'combine the gum with the paperclip' puzzle only solves if all three players — none holding more than their own hidden pocketful — describe and trade items they can't see.",
