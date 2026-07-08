@@ -2,6 +2,132 @@
   "lastScan": "2026-07-08",
   "ideas": [
     {
+      "slug": "bleed",
+      "title": "Bleed",
+      "hook": "A silent all-pay auction where your dwindling bankroll and your private worth for each lot live only on your phone — you bid, and whether you win or lose, everyone pays.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "hidden-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "magpie",
+      "title": "Magpie",
+      "hook": "A booster draft with the cardboard removed: your pack, your hoard, and your secret scoring goal all live privately on your phone, packs rotate on a shared tick, and nobody stalls the table.",
+      "tags": [
+        "party",
+        "drafting",
+        "set-collection",
+        "hidden-info"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "family-style",
+      "title": "Family Style",
+      "hook": "The takeout menu becomes a market: privately bet how many of you secretly want each dish, then cash in for reading the table's appetite better than they read themselves.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "prediction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "overround",
+      "title": "Overround",
+      "hook": "Turn whatever's playing on the TV into a live parimutuel betting floor where you get rich by out-reading the room, not the show.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "real-time",
+        "betting"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "four-way",
+      "title": "Four-Way",
+      "hook": "You're all cars nosing into a one-lane intersection and your phone whispers only YOUR secret urgency — ambulance, gas leak, running late — so you have to bark your priority across the table and thread the crossing one car at a time before somebody T-bones.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "venn",
+      "title": "Venn",
+      "hook": "Each phone hides a different fistful of words with exactly one you ALL secretly share — find it by shouting your lists across the table, then scream it in unison before the ring collapses.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "ride-along",
+      "title": "Ride Along",
+      "hook": "Watches the code your AI agent writes for you and quietly mints spaced-repetition flashcards from it, so the stuff that shipped without you understanding it doesn't stay a black box.",
+      "tags": [
+        "devtool",
+        "llm",
+        "habits",
+        "git"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "sampler",
+      "title": "Sampler",
+      "hook": "A daemon that stitches one row of a generative embroidery pattern per day from your life-data, so by New Year's you can export a real cross-stitch chart of your entire year and thread it by hand.",
+      "tags": [
+        "generative",
+        "quantified-self",
+        "art",
+        "ambient"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "drill",
+      "title": "Drill",
+      "hook": "Wraps your scariest long-running homelab jobs in a PAYDAY 2 safe-drill: the progress bar can jam, and you have to run over and babysit it before the guards (alerts) close in.",
+      "tags": [
+        "ops-tool",
+        "homelab",
+        "observability",
+        "cli"
+      ],
+      "score": 64,
+      "source": "steam",
+      "created": "2026-07-08"
+    },
+    {
       "slug": "crosstalk",
       "title": "Crosstalk",
       "hook": "Every phone privately cycles its own secret category, and the instant two players' hidden shapes collide, both buzz and race to shout an answer in the other's category — multiple duels erupting across the room at once.",
