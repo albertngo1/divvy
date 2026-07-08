@@ -2,6 +2,129 @@
   "lastScan": "2026-07-08",
   "ideas": [
     {
+      "slug": "epicenter",
+      "title": "Epicenter",
+      "hook": "Everyone lays their phone flat on the floor; one hidden stomper shakes the room, and the group must read whose phone twitched hardest to find where the quake came from.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "blinker",
+      "title": "Blinker",
+      "hook": "Your phone's screen is a signal lamp and a teammate across the room is filming it — race to blink a secret word to each other before line of sight breaks.",
+      "tags": [
+        "party",
+        "optical",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "ballpark",
+      "title": "Ballpark",
+      "hook": "Wavelength turned inside out: there's no clue-giver and no hidden target — every phone secretly places its own opinion, then secretly bets on what the room's average will be.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "one-off",
+      "title": "One-Off",
+      "hook": "A blind, phone-native Just One where the tedious duplicate-cancelling is automatic — and your phone privately tells you, too late, that your clever clue collided with someone else's.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "small-plates",
+      "title": "Small Plates",
+      "hook": "Everyone secretly orders off the same menu AND secretly bets on what the table will order most — and since your own order counts in the tally, you can sabotage your appetite to cook your bet.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction",
+        "psychology"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "sweeps",
+      "title": "Sweeps",
+      "hook": "The TV screen airs a whodunit act by act, but every phone is holding a different true spoiler — so you're insider-trading a live prediction market where your big bets leak your secret.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "hidden-info"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "confused-deputy",
+      "title": "Confused Deputy",
+      "hook": "A Zachtronics-style puzzle where you plant byte-budgeted hidden instructions in a repo to trick an autonomous coding agent into leaking a secret — then flip sides and harden it — turning GitLost into a level pack.",
+      "tags": [
+        "security",
+        "puzzle",
+        "game",
+        "agents"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "ductus",
+      "title": "Ductus",
+      "hook": "A menubar toy that hand-designs one bespoke variable font over a year, nudging a single letterform parameter each day from your weather, sleep, and typing — so by December you can install a typeface that literally is your year.",
+      "tags": [
+        "generative",
+        "art",
+        "ambient",
+        "menubar"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "null-modem",
+      "title": "Null Modem",
+      "hook": "A web-controlled Raspberry Pi that drip-feeds G-code over RS-232 and emulated floppies to the 1990s CNC controls machine shops still babysit with a dying beige PC.",
+      "tags": [
+        "ops-tool",
+        "automation",
+        "b2b",
+        "self-hosted"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-07-08"
+    },
+    {
       "slug": "pecking-order",
       "title": "Pecking Order",
       "hook": "Everyone privately drag-ranks the same five things, and the room wins only when all your secret lists become the exact same list — steered by nothing but the host flashing which single neighboring pair you're fighting over.",
