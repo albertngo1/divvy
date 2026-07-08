@@ -1,6 +1,87 @@
 {
-  "lastScan": "2026-07-07",
+  "lastScan": "2026-07-08",
   "ideas": [
+    {
+      "slug": "crosstalk",
+      "title": "Crosstalk",
+      "hook": "Every phone privately cycles its own secret category, and the instant two players' hidden shapes collide, both buzz and race to shout an answer in the other's category — multiple duels erupting across the room at once.",
+      "tags": [
+        "party",
+        "real-time",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "off-model",
+      "title": "Off-Model",
+      "hook": "Six players draw the same secret word at once, blind on their own phones — but one got a sneakily different word, and the gallery reveal is a lineup to find the fake.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "drawing",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "prix-fixe",
+      "title": "Prix Fixe",
+      "hook": "A menu prediction market — everyone secretly picks what they'd actually order AND privately bets on which dish the table will crown, so you win by modeling your friends' cravings instead of your own.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "social"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "sweat",
+      "title": "Sweat",
+      "hook": "A live in-play betting layer over any short clip you're all watching — the game isn't the outcome, it's whether you hold your nerve or bail for a partial payout while a rival maybe already cashed out.",
+      "tags": [
+        "party",
+        "live-betting",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "unison",
+      "title": "Unison",
+      "hook": "Each phone is a private four-pad drum loop and the TV plays them all stacked at once, so the room must silently sculpt four secret patterns into a single clean beat by ear alone.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "rhythm"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "carbon-copy",
+      "title": "Carbon Copy",
+      "hook": "Everyone blindly draws the same squiggle at once, then chases a ghostly average of the room until four strangers' scribbles snap into one shape.",
+      "tags": [
+        "party",
+        "cooperative",
+        "drawing",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-08"
+    },
     {
       "slug": "deadfall-2",
       "title": "Deadfall",
