@@ -2,6 +2,126 @@
   "lastScan": "2026-07-08",
   "ideas": [
     {
+      "slug": "moon-logic",
+      "title": "Moon Logic",
+      "hook": "A point-and-click adventure squeezed into three phones, where the absurd 'combine the gum with the paperclip' puzzle only solves if all three players — none holding more than their own hidden pocketful — describe and trade items they can't see.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "delve",
+      "title": "Delve",
+      "hook": "A co-op roguelike where each phone holds only its own 5x5 patch of one shared dungeon, so the only map that exists is the one you shout at each other before the torch burns out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "roguelike"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "cull",
+      "title": "Cull",
+      "hook": "It's Just One — everyone writes a secret one-word clue at once — except the server quietly kills not just exact duplicates but anything TOO similar, so you're racing to be the one weirdo who thought different.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "detune",
+      "title": "Detune",
+      "hook": "Wavelength, but your phone IS the dial — tilt it to a hidden target, and everyone locks their guess blind at the exact same second so nobody sways the room.",
+      "tags": [
+        "party",
+        "sensor",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "cadence-2",
+      "title": "Cadence",
+      "hook": "Count to eight out loud as a group with no turn order — but every phone hides a private rule about which numbers you're allowed to say, and any two voices at once resets you to zero.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "airtime",
+      "title": "Airtime",
+      "hook": "Everyone has urgent traffic and there's exactly one radio channel — key up over each other and you both get jammed to static.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "cache-line",
+      "title": "Cache Line",
+      "hook": "A Zachtronics-style puzzle where you drag struct fields into slots to kill padding and false sharing — and the CPU roasts you when two threads fight over the same 64 bytes.",
+      "tags": [
+        "puzzle",
+        "game",
+        "devtool"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "toe-off",
+      "title": "Toe-Off",
+      "hook": "Film your kid walking across the kitchen and get a plain-language gait screen — asymmetry, toe-walking, cadence — that used to require a $2,000 clinical motion lab.",
+      "tags": [
+        "health",
+        "computer-vision",
+        "quantified-self"
+      ],
+      "score": 68,
+      "source": "arxiv",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "ghost-load",
+      "title": "Ghost Load",
+      "hook": "Paste a carrier's MC number and instantly see whether you're about to hand your freight to a double-broker running a stolen-load scam.",
+      "tags": [
+        "logistics",
+        "b2b",
+        "automation",
+        "security"
+      ],
+      "score": 75,
+      "source": "wild",
+      "created": "2026-07-08"
+    },
+    {
       "slug": "confluence-2",
       "title": "Confluence",
       "hook": "Each phone secretly owns one tile of a fantasy map and can only glimpse the rivers and roads bleeding in from its neighbors — the room draws blind and keeps whatever map it stitches together.",
