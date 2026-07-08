@@ -2,6 +2,132 @@
   "lastScan": "2026-07-08",
   "ideas": [
     {
+      "slug": "weathervane",
+      "title": "Weathervane",
+      "hook": "Everyone secretly physically aims their phone across the seating circle at whoever they bet the group will most-point-at, then all arrows snap onto the host at once to reveal who the room swung toward.",
+      "tags": [
+        "party",
+        "social",
+        "sensor",
+        "voting"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "tripwire",
+      "title": "Tripwire",
+      "hook": "Guards prop their phones as motion-sensing security cameras watching real corners of the room, spending a private trickle of surveillance battery to catch one Prowler creeping from couch to door.",
+      "tags": [
+        "party",
+        "stealth",
+        "sensor",
+        "asymmetric"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "side-effect",
+      "title": "Side Effect",
+      "hook": "Every phone is a patient reporting symptoms only it can feel — and every phone secretly controls dials that cause the OTHER patients' symptoms, so the room has to talk its way from 'my pressure's spiking!' to whichever stranger's hand is on the wrong knob.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "trunk-line",
+      "title": "Trunk Line",
+      "hook": "You're a switchboard operator who knows who you're trying to reach but not who's frantically trying to reach you — so the whole room shouts callsigns until the right two phones slam CONNECT at the same instant.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "report",
+      "title": "Report",
+      "hook": "A phone-native Hanabi where the device does the one thing your hands can't — every screen shows everyone's fireworks but your own, so the only way to play your hand is to trust what the room tells you.",
+      "tags": [
+        "party",
+        "cooperative",
+        "card-game",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "crib-2",
+      "title": "Crib",
+      "hook": "Two teams share one room but never one screen — each phone privately guards your squad's four secret keywords while your rival tries to break the code you keep leaking.",
+      "tags": [
+        "party",
+        "wordgame",
+        "code-breaking",
+        "team"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "escheat",
+      "title": "Escheat",
+      "hook": "A self-hosted Steam launcher that weaponizes PlayStation's cruelest policy on you: unplayed games slowly frost over and get locked in a 'dormant vault' until you actually play them or consciously abandon them.",
+      "tags": [
+        "productivity",
+        "self-hosted",
+        "habits",
+        "tycoon"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "split-brain-2",
+      "title": "Split Brain",
+      "hook": "A party game where 6 friends ARE a distributed database — until someone triggers a network partition, two leaders get elected, and you have to reconcile the mess without losing data.",
+      "tags": [
+        "party-game",
+        "social-deduction",
+        "multiplayer",
+        "devtool"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "slackjaw",
+      "title": "Slackjaw",
+      "hook": "An idle garden that only grows while your jaw stays relaxed — clench your teeth at your desk and watch the plant wilt in real time.",
+      "tags": [
+        "health",
+        "quantified-self",
+        "computer-vision",
+        "idle"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-08"
+    },
+    {
       "slug": "epicenter",
       "title": "Epicenter",
       "hook": "Everyone lays their phone flat on the floor; one hidden stomper shakes the room, and the group must read whose phone twitched hardest to find where the quake came from.",
