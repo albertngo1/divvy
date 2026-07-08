@@ -2,6 +2,131 @@
   "lastScan": "2026-07-08",
   "ideas": [
     {
+      "slug": "confluence-2",
+      "title": "Confluence",
+      "hook": "Each phone secretly owns one tile of a fantasy map and can only glimpse the rivers and roads bleeding in from its neighbors — the room draws blind and keeps whatever map it stitches together.",
+      "tags": [
+        "party",
+        "cooperative",
+        "drawing",
+        "keepsake"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "composite",
+      "title": "Composite",
+      "hook": "The whole room secretly co-writes one anonymous note in a single voice, then everyone tries to fingerprint which line is yours — you win only by staying unidentified.",
+      "tags": [
+        "party",
+        "anonymity",
+        "wordgame",
+        "social-deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "seed",
+      "title": "Seed",
+      "hook": "You're secretly told to finish exactly 'second-weirdest' — now write a sentence whose strangeness lands at that precise rank among four people you can't see, calibrating your oddity against both the model and the room.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "social-deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "backstory",
+      "title": "Backstory",
+      "hook": "The model already blurted out one weird sentence — race, blind and on your own phone, to reconstruct the invisible prompt that made it say that, and the flatter the model finds its own line under your guess, the closer you got.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "twelve-paces",
+      "title": "Twelve Paces",
+      "hook": "A pistol duel run entirely on dead reckoning: step off your secret paces, turn, and aim your phone back through the dark at where you think your opponent is now standing.",
+      "tags": [
+        "party",
+        "competitive",
+        "sensor"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "douse",
+      "title": "Douse",
+      "hook": "A cooperative firefighting scramble where flames pop up around your actual living room and the only way to put one out is to run to it and blow into your phone.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "audio"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "rank",
+      "title": "Rank",
+      "hook": "A daily Zachtronics-style puzzle where you transform a grid of numbers into a target using a tiny APL/k-flavored array vocabulary, and your par is measured in keystrokes.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "leaderboard",
+        "language"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "punch-tag",
+      "title": "Punch Tag",
+      "hook": "Replace the paper punch-tags dangling off every fire extinguisher with a QR sticker, so a tech's monthly walkthrough becomes a scan-and-go audit trail that survives a fire marshal's visit.",
+      "tags": [
+        "saas",
+        "b2b",
+        "ops-tool",
+        "automation"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "reclass-2",
+      "title": "Reclass",
+      "hook": "Snap a pallet's dims and weight and get the correct density-based NMFC freight class plus BOL-ready text — before the carrier reweighs you and slaps on a reclass fee.",
+      "tags": [
+        "logistics",
+        "b2b",
+        "saas",
+        "automation"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-07-08"
+    },
+    {
       "slug": "bleed",
       "title": "Bleed",
       "hook": "A silent all-pay auction where your dwindling bankroll and your private worth for each lot live only on your phone — you bid, and whether you win or lose, everyone pays.",
