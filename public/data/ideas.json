@@ -2,6 +2,129 @@
   "lastScan": "2026-07-08",
   "ideas": [
     {
+      "slug": "pecking-order",
+      "title": "Pecking Order",
+      "hook": "Everyone privately drag-ranks the same five things, and the room wins only when all your secret lists become the exact same list — steered by nothing but the host flashing which single neighboring pair you're fighting over.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "take-sides",
+      "title": "Take Sides",
+      "hook": "The room must silently cleave itself into two equal crews — you're always on your own side, so everyone has to secretly agree on the same split with nothing but who-you-tap-toward.",
+      "tags": [
+        "party",
+        "cooperative",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "pantograph",
+      "title": "Pantograph",
+      "hook": "Every player privately owns two segments of one blueprint and draws them onto a shared canvas in turn, but the imposter's blueprint is subtly warped — so their strokes almost meet the others and leave a telltale kink for the room to spot.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "drawing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "dossier",
+      "title": "Dossier",
+      "hook": "Everyone memorizes the same spy briefing for twenty seconds — except the mole, whose dossier has three facts quietly swapped — then answers rapid recall questions live, and the odd answers out give the mole away unless they can bluff back into the herd.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "memory"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "cairn",
+      "title": "Cairn",
+      "hook": "The cartographer sees the whole minefield but can only afford five glowing trail-markers — dropped one at a time as three blind pieces wander it in real time, each seeing nothing but the faint glow at their own feet.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "lockstep-2",
+      "title": "Lockstep",
+      "hook": "One navigator secretly holds a pit-riddled grid while three blind pieces move in unison on every command — and only your own phone knows the moment you fell.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "caliber",
+      "title": "Caliber",
+      "hook": "Snap a photo of an unmarked watch movement and get back its caliber, beat rate, parts list, and service intervals — the 'what the hell is this thing' lookup every watch flipper does by hand.",
+      "tags": [
+        "saas",
+        "computer-vision",
+        "marketplace",
+        "side-hustle"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "overclaim",
+      "title": "Overclaim",
+      "hook": "A security scanner that reads your CI's Trusted-Publishing setup and tells you exactly which fork, PR, or stray workflow could impersonate your identity and push a poisoned release.",
+      "tags": [
+        "saas",
+        "security",
+        "ci",
+        "b2b"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-08"
+    },
+    {
+      "slug": "loanword",
+      "title": "Loanword",
+      "hook": "A Zachtronics-style puzzle where you build a working machine entirely out of Unicode transliteration rules — because it turns out `a > b;` is secretly Turing-complete.",
+      "tags": [
+        "puzzle",
+        "language",
+        "steganography",
+        "devtool"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-08"
+    },
+    {
       "slug": "dead-reckoning",
       "title": "Dead Reckoning",
       "hook": "The whole room steers one token to the exit by silent majority vote—but one player's map has the exit in the wrong spot, and it might be yours.",
