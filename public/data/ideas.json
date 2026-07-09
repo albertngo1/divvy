@@ -1,6 +1,130 @@
 {
-  "lastScan": "2026-07-08",
+  "lastScan": "2026-07-09",
   "ideas": [
+    {
+      "slug": "yard-count",
+      "title": "Yard Count",
+      "hook": "One player is the Warden holding the whole prison map; the escapees each see only the single cell under their feet and a footstep meter that gets louder as the guard closes in — blind to the layout, the exit, and even each other.",
+      "tags": [
+        "party",
+        "hidden-movement",
+        "social-deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "final-approach",
+      "title": "Final Approach",
+      "hook": "One player is an air-traffic controller staring at a radar map; everyone else is a blind pilot who sees only a single arrow their controller privately steers them by, and two arrows pointed the same place means a mid-air collision.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "blind-spot",
+      "title": "Blind Spot",
+      "hook": "A cooperative stealth heist where the guard's flashlight is invisible on the TV — but each phone privately whispers when your own tile is about to light up, so you freeze on cue without a word.",
+      "tags": [
+        "party",
+        "stealth",
+        "cooperative",
+        "hidden-info"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "overdraw",
+      "title": "Overdraw",
+      "hook": "A co-op boss fight where every phone is a private hand of cards but all your energy comes from one shared pool — spend in silence and pray your teammates left you enough.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "cooperative",
+        "hidden-hand"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "squeeze",
+      "title": "Squeeze",
+      "hook": "A simultaneous pick-and-pass draft where every phone hides your hand, your current pack, and the one commodity you're secretly trying to corner — read the draft to spot who's hoarding while you quietly execute the squeeze.",
+      "tags": [
+        "party",
+        "drafting",
+        "set-collection",
+        "hidden-information"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "wildcat",
+      "title": "Wildcat",
+      "hook": "You're a wildcat oil company bidding on drilling leases, and the only person who sees your private seismic estimate is you — so whoever wins probably drew the rosiest reading and just overpaid for a dry hole.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "economics"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "parse",
+      "title": "Parse",
+      "hook": "Write a rotation for a fantasy class in a tiny priority-list language, and a deterministic damage sim ranks your rotation on a global leaderboard by percentile — it's spreadsheet min-maxing turned into the whole game.",
+      "tags": [
+        "game",
+        "puzzle",
+        "leaderboard",
+        "competitive"
+      ],
+      "score": 67,
+      "source": "steam",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "headway",
+      "title": "Headway",
+      "hook": "Point it at your city's live train feed and every moving train becomes a voice — rush hour swells, midnight thins to a drone, and a year later you have a record of your city breathing.",
+      "tags": [
+        "ambient",
+        "audio",
+        "generative",
+        "gis"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "limp-mode",
+      "title": "Limp Mode",
+      "hook": "Type the fault code your tractor throws on its dash and get plain-English cause, severity, and a fix note — no dealer, no diagnostic fee.",
+      "tags": [
+        "ops-tool",
+        "automation",
+        "cli",
+        "side-hustle"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-09"
+    },
     {
       "slug": "weathervane",
       "title": "Weathervane",
