@@ -2,6 +2,130 @@
   "lastScan": "2026-07-09",
   "ideas": [
     {
+      "slug": "ventriloquist",
+      "title": "Ventriloquist",
+      "hook": "Each phone hides a different secret word; you take turns adding one word to a shared sentence, secretly steering it so the little LLM would predict YOUR word next — lowest perplexity on your hidden target wins.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "on-the-nose",
+      "title": "On the Nose",
+      "hook": "Everyone privately writes the AI's most boringly predictable next line — but if two of you land on the same obvious phrasing, the model's perplexity engine punishes you both, so you're racing to be predictable yet alone.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "audio"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "beaters",
+      "title": "Beaters",
+      "hook": "Scotland Yard inverted: the quarry sees the whole board and every blind hunter must corner it with secret sweeps they can't see land.",
+      "tags": [
+        "party",
+        "hidden-movement",
+        "competitive"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "sounding",
+      "title": "Sounding",
+      "hook": "You're a lighthouse keeper who can see every rock but can only sound the horn at one fog-blind boat per turn — triage your crew into harbor before the tide runs out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "takt",
+      "title": "Takt",
+      "hook": "You're one station on a human assembly line where a widget rolls past on a beat, your phone privately tells you which operation to shout the instant it arrives, and the next worker only knows what to do if they heard you call it out.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "rhythm"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "unison-2",
+      "title": "Unison",
+      "hook": "The whole room hums a chord it can't hear itself sing — each phone whispers your private note and its own mic tells only you whether you're sharp or flat, so you shout to find who's dragging the pitch down.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "scale-to-zero",
+      "title": "Scale to Zero",
+      "hook": "You're the anti-autoscaler: bin-pack every running pod onto fewer and fewer nodes and race the cluster down to zero cost without dropping a single request.",
+      "tags": [
+        "puzzle",
+        "kubernetes",
+        "roguelike",
+        "sim"
+      ],
+      "score": 61,
+      "source": "github",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "dwell-2",
+      "title": "Dwell",
+      "hook": "Truckers lose hours parked at docks and can't prove it — Dwell geofences the arrival, timestamps the wait, and spits out the detention invoice evidence before they even leave the lot.",
+      "tags": [
+        "logistics",
+        "automation",
+        "side-hustle",
+        "gis"
+      ],
+      "score": 67,
+      "source": "wild",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "southpaw",
+      "title": "Southpaw",
+      "hook": "A dev harness that runs your app as the users who break it — left-handed, right-to-left, leap-day-born, single-name, +64 phone — and hands you the list of everything that cracked.",
+      "tags": [
+        "devtool",
+        "computer-vision",
+        "automation",
+        "cli"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-09"
+    },
+    {
       "slug": "endpaper",
       "title": "Endpaper",
       "hook": "Each phone is a private eyedropper squeezing secret colors into one shared pool of ink on the TV — you all comb it into a marbled sheet nobody can un-swirl, then try to spot whose hidden motif is whose.",
