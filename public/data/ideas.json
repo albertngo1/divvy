@@ -2,6 +2,131 @@
   "lastScan": "2026-07-09",
   "ideas": [
     {
+      "slug": "draw-a-blank",
+      "title": "Draw a Blank",
+      "hook": "Each phone holds one live card; the instant your symbol collides with someone across the room, both your phones detonate a duel where you must blurt something in the OTHER person's category — and they're secretly the judge of whether you got it.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "social"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "warmer-2",
+      "title": "Warmer",
+      "hook": "Everyone secretly sits at a different spot on the same spectrum and gives one clue word — the room has to sort you all left-to-right using nothing but those clues.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "tic",
+      "title": "Tic",
+      "hook": "Everyone secretly repeats a little hand-gesture with their phone, and the room has to fall into the exact same involuntary twitch — a shared tic — reading nothing but a ghostly overlay of everyone's motion.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "establishing-shot",
+      "title": "Establishing Shot",
+      "hook": "Everyone silently aims their phone camera at something in the room, and the whole party has to end up photographing the same object without a single word.",
+      "tags": [
+        "party",
+        "camera",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "sentry",
+      "title": "Sentry",
+      "hook": "Every phone is a silent camera aimed at one other player, privately watching for the tiniest twitch during a freeze — and nobody knows who is watching them.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "camera"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "hot-mic-2",
+      "title": "Hot Mic",
+      "hook": "An invisible talking-stick races around the room, and your phone secretly taps you when you're the only one allowed to make noise — go loud out of turn, or leave dead air, and the chain snaps.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "teardown",
+      "title": "Teardown",
+      "hook": "iFixit, but for the obfuscated scripts your smart TV, router, and retail-store gadgets silently run: paste a self-modifying shell blob and it unrolls into a readable tree, flags every phone-home destination, and publishes a signed teardown page.",
+      "tags": [
+        "security",
+        "forensics",
+        "privacy",
+        "cli"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "s-ance-2",
+      "title": "Séance",
+      "hook": "Phasmophobia for your LAN: a process is haunting the network, and you spend a limited probe budget deploying instruments — packet capture, DNS logs, netflow, timing — to match the evidence against a fixed table of network ghosts and name it before it does damage.",
+      "tags": [
+        "homelab",
+        "security",
+        "party-game",
+        "observability"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "fresnel",
+      "title": "Fresnel",
+      "hook": "A daily guess-the-material game: drag albedo, roughness, metalness, and IOR sliders until your live-rendered sphere matches a mystery real-world material — brushed copper, wet asphalt, human skin — scored against measured PBR values.",
+      "tags": [
+        "graphics",
+        "puzzle",
+        "generative",
+        "leaderboard"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-07-09"
+    },
+    {
       "slug": "potluck",
       "title": "Potluck",
       "hook": "Everyone secretly commits one dish from their own random fridge to a shared table — but if two of you show up with the potato salad, both dishes spoil and you eat the shame.",
