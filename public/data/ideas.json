@@ -2,6 +2,130 @@
   "lastScan": "2026-07-09",
   "ideas": [
     {
+      "slug": "mulligan",
+      "title": "Mulligan",
+      "hook": "A Slay-the-Spire boss telegraphs its attack on the TV, and the only block is a five-card color sequence — but the cards are scattered across everyone's private hands, so you have to negotiate who plays what, in order, before the timer drops.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "cooperative",
+        "hidden-info"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "searchlight",
+      "title": "Searchlight",
+      "hook": "One thief sneaks across the room on a private map while every other phone is a guard's rotating vision cone — sweep your lantern, catch the blip, and shout before it slips past your sector.",
+      "tags": [
+        "party",
+        "stealth",
+        "hidden-info",
+        "asymmetric"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "bounce",
+      "title": "Bounce",
+      "hook": "Each phone is a private one-instrument step sequencer and you build your part half-deaf to the others, until the TV plays the full mix and you bounce it to a loop you keep.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "keepsake"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "likeness",
+      "title": "Likeness",
+      "hook": "Everyone gets one facial feature and one secret clue, and blind-together you assemble a police-sketch portrait of a mystery weirdo you keep as a poster.",
+      "tags": [
+        "party",
+        "cooperative",
+        "drawing",
+        "keepsake"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "cross-reference",
+      "title": "Cross Reference",
+      "hook": "Everyone stares at the same grid of words on the TV, but each phone secretly points to one hidden cell — and you all give one-word clues at once, racing to help the room pin down coordinates nobody else can see.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "intercept",
+      "title": "Intercept",
+      "hook": "Two teams each hold four secret words on their own phones and must clue a numeric code to their teammates without letting the eavesdroppers across the room crack which word is which.",
+      "tags": [
+        "party",
+        "deduction",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "landmark",
+      "title": "Landmark",
+      "hook": "Guide a hopelessly literal robot through a cluttered house using only landmark directions — 'past the couch, left at the lamp' — and watch it faceplant when your words are ambiguous.",
+      "tags": [
+        "game",
+        "puzzle",
+        "agents",
+        "sim"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "off-the-map",
+      "title": "Off the Map",
+      "hook": "An atlas that only renders places that no longer exist — dissolved nations, abandoned towns, and colonies the world quietly forgot, scrubbable across five centuries.",
+      "tags": [
+        "map",
+        "data-viz",
+        "gis",
+        "timeline"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "rubber-stamp",
+      "title": "Rubber Stamp",
+      "hook": "An idle game where AI agents open pull requests faster than you can review them, and your only weapon is a green checkmark you'll come to hate.",
+      "tags": [
+        "idle",
+        "tycoon",
+        "agents",
+        "monetization"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-09"
+    },
+    {
       "slug": "yard-count",
       "title": "Yard Count",
       "hook": "One player is the Warden holding the whole prison map; the escapees each see only the single cell under their feet and a footstep meter that gets louder as the guard closes in — blind to the layout, the exit, and even each other.",
