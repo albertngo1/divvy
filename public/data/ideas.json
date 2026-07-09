@@ -2,6 +2,130 @@
   "lastScan": "2026-07-09",
   "ideas": [
     {
+      "slug": "endpaper",
+      "title": "Endpaper",
+      "hook": "Each phone is a private eyedropper squeezing secret colors into one shared pool of ink on the TV — you all comb it into a marbled sheet nobody can un-swirl, then try to spot whose hidden motif is whose.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "anonymity"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "overdub",
+      "title": "Overdub",
+      "hook": "Everyone records one blind layer of the same song at the same time, hearing nobody else — then the host plays back the stack you built together and hands you the track.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "desire-path",
+      "title": "Desire Path",
+      "hook": "Everyone blind-draws a route across the same obstacle field, and the room wins only when your invisible lines trample down into one shared cowpath.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "plumb",
+      "title": "Plumb",
+      "hook": "Everyone silently tilts their phone in the dark until the room's scattered spirit-levels collapse into one shared, deliberate lean.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "quiet-car",
+      "title": "Quiet Car",
+      "hook": "You're all trapped in the train's silent car with a private errand to complete — deliver a secret code to a specific stranger using only your phone as a flashed placard, because the conductor (your own mic) shushes anyone who dares make a sound.",
+      "tags": [
+        "party",
+        "audio",
+        "social",
+        "sensor"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "say-when",
+      "title": "Say When",
+      "hook": "A shared meter races upward and your voice is the only brake — but you each get exactly ONE word all round, so a cough, a laugh, or a premature 'when!' ends the game at the wrong instant.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "blowdown",
+      "title": "Blowdown",
+      "hook": "Powerwash Simulator for your homelab: blast dead Docker images, orphaned files, and dangling git branches off a 3D model of your server until the surface gleams — driven by real disk stats.",
+      "tags": [
+        "homelab",
+        "desktop-toy",
+        "self-hosted",
+        "cli"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "rule-35",
+      "title": "Rule 35",
+      "hook": "A Zachtronics-style puzzle where you program a tiny computer using nothing but Unicode transliteration rewrite rules — because they're accidentally Turing-complete.",
+      "tags": [
+        "puzzle",
+        "wordgame",
+        "language",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "off-target",
+      "title": "Off-Target",
+      "hook": "A daily puzzle where you design a molecule that kills the parasite but spares the host — spider venom for the varroa mite, not the bee.",
+      "tags": [
+        "biology",
+        "puzzle",
+        "chemistry",
+        "science"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-09"
+    },
+    {
       "slug": "table-stakes-2",
       "title": "Table Stakes",
       "hook": "A menu goes up on the TV and, before anyone speaks, every phone secretly locks in their own order AND bets on what everyone else will order — you win by reading the table, or by being the dish no one saw coming.",
