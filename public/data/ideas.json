@@ -2,6 +2,130 @@
   "lastScan": "2026-07-09",
   "ideas": [
     {
+      "slug": "potluck",
+      "title": "Potluck",
+      "hook": "Everyone secretly commits one dish from their own random fridge to a shared table — but if two of you show up with the potato salad, both dishes spoil and you eat the shame.",
+      "tags": [
+        "party",
+        "deduction",
+        "hidden-commit",
+        "social"
+      ],
+      "score": 65,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "zipper-merge",
+      "title": "Zipper Merge",
+      "hook": "Four lanes of traffic funnel into one on the big screen, and each of you secretly picks the instant to dart into the gap — hit the merge at the same tick as someone else and you both crumple.",
+      "tags": [
+        "party",
+        "timing",
+        "hidden-commit",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "needle-drop",
+      "title": "Needle Drop",
+      "hook": "A shared playlist plays on the speaker while everyone privately runs a betting book on the next song — is it faster, older, or a total banger — with pari-mutuel odds that swing based on the hidden money nobody else can see.",
+      "tags": [
+        "party",
+        "audio",
+        "prediction-market",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "house-special",
+      "title": "House Special",
+      "hook": "The takeout menu on the TV becomes a betting slip: everyone secretly wagers on what the table will actually end up ordering, and you cash out by reading the room, not your own cravings.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "social",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "detune-2",
+      "title": "Detune",
+      "hook": "One spectrum on the TV, but every phone is secretly aimed at a different hidden point on it — so you write a clue for your own target while simultaneously and privately guessing where everyone else is really pointing.",
+      "tags": [
+        "party",
+        "wavelength",
+        "simultaneous"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "hair-trigger",
+      "title": "Hair Trigger",
+      "hook": "Everyone holds a secret category and a secret symbol, and the instant your phone silently collides with someone else's, both of you get a private duel to blurt a word nobody else even knew was coming.",
+      "tags": [
+        "party",
+        "reflex",
+        "wordgame"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "off-brand",
+      "title": "Off-Brand",
+      "hook": "A party word game built on the Alternate Uses Test where you score points for creative uses of an everyday object that the LLM judge rates as the LEAST likely thing a language model would ever say.",
+      "tags": [
+        "party-game",
+        "llm",
+        "wordgame",
+        "multiplayer"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "dual-rank",
+      "title": "Dual Rank",
+      "hook": "A puzzle game where you're Meta's server team salvaging bins of mismatched second-hand RAM — pair sticks by timing, rank, and voltage across a 'bridge chip' to build stable memory banks before the datacenter boots.",
+      "tags": [
+        "puzzle",
+        "game",
+        "materials",
+        "sim"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "miticide",
+      "title": "Miticide",
+      "hook": "A Linux daemon inspired by spider venom that selectively terminates parasitic miner/adware processes leeching your box — without ever harming the legitimate workload sharing the same CPU.",
+      "tags": [
+        "security",
+        "homelab",
+        "self-hosted",
+        "observability"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-09"
+    },
+    {
       "slug": "ventriloquist",
       "title": "Ventriloquist",
       "hook": "Each phone hides a different secret word; you take turns adding one word to a shared sentence, secretly steering it so the little LLM would predict YOUR word next — lowest perplexity on your hidden target wins.",
