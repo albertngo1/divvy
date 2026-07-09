@@ -2,6 +2,130 @@
   "lastScan": "2026-07-09",
   "ideas": [
     {
+      "slug": "metamer",
+      "title": "Metamer",
+      "hook": "You're all art forgers matching the same masterpiece on your phones — except the real forger's palette is metamerically shifted, so their honest gut answer to 'is the sky bluer or greener than the sea?' is quietly wrong and they can't tell which of their colors betrays them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "perception",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "parallax-2",
+      "title": "Parallax",
+      "hook": "Everyone stares at the same tiny 3D diorama on their own phone — but the imposter's camera is quietly rotated fifteen degrees, so the object they swear is 'behind the vase' isn't, and their honest description convicts them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "spatial",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "blackout",
+      "title": "Blackout",
+      "hook": "A redacted paragraph is split among your phones — each player secretly owns one blank, and you all fill them blind, praying the little LLM finds your rebuilt sentence as unsurprising as the original.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "simmer-2",
+      "title": "Simmer",
+      "hook": "Race to write a sentence whose weirdness lands in a narrow target band — your phone is a live perplexity thermometer only you can see.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "quarry-2",
+      "title": "Quarry",
+      "hook": "One player is a Beast who sees the whole grid on their phone; the blind prey feel nothing but a private heartbeat that quickens as death gets closer.",
+      "tags": [
+        "party",
+        "hidden-movement",
+        "asymmetric",
+        "competitive"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "sump",
+      "title": "Sump",
+      "hook": "One player holds the cave survey while blind cavers feel only the walls of their own cell, and neither side can see what the other knows.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "bare-metal",
+      "title": "Bare Metal",
+      "hook": "Project Zomboid for your homelab: every service is a fragile survivor whose health is uptime and hunger is free disk, and cert expiries arrive as horde nights you have to barricade against.",
+      "tags": [
+        "homelab",
+        "survival",
+        "observability",
+        "self-hosted"
+      ],
+      "score": 61,
+      "source": "steam",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "greetz",
+      "title": "Greetz",
+      "hook": "The mischievous opposite of a stale-issue bot: instead of pruning your work, a hook fires a full-screen demoscene cracktro — sine-scroller, plasma, and a generated chiptune — that credits your merge like a warez release.",
+      "tags": [
+        "generative",
+        "music",
+        "ci"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "cannot-reproduce",
+      "title": "Cannot Reproduce",
+      "hook": "A daily deduction puzzle where every bug only breaks for users with one hidden trait — left-handedness, an Istanbul locale, an unsigned overflow — and you must pick the cheapest set of test users that provably pins the culprit.",
+      "tags": [
+        "puzzle",
+        "devtool",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-09"
+    },
+    {
       "slug": "mulligan",
       "title": "Mulligan",
       "hook": "A Slay-the-Spire boss telegraphs its attack on the TV, and the only block is a five-card color sequence — but the cards are scattered across everyone's private hands, so you have to negotiate who plays what, in order, before the timer drops.",
