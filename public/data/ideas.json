@@ -2,6 +2,131 @@
   "lastScan": "2026-07-09",
   "ideas": [
     {
+      "slug": "table-stakes-2",
+      "title": "Table Stakes",
+      "hook": "A menu goes up on the TV and, before anyone speaks, every phone secretly locks in their own order AND bets on what everyone else will order — you win by reading the table, or by being the dish no one saw coming.",
+      "tags": [
+        "party",
+        "betting",
+        "social-prediction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "the-spread",
+      "title": "The Spread",
+      "hook": "The host plays a 40-second clip while every phone becomes a private betting window, quietly stacking chips on 'does the soufflé collapse?' as live pari-mutuel odds twitch under everyone's fingers.",
+      "tags": [
+        "party",
+        "betting",
+        "video",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "shibboleth-2",
+      "title": "Shibboleth",
+      "hook": "Your group builds and memorizes a secret passphrase from private ingredients only each of you can see, then every phone must recall it at once — the prize is a shared secret and a wax-sealed charter, never shown again.",
+      "tags": [
+        "party",
+        "cooperative",
+        "memory",
+        "social"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "foldback",
+      "title": "Foldback",
+      "hook": "Every phone is one instrument in a shared 8-step loop, but your monitor only lets you hear part of the mix — the full track only comes together, live and loud, at the reveal you get to keep.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "music"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "numbers-station",
+      "title": "Numbers Station",
+      "hook": "Two teams broadcast coded clues for four secret words only their own phones can see — guess your own cipher, and crack the enemy's from the airwaves.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "nerve-2",
+      "title": "Nerve",
+      "hook": "A silent, cooperative race to empty every hand in perfect ascending order — sabotaged from within by one player whose phone hides a very different objective.",
+      "tags": [
+        "party",
+        "cooperative",
+        "social-deduction",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "wideband",
+      "title": "Wideband",
+      "hook": "A Zachtronics-flavored tuning bench where you hand-fill a fuel table cell by cell and a simulated engine screams, knocks, or sings back at you through a virtual wideband O2 sensor.",
+      "tags": [
+        "game",
+        "sim",
+        "physics",
+        "puzzle"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "homoglyph",
+      "title": "Homoglyph",
+      "hook": "A daily 60-second gauntlet where you sniff out which lookalike domains are live scams and which are the real thing—turning the phishing-alert emails you ignore into a streak you'll defend.",
+      "tags": [
+        "security",
+        "party-game",
+        "leaderboard",
+        "privacy"
+      ],
+      "score": 66,
+      "source": "github",
+      "created": "2026-07-09"
+    },
+    {
+      "slug": "reclass-2-2",
+      "title": "Reclass",
+      "hook": "Snap a pallet's dimensions and description and it hands you the right NMFC freight class before the carrier's scale does it for you—at a $200 reweigh markup.",
+      "tags": [
+        "logistics",
+        "b2b",
+        "automation",
+        "side-hustle"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-09"
+    },
+    {
       "slug": "metamer",
       "title": "Metamer",
       "hook": "You're all art forgers matching the same masterpiece on your phones — except the real forger's palette is metamerically shifted, so their honest gut answer to 'is the sky bluer or greener than the sea?' is quietly wrong and they can't tell which of their colors betrays them.",
