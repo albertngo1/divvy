@@ -2,6 +2,128 @@
   "lastScan": "2026-07-10",
   "ideas": [
     {
+      "slug": "black-sheep",
+      "title": "Black Sheep",
+      "hook": "Everyone secretly types an answer trying to match the crowd — except the one player the game has quietly told to be the lone weirdo without getting caught.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "exposure",
+      "title": "Exposure",
+      "hook": "It's Dixit played entirely with your own camera roll — give a clue for one of your private photos and watch friends bury it under decoys pulled from their own lives.",
+      "tags": [
+        "party",
+        "social",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "morning-line",
+      "title": "Morning Line",
+      "hook": "You're not just writing — you're a bookie betting on how a tiny, tasteless model will rank the whole room's answers.",
+      "tags": [
+        "party",
+        "wordgame",
+        "prediction",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "understudy-2-2",
+      "title": "Understudy",
+      "hook": "One player is secretly told to write like the machine, and the tiny model's own boredom is the tell that outs them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "ransom",
+      "title": "Ransom",
+      "hook": "The alphabet is secretly split across your phones so no one can spell alone, and together you cut a mismatched-font ransom note nobody can prove they wrote.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "bootleg",
+      "title": "Bootleg",
+      "hook": "Everyone secretly records one a cappella layer at the same instant; the host mixes it into an anonymous looping track, and you win by being the voice nobody can place.",
+      "tags": [
+        "party",
+        "audio",
+        "anonymity"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "funicular",
+      "title": "Funicular",
+      "hook": "Design structures the way Gaudí did — hang a chain, flip gravity, and let a physics solver prove your arch stands in pure compression.",
+      "tags": [
+        "physics",
+        "puzzle",
+        "game",
+        "generative"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "highball",
+      "title": "Highball",
+      "hook": "A daily driving game played over real railfan cab-ride footage: read the line ahead and call the next signal before the train does.",
+      "tags": [
+        "game",
+        "competitive",
+        "browser-game",
+        "leaderboard"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "plan-check",
+      "title": "Plan Check",
+      "hook": "Turn the soul-crushing city permit resubmittal loop into a tracked, diffable correction ledger that never loses a plan-reviewer's red markup again.",
+      "tags": [
+        "saas",
+        "automation",
+        "computer-vision",
+        "logistics"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-10"
+    },
+    {
       "slug": "separation",
       "title": "Separation",
       "hook": "Every phone is a private cockpit — you alone see your plane's heading, altitude, and fuel — while the host TV is a shared radar of anonymous blips, and the whole room has to talk each other through the airspace without two aircraft ever touching.",
