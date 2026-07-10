@@ -2,6 +2,128 @@
   "lastScan": "2026-07-10",
   "ideas": [
     {
+      "slug": "separation",
+      "title": "Separation",
+      "hook": "Every phone is a private cockpit — you alone see your plane's heading, altitude, and fuel — while the host TV is a shared radar of anonymous blips, and the whole room has to talk each other through the airspace without two aircraft ever touching.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "sensor"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "baton-2",
+      "title": "Baton",
+      "hook": "A live token has to visit every player exactly once and come home — but each phone privately knows only the two people IT is allowed to hand off to, so the room has to talk its way through a hidden relay graph before the clock kills the run.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "contour",
+      "title": "Contour",
+      "hook": "One player hides a single line on a grid; everyone else is a blind bead trying to land on it — but the mapkeeper can only whisper 'warmer' to one of you at a time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "handler",
+      "title": "Handler",
+      "hook": "You're the spymaster staring at the whole minefield while three blindfolded agents crawl through it in real time — and the only way to save them is a wordless buzz in the right direction.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "wallflower",
+      "title": "Wallflower",
+      "hook": "Everyone draws the exact same thing, and you win not by standing out but by being so forgettably generic that nobody in the room can point to your drawing.",
+      "tags": [
+        "party",
+        "drawing",
+        "anonymity"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "bounce-2",
+      "title": "Bounce",
+      "hook": "Everyone secretly composes one track of a song without ever hearing the others — then the host plays the whole band at once and hands you the finished clip to keep.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "lookalike",
+      "title": "Lookalike",
+      "hook": "A daily word game where you hunt the one character that isn't what it seems — раypal vs paypal — and every domain you catch drops into a real punycode blocklist you can export.",
+      "tags": [
+        "security",
+        "wordgame",
+        "privacy",
+        "browser-game"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "muscle-memory",
+      "title": "Muscle Memory",
+      "hook": "Monkeytype for your own shell — it mines your zsh history for the commands you fat-finger and hesitate on most, then drills them as timed reps until your fingers stop lying.",
+      "tags": [
+        "cli",
+        "productivity",
+        "devtool",
+        "quantified-self"
+      ],
+      "score": 67,
+      "source": "github",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "single-track",
+      "title": "Single Track",
+      "hook": "Dispatch your real cron jobs like trains on a single-track railway — the collision-free timetable you signal by hand exports straight back into your crontab.",
+      "tags": [
+        "homelab",
+        "sim",
+        "puzzle",
+        "observability"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-10"
+    },
+    {
       "slug": "petty-cash",
       "title": "Petty Cash",
       "hook": "Everyone privately holds the same expense report and negotiates the grand total out loud — but one player's ledger has a single line quietly padded, and to survive they must reverse-engineer a true total they can't see.",
