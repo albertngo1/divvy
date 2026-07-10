@@ -2,6 +2,132 @@
   "lastScan": "2026-07-10",
   "ideas": [
     {
+      "slug": "petty-cash",
+      "title": "Petty Cash",
+      "hook": "Everyone privately holds the same expense report and negotiates the grand total out loud — but one player's ledger has a single line quietly padded, and to survive they must reverse-engineer a true total they can't see.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "numbers"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "last-stop",
+      "title": "Last Stop",
+      "hook": "Build one metro route together by naming stations aloud — but one player's private map has a connection nobody else can see, and their honest directions quietly betray them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "order-up-2",
+      "title": "Order Up",
+      "hook": "A delivery menu goes up on the TV and everyone secretly locks in one dish — then privately bets on what everyone ELSE ordered, so you either eat what you want and get read like a book, or order the weird thing to stay unguessable.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "bluffing"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "chalk-2",
+      "title": "Chalk",
+      "hook": "The host freezes a clip mid-scene and every phone privately shoves chips onto what happens next — but it's pari-mutuel, so the lone contrarian who nails it robs the whole table blind.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction-market",
+        "video"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "buddy-system",
+      "title": "Buddy System",
+      "hook": "Everyone secretly aims a 'link' at another player from their own phone, and the room wins only when all those private pointers snap into perfect mutual pairs—negotiated entirely by glances.",
+      "tags": [
+        "party",
+        "cooperative",
+        "social-deduction",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "cleave",
+      "title": "Cleave",
+      "hook": "Everyone silently drags the same six word-tiles into groups on their own phone, chasing one shared way to carve up the pile—no talking, just a heat meter and the one tile nobody can agree on.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "regression",
+      "title": "Regression",
+      "hook": "A permadeath roguelike where every room is a real Postgres regression-test query and you descend only by correctly predicting the exact rows or error it returns — one wrong guess and the run is dead.",
+      "tags": [
+        "sql",
+        "roguelike",
+        "postgres",
+        "devtool"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "chargemaster",
+      "title": "Chargemaster",
+      "hook": "A satirical billing-tycoon where you play the villain in an ER back office, stacking real CPT codes and modifiers to inflate a routine visit into a five-figure bill — then it shows you the actual markup you just simulated.",
+      "tags": [
+        "business",
+        "economics",
+        "tycoon",
+        "sim"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "kind-of",
+      "title": "Kind Of",
+      "hook": "A solitaire deckbuilder where you climb the great chain of being one word at a time, ascending from 'poodle' all the way to 'entity' by playing broader, narrower, and sibling word-cards along WordNet's is-a tree.",
+      "tags": [
+        "wordgame",
+        "deckbuilder",
+        "language",
+        "puzzle"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-10"
+    },
+    {
       "slug": "dead-money",
       "title": "Dead Money",
       "hook": "A sealed-bid auction where the losers still pay — everyone slides a secret bid, all reveal at once, and only one walks away with the prize while the rest eat their bids.",
