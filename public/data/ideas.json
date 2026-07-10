@@ -2,6 +2,130 @@
   "lastScan": "2026-07-10",
   "ideas": [
     {
+      "slug": "offbeat-2",
+      "title": "Offbeat",
+      "hook": "Each phone is one drum voice in a shared groove, and any two taps that land at the same instant erupt into an ugly clash — so the room must silently interleave its hits into a clean polyrhythm where nobody ever coincides.",
+      "tags": [
+        "party",
+        "audio",
+        "rhythm",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "jinx",
+      "title": "Jinx",
+      "hook": "Everyone answers the same open prompt at once, but any answer two people land on gets both jinxed to zero — and a live 'heat' gauge lets you feel the collision coming while you both refuse to blink first.",
+      "tags": [
+        "party",
+        "wordgame",
+        "minority-game",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "countersign",
+      "title": "Countersign",
+      "hook": "The host lights a link between two random players and one reads their secret challenge aloud — the other must find the matching countersign buried in decoys on their own phone and shout it back before the sentry line goes cold.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "safe-hands",
+      "title": "Safe Hands",
+      "hook": "You each control one wheel of a shared vault lock — but the only clues you hold are about everyone else's wheel, so you must talk the whole combination into existence and slam it home together.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "downstream",
+      "title": "Downstream",
+      "hook": "A booster draft where everyone opens a pack at once and your phone secretly remembers every card you've passed — so when a pack wheels back to you gutted, you alone know who upstream is starving your suit.",
+      "tags": [
+        "party",
+        "drafting",
+        "deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "wildcat-2",
+      "title": "Wildcat",
+      "hook": "Everyone's drilling the same oil field, but your phone shows only YOUR secret geologist's estimate — bid the lease high on a bad hunch and you'll own a dry hole.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "use-after-free",
+      "title": "Use After Free",
+      "hook": "A Phasmophobia-style co-op horror where the ghost haunting your codebase is a memory-safety bug, and your team gathers undefined-behavior 'evidence' to identify it before it corrupts the build.",
+      "tags": [
+        "party-game",
+        "game",
+        "multiplayer",
+        "devtool"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "switching-cost",
+      "title": "Switching Cost",
+      "hook": "A marketplace where product teams pay vetted power-users of a rival tool to switch to it exclusively for a month and file a structured defection diary of every friction point.",
+      "tags": [
+        "marketplace",
+        "business",
+        "saas",
+        "b2b"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "quiet-nan",
+      "title": "Quiet NaN",
+      "hook": "A taint-tracer for dataframes that pins the exact row, column, and operation where a NaN or null first crept in — then shows every downstream cell it silently poisoned.",
+      "tags": [
+        "observability",
+        "devtool",
+        "data-viz",
+        "ml"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-10"
+    },
+    {
       "slug": "unidentified",
       "title": "Unidentified",
       "hook": "A roguelike shelf of mystery potions and a boss with a secret weakness — everyone quaffs a different unknown vial at the same instant, privately learns what it did to *them*, and the party has to build the color→effect table by science before the boss timer runs out.",
