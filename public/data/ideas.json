@@ -2,6 +2,115 @@
   "lastScan": "2026-07-10",
   "ideas": [
     {
+      "slug": "juggle",
+      "title": "Juggle",
+      "hook": "A fighting-game combo gets relayed around the room — each player can only see their own secret movelist, and the combo dies the instant someone's ender doesn't link into the next fighter's starter.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "cooperative",
+        "timing"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "soapstone",
+      "title": "Soapstone",
+      "hook": "Everyone runs the same invisible death-gauntlet on their own phone, and the only help — or sabotage — is the cryptic templated messages a fallen player scrawls for whoever comes next.",
+      "tags": [
+        "party",
+        "roguelike",
+        "social-deduction",
+        "async"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "tiebreak",
+      "title": "Tiebreak",
+      "hook": "A cooperative-looking ranking game where one phone was privately handed a subtly different sorting rule, and the traitor only exposes themselves on the close calls.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "off-register",
+      "title": "Off Register",
+      "hook": "Everyone holds the same secret dossier on their phone — except one player's copy has a single fact quietly altered, and that player has no idea they're the mole.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "reserve",
+      "title": "Reserve",
+      "hook": "An all-pay auction where your budget drains silently and only you can see how broke you are — bid on lots worth a private amount only your phone knows, and everyone pays what they bid whether they win or not.",
+      "tags": [
+        "party",
+        "bluffing",
+        "auction",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "escrow",
+      "title": "Escrow",
+      "hook": "Everyone trades resources at once through silent private offers, and the server quietly executes only the deals that actually close — including three-way loops nobody at the table could have negotiated out loud.",
+      "tags": [
+        "party",
+        "negotiation",
+        "set-collection",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "hash-match",
+      "title": "Hash Match",
+      "hook": "A pass-the-phone party game: doctor an image to slip past an on-device perceptual-hash 'scanner' while friends still have to recognize it — Chat Control as a sport.",
+      "tags": [],
+      "score": 66,
+      "source": "scan",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "loaded-mile",
+      "title": "Loaded Mile",
+      "hook": "Upload the surprise ambulance bill; it cross-references your city's public rate ordinance + Medicare's fee schedule to auto-draft the appeal letter the billing office hopes you never write.",
+      "tags": [],
+      "score": 69,
+      "source": "scan",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "overtime",
+      "title": "Overtime",
+      "hook": "A wallpaper that redraws itself daily from how many milliseconds longer or shorter than 86,400s the Earth actually spun — a year-long self-portrait of the planet running late.",
+      "tags": [],
+      "score": 73,
+      "source": "scan",
+      "created": "2026-07-10"
+    },
+    {
       "slug": "ticker-tape",
       "title": "Ticker Tape",
       "hook": "You all watch the same 30-second clip while a live market runs on the TV — buy and sell shares in 'does he land it?' as the price swings, and try to spot which player secretly already knows the ending.",
