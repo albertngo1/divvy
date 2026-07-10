@@ -1,6 +1,129 @@
 {
-  "lastScan": "2026-07-09",
+  "lastScan": "2026-07-10",
   "ideas": [
+    {
+      "slug": "ticker-tape",
+      "title": "Ticker Tape",
+      "hook": "You all watch the same 30-second clip while a live market runs on the TV — buy and sell shares in 'does he land it?' as the price swings, and try to spot which player secretly already knows the ending.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "family-style-2",
+      "title": "Family Style",
+      "hook": "A shared menu sits on the TV; you privately bet chips on which dishes the table will actually order, then argue out loud to rig the outcome without tipping your hand.",
+      "tags": [
+        "party",
+        "hidden-agenda",
+        "betting",
+        "social-deduction"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "tumbler-2",
+      "title": "Tumbler",
+      "hook": "Three players crack one safe by ear — each phone plays a different faint tumbler-click that only clears when you turn to the right number, and the instant anyone talks the room's noise floor drowns out everyone's click.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "knock-code",
+      "title": "Knock Code",
+      "hook": "Prisoners in separate cells: tap your secret word through the wall in Polybius code — but the instant your own phone hears your voice slip, the whole pair loses the letter.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "penumbra",
+      "title": "Penumbra",
+      "hook": "Lit by one lamp, every phone lies face-up reading the light on it — and a secret Shade tries to slip a hand across a neighbor's phone to darken it without the room catching the movement.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "air-gap",
+      "title": "Air Gap",
+      "hook": "Seated in a ring, you relay a pulse around the room by waving your bare hand over your phone — no touching, no talking — while your phone silently pings ultrasonic sonar off your palm to catch it.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "misuse",
+      "title": "Misuse",
+      "hook": "A pass-and-play party game where you list an unusual use for an everyday object and win only by surprising the AI — being weird in a way it didn't predict, while still making sense.",
+      "tags": [
+        "party-game",
+        "llm",
+        "wordgame",
+        "social"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "by-heart",
+      "title": "By Heart",
+      "hook": "Every morning it asks you to finger-draw yesterday's own heart-rate curve from memory, then overlays the real one and scores how well you actually know your own body.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "puzzle"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "deprecated",
+      "title": "Deprecated",
+      "hook": "A roguelike tower-defense where your own installed software stack is the battlefield — every approaching end-of-life date rots a lane and every fresh CVE spawns a wave against your prod core.",
+      "tags": [
+        "roguelike",
+        "homelab",
+        "security",
+        "cli"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-10"
+    },
     {
       "slug": "draw-a-blank",
       "title": "Draw a Blank",
