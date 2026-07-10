@@ -2,6 +2,102 @@
   "lastScan": "2026-07-10",
   "ideas": [
     {
+      "slug": "dead-money",
+      "title": "Dead Money",
+      "hook": "A sealed-bid auction where the losers still pay — everyone slides a secret bid, all reveal at once, and only one walks away with the prize while the rest eat their bids.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "commission",
+      "title": "Commission",
+      "hook": "Draft art for a secret collector whose taste only you know, then unmask everyone else's collector from what you saw wheel back to your seat.",
+      "tags": [
+        "party",
+        "draft",
+        "social-deduction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "rhumb",
+      "title": "Rhumb",
+      "hook": "Silently claim a compass point by turning to face it — but if you and someone else end up facing the same way, you both lose it, so the whole room has to spread its gaze without a word.",
+      "tags": [
+        "party",
+        "sensor",
+        "social",
+        "spatial"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "falloff",
+      "title": "Falloff",
+      "hook": "One speaker hums across the room; each phone whispers a secret target loudness, and you walk yourself to the exact spot where the sound is that loud — everyone landing on a different invisible ring.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "blast-radius",
+      "title": "Blast Radius",
+      "hook": "Point it at your AI agent's tool config and it shows you, as a graph, exactly what a single prompt injection could read, write, or exfiltrate.",
+      "tags": [
+        "security",
+        "saas",
+        "agents",
+        "b2b"
+      ],
+      "score": 73,
+      "source": "producthunt",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "peephole",
+      "title": "Peephole",
+      "hook": "A daily code-golf puzzle where you compose tiny functions to reproduce a target image or animation, and your only score is how few bytes it took.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "devtool",
+        "leaderboard"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "green-tag",
+      "title": "Green Tag",
+      "hook": "The clipboard-and-pen monthly fire-extinguisher inspection, replaced by an NFC tag on every device and a compliance report that writes itself.",
+      "tags": [
+        "saas",
+        "b2b",
+        "automation",
+        "ops-tool"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-07-10"
+    },
+    {
       "slug": "juggle",
       "title": "Juggle",
       "hook": "A fighting-game combo gets relayed around the room — each player can only see their own secret movelist, and the combo dies the instant someone's ender doesn't link into the next fighter's starter.",
