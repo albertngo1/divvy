@@ -2,6 +2,129 @@
   "lastScan": "2026-07-10",
   "ideas": [
     {
+      "slug": "unidentified",
+      "title": "Unidentified",
+      "hook": "A roguelike shelf of mystery potions and a boss with a secret weakness — everyone quaffs a different unknown vial at the same instant, privately learns what it did to *them*, and the party has to build the color→effect table by science before the boss timer runs out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "roguelike",
+        "deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "sequence-break",
+      "title": "Sequence Break",
+      "hook": "One tiny metroidvania map on the TV, one shared runner token, and the only way past each colored gate is the phone secretly holding that key — some doors need two players to turn theirs at the exact same instant.",
+      "tags": [
+        "party",
+        "cooperative",
+        "metroidvania",
+        "hidden-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "tote-2",
+      "title": "Tote",
+      "hook": "The TV shows a menu the group is about to pick from; secretly bet your chips on what the room will crown — nail the underbet dark horse and clean up, back the obvious favorite and win pennies.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "tout",
+      "title": "Tout",
+      "hook": "Everyone watches the same dumb video clip, but your phone secretly slips you one real insider tip about what's coming — cash in without tipping the sharks that you know.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "blackball",
+      "title": "Blackball",
+      "hook": "Eight options sit on the table and each phone secretly, silently drops black balls on the ones it wants gone — the room wins by converging to exactly ONE survivor, and loses the instant it nervously nukes them all.",
+      "tags": [
+        "party",
+        "cooperative",
+        "social-deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "same-page",
+      "title": "Same Page",
+      "hook": "Every phone is a private window into one shared cluttered image, and the room must silently pan and zoom until you're all framing the exact same tiny detail — without ever seeing where anyone else is looking.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "busy-signal",
+      "title": "Busy Signal",
+      "hook": "A $35 Raspberry Pi that listens to the ambient radio hum of a room and publishes a live 'how packed is it right now' bar for gyms and cafes—no cameras, no thousand-dollar counter.",
+      "tags": [
+        "business",
+        "self-hosted",
+        "privacy",
+        "side-hustle"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "hood",
+      "title": "Hood",
+      "hook": "The pocket tool that turns a hood-cleaner's before/after photos into an NFPA 96-compliant dated certificate and never lets them forget the next-due rebooking.",
+      "tags": [
+        "b2b",
+        "ops-tool",
+        "automation",
+        "side-hustle"
+      ],
+      "score": 63,
+      "source": "wild",
+      "created": "2026-07-10"
+    },
+    {
+      "slug": "unshipped",
+      "title": "Unshipped",
+      "hook": "Watches your competitor's JavaScript bundles every night and pings you the moment a new feature flag or route lands—weeks before their blog post.",
+      "tags": [
+        "saas",
+        "security",
+        "automation",
+        "competitive-intel"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-07-10"
+    },
+    {
       "slug": "black-sheep",
       "title": "Black Sheep",
       "hook": "Everyone secretly types an answer trying to match the crowd — except the one player the game has quietly told to be the lone weirdo without getting caught.",
