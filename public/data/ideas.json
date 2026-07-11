@@ -2,6 +2,130 @@
   "lastScan": "2026-07-11",
   "ideas": [
     {
+      "slug": "blindside",
+      "title": "Blindside",
+      "hook": "A stealth game where one runner threads a grid full of guard vision-cones that each sentry can see only their own of — so the guards have to describe their coverage out loud while the runner listens for the gap.",
+      "tags": [
+        "party",
+        "hidden-info",
+        "asymmetric"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "seam",
+      "title": "Seam",
+      "hook": "One giant match-3 board sliced into private strips, where the only big-scoring clears are the ones that cross the seam and demand two players tap in the same heartbeat.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle-game",
+        "simultaneous"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "quiet-car-2",
+      "title": "Quiet Car",
+      "hook": "Musical chairs where the chairs are quiet spots in the room and each player secretly needs a different amount of silence — so you fight over the good corner without knowing who actually needs it.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "elimination"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "cardinal",
+      "title": "Cardinal",
+      "hook": "You and a secret partner must silently point your phones at the same wall — while the other hidden pair claims a different one, and everyone's watching your body give it away.",
+      "tags": [
+        "party",
+        "sensor",
+        "compass",
+        "social-deduction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "off-color-2",
+      "title": "Off-Color",
+      "hook": "Everyone taps the tile that matches the named color — but the imposter's phone quietly shifted one swatch, so they keep reaching for the wrong shade.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "false-friend",
+      "title": "False Friend",
+      "hook": "The room translates one gibberish sentence together, but the imposter's private phrasebook has a single word that lies.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "knock-2",
+      "title": "Knock",
+      "hook": "Hold your phone near a running engine and it FFTs the growl against a firing-order model to tell you the cylinder that's misfiring — a combustion toy turned pocket mechanic.",
+      "tags": [
+        "audio",
+        "computer-vision",
+        "ml",
+        "automotive"
+      ],
+      "score": 61,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "blame-war",
+      "title": "Blame War",
+      "hook": "Turns `git log` into an interactive war atlas where files are contested territory, merge conflicts and reverts are battles, and commit messages are the casus belli.",
+      "tags": [
+        "git",
+        "data-viz",
+        "timeline",
+        "devtool"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "tin-road",
+      "title": "Tin Road",
+      "hook": "A dependency-fragility auditor disguised as a Late Bronze Age trade-collapse map — pull one keystone package and watch which of your apps go dark like cities cut off from tin.",
+      "tags": [
+        "devtool",
+        "sim",
+        "observability",
+        "data-viz"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
       "slug": "crosshair",
       "title": "Crosshair",
       "hook": "Every phone secretly holds one cell of a shared word-grid, everyone gives a one-word clue for their own hidden target at once, and the silent room must place all the anonymous clues onto the right squares before the timer burns down.",
