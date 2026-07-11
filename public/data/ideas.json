@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-07-10",
+  "lastScan": "2026-07-11",
   "ideas": [
+    {
+      "slug": "crosshair",
+      "title": "Crosshair",
+      "hook": "Every phone secretly holds one cell of a shared word-grid, everyone gives a one-word clue for their own hidden target at once, and the silent room must place all the anonymous clues onto the right squares before the timer burns down.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "second-guess",
+      "title": "Second Guess",
+      "hook": "Everyone writes a secret clue for the same word at once — but any two clues that match cancel out, so your real opponent is the obvious idea forming in five heads you can't see.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "terror-radius",
+      "title": "Terror Radius",
+      "hook": "Three phones frantically tap private skill-checks to fix generators while one player hunts them across the TV map — and every missed tap flashes only YOUR location to the killer.",
+      "tags": [
+        "party",
+        "asymmetric",
+        "horror",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "hard-drop",
+      "title": "Hard Drop",
+      "hook": "One Tetris well on the TV, but every player privately steers their own falling piece into their own band of the stack — and a line only clears when all of you fill the row together.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "on-three-2-2",
+      "title": "On Three",
+      "hook": "Each phone holds one dial of a shared vault whose setting depends on a number another player has to shout — set your dial from what you hear, then everyone release on the same beat or the lock resets.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "cold-read-2",
+      "title": "Cold Read",
+      "hook": "A breaking-news bulletin is scattered in fragments across your phones, only one mic can be live at a time, and nobody knows the running order until you read each other's lines aloud.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "overweight",
+      "title": "Overweight",
+      "hook": "A daily higher-or-lower duel where two famous websites square off and you guess which one ships more bloat — then watch the real megabytes drop like a game-show reveal.",
+      "tags": [
+        "browser-game",
+        "data-viz",
+        "leaderboard",
+        "devtool"
+      ],
+      "score": 63,
+      "source": "lobsters",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "livestock",
+      "title": "Livestock",
+      "hook": "A creature-collector that reads your bank feed and turns every recurring subscription into a Palworld-style monster you have to feed cash each month — so you fatten the good ones, breed bundles, and cull the freeloaders on a lowest-feed-cost leaderboard.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "sim",
+        "tycoon"
+      ],
+      "score": 70,
+      "source": "steam",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "in-the-wild",
+      "title": "In the Wild",
+      "hook": "A forecasting market where you stake points on which freshly-published CVE proof-of-concept gets weaponized — added to CISA's Known Exploited Vulnerabilities catalog — before its clock runs out.",
+      "tags": [
+        "security",
+        "prediction-market",
+        "forensics",
+        "leaderboard"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-11"
+    },
     {
       "slug": "offbeat-2",
       "title": "Offbeat",
