@@ -2,6 +2,129 @@
   "lastScan": "2026-07-11",
   "ideas": [
     {
+      "slug": "plaque",
+      "title": "Plaque",
+      "hook": "The room secretly co-writes a pompous award certificate for one unsuspecting friend — each phone drafts one blind clause while the honoree's screen quietly lies to them — and prints it as a keepsake they take home.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "foley",
+      "title": "Foley",
+      "hook": "Each phone is secretly handed one sound to perform with your mouth and hands, everyone records at once in the blind, and the server layers your chaos into a 15-second radio-drama scene the room keeps.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "mouthpiece",
+      "title": "Mouthpiece",
+      "hook": "The one player allowed to speak is the only one who can't see the puzzle, while everyone who holds a clue is gagged by their own phone's mic — so the knowers must silently steer a blindfolded mouth.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "bated-breath",
+      "title": "Bated Breath",
+      "hook": "A silent standoff where most players just have to not make a sound — except the one or two secretly ordered to break the silence first, and everyone's own phone is the snitch that catches only their mouth.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "sensor"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "table-stakes-2-2",
+      "title": "Table Stakes",
+      "hook": "The moment your group stares at a takeout menu becomes a hidden betting game: secretly lock your own order, then privately wager on who caves on the salad and which dish the table piles onto.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "food"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "bandwagon",
+      "title": "Bandwagon",
+      "hook": "While a competition show plays on the TV, everyone runs a secret stock portfolio on the contestants — so you can cheer the beloved grandma out loud while quietly short-selling her.",
+      "tags": [
+        "party",
+        "betting",
+        "second-screen",
+        "social"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "squatter",
+      "title": "Squatter",
+      "hook": "An invented tenant quietly lives a believable, weather-aware daily life through your smart home while you're on vacation — so the lights lie convincingly to burglars.",
+      "tags": [
+        "homelab",
+        "automation",
+        "self-hosted",
+        "llm"
+      ],
+      "score": 68,
+      "source": "arxiv",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "well-fed",
+      "title": "Well Fed",
+      "hook": "Valheim's food system for your actual diet: three meal slots, buffs that decay, and eating the same sad sandwich twice is a wasted slot.",
+      "tags": [
+        "quantified-self",
+        "game",
+        "health",
+        "habits"
+      ],
+      "score": 64,
+      "source": "steam",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "photobomb",
+      "title": "Photobomb",
+      "hook": "Tell your telescope exactly which Starlink streaks will slash through your two-hour exposure — and when to click the shutter to dodge them.",
+      "tags": [
+        "astronomy",
+        "gis",
+        "self-hosted",
+        "cli"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
       "slug": "kickback-2",
       "title": "Kickback",
       "hook": "The group has $100 and a shared shopping list — but the imposter's phone is quietly quoting them the wrong prices, so every total they blurt out is off by just enough.",
