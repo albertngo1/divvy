@@ -2,6 +2,132 @@
   "lastScan": "2026-07-11",
   "ideas": [
     {
+      "slug": "craving",
+      "title": "Craving",
+      "hook": "Everyone drafts from one shared pantry on the TV, but each phone hides a different secret craving — so the real game is guessing what your rivals want and snatching it before they can.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-info",
+        "set-collection"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "markdown",
+      "title": "Markdown",
+      "hook": "A single absurd lot drops in price on the TV while every phone secretly knows only its own max — first thumb to slap BUY steals it, and nobody can read your nerve.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time",
+        "bluffing"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "unsigned",
+      "title": "Unsigned",
+      "hook": "Everyone secretly writes an anonymous kind note to a randomly assigned player, and the game you win is leaving with a card full of compliments while nobody can prove which one you wrote.",
+      "tags": [
+        "party",
+        "anonymity",
+        "social-deduction",
+        "keepsake"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "zoetrope",
+      "title": "Zoetrope",
+      "hook": "Everyone secretly draws one frame of the same short animation while glimpsing only a ghost of the frame before theirs, and the host stitches the wobbling result into a looping GIF you all keep.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "clave",
+      "title": "Clave",
+      "hook": "The TV is a slow metronome and an empty drum machine; each phone secretly owns one clap-slot and privately whispers 'early / late' from its own mic, so the room becomes a human beat you can only lock by spreading out.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "rhythm"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "trim",
+      "title": "Trim",
+      "hook": "The host TV is one tilting table and a rolling ball — but each player's phone only controls one direction, so you steer the maze with your bodies scattered around the room.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "hand-wave",
+      "title": "Hand-Wave",
+      "hook": "A daily deduction puzzle that hands you a slick AI-written proof with exactly one lie buried in it, and dares you to find the step where the machine bluffed.",
+      "tags": [
+        "puzzle",
+        "game",
+        "llm",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "zeitgeber",
+      "title": "Zeitgeber",
+      "hook": "A screensaver clock that quietly redraws its own dial from your body's real rhythm, until by New Year's the twelve hours have stretched and shrunk into the shape of your year.",
+      "tags": [
+        "ambient",
+        "quantified-self",
+        "generative",
+        "screensaver"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "off-ramp",
+      "title": "Off-Ramp",
+      "hook": "A compliance robot that drives your own signup-to-cancel funnel every night and hands you a dated badge proving no dark patterns before an AG does it for you.",
+      "tags": [
+        "saas",
+        "b2b",
+        "automation",
+        "security"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
       "slug": "head-table",
       "title": "Head Table",
       "hook": "One player secretly holds the correct seating chart; the rest are blind guests who each carry one petty grudge they can't reveal, and the host must nudge everyone into the right order before someone storms off.",
