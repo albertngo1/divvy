@@ -2,6 +2,132 @@
   "lastScan": "2026-07-11",
   "ideas": [
     {
+      "slug": "canary",
+      "title": "Canary",
+      "hook": "The one player who can see the mine map isn't allowed to speak — they can only blink a single arrow onto each blind miner's lamp before the gas gets them.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-info",
+        "no-talking"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "fathom-2",
+      "title": "Fathom",
+      "hook": "One player reads the only chart of a rock-strewn harbor and must talk two blindfolded captains through the fog before the tide runs out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-info",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "brim",
+      "title": "Brim",
+      "hook": "Hold your phone dead-level like a brimful glass and walk it across the room to a private compass bearing — tilt too far and you spill, and everyone has to arrive without a drop.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "storey",
+      "title": "Storey",
+      "hook": "Your phone is a private altimeter — crouch, stand, or climb onto a chair to plant your floor of a skyscraper that only rises when everyone holds a different height at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "mondegreen",
+      "title": "Mondegreen",
+      "hook": "The whole room belts a karaoke song in unison off their phones — but the imposter's lyrics were quietly rewritten on one line, and at the chorus their wrong words ring out over everyone else's.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "retcon",
+      "title": "Retcon",
+      "hook": "Everyone privately reads the same wordless comic and writes its moral — but one player's copy has a single panel swapped, so their moral is quietly, damningly wrong.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "wordgame"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "dazzle",
+      "title": "Dazzle",
+      "hook": "A living-room stealth game where your phone is a killer drone running real person-detection, and everyone has to cross the room without being seen — break your silhouette or get spotted.",
+      "tags": [
+        "party-game",
+        "computer-vision",
+        "multiplayer",
+        "social"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "load-bearing-2",
+      "title": "Load-Bearing",
+      "hook": "The mischievous inverse of 'rebuild Redis from scratch': a roguelike that hands you a demolition charge and dares you to delete as much of your own repo as you can before the test suite dies.",
+      "tags": [
+        "roguelike",
+        "devtool",
+        "git",
+        "cli"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "dead-reckoning-2",
+      "title": "Dead Reckoning",
+      "hook": "A solo-unsupported ocean-crossing survival sim where your real Garmin metrics are the boat: every logged mile makes way, bad sleep drifts you backward, and low HRV sinks morale until you're becalmed.",
+      "tags": [
+        "survival",
+        "quantified-self",
+        "sim",
+        "health"
+      ],
+      "score": 69,
+      "source": "wild",
+      "created": "2026-07-11"
+    },
+    {
       "slug": "plaque",
       "title": "Plaque",
       "hook": "The room secretly co-writes a pompous award certificate for one unsuspecting friend — each phone drafts one blind clause while the honoree's screen quietly lies to them — and prints it as a keepsake they take home.",
