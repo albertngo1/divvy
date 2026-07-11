@@ -2,6 +2,131 @@
   "lastScan": "2026-07-11",
   "ideas": [
     {
+      "slug": "head-table",
+      "title": "Head Table",
+      "hook": "One player secretly holds the correct seating chart; the rest are blind guests who each carry one petty grudge they can't reveal, and the host must nudge everyone into the right order before someone storms off.",
+      "tags": [
+        "party",
+        "puzzle",
+        "hidden-info",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "overcast",
+      "title": "Overcast",
+      "hook": "You're an air-traffic controller with the only radar; your two friends are pilots socked in the clouds who can't see the runway, each other, or anything but their own trembling instrument panel — talk them down before the fuel runs out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "voice"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "dibs-2",
+      "title": "Dibs",
+      "hook": "A grid of treasure everyone grabs at once in secret — but any tile two people reach for shatters, and each of you sees a different secret price tag.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "strategy"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "blind-corner",
+      "title": "Blind Corner",
+      "hook": "Everyone tilt-steers their own invisible dot through the same maze, and the only thing that can kill you is a teammate you can't see.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "fingerprint-2",
+      "title": "Fingerprint",
+      "hook": "Everyone secretly writes one sentence, a tiny model turns each into a jagged 'fever chart' of where it got surprised, and the room matches the anonymized, word-less curves back to their authors.",
+      "tags": [
+        "party",
+        "wordgame",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "iron-out",
+      "title": "Iron Out",
+      "hook": "A garbled sentence sits on the TV; each phone secretly owns a few of its words and must smooth them blind — coordinating only through the one shared perplexity thermometer as it falls toward the target line.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "overhead",
+      "title": "Overhead",
+      "hook": "A self-hosted poster that quietly logs every satellite crossing your patch of zenith each night, growing a year-long barcode of low-earth-orbit getting more crowded.",
+      "tags": [
+        "data-viz",
+        "astronomy",
+        "ambient",
+        "self-hosted"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "headcount",
+      "title": "Headcount",
+      "hook": "Your dependency tree, run all year as a satirical company that hires, promotes, lays off, and suffers the occasional trade-secret defection — with a straight-faced annual report waiting on December 31.",
+      "tags": [
+        "business",
+        "devtool",
+        "ambient",
+        "generative"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "test-pit",
+      "title": "Test Pit",
+      "hook": "Excavate your own hard drive like an archaeological dig — trowel down through mtime strata and name the vanished 'cultures' who left ten thousand identical node_modules potsherds.",
+      "tags": [
+        "forensics",
+        "cli",
+        "data-viz",
+        "whimsy"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
       "slug": "talk-is-cheap",
       "title": "Talk Is Cheap",
       "hook": "Every player gets a tiny secret budget of words for the whole round, the team dies if prompts go unanswered — so it's a silent game of chicken over who spends their breath.",
