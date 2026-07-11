@@ -2,6 +2,129 @@
   "lastScan": "2026-07-11",
   "ideas": [
     {
+      "slug": "talk-is-cheap",
+      "title": "Talk Is Cheap",
+      "hook": "Every player gets a tiny secret budget of words for the whole round, the team dies if prompts go unanswered — so it's a silent game of chicken over who spends their breath.",
+      "tags": [
+        "party",
+        "social",
+        "audio"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "pin-drop",
+      "title": "Pin Drop",
+      "hook": "A silent heist where each phone whispers a different private clue into your ear — but only while the whole room stays quiet enough to hear a pin drop.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "sitter",
+      "title": "Sitter",
+      "hook": "Everyone draws one blind region of the same face — each with a secret emotional brief — and the reveal stitches a gorgeously incoherent group portrait you keep.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "blackout-2",
+      "title": "Blackout",
+      "hook": "Everyone redacts their own words on one shared page to carve a group blackout poem — while secretly keeping one word alive without getting caught protecting it.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "prop-bet",
+      "title": "Prop Bet",
+      "hook": "A live prop-betting layer for whatever show you're already watching — each phone secretly holds a different hand of 'will happen' cards and you wager, hidden, on the same scene.",
+      "tags": [
+        "party",
+        "betting",
+        "live-video",
+        "hidden-info"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "dark-pool",
+      "title": "Dark Pool",
+      "hook": "The takeout menu becomes a hidden order book — secretly buy shares in the dish you think the table will really order while lobbying loudly against it.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction-market",
+        "hidden-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "power-nap",
+      "title": "Power Nap",
+      "hook": "An idle game that runs backwards: your homelab's real containers are sleepy creatures, and you get richer the longer you keep them powered *down*—every watt of scale-to-zero idle time is currency you spend to make them nap harder.",
+      "tags": [
+        "idle",
+        "homelab",
+        "self-hosted",
+        "ambient"
+      ],
+      "score": 63,
+      "source": "github",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "crate",
+      "title": "Crate",
+      "hook": "A roguelike deckbuilder where the cards are your own MP3s—draft a setlist from your real music library and survive the night, but clashing keys and tempo cliffs drain the crowd's energy until they walk out.",
+      "tags": [
+        "deckbuilder",
+        "roguelike",
+        "audio",
+        "music"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "reorg",
+      "title": "Reorg",
+      "hook": "Your package-lock.json is a bloated corporation and you're the ruthless new CEO—lay off middle-manager dependencies, watch the cascade of firings ripple down the org chart, and bank the bytes you saved.",
+      "tags": [
+        "tycoon",
+        "devtool",
+        "git",
+        "data-viz"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-11"
+    },
+    {
       "slug": "blindside",
       "title": "Blindside",
       "hook": "A stealth game where one runner threads a grid full of guard vision-cones that each sentry can see only their own of — so the guards have to describe their coverage out loud while the runner listens for the gap.",
