@@ -2,6 +2,128 @@
   "lastScan": "2026-07-11",
   "ideas": [
     {
+      "slug": "kickback-2",
+      "title": "Kickback",
+      "hook": "The group has $100 and a shared shopping list — but the imposter's phone is quietly quoting them the wrong prices, so every total they blurt out is off by just enough.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "negotiation"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "overdub-2",
+      "title": "Overdub",
+      "hook": "Everyone listens privately to the same 20-second voicemail — except the imposter's copy swapped one word, and now they have to recount a story they never quite heard.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "hidden-role"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "middle-ground",
+      "title": "Middle Ground",
+      "hook": "Each phone is secretly pulled toward a different word, and the whole room must still silently meet on one shared word by abandoning its own bias.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "muck",
+      "title": "Muck",
+      "hook": "Everyone holds a secret hand of symbols and must silently cull down to the exact same last card — without ever seeing another player's hand.",
+      "tags": [
+        "party",
+        "cooperative",
+        "elimination"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "deep-cut",
+      "title": "Deep Cut",
+      "hook": "A shuffle playlist becomes an over/under market where you privately bet on how many friends will recognize each song before the snippet even plays.",
+      "tags": [
+        "party",
+        "audio",
+        "betting",
+        "music"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "house-special-2",
+      "title": "House Special",
+      "hook": "The takeout menu becomes a secret prediction market where you can rig the vote by changing your own order to pump your bets.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "hidden-info",
+        "social"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "streak",
+      "title": "Streak",
+      "hook": "Before you open a 5-minute exposure, Streak tells astrophotographers exactly when a Starlink will slice through their framed field of view — turning free public TLEs into a per-shutter go/no-go call.",
+      "tags": [
+        "astronomy",
+        "sim",
+        "cli"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "reactor-four",
+      "title": "Reactor Four",
+      "hook": "Your homelab, rendered as a Soviet nuclear control room — CPU load spins damped analog needles, disk fills nixie counters, and killing a service triggers a Cyrillic SCRAM klaxon.",
+      "tags": [
+        "homelab",
+        "ambient",
+        "observability",
+        "desktop-toy"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
+      "slug": "dog-whistle",
+      "title": "Dog Whistle",
+      "hook": "Craft an image where a human reads 'CANCEL SUBSCRIPTION' but the vision model swears it says 'CONFIRM PAYMENT' — the mischievous inverse of Ghost Font, scored as a red-team party game.",
+      "tags": [
+        "security",
+        "party-game",
+        "computer-vision",
+        "steganography"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-11"
+    },
+    {
       "slug": "craving",
       "title": "Craving",
       "hook": "Everyone drafts from one shared pantry on the TV, but each phone hides a different secret craving — so the real game is guessing what your rivals want and snatching it before they can.",
