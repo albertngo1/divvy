@@ -2,6 +2,125 @@
   "lastScan": "2026-07-12",
   "ideas": [
     {
+      "slug": "lion-s-share",
+      "title": "Lion's Share",
+      "hook": "One player secretly carves a treasure hoard into bundles on their phone; everyone else secretly claims a bundle at the same instant — and the divider only wins if their portions were fair enough that no one fought over the good one.",
+      "tags": [
+        "party",
+        "negotiation",
+        "hidden-info"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "fire-sale",
+      "title": "Fire Sale",
+      "hook": "A descending-price Dutch auction where the clock ticks the price down in real time and your thumb is the only thing between you and a steal — but only your phone knows your budget and which lots are secretly worth double to you.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "doomscroll",
+      "title": "Doomscroll",
+      "hook": "A deliberately boring clip plays on the TV while your phone floods you with an irresistible meme feed — secretly bet on which friend caves and starts scrolling first, as your own phone snitches on your willpower.",
+      "tags": [
+        "party",
+        "betting",
+        "sensor",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "deadpan",
+      "title": "Deadpan",
+      "hook": "Watch a cringe compilation while secretly betting on which friends will crack up first — and your phone privately dares you to fake a reaction and bust everyone's bets.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "video"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "earshot",
+      "title": "Earshot",
+      "hook": "Everyone holds their phone to their ear and hears the same voicemail at the same instant — but one person's clip has a single word swapped, and reconstructing the message out loud is how you catch them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "tangent-2",
+      "title": "Tangent",
+      "hook": "Everyone answers the same rapid-fire prompts on their own phone — except one player has been reading a slightly different question the whole time and doesn't fully know it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "daisy-chain",
+      "title": "Daisy Chain",
+      "hook": "A forensic-accounting deduction game where you play the short-seller unwinding a web of vendor deals to expose the circular revenue loop before the company IPOs.",
+      "tags": [
+        "finance",
+        "puzzle",
+        "sim"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "vernacular",
+      "title": "Vernacular",
+      "hook": "A party drawing game that rewards the weirdo: draw the prompt in the way *least* like everyone else — while still barely recognizable to the machine.",
+      "tags": [
+        "party-game",
+        "computer-vision",
+        "social"
+      ],
+      "score": 68,
+      "source": "arxiv",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "water-glass",
+      "title": "Water Glass",
+      "hook": "A physics puzzle where liquid walls shatter like brittle glass if you strike them fast enough — but flow, seal, and drown you if you push too slow.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "sim"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-07-12"
+    },
+    {
       "slug": "crop",
       "title": "Crop",
       "hook": "One photo fills the TV and everyone secretly pinch-zooms their own phone to frame the detail they think everyone else will frame — the room wins when all your hidden crops land on the same thing.",
