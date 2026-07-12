@@ -2,6 +2,130 @@
   "lastScan": "2026-07-12",
   "ideas": [
     {
+      "slug": "spread-2",
+      "title": "Spread",
+      "hook": "The model reveals eight candidate next-words for a blank — with the odds hidden — and you privately stake your claim on the one you think it secretly favors, but anyone who claimed the same word splits the pot.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "social-deduction"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "contraband",
+      "title": "Contraband",
+      "hook": "You're handed one weird word you must smuggle into a sentence so smoothly the language model never flinches — while everyone else hunts your sentence for the one spike that gives you away.",
+      "tags": [
+        "party",
+        "wordgame",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "mirror-image",
+      "title": "Mirror Image",
+      "hook": "Everyone gives spatial clues about the same little diagram on their phone — but one player's diagram is flipped left-for-right, and they must silently invert every clue in their head or get caught saying the tree is on the wrong side.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "voiceover",
+      "title": "Voiceover",
+      "hook": "Everyone privately hears the same 40-second narrated memory through their own phone — except one player's dub quietly swapped a few facts, and nobody, not even that player, is told whose reality is the wrong one.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "order-up-2-2",
+      "title": "Order Up",
+      "hook": "The TV shows a restaurant menu; before anyone reveals what they'd actually order, you privately bet your chips on exactly what each friend at the table will pick.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "hidden-information"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "called-it",
+      "title": "Called It",
+      "hook": "The host TV slowly un-blurs a single photo while everyone privately races to lock their guess — for a payout that shrinks the clearer the picture gets.",
+      "tags": [
+        "party",
+        "betting",
+        "reflex",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "vacancy",
+      "title": "Vacancy",
+      "hook": "A daily deduction puzzle where you scrub a week of a smart home's sensor logs to find the one day an intruder was quietly living someone else's routine.",
+      "tags": [
+        "puzzle",
+        "social-deduction",
+        "narrative",
+        "forensics"
+      ],
+      "score": 63,
+      "source": "arxiv",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "fair-warning",
+      "title": "Fair Warning",
+      "hook": "A release-gate bot that reads your actual public API surface and calls you a liar when you tag a breaking change as a patch bump.",
+      "tags": [
+        "devtool",
+        "ci",
+        "saas",
+        "git"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "chirp",
+      "title": "Chirp",
+      "hook": "The dashboard that knows every smoke detector, door-lock, and thermostat battery in your apartment portfolio is about to die — before the tenant calls at 3 a.m.",
+      "tags": [
+        "saas",
+        "logistics",
+        "homelab",
+        "ops-tool"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-12"
+    },
+    {
       "slug": "lion-s-share",
       "title": "Lion's Share",
       "hook": "One player secretly carves a treasure hoard into bundles on their phone; everyone else secretly claims a bundle at the same instant — and the divider only wins if their portions were fair enough that no one fought over the good one.",
