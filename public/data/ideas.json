@@ -1,6 +1,128 @@
 {
-  "lastScan": "2026-07-11",
+  "lastScan": "2026-07-12",
   "ideas": [
+    {
+      "slug": "longhand",
+      "title": "Longhand",
+      "hook": "The whole room secretly finger-writes the same phrase at the same time, the host weaves the handwriting into one anonymous poster, and you win by being the person no one can pick out of the lineup.",
+      "tags": [
+        "party",
+        "anonymity",
+        "drawing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "music-box",
+      "title": "Music Box",
+      "hook": "Everyone secretly owns one instrument lane of a blind step-sequencer and layers a beat by ear alone, until the room has jammed a loop nobody could have written solo — exported as a keepsake track.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "detune-2-2",
+      "title": "Detune",
+      "hook": "Three people hum into their phones to build one fat chord — but any two voices that drift within a semitone of each other collapse into ugly beating dissonance.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "swerve-2",
+      "title": "Swerve",
+      "hook": "Everyone races to type a unique answer while the TV leaks each player's first letter live — and any two answers that collide both explode.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "family-style-2-2",
+      "title": "Family Style",
+      "hook": "Before anyone says what they're getting, secretly bet on what everyone at the table will actually order off the same menu — points for reading your friends, and points for ordering something nobody saw coming.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "steam",
+      "title": "Steam",
+      "hook": "Everyone watches the same 60-second clip, but you bet on how it ends inside a private parimutuel pool — and one of you was secretly tipped off, so learn to read whose money is moving the line.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "cold-read-2-2",
+      "title": "Cold Read",
+      "hook": "A deadpan CLI fortune-teller that reads your lockfile like tarot and predicts, with unsettling specificity, which dependency will betray you next.",
+      "tags": [
+        "devtool",
+        "cli",
+        "whimsy",
+        "observability"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "comment-period",
+      "title": "Comment Period",
+      "hook": "One notification feed for the five clunky city permit portals a contractor otherwise has to log into every morning to see if plan review left a comment.",
+      "tags": [
+        "saas",
+        "logistics",
+        "automation",
+        "b2b"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "quick-where",
+      "title": "Quick, Where?",
+      "hook": "Geoguessr for doodles — you're shown a stranger's scribble of a light switch or a taxi and you guess which country's hand drew it.",
+      "tags": [
+        "party-game",
+        "wordgame",
+        "computer-vision",
+        "leaderboard"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-12"
+    },
     {
       "slug": "canary",
       "title": "Canary",
