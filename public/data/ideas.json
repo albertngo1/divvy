@@ -2,6 +2,130 @@
   "lastScan": "2026-07-12",
   "ideas": [
     {
+      "slug": "understudy-2-2-2",
+      "title": "Understudy",
+      "hook": "Every player performs a short scene from their own private 'actor's sides' — and one script has a single doctored line that quietly contradicts the story, so the imposter breaks continuity without knowing they're the liar.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "storytelling",
+        "performance"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "backbeat",
+      "title": "Backbeat",
+      "hook": "Everyone claps to a private metronome and one secretly runs 9% fast — so the imposter genuinely feels in time while they rush the whole room out of the pocket.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "rhythm"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "marionette",
+      "title": "Marionette",
+      "hook": "You control exactly one leg of a floppy shared ragdoll you cannot see, while the only player watching the whole stage screams timing at you to flop the body across a pit.",
+      "tags": [
+        "party",
+        "cooperative",
+        "physics",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "lighthouse-2",
+      "title": "Lighthouse",
+      "hook": "You're piloting a boat home through unseen rocks in the pitch dark, and the only person who can see the whole harbor rations a single sweeping beam of light across all of you at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "cliffhanger",
+      "title": "Cliffhanger",
+      "hook": "The whole room watches one suspense clip while a live payout multiplier climbs — cash out on your own phone before the moment lands, but you can't see when anyone else got cold feet.",
+      "tags": [
+        "party",
+        "betting",
+        "video"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "rundown",
+      "title": "Rundown",
+      "hook": "The group turns their own takeout menu into a Top-6 countdown show, then secretly bets on a ranking they all helped write but nobody has seen.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction-market"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "clean-claim",
+      "title": "Clean Claim",
+      "hook": "Half of a dental office's denials are dumb — a missing X-ray, the wrong tooth-number format, a narrative Delta wants but Cigna doesn't — so Clean Claim pre-flights each claim against that specific payer's attachment rules before it's ever submitted.",
+      "tags": [
+        "saas",
+        "health",
+        "automation",
+        "b2b"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "leak-rate",
+      "title": "Leak Rate",
+      "hook": "Every time a tech tops off a big rooftop AC unit, the EPA wants it logged and the leak rate calculated — Leak Rate turns that dreaded paper binder into a phone tap that also warns you before a system trips the mandatory-repair threshold.",
+      "tags": [
+        "saas",
+        "ops-tool",
+        "automation",
+        "logistics"
+      ],
+      "score": 65,
+      "source": "wild",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "cohort",
+      "title": "Cohort",
+      "hook": "The new federal rule ties financial aid to whether grads out-earn a high-schooler — Cohort tells a small college if each program is about to flunk that test, before the Department of Education does.",
+      "tags": [
+        "saas",
+        "b2b",
+        "automation",
+        "education"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-12"
+    },
+    {
       "slug": "spread-2",
       "title": "Spread",
       "hook": "The model reveals eight candidate next-words for a blank — with the odds hidden — and you privately stake your claim on the one you think it secretly favors, but anyone who claimed the same word splits the pot.",
