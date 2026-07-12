@@ -2,6 +2,132 @@
   "lastScan": "2026-07-12",
   "ideas": [
     {
+      "slug": "cast",
+      "title": "Cast",
+      "hook": "Each player blindly choreographs one limb of a shared creature by waving their phone in the air, and the composited monster spins on the TV as an exportable keepsake nobody could have designed alone.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "overspray",
+      "title": "Overspray",
+      "hook": "Everyone spray-paints one shared wall through a stencil only they can see, each secretly steering the mural toward a different picture — the glorious mess is the keepsake.",
+      "tags": [
+        "party",
+        "drawing",
+        "hidden-agenda",
+        "keepsake"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "dead-ringer",
+      "title": "Dead Ringer",
+      "hook": "Everyone silently builds a little avatar from the same parts bin, and the room only wins if all your strangers turn out to be the exact same person.",
+      "tags": [
+        "party",
+        "cooperative",
+        "schelling",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "dovetail",
+      "title": "Dovetail",
+      "hook": "Each of you draws one blind panel of a single shared picture, and the only way to win is to make your strokes meet a neighbor's you were never allowed to see.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "potluck-2",
+      "title": "Potluck",
+      "hook": "Everyone secretly brings one dish to a shared table, but two people bringing the same thing means both dishes hit the floor.",
+      "tags": [
+        "party",
+        "hidden-info",
+        "social",
+        "strategy"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "split-second",
+      "title": "Split Second",
+      "hook": "A clock hand sweeps once; everyone secretly stabs a moment in time, but tap too close to someone else and you both flatline.",
+      "tags": [
+        "party",
+        "reflex",
+        "real-time",
+        "timing"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "autopay",
+      "title": "Autopay",
+      "hook": "A Luck-Be-a-Landlord-style slot roguelike where the symbols on your reels are your actual recurring subscriptions, and you have to make rent every month by discovering which ones synergize and which are dead weight.",
+      "tags": [
+        "budgeting",
+        "roguelike",
+        "finance",
+        "quantified-self"
+      ],
+      "score": 67,
+      "source": "steam",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "firehose",
+      "title": "Firehose",
+      "hook": "A Vampire-Survivors-style bullet-heaven where lines from your real logs swarm you as enemies and the regex rules you write are auto-firing weapons that vaporize matching patterns.",
+      "tags": [
+        "game",
+        "cli",
+        "observability",
+        "roguelike"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "preamble",
+      "title": "Preamble",
+      "hook": "Competitive prompt-golf: two players get the same failing coding task and race to make a fixed model pass it using the fewest tokens of context they dare to send.",
+      "tags": [
+        "party-game",
+        "llm",
+        "prompt",
+        "competitive"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-12"
+    },
+    {
       "slug": "tumblers",
       "title": "Tumblers",
       "hook": "Everyone secretly spins the dials of their own combination lock, and the vault opens only when all your locks read the exact same number — with nothing but a 'warmer/colder' agreement meter to guide you.",
