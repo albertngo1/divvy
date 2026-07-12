@@ -2,6 +2,130 @@
   "lastScan": "2026-07-12",
   "ideas": [
     {
+      "slug": "crop",
+      "title": "Crop",
+      "hook": "One photo fills the TV and everyone secretly pinch-zooms their own phone to frame the detail they think everyone else will frame — the room wins when all your hidden crops land on the same thing.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "spatial"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "asterism",
+      "title": "Asterism",
+      "hook": "Nine stars sit on the TV and every phone silently connects its own dots — the room wins only when everyone, with no talking, has drawn the exact same constellation.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "puzzle"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "even-split",
+      "title": "Even Split",
+      "hook": "One player must carve a pile of loot into fair bundles knowing only their own secret prices — then watch the reveal expose exactly how badly everyone got robbed.",
+      "tags": [
+        "party",
+        "social",
+        "hidden-information"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "dutch-angle",
+      "title": "Dutch Angle",
+      "hook": "A price clock ticks downward on the TV while everyone's thumb hovers over GRAB — buy the haunted lava lamp now for too much, or wait a beat and pray nobody steals it out from under you.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "baby-monitor",
+      "title": "Baby Monitor",
+      "hook": "Keep the baby asleep by staying dead silent — except one of you is secretly the Gremlin, tapping private 'tickles' to random phones to make people blurt, and every phone's own mic snitches on its owner.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "sensor"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "powder-keg",
+      "title": "Powder Keg",
+      "hook": "A sound-triggered bomb: each phone privately holds one digit and one ordering clue, and you must enter the code in the right order — but the detonator listens, so a single frustrated groan blows the room up.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "prototype",
+      "title": "Prototype",
+      "hook": "Draw a 'cup', a 'house', a 'bird' — then watch how far your mental default sits from the rest of the world's, using 50 million real doodles as the mirror.",
+      "tags": [
+        "computer-vision",
+        "art",
+        "quantified-self",
+        "data-viz"
+      ],
+      "score": 63,
+      "source": "arxiv",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "malpractice",
+      "title": "Malpractice",
+      "hook": "An adversarial code-golf game: given a clean React component, sneak in the nastiest anti-pattern you can that still slips past the AI 'doctor' linter — you win by being subtly wrong, not loudly broken.",
+      "tags": [
+        "game",
+        "devtool",
+        "llm",
+        "wordgame"
+      ],
+      "score": 67,
+      "source": "github",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "round-trip",
+      "title": "Round Trip",
+      "hook": "A tycoon-puzzle where you play the invisible hand of the GPU boom, wiring cash in circles between cloud startups so everyone's valuation balloons — until an auditor pulls one thread and the whole ring implodes.",
+      "tags": [
+        "finance",
+        "tycoon",
+        "sim",
+        "puzzle"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-12"
+    },
+    {
       "slug": "longhand",
       "title": "Longhand",
       "hook": "The whole room secretly finger-writes the same phrase at the same time, the host weaves the handwriting into one anonymous poster, and you win by being the person no one can pick out of the lineup.",
