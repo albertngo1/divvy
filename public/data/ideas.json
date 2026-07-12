@@ -2,6 +2,132 @@
   "lastScan": "2026-07-12",
   "ideas": [
     {
+      "slug": "tumblers",
+      "title": "Tumblers",
+      "hook": "Everyone secretly spins the dials of their own combination lock, and the vault opens only when all your locks read the exact same number — with nothing but a 'warmer/colder' agreement meter to guide you.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "puzzle"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "planchette",
+      "title": "Planchette",
+      "hook": "Every phone is a finger on the same Ouija planchette, and the room must silently pull it toward letters to spell a word nobody agreed on.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "convergence"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "warmer-2-2",
+      "title": "Warmer",
+      "hook": "One blindfolded player roams the room humming a tone from their phone while everyone else must silently drift to their own secret orbit distance — some hugging close, some pinned to the far wall — as the beacon keeps moving.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "camber",
+      "title": "Camber",
+      "hook": "Stand around the TV like edges of a tilting table and lean your phones together to roll one shared ball into its hole — but which way your tilt pushes depends on which wall you're standing at.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "odds-on",
+      "title": "Odds-On",
+      "hook": "One friend is handed a secret 30-second stunt; everyone else becomes the bookie, privately laying money on whether they'll choke — while the performer never sees the line.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "performance"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "big-ticket",
+      "title": "Big Ticket",
+      "hook": "Everyone reads the same menu, but each phone secretly stacks chips on which dish is priciest — and only you can see the one insider price you were slipped.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "timeout",
+      "title": "Timeout",
+      "hook": "fail2ban, but it bans *you*: a daemon that catches you thrashing the same failing command and locks you into a 20-second breathing timer before the next retry.",
+      "tags": [
+        "productivity",
+        "cli",
+        "devtool",
+        "quantified-self"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "chaff",
+      "title": "Chaff",
+      "hook": "Inverts Anubis: instead of gating AI scrapers out with proof-of-work, it detects them and feeds them an infinite maze of believable, watermarked, fabricated pages — burning their crawl budget and tracing who's harvesting you.",
+      "tags": [
+        "security",
+        "privacy",
+        "llm",
+        "provenance"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "state-line",
+      "title": "State Line",
+      "hook": "Turns a trucker's GPS breadcrumb trail into an audit-proof IFTA fuel-tax report by splitting mileage at the exact state line and reconciling fuel receipts.",
+      "tags": [
+        "logistics",
+        "automation",
+        "b2b",
+        "gis"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-07-12"
+    },
+    {
       "slug": "understudy-2-2-2",
       "title": "Understudy",
       "hook": "Every player performs a short scene from their own private 'actor's sides' — and one script has a single doctored line that quietly contradicts the story, so the imposter breaks continuity without knowing they're the liar.",
