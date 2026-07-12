@@ -2,6 +2,131 @@
   "lastScan": "2026-07-12",
   "ideas": [
     {
+      "slug": "tuning-fork-2",
+      "title": "Tuning Fork",
+      "hook": "Each player wears earbuds and slides a private tone only they can hear, and the room must silently drag every pitch into one unison note using nothing but a shared dissonance meter.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "flash-mob-2",
+      "title": "Flash Mob",
+      "hook": "Everyone taps a private flash on their own phone, and the room must silently phase-lock into one crisp strobe on the TV like a swarm of fireflies learning to blink together.",
+      "tags": [
+        "party",
+        "rhythm",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "sight-unseen",
+      "title": "Sight Unseen",
+      "hook": "A storage-unit blind auction where every phone secretly knows one true thing about one padlocked locker — so you're bidding real money on rumors only you can hear.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "bluffing"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "palate",
+      "title": "Palate",
+      "hook": "A wine-cellar draft where every phone hides a different secret scoring rubric, so the same bottle is a steal for you and garbage for the player reaching for it too.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "social-deduction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "sway",
+      "title": "Sway",
+      "hook": "Everyone secretly gets a different word to smuggle into the model's mind, then you all blind-write priming sentences into one shared context and fight a hidden tug-of-war over what the model predicts next.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "social-deduction"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "governor",
+      "title": "Governor",
+      "hook": "A live typing tightrope where your phone's private perplexity meter punishes every interesting word, so you race to build the most gloriously boring sentence before the ceiling clamps shut.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "ostracon",
+      "title": "Ostracon",
+      "hook": "Play the vizier's scribe rationing grain, fish, and beer to the men digging Pharaoh's tomb — miss too many deliveries and they stage history's first recorded strike, sitting down at the mortuary temple until you pay up.",
+      "tags": [
+        "sim",
+        "tycoon",
+        "narrative",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "wild",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "hockey-stick",
+      "title": "Hockey Stick",
+      "hook": "Fantasy sports for open source — draft a roster off GitHub Trending, then sweat the weekly waiver wire as your picks either moon on star-velocity or flatline into deadweight.",
+      "tags": [
+        "leaderboard",
+        "social",
+        "github",
+        "competitive"
+      ],
+      "score": 65,
+      "source": "github",
+      "created": "2026-07-12"
+    },
+    {
+      "slug": "ulp",
+      "title": "Ulp",
+      "hook": "A wallpaper painted from your machine's own floating-point soul — the tiny rounding errors your CPU makes computing tanh and exp — that quietly mutates like tree rings every time an OS or microcode update shifts the bits.",
+      "tags": [
+        "generative",
+        "security",
+        "wallpaper",
+        "provenance"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-12"
+    },
+    {
       "slug": "cast",
       "title": "Cast",
       "hook": "Each player blindly choreographs one limb of a shared creature by waving their phone in the air, and the composited monster spins on the TV as an exportable keepsake nobody could have designed alone.",
