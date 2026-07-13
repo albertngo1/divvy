@@ -2,6 +2,127 @@
   "lastScan": "2026-07-13",
   "ideas": [
     {
+      "slug": "parlay",
+      "title": "Parlay",
+      "hook": "A short clip plays on the TV in three chapters, and each phone secretly builds a three-leg parlay on what happens next — all legs must hit, and the rarest correct calls pay the most.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction-market",
+        "video"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "table-stakes-2-2-2",
+      "title": "Table Stakes",
+      "hook": "Before the food arrives, secretly bet chips on exactly what everyone else at the table will order — and win big by ordering something nobody saw coming.",
+      "tags": [
+        "party",
+        "betting",
+        "bluffing"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "waypoint",
+      "title": "Waypoint",
+      "hook": "The model writes a sentence one word at a time — but every player secretly wants a different word to end up in it, so you steer its autocomplete by privately voting among its own suggestions without tipping your hand.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "punchline",
+      "title": "Punchline",
+      "hook": "You're secretly told the last word your sentence must end on — build a setup so smooth the tiny model never sees it coming, then watch its surprisal spike like a joke landing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "bellows",
+      "title": "Bellows",
+      "hook": "Each phone is a private breath pacer — press to inhale, release to exhale — and the room must silently drift into one shared slow breath it can only feel, never hear.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "riffle",
+      "title": "Riffle",
+      "hook": "Everyone privately drags the same five tiles into their own secret order, silently chasing one unanimous ranking nobody is allowed to name.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "take-home",
+      "title": "Take-Home",
+      "hook": "Your paycheck is a resource node, every bill is a machine on the belt, and savings is the output crate — budget your real money as a Satisfactory-style conveyor factory where deficits show up as a jammed line.",
+      "tags": [
+        "budgeting",
+        "sim",
+        "tycoon"
+      ],
+      "score": 63,
+      "source": "steam",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "nop-sled",
+      "title": "Nop Sled",
+      "hook": "A puzzle game where you make real assembly go faster by ADDING instructions — break a dependency chain, add a second accumulator — and a cycle-accurate model grades your throughput to the tenth of a cycle.",
+      "tags": [
+        "puzzle",
+        "devtool",
+        "cli"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "longhand-2",
+      "title": "Longhand",
+      "hook": "Type a sentence and get true single-stroke cursive that a pen plotter can draw without ever lifting or backtracking — the font engraving machines always wanted but never had.",
+      "tags": [
+        "graphics",
+        "cli",
+        "generative",
+        "language"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-13"
+    },
+    {
       "slug": "contact-sheet",
       "title": "Contact Sheet",
       "hook": "Every phone gets a different secret prompt, you each have ninety seconds to photograph something in the room that answers yours, and the group walks away with one anonymous contact sheet nobody can fully decode.",
