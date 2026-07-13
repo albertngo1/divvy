@@ -2,6 +2,132 @@
   "lastScan": "2026-07-13",
   "ideas": [
     {
+      "slug": "curtain",
+      "title": "Curtain",
+      "hook": "A bullet-hell where one player is the secret boss, privately finger-painting deadly bullet sprays on their phone that nobody else can preview, while everyone else thumb-dodges a tiny hitbox on their own screen.",
+      "tags": [
+        "party",
+        "bullet-hell",
+        "asymmetric",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "standoff",
+      "title": "Standoff",
+      "hook": "Frozen-Synapse tactics as a party game: everyone secretly draws their gunslinger's move-and-aim at the same time on their own phone, then the room watches all plans detonate simultaneously on the TV.",
+      "tags": [
+        "party",
+        "simultaneous-tactics",
+        "hidden-info",
+        "asymmetric"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "ballast-2",
+      "title": "Ballast",
+      "hook": "A ship is listing and the only public gauge is the tilt — each of you privately runs one cargo hold, and if two of you dump at the same instant you capsize the other way.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "live-wire",
+      "title": "Live Wire",
+      "hook": "A bomb-defusal game with no god-view: you can see your own module but you're colorblind to it, and only your neighbor's phone holds the manual that tells you which wire to cut.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "puzzle"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "rations",
+      "title": "Rations",
+      "hook": "Everyone secretly splits the same pot of points across four slices — and the room only wins if you all carved the pie the same way, without a word.",
+      "tags": [
+        "party",
+        "cooperative",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "focal-point",
+      "title": "Focal Point",
+      "hook": "Tap the one spot on a near-blank screen you bet everyone else will tap — a silent hunt for the room's shared focal point.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "body-double",
+      "title": "Body Double",
+      "hook": "Your corporate wellness tracker demands 8,000 steps and a resting heart rate — so this app quietly feeds it a full life of believable synthetic biometrics while your real body stays nobody's business.",
+      "tags": [
+        "privacy",
+        "quantified-self",
+        "health",
+        "security"
+      ],
+      "score": 62,
+      "source": "arxiv",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "single-stroke",
+      "title": "Single Stroke",
+      "hook": "Turn any text into one unbroken, backtrack-free cursive line — a plotter-ready SVG the pen never lifts to draw, solved as a pathfinding puzzle over the letterforms.",
+      "tags": [
+        "generative",
+        "art",
+        "cli",
+        "graphics"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "focus-group",
+      "title": "Focus Group",
+      "hook": "A party game where a panel rates AI-generated designs and most players win by matching the bland consensus — while one hidden Contrarian secretly scores for being the weird outlier nobody suspects.",
+      "tags": [
+        "party-game",
+        "social-deduction",
+        "llm",
+        "multiplayer"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-13"
+    },
+    {
       "slug": "parlay",
       "title": "Parlay",
       "hook": "A short clip plays on the TV in three chapters, and each phone secretly builds a three-leg parlay on what happens next — all legs must hit, and the rarest correct calls pay the most.",
