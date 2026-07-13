@@ -2,6 +2,127 @@
   "lastScan": "2026-07-13",
   "ideas": [
     {
+      "slug": "alibi",
+      "title": "Alibi",
+      "hook": "The group reconstructs a suspect's night from private clue cards, but one player's phone quietly corrupted a clue — and the contradiction it creates is how you catch them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "crossed-wire",
+      "title": "Crossed Wire",
+      "hook": "Everyone privately plays the same voicemail, but the imposter's copy swapped one detail — and they'll swear their version is the real one.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "undercut",
+      "title": "Undercut",
+      "hook": "Secretly price your lemonade stand against your friends' — the crowd all buys from the single cheapest stand, but if two of you tie for lowest, the customers riot and you both get nothing.",
+      "tags": [
+        "party",
+        "economy",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "crossed-wires",
+      "title": "Crossed Wires",
+      "hook": "Route your secret wire across a shared circuit board without seeing anyone else's — everyone greedily hugs the short center path, and any two traces that touch the same cell short out and die.",
+      "tags": [
+        "party",
+        "browser-game",
+        "spatial-puzzle"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "carry",
+      "title": "Carry",
+      "hook": "Everyone's phone hides a fistful of numbers, the host demands 'exactly 12, using exactly three of you,' and the room has to shout arithmetic across the table and then get precisely the right three people to slam COMMIT in the same heartbeat.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "antiphon",
+      "title": "Antiphon",
+      "hook": "Every phone holds loose halves of spoken commands, and the only way to complete one is to broadcast your fragment until a stranger across the room realizes they're holding your other half — then say it back-to-back before the mic clogs.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "typosquat",
+      "title": "Typosquat",
+      "hook": "A defensive-security puzzle game where you play the attacker registering lookalike domains in a sandbox, and the real eth-phishing-detect blocklist is the boss trying to flag you — you win by learning exactly which tricks the detector catches.",
+      "tags": [
+        "security",
+        "puzzle",
+        "privacy"
+      ],
+      "score": 61,
+      "source": "github",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "seedbank",
+      "title": "Seedbank",
+      "hook": "A conservation tycoon over your real qBittorrent stats where dying, near-dead torrents are endangered species — the last seeder of a rare 2009 Linux ISO earns you more than a thousand-peer blockbuster.",
+      "tags": [
+        "self-hosted",
+        "tycoon",
+        "homelab",
+        "data-viz"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "boilerplate",
+      "title": "Boilerplate",
+      "hook": "A roguelike where the dungeon is your own agent's bloated system prompt — every floor accretes tool defs, few-shot examples, and safety preamble, and your token budget is the HP bleaking out before you ever reach the real request.",
+      "tags": [
+        "roguelike",
+        "llm",
+        "prompt",
+        "agents"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-13"
+    },
+    {
       "slug": "watermark",
       "title": "Watermark",
       "hook": "Everyone answers the same prompt, but each phone is secretly handed one mandatory word it must smuggle into the answer — and you win the round only if nobody can pick your writing out of the lineup.",
