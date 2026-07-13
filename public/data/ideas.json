@@ -2,6 +2,130 @@
   "lastScan": "2026-07-13",
   "ideas": [
     {
+      "slug": "tell-2",
+      "title": "Tell",
+      "hook": "A co-op Slay-the-Spire boss fight where the party shares one health bar but not one hand — you must chain your hidden cards in the right order to survive, negotiating out loud without ever showing what you actually hold.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "cooperative",
+        "hidden-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "footsies",
+      "title": "Footsies",
+      "hook": "A two-player fighting-game duel stripped to pure neutral: both of you secretly pick a poke at a chosen range, reveal at once, and the whiff-punish decides the round — but you can never see your opponent's movelist.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "hidden-info",
+        "1v1"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "zoetrope-2",
+      "title": "Zoetrope",
+      "hook": "Each player privately draws one frame of a looping animation, seeing only ghostly onion-skins of the frames next to theirs, until the host plays the whole thing back as a GIF nobody has watched.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "foley-2",
+      "title": "Foley",
+      "hook": "Everyone secretly records one sound for a silent scene at the same instant, and the host layers them into a soundscape nobody has heard until it plays back as one shared reel.",
+      "tags": [
+        "party",
+        "audio",
+        "anonymity",
+        "cooperative"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "bequest",
+      "title": "Bequest",
+      "hook": "Everyone privately writes a will splitting Grandma's fake estate among four ridiculous heirs — and the room only wins if all your wills come out identical.",
+      "tags": [
+        "party",
+        "cooperative",
+        "simultaneous"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "blot",
+      "title": "Blot",
+      "hook": "Everyone stares at the same inkblot and silently touches the one spot where they see something — win if the whole room's fingers land on the same imaginary nose.",
+      "tags": [
+        "party",
+        "cooperative",
+        "perception"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "breadboard",
+      "title": "Breadboard",
+      "hook": "A Zachtronics-style puzzle game where the circuits are analog — you wire op-amps and RC filters against a scope spec, and component tolerances, parasitics, and slew rate fight you the whole way.",
+      "tags": [
+        "puzzle",
+        "sim",
+        "electronics",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "white-line",
+      "title": "White Line",
+      "hook": "A phone tool for excavation crews that timestamps and geotags the utility locate marks before the bucket drops — so when someone hits a gas line, you have court-ready proof the paint was wrong, not you.",
+      "tags": [
+        "logistics",
+        "ops-tool",
+        "gis",
+        "saas"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "actuary",
+      "title": "Actuary",
+      "hook": "A menubar app that runs your day as a mortality bank account — drinks, drives, sun and sofa-time debited in micromorts, sleep and Zone-2 miles credited back in microlives.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "budgeting",
+        "menubar"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-13"
+    },
+    {
       "slug": "rolling-blackout",
       "title": "Rolling Blackout",
       "hook": "You each have a private stack of appliances you must run before the timer, but the grid has one breaker — draw too much at the same moment and it trips, wiping the progress of everyone who was mid-cycle.",
