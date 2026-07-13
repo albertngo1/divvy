@@ -2,6 +2,90 @@
   "lastScan": "2026-07-13",
   "ideas": [
     {
+      "slug": "rolling-blackout",
+      "title": "Rolling Blackout",
+      "hook": "You each have a private stack of appliances you must run before the timer, but the grid has one breaker — draw too much at the same moment and it trips, wiping the progress of everyone who was mid-cycle.",
+      "tags": [
+        "party",
+        "cooperative",
+        "anti-coordination",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "go-around",
+      "title": "Go Around",
+      "hook": "You're each landing your own plane on one shared runway, your fuel gauge is private and dropping, and two wheels down at the same instant is a fireball that takes you both.",
+      "tags": [
+        "party",
+        "real-time",
+        "anti-coordination",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "pit",
+      "title": "Pit",
+      "hook": "A conductor reads a scrolling score only they can see and must sing the rhythm out loud, because the section players holding the instruments feel the tempo buzzing in their palms but have no idea which beats are notes and which are rests.",
+      "tags": [
+        "party",
+        "cooperative",
+        "rhythm",
+        "audio"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "sump-2",
+      "title": "Sump",
+      "hook": "Two blind cave-divers grope through a flooded passage while the only teammate who can see the map is stuck on the surface, and every ping the divers send to reveal themselves burns air they can't spare.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "asymmetric"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "beeline",
+      "title": "Beeline",
+      "hook": "Everyone builds one story together, but each phone is secretly steering the model toward its own hidden target word — win by making the model, at the end, least surprised to see YOUR word come next.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "non-sequitur",
+      "title": "Non Sequitur",
+      "hook": "Everyone answers the same question on their phone — except one player whose phone secretly asked something subtly different, and the model's surprise at reading their answer is the only tell.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
       "slug": "curtain",
       "title": "Curtain",
       "hook": "A bullet-hell where one player is the secret boss, privately finger-painting deadly bullet sprays on their phone that nobody else can preview, while everyone else thumb-dodges a tiny hitbox on their own screen.",
