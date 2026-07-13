@@ -1,6 +1,104 @@
 {
-  "lastScan": "2026-07-12",
+  "lastScan": "2026-07-13",
   "ideas": [
+    {
+      "slug": "watermark",
+      "title": "Watermark",
+      "hook": "Everyone answers the same prompt, but each phone is secretly handed one mandatory word it must smuggle into the answer — and you win the round only if nobody can pick your writing out of the lineup.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "anonymity",
+        "wordgame"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "relief",
+      "title": "Relief",
+      "hook": "Four phones each secretly carve one hidden quadrant of the same woodblock, and nobody sees the whole image until the host screen pulls a single print you'll want to keep.",
+      "tags": [
+        "party",
+        "cooperative",
+        "keepsake",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "house-rules-2",
+      "title": "House Rules",
+      "hook": "You're all scoring the exact same hand of cards — but one player's private rulebook has a single rule quietly swapped, and their honest total gives them away.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cardgame",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "parallax-2-2",
+      "title": "Parallax",
+      "hook": "Everyone photographs the same tabletop of blocks from their own private seat — but one witness is describing an angle that geometry says cannot exist.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "spatial",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "coast",
+      "title": "Coast",
+      "hook": "Your phone silently scores every drive on smoothness — hard brakes and jerky acceleration cost you — and ranks you against every other commuter on your exact road, so the dead time behind the wheel becomes a ladder you climb by doing nothing but driving well.",
+      "tags": [
+        "quantified-self",
+        "sim",
+        "leaderboard",
+        "competitive"
+      ],
+      "score": 57,
+      "source": "hn",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "dog-ear",
+      "title": "Dog-Ear",
+      "hook": "A reading league where you and friends read the same article, then get ambushed days later with an LLM quiz — points go to whoever actually *retained* it, and every point decays over time.",
+      "tags": [
+        "party-game",
+        "language",
+        "llm",
+        "leaderboard"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "rime",
+      "title": "Rime",
+      "hook": "An always-on daemon quietly grows a field of frost crystals seeded by your shell history — the commands you repeat most accrete the thickest, densest ferns, until a year later your wallpaper is a portrait of your habits made of ice.",
+      "tags": [
+        "ambient",
+        "generative",
+        "cli",
+        "desktop-toy"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-13"
+    },
     {
       "slug": "tuning-fork-2",
       "title": "Tuning Fork",
