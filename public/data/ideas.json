@@ -2,6 +2,130 @@
   "lastScan": "2026-07-13",
   "ideas": [
     {
+      "slug": "contact-sheet",
+      "title": "Contact Sheet",
+      "hook": "Every phone gets a different secret prompt, you each have ninety seconds to photograph something in the room that answers yours, and the group walks away with one anonymous contact sheet nobody can fully decode.",
+      "tags": [
+        "party",
+        "camera",
+        "anonymity",
+        "keepsake"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "skein",
+      "title": "Skein",
+      "hook": "Everyone owns one thread of a single friendship bracelet, committing each knot blind at the same instant — your mismatches don't lose, they weave themselves into the pattern you all take home.",
+      "tags": [
+        "party",
+        "cooperative",
+        "keepsake",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "crosstalk-2",
+      "title": "Crosstalk",
+      "hook": "It's a live panel show where every guest must land their secret line, but the moment two of you speak at once the broadcast dissolves into unwatchable crosstalk and you both lose your turn.",
+      "tags": [
+        "party",
+        "audio",
+        "timing"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "overbooked",
+      "title": "Overbooked",
+      "hook": "A plane fills up seat by seat, everyone picks silently and at once, and the instant two of you grab the same seat you're both bumped off the flight.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-constraint"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "wildcat-2-2",
+      "title": "Wildcat",
+      "hook": "A sealed-bid oil auction where each phone shows you a different survey of the same tract — and winning almost always means you were the fool who overpaid.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-info",
+        "bluffing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "going-once",
+      "title": "Going Once",
+      "hook": "A Dutch auction of pure nerve: the price falls, your finger hovers over BUY, and only your phone knows what the prize is actually worth to you.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time",
+        "reflex"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "boneyard",
+      "title": "Boneyard",
+      "hook": "changedetection.io alerts you when a webpage changes; Boneyard alerts you when your own saved links quietly die — and buries each one under a tombstone showing its last living snapshot.",
+      "tags": [
+        "forensics",
+        "ambient",
+        "self-hosted",
+        "data-viz"
+      ],
+      "score": 61,
+      "source": "wild",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "preflight",
+      "title": "Preflight",
+      "hook": "A menubar wiretap that shows, in real time, exactly how many tokens your AI coding CLI burns *before* it ever reads your prompt — broken down by system prompt, tool schemas, and history.",
+      "tags": [
+        "observability",
+        "devtool",
+        "cli",
+        "llm"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "lyrebird",
+      "title": "Lyrebird",
+      "hook": "Compose a synth patch that fools a real bird-ID neural net into hearing an endangered warbler — an adversarial-audio puzzle game hiding inside a citizen-science tool.",
+      "tags": [
+        "puzzle",
+        "audio",
+        "computer-vision",
+        "ml"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-13"
+    },
+    {
       "slug": "alibi",
       "title": "Alibi",
       "hook": "The group reconstructs a suspect's night from private clue cards, but one player's phone quietly corrupted a clue — and the contradiction it creates is how you catch them.",
