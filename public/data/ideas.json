@@ -2,6 +2,129 @@
   "lastScan": "2026-07-13",
   "ideas": [
     {
+      "slug": "rack",
+      "title": "Rack",
+      "hook": "You're dealt a private, random hand of words and must build the sentence a tiny language model finds most boring — Scrabble, if the tiles were nouns and blandness won.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "pretext",
+      "title": "Pretext",
+      "hook": "Everyone gets the SAME absurd sentence — the game is secretly writing the backstory that makes a tiny language model believe it was inevitable all along.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "tongue-tied",
+      "title": "Tongue-Tied",
+      "hook": "Everyone hums their secret word at the exact same time in one glorious cacophony — you're tuned to just one partner in the noise — and the instant your own phone hears you slip into an actual word, you're busted on the big screen.",
+      "tags": [
+        "party",
+        "audio",
+        "wordgame"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "silent-running",
+      "title": "Silent Running",
+      "hook": "Your crew is a submarine rigged for silent running — every phone is a station only you can see, and the enemy destroyer overhead hears every cough, word, and gasp your own phone picks up.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "telegraph",
+      "title": "Telegraph",
+      "hook": "Every phone buzzes out the same secret Morse-like rhythm in your palm — but the imposter's pattern has one pulse changed, and you have to argue about a beat nobody else can feel.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "sensor",
+        "hidden-role"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "earshot-2",
+      "title": "Earshot",
+      "hook": "Everyone puts in one earbud and hears the same whispered sentence — except the imposter's clip has a single word swapped for a near-homophone, and the argument over what was actually said is the game.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "hidden-role"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "mondegreen-2",
+      "title": "Mondegreen",
+      "hook": "A party game where the on-device speech recognizer is the judge and you win by saying nonsense that it confidently mis-hears as the exact target phrase — 'wreck a nice beach' to make it print 'recognize speech.'",
+      "tags": [
+        "party-game",
+        "social",
+        "computer-vision",
+        "audio"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "vacancy-2",
+      "title": "Vacancy",
+      "hook": "A city-builder that only shrinks: you manage a real post-industrial town losing population, deciding what to demolish, which services to consolidate, and how to turn empty blocks into prairie before the tax base collapses.",
+      "tags": [
+        "sim",
+        "game",
+        "gis",
+        "data-viz"
+      ],
+      "score": 64,
+      "source": "steam",
+      "created": "2026-07-13"
+    },
+    {
+      "slug": "bubble",
+      "title": "Bubble",
+      "hook": "A Zachtronics-style puzzle where you rewrite a hot loop to please a living, visible CPU branch predictor and drain every stall out of the pipeline under a cycle budget.",
+      "tags": [
+        "puzzle",
+        "game",
+        "cli",
+        "devtool"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-13"
+    },
+    {
       "slug": "tell-2",
       "title": "Tell",
       "hook": "A co-op Slay-the-Spire boss fight where the party shares one health bar but not one hand — you must chain your hidden cards in the right order to survive, negotiating out loud without ever showing what you actually hold.",
