@@ -2,6 +2,132 @@
   "lastScan": "2026-07-14",
   "ideas": [
     {
+      "slug": "canary-2",
+      "title": "Canary",
+      "hook": "The foreman sees where everyone stands but not where the mines are; the blind crew feel danger without direction — and one of them can see every mine and wants a teammate to step on one.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative",
+        "grid"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "pilot",
+      "title": "Pilot",
+      "hook": "One player reads the harbor chart while everyone else is a blind boat drifting toward the rocks — and neither side can see what the other sees, so the talking never stops.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "detent",
+      "title": "Detent",
+      "hook": "A shared kaleidoscope on the TV where each phone secretly owns one hidden knob — wiggle to discover which one is yours, then steer together to a pattern the whole room agrees to freeze and keep.",
+      "tags": [
+        "party",
+        "cooperative",
+        "generative-art",
+        "keepsake"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "boilerplate-2",
+      "title": "Boilerplate",
+      "hook": "Co-write a sealed time-capsule letter where every line must read like anonymous boilerplate — sand your own voice out until nobody can tell which line is yours.",
+      "tags": [
+        "party",
+        "anonymity",
+        "stylometry",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "riposte",
+      "title": "Riposte",
+      "hook": "A Souls boss winds up to kill you, but each phone sees only one sliver of the tell—the color, the timing ring, the rhythm—so you must shout the pieces together to land one synchronized parry.",
+      "tags": [
+        "party",
+        "cooperative",
+        "reaction",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "enfilade",
+      "title": "Enfilade",
+      "hook": "Three players are the boss's guns—each blind to the others' aim—trying to box in one dodger who sees the whole storm of bullets on the TV.",
+      "tags": [
+        "party",
+        "asymmetric",
+        "twin-stick",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "morphogen",
+      "title": "Morphogen",
+      "hook": "A circuit-building puzzle where you never place a single gate — you write a handful of local growth rules, drop one seed cell, and watch your logic circuit self-assemble like an embryo, then survive an adversary firing the whole truth table at it.",
+      "tags": [
+        "puzzle",
+        "cellular-automata",
+        "procedural",
+        "game"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "patina",
+      "title": "Patina",
+      "hook": "A wallpaper clock whose face physically wears out from your own presence — the sweeping hands scuff faint grooves into the dial during the hours you're actually at the machine, so by New Year's the clock is a worn-metal heatmap of your year's working rhythm.",
+      "tags": [
+        "ambient",
+        "wallpaper",
+        "quantified-self",
+        "generative"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "quarry-2-2",
+      "title": "Quarry",
+      "hook": "Monster Hunter for your database: your slowest Postgres queries become monsters with health bars made of milliseconds, and you hunt them across optimization sessions, breaking one plan-node 'part' at a time until the trophy hits your wall.",
+      "tags": [
+        "observability",
+        "devtool",
+        "game",
+        "postgres"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-14"
+    },
+    {
       "slug": "undertone",
       "title": "Undertone",
       "hook": "The host names a mood — 'brine,' 'envy,' '9pm' — and the room silently drags private color pickers until, with no talking, everyone lands on the same shade of what that word feels like.",
