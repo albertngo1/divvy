@@ -1,6 +1,131 @@
 {
-  "lastScan": "2026-07-13",
+  "lastScan": "2026-07-14",
   "ideas": [
+    {
+      "slug": "unsigned-2",
+      "title": "Unsigned",
+      "hook": "The whole room co-writes one anonymous farewell letter, each person penning a private paragraph — and you only win together if, afterward, nobody can tell which paragraph was yours.",
+      "tags": [
+        "party",
+        "wordgame",
+        "anonymity",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "as-built",
+      "title": "As-Built",
+      "hook": "Everyone at the party redraws the same room from memory at the same time, blind, and the app stacks all your floor plans into one ghostly consensus map that proves you live in wildly different apartments.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "moveset",
+      "title": "Moveset",
+      "hook": "One avatar auto-runs a gauntlet on the TV while the party is a single body whose traversal moves are scarce, secret, and split across everyone's phones.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-info"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "loadout",
+      "title": "Loadout",
+      "hook": "Grab from one frantic communal loot pile and Tetris-pack it into your own private backpack before the crate slams shut.",
+      "tags": [
+        "party",
+        "competitive",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "dimmer",
+      "title": "Dimmer",
+      "hook": "Each phone privately senses how bright its spot is and hands you a secret verdict — 'you need shadow' or 'you need glare' — so the only way everyone locks in is to become each other's shadows around the room's real lamps.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "foxfire",
+      "title": "Foxfire",
+      "hook": "Your phone screen strobes a secret color-signature at whoever hunts you while its rear camera silently sweeps the room for your own target's blink — one device broadcasting forward and scanning backward at once.",
+      "tags": [
+        "party",
+        "sensor",
+        "camera",
+        "cooperative"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "cold-storage",
+      "title": "Cold Storage",
+      "hook": "Your media library as a DayZ survival map: unwatched shows spoil on a decay clock, free disk is your health bar, and you have to 'eat' — watch or delete — before winter sets in.",
+      "tags": [
+        "homelab",
+        "game",
+        "survival",
+        "self-hosted"
+      ],
+      "score": 62,
+      "source": "steam",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "staff-only",
+      "title": "Staff Only",
+      "hook": "A webpage guarded by a reverse-CAPTCHA — trivial for a machine, maddening for a human — that welcomes crawlers, turns people away, and keeps a live guestbook of which bots got in.",
+      "tags": [
+        "security",
+        "privacy",
+        "self-hosted",
+        "whimsy"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "proof",
+      "title": "Proof",
+      "hook": "Every dangerous command has to rise like dough — a mandatory 'proofing' delay scaled to its blast radius, cancelable until the timer runs out.",
+      "tags": [
+        "cli",
+        "devtool",
+        "productivity",
+        "automation"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-14"
+    },
     {
       "slug": "rack",
       "title": "Rack",
