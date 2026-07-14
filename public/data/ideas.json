@@ -2,6 +2,132 @@
   "lastScan": "2026-07-14",
   "ideas": [
     {
+      "slug": "downbeat-2",
+      "title": "Downbeat",
+      "hook": "A co-op rhythm game where your phone shows only YOUR notes on the shared groove — and the unison hits can only be nailed if you shout to the one hidden partner you're secretly paired with and both tap on the same beat.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "rhythm"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "handoff",
+      "title": "Handoff",
+      "hook": "You're air traffic controllers whose radar shows blips but no data — the only way a plane crosses into your sector is if the last controller reads its altitude and heading aloud and you read it back correctly, mid-panic, while three more converge on the line.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "rosetta",
+      "title": "Rosetta",
+      "hook": "Three teammates each get a different secret palette of eight emoji and must blindly, simultaneously drop one icon to spell out a word for a fourth player — nobody sees the ransom-note rebus until it's already built.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "third-rail",
+      "title": "Third Rail",
+      "hook": "Describe a word to your teammate while the enemy team watches, holding a secret list of forbidden words you can't see and they're praying you'll blurt.",
+      "tags": [
+        "party",
+        "wordgame",
+        "team-based",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "short-order",
+      "title": "Short Order",
+      "hook": "An Overcooked kitchen where your phone is your station and you can't see anyone else's rail — nobody holds the whole recipe, so you have to shout the handoffs.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "hidden-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "margin",
+      "title": "Margin",
+      "hook": "A cooperative nonogram where the row clues live on your phone and the column clues live on theirs — neither of you can solve the picture alone.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle-game",
+        "hidden-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "rollover",
+      "title": "Rollover",
+      "hook": "An idle tycoon where you build an ever-taller AI datacenter financed entirely on rolling debt — the tower keeps rising as long as you can refinance, and the interest rate is the monster at the bottom.",
+      "tags": [
+        "idle",
+        "tycoon",
+        "finance",
+        "sim"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "lethe",
+      "title": "Lethe",
+      "hook": "A two-player language-building game where the twist is that the game keeps deleting the private dictionary you just agreed on — and the research says that's exactly what makes you finally understand each other.",
+      "tags": [
+        "wordgame",
+        "party",
+        "multiplayer",
+        "language"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "grace-period",
+      "title": "Grace Period",
+      "hook": "A Papers, Please for supply-chain security where the queue isn't fictional migrants — it's the real Dependabot PRs sitting in your own repos' cooldown window, and one of them is quietly poisoned.",
+      "tags": [
+        "security",
+        "devtool",
+        "puzzle",
+        "git"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-14"
+    },
+    {
       "slug": "pentimento",
       "title": "Pentimento",
       "hook": "Everyone paints one blind brushstroke of the same secret word at the same instant — except the faker, who was never told the word — then the strokes composite at once and you vote for the ignorance showing through.",
