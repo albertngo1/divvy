@@ -2,6 +2,131 @@
   "lastScan": "2026-07-14",
   "ideas": [
     {
+      "slug": "bottle",
+      "title": "Bottle",
+      "hook": "A 'wait for it' clip plays while a payout multiplier climbs on your phone — cash out before the moment hits and you bank it, hold too long and you bust; every phone decides alone, in silence.",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "tout-2",
+      "title": "Tout",
+      "hook": "Everyone watches the same slow reveal, but each phone holds a different true-but-partial inside tip — bet your edge into a live parimutuel pool without tipping the room.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "ligature-2",
+      "title": "Ligature",
+      "hook": "Everyone secretly builds a little word-cloverleaf at once, writing a single bridge word between each hidden pair — then the room reconstructs each person's arrangement from the bridges alone.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "foist",
+      "title": "Foist",
+      "hook": "Slide a face-down 'pest' to a rival and swear it's a rat — only they get to peek the truth, and only they get to call your bluff or pass the lie down the line.",
+      "tags": [
+        "party",
+        "bluffing",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "rut",
+      "title": "Rut",
+      "hook": "Fill the blank with the word the model finds obvious — but if anyone else picks the same obvious word, you both score nothing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "prediction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "foregone",
+      "title": "Foregone",
+      "hook": "Write a sentence prefix that boxes a tiny language model into a corner where only one word can possibly come next — the more inevitable, the better.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "tonnage",
+      "title": "Tonnage",
+      "hook": "Point your phone at a rusted rooftop AC nameplate and get its exact age, tonnage, refrigerant, and matching parts — decoding the brand-specific serial gibberish every HVAC tech looks up by hand.",
+      "tags": [
+        "saas",
+        "computer-vision",
+        "ops-tool",
+        "b2b"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "conveyor-2",
+      "title": "Conveyor",
+      "hook": "Point it at your BullMQ/Sidekiq/Celery backend and your background jobs become a Satisfactory factory floor — items ride belts into worker machines, and a clogged queue literally backs up on screen before it pages you.",
+      "tags": [
+        "observability",
+        "devtool",
+        "sim",
+        "self-hosted"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "duck-curve",
+      "title": "Duck Curve",
+      "hook": "Australia just mandated three free hours of daytime power — this daemon normalizes every retailer's fine-printed free window and fires your dishwasher, EV charger, and battery into it, tallying the dollars you clawed back.",
+      "tags": [
+        "automation",
+        "budgeting",
+        "homelab",
+        "self-hosted"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-14"
+    },
+    {
       "slug": "prop-2",
       "title": "Prop",
       "hook": "Everyone watches the same 90-second clip, but each phone is secretly dealt different — sometimes opposite — prop bets, so one player groans at the exact moment another cheers.",
