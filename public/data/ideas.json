@@ -2,6 +2,89 @@
   "lastScan": "2026-07-14",
   "ideas": [
     {
+      "slug": "ringer",
+      "title": "Ringer",
+      "hook": "Everyone secretly writes a yearbook quote in the voice of one other player, and you 'win' only by vanishing so completely into your target that the room attributes your line to them — then keeps the anonymous yearbook page.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "cel",
+      "title": "Cel",
+      "hook": "Everyone draws one frame of the same looping animation at the same time, each phone haunted by a live ghost of the frame the person before them is drawing right now — and the room keeps the wobbly GIF.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "face-down",
+      "title": "Face Down",
+      "hook": "Everyone silently sets their phone down some way — flat, upright, screen-down — and the room only scores if, without a single word, all of you chose the exact same pose.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "long-count",
+      "title": "Long Count",
+      "hook": "The room goes dark, everyone holds a private button, and you win only if all of you — with no clock, no numbers, no beat — release after the exact same span of time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "about-face",
+      "title": "About Face",
+      "hook": "The whole table gives verbal directions across a shared grid on the TV, but the imposter's private board is mirrored left-for-right — so their clues are consistently, maddeningly reversed, and they're convinced everyone ELSE is bad at directions.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "spatial",
+        "hidden-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "dropout",
+      "title": "Dropout",
+      "hook": "Everyone privately hears the same 20-second audio scene on their own phone — except the imposter's mix has one detail quietly swapped, and they have no idea they're the odd one out.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "hidden-role"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
       "slug": "canary-2",
       "title": "Canary",
       "hook": "The foreman sees where everyone stands but not where the mines are; the blind crew feel danger without direction — and one of them can see every mine and wants a teammate to step on one.",
