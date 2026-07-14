@@ -2,6 +2,130 @@
   "lastScan": "2026-07-14",
   "ideas": [
     {
+      "slug": "prop-2",
+      "title": "Prop",
+      "hook": "Everyone watches the same 90-second clip, but each phone is secretly dealt different — sometimes opposite — prop bets, so one player groans at the exact moment another cheers.",
+      "tags": [
+        "party",
+        "betting",
+        "second-screen"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "split-the-bill",
+      "title": "Split the Bill",
+      "hook": "The group takeout-menu debate becomes a secret parimutuel market: privately bet which dish the table will pick, then argue the room toward your hidden number without ever tipping your hand.",
+      "tags": [
+        "party",
+        "betting",
+        "bluffing"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "runner-up",
+      "title": "Runner-Up",
+      "hook": "A sealed auction where the winner pays the loser's bid — every phone secretly knows only its own worth for the lot, so the real game is watching people refuse to believe that honesty is the optimal strategy.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "cut-line",
+      "title": "Cut Line",
+      "hook": "A knife sweeps across a shared pizza on the TV while each phone privately weighs the toppings its own way — tap CLAIM the instant the slice to the left equals your fair share, before a rival with different tastes grabs first.",
+      "tags": [
+        "party",
+        "fair-division",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "cinch",
+      "title": "Cinch",
+      "hook": "Everyone secretly cranks a private dial that can only ever go UP — the room must land on the same number together, and anyone who overshoots is stuck there for good.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "afterimage",
+      "title": "Afterimage",
+      "hook": "The TV flashes a pattern for a second and hides it — now every phone must silently rebuild it from memory until all your grids are identical, whether or not that's what was actually there.",
+      "tags": [
+        "party",
+        "cooperative",
+        "memory",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "prop",
+      "title": "Prop",
+      "hook": "A daily escape-room puzzle set inside lovingly reconstructed *fictional movie computers* — navigate Jurassic Park's 3D file system or crack WOPR before the timer, then race the world's clear-times.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "narrative",
+        "leaderboard"
+      ],
+      "score": 61,
+      "source": "wild",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "ballpark-2",
+      "title": "Ballpark",
+      "hook": "A daily forensic-estimation duel: from one real photo — scuff marks on a stair, wear on a door handle, a crowd's shadows — guess a hidden number, scored on how close your order-of-magnitude reasoning lands.",
+      "tags": [
+        "puzzle",
+        "competitive",
+        "leaderboard",
+        "browser-game"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "tight-loop",
+      "title": "Tight Loop",
+      "hook": "A perf-golf tournament where you submit a hot function and it's benchmarked to the cycle on a pinned, isolated bare-metal core — the clean-room measurement nobody with only noisy cloud CI can get.",
+      "tags": [
+        "devtool",
+        "leaderboard",
+        "competitive",
+        "cli"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-07-14"
+    },
+    {
       "slug": "ringer",
       "title": "Ringer",
       "hook": "Everyone secretly writes a yearbook quote in the voice of one other player, and you 'win' only by vanishing so completely into your target that the room attributes your line to them — then keeps the anonymous yearbook page.",
