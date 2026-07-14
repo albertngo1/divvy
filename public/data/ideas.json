@@ -2,6 +2,127 @@
   "lastScan": "2026-07-14",
   "ideas": [
     {
+      "slug": "undertone",
+      "title": "Undertone",
+      "hook": "The host names a mood — 'brine,' 'envy,' '9pm' — and the room silently drags private color pickers until, with no talking, everyone lands on the same shade of what that word feels like.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "lantern",
+      "title": "Lantern",
+      "hook": "The TV is pitch black; each phone is a private lantern you drag over a hidden scene, and you all secretly bet on the one spot everyone else will light up too.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "rudder",
+      "title": "Rudder",
+      "hook": "A sentence is generated live, one word at a time, by majority phone-vote from the model's top guesses — but half the room are secret saboteurs steering it toward gibberish, and perplexity decides who won.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "cue",
+      "title": "Cue",
+      "hook": "Everyone secretly writes a lead-in trying to make a tiny language model desperately want to say the same absurd word next — 'walrus' — and the sneakiest bait wins.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "pass-phrase",
+      "title": "Pass Phrase",
+      "hook": "A simultaneous whisper-ring where each phone privately pipes your left neighbor's hushed clip into your ears alone — decode it and re-whisper onward, but the moment your voice stops being a whisper the whole ring collapses.",
+      "tags": [
+        "party",
+        "audio",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "airtime-2",
+      "title": "Airtime",
+      "hook": "Speaking is a metered resource: each phone secretly holds a phrase only you can score and a slice of a shared decibel-budget that every word — including planning out loud — bleeds away.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "foot-traffic",
+      "title": "Foot Traffic",
+      "hook": "A blurry heatmap of scuffs on an empty floor is the only clue — deduce what room this is and reconstruct the day that wore it down.",
+      "tags": [
+        "puzzle",
+        "game",
+        "forensics",
+        "procedural"
+      ],
+      "score": 62,
+      "source": "lobsters",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "punch-list",
+      "title": "Punch List",
+      "hook": "New photo-documentation laws just made every sloppy security-deposit deduction a lawsuit — Punch List turns a landlord's before/after move-out photos into an itemized, court-defensible deduction statement.",
+      "tags": [
+        "saas",
+        "b2b",
+        "automation",
+        "provenance"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "interceptor",
+      "title": "Interceptor",
+      "hook": "The grease trap under every restaurant is a ticking compliance bomb — Interceptor tracks every pump-out, spits municipal FOG manifests, and routes the vacuum truck before the health inspector shows up.",
+      "tags": [
+        "logistics",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-14"
+    },
+    {
       "slug": "unsigned-2",
       "title": "Unsigned",
       "hook": "The whole room co-writes one anonymous farewell letter, each person penning a private paragraph — and you only win together if, afterward, nobody can tell which paragraph was yours.",
