@@ -2,6 +2,130 @@
   "lastScan": "2026-07-14",
   "ideas": [
     {
+      "slug": "pentimento",
+      "title": "Pentimento",
+      "hook": "Everyone paints one blind brushstroke of the same secret word at the same instant — except the faker, who was never told the word — then the strokes composite at once and you vote for the ignorance showing through.",
+      "tags": [
+        "party",
+        "drawing",
+        "social-deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "handshake-2",
+      "title": "Handshake",
+      "hook": "Secretly type the word you think the wordmaster is spelling — the instant two of you land on the same guess, the room detonates a countdown and you blurt it together before the wordmaster can block.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "flinch-2",
+      "title": "Flinch",
+      "hook": "A mystery sentence unspools one word at a time with a live surprise-meter — you get exactly one buzz, so slam it the instant you think the model just choked on the weirdest word of the whole line.",
+      "tags": [
+        "party",
+        "audio",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "parrot",
+      "title": "Parrot",
+      "hook": "Don't write the flattest sentence — guess what the tiny brain-damaged model would say next, and score most when you're the only one who saw its weird choice coming.",
+      "tags": [
+        "party",
+        "wordgame",
+        "prediction",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "potluck-2-2",
+      "title": "Potluck",
+      "hook": "Everyone silently commits one dish to the table — but your menu is private and different from everyone else's, and any two matching dishes both spoil.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "cooperative",
+        "puzzle"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "crosstalk-2-2",
+      "title": "Crosstalk",
+      "hook": "You each hold a secret line and one shared airwave — say it into the room without ever talking over anyone, or your words dissolve into static.",
+      "tags": [
+        "party",
+        "real-time",
+        "timing",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "one-bit",
+      "title": "One Bit",
+      "hook": "A background job that Floyd–Steinberg-dithers one image from your day into a 1-bit tile and sets it into a slowly filling 365-cell mural — so by New Year your desktop wears a stippled black-and-white contact sheet of the whole year.",
+      "tags": [
+        "ambient",
+        "generative",
+        "wallpaper",
+        "quantified-self"
+      ],
+      "score": 62,
+      "source": "lobsters",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "recurring",
+      "title": "Recurring",
+      "hook": "A permadeath roguelike generated fresh each Monday from your real calendar, where every meeting is a monster — back-to-backs are elite packs, that standing 1:1 is the recurring miniboss, and a clear afternoon is a save room.",
+      "tags": [
+        "roguelike",
+        "calendar",
+        "quantified-self",
+        "productivity"
+      ],
+      "score": 69,
+      "source": "wild",
+      "created": "2026-07-14"
+    },
+    {
+      "slug": "plunge",
+      "title": "Plunge",
+      "hook": "A daemon that watches your grid's real half-hourly price and stampedes your homelab's deferrable jobs into the free (and occasionally negative-priced) windows — then races your friends on kWh liberated.",
+      "tags": [
+        "homelab",
+        "finance",
+        "automation",
+        "leaderboard"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-14"
+    },
+    {
       "slug": "bottle",
       "title": "Bottle",
       "hook": "A 'wait for it' clip plays while a payout multiplier climbs on your phone — cash out before the moment hits and you bank it, hold too long and you bust; every phone decides alone, in silence.",
