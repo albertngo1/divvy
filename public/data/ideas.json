@@ -2,6 +2,129 @@
   "lastScan": "2026-07-15",
   "ideas": [
     {
+      "slug": "parcel",
+      "title": "Parcel",
+      "hook": "One player secretly carves the loot into piles; everyone else grabs blind at the same instant — and whoever the leftovers stick to has only the cutter to blame.",
+      "tags": [
+        "party",
+        "fair-division",
+        "social",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "going-twice",
+      "title": "Going Twice",
+      "hook": "Three paintings under the hammer, one secret wallet, and the agony of piling your money exactly where nobody else does.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "cadence-2-2",
+      "title": "Cadence",
+      "hook": "Everyone gets the exact same bag of scrambled word-tiles and races to arrange them into the least-surprising sentence — but the obvious best order is a trap, because whoever lands an identical arrangement second scores nothing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "tell-2-2",
+      "title": "Tell",
+      "hook": "Sneak a word into a sentence that reads as jarring to humans but that the tiny model finds utterly unsurprising — then bet on whether the room can spot the landmine the model already ignored.",
+      "tags": [
+        "party",
+        "wordgame",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "aperture",
+      "title": "Aperture",
+      "hook": "Lights off, the TV is the only lamp, and each phone secretly needs to bask in its glow or hide in shadow — so you shuffle bodies front-to-back until everyone's private light meter reads right, discovering that the person in front of you is your shadow.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "camera"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "creep",
+      "title": "Creep",
+      "hook": "A red-light-green-light race where every phone flashes its own secret, desynchronized stop-light — so you can never dash 'when everyone freezes,' because everyone's freezing on a different clock.",
+      "tags": [
+        "party",
+        "sensor",
+        "accelerometer",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "magic-word",
+      "title": "Magic Word",
+      "hook": "Browse your real filesystem as the Jurassic Park 3D 'fsn' flythrough, where a pixel Dennis Nedry pops up wagging his finger — 'ah ah ah, you didn't say the magic word' — every time you hit a permission-denied folder.",
+      "tags": [
+        "desktop-toy",
+        "whimsy",
+        "3d-viz"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "doorman",
+      "title": "Doorman",
+      "hook": "Lighthouse for AI web agents: it turns a real headless agent loose on your site to book a table or add to cart, then hands you the transcript of where it gave up and the exact schema.org fixes to let it in.",
+      "tags": [
+        "agents",
+        "saas",
+        "automation"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "bad-seed",
+      "title": "Bad Seed",
+      "hook": "A pre-ship linter that sweeps your procedural generator's seed space and flags the one seed whose dungeon tiles accidentally form a swastika before an angry player screenshots it.",
+      "tags": [
+        "procedural",
+        "security",
+        "devtool"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-15"
+    },
+    {
       "slug": "wilt",
       "title": "Wilt",
       "hook": "A real-time Dutch flower auction where the price ticks DOWN on the big screen and you tap BUY to snap the lot — but every florist holds a secret budget and secret client demand only their phone can see.",
