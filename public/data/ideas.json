@@ -2,6 +2,102 @@
   "lastScan": "2026-07-15",
   "ideas": [
     {
+      "slug": "registry",
+      "title": "Registry",
+      "hook": "A booster draft where every card you pick you're picking blind FOR your neighbor — steered only by a private hint about their secret wishlist — and you never see your own gifts pile up until the reveal.",
+      "tags": [
+        "party",
+        "drafting",
+        "social"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "clearing",
+      "title": "Clearing",
+      "hook": "The Catan haggle, silenced: everyone floats secret give/want offers at once and the server instantly executes any two that fit — no turns, no shouting, just a race to guess who needs what.",
+      "tags": [
+        "party",
+        "economic",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "tote-2-2",
+      "title": "Tote",
+      "hook": "The two minutes your group spends scrolling a menu becomes a secret parimutuel market on what the group will actually pick — and the market IS the decision.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction-market",
+        "social"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "steam-2",
+      "title": "Steam",
+      "hook": "Ride a climbing multiplier as a real trick-shot or Jenga-tower clip builds tension, and privately cash out the instant before it crashes.",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "video"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "duress",
+      "title": "Duress",
+      "hook": "A silly family card game of inside-joke challenge-response pairs that is secretly a spaced-repetition drill against AI voice-clone 'help me, wire money' fraud.",
+      "tags": [
+        "security",
+        "party-game",
+        "privacy",
+        "habits"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "one-liner",
+      "title": "One-Liner",
+      "hook": "A deckbuilder where your cards are the shell commands from your own history, and winning a fight means the pipeline you assembled actually runs and solves a real data challenge in a sandbox.",
+      "tags": [
+        "deckbuilder",
+        "cli",
+        "devtool",
+        "game"
+      ],
+      "score": 67,
+      "source": "github",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "thrash",
+      "title": "Thrash",
+      "hook": "A roguelike where you ARE the cache — hand-evict pages as your own real file-access trace streams at you, racing to beat LRU, LFU, and caffeine's W-TinyLFU.",
+      "tags": [
+        "roguelike",
+        "cli",
+        "devtool",
+        "puzzle"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-15"
+    },
+    {
       "slug": "cache",
       "title": "Cache",
       "hook": "One player buries a virtual geocache somewhere in the room by pacing it out; everyone else hunts it at once, each phone dead-reckoning its own position from your steps and heading, whispering a private warmer/colder that drifts just enough to make you doubt your own feet.",
