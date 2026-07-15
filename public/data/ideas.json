@@ -2,6 +2,132 @@
   "lastScan": "2026-07-15",
   "ideas": [
     {
+      "slug": "blackball-2",
+      "title": "Blackball",
+      "hook": "A shared board of tiles slowly dies as everyone secretly burns one per round — but each phone holds a hidden agenda about which tiles must survive, so you're voting to kill without revealing what you're protecting.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "drafting",
+        "voting"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "snipe",
+      "title": "Snipe",
+      "hook": "Everyone secretly sets a max bid on the same silly prize, then the TV animates a proxy bid-war between your hidden ceilings and the winner only pays one click over the runner-up.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "economy"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "tumbler-2-2",
+      "title": "Tumbler",
+      "hook": "One player sees the guts of a combination lock; everyone else grips a single dial they can't read a target for — and turning your dial secretly drags your neighbors' out of true.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "asymmetric"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "lookout",
+      "title": "Lookout",
+      "hook": "One player in the crow's nest sees the whole rock-strewn sea; everyone else pilots a blind boat through the fog, and the lookout can only shine the lamp on one of them at a time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "asymmetric"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "talkdown",
+      "title": "Talkdown",
+      "hook": "One player flies blind with a garbled cockpit while the rest hold scattered pieces of the approach chart and must talk the plane down — one clear voice at a time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "warble",
+      "title": "Warble",
+      "hook": "Steer one dot through a winding tunnel by humming — but each phone secretly controls only one axis, so you have to sing together in real time or crash.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "burn-in",
+      "title": "Burn-In",
+      "hook": "Plug in a used Android phone over USB and 90 seconds later get a Swappa-ready grading sheet — real battery health, an OLED burn-in scan, every sensor and button tested, IMEI blocklist checked — the tedious refurb QA that flippers currently fake or eyeball.",
+      "tags": [
+        "side-hustle",
+        "automation",
+        "ops-tool",
+        "cli"
+      ],
+      "score": 65,
+      "source": "github",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "interchange",
+      "title": "Interchange",
+      "hook": "Cities: Skylines, but the city builds itself from your homelab — each Docker container is a district, every packet between them is a car, and that 2am backup job that saturates your NAS shows up as a screaming rush-hour gridlock on the freeway.",
+      "tags": [
+        "data-viz",
+        "homelab",
+        "observability",
+        "3d-viz"
+      ],
+      "score": 68,
+      "source": "steam",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "ringer-2",
+      "title": "Ringer",
+      "hook": "Watches the world's certificate-transparency firehose and pings you the instant a typosquatted lookalike of YOUR brand gets a TLS cert — the enterprise brand-protection that Fortune 500s pay MarkMonitor five figures for, for the price of a Raspberry Pi.",
+      "tags": [
+        "security",
+        "saas",
+        "automation",
+        "self-hosted"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-15"
+    },
+    {
       "slug": "interlock",
       "title": "Interlock",
       "hook": "Every player secretly routes their own train across one shared station grid; wherever two routes share a track segment, both derail — and you never see each other's lines.",
