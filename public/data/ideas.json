@@ -2,6 +2,131 @@
   "lastScan": "2026-07-15",
   "ideas": [
     {
+      "slug": "cache",
+      "title": "Cache",
+      "hook": "One player buries a virtual geocache somewhere in the room by pacing it out; everyone else hunts it at once, each phone dead-reckoning its own position from your steps and heading, whispering a private warmer/colder that drifts just enough to make you doubt your own feet.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "exploration"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "silver-service",
+      "title": "Silver Service",
+      "hook": "Carry a virtual brimming tray across a crowded room to your secret table — hold it dead-level, walk smooth, and don't get bumped, because every jostle from a passing waiter sloshes your drinks onto the floor.",
+      "tags": [
+        "party",
+        "sensor",
+        "dexterity",
+        "anti-coordination"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "brush-pass",
+      "title": "Brush Pass",
+      "hook": "Every spy must slip their message through a shared city, but pick the same dead-drop as another agent and both messages burn — and only the two of you feel the whisper telling you that you've been made.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "party-wall",
+      "title": "Party Wall",
+      "hook": "Throw your own house party loud enough to peak, but the walls are paper-thin and any neighbor blasting music at the same instant summons the cops on all of you.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "class-clown",
+      "title": "Class Clown",
+      "hook": "Everyone must sit in enforced silence while one hidden player — the Clown, who also can't make a sound — tries to bait the rest into laughing or blurting, and nobody knows who's pulling the strings.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "cicada",
+      "title": "Cicada",
+      "hook": "Your phones chirp secret packets to each other like a chorus of cicadas — but the second anyone speaks, human voice smears the channel and every message garbles into static.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "hot-loop",
+      "title": "Hot Loop",
+      "hook": "A daily puzzle where you rewrite a tiny inner loop to be branchless and cache-friendly, scored on simulated CPU cycles — Wordle for mechanical sympathy.",
+      "tags": [
+        "puzzle",
+        "devtool",
+        "cli",
+        "leaderboard"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "roost",
+      "title": "Roost",
+      "hook": "A desk pet that lives or dies by how *regular* your sleep is — not how much you get — because the study says a steady bedtime beats an extra hour.",
+      "tags": [
+        "quantified-self",
+        "ambient",
+        "health",
+        "desktop-toy"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "countersign-2",
+      "title": "Countersign",
+      "hook": "When a wire request comes in, the real counterparty confirms through a channel you agreed on at signing — so a three-second cloned voice can't move six figures of escrow.",
+      "tags": [
+        "saas",
+        "security",
+        "b2b",
+        "finance"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-15"
+    },
+    {
       "slug": "blackball-2",
       "title": "Blackball",
       "hook": "A shared board of tiles slowly dies as everyone secretly burns one per round — but each phone holds a hidden agenda about which tiles must survive, so you're voting to kill without revealing what you're protecting.",
