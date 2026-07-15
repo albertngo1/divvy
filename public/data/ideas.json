@@ -2,6 +2,131 @@
   "lastScan": "2026-07-15",
   "ideas": [
     {
+      "slug": "strike",
+      "title": "Strike",
+      "hook": "A clunky, high-perplexity sentence sits on the TV with a few words pinned in place — race to delete the right words and sculpt the smoothest sentence the model has ever seen.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "real-time"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "setpoint",
+      "title": "Setpoint",
+      "hook": "You're secretly told to hit perplexity ≈ 60 while your rival aims for ≈ 200 — write a sentence that lands your dial, not the lowest or highest.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "dwell-2-2",
+      "title": "Dwell",
+      "hook": "On 'go,' everyone presses and holds — no clock, no numbers, no peeking — and tries to let go at the exact same secretly-felt duration, tightening the room's internal sense of 'a while' round after silent round.",
+      "tags": [
+        "party",
+        "cooperative",
+        "timing",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "composite-2",
+      "title": "Composite",
+      "hook": "Everyone silently builds the same stranger's face from scratch — same eyes, same nose, same mouth — with no reference and no talking, chasing a face that only exists once you all agree on it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "gauss",
+      "title": "Gauss",
+      "hook": "Your phone is a Geiger-clicking metal detector swept over the room's invisible magnetic terrain, and each player silently stalks a different ferrous hotspot until every beacon lights at the same instant.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 64,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "candela",
+      "title": "Candela",
+      "hook": "The host screen holds a photo stuck mid-develop, and it only finishes exposing when every player has physically carried their phone into the exact pool of light or shadow their private meter is secretly hunting for.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "affix",
+      "title": "Affix",
+      "hook": "An ARPG loot-grind grafted onto your real Garmin workouts, where every run rolls a randomized item whose stats and rarity are derived from your actual heart-rate, pace splits, and effort.",
+      "tags": [
+        "quantified-self",
+        "game",
+        "health",
+        "leaderboard"
+      ],
+      "score": 63,
+      "source": "steam",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "sorry",
+      "title": "Sorry",
+      "hook": "A Slay-the-Spire-style deckbuilder where your cards are Lean 4 proof tactics, enemies are unproven goals, and playing the 'sorry' card is your desperate escape hatch that admits defeat.",
+      "tags": [
+        "deckbuilder",
+        "puzzle",
+        "devtool",
+        "game"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "fence",
+      "title": "Fence",
+      "hook": "A surveillance-capitalist tycoon where every smart device on your real LAN becomes an employee harvesting data you 'sell' — and the dollar figures are real, so it doubles as a brutally honest privacy audit.",
+      "tags": [
+        "security",
+        "tycoon",
+        "privacy",
+        "homelab"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-15"
+    },
+    {
       "slug": "registry",
       "title": "Registry",
       "hook": "A booster draft where every card you pick you're picking blind FOR your neighbor — steered only by a private hint about their secret wishlist — and you never see your own gifts pile up until the reveal.",
