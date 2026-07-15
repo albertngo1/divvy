@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-07-14",
+  "lastScan": "2026-07-15",
   "ideas": [
+    {
+      "slug": "wilt",
+      "title": "Wilt",
+      "hook": "A real-time Dutch flower auction where the price ticks DOWN on the big screen and you tap BUY to snap the lot — but every florist holds a secret budget and secret client demand only their phone can see.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time",
+        "economic"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "patron",
+      "title": "Patron",
+      "hook": "A pick-and-pass draft where you never draft for yourself — every card you keep is planted face-down into a secret ward's pile, while an anonymous benefactor you can't identify quietly builds yours.",
+      "tags": [
+        "party",
+        "draft",
+        "social-deduction",
+        "cards"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "overbook",
+      "title": "Overbook",
+      "hook": "You're all assistants blindly booking meetings into ONE shared conference room, and the second two of you grab the same slot, both meetings storm out — so the only way to win is to guess where the others physically can't go.",
+      "tags": [
+        "party",
+        "puzzle",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "merge",
+      "title": "Merge",
+      "hook": "Everyone's a car flooring it toward a one-lane bottleneck, but you can only feel your own gap — so if two of you hit the merge point together, you both become a wreck on the TV.",
+      "tags": [
+        "party",
+        "real-time",
+        "reflex",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "cliffhanger-2",
+      "title": "Cliffhanger",
+      "hook": "A suspense clip freezes at the worst possible moment and every phone gets a different secret tip — some true, some lies — before you bet on how it ends.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "video"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "corpse",
+      "title": "Corpse",
+      "hook": "Before a try-not-to-laugh reel even starts, everyone secretly bets their chips on which player will crack first — including a bluff-bet on your own stone face.",
+      "tags": [
+        "party",
+        "betting",
+        "reaction",
+        "social"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "whorl",
+      "title": "Whorl",
+      "hook": "A Zachtronics-style puzzle where you route unspillable flow across a donut and a two-holed pretzel, and the topology of the surface is both the trap and the tool.",
+      "tags": [
+        "puzzle",
+        "game",
+        "physics",
+        "procedural"
+      ],
+      "score": 63,
+      "source": "arxiv",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "swath",
+      "title": "Swath",
+      "hook": "The spray-application logbook for agricultural drone operators: tap once per pass and it captures the wind, the field, the chemical, and the EPA record the state wants.",
+      "tags": [
+        "logistics",
+        "saas",
+        "computer-vision",
+        "automation"
+      ],
+      "score": 69,
+      "source": "github",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "tire-kicker",
+      "title": "Tire Kicker",
+      "hook": "A mystery shopper made of AI: we run a fleet of real browser agents through your checkout and hand you the exact spots where they get stuck.",
+      "tags": [
+        "saas",
+        "agents",
+        "computer-vision",
+        "b2b"
+      ],
+      "score": 74,
+      "source": "producthunt",
+      "created": "2026-07-15"
+    },
     {
       "slug": "downbeat-2",
       "title": "Downbeat",
