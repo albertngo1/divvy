@@ -2,6 +2,130 @@
   "lastScan": "2026-07-15",
   "ideas": [
     {
+      "slug": "interlock",
+      "title": "Interlock",
+      "hook": "Every player secretly routes their own train across one shared station grid; wherever two routes share a track segment, both derail — and you never see each other's lines.",
+      "tags": [
+        "party",
+        "puzzle",
+        "spatial",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "peak-load",
+      "title": "Peak Load",
+      "hook": "Everyone shares one apartment circuit; run your private chores blind, and the instant your hidden appliances stack up the breaker trips and wipes the room.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "comeback",
+      "title": "Comeback",
+      "hook": "A four-player booster draft where the whole game is calling the wheel — secretly betting a card you pass will lap the table and land back in your hands.",
+      "tags": [
+        "party",
+        "drafting",
+        "prediction",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "bunk",
+      "title": "Bunk",
+      "hook": "A sealed-bid brawl over the good bedroom on the group trip — where every phone holds a different secret hand of favor-chips, so you never know what your rivals can actually afford.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-hand",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "inside-voice",
+      "title": "Inside Voice",
+      "hook": "A cooperative race to guess a secret word in twenty questions — except one player already knows it and is quietly steering you there, and once you win you have to vote out the traitor who helped.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "voice"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "minefield",
+      "title": "Minefield",
+      "hook": "It's Taboo, except the forbidden words are secretly planted by the enemy team — so you describe blind, never knowing which innocent clue will detonate.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "stipple",
+      "title": "Stipple",
+      "hook": "A daily image-golf duel where you reproduce a target photo using only a tiny palette and a dithering algorithm — closest match with the fewest colors wins, turning a blog-post technique into a competitive sport.",
+      "tags": [
+        "puzzle",
+        "graphics",
+        "competitive",
+        "browser-game"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "heliacal",
+      "title": "Heliacal",
+      "hook": "The Maya scribes tracked Venus by hand for centuries; Heliacal quietly rebuilds that codex on your desktop, painting one glyph a night from live ephemeris until a full-year Venus almanac has drawn itself.",
+      "tags": [
+        "astronomy",
+        "ambient",
+        "generative",
+        "wallpaper"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-15"
+    },
+    {
+      "slug": "backtalk",
+      "title": "Backtalk",
+      "hook": "Your smart TV, doorbell, and vacuum phone home thousands of times a day — Backtalk scores that chatter into a competitive 'surveillance footprint' and paints a year-long poster of everyone your house secretly talks to.",
+      "tags": [
+        "privacy",
+        "self-hosted",
+        "leaderboard",
+        "quantified-self"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-15"
+    },
+    {
       "slug": "parcel",
       "title": "Parcel",
       "hook": "One player secretly carves the loot into piles; everyone else grabs blind at the same instant — and whoever the leftovers stick to has only the cutter to blame.",
