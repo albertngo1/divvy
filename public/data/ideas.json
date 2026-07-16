@@ -2,6 +2,128 @@
   "lastScan": "2026-07-16",
   "ideas": [
     {
+      "slug": "autopen",
+      "title": "Autopen",
+      "hook": "The whole room traces the same fancy signature at once, and the host fuses every stroke into one 'official' autograph — you win only if nobody can tell your hand did any of it.",
+      "tags": [
+        "party",
+        "anonymity",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "planchette-2",
+      "title": "Planchette",
+      "hook": "A wordless séance where the whole room's phones tug one Ouija planchette across the TV to channel a message — while each of you secretly smuggles in an assigned word.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "keepsake"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "on-the-nose-2",
+      "title": "On the Nose",
+      "hook": "A hand of trick-taking where your contract is secret — take EXACTLY the number of tricks you privately promised, no more, while the phones silently deal, enforce follow-suit, and score so nobody has to.",
+      "tags": [
+        "party",
+        "cardgame",
+        "trick-taking"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "parlay-2",
+      "title": "Parlay",
+      "hook": "Everyone secretly bids on an all-or-nothing bundle of lots at once, and the server instantly solves who wins which package — the silent-slip combinatorial auction no table could ever run.",
+      "tags": [
+        "party",
+        "auction",
+        "economic"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "sides",
+      "title": "Sides",
+      "hook": "You're each handed only your own lines of a scene — and one actor's script has a single line rewritten to contradict the plot, which they'll perform aloud without ever knowing it's the tell.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "improv"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "monitor",
+      "title": "Monitor",
+      "hook": "Everyone hears the same song clip in their own earbuds — but one player's private mix has a single detail swapped, and they'll swear they heard something the rest of you didn't.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "rap-sheet",
+      "title": "Rap Sheet",
+      "hook": "Fingerprinting libraries exist to identify you; Rap Sheet turns the gun around and prints your machine's permanent criminal record — every undeletable hardware and OS identifier it can never scrub, framed as a mugshot poster.",
+      "tags": [
+        "privacy",
+        "forensics",
+        "security",
+        "cli"
+      ],
+      "score": 62,
+      "source": "lobsters",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "punt",
+      "title": "Punt",
+      "hook": "A trivia duel where a slick AI oracle whispers confident advice — often wrong — and the only way to win is to know exactly when to say 'I don't know' and refuse the bait.",
+      "tags": [
+        "party-game",
+        "llm",
+        "browser-game",
+        "quantified-self"
+      ],
+      "score": 65,
+      "source": "arxiv",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "salvage",
+      "title": "Salvage",
+      "hook": "Duskers, but the derelict ships are your own dead homelab containers — pilot recovery drones into the fog by terse typed command and drag your infra back from the black.",
+      "tags": [
+        "homelab",
+        "cli",
+        "self-hosted",
+        "sim"
+      ],
+      "score": 72,
+      "source": "steam",
+      "created": "2026-07-16"
+    },
+    {
       "slug": "hot-swap",
       "title": "Hot Swap",
       "hook": "It's Spaceteam, except the controls silently migrate between your phones every few seconds — so before anyone can obey a command, the whole room has to shout to find out who owns the switch *right now*.",
