@@ -2,6 +2,130 @@
   "lastScan": "2026-07-16",
   "ideas": [
     {
+      "slug": "yoke",
+      "title": "Yoke",
+      "hook": "Four blind pieces each own exactly ONE direction button of a single shared token; only the map-holder can see the maze, so escaping means one sighted player screaming 'UP — now LEFT — STOP' at four people who can each only shove one way.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "firedamp",
+      "title": "Firedamp",
+      "hook": "One player holds the mine map and can see the tunnels but not the gas; the trapped miners feel the gas rising on their own phones but can't see a single wall — get everyone to the shaft before the timer or the air.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "facet",
+      "title": "Facet",
+      "hook": "A co-op clue game where the secret word is shattered into private property-fragments — each cluer's phone shows only one piece, and none of them can see the whole, so the emoji they pool on the TV becomes a cipher only the guesser can crack.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "wave-through",
+      "title": "Wave Through",
+      "hook": "A digital Sheriff of Nottingham where you privately stuff contraband into a sack, declare something innocent to the room, and slip the inspector a silent bribe only their phone can see.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "bluffing"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "judder",
+      "title": "Judder",
+      "hook": "Everyone feels a private buzzed rhythm through their phone — the imposter's has one beat flipped — and since you can't hand someone a vibration, the group has to reconstruct and argue over a signal no one can replay.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "haptic",
+        "sensor"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "plate",
+      "title": "Plate",
+      "hook": "Everyone squints at the same field of colored dots — but the imposter's Ishihara plate quietly resolves to a different hidden number, and they may not even know they were lied to.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "visual",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "funny-pages",
+      "title": "Funny Pages",
+      "hook": "Feed it your coding agent's giant boring transcript and it renders a Microsoft Comic Chat–style strip — where every `rm -rf` and `git push --force` puts the agent in a scheming villain pose, so you can skim a run for trouble in ten seconds.",
+      "tags": [
+        "agents",
+        "devtool",
+        "whimsy",
+        "security"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "abstain",
+      "title": "Abstain",
+      "hook": "A daily trivia game where an AI whispers confident answers that are sometimes flat wrong — and you score far more points for correctly saying 'I don't know' than for guessing, training the one muscle AI is quietly destroying.",
+      "tags": [
+        "llm",
+        "party-game",
+        "quantified-self",
+        "leaderboard"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "rug-pull",
+      "title": "Rug Pull",
+      "hook": "A watchdog that snapshots everything you 'own' across Steam, Kindle, PlayStation and Google Play, then timestamps the exact moment a store silently deletes, edits, or delists it out from under you — so you have receipts.",
+      "tags": [
+        "forensics",
+        "provenance",
+        "privacy",
+        "side-hustle"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-16"
+    },
+    {
       "slug": "minimal-pair",
       "title": "Minimal Pair",
       "hook": "Everyone secretly holds the same anchor word and free-associates aloud — except the imposter's anchor is one letter off, and they have no idea they're drifting.",
