@@ -2,6 +2,129 @@
   "lastScan": "2026-07-16",
   "ideas": [
     {
+      "slug": "table-stakes-2-2-2-2",
+      "title": "Table Stakes",
+      "hook": "You're 'ordering for the table' off a menu on the TV, but each phone secretly owns a stake in one dish — so every round is a hidden bet to steer the table's final order toward your dish without getting read.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "betting"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "cash-out-2",
+      "title": "Cash Out",
+      "hook": "Everyone watches the same short clip on the TV, but each phone secretly hunts a different set of prop-bets — and the only skill is nerve: cash out at the peak the instant your cue fires, before the payout decays to nothing.",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "video"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "wrecker",
+      "title": "Wrecker",
+      "hook": "Two guides both claim to see the coastline and both send you private steering arrows through the fog — but one of them is a wrecker luring your blind boat onto the rocks, and you won't know which until you've sunk.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "ferryman",
+      "title": "Ferryman",
+      "hook": "One player secretly holds the river map while everyone else rows a blind boat upstream, and the ferryman can only save them by whispering one private course-correction per round.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "assay",
+      "title": "Assay",
+      "hook": "Bid on a mystery crate when your phone shows you only two of the six tokens that set its true worth — win the auction, then find out if you just caught the winner's curse.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "big-board",
+      "title": "Big Board",
+      "hook": "The same rubber duck is worth 8 to you and 2 to me — snake-draft a shared shelf of junk where every phone secretly grades the loot differently.",
+      "tags": [
+        "party",
+        "draft",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "shrug",
+      "title": "Shrug",
+      "hook": "A trivia party game where you can buy hints from an AI oracle that is sometimes confidently, incentivized-ly wrong — and the only way to win is to know when to shrug and say 'I don't know.'",
+      "tags": [
+        "party-game",
+        "llm",
+        "multiplayer",
+        "social"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "jetsam",
+      "title": "Jetsam",
+      "hook": "Your homelab's disk becomes a raft adrift on an ocean of old files: hook the ones worth keeping as they float past on the retention current, or let the disk-full shark eat your platform.",
+      "tags": [
+        "homelab",
+        "game",
+        "self-hosted",
+        "cli"
+      ],
+      "score": 63,
+      "source": "steam",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "uptake",
+      "title": "Uptake",
+      "hook": "A desktop wallpaper that slowly grows a crystalline metal-organic-framework lattice by 'adsorbing' one day of your room's real air quality at a time, until a year of breathing becomes a single porous jewel.",
+      "tags": [
+        "ambient",
+        "chemistry",
+        "wallpaper",
+        "quantified-self"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-16"
+    },
+    {
       "slug": "autopen",
       "title": "Autopen",
       "hook": "The whole room traces the same fancy signature at once, and the host fuses every stroke into one 'official' autograph — you win only if nobody can tell your hand did any of it.",
