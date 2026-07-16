@@ -2,6 +2,132 @@
   "lastScan": "2026-07-16",
   "ideas": [
     {
+      "slug": "same-floor",
+      "title": "Same Floor",
+      "hook": "You each drive one elevator in a busy building, blind to where anyone else is sending theirs — and the instant two cars answer the same call, one of you arrives to an empty landing and the whole lobby's patience drains.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "one-bathroom",
+      "title": "One Bathroom",
+      "hook": "Four roommates, one bathroom, one morning — silently pack your getting-ready routines into a shared clock before your private leave-for-work deadlines pass, and every time two of you crowd the door you both lose progress.",
+      "tags": [
+        "party",
+        "cooperative",
+        "scheduling",
+        "real-time"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "sing-along",
+      "title": "Sing-Along",
+      "hook": "The whole room recites the same nursery rhyme in unison from a synced karaoke teleprompter — except the imposter's phone swapped three words for rhyming near-misses, and you hear the one voice that veers off.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "hidden-role"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "cipher-key",
+      "title": "Cipher Key",
+      "hook": "Everyone decodes the same coded message from a private legend — but the imposter's decoder ring has three glyphs quietly swapped, so they'll swear the message says something it doesn't.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "hidden-role"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "downbeat-2-2",
+      "title": "Downbeat",
+      "hook": "A six-digit combo scattered across your phones, one digit per beat — shout yours exactly on the metronome's click or the lock resets, and the tempo only speeds up.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "earshot-2-2",
+      "title": "Earshot",
+      "hook": "Every phone plays the same emergency dispatch, but each ear only catches different words through the static — reconstruct the full call before the room burns its shared replay budget.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "voice"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "flick",
+      "title": "Flick",
+      "hook": "A party deduction game where you watch a handful of ghostly mouse-and-keypress replays and have to finger the aimbot — because bots, like liars, always twitch a little too perfectly.",
+      "tags": [
+        "party-game",
+        "forensics",
+        "social-deduction",
+        "security"
+      ],
+      "score": 67,
+      "source": "github",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "bus-factor",
+      "title": "Bus Factor",
+      "hook": "A maintainer tycoon where every bot you adopt makes your open-source project's metrics gorgeous and its community quietly hollow — until the one human who understood everything rage-quits and it all falls over.",
+      "tags": [
+        "tycoon",
+        "sim",
+        "git",
+        "agents"
+      ],
+      "score": 73,
+      "source": "arxiv",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "core-sample-2",
+      "title": "Core Sample",
+      "hook": "A cron pipeline quietly prints one stackable geometric segment of your life every month, and by New Year's you can hold a translucent 12-piece core sample of your whole year in your hand.",
+      "tags": [
+        "ambient",
+        "generative",
+        "quantified-self",
+        "homelab"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-16"
+    },
+    {
       "slug": "dumb-show",
       "title": "Dumb Show",
       "hook": "The whole room mimes the same secret word at once — but the imposter was handed a near-synonym and doesn't know it, so everyone's scanning the circle for the mime that's subtly acting the wrong thing.",
