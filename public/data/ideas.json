@@ -2,6 +2,131 @@
   "lastScan": "2026-07-16",
   "ideas": [
     {
+      "slug": "foley-2-2",
+      "title": "Foley",
+      "hook": "Your group scores a silent film clip live on phone soundboards, hitting cues from your private cue sheet — but one player's sheet has the timings swapped, so a door slams where the glass should shatter and everyone has to guess who fumbled.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "detour",
+      "title": "Detour",
+      "hook": "Your team steers one token through a hidden maze by private vote — but the imposter's fog-map has the walls in the wrong places, so their confident directions keep smashing you into dead ends.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "wet-paint",
+      "title": "Wet Paint",
+      "hook": "Everyone paints the same canvas at once with an invisible brush nobody else can see — cover the wall together, but wherever two of you overlap the color curdles to dead brown mud that counts against all of you.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "zipper",
+      "title": "Zipper",
+      "hook": "Three cars, three private throttles, one merge point — you can floor it but never brake, and if two of you commit at the same instant it's a pileup for everyone.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "timing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "shutter",
+      "title": "Shutter",
+      "hook": "A silent six-second loop plays on the TV and you each tap to snap the one obvious moment — win only if all your shutters fire on the same frame.",
+      "tags": [
+        "party",
+        "cooperative",
+        "timing"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "corral",
+      "title": "Corral",
+      "hook": "A dozen dots litter the TV; you each secretly lasso the subset you're sure everyone else will lasso — and pray your loops match to the dot.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "convergence"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "reversion",
+      "title": "Reversion",
+      "hook": "A villain tycoon where you run the streaming platform, quietly revoking movies people already 'bought' to juice re-purchase revenue — powered by a real database of titles that actually got delisted from libraries.",
+      "tags": [
+        "tycoon",
+        "sim",
+        "narrative",
+        "monetization"
+      ],
+      "score": 61,
+      "source": "hn",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "packrat",
+      "title": "Packrat",
+      "hook": "The mischievous opposite of a disk-cleanup treemap: a desktop pet reef that thrives the more you hoard, blooms with every download, and visibly bleaches and guilt-trips you the instant you delete a file.",
+      "tags": [
+        "desktop-toy",
+        "ambient",
+        "whimsy",
+        "self-hosted"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "downlink",
+      "title": "Downlink",
+      "hook": "A status page for the public weather data your business silently depends on — it watches NOAA feeds, GOES imagery latency, and model-run availability, and pings you the moment a source degrades so you can fail over before your forecasts go dark.",
+      "tags": [
+        "saas",
+        "observability",
+        "b2b",
+        "gis"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-16"
+    },
+    {
       "slug": "yoke",
       "title": "Yoke",
       "hook": "Four blind pieces each own exactly ONE direction button of a single shared token; only the map-holder can see the maze, so escaping means one sighted player screaming 'UP — now LEFT — STOP' at four people who can each only shove one way.",
