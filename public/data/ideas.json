@@ -1,6 +1,131 @@
 {
-  "lastScan": "2026-07-15",
+  "lastScan": "2026-07-16",
   "ideas": [
+    {
+      "slug": "hot-swap",
+      "title": "Hot Swap",
+      "hook": "It's Spaceteam, except the controls silently migrate between your phones every few seconds — so before anyone can obey a command, the whole room has to shout to find out who owns the switch *right now*.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "segue",
+      "title": "Segue",
+      "hook": "You're a pirate radio crew filling 90 seconds of airtime with one unbroken voice — and the only way to pass the mic is to speak the next person's secret cue word out loud.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "eyeline",
+      "title": "Eyeline",
+      "hook": "A silent relay where you pass an invisible token by two players pointing their phones straight at each other across the room — but only your phone knows who you're supposed to pass to next.",
+      "tags": [
+        "party",
+        "sensor",
+        "compass",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "curfew",
+      "title": "Curfew",
+      "hook": "An asymmetric Red-Light-Green-Light where the searchlight sweeps a different schedule for every player — cross the dark room without your phone catching you moving on your own private red.",
+      "tags": [
+        "party",
+        "sensor",
+        "accelerometer",
+        "hidden-schedule"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "slice",
+      "title": "Slice",
+      "hook": "One player secretly carves a pile of loot into three bundles; the others, each hiding a different taste for what's valuable, simultaneously grab — and any bundle two people want is torn up and thrown away.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "nerve-2-2",
+      "title": "Nerve",
+      "hook": "An all-pay war-of-attrition auction: everyone holds a button as one price climbs, you pay for every second you stay in even if you lose, and you can't see who else is still sweating.",
+      "tags": [
+        "party",
+        "economic",
+        "real-time",
+        "bluffing"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "askance",
+      "title": "Askance",
+      "hook": "A co-op word game where your AI spymaster is mute and can only hint by where its cartoon eyes glance across the board — win by learning to read the machine's body language.",
+      "tags": [
+        "party-game",
+        "social-deduction",
+        "browser-game",
+        "llm"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "nielsen",
+      "title": "Nielsen",
+      "hook": "Your smart TV keeps a secret ratings dossier on you — Nielsen is a self-hosted spy that sniffs its phone-home traffic and hands you back the file it's building.",
+      "tags": [
+        "privacy",
+        "forensics",
+        "self-hosted",
+        "homelab"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "rote",
+      "title": "Rote",
+      "hook": "An idle factory game where your workers are real recorded GUI macros — watch the little automatons grind away, except the grind is your actual busywork getting done.",
+      "tags": [
+        "automation",
+        "idle",
+        "desktop-toy",
+        "productivity"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-16"
+    },
     {
       "slug": "strike",
       "title": "Strike",
