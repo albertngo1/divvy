@@ -2,6 +2,130 @@
   "lastScan": "2026-07-16",
   "ideas": [
     {
+      "slug": "dumb-show",
+      "title": "Dumb Show",
+      "hook": "The whole room mimes the same secret word at once — but the imposter was handed a near-synonym and doesn't know it, so everyone's scanning the circle for the mime that's subtly acting the wrong thing.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "charades"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "crossed-wire-2",
+      "title": "Crossed Wire",
+      "hook": "Everyone hears the same secret voicemail through their own earbuds — except the imposter, whose clip has one word quietly swapped, and who has no idea they heard it wrong.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "sign",
+      "title": "Sign",
+      "hook": "Everyone secretly draws an unlock pattern on their own 3×3 dot grid, all trying to trace the exact same gesture with zero talking — the door opens only when all three swipes are identical.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "touch"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "cue-2",
+      "title": "Cue",
+      "hook": "Everyone privately scrubs their own copy of the same silent clip and drops a pin on the exact instant it happens — no talking, and you win only when all your pins land on the same frame.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "family-style-2-2-2",
+      "title": "Family Style",
+      "hook": "Staring at a takeout menu deciding what to share becomes a secret market where you bet chips on what the table will actually order — while your own hidden craving vote is one of the inputs you're wagering on.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "menu"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "vig",
+      "title": "Vig",
+      "hook": "A short suspense clip freezes on the cliff, and everyone secretly slings chips into a shared parimutuel pool — back the obvious favorite for pennies, or be the lone contrarian who calls the upset and cleans up.",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "video"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "in-force",
+      "title": "In Force",
+      "hook": "Upload the pile of vendor insurance certificates and it tells you, at a glance, whose coverage is in force, expired, or secretly under your required limits — then chases the laggards for you.",
+      "tags": [
+        "b2b",
+        "saas",
+        "automation",
+        "ops-tool"
+      ],
+      "score": 65,
+      "source": "wild",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "index-card",
+      "title": "Index Card",
+      "hook": "A daily Wordle-style puzzle where you're handed a database schema and a fistful of queries, and must place a limited number of indexes so every query stops doing a full table scan — graded by real SQLite EXPLAIN.",
+      "tags": [
+        "puzzle",
+        "sql",
+        "browser-game",
+        "devtool"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "med-card",
+      "title": "Med Card",
+      "hook": "A compliance calendar for small trucking fleets that tracks every driver's DOT medical card, MVR review, and Clearinghouse query — so an FMCSA audit stops being a shoebox of expired paper.",
+      "tags": [
+        "logistics",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-07-16"
+    },
+    {
       "slug": "table-stakes-2-2-2-2",
       "title": "Table Stakes",
       "hook": "You're 'ordering for the table' off a menu on the TV, but each phone secretly owns a stake in one dish — so every round is a hidden bet to steer the table's final order toward your dish without getting read.",
