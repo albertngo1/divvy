@@ -2,6 +2,131 @@
   "lastScan": "2026-07-16",
   "ideas": [
     {
+      "slug": "minimal-pair",
+      "title": "Minimal Pair",
+      "hook": "Everyone secretly holds the same anchor word and free-associates aloud — except the imposter's anchor is one letter off, and they have no idea they're drifting.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "beside-the-point",
+      "title": "Beside the Point",
+      "hook": "Everyone answers a question about the same photo — but one player is secretly answering a different question and doesn't even know it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "overdub-2-2",
+      "title": "Overdub",
+      "hook": "Each phone is a different instrument's step-sequencer that only you can hear — hit play and the blind-assembled beat you all made together is a surprise you get to keep.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "keepsake"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "marginalia-2",
+      "title": "Marginalia",
+      "hook": "Everyone scribbles anonymous margin notes into the same creepy old book page at once — and the haunted, over-annotated result is yours to keep.",
+      "tags": [
+        "party",
+        "anonymity",
+        "keepsake",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "concord",
+      "title": "Concord",
+      "hook": "Each of your phones is one voice in a chord played only through the TV speaker — glide your private pitch until the wobbling 'beats' between your tones vanish and the room rings clean, tuning purely by ear.",
+      "tags": [
+        "party",
+        "convergence",
+        "audio",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "pull-quote",
+      "title": "Pull Quote",
+      "hook": "The host TV shows a dense block of text; each of you silently drags to highlight the one phrase you're sure everyone else will pick — and you all have to land on the exact same words.",
+      "tags": [
+        "party",
+        "convergence",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "bill-of-goods",
+      "title": "Bill of Goods",
+      "hook": "Plug in that suspiciously cheap 7-port USB hub and this tells you it's really a tiered USB 2.0 chip promising 6.3 amps it physically cannot deliver.",
+      "tags": [
+        "forensics",
+        "cli",
+        "devtool",
+        "security"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "ratio",
+      "title": "Ratio",
+      "hook": "Run the invite-only music tracker of 2007 as a tycoon game — nurse your seed economy, throw a freeleech festival, and keep the ratio police from kicking down the door.",
+      "tags": [
+        "tycoon",
+        "sim",
+        "browser-game",
+        "narrative"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-16"
+    },
+    {
+      "slug": "superload",
+      "title": "Superload",
+      "hook": "Feed a heavy-haul dispatcher a route and a load envelope and it spits back the per-state permit checklist plus every low-clearance bridge waiting to peel the roof off the trailer.",
+      "tags": [
+        "logistics",
+        "gis",
+        "b2b",
+        "saas"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-07-16"
+    },
+    {
       "slug": "same-floor",
       "title": "Same Floor",
       "hook": "You each drive one elevator in a busy building, blind to where anyone else is sending theirs — and the instant two cars answer the same call, one of you arrives to an empty landing and the whole lobby's patience drains.",
