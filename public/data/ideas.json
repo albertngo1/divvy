@@ -2,6 +2,130 @@
   "lastScan": "2026-07-17",
   "ideas": [
     {
+      "slug": "runner-up-2",
+      "title": "Runner-Up",
+      "hook": "Build a sentence where every single word must be the model's SECOND-favorite guess — never the obvious choice, never the weird one, threading a needle only you can see on your private board.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "overcall",
+      "title": "Overcall",
+      "hook": "Write a sentence blind, then bet your chips on whether it's the one the tiny model finds least surprising — perplexity poker where your own score is the hole card you can't see.",
+      "tags": [
+        "party",
+        "wordgame",
+        "bluffing",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "wallflower-2",
+      "title": "Wallflower",
+      "hook": "Everyone privately answers the same sliders trying to be the most forgettable, average person in the room — the TV draws you all as anonymous dots around a centroid, and you win by being the one nobody can find.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "wax",
+      "title": "Wax",
+      "hook": "Everyone privately records an anonymous confession; the server pitch-shifts and presses them all into one continuous spoken-word record you keep — and you win only if nobody can pick your voice out of the grooves.",
+      "tags": [
+        "party",
+        "audio",
+        "anonymity",
+        "social-deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "vaporware",
+      "title": "Vaporware",
+      "hook": "Watch a gloriously over-the-top product pitch and privately go long or short on whether it's real — flip your position anytime, but the reveal only rewards whoever's holding the right side when the curtain drops.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction-market",
+        "video"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "overround-2",
+      "title": "Overround",
+      "hook": "One of you is the secret bookie setting live odds on a nail-biter clip; the rest bet blind against the house, and the book only wins if the room reads it wrong.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "saccade",
+      "title": "Saccade",
+      "hook": "Your webcam watches where your eyes actually wander across a painting, then overlays how a trained painter scanned the same canvas — and coaches you, look by look, to stop fixating on the faces and start seeing the composition.",
+      "tags": [
+        "art",
+        "computer-vision",
+        "browser-game"
+      ],
+      "score": 62,
+      "source": "arxiv",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "slake",
+      "title": "Slake",
+      "hook": "Design a Roman concrete mix, then fast-forward 2,000 years of rain, frost, and seawater and see if your aqueduct is still standing — the trick, like the real thing, is packing it with lime clasts that re-seal cracks when water finds them.",
+      "tags": [
+        "puzzle",
+        "materials",
+        "cellular-automata",
+        "physics"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "threshold",
+      "title": "Threshold",
+      "hook": "A CI gate that renders your repo exactly as an AI coding agent sees it on first `git clone` — then flags the hidden instructions, poisoned setup steps, and postinstall payloads planted to hijack that agent.",
+      "tags": [
+        "security",
+        "saas",
+        "agents",
+        "ci"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-07-17"
+    },
+    {
       "slug": "roundabout",
       "title": "Roundabout",
       "hook": "Everyone silently points their phone at exactly one other person; win only when your bodies form a single unbroken loop that no one can see whole.",
