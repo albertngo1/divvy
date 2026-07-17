@@ -2,6 +2,131 @@
   "lastScan": "2026-07-17",
   "ideas": [
     {
+      "slug": "blur",
+      "title": "Blur",
+      "hook": "Everyone drops one anonymous confession into the hat, then you're handed a stranger's and must launder it into untraceable prose — the room wins only if every secret stays un-pinned in the keepsake zine.",
+      "tags": [
+        "party",
+        "anonymity",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "sting",
+      "title": "Sting",
+      "hook": "Compose your household's signature four-note ident in a blind relay — you only ever hear the tail of the bar before yours — and the room assembles one melody it keeps forever.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "the-usual-2",
+      "title": "The Usual",
+      "hook": "A menu appears on the TV, everyone secretly locks in their dream order, and then you bet your chips on exactly what each friend picked — proving how well you actually know the table.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "fade",
+      "title": "Fade",
+      "hook": "A 40-second nature-doc cliffhanger becomes a live betting floor where the crowd's money is public but yours is secret — and betting against the room pays the most.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "two-man-rule",
+      "title": "Two-Man Rule",
+      "hook": "It's a nuclear launch console where every order needs exactly two keys turned in unison — and your phone only tells you which orders YOU can key, never who your partner is.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "loose-lips",
+      "title": "Loose Lips",
+      "hook": "Read one sentence aloud as a relay — but every phone is secretly forbidden a different set of words, so you're always one syllable from a hand-off you didn't plan.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "back-issue",
+      "title": "Back Issue",
+      "hook": "Microsoft just open-sourced Comic Chat, so pipe your friend group's whole year of Signal messages through its panel engine — with an LLM filling the emotion wheel it used to guess — and print an annual comic book of your dumbest threads.",
+      "tags": [
+        "graphics",
+        "generative",
+        "art",
+        "narrative"
+      ],
+      "score": 61,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "leap-back",
+      "title": "Leap Back",
+      "hook": "October's vote could delete a second from 2026 for the first time in history — Leap Back is a Docker sandbox that fast-forwards your stack through the vanished 23:59:59 and shows you exactly which cron jobs, TLS handshakes, and consumers melt.",
+      "tags": [
+        "devtool",
+        "observability",
+        "docker",
+        "cli"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "alibi-2",
+      "title": "Alibi",
+      "hook": "The AI-detector flagged your essay because you're autistic, not a cheat — Alibi shows exactly which sentences trip the classifier and packages your keystroke/edit history into a report that clears you.",
+      "tags": [
+        "provenance",
+        "privacy",
+        "writing",
+        "nlp"
+      ],
+      "score": 73,
+      "source": "arxiv",
+      "created": "2026-07-17"
+    },
+    {
       "slug": "feeler",
       "title": "Feeler",
       "hook": "One player secretly draws an invisible maze on their phone; the blind teammates bump their way across it move by move, and each of them privately remembers only the walls their own token has hit—so escaping means pooling three half-maps out loud.",
