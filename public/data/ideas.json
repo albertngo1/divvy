@@ -2,6 +2,129 @@
   "lastScan": "2026-07-17",
   "ideas": [
     {
+      "slug": "about-face-2",
+      "title": "About Face",
+      "hook": "Everyone closes their eyes and slowly spins in place while their phone buzzes them toward a secret heading only they can feel — win when all of you are unknowingly aimed into a perfect pinwheel.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "standing-room",
+      "title": "Standing Room",
+      "hook": "The host plays one low bass note, the room fills with invisible loud and quiet pockets, and your phone secretly sends you hunting for either a silence or a roar.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "ballpark-2-2",
+      "title": "Ballpark",
+      "hook": "Given a fuzzy phrase like \"a couple minutes,\" everyone secretly slides to their gut value on the same scale — and you only win if your intuitions land on top of each other.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "tattoo",
+      "title": "Tattoo",
+      "hook": "Everyone privately taps out a rhythm for the same fuzzy prompt — win only if you all, blind and silent, drum the exact same beat.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "timing"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "regift",
+      "title": "Regift",
+      "hook": "You glimpsed your gift for five seconds before it flipped face-down forever — now pass it off as a scarf and pray nobody yells 'that's not a scarf.'",
+      "tags": [
+        "party",
+        "memory",
+        "bluffing"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "deadfall-2-2",
+      "title": "Deadfall",
+      "hook": "You have to talk a room into guessing VOLCANO while everyone else has secretly buried the words you'll instinctively reach for — and only they can hear you step on one.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "slumlord",
+      "title": "Slumlord",
+      "hook": "An idle tycoon powered by a real SSH honeypot: the internet's background radiation of scanning bots are your tenants, and the more decrepit and vulnerable your fake server looks, the more of them move in for you to farm.",
+      "tags": [
+        "idle",
+        "security",
+        "homelab",
+        "tycoon"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "load-shed",
+      "title": "Load Shed",
+      "hook": "A power-grid dispatch sim where your real Garmin Body Battery is the generation capacity and your calendar is the demand curve — overcommit and you trip a brownout, so you learn to schedule your day like a grid operator avoiding rolling blackouts.",
+      "tags": [
+        "sim",
+        "quantified-self",
+        "health",
+        "game"
+      ],
+      "score": 65,
+      "source": "wild",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "illegible",
+      "title": "Illegible",
+      "hook": "A build tool that renders your webpage perfectly to human eyes but scrambles it into garbage for AI screenshot-readers and copy-paste scrapers — the inverse of a decoy font, weaponized against the machines reading over your shoulder.",
+      "tags": [
+        "privacy",
+        "steganography",
+        "security",
+        "devtool"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
       "slug": "live-wire-2",
       "title": "Live Wire",
       "hook": "One player sees the electrified floor grid on their phone; the others must physically cross the room blind, guided only by silent private buzzes and arrows pulsed to each of their phones one step at a time.",
