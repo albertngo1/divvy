@@ -1,6 +1,130 @@
 {
-  "lastScan": "2026-07-16",
+  "lastScan": "2026-07-17",
   "ideas": [
+    {
+      "slug": "feeler",
+      "title": "Feeler",
+      "hook": "One player secretly draws an invisible maze on their phone; the blind teammates bump their way across it move by move, and each of them privately remembers only the walls their own token has hit—so escaping means pooling three half-maps out loud.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "vector",
+      "title": "Vector",
+      "hook": "One player watches a hazard sweep across a board only they can see, and must silently buzz three blind teammates' phones—one private nudge each—to weave their tokens through it in real time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "updraft",
+      "title": "Updraft",
+      "hook": "Three players fly one balloon down a foggy canyon by humming into their phones — but each of you only controls one thruster and can only see hazards aimed at someone else's, so your voice is both your engine and your warning siren.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "babble",
+      "title": "Babble",
+      "hook": "Everyone chants a different phrase at the same time, and your only job is to pick your one assigned voice out of the roar and catch the single odd word they're hiding.",
+      "tags": [
+        "party",
+        "voice",
+        "audio",
+        "cooperative"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "set-piece",
+      "title": "Set Piece",
+      "hook": "A door-breach tactics game where every player secretly programs their own operator's four-second move, blind to the others — then the server plays all the plans out at once and you watch your coordination survive or unravel.",
+      "tags": [
+        "party",
+        "tactics",
+        "simultaneous",
+        "cooperative"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "pace-notes",
+      "title": "Pace Notes",
+      "hook": "A rally stage where one phone steers blind through fog while the other privately reads the corners ahead — you either shout the roadbook in time or you're in the trees.",
+      "tags": [
+        "party",
+        "racing",
+        "asymmetric",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "tell-2-2-2",
+      "title": "Tell",
+      "hook": "A Turing-test party game where the sin is reversed — spotting the AI earns a little, but falsely accusing a human of being a bot costs you double and hands the wrongly-accused player a 'you write too weird to be real' bonus.",
+      "tags": [
+        "party-game",
+        "social-deduction",
+        "multiplayer",
+        "nlp"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "outgas",
+      "title": "Outgas",
+      "hook": "Your home server is rendered as a rocky exoplanet slowly losing its atmosphere — free storage and drive health bleed off as a comet tail, and every night's snapshot accretes into a year-long poster of your machine's atmospheric decay.",
+      "tags": [
+        "ambient",
+        "homelab",
+        "generative",
+        "wallpaper"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "airlock",
+      "title": "Airlock",
+      "hook": "Before you point your coding agent at a freshly cloned repo, run it through an airlock that scans every setup file for instructions crafted to hijack the agent — not the code, the prose the agent is told to obey.",
+      "tags": [
+        "security",
+        "agents",
+        "devtool",
+        "cli"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-07-17"
+    },
     {
       "slug": "foley-2-2",
       "title": "Foley",
