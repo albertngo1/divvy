@@ -2,6 +2,130 @@
   "lastScan": "2026-07-17",
   "ideas": [
     {
+      "slug": "live-wire-2",
+      "title": "Live Wire",
+      "hook": "One player sees the electrified floor grid on their phone; the others must physically cross the room blind, guided only by silent private buzzes and arrows pulsed to each of their phones one step at a time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "talkdown-2",
+      "title": "Talkdown",
+      "hook": "One player is the ground controller staring at a radar map only they can see, talking two blindfolded-by-instruments pilots down onto the runway before they run out of fuel.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "sensor"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "mixup",
+      "title": "Mixup",
+      "hook": "A fighting game with the execution ripped out and only the mind-games left: draft a secret 3-move kit your opponent never sees, then both of you commit blind each round and watch the clash resolve on the big screen.",
+      "tags": [
+        "party",
+        "competitive",
+        "hidden-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "on-the-fly",
+      "title": "On the Fly",
+      "hook": "Overcooked squeezed onto phones: each of you is one kitchen station, nobody can see who's holding the patty, and dishes only move when two phones slap a handoff together in time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "squelch-2",
+      "title": "Squelch",
+      "hook": "Three walkie-talkies, one crowded spectrum, and a private map of dead air only you can see — find a clear channel that no one else drifts into, or the whole room drowns in static.",
+      "tags": [
+        "party",
+        "anti-coordination",
+        "real-time",
+        "audio"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "doorbuster",
+      "title": "Doorbuster",
+      "hook": "It's a Black Friday stampede: everyone lunges for the deal they secretly want most, and two hands on the same item means it shatters and you both walk away with nothing.",
+      "tags": [
+        "party",
+        "anti-coordination",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "taggant",
+      "title": "Taggant",
+      "hook": "A traitor-tracing watermark for leaked documents that hides in the SHAPES of the letters — every recipient gets a font that maps text to visually-identical glyph variants, so even a phone photo of the leak still fingerprints who talked.",
+      "tags": [
+        "security",
+        "forensics",
+        "provenance",
+        "steganography"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "sev-one-2",
+      "title": "Sev One",
+      "hook": "Overcooked, but the kitchen is your on-call rotation: alerts fire, latency climbs, and two frantic players sling runbook commands to keep a fake stack alive before the SLO burns.",
+      "tags": [
+        "party-game",
+        "observability",
+        "multiplayer",
+        "sim"
+      ],
+      "score": 63,
+      "source": "steam",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "earwitness",
+      "title": "Earwitness",
+      "hook": "A party game built on the cocktail-party effect: two voices talk over each other in your two ears at once, and you score on how much of BOTH streams you can actually recall.",
+      "tags": [
+        "party-game",
+        "audio",
+        "multiplayer",
+        "quantified-self"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
       "slug": "runner-up-2",
       "title": "Runner-Up",
       "hook": "Build a sentence where every single word must be the model's SECOND-favorite guess — never the obvious choice, never the weird one, threading a needle only you can see on your private board.",
