@@ -2,6 +2,131 @@
   "lastScan": "2026-07-17",
   "ideas": [
     {
+      "slug": "portage-2",
+      "title": "Portage",
+      "hook": "The canoe is one rigid line on a trail only the Pilot can see; two blind Bearers each control one end, and every correction one makes yanks and spins the other's.",
+      "tags": [
+        "party",
+        "cooperative",
+        "physics"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "ford",
+      "title": "Ford",
+      "hook": "One player holds the only map of a stone-strewn river on their phone and must talk two blindfolded-by-design teammates across it before the current sweeps them away.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "leading-question",
+      "title": "Leading Question",
+      "hook": "The room plays twenty questions to guess a secret word — but one player already knows the answer and is quietly steering everyone to it, then must vanish before the group votes on who the traitor was.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "kindred",
+      "title": "Kindred",
+      "hook": "Fill in the blank so you secretly twin with exactly ONE other person in the room — match nobody or match everybody and you score nothing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "social"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "brownout-2",
+      "title": "Brownout",
+      "hook": "Four appliances, one breaker, and only you can see how much power yours pulls — so shout your load before the panel trips and resets everyone's cook.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "say-again",
+      "title": "Say Again",
+      "hook": "Everyone is a pilot AND an air-traffic controller at once, barking clearances into the same crowded frequency while dialing in the ones addressed to your callsign — which only you can see.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "overlook",
+      "title": "Overlook",
+      "hook": "A daily eye-tracking party game over famous paintings where you score by staring at the details almost nobody else noticed — the anti-Schelling of looking.",
+      "tags": [
+        "computer-vision",
+        "party-game",
+        "art",
+        "multiplayer"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "good-first-issue",
+      "title": "Good First Issue",
+      "hook": "A CTF where you craft an innocent-looking repo whose setup instructions quietly hijack a coding agent — you score only if the AI takes the bait AND a human reviewer waves it through.",
+      "tags": [
+        "agents",
+        "security",
+        "prompt",
+        "party-game"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "foothold",
+      "title": "Foothold",
+      "hook": "A live pari-mutuel where you bet on what the bot clawing through an SSH honeypot will do next — wget a payload, drop a miner, sniff out the fake flag, or rage-quit.",
+      "tags": [
+        "security",
+        "prediction-market",
+        "multiplayer",
+        "forensics"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
       "slug": "sweep",
       "title": "Sweep",
       "hook": "You run the store map; your blind shoppers each have a secret list only they can see, and you have to talk all of them to different aisles before closing time.",
