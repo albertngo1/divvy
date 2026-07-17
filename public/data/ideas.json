@@ -2,6 +2,131 @@
   "lastScan": "2026-07-17",
   "ideas": [
     {
+      "slug": "sweep",
+      "title": "Sweep",
+      "hook": "You run the store map; your blind shoppers each have a secret list only they can see, and you have to talk all of them to different aisles before closing time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "flare",
+      "title": "Flare",
+      "hook": "You hold the only lit map of a hazard field; your friends walk it in total darkness and all you can give them is a handful of flares.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "rotation",
+      "title": "Rotation",
+      "hook": "The deck is split across the table's brains — you talk your hidden ability synergies into one shared cast-bar, then everyone blind-commits and watches the boss combo resolve.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "cooperative",
+        "hidden-info"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "hocket",
+      "title": "Hocket",
+      "hook": "One drum groove is shredded across the room so no phone knows the whole beat — you only feel the melody appear when everyone hits their interleaved slot on time.",
+      "tags": [
+        "party",
+        "rhythm",
+        "audio",
+        "cooperative"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "order-up-2-2-2",
+      "title": "Order Up",
+      "hook": "One player secretly picks the whole table's dinner off a real menu; everyone else privately fills a prop-bet slip trying to read exactly what they ordered.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "menu"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "called-shot",
+      "title": "Called Shot",
+      "hook": "Watch a competition clip together and privately lock your prediction whenever your gut says so — the earlier you call it, the bigger the payout, but the less you've actually seen.",
+      "tags": [
+        "party",
+        "betting",
+        "timing",
+        "social-deduction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "line-item",
+      "title": "Line Item",
+      "hook": "Papers, Please but you're a cloud-bill inspector stamping APPROVE or DENY on invoice line-items, hunting the fabricated charges before your own budget flags you.",
+      "tags": [
+        "finance",
+        "puzzle",
+        "sim",
+        "business"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "in-one-ear",
+      "title": "In One Ear",
+      "hook": "A party game that hard-pans two different word-streams into your left and right ears and dares you to catch the target in both at once.",
+      "tags": [
+        "party-game",
+        "audio",
+        "multiplayer",
+        "quantified-self"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
+      "slug": "double-take",
+      "title": "Double Take",
+      "hook": "A web font that shows humans one sentence and feeds any AI agent scraping your screen a completely different, decoy one.",
+      "tags": [
+        "security",
+        "privacy",
+        "steganography",
+        "computer-vision"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-17"
+    },
+    {
       "slug": "about-face-2",
       "title": "About Face",
       "hook": "Everyone closes their eyes and slowly spins in place while their phone buzzes them toward a secret heading only they can feel — win when all of you are unknowingly aimed into a perfect pinwheel.",
