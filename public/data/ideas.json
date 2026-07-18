@@ -2,6 +2,130 @@
   "lastScan": "2026-07-18",
   "ideas": [
     {
+      "slug": "warren-2",
+      "title": "Warren",
+      "hook": "One phone holds the whole rabbit warren and every rabbit's location; the rabbits themselves grope through blind tunnels, feeling only how close the predator's paw is getting.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "spatial",
+        "asymmetric"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "squall",
+      "title": "Squall",
+      "hook": "One phone is a stormy grid only its holder can see; the pieces know exactly where they stand but nothing about the weather about to flatten them.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "elbow",
+      "title": "Elbow",
+      "hook": "Everyone reaches for the same six cards at once — but silently, on their own phone, each secretly spending from a dwindling stash of elbow to shove past whoever else wanted it.",
+      "tags": [
+        "party",
+        "drafting",
+        "economic",
+        "simultaneous"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "markdown-2",
+      "title": "Markdown",
+      "hook": "A Dutch-auction clock ticks the price down on one lot while every phone privately whispers what it's secretly worth to you — grab too early and you overpay, blink and a rival who values it more snatches it first.",
+      "tags": [
+        "party",
+        "auction",
+        "economic",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "down-peak",
+      "title": "Down Peak",
+      "hook": "Three of you each secretly pilot one elevator through a rush-hour crush, and the one thing you must never do is send two cabs to the same floor — redundant service jams the call and wastes the trip.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "uplink",
+      "title": "Uplink",
+      "hook": "Each of you has a secret word to radio across a narrow shared spectrum — but two transmitters on the same channel garble each other, so the room must silently spread out or drown in static.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "phantom-charge",
+      "title": "Phantom Charge",
+      "hook": "A race-your-friends forensics game where everyone gets the same sprawling AWS bill, one line item is secretly wrong, and the first to finger the phantom charge wins — after the week AWS overbilled the world by $1.7B.",
+      "tags": [
+        "party-game",
+        "forensics",
+        "finance",
+        "multiplayer"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "exploded-view-2",
+      "title": "Exploded View",
+      "hook": "Point it at a codebase module and it renders a Lego-manual — a numbered, exploded-isometric assembly diagram where files and dependencies snap together one illustrated step at a time.",
+      "tags": [
+        "devtool",
+        "generative",
+        "git",
+        "whimsy"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "sun-kink",
+      "title": "Sun Kink",
+      "hook": "A rail-dispatcher puzzle where a real heat wave — pulled from live NWS forecasts — slowly cooks your steel until the track buckles, and your only weapons are slow orders and clever rerouting.",
+      "tags": [
+        "sim",
+        "puzzle",
+        "ambient",
+        "gis"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-18"
+    },
+    {
       "slug": "allot",
       "title": "Allot",
       "hook": "Everyone silently splits ten chips across the same four jars — but the jars sit in a different order on every phone, so the room can only win by agreeing on what deserves what, not where the buttons are.",
