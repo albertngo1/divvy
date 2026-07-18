@@ -2,6 +2,129 @@
   "lastScan": "2026-07-18",
   "ideas": [
     {
+      "slug": "allot",
+      "title": "Allot",
+      "hook": "Everyone silently splits ten chips across the same four jars — but the jars sit in a different order on every phone, so the room can only win by agreeing on what deserves what, not where the buttons are.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "rubberneck",
+      "title": "Rubberneck",
+      "hook": "A chaotic Where's-Waldo scene fills the TV — everyone privately taps the one spot they're sure every other set of eyes gets pulled to, and the room wins only when all fingers land on the same square inch.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "lodestar",
+      "title": "Lodestar",
+      "hook": "A guide steers blind walkers across a grid only they can see toward the exit — but the guide might be leading them into pits, and each walker feels the ground crack under their own feet in secret.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-traitor"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "switchback",
+      "title": "Switchback",
+      "hook": "One guide watches a treacherous cliff trail only they can see and must steer three blind climbers up it with a single pair of hands — deciding, second by second, which one to save.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "sprawl",
+      "title": "Sprawl",
+      "hook": "A QWOP-style ragdoll sprint where each phone drives exactly one leg of a shared runner and only you can feel whether your foot is planted — so the whole thing is a shouting match to take three steps.",
+      "tags": [
+        "party",
+        "physics",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "footsie",
+      "title": "Footsie",
+      "hook": "A two-phone fighting-game staredown where you tiptoe on a shared lane and try to poke the exact instant your rival steps into a range only your phone can see.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "versus",
+        "hidden-info"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "cascade",
+      "title": "Cascade",
+      "hook": "Everyone in the circle holds a phone; it buzzes when it's your beat to 'throw,' you swipe toward a neighbor, and the group tries to keep a real juggling siteswap alive without two throws colliding in the same slot.",
+      "tags": [
+        "party-game",
+        "multiplayer",
+        "audio",
+        "social"
+      ],
+      "score": 62,
+      "source": "arxiv",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "generation-loss",
+      "title": "Generation Loss",
+      "hook": "Pick a photo you love; every day you doomscroll, a daemon recompresses it one more brutal JPEG generation — so by New Year's you're staring at the pixelated ruin your worst habit made.",
+      "tags": [
+        "ambient",
+        "generative",
+        "art",
+        "quantified-self"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "brick-wall",
+      "title": "Brick Wall",
+      "hook": "Drag in any 'lossless' FLAC and it spectrographs the truth — exposing the brick-wall cutoff that betrays a track secretly upsampled from a 128kbps MP3.",
+      "tags": [
+        "forensics",
+        "audio",
+        "cli",
+        "provenance"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-18"
+    },
+    {
       "slug": "double-cast",
       "title": "Double Cast",
       "hook": "Everyone secretly wants a part in the play — grab your dream role in real time, but if two of you lunge for the same one, it's double-cast and ruined for both.",
