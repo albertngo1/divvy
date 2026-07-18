@@ -2,6 +2,130 @@
   "lastScan": "2026-07-18",
   "ideas": [
     {
+      "slug": "sett",
+      "title": "Sett",
+      "hook": "Each player secretly designs one color-stripe of a tartan without seeing the others, and the loom weaves your blind choices into one symmetric plaid you never saw coming — the group's own registered tartan.",
+      "tags": [
+        "party",
+        "cooperative",
+        "keepsake",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "longhand-2-2",
+      "title": "Longhand",
+      "hook": "Everyone finger-writes the same birthday message blind on their own phone, then tries to stay unrecognized as the group's card gets built from your anonymous handwriting.",
+      "tags": [
+        "party",
+        "anonymity",
+        "social-deduction",
+        "drawing"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "carousel",
+      "title": "Carousel",
+      "hook": "Everyone spins their own body in place holding a phone flat, and the on-screen carousel only stays in gear if all of you blindly converge on the same secret spinning speed — too fast and your phone gets dizzy and stalls.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "report-2",
+      "title": "Report",
+      "hook": "One player claps once in the dark; everyone else's phone secretly heard a different loudness, and you must silently line up by true distance from the sound — no numbers allowed, only your feet.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "mouthful",
+      "title": "Mouthful",
+      "hook": "Mouth a secret phrase clearly enough for your earbud-deafened partner to lip-read it — while your own mic voids the round the instant any real sound slips out.",
+      "tags": [
+        "party",
+        "audio",
+        "wordgame"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "goad",
+      "title": "Goad",
+      "hook": "Your phone secretly names one rival you must bait into making a sound, using only silent theatrics — while your own mic waits to catch the instant you crack first.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "freeloader",
+      "title": "Freeloader",
+      "hook": "A local watcher that snapshots exactly what each new gadget's driver or 'companion app' sneaks onto your PC — and pools those diffs into a public catalog so you can check before you plug in.",
+      "tags": [
+        "security",
+        "privacy",
+        "self-hosted",
+        "forensics"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "idle-current",
+      "title": "Idle Current",
+      "hook": "An idle game whose factory is your actual house — every real appliance is a worker that only produces while it's truly drawing power, so hunting phantom loads is how you win.",
+      "tags": [
+        "idle",
+        "quantified-self",
+        "homelab",
+        "self-hosted"
+      ],
+      "score": 69,
+      "source": "github",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "squint-2",
+      "title": "Squint",
+      "hook": "Compression code-golf: shrink today's image to the smallest JPEG a vision model can still recognize — one byte too far and the AI goes blind.",
+      "tags": [
+        "puzzle",
+        "computer-vision",
+        "browser-game",
+        "leaderboard"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-18"
+    },
+    {
       "slug": "snare",
       "title": "Snare",
       "hook": "You describe a secret word to your partner while the enemy team, on their own phones, has quietly buried invisible forbidden words along your path — and they score biggest if they correctly guessed the exact one you'd blurt.",
