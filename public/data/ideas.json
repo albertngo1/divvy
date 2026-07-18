@@ -2,6 +2,132 @@
   "lastScan": "2026-07-18",
   "ideas": [
     {
+      "slug": "snare",
+      "title": "Snare",
+      "hook": "You describe a secret word to your partner while the enemy team, on their own phones, has quietly buried invisible forbidden words along your path — and they score biggest if they correctly guessed the exact one you'd blurt.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "team-based"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "winnow",
+      "title": "Winnow",
+      "hook": "Everyone secretly writes a one-word clue for the same answer — twin clues get shredded before the guesser sees them, so be helpful yet unique... unless you're the hidden Echo, quietly trying to make everyone collide.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "catch",
+      "title": "Catch",
+      "hook": "Everyone sings the same round — Row, Row, Row Your Boat — but each phone privately teleprompts only your line, and the moment two singers drift onto the same lyric a klaxon shames you: the whole point is to never be together.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "rhythm"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "ballast-2-2",
+      "title": "Ballast",
+      "hook": "Four players each hold one corner of a wobbling tray on the TV, nudging by feel to keep a marble centered — but nudge at the same instant as anyone else and your combined shove flings the marble off the edge.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "timing"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "shortlist-2",
+      "title": "Shortlist",
+      "hook": "Nobody drafts in turn order — everyone secretly ranks the whole market at once, and the server resolves who gets what in one satisfying cascade.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "strategy"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "absentee",
+      "title": "Absentee",
+      "hook": "Leave a secret max bid on every lot at once and watch the server fight the auction for you — the drama is whether your ceiling holds.",
+      "tags": [
+        "party",
+        "auction",
+        "economic",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "envelope",
+      "title": "Envelope",
+      "hook": "A budgeting roguelike where each envelope is a health bar and the monster deck is your own real transaction history — survive to New Year's without any envelope hitting zero.",
+      "tags": [
+        "roguelike",
+        "budgeting",
+        "finance",
+        "quantified-self"
+      ],
+      "score": 64,
+      "source": "github",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "desire-path-2",
+      "title": "Desire Path",
+      "hook": "Your whole year of walking accretes into a single unbroken ink line on a blank map, and the routes you repeat wear dark, until the paths you actually love show themselves without a basemap.",
+      "tags": [
+        "quantified-self",
+        "ambient",
+        "map",
+        "generative"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "siteswap-2",
+      "title": "Siteswap",
+      "hook": "Line up your phones like juggling hands and keep a virtual ball airborne across all of them, obeying a real siteswap pattern that speeds up until someone drops it.",
+      "tags": [
+        "party-game",
+        "multiplayer",
+        "audio",
+        "social"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-07-18"
+    },
+    {
       "slug": "splice-2",
       "title": "Splice",
       "hook": "You write only the first half of a sentence, it gets grafted onto a stranger's second half, and a language model scores how ugly the seam is.",
