@@ -2,6 +2,130 @@
   "lastScan": "2026-07-18",
   "ideas": [
     {
+      "slug": "splice-2",
+      "title": "Splice",
+      "hook": "You write only the first half of a sentence, it gets grafted onto a stranger's second half, and a language model scores how ugly the seam is.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "dog-whistle-2",
+      "title": "Dog Whistle",
+      "hook": "You're handed a secret word only you can see, and you must write a lead-in sentence that makes a tiny language model blurt that exact word as its very next guess.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "sigil",
+      "title": "Sigil",
+      "hook": "Each phone secretly sketches one abstract glyph from a private heraldic prompt, and the server fuses all the blind glyphs into a single ornate coat of arms — the room's crest, and a puzzle of whose mark is whose.",
+      "tags": [
+        "party",
+        "drawing",
+        "anonymity",
+        "keepsake"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "spine",
+      "title": "Spine",
+      "hook": "Everyone writes one line of a shared poem, blind — but each phone is secretly forced to start its line with an assigned letter, and together those letters spell a hidden word down the margin.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "tremor",
+      "title": "Tremor",
+      "hook": "Lay your phones at the corners of a table, let one player secretly knock it once, and fuse everyone's private jolt-meter readings by talking to triangulate exactly where the knock landed.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "social"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "backlash",
+      "title": "Backlash",
+      "hook": "Stand shoulder-to-shoulder as a human gear train and wave your phones in circles — adjacent gears must spin in OPPOSITE directions at matched speed, or the whole machine grinds to a halt.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "save-as",
+      "title": "Save As",
+      "hook": "Drop in any JPEG and it fingerprints the exact software chain that saved it — camera, Photoshop, Facebook, a phone screenshot — by reading the quantization tables, giving citizen fact-checkers a forensic lab for free.",
+      "tags": [
+        "forensics",
+        "computer-vision",
+        "provenance",
+        "privacy"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "welcome-mat-2",
+      "title": "Welcome Mat",
+      "hook": "A pre-flight scanner that reads a repo the way your AI coding agent would — README, CLAUDE.md, setup scripts, devcontainer — and flags the booby-trapped instructions before you point Claude Code at a stranger's project.",
+      "tags": [
+        "security",
+        "cli",
+        "agents",
+        "devtool"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "patchwerk",
+      "title": "Patchwerk",
+      "hook": "A Zachtronics-style programming puzzle where the entire game is writing an action-priority-list rotation and watching a deterministic combat sim grind it into a DPS number.",
+      "tags": [
+        "puzzle",
+        "game",
+        "sim",
+        "cli"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-18"
+    },
+    {
       "slug": "warren-2",
       "title": "Warren",
       "hook": "One phone holds the whole rabbit warren and every rabbit's location; the rabbits themselves grope through blind tunnels, feeling only how close the predator's paw is getting.",
