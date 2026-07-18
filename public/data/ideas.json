@@ -2,6 +2,90 @@
   "lastScan": "2026-07-18",
   "ideas": [
     {
+      "slug": "after-the-tone",
+      "title": "After the Tone",
+      "hook": "Each of you privately records one spoken line for a shared outgoing voicemail greeting — nobody hears the others until the host plays back the stitched-together message, an absurd collective 'you've reached…' you can actually download and set as your real greeting.",
+      "tags": [
+        "party",
+        "audio",
+        "anonymity",
+        "keepsake"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "ascender",
+      "title": "Ascender",
+      "hook": "Everyone writes one blind line of a poem knowing only their own secret letter — until the reveal, when the first letters spell a name down the page and the whole thing turns out to be a dedication to someone in the room.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "anonymity"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "dowser-2",
+      "title": "Dowser",
+      "hook": "The map-holder can't see the buried treasure either — only how warm each blind digger is — so they must triangulate the target from two diggers standing in two different places at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "leeway",
+      "title": "Leeway",
+      "hook": "One player pilots blind boats across a minefield by a rotating sonar sweep that only ever shows them where each boat WAS a few seconds ago.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "cheap-seats",
+      "title": "Cheap Seats",
+      "hook": "A short clip plays blurred on the host TV so the room is half-blind, while each phone is a private sharp crop of one corner of the frame — you bet on how the clip resolves using intel only your seat can see.",
+      "tags": [
+        "party",
+        "betting",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "house-line",
+      "title": "House Line",
+      "hook": "One friend privately orders off the menu on the host TV while everyone else bets on their pick — but every bettor sees different secret odds and holds a different secret tip about the diner's taste.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
       "slug": "sett",
       "title": "Sett",
       "hook": "Each player secretly designs one color-stripe of a tartan without seeing the others, and the loom weaves your blind choices into one symmetric plaid you never saw coming — the group's own registered tartan.",
