@@ -2,6 +2,130 @@
   "lastScan": "2026-07-18",
   "ideas": [
     {
+      "slug": "earshot-2-2-2",
+      "title": "Earshot",
+      "hook": "Pass a secret word to the player beside you by whispering it past the laptop in the middle of the table — because that laptop's mic is the bug, and if it hears you, the alarm trips.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "filibuster",
+      "title": "Filibuster",
+      "hook": "The reactor stays online only while someone is talking and nobody talks over anyone — so keep the floor covered, hand it off by name, and pray the next person's secret topic lets them pick it up.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "carillon",
+      "title": "Carillon",
+      "hook": "The whole room secretly composes one little bell melody together — each phone quietly placing a couple of notes into slots only it knows about — and you win not by scoring but by making notes so blendable nobody can tell which chimes were yours.",
+      "tags": [
+        "party",
+        "audio",
+        "anonymity",
+        "keepsake"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "kiln",
+      "title": "Kiln",
+      "hook": "Three friends throw one clay pot together on a spinning wheel, each shaping a single hidden band by feel alone, and only the final reveal-spin shows the gorgeous lumpy vessel they made blind.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "keepsake"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "allen-key",
+      "title": "Allen Key",
+      "hook": "The whole room assembles the same flat-pack nightstand from a private step sheet, but the imposter's instructions have two steps quietly transposed — so they'll swear on their life the back panel goes on before the shelf.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "meridian",
+      "title": "Meridian",
+      "hook": "Everyone navigates the same public island chart, but the imposter's private map has every name silently rotated one island over — so they point with total confidence to all the wrong places.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "zigzag",
+      "title": "Zigzag",
+      "hook": "A daily image-guessing game where the photo is a brutal block of JPEG mush and you spend a stingy budget of DCT coefficients—choosing which squares to sharpen—to name it before your rivals.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "leaderboard",
+        "graphics"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "airlock-2",
+      "title": "Airlock",
+      "hook": "Before you point your coding agent at a stranger's repo, Airlock sniffs the README, setup scripts, and devcontainer for the hidden 'run this and get owned' payloads that target AI agents, not you.",
+      "tags": [
+        "security",
+        "agents",
+        "devtool",
+        "cli"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "emboss",
+      "title": "Emboss",
+      "hook": "Drop in a bar chart and get back an embosser-ready tactile graphic—colors turned to textures, labels turned to Braille—instead of hand-punching it for two hours.",
+      "tags": [
+        "data-viz",
+        "accessibility",
+        "b2b",
+        "computer-vision"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-07-18"
+    },
+    {
       "slug": "after-the-tone",
       "title": "After the Tone",
       "hook": "Each of you privately records one spoken line for a shared outgoing voicemail greeting — nobody hears the others until the host plays back the stitched-together message, an absurd collective 'you've reached…' you can actually download and set as your real greeting.",
