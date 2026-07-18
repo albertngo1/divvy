@@ -1,6 +1,128 @@
 {
-  "lastScan": "2026-07-17",
+  "lastScan": "2026-07-18",
   "ideas": [
+    {
+      "slug": "double-cast",
+      "title": "Double Cast",
+      "hook": "Everyone secretly wants a part in the play — grab your dream role in real time, but if two of you lunge for the same one, it's double-cast and ruined for both.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "runway",
+      "title": "Runway",
+      "hook": "Three airlines share one runway and no radio — take off blind, and any two planes on the tarmac at once is a fireball.",
+      "tags": [
+        "party",
+        "timing",
+        "real-time",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "nibble",
+      "title": "Nibble",
+      "hook": "Every phone is a private fishing rod buzzing in your hand — feel the bite nobody else can feel, flick to set the hook, and race the table to the big fish boiling on the TV before your lines tangle.",
+      "tags": [
+        "party",
+        "sensor",
+        "real-time"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "breach",
+      "title": "Breach",
+      "hook": "Three operators storm one room full of hostiles, but each of you plots your move and shot in total secrecy and everything resolves at once — so you'd better talk before you commit.",
+      "tags": [
+        "party",
+        "cooperative",
+        "tactics"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "corpse-2",
+      "title": "Corpse",
+      "hook": "A last-one-to-make-a-sound endurance duel where every phone privately feeds ITS owner different bait to crack them — and one secret Instigator scores whenever anyone else breaks.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "airtime-2-2",
+      "title": "Airtime",
+      "hook": "A co-op lock puzzle where talking drains a shared 12-second noise budget on the TV — each of you privately holds half the clues, so you must whisper the fewest words that could possibly unlock it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "period-piece",
+      "title": "Period Piece",
+      "hook": "An LLM narrates a short historical scene and slips in exactly one thing that didn't exist yet — players race to tap the anachronism, scored on reflexes and settled by a real date citation.",
+      "tags": [
+        "party-game",
+        "timeline",
+        "llm",
+        "competitive"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "turtle",
+      "title": "Turtle",
+      "hook": "Pictionary for people who think in code: you write drawing commands totally blind — no preview — to depict a secret prompt, and everyone (plus an LLM) tries to guess what you drew.",
+      "tags": [
+        "party-game",
+        "multiplayer",
+        "graphics",
+        "llm"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-18"
+    },
+    {
+      "slug": "clawback-2",
+      "title": "Clawback",
+      "hook": "A B2B auditor that reconciles your AWS bill against your own metered usage to catch the cloud vendor overcharging you — then drafts the credit claim.",
+      "tags": [
+        "saas",
+        "finance",
+        "observability",
+        "b2b"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-18"
+    },
     {
       "slug": "portage-2",
       "title": "Portage",
