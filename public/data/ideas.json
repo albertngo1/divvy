@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-07-18",
+  "lastScan": "2026-07-19",
   "ideas": [
+    {
+      "slug": "silhouette",
+      "title": "Silhouette",
+      "hook": "Everyone gets the same five puzzle pieces and a blank grid, and silently builds a shape from scratch — hoping they all independently reach for the exact same outline.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "tip-jar",
+      "title": "Tip Jar",
+      "hook": "Everyone privately drops the same ten coins across four buskers' jars, trying to tip identically with nothing to go on but the group's rising totals.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "regift-2",
+      "title": "Regift",
+      "hook": "You're handed a wrapped gift and told what's inside — but you only glimpsed the real contents for two seconds, so when you pass it on you must decide whether to tell the truth or lie about a present you can barely remember.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "memory",
+        "bluffing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "snag",
+      "title": "Snag",
+      "hook": "You describe a secret word to your team while the enemy team has privately buried invisible trap words in the exact phrases you're about to say — one wrong syllable and their phones spring the mine.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "social-deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "lineup",
+      "title": "Lineup",
+      "hook": "A snake draft with no turns and no waiting — everyone secretly ranks the whole pool at once, and the host board fills itself in one dramatic cascade.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "winner-s-curse",
+      "title": "Winner's Curse",
+      "hook": "A sealed-bid auction for one mystery lot where every phone secretly sees a different clue about its true worth — win, and you probably paid too much.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "prognosis",
+      "title": "Prognosis",
+      "hook": "Every day you're handed a real, anonymized decline graph from the dev world with its ending hidden — drag to draw where it goes, then watch the reveal tell you it was Stack Overflow after ChatGPT.",
+      "tags": [
+        "data-viz",
+        "competitive",
+        "timeline",
+        "leaderboard"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "quiet-exit",
+      "title": "Quiet Exit",
+      "hook": "R.E.P.O.'s 'haul the fragile loot out without waking the monster' becomes a roguelike where the monster is the taxman and every loud sale realizes gains that shatter your run.",
+      "tags": [
+        "finance",
+        "roguelike",
+        "game",
+        "budgeting"
+      ],
+      "score": 68,
+      "source": "steam",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "mondegreen-2-2",
+      "title": "Mondegreen",
+      "hook": "Say something dumb into your phone so a 500kb speech model mishears it as the exact target sentence — closest garble that means something totally different wins the round.",
+      "tags": [
+        "party-game",
+        "wordgame",
+        "audio",
+        "multiplayer"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-19"
+    },
     {
       "slug": "earshot-2-2-2",
       "title": "Earshot",
