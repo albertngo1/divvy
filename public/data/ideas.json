@@ -2,6 +2,130 @@
   "lastScan": "2026-07-19",
   "ideas": [
     {
+      "slug": "in-running",
+      "title": "In Running",
+      "hook": "A muted 20-second marble race becomes a private betting floor where each of you holds a different secret tip and can quietly reposition your money mid-race.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "eighty-six",
+      "title": "Eighty-Six",
+      "hook": "Trade your dinner like a stock: the menu is a live market, and only you know what you're actually going to order.",
+      "tags": [
+        "party",
+        "market",
+        "hidden-information",
+        "betting"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "comeback-2",
+      "title": "Comeback",
+      "hook": "A pass-the-pack draft where the real game is secretly betting which card will survive a full loop of the table and wheel back into your hands.",
+      "tags": [
+        "party",
+        "drafting",
+        "prediction"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "taper",
+      "title": "Taper",
+      "hook": "An open, ascending relic auction that can gutter out at any hidden second — bid past your own secret valuation and you inherit the winner's curse.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "wrong-hand",
+      "title": "Wrong Hand",
+      "hook": "Everyone studies the same crowded scene and testifies about where things are — but one player's copy is secretly mirror-flipped, so every 'left' and 'right' they swear to is quietly, systematically backwards, and they have no idea.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "freeze-frame",
+      "title": "Freeze Frame",
+      "hook": "On the host's countdown everyone strikes a pose their phone privately dictates — and one player's pose-card is secretly wrong on a single beat they can't predict, breaking the tableau for one damning instant.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "physical"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "time-slice",
+      "title": "Time Slice",
+      "hook": "A menubar aquarium where every real process on your Mac is a fish — CPU bursts are feeding frenzies, a niced background job sulks in the corner, and a runaway process bloats until it's eating everyone else's food.",
+      "tags": [
+        "ambient",
+        "desktop-toy",
+        "observability",
+        "whimsy"
+      ],
+      "score": 63,
+      "source": "lobsters",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "staged",
+      "title": "Staged",
+      "hook": "A browser extension that scans apartment-listing photos for the fingerprints of AI generation and virtual staging, so 'cozy sunlit kitchen' can't hide that the sink was hallucinated.",
+      "tags": [
+        "security",
+        "forensics",
+        "computer-vision",
+        "provenance"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "revenant",
+      "title": "Revenant",
+      "hook": "A tower-defense played on your own repo, where every mutant your test suite fails to kill claws its way to main and wounds you on the leaderboard.",
+      "tags": [
+        "game",
+        "roguelike",
+        "devtool",
+        "ci"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-19"
+    },
+    {
       "slug": "freefall",
       "title": "Freefall",
       "hook": "Three price clocks tick downward on the TV at once — snipe BUY before a rival does, using only the secret appraisals your phone shows you and nobody else.",
