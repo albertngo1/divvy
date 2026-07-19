@@ -2,6 +2,130 @@
   "lastScan": "2026-07-19",
   "ideas": [
     {
+      "slug": "freefall",
+      "title": "Freefall",
+      "hook": "Three price clocks tick downward on the TV at once — snipe BUY before a rival does, using only the secret appraisals your phone shows you and nobody else.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "blackball-2-2",
+      "title": "Blackball",
+      "hook": "Everyone secretly drops adverse votes to eliminate candidates one by one — while privately protecting the one horse they were assigned to keep alive.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "drafting",
+        "hidden-information"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "overdub-2-2-2",
+      "title": "Overdub",
+      "hook": "You're voice actors dubbing one silent film, each holding a private cue sheet — but the moment two of you are 'on air' at once, the take muddies and both lines are rejected.",
+      "tags": [
+        "party",
+        "timing",
+        "real-time",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "limelight",
+      "title": "Limelight",
+      "hook": "You each work a follow-spot on a dark stage tracking your own secret dancer — but if any two beams overlap, the glare blinds the house and the audience boos.",
+      "tags": [
+        "party",
+        "spatial",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "ante",
+      "title": "Ante",
+      "hook": "Every second you stay silent your private pot grows — cash out too early and you win nothing, hold too long and your own phone catches you cracking.",
+      "tags": [
+        "party",
+        "audio",
+        "bluffing",
+        "elimination"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "pin-drop-2",
+      "title": "Pin Drop",
+      "hook": "Your private clue is buried in static that only clears when the whole room falls silent enough to hear a pin drop.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "puzzle"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "composite-2-2",
+      "title": "Composite",
+      "hook": "The artful inverse of an ad-blocker: instead of blocking trackers it feeds them, then reconstructs the police-sketch 'composite' of you that ad-tech has quietly assembled.",
+      "tags": [
+        "privacy",
+        "security",
+        "ambient",
+        "generative"
+      ],
+      "score": 55,
+      "source": "github",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "cuckoo",
+      "title": "Cuckoo",
+      "hook": "The mischievous opposite of ESLint: it injects subtle, style-matched bugs into real PRs so you can measure whether your reviewers — human OR AI — actually catch anything.",
+      "tags": [
+        "devtool",
+        "security",
+        "ci",
+        "agents"
+      ],
+      "score": 55,
+      "source": "lobsters",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "karat",
+      "title": "Karat",
+      "hook": "A Zachtronics-style puzzle where you rewire long multiplication by hand and race to beat the schoolbook algorithm's operation count — Karatsuba is a level, not a lecture.",
+      "tags": [
+        "puzzle",
+        "procedural",
+        "browser-game"
+      ],
+      "score": 55,
+      "source": "hn",
+      "created": "2026-07-19"
+    },
+    {
       "slug": "assay-2",
       "title": "Assay",
       "hook": "Everyone bids on the same mystery lot, but your phone shows only one hidden clue about what it's really worth—and the estimate you announce to the room is allowed to be a lie.",
