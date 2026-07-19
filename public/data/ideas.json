@@ -2,6 +2,89 @@
   "lastScan": "2026-07-19",
   "ideas": [
     {
+      "slug": "skew-2",
+      "title": "Skew",
+      "hook": "Everyone watches the same silent clip and taps each crash — but one player's feed runs half a second ahead, so they keep reacting before it happens.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "overheard",
+      "title": "Overheard",
+      "hook": "You all heard the same voicemail through your own phone — except one of you heard it wrong, and doesn't know it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "footfall",
+      "title": "Footfall",
+      "hook": "Creep across the pitch-dark room while your phone privately counts your real steps toward the far wall — but the blindfolded Guard's phone is listening on the mic, and any footfall too loud freezes the whole room.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "stealth"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "bead",
+      "title": "Bead",
+      "hook": "Each phone is a private gunsight assigned one secret person in the room — hold your compass aimed at your mark while your own unseen hunter tries to draw a bead on you.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "sensor",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "splice-2-2",
+      "title": "Splice",
+      "hook": "Paired up but unable to see each other, you each write one half of a sentence — and you're scored only on how smoothly the model swallows the seam where your halves collide.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "lure",
+      "title": "Lure",
+      "hook": "You're each handed a different secret word and must write an opening line so tempting the little language model blurts your word out next — all on its own.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
       "slug": "sapper",
       "title": "Sapper",
       "hook": "Overwatch has the map but can't see the mines; you're the one crawling the field who can feel \"two adjacent\" but has no idea where you are — so cross the minefield by trading the halves of the truth out loud.",
