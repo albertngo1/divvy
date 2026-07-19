@@ -2,6 +2,130 @@
   "lastScan": "2026-07-19",
   "ideas": [
     {
+      "slug": "sapper",
+      "title": "Sapper",
+      "hook": "Overwatch has the map but can't see the mines; you're the one crawling the field who can feel \"two adjacent\" but has no idea where you are — so cross the minefield by trading the halves of the truth out loud.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "deduction"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "ident",
+      "title": "Ident",
+      "hook": "You're the air-traffic controller staring at a radar full of unlabeled blips, and the only way to tell which frantic pilot is which is to key your mic and bark \"whoever's heading east — ident.\"",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "salvo",
+      "title": "Salvo",
+      "hook": "A reverse bullet-hell where you draw a wall of gunfire aimed at the player on your left, while simultaneously dodging the barrage the player on your right drew for you — each on your own private screen.",
+      "tags": [
+        "party",
+        "bullet-hell",
+        "sensor",
+        "simultaneous"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "overrun",
+      "title": "Overrun",
+      "hook": "You're all on the attacking side of a tower-defense map, secretly stacking a wave of monsters to punch through the one lane nobody else is guarding.",
+      "tags": [
+        "party",
+        "tower-defense",
+        "hidden-information",
+        "simultaneous"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "tailgate",
+      "title": "Tailgate",
+      "hook": "Write one sentence blind, then discover it gets secretly stapled behind a stranger's — and you only score if yours flows naturally after whatever they wrote.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "cliffhanger-2-2",
+      "title": "Cliffhanger",
+      "hook": "Write the grammatical sentence-stem that leaves the little language model most paralyzed about what word could possibly come next.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "brownout-2-2",
+      "title": "Brownout",
+      "hook": "A reverse proxy that serves your website's images progressively worse as your monthly bandwidth quota drains, so the whole site visibly 'browns out' toward billing day and heals on the 1st.",
+      "tags": [
+        "self-hosted",
+        "ambient",
+        "art",
+        "homelab"
+      ],
+      "score": 63,
+      "source": "github",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "cover-track",
+      "title": "Cover Track",
+      "hook": "A drum machine that plays a generative groove locked to your typing cadence, drowning out acoustic keystroke-inference attacks on your mic.",
+      "tags": [
+        "privacy",
+        "security",
+        "audio",
+        "menubar"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "preempt",
+      "title": "Preempt",
+      "hook": "A reflex juggling game where the balls are processes with deadlines and your one hand is the CPU — drop a ball and it starves.",
+      "tags": [
+        "party-game",
+        "sim",
+        "browser-game",
+        "observability"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-19"
+    },
+    {
       "slug": "kickline-2",
       "title": "Kickline",
       "hook": "The whole room performs the same clap-stomp-spin routine in unison to a metronome — but one dancer's private choreography is one beat off, and nobody can see the 'real' routine to know who's fumbling.",
