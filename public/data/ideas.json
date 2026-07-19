@@ -2,6 +2,131 @@
   "lastScan": "2026-07-19",
   "ideas": [
     {
+      "slug": "kickline-2",
+      "title": "Kickline",
+      "hook": "The whole room performs the same clap-stomp-spin routine in unison to a metronome — but one dancer's private choreography is one beat off, and nobody can see the 'real' routine to know who's fumbling.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "physical",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "fire-drill",
+      "title": "Fire Drill",
+      "hook": "Everyone studies the same office floor plan for the fastest exit — but one worker's blueprint is quietly wrong, and they have no idea theirs is the odd map.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "tuning-fork-2-2",
+      "title": "Tuning Fork",
+      "hook": "One player's phone tells them to hum the root; everyone else's phone privately assigns them an interval above it, and the room has to build a chord by ear before the meter turns green.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "backseat-2",
+      "title": "Backseat",
+      "hook": "One player sees the maze only on their own phone and can only shout directions, while two others each control a single axis of the marble — nobody can steer alone.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "kink",
+      "title": "Kink",
+      "hook": "Everyone stares at the same boringly smooth sentence and secretly swaps exactly one word — the player whose single legal edit detonates the biggest perplexity spike wins.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "plant",
+      "title": "Plant",
+      "hook": "A shared sentence has one blank per phone, everyone fills it blind — but one secret Plant is trying to spike the perplexity while the rest fight to keep it smooth, and the model's surprise is the only lie detector.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "callout",
+      "title": "Callout",
+      "hook": "A field tech in a signal-dead crawlspace just talks — \"replaced the 45/5 MFD run cap, Carrier 24ACC6\" — and a fully offline phone turns it into a billable work order before they climb back out.",
+      "tags": [
+        "b2b",
+        "automation",
+        "saas",
+        "llm"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "runner-runner",
+      "title": "Runner-Runner",
+      "hook": "Balatro for your body — last night's sleep, HRV, and resting heart rate get dealt as playing cards, and you build poker hands from your rolling week to beat the blinds.",
+      "tags": [
+        "deckbuilder",
+        "quantified-self",
+        "roguelike",
+        "health"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "chock",
+      "title": "Chock",
+      "hook": "A geofence in your pocket that quietly clocks every dead minute you idle at a shipper's dock, then spits out a GPS-timestamped detention invoice no broker's AP clerk can wave away.",
+      "tags": [
+        "logistics",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 66,
+      "source": "producthunt",
+      "created": "2026-07-19"
+    },
+    {
       "slug": "in-running",
       "title": "In Running",
       "hook": "A muted 20-second marble race becomes a private betting floor where each of you holds a different secret tip and can quietly reposition your money mid-race.",
