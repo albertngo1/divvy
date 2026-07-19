@@ -2,6 +2,132 @@
   "lastScan": "2026-07-19",
   "ideas": [
     {
+      "slug": "assay-2",
+      "title": "Assay",
+      "hook": "Everyone bids on the same mystery lot, but your phone shows only one hidden clue about what it's really worth—and the estimate you announce to the room is allowed to be a lie.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "reach",
+      "title": "Reach",
+      "hook": "Snake-draft a shared row of tiles in full view of the table—but only your phone knows which of them you actually need, and the smartest picks are the ones that hide your plan.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "standoff-2",
+      "title": "Standoff",
+      "hook": "Everyone secretly points a gun at someone and secretly decides whether it's loaded — then the TV snaps up every arrow at once, the targeted scramble to fold, and whoever's still standing over a real Bang splits the loot.",
+      "tags": [
+        "party",
+        "bluffing",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "underhand-2",
+      "title": "Underhand",
+      "hook": "A pocket game of Skull: build a face-down stack of roses only you can see, then bluff your way through a bid ladder promising to flip clean — while praying nobody makes you reveal where you buried your one skull.",
+      "tags": [
+        "party",
+        "bluffing",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "quaff",
+      "title": "Quaff",
+      "hook": "A five-minute competitive roguelike where the dungeon's potion colors are scrambled the same way for everyone but nobody knows the key — so you privately test them on monsters, then lie to the room about what the red one really does.",
+      "tags": [
+        "party",
+        "roguelike",
+        "social-deduction",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "muster",
+      "title": "Muster",
+      "hook": "A phones-as-benches autobattler where every shop unit is a single copy that vanishes the instant someone taps it first, you assemble your squad in total secrecy, and the TV auto-brawls all your hidden armies against each other at once.",
+      "tags": [
+        "party",
+        "autobattler",
+        "drafting",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "first-party",
+      "title": "First Party",
+      "hook": "An idle surveillance-capitalism tycoon where the coins are real: every tracker your household's Pi-hole blocks tonight becomes currency for the evil data-broker empire you build out of your own leaked data.",
+      "tags": [
+        "idle",
+        "privacy",
+        "self-hosted",
+        "homelab"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "lease",
+      "title": "Lease",
+      "hook": "A daemon that treats your home LAN as an apartment building — every device is a tenant that moves in, pays rent in uptime, or vanishes — accreting a year-long illustrated tenancy ledger with deadpan move-in bios.",
+      "tags": [
+        "homelab",
+        "ambient",
+        "self-hosted",
+        "data-viz"
+      ],
+      "score": 65,
+      "source": "github",
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "carry-2",
+      "title": "Carry",
+      "hook": "A Zachtronics-style puzzle where you wire partial products into ever-fewer multiplier gates and personally rediscover Karatsuba, Gauss's complex trick, and Strassen — one 'aha' at a time.",
+      "tags": [
+        "puzzle",
+        "physics",
+        "cli",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-19"
+    },
+    {
       "slug": "silhouette",
       "title": "Silhouette",
       "hook": "Everyone gets the same five puzzle pieces and a blank grid, and silently builds a shape from scratch — hoping they all independently reach for the exact same outline.",
