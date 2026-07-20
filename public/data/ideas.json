@@ -2,6 +2,130 @@
   "lastScan": "2026-07-20",
   "ideas": [
     {
+      "slug": "switchback-2",
+      "title": "Switchback",
+      "hook": "Everyone steers a language model one tapped word at a time down their own private branch, racing to bend the context until an absurd target word becomes reachable.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "dark-horse",
+      "title": "Dark Horse",
+      "hook": "Fill the blank with the word the model thinks is a long shot but your friends all secretly thought of too — score is surprisal times how many of you collided.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "facet-2",
+      "title": "Facet",
+      "hook": "One object sits in the middle of the table and everyone must 'scan' all its sides — but each phone only sees the faces its seat happens to face, so you shout and spin it until nobody's blind spot is left.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "camera"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "telegraph-2",
+      "title": "Telegraph",
+      "hook": "Someone knuckle-raps a secret rhythm on the shared table, and every phone lying on it feels a different faintness — triangulate the traitor by the tremor.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "sensor",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "reserve-2",
+      "title": "Reserve",
+      "hook": "The TV reveals a parade of appraisals — antiques, rents, price tags — one at a time; before each, everyone privately locks a number and a secret stake, closest-without-going-over takes the hidden pot.",
+      "tags": [
+        "party",
+        "betting",
+        "trivia"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "sway-2",
+      "title": "Sway",
+      "hook": "As a head-to-head clip plays, everyone privately drags a conviction slider toward who'll win — and you're scored on how early and hard you backed the winner, not just the final call.",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "video"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "yak-shave",
+      "title": "Yak Shave",
+      "hook": "Log every automation you build with the time you swear it'll save, and it quietly tracks the hours you actually sink in — then ranks your friends by whose optimization went most gloriously net-negative.",
+      "tags": [
+        "productivity",
+        "quantified-self",
+        "cli",
+        "leaderboard"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "fire-sale-2",
+      "title": "Fire Sale",
+      "hook": "Lethal Company's escalating profit-quota loop, but the dark facility you scavenge is your own cluttered apartment and the scrap is appraised against real eBay sold prices.",
+      "tags": [
+        "game",
+        "chores",
+        "multiplayer",
+        "sim"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "white-label",
+      "title": "White Label",
+      "hook": "OCR the FCC ID off any gadget and it unmasks the real factory behind the brand — proving your 'premium' device and a $20 Amazon dupe rolled off the same line.",
+      "tags": [
+        "forensics",
+        "side-hustle",
+        "automation",
+        "privacy"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-20"
+    },
+    {
       "slug": "in-triplicate",
       "title": "In Triplicate",
       "hook": "One bureaucratic form, a 90-second deadline, and a cruel split: the fields YOU can fill are ones only your teammates know the answers to — so the whole room must shout account numbers and plate letters across the table before the clerk's window slams shut.",
