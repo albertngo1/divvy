@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-07-19",
+  "lastScan": "2026-07-20",
   "ideas": [
+    {
+      "slug": "cascade-2",
+      "title": "Cascade",
+      "hook": "A single clap ripples through the room in a secret order only the phones know — each player must clap the instant their phone hears the person before them.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 65,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "decant-2",
+      "title": "Decant",
+      "hook": "Tilt your phone toward whoever you're facing to pour invisible water into their glass, until everyone's level lands on its own secret line.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "range",
+      "title": "Range",
+      "hook": "A fighting-game footsies duel reduced to its soul: two phones secretly commit a move each round, and the TV resolves reach versus distance so a whiffed sweep gets punished by a well-spaced poke.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "formation",
+      "title": "Formation",
+      "hook": "Secretly draft and position a tiny warband from a contested shop on your phone, then watch the whole room's hidden squads collide in one autobattle on the TV.",
+      "tags": [
+        "party",
+        "auto-battler",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "pander",
+      "title": "Pander",
+      "hook": "One player asks a wildly subjective question and secretly commits a favorite answer; everyone else writes to win them over AND privately bets chips on whose answer will melt their heart — a Say Anything where every screen is a sealed envelope.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "declare",
+      "title": "Declare",
+      "hook": "Load your smuggler's bag in secret, declare something innocent out loud, and pray the Sheriff waves you through — a phone-native Sheriff of Nottingham where the lie only works because nobody can see your bag.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "bluffing",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "deadbeat",
+      "title": "Deadbeat",
+      "hook": "A browser drum machine where every voice is a real racing thread — you tune the contention and data races until the bug becomes the groove.",
+      "tags": [
+        "audio",
+        "music",
+        "generative",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "tilth",
+      "title": "Tilth",
+      "hook": "A daily puzzle that hands you a real parcel's soil profile — pH, horizons, drainage — and asks which of four crops would actually thrive there.",
+      "tags": [
+        "gis",
+        "puzzle",
+        "sim",
+        "nature"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "yes-man",
+      "title": "Yes-Man",
+      "hook": "A trivia game where an AI advisor is always supremely confident, often dead wrong, and you only win by learning exactly when to fire it.",
+      "tags": [
+        "llm",
+        "party-game",
+        "prompt",
+        "quantified-self"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-20"
+    },
     {
       "slug": "skew-2",
       "title": "Skew",
