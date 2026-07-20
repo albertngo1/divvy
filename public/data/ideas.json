@@ -2,6 +2,132 @@
   "lastScan": "2026-07-20",
   "ideas": [
     {
+      "slug": "fall-in",
+      "title": "Fall In",
+      "hook": "Each recruit's phone holds a secret badge and one rule about where they must stand relative to badges they can't see — so the only way to sort the platoon into a line is to shout your clue and interrogate everyone else's.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "pressure-drop",
+      "title": "Pressure Drop",
+      "hook": "You're a fire crew passing water down a hose line, and only the person holding the water can see the pressure — shout the number wrong and the coupling springs a leak.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "curator",
+      "title": "Curator",
+      "hook": "You each hold a secret theme and vote pieces onto a shared gallery wall — win by getting your taste hung without anyone guessing whose taste it was.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "anonymity",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "chevron",
+      "title": "Chevron",
+      "hook": "Three phones each blind-steer one thread of a friendship bracelet as it weaves down a shared loom, and the finished braid is yours to keep.",
+      "tags": [
+        "party",
+        "cooperative",
+        "generative-art",
+        "keepsake"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "show-of-hands",
+      "title": "Show of Hands",
+      "hook": "Sit in a circle, everyone secretly answers a question by physically pointing their phone at a person — and since one player was slyly asked a DIFFERENT question, the reveal of who-pointed-where exposes the odd one out.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "compass"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "report-2-2",
+      "title": "Report",
+      "hook": "Everyone's phone becomes a fixed microphone in a hidden listening array, and the room localizes a single clap in space — so a Caller has to walk a secret map-cell into the real room and clap it into existence.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "short-order-2",
+      "title": "Short Order",
+      "hook": "A phones-around-the-table party game where your only vocabulary is Google's 100,000 fused Emoji Kitchen mashups, and you have 30 seconds to plate a secret word before the timer burns your dish.",
+      "tags": [
+        "party-game",
+        "multiplayer",
+        "social",
+        "wordgame"
+      ],
+      "score": 62,
+      "source": "github",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "dead-letter",
+      "title": "Dead Letter",
+      "hook": "A permadeath dungeon crawler procedurally generated from your actual Gmail, where every noisy sender is a monster — and landing the killing blow fires a real unsubscribe.",
+      "tags": [
+        "roguelike",
+        "game",
+        "productivity",
+        "automation"
+      ],
+      "score": 69,
+      "source": "wild",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "retrograde",
+      "title": "Retrograde",
+      "hook": "A compliance-guardrail API that catches your astrology app's LLM promising to cure a client's anxiety or fix their finances — and quietly rewrites it into safe-harbor cosmic vibes.",
+      "tags": [
+        "saas",
+        "llm",
+        "b2b",
+        "automation"
+      ],
+      "score": 73,
+      "source": "arxiv",
+      "created": "2026-07-20"
+    },
+    {
       "slug": "regift-2-2",
       "title": "Regift",
       "hook": "You're handed a wrapped gift, told what's inside — maybe a lie — and must decide whether to believe it before re-wrapping it and passing your own bluff along.",
