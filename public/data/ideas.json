@@ -2,6 +2,130 @@
   "lastScan": "2026-07-20",
   "ideas": [
     {
+      "slug": "regift-2-2",
+      "title": "Regift",
+      "hook": "You're handed a wrapped gift, told what's inside — maybe a lie — and must decide whether to believe it before re-wrapping it and passing your own bluff along.",
+      "tags": [
+        "party",
+        "bluffing",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "homing",
+      "title": "Homing",
+      "hook": "The whole room secretly types the one word that lives between two others, reveals at once, and keeps converging until every phone says the same thing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "traverse",
+      "title": "Traverse",
+      "hook": "You're a survey crew: each player sights the TV then turns to sight a teammate, and the room's real geometry only 'closes the loop' when everyone physically shuffles into a valid triangle.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "hook": "Everyone gets a secret target and 60 seconds to fist-bump their phone against that person's — two accelerometers spiking at the same instant is the only proof the tag landed.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "physical"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "salient",
+      "title": "Salient",
+      "hook": "Everyone secretly splits twenty soldiers across five battle-fronts on their own phone, then all reveal at once — win the most fronts, not the most troops, and no one saw where you stacked.",
+      "tags": [
+        "party",
+        "auction",
+        "strategy",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "knockdown",
+      "title": "Knockdown",
+      "hook": "A single price clock plummets on the TV while every phone privately hides your budget and your secret worth for the lot — grab too early and you overpay, blink and it's gone.",
+      "tags": [
+        "party",
+        "auction",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "rank-one",
+      "title": "Rank One",
+      "hook": "A daily puzzle that makes you AlphaTensor: decompose a little matrix-multiply into as few multiplications as you can, discovering Strassen-style tricks by hand over GF(2).",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "physics",
+        "cli"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "root-set",
+      "title": "Root Set",
+      "hook": "A local-multiplayer party game where you ARE a heap object—secretly point your reference at someone, and when the garbage collector sweeps, anyone with no path back to the root gets deleted (yes, your cozy little clique counts as an unreachable cycle).",
+      "tags": [
+        "party-game",
+        "social-deduction",
+        "multiplayer",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "thread-count",
+      "title": "Thread Count",
+      "hook": "Your water-cooled bed and your sleep tracker co-author a woven 'thermal quilt'—one band per night, a full year of your body's nightly heat war rendered as a keepsake textile.",
+      "tags": [
+        "ambient",
+        "quantified-self",
+        "generative",
+        "homelab"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-20"
+    },
+    {
       "slug": "downstream-2",
       "title": "Downstream",
       "hook": "A tower-defense where each phone secretly owns one lane and the TV shows nothing but the shared base HP — every creep you fail to kill doesn't die, it floods into your neighbor's lane, so the whole game is shouting 'big wave headed your way!' at someone who can't see it coming.",
