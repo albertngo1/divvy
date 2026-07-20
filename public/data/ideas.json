@@ -2,6 +2,131 @@
   "lastScan": "2026-07-20",
   "ideas": [
     {
+      "slug": "in-triplicate",
+      "title": "In Triplicate",
+      "hook": "One bureaucratic form, a 90-second deadline, and a cruel split: the fields YOU can fill are ones only your teammates know the answers to — so the whole room must shout account numbers and plate letters across the table before the clerk's window slams shut.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "read-back-2",
+      "title": "Read Back",
+      "hook": "You're pilots crammed onto one radio frequency, and every clearance the tower barks must be read back word-perfect — by the exactly one of you it was meant for, who alone knows whether their aircraft can even comply.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "deadfall-2-2-2",
+      "title": "Deadfall",
+      "hook": "One team feeds clues to guess a word while the other team has secretly buried a minefield of forbidden words in the clue-giver's path — and the trappers plant their mines blind to each other.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "crosshair-2",
+      "title": "Crosshair",
+      "hook": "Everyone secretly holds one coordinate on a shared grid of words and writes a single clue linking its two words — then the whole room argues over where each anonymous clue lands.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "misstep",
+      "title": "Misstep",
+      "hook": "The whole room performs the same five-move dance in unison on the host's countdown — but one player's private routine swaps one move, and everyone's watching for who's off the beat.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "simultaneous",
+        "physical"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "wrong-turn",
+      "title": "Wrong Turn",
+      "hook": "Everyone holds the same city map and talks a courier home turn by turn — but one player's map has a single wall where there should be a door, and they don't know it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "map"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "toom",
+      "title": "Toom",
+      "hook": "A daily puzzle where you hand-design a multiplication algorithm — split the numbers, pick your magic evaluation points, recombine — and compete on the global leaderboard for the fewest pointwise multiplications, chasing the frontier where mathematicians genuinely still don't know the answer.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "leaderboard",
+        "competitive"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "markup",
+      "title": "Markup",
+      "hook": "A daily calibration duel where you're shown two blinded product spec sheets — one premium original, one cheap dupe — and bet how sure you are which is the real thing, scored not on being right but on being honestly confident.",
+      "tags": [
+        "game",
+        "leaderboard",
+        "competitive",
+        "prediction-market"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "toast",
+      "title": "Toast",
+      "hook": "A menubar daemon quietly logs every notification your Mac shows you and weaves a year of interruptions into a single woven poster of your stolen attention.",
+      "tags": [
+        "ambient",
+        "quantified-self",
+        "menubar",
+        "data-viz"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-20"
+    },
+    {
       "slug": "nothing-to-declare",
       "title": "Nothing to Declare",
       "hook": "Every phone is a smuggler's bag whose real contents only you can see; you announce a lie to the customs officer on the TV, and they get to crack exactly one bag open — but opening an honest bag costs THEM.",
