@@ -2,6 +2,131 @@
   "lastScan": "2026-07-20",
   "ideas": [
     {
+      "slug": "test-audience-2",
+      "title": "Test Audience",
+      "hook": "The TV screens a reel of gut-punch clips and you privately bet on how the ROOM will split — knowing you're one of the votes you're trying to read.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "deuce",
+      "title": "Deuce",
+      "hook": "A menu appears on the TV and you secretly bet chips on which dish the table will actually crave — then cast the one order that could pump your own long shot.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "typo",
+      "title": "Typo",
+      "hook": "The whole table hunts words in the same letter grid, except one player's grid has a single tile quietly swapped — so their best word doesn't exist for anyone else.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "tint",
+      "title": "Tint",
+      "hook": "Everyone reads the hidden number on an Ishihara color plate — but the imposter's phone is rendering a palette that spells out something else entirely.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "perception",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "riser",
+      "title": "Riser",
+      "hook": "Four players silently sort themselves into a human staircase by physically raising their phones to hidden heights — the barometer is the only judge, and nobody may say a number.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "vein",
+      "title": "Vein",
+      "hook": "Wave your phone across the room like a metal detector — its magnetometer screams as you close in on the one hidden ferrous object only your private clue points you toward.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "competitive"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "wet-signature",
+      "title": "Wet Signature",
+      "hook": "A bureaucratic form where every field is soft-body jelly, the deadline counts down, and the Submit button physically dodges your cursor — filling out paperwork as a boss fight.",
+      "tags": [
+        "browser-game",
+        "party",
+        "whimsy",
+        "generative"
+      ],
+      "score": 62,
+      "source": "producthunt",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "ground-stop",
+      "title": "Ground Stop",
+      "hook": "Your homelab cron table rendered as an air-traffic-control tower — every backup, scrape, and rebuild is a flight competing for one runway, and you sequence them so nothing crashes at 3am.",
+      "tags": [
+        "homelab",
+        "cli",
+        "sim",
+        "self-hosted"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "sprawl-2",
+      "title": "Sprawl",
+      "hook": "A dollar-flamegraph for coding-agent swarms: watch spend cascade down the tree of agents-spawning-agents and finally answer 'which PR set $400 on fire.'",
+      "tags": [
+        "saas",
+        "observability",
+        "agents",
+        "finance"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-20"
+    },
+    {
       "slug": "fall-in",
       "title": "Fall In",
       "hook": "Each recruit's phone holds a secret badge and one rule about where they must stand relative to badges they can't see — so the only way to sort the platoon into a line is to shout your clue and interrogate everyone else's.",
