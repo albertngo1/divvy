@@ -2,6 +2,128 @@
   "lastScan": "2026-07-20",
   "ideas": [
     {
+      "slug": "nothing-to-declare",
+      "title": "Nothing to Declare",
+      "hook": "Every phone is a smuggler's bag whose real contents only you can see; you announce a lie to the customs officer on the TV, and they get to crack exactly one bag open — but opening an honest bag costs THEM.",
+      "tags": [
+        "party",
+        "bluffing",
+        "hidden-information"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "only-one",
+      "title": "Only One",
+      "hook": "Everyone secretly writes one clue for the same word — but this time even clues that merely MEAN the same thing cancel each other out, so being obvious is the fastest way to help no one.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "cloze",
+      "title": "Cloze",
+      "hook": "One shared sentence full of blanks, one blank secretly yours — guess the word a language model would expect there, blind to what your neighbors are dropping into the same sentence.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "blindside-2",
+      "title": "Blindside",
+      "hook": "Everyone sees the same final word — you privately write the lead-in that makes a language model least expect it, springing a grammatical garden-path trap on an ordinary noun.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "pass-left",
+      "title": "Pass Left",
+      "hook": "A booster-style pick-and-pass draft where every phone quietly holds your current hand, you all snatch one card at once, and the rest slide to your neighbor — no fanned cards, no waiting your turn, no peeking.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "paddle",
+      "title": "Paddle",
+      "hook": "A silent English auction where you hold your thumb down to stay in the bidding as the price climbs — and only your phone knows what the lot is secretly worth to you.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "ostinato",
+      "title": "Ostinato",
+      "hook": "A Forth-flavored live-coding drum machine where every hit you sequence compiles to a real systemd timer — so you author your server's cron schedule as a looping groove and hear the whole day play back as a rhythm.",
+      "tags": [
+        "cli",
+        "audio",
+        "homelab",
+        "cron"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "chill-hours",
+      "title": "Chill Hours",
+      "hook": "A live wallpaper that accumulates your location's real growing-degree-days and winter chill-hours all year, quietly sprouting a garden of plants that have *newly* become viable where you live as the climate creeps.",
+      "tags": [
+        "nature",
+        "ambient",
+        "wallpaper",
+        "data-viz"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "karat-2",
+      "title": "Karat",
+      "hook": "A Zachtronics-style puzzle where you wire up a schematic of scalar multiplications to compute one giant integer product using as few multiplies as possible — and rediscover Karatsuba and Toom-Cook with your own hands.",
+      "tags": [
+        "puzzle",
+        "game",
+        "browser-game",
+        "procedural"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-20"
+    },
+    {
       "slug": "cascade-2",
       "title": "Cascade",
       "hook": "A single clap ripples through the room in a secret order only the phones know — each player must clap the instant their phone hears the person before them.",
