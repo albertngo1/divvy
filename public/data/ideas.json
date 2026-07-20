@@ -2,6 +2,132 @@
   "lastScan": "2026-07-20",
   "ideas": [
     {
+      "slug": "downstream-2",
+      "title": "Downstream",
+      "hook": "A tower-defense where each phone secretly owns one lane and the TV shows nothing but the shared base HP — every creep you fail to kill doesn't die, it floods into your neighbor's lane, so the whole game is shouting 'big wave headed your way!' at someone who can't see it coming.",
+      "tags": [
+        "party",
+        "tower-defense",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "roll-down",
+      "title": "Roll Down",
+      "hook": "An auto-chess shop night on everyone's phone at once — you draft a private warband from a shop nobody else can see, but the unit pool is shared and finite, so the knight you don't buy this second is the knight your rival snipes.",
+      "tags": [
+        "party",
+        "auto-battler",
+        "drafting",
+        "hidden-info"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "chime-in",
+      "title": "Chime In",
+      "hook": "Every other voice game punishes talking over each other — this one only lights up when the right two people say the exact same word at the exact same instant.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "remote-hands",
+      "title": "Remote Hands",
+      "hook": "You can read the gauge you can't touch, and touch the dial you can't read — so the only way to stabilize the rack is to shout across the room.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "gloss",
+      "title": "Gloss",
+      "hook": "An obscure real word appears; every phone secretly writes a fake-but-plausible definition, the true one is slipped into the pile, and each phone privately hunts for the truth while trying to get its own lie mistaken for it.",
+      "tags": [
+        "party",
+        "bluffing",
+        "wordgame",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "scratch",
+      "title": "Scratch",
+      "hook": "Cooperatively feed the guesser a one-word clue — but any clue that collides with another gets scratched to a black bar before they ever see it, and YOU decide in secret which clues count as collisions.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "backfill",
+      "title": "Backfill",
+      "hook": "A Zachtronics-style puzzle game where you're a cluster batch scheduler packing jobs onto nodes under resource limits, priorities, gang-scheduling, and preemption — and a deadline-adversary tries to make you drop SLAs.",
+      "tags": [
+        "puzzle",
+        "game",
+        "kubernetes",
+        "sim"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "filibuster-2",
+      "title": "Filibuster",
+      "hook": "Forward your spam calls to an AI voice agent that keeps scammers rambling for as long as possible — and compete with friends on a live leaderboard of total scammer-minutes wasted.",
+      "tags": [
+        "security",
+        "agents",
+        "audio",
+        "leaderboard"
+      ],
+      "score": 69,
+      "source": "github",
+      "created": "2026-07-20"
+    },
+    {
+      "slug": "pinfall",
+      "title": "Pinfall",
+      "hook": "Snap a photo of the lane's score printout and it auto-computes every bowler's handicap and league standings — retiring the league secretary's crusty Excel file forever.",
+      "tags": [
+        "business",
+        "saas",
+        "automation",
+        "computer-vision"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-20"
+    },
+    {
       "slug": "switchback-2",
       "title": "Switchback",
       "hook": "Everyone steers a language model one tapped word at a time down their own private branch, racing to bend the context until an absurd target word becomes reachable.",
