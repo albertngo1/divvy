@@ -1,6 +1,127 @@
 {
-  "lastScan": "2026-07-20",
+  "lastScan": "2026-07-21",
   "ideas": [
+    {
+      "slug": "sixty-hertz",
+      "title": "Sixty Hertz",
+      "hook": "You're each a hidden generator on one power grid — supply must never stop, but if two of you surge at the same instant the breaker trips and the lights go out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "near-miss",
+      "title": "Near Miss",
+      "hook": "You're each one plane on a shared radar racing to your own secret gate — and the obvious open lane is exactly where everyone else is about to be.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "family-style-2-2-2-2",
+      "title": "Family Style",
+      "hook": "Stare at a takeout menu together and privately bet chips on which dishes the table will crave most — while secretly casting the one craving-vote you actually control.",
+      "tags": [
+        "party",
+        "betting",
+        "social"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "tout-2-2",
+      "title": "Tout",
+      "hook": "Watch a clip together, but the server has slipped each of your phones a different secret tip about what happens next — some gold, some garbage — and you bet real chips on the outcome before the reveal.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "miter",
+      "title": "Miter",
+      "hook": "Two phones each write half a sentence without ever seeing the other half, then a tiny LLM measures the clunk or click of the seam where the halves collide.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "planchette-2-2",
+      "title": "Planchette",
+      "hook": "You're handed one absurd secret word and must write the lead-in that makes a tiny language model treat it as the only word that could possibly come next.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "reclaim",
+      "title": "Reclaim",
+      "hook": "A phone-first refrigerant logbook for HVAC techs that turns the EPA-mandated leak paperwork nobody wants to do into the customer invoice they have to send anyway—log the pounds added once, get compliance math and a billable line item for free.",
+      "tags": [
+        "saas",
+        "b2b",
+        "ops-tool",
+        "automation"
+      ],
+      "score": 65,
+      "source": "wild",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "turnaround",
+      "title": "Turnaround",
+      "hook": "A tight little browser puzzle where you're the ramp coordinator racing a 45-minute gate clock—fuel, catering, cargo, cleaning, and boarding all fight over the same jet bridge and the same crew, and one blocked task cascades the whole airline into delay.",
+      "tags": [
+        "puzzle",
+        "sim",
+        "logistics",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "muniment",
+      "title": "Muniment",
+      "hook": "A citizen-run canary that mirrors public land and business registries daily into a hash-chained log, so when a state database is silently altered—or wiped like Romania's just was—you hold cryptographic proof of what the record said.",
+      "tags": [
+        "security",
+        "provenance",
+        "self-hosted",
+        "gis"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
     {
       "slug": "test-audience-2",
       "title": "Test Audience",
