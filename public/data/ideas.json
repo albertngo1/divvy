@@ -2,6 +2,132 @@
   "lastScan": "2026-07-21",
   "ideas": [
     {
+      "slug": "sleight",
+      "title": "Sleight",
+      "hook": "Secretly you're either fooling the humans or fooling the model — write the one sentence that splits their judgment the widest.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "watermark-2",
+      "title": "Watermark",
+      "hook": "Hide a secret word inside a sentence so naturally the model never flinches — lowest-perplexity smuggler wins.",
+      "tags": [
+        "party",
+        "wordgame",
+        "steganography",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "dispatch",
+      "title": "Dispatch",
+      "hook": "Three 911 dispatchers, one shared handful of ambulances, and everyone's screaming about which of their private emergencies is the one that actually can't wait.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "resource-management"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "boom-down",
+      "title": "Boom Down",
+      "hook": "You're operating a tower crane totally blind, and the only thing between the swinging load and disaster is two ground spotters screaming corrections into your ears.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "tribute",
+      "title": "Tribute",
+      "hook": "An all-pay auction: everyone secretly commits a bid, the highest bidder wins the prize — and every single player pays what they bid, win or lose.",
+      "tags": [
+        "party",
+        "auction",
+        "economic",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "markdown-2-2",
+      "title": "Markdown",
+      "hook": "A Dutch auction where the price ticks down on the TV but every phone secretly values the lot differently — hold your nerve for a bargain, and a rival who wants it more snatches it out from under you.",
+      "tags": [
+        "party",
+        "auction",
+        "economic",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "p99",
+      "title": "P99",
+      "hook": "A menubar toy that instruments your morning like a distributed system — tap spans, watch a real flamegraph of your day render, and find out that it's the 11-minute 'find keys' span, not the commute, sitting on your critical path.",
+      "tags": [
+        "observability",
+        "quantified-self",
+        "menubar",
+        "productivity"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "backport",
+      "title": "Backport",
+      "hook": "The real Linux kernel CVE firehose becomes a lane tower-defense: every published advisory is a monster marching toward your production kernel, HP scaled by CVSS, and if you filter it to your own `uname -r` the game is secretly a triage board.",
+      "tags": [
+        "security",
+        "tycoon",
+        "self-hosted",
+        "observability"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "prove-me-wrong",
+      "title": "Prove Me Wrong",
+      "hook": "State a small math conjecture in a tiny predicate DSL and survive as an adversarial engine — brute-force tester plus an LLM construction-hunter — races to slap a counterexample on the table before the clock runs out.",
+      "tags": [
+        "puzzle",
+        "llm",
+        "wordgame",
+        "narrative"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-21"
+    },
+    {
       "slug": "blazon",
       "title": "Blazon",
       "hook": "Build a group coat of arms out of secrets — but any secret only makes it onto the shield if at least two of you privately confess to it, so the crest can be as weird as you like and still name no one.",
