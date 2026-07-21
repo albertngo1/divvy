@@ -2,6 +2,132 @@
   "lastScan": "2026-07-21",
   "ideas": [
     {
+      "slug": "still-watching",
+      "title": "Still Watching?",
+      "hook": "One friend endlessly scrolls the streaming grid while everyone else secretly bets on what they'll pick — and how long the dithering takes.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "second-screen"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "table-stakes-2-2-2-2-2",
+      "title": "Table Stakes",
+      "hook": "Before the food arrives, secretly bet on what everyone else at the table is about to order off the shared menu.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "prediction"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "vantage",
+      "title": "Vantage",
+      "hook": "A treasure-hunt RTS where the TV map is almost entirely dark and your phone is your only window into the fog — you scout private heat readings, triangulate a buried cache, and can shadow or bluff rivals because they can see where you are but never what you've learned.",
+      "tags": [
+        "party",
+        "spatial",
+        "deduction",
+        "competitive"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "wind-up",
+      "title": "Wind-Up",
+      "hook": "A co-op boss fight where the boss's next attack is telegraphed in fragments — your phone sees only one piece of the tell, so you shout to reconstruct it before the whole party has to pick a stance at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "dovetail-2",
+      "title": "Dovetail",
+      "hook": "You and your partner each write half of one sentence without ever seeing the other's — the model scores how startled it is where the two halves meet.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "cliffhanger-2-2-2",
+      "title": "Cliffhanger",
+      "hook": "Write the sentence-stem that leaves the little language model most unable to guess what comes next — suspense scored as pure next-token entropy.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "bortle",
+      "title": "Bortle",
+      "hook": "Drop a pin on where you grew up and watch the night sky brighten year by year into a shareable 'we lost 400 stars' postcard, computed from public satellite radiance.",
+      "tags": [
+        "gis",
+        "data-viz",
+        "astronomy",
+        "nature"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "sightline-2",
+      "title": "Sightline",
+      "hook": "Type your city and get a one-page dossier of every ALPR/Flock camera near you and every gap between what the vendor promised the city council and what's actually bolted to the poles.",
+      "tags": [
+        "privacy",
+        "security",
+        "gis",
+        "self-hosted"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "vacuously-true",
+      "title": "Vacuously True",
+      "hook": "State a math conjecture in a tiny DSL; a relentless solver hunts the smallest counterexample, and you win by patching your claim to survive with the fewest edits.",
+      "tags": [
+        "puzzle",
+        "game",
+        "physics",
+        "cli"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
       "slug": "sixty-hertz",
       "title": "Sixty Hertz",
       "hook": "You're each a hidden generator on one power grid — supply must never stop, but if two of you surge at the same instant the breaker trips and the lights go out.",
