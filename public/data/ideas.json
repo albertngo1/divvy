@@ -2,6 +2,132 @@
   "lastScan": "2026-07-21",
   "ideas": [
     {
+      "slug": "blazon",
+      "title": "Blazon",
+      "hook": "Build a group coat of arms out of secrets — but any secret only makes it onto the shield if at least two of you privately confess to it, so the crest can be as weird as you like and still name no one.",
+      "tags": [
+        "party",
+        "anonymity",
+        "social",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "onion-skin",
+      "title": "Onion Skin",
+      "hook": "Everyone draws one frame of the same looping animation at once, seeing only a ghost of the neighbor's frame — the jerky little GIF you make together is the keepsake.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "quaff-2",
+      "title": "Quaff",
+      "hook": "A co-op roguelike where nobody knows what any potion does — your party must drink, throw, and shout results to identify a shared set of unlabeled brews before the boss on the TV grinds you all to zero.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "garbage-time",
+      "title": "Garbage Time",
+      "hook": "A bullet-hell survival game where each phone is your own private curtain of fire — dodge cleanly and the bullets you clear rain down onto a friend's screen instead.",
+      "tags": [
+        "party",
+        "competitive",
+        "action",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "tare",
+      "title": "Tare",
+      "hook": "A four-person control room fighting to keep one reactor in the green — except the imposter's gauge is silently miscalibrated, so their sincere, confident advice is quietly steering everyone toward meltdown.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "stress-test",
+      "title": "Stress Test",
+      "hook": "Everyone reads the exact same sentence aloud, but the imposter's phone bolded a different word — and the whole game is hunting the one voice that stressed the wrong syllable.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "audio"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "rosetta-2",
+      "title": "Rosetta",
+      "hook": "A phone party game where one player invents a tiny picture-writing system and everyone else races to decipher a message — armed only with a fragmentary Rosetta stone.",
+      "tags": [
+        "party-game",
+        "multiplayer",
+        "wordgame",
+        "language"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "round-trip-2",
+      "title": "Round Trip",
+      "hook": "An idle tycoon where you run an AI lab and quietly finance your own revenue in circles — the boom looks unstoppable until the day the paper unwinds.",
+      "tags": [
+        "tycoon",
+        "idle",
+        "finance",
+        "economics"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "nitpick",
+      "title": "Nitpick",
+      "hook": "A daily puzzle where a math conjecture looks obviously true and your only job is to break it — racing the same AI that's been out-counterexampling human mathematicians.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "math",
+        "leaderboard"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
       "slug": "still-watching",
       "title": "Still Watching?",
       "hook": "One friend endlessly scrolls the streaming grid while everyone else secretly bets on what they'll pick — and how long the dithering takes.",
