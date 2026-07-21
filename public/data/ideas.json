@@ -2,6 +2,130 @@
   "lastScan": "2026-07-21",
   "ideas": [
     {
+      "slug": "constellation",
+      "title": "Constellation",
+      "hook": "Everyone blindly scatters a few stars into their own dark sky, and the room gasps as the combined heavens auto-connect into a shape you get to name and mythologize.",
+      "tags": [
+        "party",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "semaphore-2",
+      "title": "Semaphore",
+      "hook": "Everyone waves their phone through the air at once, and the room becomes a wall of anonymous light-ribbons you win by vanishing into.",
+      "tags": [
+        "party",
+        "anonymity",
+        "sensor"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "deadpan-2",
+      "title": "Deadpan",
+      "hook": "A silent laughing contest where your own phone is the incorruptible referee busting you the instant you make a sound—while a secret order tells you exactly which rival you're supposed to crack.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "second-wind",
+      "title": "Second Wind",
+      "hook": "Blow into your phone to fill your sail and steer a shared boat—but the instant anyone says a word, the mic hears the voice instead of the breath and rips their sail to shreds.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "drumroll",
+      "title": "Drumroll",
+      "hook": "A Top-10 clip-show countdown becomes a live betting floor — privately stake chips on what's #1 as the ranking reveals slot by slot, watching the anonymized odds line move without ever seeing who's bluffing it.",
+      "tags": [
+        "party",
+        "betting",
+        "trivia",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "blue-plate",
+      "title": "Blue Plate",
+      "hook": "The menu you're all about to order from becomes a pari-mutuel betting floor — secretly stake your chips on which dish the table will actually order most, while secretly placing your own real order too.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction-market",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "foxing-2",
+      "title": "Foxing",
+      "hook": "A screensaver that takes your faithfully-captured Gaussian-splat 3D spaces and does the artful opposite of photogrammetry — letting them slowly fox, blur, and shed splats into a haunted dream-architecture on an exponential half-life since the day you scanned them.",
+      "tags": [
+        "generative",
+        "3d-viz",
+        "screensaver",
+        "art"
+      ],
+      "score": 68,
+      "source": "arxiv",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "bang-bang",
+      "title": "Bang Bang",
+      "hook": "A deckbuilding roguelike where your actual shell history is the deck — the commands you really run become your strongest cards, and each day a fresh 'incident' (Disk Full, Prod Down, Merge Hell) attacks that only your true muscle-memory can beat.",
+      "tags": [
+        "deckbuilder",
+        "cli",
+        "quantified-self",
+        "roguelike"
+      ],
+      "score": 65,
+      "source": "github",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "red-tape",
+      "title": "Red Tape",
+      "hook": "A QWOP-for-bureaucracy skill game where every field on the form is a wobbling soft-body blob you must wrangle and stamp into place before the desk collapses and your application is REJECTED.",
+      "tags": [
+        "party-game",
+        "browser-game",
+        "generative",
+        "whimsy"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
       "slug": "sleight",
       "title": "Sleight",
       "hook": "Secretly you're either fooling the humans or fooling the model — write the one sentence that splits their judgment the widest.",
