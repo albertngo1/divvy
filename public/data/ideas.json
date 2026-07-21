@@ -2,6 +2,130 @@
   "lastScan": "2026-07-21",
   "ideas": [
     {
+      "slug": "omerta",
+      "title": "Omerta",
+      "hook": "Secretly bid how many seconds of perfect silence you can hold — then everyone shuts up at once, and your own phone folds you the instant you make a sound.",
+      "tags": [
+        "party",
+        "audio",
+        "social",
+        "bluffing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "earshot-2-2-2-2",
+      "title": "Earshot",
+      "hook": "Whisper your passphrase to your target quietly enough that only their phone hears you — because every other phone in the room is an eavesdropper waiting to intercept.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "detour-2-2",
+      "title": "Detour",
+      "hook": "You cooperatively drive one car across a fogged city map, each phone privately holding a slice of the directions — but the imposter's slice says turn left where yours says right, and they can't see the real turn to fake it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative",
+        "hidden-role"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "composite-2-2-2",
+      "title": "Composite",
+      "hook": "Everyone studies the same crowded scene on their phone — but the imposter's copy quietly swapped one detail, and now they have to lie about a red door they never saw as blue.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "stray",
+      "title": "Stray",
+      "hook": "Everyone answers the same casual question to match the herd — except one phone quietly showed a slightly different question, and that player has no idea theirs was swapped, so they'll defend their weird answer to your face.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "detour-2",
+      "title": "Detour",
+      "hook": "A phone-native Just One where every clue-giver writes blind with a private \"originality meter\" ticking from Obvious to Way Out — play it too safe and your clue collides into oblivion, play it too weird and the guesser is stranded.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "direct-report",
+      "title": "Direct Report",
+      "hook": "A plate-spinning management tycoon where you supervise a team of LLM agents, each with an autonomy dial — crank it up and they move fast and hallucinate; crank it down and they stall pinging you for approval.",
+      "tags": [
+        "sim",
+        "agents",
+        "tycoon",
+        "llm"
+      ],
+      "score": 65,
+      "source": "arxiv",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "setun",
+      "title": "Setun",
+      "hook": "A Zachtronics-style puzzle where you program a balanced-ternary computer in a tiny concatenative language to cram five trits into every byte — named for the Soviet ternary machine that actually did it.",
+      "tags": [
+        "puzzle",
+        "roguelike",
+        "language",
+        "procedural"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "reverse-search",
+      "title": "Reverse Search",
+      "hook": "A solitaire deckbuilder where your real shell history is the deck — every command you've ever run is a card, and the pipelines you actually type become your combos against the machine.",
+      "tags": [
+        "deckbuilder",
+        "cli",
+        "devtool",
+        "quantified-self"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-21"
+    },
+    {
       "slug": "constellation",
       "title": "Constellation",
       "hook": "Everyone blindly scatters a few stars into their own dark sky, and the room gasps as the combined heavens auto-connect into a shape you get to name and mythologize.",
