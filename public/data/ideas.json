@@ -2,6 +2,129 @@
   "lastScan": "2026-07-21",
   "ideas": [
     {
+      "slug": "clave-2",
+      "title": "Clave",
+      "hook": "A word flashes — 'gallop' — and each phone silently taps the rhythm it feels, no sound, no peeking, hoping the whole room hit the very same beats.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "pair-off",
+      "title": "Pair Off",
+      "hook": "Six concept cards, no talking — privately couple them into three pairs and pray the whole room drew the same three couples.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "librarian",
+      "title": "Librarian",
+      "hook": "Keep the room's shared noise meter under the line for 90 silent seconds — while one hidden Whisperer's phone feeds them silent dares to make YOU be the one who cracks.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "sensor"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "duet",
+      "title": "Duet",
+      "hook": "A private melody plays in your earbuds alone — find the stranger humming your exact loop, but hum it aloud to compare and your own mic busts you.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "same-seed",
+      "title": "Same Seed",
+      "hook": "Everyone descends the exact same seeded dungeon on their own phone at once, and the only way to touch a rival is to fling a cursed relic you found onto their next floor.",
+      "tags": [
+        "party",
+        "roguelike",
+        "browser-game",
+        "competitive"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "tag-cancel",
+      "title": "Tag Cancel",
+      "hook": "Three players each hold one third of a tag-team fighter's movelist and must relay a single combo across phones, each nailing their frame-tight link window before the counter drops.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "cooperative",
+        "rhythm"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "over-under",
+      "title": "Over/Under",
+      "hook": "A sportsbook where your body is the game: each morning a model trained on your own Garmin history sets over/under lines on today's steps, resting HR, and sleep — and you bet a bankroll against the house that is literally your past self.",
+      "tags": [
+        "quantified-self",
+        "prediction-market",
+        "health",
+        "ml"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "augur",
+      "title": "Augur",
+      "hook": "A daily decipherment puzzle where you're a Shang-dynasty diviner staring at a real 3,000-year-old oracle-bone glyph, matching its cracked pictograph to a modern character — with a haunted 'unsolved' mode drawn from the ~1,000 signs nobody has ever cracked.",
+      "tags": [
+        "wordgame",
+        "language",
+        "puzzle"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "sellout",
+      "title": "Sellout",
+      "hook": "The week OpenAI opened ads.openai.com, a browser extension that fingerprints when your AI assistant quietly sold out — diffing the hosted model's brand picks against a local model that has no sponsor to please.",
+      "tags": [
+        "provenance",
+        "llm",
+        "privacy",
+        "devtool"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
       "slug": "omerta",
       "title": "Omerta",
       "hook": "Secretly bid how many seconds of perfect silence you can hold — then everyone shuts up at once, and your own phone folds you the instant you make a sound.",
