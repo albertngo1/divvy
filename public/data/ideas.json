@@ -2,6 +2,132 @@
   "lastScan": "2026-07-21",
   "ideas": [
     {
+      "slug": "backtrack",
+      "title": "Backtrack",
+      "hook": "A cooperative metroidvania where three phones each hold ONE traversal power over a single shared avatar — and each screen privately glows only where its own ability fits, so you must shout the route into existence before the lava rises.",
+      "tags": [
+        "party",
+        "cooperative",
+        "platformer",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "sold-out",
+      "title": "Sold Out",
+      "hook": "A living-room autobattler where a shared shop sells out in real time — snipe the poison unit before your neighbor does, then hide your battle order until the boards clash on the TV.",
+      "tags": [
+        "party",
+        "real-time",
+        "competitive",
+        "deckbuilder"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "errata",
+      "title": "Errata",
+      "hook": "It's a bomb with the manual torn up and scattered — your phone holds a module you can touch but can't read, and the instructions for it are printed on the phone of the person to your right, so nobody defuses without talking.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "in-tune",
+      "title": "In Tune",
+      "hook": "Each phone secretly hands you one note of a chord and becomes your personal pitch monitor — sing, listen, and shout across the room until three bad voices somehow lock into a triad.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "face-value",
+      "title": "Face Value",
+      "hook": "A silent cooperative ascending ladder where the one card you can't see is your own — you read everyone else's numbers, and the room's hesitation, to guess when it's your turn.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "deduction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "bellwether",
+      "title": "Bellwether",
+      "hook": "Everyone races to write the answer the herd will write — except the one secret contrarian who wins by standing plausibly, invisibly alone.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "scapula",
+      "title": "Scapula",
+      "hook": "A daily paleography puzzle: you're handed a 3,000-year-old oracle-bone glyph and have to walk it forward through its pictographic mutations — bronze, seal, clerical script — to guess the modern Chinese character it became.",
+      "tags": [
+        "puzzle",
+        "language",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 65,
+      "source": "arxiv",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "reclaim-2",
+      "title": "Reclaim",
+      "hook": "An HVAC tech scans the refrigerant cylinder's barcode, logs every ounce in and out on-site, and the EPA 608 / AIM Act compliance report writes itself instead of living on a grease-smeared clipboard.",
+      "tags": [
+        "ops-tool",
+        "automation",
+        "logistics",
+        "saas"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-21"
+    },
+    {
+      "slug": "harvest-now",
+      "title": "Harvest Now",
+      "hook": "Point it at a vendor's public hostnames and it TLS-probes every one for post-quantum key exchange, spitting out exactly which product lines will be locked out of France's 2027 ANSSI certification gate.",
+      "tags": [
+        "security",
+        "b2b",
+        "automation",
+        "privacy"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-21"
+    },
+    {
       "slug": "clave-2",
       "title": "Clave",
       "hook": "A word flashes — 'gallop' — and each phone silently taps the rhythm it feels, no sound, no peeking, hoping the whole room hit the very same beats.",
