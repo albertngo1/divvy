@@ -2,6 +2,131 @@
   "lastScan": "2026-07-22",
   "ideas": [
     {
+      "slug": "stow",
+      "title": "Stow",
+      "hook": "The foreman's phone is the only one that can see the ship's cargo bays; every other player privately holds one oddly-shaped crate nobody else can see — and the crane comes down in ninety seconds whether it fits or not.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "puzzle"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "landfall",
+      "title": "Landfall",
+      "hook": "One player's phone is the sea chart hiding the reefs; everyone else is a blind rower on the same boat, secretly heaving a single oar each and praying the navigator's shouted course is right.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "removed",
+      "title": "Removed",
+      "hook": "Everyone gets the same fictional family tree on their phone, but the imposter's has one relationship quietly rewired — and kinship questions will eventually drag the lie into the light.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "logic"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "off-hand",
+      "title": "Off Hand",
+      "hook": "Everyone studies the same little room map on their phone — except the imposter's is mirrored left-for-right, so their directions come out subtly, catchably backwards.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "elbow-room",
+      "title": "Elbow Room",
+      "hook": "Everyone secretly stakes out patches of the same board at once — but any square two of you both grabbed turns to scorched contested dirt worth nothing to either, so the winner is whoever guessed emptiest.",
+      "tags": [
+        "party",
+        "browser-game",
+        "hidden-information",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "contention",
+      "title": "Contention",
+      "hook": "You're a radio stuck sharing one crowded band — transmit your private packet queue while the airwaves are dark, and every time two of you key the same channel on the same tick, both packets shatter into static.",
+      "tags": [
+        "party",
+        "real-time",
+        "hidden-information",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "fretless",
+      "title": "Fretless",
+      "hook": "Learn the guitar neck blind — the screen shows no note names, only your ears and the string under your thumb, drilling you until the fretboard becomes geography you hear instead of read.",
+      "tags": [
+        "music",
+        "audio",
+        "game"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "bleach",
+      "title": "Bleach",
+      "hook": "A live coral-reef wallpaper that quietly bleaches as your certs and API keys creep toward expiry — a glanceable security posture disguised as decor that shoulder-surfers read as nothing but pretty fish.",
+      "tags": [
+        "ambient",
+        "security",
+        "self-hosted",
+        "steganography"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "bundle",
+      "title": "Bundle",
+      "hook": "A daily puzzle where you play the MEV bot — reorder a pending mempool to sandwich rivals and drain a toy AMM before the slot closes.",
+      "tags": [
+        "puzzle",
+        "finance",
+        "markets",
+        "daily"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-22"
+    },
+    {
       "slug": "sweeten",
       "title": "Sweeten",
       "hook": "A comedy clip plays and you secretly bet on which beat the room will laugh loudest at — but every phone's mic is measuring the real laughter, so your own genuine cackle moves the very market you wagered in.",
