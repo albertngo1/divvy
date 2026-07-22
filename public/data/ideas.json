@@ -2,6 +2,132 @@
   "lastScan": "2026-07-22",
   "ideas": [
     {
+      "slug": "floorboard",
+      "title": "Floorboard",
+      "hook": "One player's phone is a predator's sonar map of a dark maze; the blind prey each betray their position the instant they move, so escaping means freezing while a hunter you can't see closes in.",
+      "tags": [
+        "party",
+        "competitive",
+        "stealth",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "crosswind",
+      "title": "Crosswind",
+      "hook": "One player privately holds a fog-bound sea chart and can only shout; the others are blind cardinal winds who must secretly gust in unison to steer a boat they'll never see into harbor.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "enfilade-2",
+      "title": "Enfilade",
+      "hook": "XCOM squeezed onto four phones: you each command one soldier and see only through their eyes, so the aliens are invisible on the TV until somebody has line-of-sight — and the only way to flank is to shout what you see.",
+      "tags": [
+        "party",
+        "cooperative",
+        "tactics",
+        "hidden-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "reap",
+      "title": "Reap",
+      "hook": "A Vampire Survivors horde where nobody moves or aims — all four of you just frantically draft level-up cards every wave, and the monsters only die when your secret builds harmonize, so you're screaming 'WHO'S TAKING GARLIC?!' at the TV.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deckbuilder",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "foreman",
+      "title": "Foreman",
+      "hook": "Everyone secretly deploys their whole crew across the shared job board at once — then the reveal shows who doubled up on the same spot and has to fight it out.",
+      "tags": [
+        "party",
+        "worker-placement",
+        "simultaneous",
+        "strategy"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "last-hand",
+      "title": "Last Hand",
+      "hook": "The price climbs on the TV and every phone shows one button — hold it while you dare, release when it's too rich, and the last finger still pressing wins the lot.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time",
+        "economic"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "cone",
+      "title": "Cone",
+      "hook": "A menubar sentinel that STUN-probes your NAT type every few minutes and screams the instant your ISP silently drops you behind CGNAT and murders every port forward and self-hosted service you own.",
+      "tags": [
+        "homelab",
+        "self-hosted",
+        "menubar",
+        "observability"
+      ],
+      "score": 63,
+      "source": "github",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "passing-grade",
+      "title": "Passing Grade",
+      "hook": "A daily deduction puzzle where you audit an AI agent's task transcript and pin the exact step where it cheated the eval — hardcoded the answer, patched the test, or hacked the grader — instead of doing the work.",
+      "tags": [
+        "puzzle",
+        "llm",
+        "security",
+        "leaderboard"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "exit-node",
+      "title": "Exit Node",
+      "hook": "A pre-submission scanner that tears open your APK, IPA, or tvOS bundle and flags any bundled residential-proxy SDK before the app store — or LG — bans you for turning your users into exit nodes.",
+      "tags": [
+        "security",
+        "saas",
+        "b2b",
+        "privacy"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-22"
+    },
+    {
       "slug": "depth-chart-2",
       "title": "Depth Chart",
       "hook": "Five things, one axis, no talking — everyone privately drags them into a top-to-bottom ranking, and the room wins only when all your lists agree, which means silently settling every gut-call tie the same way.",
