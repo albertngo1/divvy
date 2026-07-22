@@ -2,6 +2,130 @@
   "lastScan": "2026-07-22",
   "ideas": [
     {
+      "slug": "tessera",
+      "title": "Tessera",
+      "hook": "Take turns laying tiles to rebuild a shared mosaic everyone can see on the TV — except one bricklayer is working from a subtly wrong blueprint, and the twist is you can't be sure the wrong blueprint isn't yours.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "puzzle-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "metamer-2",
+      "title": "Metamer",
+      "hook": "Everyone squints at the same grid of swatches to agree which is warmest — but one player's screen has two hues quietly shifted, and nobody, not even them, is quite sure whose eyes to trust.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "panopticon",
+      "title": "Panopticon",
+      "hook": "One player is the Warden sweeping a searchlight across a prison only they can see; the escaping prisoners each get no map at all — just their own phone buzzing harder as the beam creeps toward their cell, navigating the dark entirely by feel.",
+      "tags": [
+        "party",
+        "hidden-movement",
+        "haptic"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "sump-2-2",
+      "title": "Sump",
+      "hook": "One player holds the map of a flooding cave while the trapped spelunkers see only their own unlabeled doors — and every player's sense of 'left' is rotated differently, so the guide must translate directions into each body's private frame before the water rises.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "boresight",
+      "title": "Boresight",
+      "hook": "Sit in a circle where each phone secretly must aim at one other person — rotate your body to find your target, then discover the whole hidden chain and hold every beam locked at once.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "richter",
+      "title": "Richter",
+      "hook": "Lay your phones flat on the table and become a seismograph array — read a blindfolded knocker's tap by combining tremor traces only each of you can see.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "second-author",
+      "title": "Second Author",
+      "hook": "A GitHub App that treats every AI-agent commit as a junior co-author on probation — auto-detecting agent-authored PRs, scoring their blast radius, and gating them with provenance attestation and human-review policies before they merge.",
+      "tags": [
+        "devtool",
+        "git",
+        "ci",
+        "provenance"
+      ],
+      "score": 66,
+      "source": "github",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "payola",
+      "title": "Payola",
+      "hook": "Radio's pay-for-play scandal, reborn for the ChatGPT-ads era: a watchdog that runs the same question through LLMs with and without ad-context and diffs the answers to expose which brands are quietly buying their way into 'neutral' recommendations.",
+      "tags": [
+        "security",
+        "llm",
+        "provenance",
+        "saas"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "postmortem",
+      "title": "Postmortem",
+      "hook": "Phasmophobia for on-call: a co-op crew creeps through a haunted production stack, gathering evidence to name which failure-ghost is loose before it escalates into a hunt that pages you all at once.",
+      "tags": [
+        "party-game",
+        "multiplayer",
+        "observability",
+        "homelab"
+      ],
+      "score": 72,
+      "source": "steam",
+      "created": "2026-07-22"
+    },
+    {
       "slug": "corner",
       "title": "Corner",
       "hook": "Secretly write a sentence stem so airtight the model has only one way to finish it — then privately bet you know exactly what that finish is; the flatter the model's options, the bigger your prize.",
