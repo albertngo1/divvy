@@ -2,6 +2,131 @@
   "lastScan": "2026-07-22",
   "ideas": [
     {
+      "slug": "sweeten",
+      "title": "Sweeten",
+      "hook": "A comedy clip plays and you secretly bet on which beat the room will laugh loudest at — but every phone's mic is measuring the real laughter, so your own genuine cackle moves the very market you wagered in.",
+      "tags": [
+        "party",
+        "betting",
+        "sensor",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "chit",
+      "title": "Chit",
+      "hook": "The takeout menu everyone's half-reading becomes a live over/under book — you place secret wagers from a hidden bankroll on each dish's calories, price, or one-star-review odds, and the unpopular-but-correct side pays out fattest.",
+      "tags": [
+        "party",
+        "betting",
+        "prediction-market",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "overtone",
+      "title": "Overtone",
+      "hook": "Each phone secretly holds one note of a chord and hears only its own singer — so three people must hum a C-major triad into existence by ear, arguing aloud over who's the note dragging it flat.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "voice"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "squelch-2-2",
+      "title": "Squelch",
+      "hook": "One radio channel, four people with urgent traffic, and physics that garbles anyone who keys up at the same time — so the real game is scheduling the airwave you can't all have.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "character-witness",
+      "title": "Character Witness",
+      "hook": "Each phone is secretly assigned one other player to vouch for in an anonymous testimonial, and you win only if the person you praised can't tell it was you.",
+      "tags": [
+        "party",
+        "anonymity",
+        "wordgame",
+        "social-deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "shadow-box",
+      "title": "Shadow Box",
+      "hook": "Three phones each blind-paint one depth layer of a shared scene, and the reveal drifts them apart into a parallax diorama you keep as a looping GIF.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "escrow-2",
+      "title": "Escrow",
+      "hook": "A clipboard where CUT is a transaction, not a gamble — cut items sit in a visible on-screen 'holding tray' with a pulsing pending badge, so an interrupting copy can never silently vaporize the thing you were about to move.",
+      "tags": [
+        "devtool",
+        "productivity",
+        "self-hosted",
+        "cli"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "apex",
+      "title": "Apex",
+      "hook": "Monster Hunter for your debt: each balance is a telegraphed beast whose weak point is its APR, and you carve real interest-saved 'materials' every month you land the avalanche-method killing blow.",
+      "tags": [
+        "finance",
+        "game",
+        "budgeting"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "substation",
+      "title": "Substation",
+      "hook": "An early-warning radar that watches public utility interconnection queues and county zoning agendas to tell a homeowner a data-center-scale power hookup is being quietly proposed two miles from their house — months before the NIMBY yard signs go up.",
+      "tags": [
+        "gis",
+        "map",
+        "self-hosted",
+        "civic-tech"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-22"
+    },
+    {
       "slug": "tessera",
       "title": "Tessera",
       "hook": "Take turns laying tiles to rebuild a shared mosaic everyone can see on the TV — except one bricklayer is working from a subtly wrong blueprint, and the twist is you can't be sure the wrong blueprint isn't yours.",
