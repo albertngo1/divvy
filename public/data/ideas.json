@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-07-21",
+  "lastScan": "2026-07-22",
   "ideas": [
+    {
+      "slug": "mouthpiece-2",
+      "title": "Mouthpiece",
+      "hook": "Each phone gets a different secret word and must write a short prompt that makes the model want to say it next — without ever typing the word itself.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "dark-horse-2",
+      "title": "Dark Horse",
+      "hook": "Guess the model's next word — but the obvious pick everyone lands on cancels out, so you're hunting the high-probability completion nobody else spotted.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "schelling"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "crossing-guard",
+      "title": "Crossing Guard",
+      "hook": "One player sees the whole minefield; the others are blind walkers stepping across it — and the seer can't speak, only spend a tiny ration of silent arrow-flashes to save whichever walker is about to detonate.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "trip-switch",
+      "title": "Trip Switch",
+      "hook": "The breaker blew and the house is pitch-black — one player sees the whole floor plan but can't move, everyone else gropes toward their own bed by a phone-sized pool of torchlight.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "tavern",
+      "title": "Tavern",
+      "hook": "An auto-battler squeezed into party form: race to snatch units from one shared shop on the TV, hide your board on your phone, then watch your secret comps auto-fight to the death — the reveal is the whole payoff.",
+      "tags": [
+        "party",
+        "auto-battler",
+        "drafting",
+        "hidden-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "curtain-2",
+      "title": "Curtain",
+      "hook": "A co-op bullet-hell boss fills the TV with a chaotic bullet storm, but the only way to survive is to watch your own phone — a private zoomed viewport of the tiny slice of hell around your ship.",
+      "tags": [
+        "party",
+        "bullet-hell",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "life-drawing",
+      "title": "Life Drawing",
+      "hook": "A phone party game where everyone doodles the same secret prompt in 15 seconds — but one of the doodles was drawn by an AI hiding in the lineup, and the room has to vote it out before it fools them.",
+      "tags": [
+        "party-game",
+        "multiplayer",
+        "social-deduction",
+        "llm"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "underscore",
+      "title": "Underscore",
+      "hook": "A daily one-shot puzzle: given a page from a real book, tap the single sentence you think the crowd highlighted most — you're playing Schelling against a million Kindle readers.",
+      "tags": [
+        "wordgame",
+        "puzzle",
+        "leaderboard",
+        "language"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "back-royalties",
+      "title": "Back Royalties",
+      "hook": "A subscription that scans your book, song, or photo catalog against the corpora AI labs got sued over, tells you which lawsuits you're a class member in, and auto-drafts the claim paperwork before the deadline passes.",
+      "tags": [
+        "saas",
+        "business",
+        "provenance",
+        "automation"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-07-22"
+    },
     {
       "slug": "backtrack",
       "title": "Backtrack",
