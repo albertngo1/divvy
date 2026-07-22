@@ -2,6 +2,128 @@
   "lastScan": "2026-07-22",
   "ideas": [
     {
+      "slug": "corner",
+      "title": "Corner",
+      "hook": "Secretly write a sentence stem so airtight the model has only one way to finish it — then privately bet you know exactly what that finish is; the flatter the model's options, the bigger your prize.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "autofill",
+      "title": "Autofill",
+      "hook": "Everyone secretly types the one word the model will predict next — but if two of you guess the same word, you both score zero, so you must read the model's mind AND dodge the herd.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "zoetrope-2-2",
+      "title": "Zoetrope",
+      "hook": "Each phone secretly animates one frame of a shared 3-frame loop, seeing only faint ghost-trails of the frames before and after — and the wobbly little GIF you all made blind is yours to keep.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "session",
+      "title": "Session",
+      "hook": "Three phones lay down three tracks of one groove at the exact same time — but each of you only hears a metronome and your own part, so the beat you build together is a beautiful blind guess.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "beeline-2",
+      "title": "Beeline",
+      "hook": "The same little obstacle-strewn grid sits on the TV; each of you privately finger-traces the route from start to goal you're sure everyone else will pick, and the room wins only when all three paths are the identical string of cells.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "dye-lot",
+      "title": "Dye Lot",
+      "hook": "Given one evocative word, each of you privately mixes a color by pure feel — no reference, no peeking — and the room wins only when all three swatches come out of the vat as the same batch.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "scale",
+      "title": "Scale",
+      "hook": "A field app for public-works subcontractors that turns a week of messy timesheets into a signed WH-347 certified-payroll PDF and flags any worker paid under the government's prevailing wage before the state auditor does.",
+      "tags": [
+        "b2b",
+        "saas",
+        "logistics",
+        "automation"
+      ],
+      "score": 61,
+      "source": "wild",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "soft-error",
+      "title": "Soft Error",
+      "hook": "A live wallpaper that plots every cosmic-ray bit-flip your ECC memory silently corrects, accreting over a year into a private star chart of the radiation passing through your machine.",
+      "tags": [
+        "physics",
+        "homelab",
+        "ambient",
+        "generative"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "sublet",
+      "title": "Sublet",
+      "hook": "A homelab watchdog that catches your smart TV, doorbell, or that 'free VPN' phone quietly reselling your home IP as a residential proxy exit node to strangers.",
+      "tags": [
+        "security",
+        "homelab",
+        "privacy",
+        "self-hosted"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-22"
+    },
+    {
       "slug": "floorboard",
       "title": "Floorboard",
       "hook": "One player's phone is a predator's sonar map of a dark maze; the blind prey each betray their position the instant they move, so escaping means freezing while a hunter you can't see closes in.",
