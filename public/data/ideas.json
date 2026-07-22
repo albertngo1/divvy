@@ -2,6 +2,132 @@
   "lastScan": "2026-07-22",
   "ideas": [
     {
+      "slug": "depth-chart-2",
+      "title": "Depth Chart",
+      "hook": "Five things, one axis, no talking — everyone privately drags them into a top-to-bottom ranking, and the room wins only when all your lists agree, which means silently settling every gut-call tie the same way.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "convergence"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "watershed-2",
+      "title": "Watershed",
+      "hook": "Rain falls on a branching river-delta and every phone privately steers one raindrop down through the forks — you win only when all of you, with no word spoken, pick the exact same route to the exact same mouth.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "convergence"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "stage-left",
+      "title": "Stage Left",
+      "hook": "The group talks a marker across a shared map by shouting private directions — but one player's map is secretly mirrored, so their earnest 'go left!' is everyone else's right, and 'I always mix up left and right' is the perfect alibi.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "spatial",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "airbrush",
+      "title": "Airbrush",
+      "hook": "Everyone squints at the 'same' photo on their own phone — but one player's copy has been secretly retouched, and they don't know it's them until their own confident description of a blue mug that's actually red gives them away.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "image",
+        "bluffing"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "telegraph-2-2",
+      "title": "Telegraph",
+      "hook": "A soulslike boss fight where nobody can read the tell alone — the attack's height, side, and beat are each shown to a different phone, so you shout to assemble it and all dodge on the same instant.",
+      "tags": [
+        "party",
+        "cooperative",
+        "boss-fight",
+        "asymmetric"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "depth-chart",
+      "title": "Depth Chart",
+      "hook": "A whole autobattler squeezed onto the couch: draft units from a shared, contested market river into a secret front-and-back lineup, then watch every hidden squad brawl it out on the TV.",
+      "tags": [
+        "party",
+        "autobattler",
+        "drafting",
+        "simultaneous"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "din",
+      "title": "Din",
+      "hook": "A cocktail-party attention game: every phone in the room blares a different story at once, and you must press yours to your ear and follow only your channel through the noise to answer.",
+      "tags": [
+        "party-game",
+        "audio",
+        "multiplayer",
+        "social"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "cold-spot-2",
+      "title": "Cold Spot",
+      "hook": "Phasmophobia for your homelab: hunt the intermittent gremlin haunting your services by gathering 'evidence' — error EMF, latency cold spots, log whispers — and match it to a bestiary of failure ghosts.",
+      "tags": [
+        "observability",
+        "homelab",
+        "self-hosted",
+        "devtool"
+      ],
+      "score": 68,
+      "source": "steam",
+      "created": "2026-07-22"
+    },
+    {
+      "slug": "air-gap-2",
+      "title": "Air Gap",
+      "hook": "The backflow tester's carbon-copy nightmare, fixed: capture your gauge readings once and the app auto-fills and e-files the right report to whichever of 3,000 water districts owns that meter.",
+      "tags": [
+        "logistics",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-07-22"
+    },
+    {
       "slug": "mouthpiece-2",
       "title": "Mouthpiece",
       "hook": "Each phone gets a different secret word and must write a short prompt that makes the model want to say it next — without ever typing the word itself.",
