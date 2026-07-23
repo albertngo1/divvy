@@ -161,6 +161,60 @@ body::before {
 .about-lead { color: var(--ink); font-size: 17px; font-style: italic; margin-bottom: 16px !important; }
 .about-foot { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-faint); letter-spacing: 0.03em; }
 .about-foot span { font-family: "Fraunces", serif; font-style: italic; color: var(--ink-dim); }
+
+/* ---- "Today" spotlight — the humane entry point (small, finite handful) ---- */
+.daily-overlay {
+  position: fixed; inset: 0; z-index: 41;
+  display: flex; align-items: center; justify-content: center; padding: 24px;
+  background: rgba(4, 5, 10, 0.6); backdrop-filter: blur(6px);
+  opacity: 0; pointer-events: none; transition: opacity 0.25s ease;
+}
+.daily-overlay.open { opacity: 1; pointer-events: auto; }
+.daily-card {
+  position: relative; max-width: 560px; width: 100%;
+  background: var(--bg-soft); border: 1px solid var(--line-strong); border-radius: 20px;
+  padding: 32px 32px 22px; box-shadow: 0 40px 100px rgba(0,0,0,0.6);
+  transform: translateY(10px) scale(0.98); transition: transform 0.25s cubic-bezier(0.22,1,0.36,1);
+}
+.daily-overlay.open .daily-card { transform: none; }
+.daily-title {
+  font-family: "Fraunces", serif; font-weight: 900; font-size: 34px; line-height: 1; margin: 0 0 8px;
+  background: linear-gradient(120deg, #fff 30%, #b794f6 130%);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; padding-bottom: 0.08em;
+}
+.daily-lead { color: var(--ink-dim); font-size: 14px; line-height: 1.55; margin: 0 0 18px; }
+.daily-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.daily-row {
+  display: flex; align-items: flex-start; gap: 12px; width: 100%; text-align: left;
+  padding: 12px 14px; border-radius: 13px; cursor: pointer;
+  background: rgba(255,255,255,0.03); border: 1px solid var(--line);
+  transition: background 0.14s ease, border-color 0.14s ease, transform 0.14s ease;
+}
+.daily-row:hover { background: rgba(255,255,255,0.07); border-color: var(--line-strong); transform: translateX(2px); }
+.daily-chip {
+  flex: none; margin-top: 1px; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  font-weight: 700; padding: 3px 8px; border-radius: 999px; min-width: 62px; text-align: center;
+}
+.daily-chip.k-fresh { color: #66e0c2; background: rgba(102,224,194,0.13); }
+.daily-chip.k-hot   { color: #ff9d5c; background: rgba(255,157,92,0.14); }
+.daily-chip.k-wild  { color: #b794f6; background: rgba(183,148,246,0.15); }
+.daily-body { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.daily-name { color: var(--ink); font-weight: 650; font-size: 15px; }
+.daily-hook {
+  color: var(--ink-dim); font-size: 12.5px; line-height: 1.45;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.daily-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line);
+}
+.daily-explore {
+  background: none; border: none; cursor: pointer; padding: 0;
+  color: var(--c-weekend-ideas); font-size: 13px; font-weight: 600; font-family: inherit;
+  transition: color 0.14s ease;
+}
+.daily-explore:hover { color: var(--ink); }
+.daily-note { font-size: 11px; color: var(--ink-faint); letter-spacing: 0.04em; }
 .mark {
   color: var(--c-self);
   font-size: 22px;
@@ -567,6 +621,17 @@ body::before {
   transition: all 0.15s ease;
 }
 .random-btn:hover { color: var(--ink); border-color: rgba(255,209,102,0.5); box-shadow: 0 0 0 3px rgba(255,209,102,0.12); }
+.today-btn {
+  height: 40px; padding: 0 16px;
+  background: rgba(16, 18, 26, 0.78);
+  backdrop-filter: blur(var(--blur));
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--ink-dim); font-size: 14px; cursor: pointer;
+  transition: all 0.15s ease;
+}
+.today-btn:hover { color: var(--ink); border-color: rgba(183,148,246,0.6); box-shadow: 0 0 0 3px rgba(183,148,246,0.14); }
+.today-glyph { color: var(--c-weekend-ideas); filter: drop-shadow(0 0 6px rgba(183,148,246,0.5)); }
 .tag-pop {
   position: fixed;
   top: 66px; left: 50%;
@@ -817,7 +882,7 @@ body::before {
   .search-wrap { flex: 1; height: 42px; padding: 0 14px; }
   .search { width: 100%; max-width: none; font-size: 16px; } /* 16px stops iOS zoom-on-focus */
   .btn-label { display: none; }
-  .random-btn {
+  .random-btn, .today-btn {
     flex: none; width: 42px; height: 42px; padding: 0; font-size: 18px; line-height: 1;
     display: inline-flex; align-items: center; justify-content: center;
   }

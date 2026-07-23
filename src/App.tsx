@@ -15,6 +15,8 @@ import Tooltip from "./components/Tooltip";
 import FilterBar from "./components/FilterBar";
 import IdeaPanel from "./components/IdeaPanel";
 import About from "./components/About";
+import Daily from "./components/Daily";
+import { pickDaily, todayKey } from "./daily";
 
 // shallow-equal two vote-count maps, so an unchanged poll doesn't churn the cloud
 function sameCounts(a: Record<string, number>, b: Record<string, number>) {
@@ -33,6 +35,7 @@ export default function App() {
   const [hovered, setHovered] = useState<Idea | null>(null);
   const [hoverY, setHoverY] = useState(0);
   const [aboutOpen, setAboutOpen] = useState(false);
+  const [dailyOpen, setDailyOpen] = useState(false);
   const [votes, setVotes] = useState<Record<string, number>>({}); // net count per idea (can be negative)
   const [voted, setVoted] = useState<Record<string, number>>({}); // this browser's own votes: slug -> 1 | -1
   const [views, setViews] = useState<Record<string, number>>({}); // shared total view counts
@@ -43,6 +46,8 @@ export default function App() {
   votedRef.current = voted;
   const votesRef = useRef(votes);
   votesRef.current = votes;
+  const seenRef = useRef(seen);
+  seenRef.current = seen;
   const cloudRef = useRef<CloudApi>(null);        // push peer cursors in imperatively
   const presenceRef = useRef<PresenceHandle | null>(null);
   const starfieldRef = useRef<StarfieldApi>(null); // parallax background driven by pan/zoom
@@ -104,6 +109,24 @@ export default function App() {
       return n;
     });
   }, [selected?.slug]);
+
+  // Today's handful — computed once ideas land, stable for the calendar day. Reads votes/seen
+  // at compute time via refs so the 5s vote poll and opening ideas don't reshuffle the set.
+  const dailyPicks = useMemo(
+    () => pickDaily(ideas, votesRef.current, seenRef.current, lastScan),
+    [ideas, lastScan],
+  );
+  // Auto-open the spotlight at most once per calendar day (per browser). A deep link
+  // (?idea=…) skips it — you came for something specific.
+  useEffect(() => {
+    if (!dailyPicks.length || selectedSlug) return;
+    const key = todayKey();
+    let last: string | null = null;
+    try { last = localStorage.getItem("divvy_daily_shown"); } catch { /* ignore */ }
+    if (last === key) return;
+    setDailyOpen(true);
+    try { localStorage.setItem("divvy_daily_shown", key); } catch { /* ignore */ }
+  }, [dailyPicks.length, selectedSlug]);
 
   useEffect(() => { document.body.classList.toggle("ready", ready); }, [ready]);
   useEffect(() => { document.body.classList.toggle("panel-open", !!selected); }, [selected]);
@@ -233,7 +256,11 @@ export default function App() {
 
       <TopBar count={ideas.length} lastScan={lastScan} onAbout={() => setAboutOpen(true)} />
       <About open={aboutOpen} onClose={() => setAboutOpen(false)} />
-      <Controls search={search} onSearch={setSearch} onRandom={openRandom} />
+      <Controls search={search} onSearch={setSearch} onRandom={openRandom} onToday={() => setDailyOpen(true)} />
+      <Daily
+        open={dailyOpen} picks={dailyPicks} lastScan={lastScan}
+        onOpenIdea={openIdea} onClose={() => setDailyOpen(false)}
+      />
 
       <main id="stage">
         <Cloud
