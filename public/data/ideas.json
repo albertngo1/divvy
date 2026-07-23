@@ -2,6 +2,129 @@
   "lastScan": "2026-07-23",
   "ideas": [
     {
+      "slug": "reframe",
+      "title": "Reframe",
+      "hook": "The same busy photo lands on every phone; you each secretly drag a viewfinder to frame 'what this picture is really of,' and you win only when all your crops land on the same thing.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "heel",
+      "title": "Heel",
+      "hook": "Everyone tilts their phone to roll a private ball across the same shared landscape on the TV — you win only when all your balls come to rest on the exact same spot, and nobody may say where.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "convergence"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "carom",
+      "title": "Carom",
+      "hook": "A bullet-hell duel where the storm coming for you exists only on your own phone — dodge blind to everyone else, then tap to bank incoming bullets straight into a rival's screen.",
+      "tags": [
+        "party",
+        "action",
+        "sensor"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "backseat-2-2",
+      "title": "Backseat",
+      "hook": "A blind Tetris where you can see your own falling-block well but can't touch it — your neighbor controls it by ear while you frantically drive a well you'll never see.",
+      "tags": [
+        "party",
+        "puzzle-game",
+        "cooperative"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "parlay-2-2",
+      "title": "Parlay",
+      "hook": "Before a silent 15-second reality clip plays, each phone secretly builds a 3-leg prop-bet slip — then the whole room sweats their private parlay as the clip resolves leg by leg on the TV.",
+      "tags": [
+        "party",
+        "betting",
+        "video",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "chalk-2-2",
+      "title": "Chalk",
+      "hook": "Everyone stares at the same takeout menu, but you're secretly stacking chips on which dish the TABLE will crave — bet the room's appetite, not your own.",
+      "tags": [
+        "party",
+        "betting",
+        "social",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "carve-2",
+      "title": "Carve",
+      "hook": "A Monster Hunter loop for your bank statement — recurring charges are monsters you track by their spawn pattern, learn their tells, and hunt to extinction by landing the cancel.",
+      "tags": [
+        "game",
+        "finance",
+        "sim",
+        "quantified-self"
+      ],
+      "score": 65,
+      "source": "steam",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "detonate",
+      "title": "Detonate",
+      "hook": "One command drops a suspicious take-home coding project into a disposable microVM and tells you what its `npm install` tried to do — before it does it to your real machine.",
+      "tags": [
+        "security",
+        "devtool",
+        "forensics"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "rack-rate",
+      "title": "Rack Rate",
+      "hook": "A Kelley Blue Book for used datacenter GPUs — punch in 'A100 80GB' or a whole cluster BOM and get a fair-price range from real sold comps.",
+      "tags": [
+        "markets",
+        "finance",
+        "data-viz",
+        "side-hustle"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
       "slug": "sleeper-2",
       "title": "Sleeper",
       "hook": "Everyone's phone spits out orders addressed to secret codenames — you read them aloud for strangers while frantically filtering the flood for the one name that's yours.",
