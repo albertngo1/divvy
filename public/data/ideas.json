@@ -2,6 +2,130 @@
   "lastScan": "2026-07-23",
   "ideas": [
     {
+      "slug": "cadence",
+      "title": "Cadence",
+      "hook": "With no metronome, no audio, and no peeking, everyone rocks their phone like a pendulum until three bodies silently fall into the same unspoken tempo.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "convergence"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "cohort-2",
+      "title": "Cohort",
+      "hook": "Silently sort nine slippery tiles into three bins the same way everyone else does — no labels, no talking, just a shared hidden sense of what belongs together.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "standing-wave-2",
+      "title": "Standing Wave",
+      "hook": "The TV hums a pure tone that carves the room into invisible loud and quiet pockets, and each phone is secretly told to go stand in a node or an antinode using only its own private mic meter.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "sextant",
+      "title": "Sextant",
+      "hook": "Two phones each hold one coordinate of a single hidden star — one owns its compass bearing, the other its pitch — so a lone phone can never lock the sky.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "doubles",
+      "title": "Doubles",
+      "hook": "Everyone races to photograph 'something round' in the room — but if your object matches anyone else's, you both get burned for the duplicate.",
+      "tags": [
+        "party",
+        "camera",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "vane",
+      "title": "Vane",
+      "hook": "Everyone spins their phone like a compass needle to claim a bearing — but point the same direction as someone else and you both snap to red static.",
+      "tags": [
+        "party",
+        "sensor",
+        "hidden-information",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "book-value",
+      "title": "Book Value",
+      "hook": "A live Kelley-Blue-Book-style depreciation index for datacenter GPUs that shows exactly how fast an H100 is melting into scrap — because nobody actually knows what a used cluster is worth.",
+      "tags": [
+        "finance",
+        "markets",
+        "data-viz",
+        "economics"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "enfilade-2",
+      "title": "Enfilade",
+      "hook": "An explorable, walkable atlas of Christopher Alexander's 253 design patterns rendered as a living city where each pattern is a room and its cross-references are the doorways.",
+      "tags": [
+        "data-viz",
+        "visualization",
+        "generative"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "backhaul",
+      "title": "Backhaul",
+      "hook": "A quiet LAN sentinel that catches the moment one of your own devices starts secretly reselling your home bandwidth as a residential-proxy exit node.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics",
+        "homelab"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-23"
+    },
+    {
       "slug": "defilade",
       "title": "Defilade",
       "hook": "An Into-the-Breach-style tactics grid where the enemies' next attacks are public on the TV but the fog of war is private — each player commands one mech that can only see its own slice of the board, so you have to call out what you see before anyone commits a move.",
