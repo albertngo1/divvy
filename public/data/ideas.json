@@ -2,6 +2,130 @@
   "lastScan": "2026-07-23",
   "ideas": [
     {
+      "slug": "wolf-tone",
+      "title": "Wolf Tone",
+      "hook": "Every phone in the room sings its own held tone from its own speaker, and your job is to keep yours clean — because when two pitches drift too close the whole room hears the ugly beating, and both of you get buzzed to zero.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "blind-aisle",
+      "title": "Blind Aisle",
+      "hook": "You're a warehouse robot fetching your secret pick-list, but every robot commits its next move at the same instant — and two robots reaching for the same cell jam, bounce, and stall.",
+      "tags": [
+        "party",
+        "spatial",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "blind-spot-2",
+      "title": "Blind Spot",
+      "hook": "A museum heist where the guards' sweeping vision cones are invisible on the shared map — each phone sees only the slice of danger around its own burglar, so the whole picture exists only in the room's shouting.",
+      "tags": [
+        "party",
+        "stealth",
+        "hidden-information",
+        "social"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "sequence-break-2",
+      "title": "Sequence Break",
+      "hook": "One hero sprints a metroidvania death-gauntlet on the TV, and every phone owns exactly one traversal power that only it can fire in its own private timing window.",
+      "tags": [
+        "party",
+        "cooperative",
+        "timing",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "pin",
+      "title": "Pin",
+      "hook": "Race to write the most foregone-conclusion sentence — back the little model into a corner where only one word can possibly come next, and whoever pins it hardest wins.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "longshot",
+      "title": "Longshot",
+      "hook": "Secretly bet one word on what the tiny model will blurt next — payout equals the surprisal, so longshots pay big and the whole room watches the generation roll like roulette.",
+      "tags": [
+        "party",
+        "browser-game",
+        "wordgame"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "skein-2",
+      "title": "Skein",
+      "hook": "Drop in any CSV edge list and it de-tangles the hairball with real edge bundling you can scrub live — plus guided challenges that teach you what bundled graphs can and can't tell you.",
+      "tags": [
+        "data-viz",
+        "visualization",
+        "graphics"
+      ],
+      "score": 62,
+      "source": "arxiv",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "slant",
+      "title": "Slant",
+      "hook": "Point it at one news event and it lines up every outlet's coverage sentence-by-sentence, then highlights only the words they swapped — 'protesters' vs 'rioters', 'died' vs 'was killed' — like a git blame for spin.",
+      "tags": [
+        "language",
+        "nlp",
+        "data-viz",
+        "provenance"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "quarrel",
+      "title": "Quarrel",
+      "hook": "A live wallpaper that grows a new leaded stained-glass window every launch and lights it for real with 2D radiance cascades, so colored light pools and bleeds through the glass like a cathedral at noon.",
+      "tags": [
+        "generative",
+        "wallpaper",
+        "graphics",
+        "ambient"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-23"
+    },
+    {
       "slug": "blackout",
       "title": "Blackout",
       "hook": "You're each handed the same paragraph and told to black out every word but four — win only if all three of you leave the exact same words standing, spelling one shared found-poem.",
