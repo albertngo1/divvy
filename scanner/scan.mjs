@@ -96,18 +96,42 @@ async function srcArxiv() {
   return { label: "Recent arXiv HCI/graphics papers", lines };
 }
 
-// Rotating provocations so runs don't converge on the same flavor.
+// Rotating provocations so runs don't converge on the same flavor. Deliberately weighted
+// AWAY from multiplayer/party games (the cloud is already saturated with those) and toward
+// solo tools, toys, viz, science, and real businesses.
 const PROVOCATIONS = [
+  "A single-player desktop or browser TOOL you'd actually open daily — no multiplayer, no rooms, no party.",
   "Cross-pollinate: take a mechanic from a Steam game and apply it somewhere absurd (finance, chores, homelab ops).",
   "Find the weird overlap between two unrelated items in the feeds and build the bridge.",
-  "Turn something people passively consume into something they compete over.",
   "Take a serious tool and make a toy of it, or take a toy and make it dangerously useful.",
   "Invert a popular repo's purpose — what's the mischievous or artful opposite?",
-  "What ambient/background artifact could quietly generate itself over a year?",
-  "Steal a game genre (roguelike, idle, deckbuilder, tycoon) and graft it onto real personal data.",
+  "What ambient/background artifact could quietly generate itself over a year? (screensaver, wallpaper, menubar toy)",
+  "Steal a game genre (roguelike, idle, deckbuilder, tycoon) and graft it onto real personal data — SOLO play.",
   "Pitch a real BUSINESS: who pays, for what, and why now — a small SaaS, marketplace, or service someone would actually pay for this year.",
   "Spot a painful manual workflow in a boring industry (logistics, dental, HVAC, permits, freight) and productize the fix.",
   "Find an arbitrage: data or capability that's cheap for you and valuable to a specific niche who can't get it themselves.",
+  "A data-visualization or explorable-explanation of a dataset nobody has made beautiful yet.",
+  "A devtool that removes one specific, daily papercut for programmers — CLI, editor, git, CI, or observability.",
+  "A science/nature toy: simulate, sonify, or visualize a real physical/biological phenomenon.",
+  "Take a boring personal-data source (calendar, email, receipts, wearable, browser history) and make it insightful or delightful — for one person, offline.",
+  "A generative-art or audio piece that makes something new every time it runs.",
+];
+
+// Domains the cloud is HUNGRY for (party/social games are already ~40% of the cloud, so they
+// are deliberately excluded here). Each run steers toward a couple of these for variety.
+const HUNGRY_DOMAINS = [
+  "dev & ops (devtools, git, CI, homelab, observability, CLI)",
+  "ai & ml (llm apps, agents, computer-vision, embeddings)",
+  "data viz (maps, timelines, dashboards, explorable explanations)",
+  "science & nature (physics/biology/materials simulations & toys)",
+  "finance (markets, budgeting, prediction-market plays)",
+  "business & work (a real SaaS / marketplace / service someone pays for)",
+  "language & text (writing tools, translation, wordgames, steganography)",
+  "art & sound (generative art, music, graphics, wallpapers, screensavers)",
+  "life & self (productivity, quantified-self, health, habits — solo)",
+  "ambient & toys (desktop toys, menubar widgets, screensavers)",
+  "security & privacy (forensics, provenance, anti-abuse)",
+  "solo games (roguelike, idle, deckbuilder, tycoon, puzzle, sim — SINGLE player)",
 ];
 
 // Curated pool of trusted feeds. Each run draws an ARBITRARY subset so no single
@@ -131,31 +155,40 @@ async function gatherSources() {
 // Controlled tag vocabulary, grouped by the DOMAINS the cloud clusters ideas into (the
 // "galaxies"). Keeping the scanner's tags in this vocabulary stops tag sprawl and keeps
 // every idea landing cleanly in a galaxy instead of the "other" bucket.
+// Aligned with the cloud's galaxy taxonomy (src/cloud.ts ORDER). Solo/topical domains first;
+// the party/social genres are grouped last and flagged as saturated in the prompt.
 const DOMAIN_TAGS = {
-  "games": ["game", "roguelike", "deckbuilder", "idle", "tycoon", "sim", "puzzle", "survival", "party-game", "procedural", "narrative", "browser-game"],
-  "data viz": ["data-viz", "map", "timeline", "3d-viz", "gis", "dashboard"],
-  "dev & ops": ["devtool", "git", "ci", "docker", "kubernetes", "sql", "postgres", "homelab", "self-hosted", "observability", "cli"],
+  "dev & ops": ["devtool", "git", "ci", "docker", "kubernetes", "sql", "postgres", "homelab", "self-hosted", "observability", "cli", "logs", "telemetry"],
   "ai & ml": ["llm", "ml", "agents", "prompt", "computer-vision", "embeddings"],
+  "data viz": ["data-viz", "map", "timeline", "3d-viz", "gis", "dashboard", "visualization"],
   "science & nature": ["physics", "astronomy", "biology", "chemistry", "nature", "materials", "cellular-automata"],
   "finance": ["finance", "economics", "prediction-market", "markets", "budgeting"],
-  "business & work": ["business", "saas", "marketplace", "b2b", "startup", "monetization", "logistics", "crm", "automation", "ops-tool", "side-hustle"],
-  "language & text": ["language", "nlp", "wordgame", "writing", "translation", "steganography"],
+  "business & work": ["business", "saas", "marketplace", "b2b", "startup", "logistics", "crm", "automation", "side-hustle"],
+  "language & text": ["language", "nlp", "writing", "translation", "steganography", "wordgame"],
   "art & sound": ["generative", "art", "music", "audio", "graphics", "animation", "wallpaper"],
   "life & self": ["productivity", "quantified-self", "calendar", "health", "habits", "relationships", "chores"],
   "ambient & toys": ["ambient", "desktop-toy", "screensaver", "whimsy", "menubar"],
-  "social & party": ["social", "multiplayer", "party", "social-deduction", "leaderboard", "competitive"],
   "security & privacy": ["security", "privacy", "forensics", "provenance"],
+  "solo games": ["game", "roguelike", "deckbuilder", "idle", "tycoon", "sim", "puzzle", "survival", "procedural", "narrative", "browser-game"],
+  "party & social games — SATURATED, avoid unless exceptional": ["party", "social-deduction", "co-op", "betting", "drawing", "sensor", "multiplayer"],
 };
 const DOMAIN_LINES = Object.entries(DOMAIN_TAGS).map(([d, ts]) => `  - ${d}: ${ts.join(", ")}`).join("\n");
 
 function buildPrompt(digest, avoid) {
   const spark = shuffle(PROVOCATIONS).slice(0, 2).map((p) => `- ${p}`).join("\n");
+  const focus = shuffle(HUNGRY_DOMAINS).slice(0, Math.min(HOW_MANY, 3));
+  const focusBlock = focus.map((d) => `- ${d}`).join("\n");
   const avoidBlock = avoid.length
-    ? `\n\nAlready in the cloud — do NOT repeat these or produce near-duplicates of them:\n${avoid.map((t) => `- ${t}`).join("\n")}`
+    ? `\n\nAlready in the cloud — do NOT repeat these or produce near-duplicates of them (this is a sample; the cloud has ~1400 ideas, so also avoid obvious cousins of these):\n${avoid.map((t) => `- ${t}`).join("\n")}`
     : "";
   return `You are the idea engine for "Divvy", an idea cloud. Below are live signals scraped from an arbitrary subset of several trusted public feeds (which feeds appear varies run to run).
 
 Riff ${HOW_MANY} FRESH, buildable weekend-project or video-game ideas. Let the feeds spark you SIDEWAYS — do not summarize or clone them. Cross-pollinate across sources. Favor a novel ANGLE over a novel topic. Be genuinely creative and a little mischievous. Skip anything generic or done to death (another wrapper, another to-do app, "run a local model", a straight clone of something in the feed).
+
+IMPORTANT — VARIETY MANDATE: the cloud is heavily over-indexed on multiplayer/party/social-deduction games (they are ~40% of it already). Do NOT default to "N players each on their phone…". Unless a party concept is genuinely exceptional, make these ${HOW_MANY} ideas SOLO tools, toys, visualizations, games, or real businesses. Spread them across DIFFERENT domains — do not return ${HOW_MANY} variations on one theme.
+
+Aim this run at these hungry domains (pick different ones for each idea):
+${focusBlock}
 
 Creative pushes for this run:
 ${spark}
@@ -185,7 +218,12 @@ async function main() {
   await mkdir(PRDS, { recursive: true });
   const store = await loadIdeas(IDEAS_FILE);
   const existing = new Set(store.ideas.map((i) => i.slug));
-  const avoid = store.ideas.slice(0, 50).map((i) => i.title); // cap so the prompt stays bounded as the cloud grows
+  // avoid-list: 50 titles was far too small once the cloud passed 1000 ideas — the scanner
+  // kept regenerating the same names ("Table Stakes" x6). Sample the newest 120 PLUS a random
+  // 180 from the rest so the model sees a broad cross-section without blowing the prompt up.
+  const recent = store.ideas.slice(0, 120).map((i) => i.title);
+  const older = shuffle(store.ideas.slice(120).map((i) => i.title)).slice(0, 180);
+  const avoid = [...recent, ...older];
 
   const digest = await gatherSources();
   const raw = await callClaude(buildPrompt(digest, avoid));

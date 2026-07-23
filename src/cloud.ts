@@ -113,32 +113,45 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
     };
   });
 
-  // --- galaxies: cluster ideas by DOMAIN (what the idea is about), not source/medium ---
-  const DOMAINS: { name: string; tags: string[] }[] = [
-    { name: "games", tags: ["game", "games", "gamedev", "roguelike", "deckbuilder", "arpg", "autobattler", "idle", "tycoon", "sim", "management-sim", "farm-sim", "cozy-sim", "pet-sim", "procedural", "procgen", "permadeath", "speedrun", "browser-game", "party-game", "field-game", "racer", "crpg", "survival", "survival-horror", "horror", "fantasy", "grimdark", "sandbox", "puzzle", "physics-puzzle", "stealth-puzzle", "daily-game", "wordgame", "guessing", "geoguess", "teardown-sim", "trucking-sim", "detective", "narrative"] },
-    { name: "data viz", tags: ["data-viz", "dataviz", "map", "animated-map", "choropleth", "glyph-small-multiples", "spatial-join", "polar-clock", "timeline-tower", "silhouette-ribbons", "map-pillar", "map-spectrogram", "3d-viz", "playable-data", "gis", "osm"] },
-    { name: "dev & ops", tags: ["devtool", "devtools", "git", "ci", "docker", "kubernetes", "rust", "sql", "postgres", "code", "code-review", "refactor", "testing", "coverage", "homelab", "sysadmin", "ops", "self-hosted", "incident", "logs", "telemetry", "cron", "dns", "bandwidth", "processes", "assembly", "ast", "reverse-engineering", "engineering", "hardware", "teardown", "inspection"] },
-    { name: "ai & ml", tags: ["llm", "ml", "language-model", "agents", "agent-loop", "prompt-craft", "turing-test", "perplexity", "ai-forensics"] },
-    { name: "science & nature", tags: ["science", "physics", "physics-toy", "audio-physics", "astronomy", "geology", "nature", "mycology", "materials", "dendro", "morphogen", "cellular-automata", "phenology-drift", "entropy", "radar", "sonar", "computer-vision", "color-science", "biometrics"] },
-    { name: "finance", tags: ["finance", "economics", "economy", "prediction-market", "prediction", "risk-reward"] },
-    { name: "business & work", tags: ["business", "saas", "marketplace", "b2b", "startup", "monetization", "logistics", "crm", "automation", "ops-tool", "side-hustle"] },
-    { name: "language & text", tags: ["language", "nlp", "corporate-linguistics", "literary-rhythm", "wordgame", "unicode", "steganography", "japanese", "ocr", "compression"] },
-    { name: "art & sound", tags: ["generative", "generative-art", "art", "canvas", "webgl", "graphics", "three-js", "wallpaper", "screensaver", "color", "animation", "audio", "audio-waveform-grid", "generative-music", "rhythm", "pop-music", "webaudio", "morse"] },
-    { name: "life & self", tags: ["productivity", "calendar", "contacts", "email", "focus", "quantified-self", "self-tracking", "chores", "receipts", "relationships", "roommates", "care-sim", "wearable", "sleep", "treadmill", "strava", "location"] },
-    { name: "ambient & toys", tags: ["ambient", "ambient-dashboard", "whimsy", "desktop-toy", "desktop", "menubar", "macos", "tamagotchi", "systems-toy", "ritual", "memento-mori", "screensaver"] },
-    { name: "social & party", tags: ["social", "party", "multiplayer", "coop", "co-op", "deduction", "social-deduction", "competitive", "leaderboard", "matchmaking", "fantasy-league", "voting", "community", "party-game"] },
-    { name: "security & privacy", tags: ["security", "privacy", "forensics", "anti-cheat", "adtech", "provenance", "heritage", "identification"] },
+  // --- galaxies: cluster ideas by DOMAIN + genre. PRIORITY-ORDERED — an idea joins the
+  // FIRST bucket (top to bottom) that any of its tags match, so a specific genre (deduction,
+  // wordplay, audio) wins over the generic "party"/"game" catch-alls at the bottom. This
+  // fractures the big themes into many small clusters instead of one 800-bubble blob.
+  // Tune ORDER as the cloud grows; keep specific genres above generic catch-alls. ----
+  const ORDER: [string, string[]][] = [
+    ["deduction", ["social-deduction", "hidden-role", "traitor", "betrayal", "deduction", "impostor", "spy"]],
+    ["bluffing & secrets", ["hidden-info", "hidden-information", "bluffing", "anonymity", "asymmetric", "secret", "tell", "poker"]],
+    ["word play", ["wordgame", "word", "spelling", "anagram", "vocabulary", "typing", "letters", "lexicon", "language", "nlp", "writing"]],
+    ["audio & voice", ["audio", "voice", "sound", "rhythm", "singing", "hearing", "music-game", "earwitness", "listening"]],
+    ["motion & sensor", ["sensor", "spatial", "motion", "tilt", "accelerometer", "gesture", "gps", "geolocation", "ar"]],
+    ["betting & bidding", ["betting", "auction", "bidding", "drafting", "wager", "prediction-market", "stakes", "gambling"]],
+    ["drawing", ["drawing", "sketch", "doodle", "pictionary", "draw"]],
+    ["co-op", ["cooperative", "coop", "co-op", "coordination", "convergence", "teamwork", "collaborative"]],
+    ["roguelike & deck", ["roguelike", "deckbuilder", "arpg", "autobattler", "card-game", "deck"]],
+    ["sim & tycoon", ["tycoon", "idle", "sim", "management-sim", "farm-sim", "cozy-sim", "pet-sim", "incremental", "city-builder", "colony"]],
+    ["puzzle", ["puzzle", "physics-puzzle", "stealth-puzzle", "logic"]],
+    ["adventure", ["survival", "survival-horror", "horror", "narrative", "detective", "story", "rpg", "crpg", "platformer", "exploration"]],
+    ["security & privacy", ["security", "privacy", "forensics", "provenance", "anti-cheat", "adtech", "identification", "steganography"]],
+    ["dev & ops", ["devtool", "devtools", "git", "ci", "docker", "kubernetes", "rust", "sql", "postgres", "homelab", "self-hosted", "observability", "cli", "code", "code-review", "ops-tool", "sysadmin", "logs", "telemetry"]],
+    ["ai & ml", ["llm", "ml", "agents", "prompt", "computer-vision", "embeddings", "language-model", "turing-test"]],
+    ["data viz", ["data-viz", "dataviz", "map", "timeline", "3d-viz", "gis", "dashboard", "choropleth", "osm", "visualization"]],
+    ["science & nature", ["astronomy", "biology", "chemistry", "nature", "materials", "cellular-automata", "mycology", "geology", "radar", "sonar", "biometrics", "science", "physics"]],
+    ["finance", ["finance", "economics", "economy", "markets", "budgeting", "prediction", "risk-reward"]],
+    ["business & work", ["business", "saas", "marketplace", "b2b", "startup", "monetization", "logistics", "crm", "automation", "side-hustle"]],
+    ["art & sound", ["generative", "art", "canvas", "webgl", "graphics", "three-js", "wallpaper", "screensaver", "color", "animation", "music", "generative-art"]],
+    ["life & self", ["productivity", "quantified-self", "calendar", "health", "habits", "relationships", "chores", "self-tracking", "wearable", "sleep", "focus", "email"]],
+    ["ambient & toys", ["ambient", "desktop-toy", "whimsy", "menubar", "macos", "tamagotchi", "keepsake", "ritual"]],
+    ["party games", ["party", "party-game", "social", "multiplayer", "competitive", "leaderboard", "matchmaking", "versus", "real-time", "hidden"]],
+    ["games", ["game", "browser-game", "procedural", "procgen", "arcade", "speedrun", "sandbox", "gamedev"]],
   ];
-  const domTag = new Map<string, string>();
-  DOMAINS.forEach((dom) => dom.tags.forEach((t) => { if (!domTag.has(t)) domTag.set(t, dom.name); }));
+  const domTag = new Map<string, number>(); // tag -> rank of the FIRST bucket that lists it
+  ORDER.forEach(([, tags], i) => tags.forEach((t) => { if (!domTag.has(t)) domTag.set(t, i); }));
   nodes.forEach((d) => {
-    const score: Record<string, number> = {};
-    (d.tags || []).forEach((t) => { const dom = domTag.get(t); if (dom) score[dom] = (score[dom] || 0) + 1; });
-    let best = "other", bestC = 0;
-    for (const [dom, c] of Object.entries(score)) if (c > bestC) { bestC = c; best = dom; }
-    d.galaxy = best;
+    let bestRank = Infinity;
+    (d.tags || []).forEach((t) => { const r = domTag.get(t); if (r != null && r < bestRank) bestRank = r; });
+    d.galaxy = bestRank === Infinity ? "other" : ORDER[bestRank][0];
   });
-  const galaxyKeys = DOMAINS.map((d) => d.name).filter((g) => nodes.some((n) => n.galaxy === g));
+  const galaxyKeys = ORDER.map(([name]) => name).filter((g) => nodes.some((n) => n.galaxy === g));
   if (nodes.some((n) => n.galaxy === "other")) galaxyKeys.push("other");
   // Give each galaxy a packing radius from its members, then lay the galaxies out as
   // NON-OVERLAPPING blobs via a mini force-sim on the cluster centers — so the clusters
@@ -383,9 +396,12 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
   window.addEventListener("keydown", onKeyDown);
   window.addEventListener("keyup", onKeyUp);
 
-  // pre-settle synchronously, then freeze the sim (drag/vote reheat it)
+  // pre-settle synchronously, then freeze the sim (drag/vote reheat it). Fewer ticks for big
+  // clouds: they're seeded pre-spread in their rings already, so the settle only tightens
+  // packing — 360 ticks over 1000+ nodes is a needless load-time hang.
   sim.stop();
-  for (let i = 0; i < 360; i++) sim.tick();
+  const SETTLE = nodes.length > 800 ? 170 : 360;
+  for (let i = 0; i < SETTLE; i++) sim.tick();
   nodes.forEach((d) => { d._rx = d.x; d._ry = d.y; });
 
   // fit the whole settled cloud into view (used on load and by the reset button)
@@ -449,14 +465,19 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
       ctx.beginPath(); ctx.arc(p.x, p.y, R, 0, 2 * Math.PI); ctx.fill();
     }
 
-    // 2) rays from each idea to its galaxy sun (skip when dimmed / far offscreen)
-    ctx.lineWidth = 1.1;
-    for (const d of nodes) {
-      const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
-      if (rx < cMinX || rx > cMaxX || ry < cMinY || ry > cMaxY) continue;
-      const c = gpos[d.galaxy!];
-      ctx.strokeStyle = dimPred(d) ? "rgba(198,214,255,0.05)" : "rgba(198,214,255,0.32)";
-      ctx.beginPath(); ctx.moveTo(rx, ry); ctx.lineTo(c.x, c.y); ctx.stroke();
+    // 2) rays from each idea to its galaxy sun (skip when dimmed / far offscreen).
+    // PERF: at full-cloud zoom every ray overlaps into an unreadable hairball AND costs one
+    // stroke per node (1000s/frame), so skip the whole pass when zoomed out — only draw rays
+    // once you're zoomed in enough to actually read them, where culling leaves just a handful.
+    if (k > 0.22) {
+      ctx.lineWidth = 1.1;
+      for (const d of nodes) {
+        const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
+        if (rx < cMinX || rx > cMaxX || ry < cMinY || ry > cMaxY) continue;
+        const c = gpos[d.galaxy!];
+        ctx.strokeStyle = dimPred(d) ? "rgba(198,214,255,0.05)" : "rgba(198,214,255,0.32)";
+        ctx.beginPath(); ctx.moveTo(rx, ry); ctx.lineTo(c.x, c.y); ctx.stroke();
+      }
     }
 
     // 3) galaxy suns (glow + warm body + label)
@@ -488,12 +509,16 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
     // 4a) BLOOM pass — hot (high-heat) bubbles blow out and bleed light into their
     // neighbours. globalCompositeOperation "lighter" sums overlapping glows, so the hottest
     // clusters glow brightest and the very hottest go white-hot. Cool bubbles add ~nothing.
+    // PERF: bloom allocates a fresh radial gradient per hot bubble — at full-cloud zoom that
+    // is hundreds of allocations/frame for glows too small to even see. Skip the entire pass
+    // when zoomed out, and skip individual bubbles once they're under ~7px on screen.
+    if (k > 0.16) {
     ctx.globalCompositeOperation = "lighter";
     for (const d of nodes) {
       if (dimPred(d)) continue;
       const rx = d._rx ?? d.x, ry = d._ry ?? d.y;
       if (rx < cMinX || rx > cMaxX || ry < cMinY || ry > cMaxY) continue;
-      if (d.r * k < 2) continue; // skip bloom only when truly minuscule
+      if (d.r * k < 7) continue; // skip bloom on tiny (zoomed-out) bubbles
       const p = d._p ?? 0.5;
       const hv = d._hv ?? 0;
       // only the hot HALF blooms, ramping steeply — cool bubbles stay dark so the hot ones
@@ -521,6 +546,7 @@ export function createCloud(canvasEl: HTMLCanvasElement, ideas: Idea[], handlers
         ctx.fillStyle = cg;
         ctx.beginPath(); ctx.arc(rx, ry, cr, 0, 2 * Math.PI); ctx.fill();
       }
+    }
     }
     ctx.globalCompositeOperation = "source-over";
 
