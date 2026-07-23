@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-07-22",
+  "lastScan": "2026-07-23",
   "ideas": [
+    {
+      "slug": "sleeper-2",
+      "title": "Sleeper",
+      "hook": "Everyone's phone spits out orders addressed to secret codenames — you read them aloud for strangers while frantically filtering the flood for the one name that's yours.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "read-back-2-2",
+      "title": "Read Back",
+      "hook": "One phone is Tower reading a full clearance aloud in phonetic radio-speak; the rest are pilots who must transcribe only their own aircraft's numbers by ear before the sky fills with cross-talk.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "covers",
+      "title": "Covers",
+      "hook": "A real restaurant menu fills the TV with the prices redacted; everyone secretly orders the one dish they actually want, then privately bets chips on which dish the whole table will crave most — a Keynesian beauty contest over dinner.",
+      "tags": [
+        "party",
+        "betting-market",
+        "social",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "chyron",
+      "title": "Chyron",
+      "hook": "A short clip plays once while a live betting ticker crawls under it — everyone privately longs or shorts the outcome and re-bets in real time as the evidence unfolds, and the odds on the TV move without ever showing whose money is where.",
+      "tags": [
+        "party",
+        "betting-market",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "sequence-break-2",
+      "title": "Sequence Break",
+      "hook": "A shared hero auto-runs through a Metroidvania of locked gates and each of you secretly holds exactly ONE traversal ability, so clearing the map is a frantic shouted scramble of 'who has DASH?!' timed to the split-second the gate arrives.",
+      "tags": [
+        "party",
+        "cooperative",
+        "platformer",
+        "timing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "ricochet",
+      "title": "Ricochet",
+      "hook": "A co-op grid-tactics scramble stolen from Into the Breach: the enemies telegraph exactly where they'll strike, but only your phone knows which shove you're holding — so you have to talk your way into redirecting doom.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle-game",
+        "grid"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "byte-pair",
+      "title": "Byte Pair",
+      "hook": "A daily Wordle-shaped puzzle where you guess how a word shatters into tokens — learn in your bones why the model thinks 'strawberry' has two r's and why ' petertodd' summons demons.",
+      "tags": [
+        "wordgame",
+        "llm",
+        "nlp",
+        "puzzle"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "postinstall",
+      "title": "Postinstall",
+      "hook": "Before you run that take-home coding assignment, Postinstall detonates it in a sandbox and shows you exactly which git hook, npm lifecycle script, or obfuscated payload was waiting to phone home the second you typed `npm install`.",
+      "tags": [
+        "security",
+        "devtool",
+        "cli",
+        "forensics"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "write-down",
+      "title": "Write-Down",
+      "hook": "Kelley Blue Book for used AI hardware — punch in a rack of H100s and get a defensible fair-market value backed by real sold comps and a depreciation curve nobody else has bothered to build.",
+      "tags": [
+        "finance",
+        "marketplace",
+        "saas",
+        "hardware"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
     {
       "slug": "stow",
       "title": "Stow",
