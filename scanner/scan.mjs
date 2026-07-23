@@ -6,7 +6,7 @@
 import { writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { slugify, shuffle, extractJSON, callClaude, loadIdeas } from "./lib.mjs";
+import { slugify, normTitle, shuffle, extractJSON, callClaude, loadIdeas } from "./lib.mjs";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, "..");
 const DATA = join(ROOT, "public", "data"); // Vite serves public/ at the site root
@@ -218,6 +218,7 @@ async function main() {
   await mkdir(PRDS, { recursive: true });
   const store = await loadIdeas(IDEAS_FILE);
   const existing = new Set(store.ideas.map((i) => i.slug));
+  const seenTitles = new Set(store.ideas.map((i) => normTitle(i.title)));
   // avoid-list: 50 titles was far too small once the cloud passed 1000 ideas — the scanner
   // kept regenerating the same names ("Table Stakes" x6). Sample the newest 120 PLUS a random
   // 180 from the rest so the model sees a broad cross-section without blowing the prompt up.
@@ -232,11 +233,15 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10);
   let added = 0;
 
+  let skipped = 0;
   for (const idea of fresh) {
     if (!idea.title) continue;
+    const tkey = normTitle(idea.title);
+    if (seenTitles.has(tkey)) { skipped++; continue; } // title-level dedup — the real fix
+    seenTitles.add(tkey);
     let slug = slugify(idea.title);
     if (!slug) continue;
-    while (existing.has(slug)) slug = `${slug}-2`;
+    for (let n = 2; existing.has(slug); n++) slug = `${slugify(idea.title)}-${n}`;
     existing.add(slug);
 
     if (idea.prd) await writeFile(join(PRDS, `${slug}.md`), idea.prd.trim() + "\n");
@@ -257,7 +262,8 @@ async function main() {
   const bySource = {};
   for (const i of store.ideas.slice(0, added)) bySource[i.source] = (bySource[i.source] || 0) + 1;
   const breakdown = Object.entries(bySource).map(([s, n]) => `${s}:${n}`).join(" ");
-  console.log(`Divvy scan: added ${added} idea(s) [${breakdown}]; ${store.ideas.length} total.`);
+  const skipNote = skipped ? ` (${skipped} dup-title skipped)` : "";
+  console.log(`Divvy scan: added ${added} idea(s) [${breakdown}]${skipNote}; ${store.ideas.length} total.`);
 }
 
 main().catch((e) => { console.error("scan failed:", e.message); process.exit(1); });

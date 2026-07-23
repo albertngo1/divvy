@@ -9,6 +9,13 @@ export function slugify(s) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 48);
 }
 
+// Normalized title key for duplicate detection. Slug-only dedup let the model regenerate the
+// same TITLE forever (unique slug via the "-2" suffix, but "Table Stakes" x6 in the cloud);
+// admission loops must skip any idea whose normTitle already exists.
+export function normTitle(s) {
+  return (s || "").toLowerCase().replace(/\s+/g, " ").trim();
+}
+
 export function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {

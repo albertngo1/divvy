@@ -11,7 +11,7 @@
 import { writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { slugify, shuffle, extractJSON, callClaude, loadIdeas } from "./lib.mjs";
+import { slugify, normTitle, shuffle, extractJSON, callClaude, loadIdeas } from "./lib.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, "..");
@@ -77,8 +77,12 @@ async function main() {
   await mkdir(PRDS, { recursive: true });
   const store = await loadIdeas(IDEAS_FILE);
   const existing = new Set(store.ideas.map((i) => i.slug));
-  // Avoid list: existing party-game titles (bounded) so agents don't re-pitch them.
-  const avoid = store.ideas.filter((i) => (i.tags || []).includes("party")).slice(0, 60).map((i) => i.title);
+  const seenTitles = new Set(store.ideas.map((i) => normTitle(i.title)));
+  // Avoid list: existing party-game titles so agents don't re-pitch them. 60 was too small once
+  // there were hundreds of party games — agents kept re-pitching titles past the window (Earshot
+  // x5, Tell x5). Sample the newest 80 party titles PLUS a random 120 from the rest.
+  const partyTitles = store.ideas.filter((i) => (i.tags || []).includes("party")).map((i) => i.title);
+  const avoid = [...partyTitles.slice(0, 80), ...shuffle(partyTitles.slice(80)).slice(0, 120)];
 
   const themes = shuffle(THEMES).slice(0, Math.max(1, AGENTS));
   console.log(`Divvy party: spawning ${themes.length} parallel agent(s), ${PER_AGENT} idea(s) each${DRY ? " [dry]" : ""}...`);
@@ -95,12 +99,15 @@ async function main() {
   });
 
   const today = new Date().toISOString().slice(0, 10);
-  let added = 0;
+  let added = 0, skipped = 0;
   for (const idea of fresh) {
     if (!idea.title) continue;
+    const tkey = normTitle(idea.title);
+    if (seenTitles.has(tkey)) { skipped++; continue; } // title-level dedup — also catches two
+    seenTitles.add(tkey);                              // agents pitching the same title this run
     let slug = slugify(idea.title);
     if (!slug) continue;
-    while (existing.has(slug)) slug = `${slug}-2`;
+    for (let n = 2; existing.has(slug); n++) slug = `${slugify(idea.title)}-${n}`;
     existing.add(slug);
 
     let tags = Array.isArray(idea.tags) ? idea.tags.slice(0, 4) : ["party"];
@@ -131,7 +138,8 @@ async function main() {
   }
   store.lastScan = today;
   await writeFile(IDEAS_FILE, JSON.stringify(store, null, 2) + "\n");
-  console.log(`Divvy party: added ${added} idea(s) from ${themes.length} agent(s); ${store.ideas.length} total.`);
+  const skipNote = skipped ? ` (${skipped} dup-title skipped)` : "";
+  console.log(`Divvy party: added ${added} idea(s) from ${themes.length} agent(s)${skipNote}; ${store.ideas.length} total.`);
 }
 
 main().catch((e) => { console.error("party failed:", e.message); process.exit(1); });

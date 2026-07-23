@@ -30,20 +30,6 @@
       "created": "2026-07-23"
     },
     {
-      "slug": "blind-spot-2",
-      "title": "Blind Spot",
-      "hook": "A museum heist where the guards' sweeping vision cones are invisible on the shared map — each phone sees only the slice of danger around its own burglar, so the whole picture exists only in the room's shouting.",
-      "tags": [
-        "party",
-        "stealth",
-        "hidden-information",
-        "social"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
       "slug": "sequence-break-2",
       "title": "Sequence Break",
       "hook": "One hero sprints a metroidvania death-gauntlet on the TV, and every phone owns exactly one traversal power that only it can fire in its own private timing window.",
@@ -82,19 +68,6 @@
       ],
       "score": 77,
       "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "skein-2",
-      "title": "Skein",
-      "hook": "Drop in any CSV edge list and it de-tangles the hairball with real edge bundling you can scrub live — plus guided challenges that teach you what bundled graphs can and can't tell you.",
-      "tags": [
-        "data-viz",
-        "visualization",
-        "graphics"
-      ],
-      "score": 62,
-      "source": "arxiv",
       "created": "2026-07-23"
     },
     {
@@ -180,20 +153,6 @@
       "created": "2026-07-23"
     },
     {
-      "slug": "watermark",
-      "title": "Watermark",
-      "hook": "Everyone secretly rewrites the same sentence while hiding a stylistic 'tell' only their phone knows — and the whole room wins only if, in the reveal, nobody's fingerprint can be pinned.",
-      "tags": [
-        "party",
-        "wordgame",
-        "anonymity",
-        "social-deduction"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
       "slug": "cel-2",
       "title": "Cel",
       "hook": "Everyone secretly draws one frame of a looping animation, seeing only a faint ghost of the frame before theirs — hit play and the blind flipbook wobbles to life as a shared GIF.",
@@ -249,20 +208,6 @@
       "created": "2026-07-23"
     },
     {
-      "slug": "cadence",
-      "title": "Cadence",
-      "hook": "With no metronome, no audio, and no peeking, everyone rocks their phone like a pendulum until three bodies silently fall into the same unspoken tempo.",
-      "tags": [
-        "party",
-        "cooperative",
-        "sensor",
-        "convergence"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
       "slug": "cohort-2",
       "title": "Cohort",
       "hook": "Silently sort nine slippery tiles into three bins the same way everyone else does — no labels, no talking, just a shared hidden sense of what belongs together.",
@@ -273,20 +218,6 @@
         "browser-game"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "standing-wave-2",
-      "title": "Standing Wave",
-      "hook": "The TV hums a pure tone that carves the room into invisible loud and quiet pockets, and each phone is secretly told to go stand in a node or an antinode using only its own private mic meter.",
-      "tags": [
-        "party",
-        "audio",
-        "sensor",
-        "spatial"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-23"
     },
@@ -342,19 +273,6 @@
         "economics"
       ],
       "score": 63,
-      "source": "hn",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "enfilade-2",
-      "title": "Enfilade",
-      "hook": "An explorable, walkable atlas of Christopher Alexander's 253 design patterns rendered as a living city where each pattern is a room and its cross-references are the doorways.",
-      "tags": [
-        "data-viz",
-        "visualization",
-        "generative"
-      ],
-      "score": 66,
       "source": "hn",
       "created": "2026-07-23"
     },
@@ -423,34 +341,6 @@
         "hidden-information"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "detour-2",
-      "title": "Detour",
-      "hook": "A Navigator talks a blind convoy toward the exit — but one traveler was secretly told to steer everyone into the wrong door, hiding their sabotage inside everyone else's honest fumbling.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "asymmetric",
-        "cooperative"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "usher-2",
-      "title": "Usher",
-      "hook": "In a pitch-dark theater, the mute Usher sees the seating chart and every stumbling patron — but can only flick a penlight arrow onto one lost phone at a time.",
-      "tags": [
-        "party",
-        "cooperative",
-        "asymmetric",
-        "browser-game"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-23"
     },
@@ -7276,20 +7166,6 @@
       "created": "2026-07-14"
     },
     {
-      "slug": "cel",
-      "title": "Cel",
-      "hook": "Everyone draws one frame of the same looping animation at the same time, each phone haunted by a live ghost of the frame the person before them is drawing right now — and the room keeps the wobbly GIF.",
-      "tags": [
-        "party",
-        "drawing",
-        "cooperative",
-        "browser-game"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-14"
-    },
-    {
       "slug": "face-down",
       "title": "Face Down",
       "hook": "Everyone silently sets their phone down some way — flat, upright, screen-down — and the room only scores if, without a single word, all of you chose the exact same pose.",
@@ -8767,20 +8643,6 @@
       "created": "2026-07-12"
     },
     {
-      "slug": "cohort",
-      "title": "Cohort",
-      "hook": "The new federal rule ties financial aid to whether grads out-earn a high-schooler — Cohort tells a small college if each program is about to flunk that test, before the Department of Education does.",
-      "tags": [
-        "saas",
-        "b2b",
-        "automation",
-        "education"
-      ],
-      "score": 71,
-      "source": "hn",
-      "created": "2026-07-12"
-    },
-    {
       "slug": "contraband",
       "title": "Contraband",
       "hook": "You're handed one weird word you must smuggle into a sentence so smoothly the language model never flinches — while everyone else hunts your sentence for the one spike that gives you away.",
@@ -9685,19 +9547,6 @@
       "created": "2026-07-11"
     },
     {
-      "slug": "blackout-2",
-      "title": "Blackout",
-      "hook": "Everyone redacts their own words on one shared page to carve a group blackout poem — while secretly keeping one word alive without getting caught protecting it.",
-      "tags": [
-        "party",
-        "wordgame",
-        "social-deduction"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
       "slug": "prop-bet",
       "title": "Prop Bet",
       "hook": "A live prop-betting layer for whatever show you're already watching — each phone secretly holds a different hand of 'will happen' cards and you wager, hidden, on the same scene.",
@@ -10029,20 +9878,6 @@
         "deduction"
       ],
       "score": 68,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "sequence-break",
-      "title": "Sequence Break",
-      "hook": "One tiny metroidvania map on the TV, one shared runner token, and the only way past each colored gate is the phone secretly holding that key — some doors need two players to turn theirs at the exact same instant.",
-      "tags": [
-        "party",
-        "cooperative",
-        "metroidvania",
-        "hidden-info"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-10"
     },
