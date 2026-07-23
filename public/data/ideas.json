@@ -2,6 +2,130 @@
   "lastScan": "2026-07-23",
   "ideas": [
     {
+      "slug": "defilade",
+      "title": "Defilade",
+      "hook": "An Into-the-Breach-style tactics grid where the enemies' next attacks are public on the TV but the fog of war is private — each player commands one mech that can only see its own slice of the board, so you have to call out what you see before anyone commits a move.",
+      "tags": [
+        "party",
+        "cooperative",
+        "tactics",
+        "hidden-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "soft-lock",
+      "title": "Soft Lock",
+      "hook": "A shared metroidvania explorer crawls one map on the TV, but every locked door can only be opened by the one player secretly holding that ability — so the whole room has to shout its way to the artifact before the move budget runs dry.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-info",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "duty-free",
+      "title": "Duty Free",
+      "hook": "A Sheriff of Nottingham smuggling bluff where every phone secretly packs a bag and slides the customs officer private bribes nobody else can see.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "bluffing"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "outward",
+      "title": "Outward",
+      "hook": "A Hanabi riff where your phone shows you everyone's hand but your own — the whole room helps you play cards you've never seen.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "detour-2",
+      "title": "Detour",
+      "hook": "A Navigator talks a blind convoy toward the exit — but one traveler was secretly told to steer everyone into the wrong door, hiding their sabotage inside everyone else's honest fumbling.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "asymmetric",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "usher-2",
+      "title": "Usher",
+      "hook": "In a pitch-dark theater, the mute Usher sees the seating chart and every stumbling patron — but can only flick a penlight arrow onto one lost phone at a time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "as-is",
+      "title": "As-Is",
+      "hook": "A tycoon roguelike where you buy pallets of used GPUs whose real value nobody knows, gamble on which ones are dead or mining-abused, and farm the survivors out BitTorrent-style before the power bill and the AI-bubble crash catch you.",
+      "tags": [
+        "game",
+        "tycoon",
+        "sim",
+        "economics"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "reversal",
+      "title": "Reversal",
+      "hook": "A one-command lint that reads any grouped table or SQL result and screams when your headline trend flips sign the moment you disaggregate — a Simpson's-paradox smoke detector for dashboards.",
+      "tags": [
+        "sql",
+        "observability",
+        "cli",
+        "data-viz"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "golden-angle",
+      "title": "Golden Angle",
+      "hook": "A living toy that grows a sunflower head one floret at a time from the actual auxin reaction-diffusion rules — and plucks a note each time the plant 'discovers' the golden angle on its own.",
+      "tags": [
+        "biology",
+        "nature",
+        "cellular-automata",
+        "audio"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-23"
+    },
+    {
       "slug": "reframe",
       "title": "Reframe",
       "hook": "The same busy photo lands on every phone; you each secretly drag a viewfinder to frame 'what this picture is really of,' and you win only when all your crops land on the same thing.",
@@ -43,61 +167,6 @@
       "created": "2026-07-23"
     },
     {
-      "slug": "backseat-2-2",
-      "title": "Backseat",
-      "hook": "A blind Tetris where you can see your own falling-block well but can't touch it — your neighbor controls it by ear while you frantically drive a well you'll never see.",
-      "tags": [
-        "party",
-        "puzzle-game",
-        "cooperative"
-      ],
-      "score": 72,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "parlay-2-2",
-      "title": "Parlay",
-      "hook": "Before a silent 15-second reality clip plays, each phone secretly builds a 3-leg prop-bet slip — then the whole room sweats their private parlay as the clip resolves leg by leg on the TV.",
-      "tags": [
-        "party",
-        "betting",
-        "video",
-        "browser-game"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "chalk-2-2",
-      "title": "Chalk",
-      "hook": "Everyone stares at the same takeout menu, but you're secretly stacking chips on which dish the TABLE will crave — bet the room's appetite, not your own.",
-      "tags": [
-        "party",
-        "betting",
-        "social",
-        "browser-game"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "carve-2",
-      "title": "Carve",
-      "hook": "A Monster Hunter loop for your bank statement — recurring charges are monsters you track by their spawn pattern, learn their tells, and hunt to extinction by landing the cancel.",
-      "tags": [
-        "game",
-        "finance",
-        "sim",
-        "quantified-self"
-      ],
-      "score": 65,
-      "source": "steam",
-      "created": "2026-07-23"
-    },
-    {
       "slug": "detonate",
       "title": "Detonate",
       "hook": "One command drops a suspicious take-home coding project into a disposable microVM and tells you what its `npm install` tried to do — before it does it to your real machine.",
@@ -125,34 +194,6 @@
       "created": "2026-07-23"
     },
     {
-      "slug": "sleeper-2",
-      "title": "Sleeper",
-      "hook": "Everyone's phone spits out orders addressed to secret codenames — you read them aloud for strangers while frantically filtering the flood for the one name that's yours.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "read-back-2-2",
-      "title": "Read Back",
-      "hook": "One phone is Tower reading a full clearance aloud in phonetic radio-speak; the rest are pilots who must transcribe only their own aircraft's numbers by ear before the sky fills with cross-talk.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "audio"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
       "slug": "covers",
       "title": "Covers",
       "hook": "A real restaurant menu fills the TV with the prices redacted; everyone secretly orders the one dish they actually want, then privately bets chips on which dish the whole table will crave most — a Keynesian beauty contest over dinner.",
@@ -177,20 +218,6 @@
         "browser-game"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-23"
-    },
-    {
-      "slug": "sequence-break-2",
-      "title": "Sequence Break",
-      "hook": "A shared hero auto-runs through a Metroidvania of locked gates and each of you secretly holds exactly ONE traversal ability, so clearing the map is a frantic shouted scramble of 'who has DASH?!' timed to the split-second the gate arrives.",
-      "tags": [
-        "party",
-        "cooperative",
-        "platformer",
-        "timing"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-23"
     },
@@ -418,20 +445,6 @@
       "created": "2026-07-22"
     },
     {
-      "slug": "squelch-2-2",
-      "title": "Squelch",
-      "hook": "One radio channel, four people with urgent traffic, and physics that garbles anyone who keys up at the same time — so the real game is scheduling the airwave you can't all have.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-22"
-    },
-    {
       "slug": "character-witness",
       "title": "Character Witness",
       "hook": "Each phone is secretly assigned one other player to vouch for in an anonymous testimonial, and you win only if the person you praised can't tell it was you.",
@@ -457,20 +470,6 @@
       ],
       "score": 74,
       "source": "party",
-      "created": "2026-07-22"
-    },
-    {
-      "slug": "escrow-2",
-      "title": "Escrow",
-      "hook": "A clipboard where CUT is a transaction, not a gamble — cut items sit in a visible on-screen 'holding tray' with a pulsing pending badge, so an interrupting copy can never silently vaporize the thing you were about to move.",
-      "tags": [
-        "devtool",
-        "productivity",
-        "self-hosted",
-        "cli"
-      ],
-      "score": 62,
-      "source": "hn",
       "created": "2026-07-22"
     },
     {
@@ -651,20 +650,6 @@
       "created": "2026-07-22"
     },
     {
-      "slug": "zoetrope-2-2",
-      "title": "Zoetrope",
-      "hook": "Each phone secretly animates one frame of a shared 3-frame loop, seeing only faint ghost-trails of the frames before and after — and the wobbly little GIF you all made blind is yours to keep.",
-      "tags": [
-        "party",
-        "drawing",
-        "cooperative",
-        "keepsake"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-22"
-    },
-    {
       "slug": "session",
       "title": "Session",
       "hook": "Three phones lay down three tracks of one groove at the exact same time — but each of you only hears a metronome and your own part, so the beat you build together is a beautiful blind guess.",
@@ -675,19 +660,6 @@
         "keepsake"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-22"
-    },
-    {
-      "slug": "beeline-2",
-      "title": "Beeline",
-      "hook": "The same little obstacle-strewn grid sits on the TV; each of you privately finger-traces the route from start to goal you're sure everyone else will pick, and the room wins only when all three paths are the identical string of cells.",
-      "tags": [
-        "party",
-        "cooperative",
-        "puzzle"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-22"
     },
@@ -771,20 +743,6 @@
         "hidden-information"
       ],
       "score": 70,
-      "source": "party",
-      "created": "2026-07-22"
-    },
-    {
-      "slug": "enfilade-2",
-      "title": "Enfilade",
-      "hook": "XCOM squeezed onto four phones: you each command one soldier and see only through their eyes, so the aliens are invisible on the TV until somebody has line-of-sight — and the only way to flank is to shout what you see.",
-      "tags": [
-        "party",
-        "cooperative",
-        "tactics",
-        "hidden-info"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-22"
     },
@@ -873,34 +831,6 @@
       "created": "2026-07-22"
     },
     {
-      "slug": "depth-chart-2",
-      "title": "Depth Chart",
-      "hook": "Five things, one axis, no talking — everyone privately drags them into a top-to-bottom ranking, and the room wins only when all your lists agree, which means silently settling every gut-call tie the same way.",
-      "tags": [
-        "party",
-        "cooperative",
-        "browser-game",
-        "convergence"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-22"
-    },
-    {
-      "slug": "watershed-2",
-      "title": "Watershed",
-      "hook": "Rain falls on a branching river-delta and every phone privately steers one raindrop down through the forks — you win only when all of you, with no word spoken, pick the exact same route to the exact same mouth.",
-      "tags": [
-        "party",
-        "cooperative",
-        "browser-game",
-        "convergence"
-      ],
-      "score": 72,
-      "source": "party",
-      "created": "2026-07-22"
-    },
-    {
       "slug": "stage-left",
       "title": "Stage Left",
       "hook": "The group talks a marker across a shared map by shouting private directions — but one player's map is secretly mirrored, so their earnest 'go left!' is everyone else's right, and 'I always mix up left and right' is the perfect alibi.",
@@ -968,62 +898,6 @@
       ],
       "score": 71,
       "source": "arxiv",
-      "created": "2026-07-22"
-    },
-    {
-      "slug": "cold-spot-2",
-      "title": "Cold Spot",
-      "hook": "Phasmophobia for your homelab: hunt the intermittent gremlin haunting your services by gathering 'evidence' — error EMF, latency cold spots, log whispers — and match it to a bestiary of failure ghosts.",
-      "tags": [
-        "observability",
-        "homelab",
-        "self-hosted",
-        "devtool"
-      ],
-      "score": 68,
-      "source": "steam",
-      "created": "2026-07-22"
-    },
-    {
-      "slug": "air-gap-2",
-      "title": "Air Gap",
-      "hook": "The backflow tester's carbon-copy nightmare, fixed: capture your gauge readings once and the app auto-fills and e-files the right report to whichever of 3,000 water districts owns that meter.",
-      "tags": [
-        "logistics",
-        "saas",
-        "b2b",
-        "automation"
-      ],
-      "score": 64,
-      "source": "wild",
-      "created": "2026-07-22"
-    },
-    {
-      "slug": "mouthpiece-2",
-      "title": "Mouthpiece",
-      "hook": "Each phone gets a different secret word and must write a short prompt that makes the model want to say it next — without ever typing the word itself.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game",
-        "deduction"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-22"
-    },
-    {
-      "slug": "dark-horse-2",
-      "title": "Dark Horse",
-      "hook": "Guess the model's next word — but the obvious pick everyone lands on cancels out, so you're hunting the high-probability completion nobody else spotted.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game",
-        "schelling"
-      ],
-      "score": 73,
-      "source": "party",
       "created": "2026-07-22"
     },
     {
@@ -1388,34 +1262,6 @@
       "created": "2026-07-21"
     },
     {
-      "slug": "earshot-2-2-2-2",
-      "title": "Earshot",
-      "hook": "Whisper your passphrase to your target quietly enough that only their phone hears you — because every other phone in the room is an eavesdropper waiting to intercept.",
-      "tags": [
-        "party",
-        "audio",
-        "sensor",
-        "social"
-      ],
-      "score": 75,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "detour-2-2",
-      "title": "Detour",
-      "hook": "You cooperatively drive one car across a fogged city map, each phone privately holding a slice of the directions — but the imposter's slice says turn left where yours says right, and they can't see the real turn to fake it.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "cooperative",
-        "hidden-role"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
       "slug": "composite-2-2-2",
       "title": "Composite",
       "hook": "Everyone studies the same crowded scene on their phone — but the imposter's copy quietly swapped one detail, and now they have to lie about a red door they never saw as blue.",
@@ -1439,19 +1285,6 @@
         "wordgame"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "detour-2",
-      "title": "Detour",
-      "hook": "A phone-native Just One where every clue-giver writes blind with a private \"originality meter\" ticking from Obvious to Way Out — play it too safe and your clue collides into oblivion, play it too weird and the guesser is stranded.",
-      "tags": [
-        "party",
-        "wordgame",
-        "cooperative"
-      ],
-      "score": 71,
       "source": "party",
       "created": "2026-07-21"
     },
@@ -1511,33 +1344,6 @@
       "created": "2026-07-21"
     },
     {
-      "slug": "semaphore-2",
-      "title": "Semaphore",
-      "hook": "Everyone waves their phone through the air at once, and the room becomes a wall of anonymous light-ribbons you win by vanishing into.",
-      "tags": [
-        "party",
-        "anonymity",
-        "sensor"
-      ],
-      "score": 66,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "deadpan-2",
-      "title": "Deadpan",
-      "hook": "A silent laughing contest where your own phone is the incorruptible referee busting you the instant you make a sound—while a secret order tells you exactly which rival you're supposed to crack.",
-      "tags": [
-        "party",
-        "audio",
-        "sensor",
-        "social"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
       "slug": "second-wind",
       "title": "Second Wind",
       "hook": "Blow into your phone to fill your sail and steer a shared boat—but the instant anyone says a word, the mic hears the voice instead of the breath and rips their sail to shreds.",
@@ -1577,20 +1383,6 @@
       ],
       "score": 71,
       "source": "party",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "foxing-2",
-      "title": "Foxing",
-      "hook": "A screensaver that takes your faithfully-captured Gaussian-splat 3D spaces and does the artful opposite of photogrammetry — letting them slowly fox, blur, and shed splats into a haunted dream-architecture on an exponential half-life since the day you scanned them.",
-      "tags": [
-        "generative",
-        "3d-viz",
-        "screensaver",
-        "art"
-      ],
-      "score": 68,
-      "source": "arxiv",
       "created": "2026-07-21"
     },
     {
@@ -1776,20 +1568,6 @@
       "created": "2026-07-21"
     },
     {
-      "slug": "quaff-2",
-      "title": "Quaff",
-      "hook": "A co-op roguelike where nobody knows what any potion does — your party must drink, throw, and shout results to identify a shared set of unlabeled brews before the boss on the TV grinds you all to zero.",
-      "tags": [
-        "party",
-        "cooperative",
-        "hidden-information",
-        "deduction"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
       "slug": "garbage-time",
       "title": "Garbage Time",
       "hook": "A bullet-hell survival game where each phone is your own private curtain of fire — dodge cleanly and the bullets you clear rain down onto a friend's screen instead.",
@@ -1832,34 +1610,6 @@
       "created": "2026-07-21"
     },
     {
-      "slug": "rosetta-2",
-      "title": "Rosetta",
-      "hook": "A phone party game where one player invents a tiny picture-writing system and everyone else races to decipher a message — armed only with a fragmentary Rosetta stone.",
-      "tags": [
-        "party-game",
-        "multiplayer",
-        "wordgame",
-        "language"
-      ],
-      "score": 69,
-      "source": "arxiv",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "round-trip-2",
-      "title": "Round Trip",
-      "hook": "An idle tycoon where you run an AI lab and quietly finance your own revenue in circles — the boom looks unstoppable until the day the paper unwinds.",
-      "tags": [
-        "tycoon",
-        "idle",
-        "finance",
-        "economics"
-      ],
-      "score": 67,
-      "source": "hn",
-      "created": "2026-07-21"
-    },
-    {
       "slug": "nitpick",
       "title": "Nitpick",
       "hook": "A daily puzzle where a math conjecture looks obviously true and your only job is to break it — racing the same AI that's been out-counterexampling human mathematicians.",
@@ -1884,20 +1634,6 @@
         "second-screen"
       ],
       "score": 76,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "table-stakes-2-2-2-2-2",
-      "title": "Table Stakes",
-      "hook": "Before the food arrives, secretly bet on what everyone else at the table is about to order off the shared menu.",
-      "tags": [
-        "party",
-        "betting",
-        "social",
-        "prediction"
-      ],
-      "score": 72,
       "source": "party",
       "created": "2026-07-21"
     },
@@ -1944,20 +1680,6 @@
       "created": "2026-07-21"
     },
     {
-      "slug": "cliffhanger-2-2-2",
-      "title": "Cliffhanger",
-      "hook": "Write the sentence-stem that leaves the little language model most unable to guess what comes next — suspense scored as pure next-token entropy.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game",
-        "deduction"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
       "slug": "bortle",
       "title": "Bortle",
       "hook": "Drop a pin on where you grew up and watch the night sky brighten year by year into a shareable 'we lost 400 stars' postcard, computed from public satellite radiance.",
@@ -1968,20 +1690,6 @@
         "nature"
       ],
       "score": 63,
-      "source": "hn",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "sightline-2",
-      "title": "Sightline",
-      "hook": "Type your city and get a one-page dossier of every ALPR/Flock camera near you and every gap between what the vendor promised the city council and what's actually bolted to the poles.",
-      "tags": [
-        "privacy",
-        "security",
-        "gis",
-        "self-hosted"
-      ],
-      "score": 68,
       "source": "hn",
       "created": "2026-07-21"
     },
@@ -2026,19 +1734,6 @@
       "created": "2026-07-21"
     },
     {
-      "slug": "family-style-2-2-2-2",
-      "title": "Family Style",
-      "hook": "Stare at a takeout menu together and privately bet chips on which dishes the table will crave most — while secretly casting the one craving-vote you actually control.",
-      "tags": [
-        "party",
-        "betting",
-        "social"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
       "slug": "tout-2-2",
       "title": "Tout",
       "hook": "Watch a clip together, but the server has slipped each of your phones a different secret tip about what happens next — some gold, some garbage — and you bet real chips on the outcome before the reveal.",
@@ -2063,33 +1758,6 @@
       ],
       "score": 67,
       "source": "party",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "planchette-2-2",
-      "title": "Planchette",
-      "hook": "You're handed one absurd secret word and must write the lead-in that makes a tiny language model treat it as the only word that could possibly come next.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-21"
-    },
-    {
-      "slug": "reclaim",
-      "title": "Reclaim",
-      "hook": "A phone-first refrigerant logbook for HVAC techs that turns the EPA-mandated leak paperwork nobody wants to do into the customer invoice they have to send anyway—log the pounds added once, get compliance math and a billable line item for free.",
-      "tags": [
-        "saas",
-        "b2b",
-        "ops-tool",
-        "automation"
-      ],
-      "score": 65,
-      "source": "wild",
       "created": "2026-07-21"
     },
     {
@@ -2119,20 +1787,6 @@
       "score": 73,
       "source": "hn",
       "created": "2026-07-21"
-    },
-    {
-      "slug": "test-audience-2",
-      "title": "Test Audience",
-      "hook": "The TV screens a reel of gut-punch clips and you privately bet on how the ROOM will split — knowing you're one of the votes you're trying to read.",
-      "tags": [
-        "party",
-        "betting",
-        "social-deduction",
-        "browser-game"
-      ],
-      "score": 72,
-      "source": "party",
-      "created": "2026-07-20"
     },
     {
       "slug": "deuce",
@@ -2327,20 +1981,6 @@
       ],
       "score": 73,
       "source": "party",
-      "created": "2026-07-20"
-    },
-    {
-      "slug": "short-order-2",
-      "title": "Short Order",
-      "hook": "A phones-around-the-table party game where your only vocabulary is Google's 100,000 fused Emoji Kitchen mashups, and you have 30 seconds to plate a secret word before the timer burns your dish.",
-      "tags": [
-        "party-game",
-        "multiplayer",
-        "social",
-        "wordgame"
-      ],
-      "score": 62,
-      "source": "github",
       "created": "2026-07-20"
     },
     {
@@ -2594,20 +2234,6 @@
       "created": "2026-07-20"
     },
     {
-      "slug": "filibuster-2",
-      "title": "Filibuster",
-      "hook": "Forward your spam calls to an AI voice agent that keeps scammers rambling for as long as possible — and compete with friends on a live leaderboard of total scammer-minutes wasted.",
-      "tags": [
-        "security",
-        "agents",
-        "audio",
-        "leaderboard"
-      ],
-      "score": 69,
-      "source": "github",
-      "created": "2026-07-20"
-    },
-    {
       "slug": "pinfall",
       "title": "Pinfall",
       "hook": "Snap a photo of the lane's score printout and it auto-computes every bowler's handicap and league standings — retiring the league secretary's crusty Excel file forever.",
@@ -2622,20 +2248,6 @@
       "created": "2026-07-20"
     },
     {
-      "slug": "switchback-2",
-      "title": "Switchback",
-      "hook": "Everyone steers a language model one tapped word at a time down their own private branch, racing to bend the context until an absurd target word becomes reachable.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game",
-        "real-time"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-20"
-    },
-    {
       "slug": "dark-horse",
       "title": "Dark Horse",
       "hook": "Fill the blank with the word the model thinks is a long shot but your friends all secretly thought of too — score is surprisal times how many of you collided.",
@@ -2645,34 +2257,6 @@
         "browser-game"
       ],
       "score": 76,
-      "source": "party",
-      "created": "2026-07-20"
-    },
-    {
-      "slug": "facet-2",
-      "title": "Facet",
-      "hook": "One object sits in the middle of the table and everyone must 'scan' all its sides — but each phone only sees the faces its seat happens to face, so you shout and spin it until nobody's blind spot is left.",
-      "tags": [
-        "party",
-        "cooperative",
-        "sensor",
-        "camera"
-      ],
-      "score": 66,
-      "source": "party",
-      "created": "2026-07-20"
-    },
-    {
-      "slug": "telegraph-2",
-      "title": "Telegraph",
-      "hook": "Someone knuckle-raps a secret rhythm on the shared table, and every phone lying on it feels a different faintness — triangulate the traitor by the tremor.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "sensor",
-        "spatial"
-      ],
-      "score": 73,
       "source": "party",
       "created": "2026-07-20"
     },
@@ -2718,20 +2302,6 @@
       "created": "2026-07-20"
     },
     {
-      "slug": "fire-sale-2",
-      "title": "Fire Sale",
-      "hook": "Lethal Company's escalating profit-quota loop, but the dark facility you scavenge is your own cluttered apartment and the scrap is appraised against real eBay sold prices.",
-      "tags": [
-        "game",
-        "chores",
-        "multiplayer",
-        "sim"
-      ],
-      "score": 66,
-      "source": "steam",
-      "created": "2026-07-20"
-    },
-    {
       "slug": "white-label",
       "title": "White Label",
       "hook": "OCR the FCC ID off any gadget and it unmasks the real factory behind the brand — proving your 'premium' device and a $20 Amazon dupe rolled off the same line.",
@@ -2770,19 +2340,6 @@
         "audio"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-20"
-    },
-    {
-      "slug": "deadfall-2-2-2",
-      "title": "Deadfall",
-      "hook": "One team feeds clues to guess a word while the other team has secretly buried a minefield of forbidden words in the clue-giver's path — and the trappers plant their mines blind to each other.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "wordgame"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-20"
     },
@@ -3119,20 +2676,6 @@
       "created": "2026-07-20"
     },
     {
-      "slug": "skew-2",
-      "title": "Skew",
-      "hook": "Everyone watches the same silent clip and taps each crash — but one player's feed runs half a second ahead, so they keep reacting before it happens.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "browser-game",
-        "hidden-information"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
       "slug": "overheard",
       "title": "Overheard",
       "hook": "You all heard the same voicemail through your own phone — except one of you heard it wrong, and doesn't know it.",
@@ -3171,20 +2714,6 @@
         "spatial"
       ],
       "score": 73,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
-      "slug": "splice-2-2",
-      "title": "Splice",
-      "hook": "Paired up but unable to see each other, you each write one half of a sentence — and you're scored only on how smoothly the model swallows the seam where your halves collide.",
-      "tags": [
-        "party",
-        "cooperative",
-        "wordgame",
-        "browser-game"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-19"
     },
@@ -3271,33 +2800,6 @@
       "created": "2026-07-19"
     },
     {
-      "slug": "cliffhanger-2-2",
-      "title": "Cliffhanger",
-      "hook": "Write the grammatical sentence-stem that leaves the little language model most paralyzed about what word could possibly come next.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
-      "slug": "brownout-2-2",
-      "title": "Brownout",
-      "hook": "A reverse proxy that serves your website's images progressively worse as your monthly bandwidth quota drains, so the whole site visibly 'browns out' toward billing day and heals on the 1st.",
-      "tags": [
-        "self-hosted",
-        "ambient",
-        "art",
-        "homelab"
-      ],
-      "score": 63,
-      "source": "github",
-      "created": "2026-07-19"
-    },
-    {
       "slug": "cover-track",
       "title": "Cover Track",
       "hook": "A drum machine that plays a generative groove locked to your typing cadence, drowning out acoustic keystroke-inference attacks on your mic.",
@@ -3326,20 +2828,6 @@
       "created": "2026-07-19"
     },
     {
-      "slug": "kickline-2",
-      "title": "Kickline",
-      "hook": "The whole room performs the same clap-stomp-spin routine in unison to a metronome — but one dancer's private choreography is one beat off, and nobody can see the 'real' routine to know who's fumbling.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "physical",
-        "audio"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
       "slug": "fire-drill",
       "title": "Fire Drill",
       "hook": "Everyone studies the same office floor plan for the fastest exit — but one worker's blueprint is quietly wrong, and they have no idea theirs is the odd map.",
@@ -3350,20 +2838,6 @@
         "spatial"
       ],
       "score": 69,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
-      "slug": "tuning-fork-2-2",
-      "title": "Tuning Fork",
-      "hook": "One player's phone tells them to hum the root; everyone else's phone privately assigns them an interval above it, and the room has to build a chord by ear before the meter turns green.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "audio"
-      ],
-      "score": 66,
       "source": "party",
       "created": "2026-07-19"
     },
@@ -3479,19 +2953,6 @@
       "created": "2026-07-19"
     },
     {
-      "slug": "comeback-2",
-      "title": "Comeback",
-      "hook": "A pass-the-pack draft where the real game is secretly betting which card will survive a full loop of the table and wheel back into your hands.",
-      "tags": [
-        "party",
-        "drafting",
-        "prediction"
-      ],
-      "score": 66,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
       "slug": "taper",
       "title": "Taper",
       "hook": "An open, ascending relic auction that can gutter out at any hidden second — bid past your own secret valuation and you inherit the winner's curse.",
@@ -3602,20 +3063,6 @@
       "created": "2026-07-19"
     },
     {
-      "slug": "overdub-2-2-2",
-      "title": "Overdub",
-      "hook": "You're voice actors dubbing one silent film, each holding a private cue sheet — but the moment two of you are 'on air' at once, the take muddies and both lines are rejected.",
-      "tags": [
-        "party",
-        "timing",
-        "real-time",
-        "audio"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
       "slug": "limelight",
       "title": "Limelight",
       "hook": "You each work a follow-spot on a dark stage tracking your own secret dancer — but if any two beams overlap, the glare blinds the house and the audience boos.",
@@ -3658,20 +3105,6 @@
       "created": "2026-07-19"
     },
     {
-      "slug": "composite-2-2",
-      "title": "Composite",
-      "hook": "The artful inverse of an ad-blocker: instead of blocking trackers it feeds them, then reconstructs the police-sketch 'composite' of you that ad-tech has quietly assembled.",
-      "tags": [
-        "privacy",
-        "security",
-        "ambient",
-        "generative"
-      ],
-      "score": 55,
-      "source": "github",
-      "created": "2026-07-19"
-    },
-    {
       "slug": "cuckoo",
       "title": "Cuckoo",
       "hook": "The mischievous opposite of ESLint: it injects subtle, style-matched bugs into real PRs so you can measure whether your reviewers — human OR AI — actually catch anything.",
@@ -3686,33 +3119,6 @@
       "created": "2026-07-19"
     },
     {
-      "slug": "karat",
-      "title": "Karat",
-      "hook": "A Zachtronics-style puzzle where you rewire long multiplication by hand and race to beat the schoolbook algorithm's operation count — Karatsuba is a level, not a lecture.",
-      "tags": [
-        "puzzle",
-        "procedural",
-        "browser-game"
-      ],
-      "score": 55,
-      "source": "hn",
-      "created": "2026-07-19"
-    },
-    {
-      "slug": "assay-2",
-      "title": "Assay",
-      "hook": "Everyone bids on the same mystery lot, but your phone shows only one hidden clue about what it's really worth—and the estimate you announce to the room is allowed to be a lie.",
-      "tags": [
-        "party",
-        "auction",
-        "bluffing",
-        "hidden-information"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
       "slug": "reach",
       "title": "Reach",
       "hook": "Snake-draft a shared row of tiles in full view of the table—but only your phone knows which of them you actually need, and the smartest picks are the ones that hide your plan.",
@@ -3723,34 +3129,6 @@
         "deduction"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
-      "slug": "standoff-2",
-      "title": "Standoff",
-      "hook": "Everyone secretly points a gun at someone and secretly decides whether it's loaded — then the TV snaps up every arrow at once, the targeted scramble to fold, and whoever's still standing over a real Bang splits the loot.",
-      "tags": [
-        "party",
-        "bluffing",
-        "hidden-information",
-        "real-time"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
-      "slug": "underhand-2",
-      "title": "Underhand",
-      "hook": "A pocket game of Skull: build a face-down stack of roses only you can see, then bluff your way through a bid ladder promising to flip clean — while praying nobody makes you reveal where you buried your one skull.",
-      "tags": [
-        "party",
-        "bluffing",
-        "social-deduction",
-        "browser-game"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-19"
     },
@@ -3853,20 +3231,6 @@
       "created": "2026-07-19"
     },
     {
-      "slug": "regift-2",
-      "title": "Regift",
-      "hook": "You're handed a wrapped gift and told what's inside — but you only glimpsed the real contents for two seconds, so when you pass it on you must decide whether to tell the truth or lie about a present you can barely remember.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "memory",
-        "bluffing"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-19"
-    },
-    {
       "slug": "snag",
       "title": "Snag",
       "hook": "You describe a secret word to your team while the enemy team has privately buried invisible trap words in the exact phrases you're about to say — one wrong syllable and their phones spring the mine.",
@@ -3935,34 +3299,6 @@
       "score": 68,
       "source": "steam",
       "created": "2026-07-19"
-    },
-    {
-      "slug": "mondegreen-2-2",
-      "title": "Mondegreen",
-      "hook": "Say something dumb into your phone so a 500kb speech model mishears it as the exact target sentence — closest garble that means something totally different wins the round.",
-      "tags": [
-        "party-game",
-        "wordgame",
-        "audio",
-        "multiplayer"
-      ],
-      "score": 72,
-      "source": "hn",
-      "created": "2026-07-19"
-    },
-    {
-      "slug": "earshot-2-2-2",
-      "title": "Earshot",
-      "hook": "Pass a secret word to the player beside you by whispering it past the laptop in the middle of the table — because that laptop's mic is the bug, and if it hears you, the alarm trips.",
-      "tags": [
-        "party",
-        "cooperative",
-        "audio",
-        "sensor"
-      ],
-      "score": 75,
-      "source": "party",
-      "created": "2026-07-18"
     },
     {
       "slug": "filibuster",
@@ -4044,20 +3380,6 @@
       ],
       "score": 65,
       "source": "lobsters",
-      "created": "2026-07-18"
-    },
-    {
-      "slug": "airlock-2",
-      "title": "Airlock",
-      "hook": "Before you point your coding agent at a stranger's repo, Airlock sniffs the README, setup scripts, and devcontainer for the hidden 'run this and get owned' payloads that target AI agents, not you.",
-      "tags": [
-        "security",
-        "agents",
-        "devtool",
-        "cli"
-      ],
-      "score": 71,
-      "source": "arxiv",
       "created": "2026-07-18"
     },
     {
@@ -4197,20 +3519,6 @@
         "spatial"
       ],
       "score": 72,
-      "source": "party",
-      "created": "2026-07-18"
-    },
-    {
-      "slug": "report-2",
-      "title": "Report",
-      "hook": "One player claps once in the dark; everyone else's phone secretly heard a different loudness, and you must silently line up by true distance from the sound — no numbers allowed, only your feet.",
-      "tags": [
-        "party",
-        "audio",
-        "sensor",
-        "cooperative"
-      ],
-      "score": 67,
       "source": "party",
       "created": "2026-07-18"
     },
@@ -4381,20 +3689,6 @@
       "created": "2026-07-18"
     },
     {
-      "slug": "desire-path-2",
-      "title": "Desire Path",
-      "hook": "Your whole year of walking accretes into a single unbroken ink line on a blank map, and the routes you repeat wear dark, until the paths you actually love show themselves without a basemap.",
-      "tags": [
-        "quantified-self",
-        "ambient",
-        "map",
-        "generative"
-      ],
-      "score": 68,
-      "source": "wild",
-      "created": "2026-07-18"
-    },
-    {
       "slug": "siteswap-2",
       "title": "Siteswap",
       "hook": "Line up your phones like juggling hands and keep a virtual ball airborne across all of them, obeying a real siteswap pattern that speeds up until someone drops it.",
@@ -4505,20 +3799,6 @@
       "created": "2026-07-18"
     },
     {
-      "slug": "welcome-mat-2",
-      "title": "Welcome Mat",
-      "hook": "A pre-flight scanner that reads a repo the way your AI coding agent would — README, CLAUDE.md, setup scripts, devcontainer — and flags the booby-trapped instructions before you point Claude Code at a stranger's project.",
-      "tags": [
-        "security",
-        "cli",
-        "agents",
-        "devtool"
-      ],
-      "score": 70,
-      "source": "arxiv",
-      "created": "2026-07-18"
-    },
-    {
       "slug": "patchwerk",
       "title": "Patchwerk",
       "hook": "A Zachtronics-style programming puzzle where the entire game is writing an action-priority-list rotation and watching a deterministic combat sim grind it into a DPS number.",
@@ -4575,20 +3855,6 @@
       "created": "2026-07-18"
     },
     {
-      "slug": "markdown-2",
-      "title": "Markdown",
-      "hook": "A Dutch-auction clock ticks the price down on one lot while every phone privately whispers what it's secretly worth to you — grab too early and you overpay, blink and a rival who values it more snatches it first.",
-      "tags": [
-        "party",
-        "auction",
-        "economic",
-        "hidden-information"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-18"
-    },
-    {
       "slug": "down-peak",
       "title": "Down Peak",
       "hook": "Three of you each secretly pilot one elevator through a rush-hour crush, and the one thing you must never do is send two cabs to the same floor — redundant service jams the call and wastes the trip.",
@@ -4626,20 +3892,6 @@
       ],
       "score": 66,
       "source": "hn",
-      "created": "2026-07-18"
-    },
-    {
-      "slug": "exploded-view-2",
-      "title": "Exploded View",
-      "hook": "Point it at a codebase module and it renders a Lego-manual — a numbered, exploded-isometric assembly diagram where files and dependencies snap together one illustrated step at a time.",
-      "tags": [
-        "devtool",
-        "generative",
-        "git",
-        "whimsy"
-      ],
-      "score": 65,
-      "source": "lobsters",
       "created": "2026-07-18"
     },
     {
@@ -4710,20 +3962,6 @@
       "created": "2026-07-18"
     },
     {
-      "slug": "sprawl",
-      "title": "Sprawl",
-      "hook": "A QWOP-style ragdoll sprint where each phone drives exactly one leg of a shared runner and only you can feel whether your foot is planted — so the whole thing is a shouting match to take three steps.",
-      "tags": [
-        "party",
-        "physics",
-        "cooperative",
-        "real-time"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-18"
-    },
-    {
       "slug": "footsie",
       "title": "Footsie",
       "hook": "A two-phone fighting-game staredown where you tiptoe on a shared lane and try to poke the exact instant your rival steps into a range only your phone can see.",
@@ -4735,20 +3973,6 @@
       ],
       "score": 75,
       "source": "party",
-      "created": "2026-07-18"
-    },
-    {
-      "slug": "cascade",
-      "title": "Cascade",
-      "hook": "Everyone in the circle holds a phone; it buzzes when it's your beat to 'throw,' you swipe toward a neighbor, and the group tries to keep a real juggling siteswap alive without two throws colliding in the same slot.",
-      "tags": [
-        "party-game",
-        "multiplayer",
-        "audio",
-        "social"
-      ],
-      "score": 62,
-      "source": "arxiv",
       "created": "2026-07-18"
     },
     {
@@ -4830,19 +4054,6 @@
         "tactics"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-18"
-    },
-    {
-      "slug": "corpse-2",
-      "title": "Corpse",
-      "hook": "A last-one-to-make-a-sound endurance duel where every phone privately feeds ITS owner different bait to crack them — and one secret Instigator scores whenever anyone else breaks.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "audio"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-18"
     },
@@ -4953,20 +4164,6 @@
         "social"
       ],
       "score": 71,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
-      "slug": "brownout-2",
-      "title": "Brownout",
-      "hook": "Four appliances, one breaker, and only you can see how much power yours pulls — so shout your load before the panel trips and resets everyone's cook.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-17"
     },
@@ -5082,20 +4279,6 @@
       "created": "2026-07-17"
     },
     {
-      "slug": "order-up-2-2-2",
-      "title": "Order Up",
-      "hook": "One player secretly picks the whole table's dinner off a real menu; everyone else privately fills a prop-bet slip trying to read exactly what they ordered.",
-      "tags": [
-        "party",
-        "betting",
-        "social-deduction",
-        "menu"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
       "slug": "called-shot",
       "title": "Called Shot",
       "hook": "Watch a competition clip together and privately lock your prediction whenever your gut says so — the earlier you call it, the bigger the payout, but the less you've actually seen.",
@@ -5180,19 +4363,6 @@
       "created": "2026-07-17"
     },
     {
-      "slug": "ballpark-2-2",
-      "title": "Ballpark",
-      "hook": "Given a fuzzy phrase like \"a couple minutes,\" everyone secretly slides to their gut value on the same scale — and you only win if your intuitions land on top of each other.",
-      "tags": [
-        "party",
-        "cooperative",
-        "browser-game"
-      ],
-      "score": 66,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
       "slug": "tattoo",
       "title": "Tattoo",
       "hook": "Everyone privately taps out a rhythm for the same fuzzy prompt — win only if you all, blind and silent, drum the exact same beat.",
@@ -5203,32 +4373,6 @@
         "timing"
       ],
       "score": 76,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
-      "slug": "regift",
-      "title": "Regift",
-      "hook": "You glimpsed your gift for five seconds before it flipped face-down forever — now pass it off as a scarf and pray nobody yells 'that's not a scarf.'",
-      "tags": [
-        "party",
-        "memory",
-        "bluffing"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
-      "slug": "deadfall-2-2",
-      "title": "Deadfall",
-      "hook": "You have to talk a room into guessing VOLCANO while everyone else has secretly buried the words you'll instinctively reach for — and only they can hear you step on one.",
-      "tags": [
-        "party",
-        "wordgame",
-        "hidden-information"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-17"
     },
@@ -5275,20 +4419,6 @@
       "created": "2026-07-17"
     },
     {
-      "slug": "live-wire-2",
-      "title": "Live Wire",
-      "hook": "One player sees the electrified floor grid on their phone; the others must physically cross the room blind, guided only by silent private buzzes and arrows pulsed to each of their phones one step at a time.",
-      "tags": [
-        "party",
-        "cooperative",
-        "spatial",
-        "hidden-information"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
       "slug": "talkdown-2",
       "title": "Talkdown",
       "hook": "One player is the ground controller staring at a radar map only they can see, talking two blindfolded-by-instruments pilots down onto the runway before they run out of fuel.",
@@ -5329,20 +4459,6 @@
       "created": "2026-07-17"
     },
     {
-      "slug": "squelch-2",
-      "title": "Squelch",
-      "hook": "Three walkie-talkies, one crowded spectrum, and a private map of dead air only you can see — find a clear channel that no one else drifts into, or the whole room drowns in static.",
-      "tags": [
-        "party",
-        "anti-coordination",
-        "real-time",
-        "audio"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
       "slug": "doorbuster",
       "title": "Doorbuster",
       "hook": "It's a Black Friday stampede: everyone lunges for the deal they secretly want most, and two hands on the same item means it shatters and you both walk away with nothing.",
@@ -5368,20 +4484,6 @@
       ],
       "score": 68,
       "source": "hn",
-      "created": "2026-07-17"
-    },
-    {
-      "slug": "sev-one-2",
-      "title": "Sev One",
-      "hook": "Overcooked, but the kitchen is your on-call rotation: alerts fire, latency climbs, and two frantic players sling runbook commands to keep a fake stack alive before the SLO burns.",
-      "tags": [
-        "party-game",
-        "observability",
-        "multiplayer",
-        "sim"
-      ],
-      "score": 63,
-      "source": "steam",
       "created": "2026-07-17"
     },
     {
@@ -5468,20 +4570,6 @@
       "created": "2026-07-17"
     },
     {
-      "slug": "overround-2",
-      "title": "Overround",
-      "hook": "One of you is the secret bookie setting live odds on a nail-biter clip; the rest bet blind against the house, and the book only wins if the room reads it wrong.",
-      "tags": [
-        "party",
-        "betting",
-        "social-deduction",
-        "real-time"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
       "slug": "saccade",
       "title": "Saccade",
       "hook": "Your webcam watches where your eyes actually wander across a painting, then overlays how a trained painter scanned the same canvas — and coaches you, look by look, to stop fixating on the faces and start seeing the composition.",
@@ -5537,20 +4625,6 @@
       "created": "2026-07-17"
     },
     {
-      "slug": "decant",
-      "title": "Decant",
-      "hook": "Pour one shared drink around a human ring by physically turning to face whoever you're topping up — tilt toward empty air and it splashes on the floor.",
-      "tags": [
-        "party",
-        "cooperative",
-        "sensor",
-        "spatial"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
       "slug": "give-way",
       "title": "Give Way",
       "hook": "Everyone answers the same prompt at once, aiming to be the only one who says a given thing — and your phone buzzes hotter the closer your half-typed answer drifts toward someone else's, forcing you to swerve without ever seeing theirs.",
@@ -5573,19 +4647,6 @@
         "hidden-information"
       ],
       "score": 67,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
-      "slug": "tell-2-2-2-2",
-      "title": "Tell",
-      "hook": "You're all watching the same cringe clip — but each of you has secretly bet on how one specific person in the room will react, so the real show is the faces around you.",
-      "tags": [
-        "party",
-        "betting",
-        "bluffing"
-      ],
-      "score": 71,
       "source": "party",
       "created": "2026-07-17"
     },
@@ -5673,19 +4734,6 @@
       "created": "2026-07-17"
     },
     {
-      "slug": "the-usual-2",
-      "title": "The Usual",
-      "hook": "A menu appears on the TV, everyone secretly locks in their dream order, and then you bet your chips on exactly what each friend picked — proving how well you actually know the table.",
-      "tags": [
-        "party",
-        "betting",
-        "social-deduction"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-17"
-    },
-    {
       "slug": "fade",
       "title": "Fade",
       "hook": "A 40-second nature-doc cliffhanger becomes a live betting floor where the crowd's money is public but yours is secret — and betting against the room pays the most.",
@@ -5753,20 +4801,6 @@
       ],
       "score": 69,
       "source": "lobsters",
-      "created": "2026-07-17"
-    },
-    {
-      "slug": "alibi-2",
-      "title": "Alibi",
-      "hook": "The AI-detector flagged your essay because you're autistic, not a cheat — Alibi shows exactly which sentences trip the classifier and packages your keystroke/edit history into a report that clears you.",
-      "tags": [
-        "provenance",
-        "privacy",
-        "writing",
-        "nlp"
-      ],
-      "score": 73,
-      "source": "arxiv",
       "created": "2026-07-17"
     },
     {
@@ -5852,20 +4886,6 @@
       "created": "2026-07-17"
     },
     {
-      "slug": "tell-2-2-2",
-      "title": "Tell",
-      "hook": "A Turing-test party game where the sin is reversed — spotting the AI earns a little, but falsely accusing a human of being a bot costs you double and hands the wrongly-accused player a 'you write too weird to be real' bonus.",
-      "tags": [
-        "party-game",
-        "social-deduction",
-        "multiplayer",
-        "nlp"
-      ],
-      "score": 71,
-      "source": "wild",
-      "created": "2026-07-17"
-    },
-    {
       "slug": "outgas",
       "title": "Outgas",
       "hook": "Your home server is rendered as a rocky exoplanet slowly losing its atmosphere — free storage and drive health bleed off as a comet tail, and every night's snapshot accretes into a year-long poster of your machine's atmospheric decay.",
@@ -5892,20 +4912,6 @@
       "score": 74,
       "source": "arxiv",
       "created": "2026-07-17"
-    },
-    {
-      "slug": "foley-2-2",
-      "title": "Foley",
-      "hook": "Your group scores a silent film clip live on phone soundboards, hitting cues from your private cue sheet — but one player's sheet has the timings swapped, so a door slams where the glass should shatter and everyone has to guess who fumbled.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "audio",
-        "browser-game"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-16"
     },
     {
       "slug": "detour",
@@ -6170,20 +5176,6 @@
       "created": "2026-07-16"
     },
     {
-      "slug": "overdub-2-2",
-      "title": "Overdub",
-      "hook": "Each phone is a different instrument's step-sequencer that only you can hear — hit play and the blind-assembled beat you all made together is a surprise you get to keep.",
-      "tags": [
-        "party",
-        "cooperative",
-        "audio",
-        "keepsake"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
       "slug": "marginalia-2",
       "title": "Marginalia",
       "hook": "Everyone scribbles anonymous margin notes into the same creepy old book page at once — and the haunted, over-annotated result is yours to keep.",
@@ -6324,34 +5316,6 @@
       "created": "2026-07-16"
     },
     {
-      "slug": "downbeat-2-2",
-      "title": "Downbeat",
-      "hook": "A six-digit combo scattered across your phones, one digit per beat — shout yours exactly on the metronome's click or the lock resets, and the tempo only speeds up.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
-      "slug": "earshot-2-2",
-      "title": "Earshot",
-      "hook": "Every phone plays the same emergency dispatch, but each ear only catches different words through the static — reconstruct the full call before the room burns its shared replay budget.",
-      "tags": [
-        "party",
-        "cooperative",
-        "audio",
-        "voice"
-      ],
-      "score": 75,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
       "slug": "flick",
       "title": "Flick",
       "hook": "A party deduction game where you watch a handful of ghostly mouse-and-keypress replays and have to finger the aimbot — because bots, like liars, always twitch a little too perfectly.",
@@ -6434,34 +5398,6 @@
       "created": "2026-07-16"
     },
     {
-      "slug": "cue-2",
-      "title": "Cue",
-      "hook": "Everyone privately scrubs their own copy of the same silent clip and drops a pin on the exact instant it happens — no talking, and you win only when all your pins land on the same frame.",
-      "tags": [
-        "party",
-        "cooperative",
-        "convergence",
-        "browser-game"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
-      "slug": "family-style-2-2-2",
-      "title": "Family Style",
-      "hook": "Staring at a takeout menu deciding what to share becomes a secret market where you bet chips on what the table will actually order — while your own hidden craving vote is one of the inputs you're wagering on.",
-      "tags": [
-        "party",
-        "betting",
-        "social",
-        "menu"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
       "slug": "vig",
       "title": "Vig",
       "hook": "A short suspense clip freezes on the cliff, and everyone secretly slings chips into a shared parimutuel pool — back the obvious favorite for pennies, or be the lone contrarian who calls the upset and cleans up.",
@@ -6515,19 +5451,6 @@
       ],
       "score": 70,
       "source": "wild",
-      "created": "2026-07-16"
-    },
-    {
-      "slug": "table-stakes-2-2-2-2",
-      "title": "Table Stakes",
-      "hook": "You're 'ordering for the table' off a menu on the TV, but each phone secretly owns a stake in one dish — so every round is a hidden bet to steer the table's final order toward your dish without getting read.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "betting"
-      ],
-      "score": 68,
-      "source": "party",
       "created": "2026-07-16"
     },
     {
@@ -6651,46 +5574,6 @@
         "keepsake"
       ],
       "score": 70,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
-      "slug": "planchette-2",
-      "title": "Planchette",
-      "hook": "A wordless séance where the whole room's phones tug one Ouija planchette across the TV to channel a message — while each of you secretly smuggles in an assigned word.",
-      "tags": [
-        "party",
-        "cooperative",
-        "real-time",
-        "keepsake"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
-      "slug": "on-the-nose-2",
-      "title": "On the Nose",
-      "hook": "A hand of trick-taking where your contract is secret — take EXACTLY the number of tricks you privately promised, no more, while the phones silently deal, enforce follow-suit, and score so nobody has to.",
-      "tags": [
-        "party",
-        "cardgame",
-        "trick-taking"
-      ],
-      "score": 60,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
-      "slug": "parlay-2",
-      "title": "Parlay",
-      "hook": "Everyone secretly bids on an all-or-nothing bundle of lots at once, and the server instantly solves who wins which package — the silent-slip combinatorial auction no table could ever run.",
-      "tags": [
-        "party",
-        "auction",
-        "economic"
-      ],
-      "score": 60,
       "source": "party",
       "created": "2026-07-16"
     },
@@ -6832,20 +5715,6 @@
       "created": "2026-07-16"
     },
     {
-      "slug": "nerve-2-2",
-      "title": "Nerve",
-      "hook": "An all-pay war-of-attrition auction: everyone holds a button as one price climbs, you pay for every second you stay in even if you lose, and you can't see who else is still sweating.",
-      "tags": [
-        "party",
-        "economic",
-        "real-time",
-        "bluffing"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-16"
-    },
-    {
       "slug": "askance",
       "title": "Askance",
       "hook": "A co-op word game where your AI spymaster is mute and can only hint by where its cartoon eyes glance across the board — win by learning to read the machine's body language.",
@@ -6908,34 +5777,6 @@
       "tags": [
         "party",
         "wordgame",
-        "browser-game"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-15"
-    },
-    {
-      "slug": "dwell-2-2",
-      "title": "Dwell",
-      "hook": "On 'go,' everyone presses and holds — no clock, no numbers, no peeking — and tries to let go at the exact same secretly-felt duration, tightening the room's internal sense of 'a while' round after silent round.",
-      "tags": [
-        "party",
-        "cooperative",
-        "timing",
-        "real-time"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-15"
-    },
-    {
-      "slug": "composite-2",
-      "title": "Composite",
-      "hook": "Everyone silently builds the same stranger's face from scratch — same eyes, same nose, same mouth — with no reference and no talking, chasing a face that only exists once you all agree on it.",
-      "tags": [
-        "party",
-        "cooperative",
-        "convergence",
         "browser-game"
       ],
       "score": 74,
@@ -7035,34 +5876,6 @@
         "real-time"
       ],
       "score": 76,
-      "source": "party",
-      "created": "2026-07-15"
-    },
-    {
-      "slug": "tote-2-2",
-      "title": "Tote",
-      "hook": "The two minutes your group spends scrolling a menu becomes a secret parimutuel market on what the group will actually pick — and the market IS the decision.",
-      "tags": [
-        "party",
-        "betting",
-        "prediction-market",
-        "social"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-15"
-    },
-    {
-      "slug": "steam-2",
-      "title": "Steam",
-      "hook": "Ride a climbing multiplier as a real trick-shot or Jenga-tower clip builds tension, and privately cash out the instant before it crashes.",
-      "tags": [
-        "party",
-        "betting",
-        "real-time",
-        "video"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-15"
     },
@@ -7234,20 +6047,6 @@
       "created": "2026-07-15"
     },
     {
-      "slug": "blackball-2",
-      "title": "Blackball",
-      "hook": "A shared board of tiles slowly dies as everyone secretly burns one per round — but each phone holds a hidden agenda about which tiles must survive, so you're voting to kill without revealing what you're protecting.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "drafting",
-        "voting"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-15"
-    },
-    {
       "slug": "snipe",
       "title": "Snipe",
       "hook": "Everyone secretly sets a max bid on the same silly prize, then the TV animates a proxy bid-war between your hidden ceilings and the winner only pays one click over the runner-up.",
@@ -7262,20 +6061,6 @@
       "created": "2026-07-15"
     },
     {
-      "slug": "tumbler-2-2",
-      "title": "Tumbler",
-      "hook": "One player sees the guts of a combination lock; everyone else grips a single dial they can't read a target for — and turning your dial secretly drags your neighbors' out of true.",
-      "tags": [
-        "party",
-        "cooperative",
-        "real-time",
-        "asymmetric"
-      ],
-      "score": 76,
-      "source": "party",
-      "created": "2026-07-15"
-    },
-    {
       "slug": "lookout",
       "title": "Lookout",
       "hook": "One player in the crow's nest sees the whole rock-strewn sea; everyone else pilots a blind boat through the fog, and the lookout can only shine the lamp on one of them at a time.",
@@ -7286,20 +6071,6 @@
         "asymmetric"
       ],
       "score": 72,
-      "source": "party",
-      "created": "2026-07-15"
-    },
-    {
-      "slug": "talkdown",
-      "title": "Talkdown",
-      "hook": "One player flies blind with a garbled cockpit while the rest hold scattered pieces of the approach chart and must talk the plane down — one clear voice at a time.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 71,
       "source": "party",
       "created": "2026-07-15"
     },
@@ -7508,20 +6279,6 @@
         "browser-game"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-15"
-    },
-    {
-      "slug": "cadence-2-2",
-      "title": "Cadence",
-      "hook": "Everyone gets the exact same bag of scrambled word-tiles and races to arrange them into the least-surprising sentence — but the obvious best order is a trap, because whoever lands an identical arrangement second scores nothing.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game",
-        "real-time"
-      ],
-      "score": 71,
       "source": "party",
       "created": "2026-07-15"
     },
@@ -7885,20 +6642,6 @@
       "created": "2026-07-14"
     },
     {
-      "slug": "flinch-2",
-      "title": "Flinch",
-      "hook": "A mystery sentence unspools one word at a time with a live surprise-meter — you get exactly one buzz, so slam it the instant you think the model just choked on the weirdest word of the whole line.",
-      "tags": [
-        "party",
-        "audio",
-        "real-time",
-        "browser-game"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-14"
-    },
-    {
       "slug": "parrot",
       "title": "Parrot",
       "hook": "Don't write the flattest sentence — guess what the tiny brain-damaged model would say next, and score most when you're the only one who saw its weird choice coming.",
@@ -7923,20 +6666,6 @@
         "puzzle"
       ],
       "score": 77,
-      "source": "party",
-      "created": "2026-07-14"
-    },
-    {
-      "slug": "crosstalk-2-2",
-      "title": "Crosstalk",
-      "hook": "You each hold a secret line and one shared airwave — say it into the room without ever talking over anyone, or your words dissolve into static.",
-      "tags": [
-        "party",
-        "real-time",
-        "timing",
-        "browser-game"
-      ],
-      "score": 67,
       "source": "party",
       "created": "2026-07-14"
     },
@@ -7993,20 +6722,6 @@
         "browser-game"
       ],
       "score": 68,
-      "source": "party",
-      "created": "2026-07-14"
-    },
-    {
-      "slug": "tout-2",
-      "title": "Tout",
-      "hook": "Everyone watches the same slow reveal, but each phone holds a different true-but-partial inside tip — bet your edge into a live parimutuel pool without tipping the room.",
-      "tags": [
-        "party",
-        "betting",
-        "social-deduction",
-        "browser-game"
-      ],
-      "score": 75,
       "source": "party",
       "created": "2026-07-14"
     },
@@ -8134,20 +6849,6 @@
       "created": "2026-07-14"
     },
     {
-      "slug": "runner-up",
-      "title": "Runner-Up",
-      "hook": "A sealed auction where the winner pays the loser's bid — every phone secretly knows only its own worth for the lot, so the real game is watching people refuse to believe that honesty is the optimal strategy.",
-      "tags": [
-        "party",
-        "auction",
-        "bluffing",
-        "browser-game"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-14"
-    },
-    {
       "slug": "cut-line",
       "title": "Cut Line",
       "hook": "A knife sweeps across a shared pizza on the TV while each phone privately weighs the toppings its own way — tap CLAIM the instant the slice to the left equals your fair share, before a rival with different tastes grabs first.",
@@ -8190,34 +6891,6 @@
       "created": "2026-07-14"
     },
     {
-      "slug": "prop",
-      "title": "Prop",
-      "hook": "A daily escape-room puzzle set inside lovingly reconstructed *fictional movie computers* — navigate Jurassic Park's 3D file system or crack WOPR before the timer, then race the world's clear-times.",
-      "tags": [
-        "puzzle",
-        "browser-game",
-        "narrative",
-        "leaderboard"
-      ],
-      "score": 61,
-      "source": "wild",
-      "created": "2026-07-14"
-    },
-    {
-      "slug": "ballpark-2",
-      "title": "Ballpark",
-      "hook": "A daily forensic-estimation duel: from one real photo — scuff marks on a stair, wear on a door handle, a crowd's shadows — guess a hidden number, scored on how close your order-of-magnitude reasoning lands.",
-      "tags": [
-        "puzzle",
-        "competitive",
-        "leaderboard",
-        "browser-game"
-      ],
-      "score": 65,
-      "source": "lobsters",
-      "created": "2026-07-14"
-    },
-    {
       "slug": "tight-loop",
       "title": "Tight Loop",
       "hook": "A perf-golf tournament where you submit a hot function and it's benchmarked to the cycle on a pinned, isolated bare-metal core — the clean-room measurement nobody with only noisy cloud CI can get.",
@@ -8229,19 +6902,6 @@
       ],
       "score": 75,
       "source": "lobsters",
-      "created": "2026-07-14"
-    },
-    {
-      "slug": "ringer",
-      "title": "Ringer",
-      "hook": "Everyone secretly writes a yearbook quote in the voice of one other player, and you 'win' only by vanishing so completely into your target that the room attributes your line to them — then keeps the anonymous yearbook page.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "wordgame"
-      ],
-      "score": 69,
-      "source": "party",
       "created": "2026-07-14"
     },
     {
@@ -8283,20 +6943,6 @@
         "browser-game"
       ],
       "score": 71,
-      "source": "party",
-      "created": "2026-07-14"
-    },
-    {
-      "slug": "about-face",
-      "title": "About Face",
-      "hook": "The whole table gives verbal directions across a shared grid on the TV, but the imposter's private board is mirrored left-for-right — so their clues are consistently, maddeningly reversed, and they're convinced everyone ELSE is bad at directions.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "spatial",
-        "hidden-info"
-      ],
-      "score": 70,
       "source": "party",
       "created": "2026-07-14"
     },
@@ -8427,20 +7073,6 @@
       "created": "2026-07-14"
     },
     {
-      "slug": "quarry-2-2",
-      "title": "Quarry",
-      "hook": "Monster Hunter for your database: your slowest Postgres queries become monsters with health bars made of milliseconds, and you hunt them across optimization sessions, breaking one plan-node 'part' at a time until the trophy hits your wall.",
-      "tags": [
-        "observability",
-        "devtool",
-        "game",
-        "postgres"
-      ],
-      "score": 66,
-      "source": "steam",
-      "created": "2026-07-14"
-    },
-    {
       "slug": "undertone",
       "title": "Undertone",
       "hook": "The host names a mood — 'brine,' 'envy,' '9pm' — and the room silently drags private color pickers until, with no talking, everyone lands on the same shade of what that word feels like.",
@@ -8503,19 +7135,6 @@
         "wordgame"
       ],
       "score": 69,
-      "source": "party",
-      "created": "2026-07-14"
-    },
-    {
-      "slug": "airtime-2",
-      "title": "Airtime",
-      "hook": "Speaking is a metered resource: each phone secretly holds a phrase only you can score and a slice of a shared decibel-budget that every word — including planning out loud — bleeds away.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative"
-      ],
-      "score": 76,
       "source": "party",
       "created": "2026-07-14"
     },
@@ -8740,20 +7359,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "telegraph",
-      "title": "Telegraph",
-      "hook": "Every phone buzzes out the same secret Morse-like rhythm in your palm — but the imposter's pattern has one pulse changed, and you have to argue about a beat nobody else can feel.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "sensor",
-        "hidden-role"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
       "slug": "earshot-2",
       "title": "Earshot",
       "hook": "Everyone puts in one earbud and hears the same whispered sentence — except the imposter's clip has a single word swapped for a near-homophone, and the argument over what was actually said is the game.",
@@ -8765,20 +7370,6 @@
       ],
       "score": 75,
       "source": "party",
-      "created": "2026-07-13"
-    },
-    {
-      "slug": "mondegreen-2",
-      "title": "Mondegreen",
-      "hook": "A party game where the on-device speech recognizer is the judge and you win by saying nonsense that it confidently mis-hears as the exact target phrase — 'wreck a nice beach' to make it print 'recognize speech.'",
-      "tags": [
-        "party-game",
-        "social",
-        "computer-vision",
-        "audio"
-      ],
-      "score": 70,
-      "source": "hn",
       "created": "2026-07-13"
     },
     {
@@ -8810,20 +7401,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "tell-2",
-      "title": "Tell",
-      "hook": "A co-op Slay-the-Spire boss fight where the party shares one health bar but not one hand — you must chain your hidden cards in the right order to survive, negotiating out loud without ever showing what you actually hold.",
-      "tags": [
-        "party",
-        "deckbuilder",
-        "cooperative",
-        "hidden-info"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
       "slug": "footsies",
       "title": "Footsies",
       "hook": "A two-player fighting-game duel stripped to pure neutral: both of you secretly pick a poke at a chosen range, reveal at once, and the whiff-punish decides the round — but you can never see your opponent's movelist.",
@@ -8834,20 +7411,6 @@
         "1v1"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
-      "slug": "zoetrope-2",
-      "title": "Zoetrope",
-      "hook": "Each player privately draws one frame of a looping animation, seeing only ghostly onion-skins of the frames next to theirs, until the host plays the whole thing back as a GIF nobody has watched.",
-      "tags": [
-        "party",
-        "drawing",
-        "cooperative",
-        "browser-game"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-13"
     },
@@ -8976,20 +7539,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "sump-2",
-      "title": "Sump",
-      "hook": "Two blind cave-divers grope through a flooded passage while the only teammate who can see the map is stuck on the surface, and every ping the divers send to reveal themselves burns air they can't spare.",
-      "tags": [
-        "party",
-        "cooperative",
-        "spatial",
-        "asymmetric"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
       "slug": "beeline",
       "title": "Beeline",
       "hook": "Everyone builds one story together, but each phone is secretly steering the model toward its own hidden target word — win by making the model, at the end, least surprised to see YOUR word come next.",
@@ -9018,20 +7567,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "curtain",
-      "title": "Curtain",
-      "hook": "A bullet-hell where one player is the secret boss, privately finger-painting deadly bullet sprays on their phone that nobody else can preview, while everyone else thumb-dodges a tiny hitbox on their own screen.",
-      "tags": [
-        "party",
-        "bullet-hell",
-        "asymmetric",
-        "real-time"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
       "slug": "standoff",
       "title": "Standoff",
       "hook": "Frozen-Synapse tactics as a party game: everyone secretly draws their gunslinger's move-and-aim at the same time on their own phone, then the room watches all plans detonate simultaneously on the TV.",
@@ -9042,20 +7577,6 @@
         "asymmetric"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
-      "slug": "ballast-2",
-      "title": "Ballast",
-      "hook": "A ship is listing and the only public gauge is the tilt — each of you privately runs one cargo hold, and if two of you dump at the same instant you capsize the other way.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-13"
     },
@@ -9158,19 +7679,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "table-stakes-2-2-2",
-      "title": "Table Stakes",
-      "hook": "Before the food arrives, secretly bet chips on exactly what everyone else at the table will order — and win big by ordering something nobody saw coming.",
-      "tags": [
-        "party",
-        "betting",
-        "bluffing"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
       "slug": "waypoint",
       "title": "Waypoint",
       "hook": "The model writes a sentence one word at a time — but every player secretly wants a different word to end up in it, so you steer its autocomplete by privately voting among its own suggestions without tipping your hand.",
@@ -9251,20 +7759,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "longhand-2",
-      "title": "Longhand",
-      "hook": "Type a sentence and get true single-stroke cursive that a pen plotter can draw without ever lifting or backtracking — the font engraving machines always wanted but never had.",
-      "tags": [
-        "graphics",
-        "cli",
-        "generative",
-        "language"
-      ],
-      "score": 69,
-      "source": "lobsters",
-      "created": "2026-07-13"
-    },
-    {
       "slug": "contact-sheet",
       "title": "Contact Sheet",
       "hook": "Every phone gets a different secret prompt, you each have ninety seconds to photograph something in the room that answers yours, and the group walks away with one anonymous contact sheet nobody can fully decode.",
@@ -9315,20 +7809,6 @@
         "hidden-constraint"
       ],
       "score": 70,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
-      "slug": "wildcat-2-2",
-      "title": "Wildcat",
-      "hook": "A sealed-bid oil auction where each phone shows you a different survey of the same tract — and winning almost always means you were the fool who overpaid.",
-      "tags": [
-        "party",
-        "auction",
-        "hidden-info",
-        "bluffing"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-13"
     },
@@ -9402,19 +7882,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "crossed-wire",
-      "title": "Crossed Wire",
-      "hook": "Everyone privately plays the same voicemail, but the imposter's copy swapped one detail — and they'll swear their version is the real one.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "audio"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
       "slug": "undercut",
       "title": "Undercut",
       "hook": "Secretly price your lemonade stand against your friends' — the crowd all buys from the single cheapest stand, but if two of you tie for lowest, the customers riot and you both get nothing.",
@@ -9437,20 +7904,6 @@
         "spatial-puzzle"
       ],
       "score": 76,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
-      "slug": "carry",
-      "title": "Carry",
-      "hook": "Everyone's phone hides a fistful of numbers, the host demands 'exactly 12, using exactly three of you,' and the room has to shout arithmetic across the table and then get precisely the right three people to slam COMMIT in the same heartbeat.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 66,
       "source": "party",
       "created": "2026-07-13"
     },
@@ -9496,34 +7949,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "boilerplate",
-      "title": "Boilerplate",
-      "hook": "A roguelike where the dungeon is your own agent's bloated system prompt — every floor accretes tool defs, few-shot examples, and safety preamble, and your token budget is the HP bleaking out before you ever reach the real request.",
-      "tags": [
-        "roguelike",
-        "llm",
-        "prompt",
-        "agents"
-      ],
-      "score": 74,
-      "source": "hn",
-      "created": "2026-07-13"
-    },
-    {
-      "slug": "watermark",
-      "title": "Watermark",
-      "hook": "Everyone answers the same prompt, but each phone is secretly handed one mandatory word it must smuggle into the answer — and you win the round only if nobody can pick your writing out of the lineup.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "anonymity",
-        "wordgame"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
       "slug": "relief",
       "title": "Relief",
       "hook": "Four phones each secretly carve one hidden quadrant of the same woodblock, and nobody sees the whole image until the host screen pulls a single print you'll want to keep.",
@@ -9534,34 +7959,6 @@
         "browser-game"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
-      "slug": "house-rules-2",
-      "title": "House Rules",
-      "hook": "You're all scoring the exact same hand of cards — but one player's private rulebook has a single rule quietly swapped, and their honest total gives them away.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "cardgame",
-        "browser-game"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-13"
-    },
-    {
-      "slug": "parallax-2-2",
-      "title": "Parallax",
-      "hook": "Everyone photographs the same tabletop of blocks from their own private seat — but one witness is describing an angle that geometry says cannot exist.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "spatial",
-        "browser-game"
-      ],
-      "score": 76,
       "source": "party",
       "created": "2026-07-13"
     },
@@ -9608,19 +8005,6 @@
       "created": "2026-07-13"
     },
     {
-      "slug": "tuning-fork-2",
-      "title": "Tuning Fork",
-      "hook": "Each player wears earbuds and slides a private tone only they can hear, and the room must silently drag every pitch into one unison note using nothing but a shared dissonance meter.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
       "slug": "flash-mob-2",
       "title": "Flash Mob",
       "hook": "Everyone taps a private flash on their own phone, and the room must silently phase-lock into one crisp strobe on the TV like a swarm of fireflies learning to blink together.",
@@ -9659,20 +8043,6 @@
         "social-deduction"
       ],
       "score": 73,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
-      "slug": "sway",
-      "title": "Sway",
-      "hook": "Everyone secretly gets a different word to smuggle into the model's mind, then you all blind-write priming sentences into one shared context and fight a hidden tug-of-war over what the model predicts next.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game",
-        "social-deduction"
-      ],
-      "score": 71,
       "source": "party",
       "created": "2026-07-12"
     },
@@ -9775,34 +8145,6 @@
       "created": "2026-07-12"
     },
     {
-      "slug": "dovetail",
-      "title": "Dovetail",
-      "hook": "Each of you draws one blind panel of a single shared picture, and the only way to win is to make your strokes meet a neighbor's you were never allowed to see.",
-      "tags": [
-        "party",
-        "drawing",
-        "cooperative",
-        "browser-game"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
-      "slug": "potluck-2",
-      "title": "Potluck",
-      "hook": "Everyone secretly brings one dish to a shared table, but two people bringing the same thing means both dishes hit the floor.",
-      "tags": [
-        "party",
-        "hidden-info",
-        "social",
-        "strategy"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
       "slug": "split-second",
       "title": "Split Second",
       "hook": "A clock hand sweeps once; everyone secretly stabs a moment in time, but tap too close to someone else and you both flatline.",
@@ -9883,20 +8225,6 @@
         "convergence"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
-      "slug": "warmer-2-2",
-      "title": "Warmer",
-      "hook": "One blindfolded player roams the room humming a tone from their phone while everyone else must silently drift to their own secret orbit distance — some hugging close, some pinned to the far wall — as the beacon keeps moving.",
-      "tags": [
-        "party",
-        "audio",
-        "sensor",
-        "spatial"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-12"
     },
@@ -9985,20 +8313,6 @@
       "created": "2026-07-12"
     },
     {
-      "slug": "understudy-2-2-2",
-      "title": "Understudy",
-      "hook": "Every player performs a short scene from their own private 'actor's sides' — and one script has a single doctored line that quietly contradicts the story, so the imposter breaks continuity without knowing they're the liar.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "storytelling",
-        "performance"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
       "slug": "backbeat",
       "title": "Backbeat",
       "hook": "Everyone claps to a private metronome and one secretly runs 9% fast — so the imposter genuinely feels in time while they rush the whole room out of the pocket.",
@@ -10037,19 +8351,6 @@
         "spatial"
       ],
       "score": 76,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
-      "slug": "cliffhanger",
-      "title": "Cliffhanger",
-      "hook": "The whole room watches one suspense clip while a live payout multiplier climbs — cash out on your own phone before the moment lands, but you can't see when anyone else got cold feet.",
-      "tags": [
-        "party",
-        "betting",
-        "video"
-      ],
-      "score": 71,
       "source": "party",
       "created": "2026-07-12"
     },
@@ -10109,20 +8410,6 @@
       "created": "2026-07-12"
     },
     {
-      "slug": "spread-2",
-      "title": "Spread",
-      "hook": "The model reveals eight candidate next-words for a blank — with the odds hidden — and you privately stake your claim on the one you think it secretly favors, but anyone who claimed the same word splits the pot.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game",
-        "social-deduction"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
       "slug": "contraband",
       "title": "Contraband",
       "hook": "You're handed one weird word you must smuggle into a sentence so smoothly the language model never flinches — while everyone else hunts your sentence for the one spike that gives you away.",
@@ -10163,20 +8450,6 @@
       "created": "2026-07-12"
     },
     {
-      "slug": "order-up-2-2",
-      "title": "Order Up",
-      "hook": "The TV shows a restaurant menu; before anyone reveals what they'd actually order, you privately bet your chips on exactly what each friend at the table will pick.",
-      "tags": [
-        "party",
-        "betting",
-        "social-deduction",
-        "hidden-information"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
       "slug": "called-it",
       "title": "Called It",
       "hook": "The host TV slowly un-blurs a single photo while everyone privately races to lock their guess — for a payout that shrinks the clearer the picture gets.",
@@ -10188,20 +8461,6 @@
       ],
       "score": 74,
       "source": "party",
-      "created": "2026-07-12"
-    },
-    {
-      "slug": "vacancy",
-      "title": "Vacancy",
-      "hook": "A daily deduction puzzle where you scrub a week of a smart home's sensor logs to find the one day an intruder was quietly living someone else's routine.",
-      "tags": [
-        "puzzle",
-        "social-deduction",
-        "narrative",
-        "forensics"
-      ],
-      "score": 63,
-      "source": "arxiv",
       "created": "2026-07-12"
     },
     {
@@ -10283,19 +8542,6 @@
         "video"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
-      "slug": "earshot",
-      "title": "Earshot",
-      "hook": "Everyone holds their phone to their ear and hears the same voicemail at the same instant — but one person's clip has a single word swapped, and reconstructing the message out loud is how you catch them.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "audio"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-12"
     },
@@ -10476,19 +8722,6 @@
       "created": "2026-07-12"
     },
     {
-      "slug": "longhand",
-      "title": "Longhand",
-      "hook": "The whole room secretly finger-writes the same phrase at the same time, the host weaves the handwriting into one anonymous poster, and you win by being the person no one can pick out of the lineup.",
-      "tags": [
-        "party",
-        "anonymity",
-        "drawing"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
       "slug": "music-box",
       "title": "Music Box",
       "hook": "Everyone secretly owns one instrument lane of a blind step-sequencer and layers a beat by ear alone, until the room has jammed a loop nobody could have written solo — exported as a keepsake track.",
@@ -10498,20 +8731,6 @@
         "audio"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
-      "slug": "detune-2-2",
-      "title": "Detune",
-      "hook": "Three people hum into their phones to build one fat chord — but any two voices that drift within a semitone of each other collapse into ugly beating dissonance.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative",
-        "sensor"
-      ],
-      "score": 70,
       "source": "party",
       "created": "2026-07-12"
     },
@@ -10530,19 +8749,6 @@
       "created": "2026-07-12"
     },
     {
-      "slug": "family-style-2-2",
-      "title": "Family Style",
-      "hook": "Before anyone says what they're getting, secretly bet on what everyone at the table will actually order off the same menu — points for reading your friends, and points for ordering something nobody saw coming.",
-      "tags": [
-        "party",
-        "betting",
-        "prediction"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-12"
-    },
-    {
       "slug": "steam",
       "title": "Steam",
       "hook": "Everyone watches the same 60-second clip, but you bet on how it ends inside a private parimutuel pool — and one of you was secretly tipped off, so learn to read whose money is moving the line.",
@@ -10553,20 +8759,6 @@
       ],
       "score": 75,
       "source": "party",
-      "created": "2026-07-12"
-    },
-    {
-      "slug": "cold-read-2-2",
-      "title": "Cold Read",
-      "hook": "A deadpan CLI fortune-teller that reads your lockfile like tarot and predicts, with unsettling specificity, which dependency will betray you next.",
-      "tags": [
-        "devtool",
-        "cli",
-        "whimsy",
-        "observability"
-      ],
-      "score": 67,
-      "source": "lobsters",
       "created": "2026-07-12"
     },
     {
@@ -10596,20 +8788,6 @@
       "score": 71,
       "source": "arxiv",
       "created": "2026-07-12"
-    },
-    {
-      "slug": "canary",
-      "title": "Canary",
-      "hook": "The one player who can see the mine map isn't allowed to speak — they can only blink a single arrow onto each blind miner's lamp before the gas gets them.",
-      "tags": [
-        "party",
-        "cooperative",
-        "hidden-info",
-        "no-talking"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-11"
     },
     {
       "slug": "fathom-2",
@@ -10710,20 +8888,6 @@
       "created": "2026-07-11"
     },
     {
-      "slug": "dead-reckoning-2",
-      "title": "Dead Reckoning",
-      "hook": "A solo-unsupported ocean-crossing survival sim where your real Garmin metrics are the boat: every logged mile makes way, bad sleep drifts you backward, and low HRV sinks morale until you're becalmed.",
-      "tags": [
-        "survival",
-        "quantified-self",
-        "sim",
-        "health"
-      ],
-      "score": 69,
-      "source": "wild",
-      "created": "2026-07-11"
-    },
-    {
       "slug": "plaque",
       "title": "Plaque",
       "hook": "The room secretly co-writes a pompous award certificate for one unsuspecting friend — each phone drafts one blind clause while the honoree's screen quietly lies to them — and prints it as a keepsake they take home.",
@@ -10733,19 +8897,6 @@
         "cooperative"
       ],
       "score": 68,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "foley",
-      "title": "Foley",
-      "hook": "Each phone is secretly handed one sound to perform with your mouth and hands, everyone records at once in the blind, and the server layers your chaos into a 15-second radio-drama scene the room keeps.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative"
-      ],
-      "score": 73,
       "source": "party",
       "created": "2026-07-11"
     },
@@ -10773,20 +8924,6 @@
         "sensor"
       ],
       "score": 72,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "table-stakes-2-2",
-      "title": "Table Stakes",
-      "hook": "The moment your group stares at a takeout menu becomes a hidden betting game: secretly lock your own order, then privately wager on who caves on the salad and which dish the table piles onto.",
-      "tags": [
-        "party",
-        "betting",
-        "social-deduction",
-        "food"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-11"
     },
@@ -10844,19 +8981,6 @@
       ],
       "score": 71,
       "source": "hn",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "kickback-2",
-      "title": "Kickback",
-      "hook": "The group has $100 and a shared shopping list — but the imposter's phone is quietly quoting them the wrong prices, so every total they blurt out is off by just enough.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "negotiation"
-      ],
-      "score": 68,
-      "source": "party",
       "created": "2026-07-11"
     },
     {
@@ -10955,20 +9079,6 @@
       "created": "2026-07-11"
     },
     {
-      "slug": "dog-whistle",
-      "title": "Dog Whistle",
-      "hook": "Craft an image where a human reads 'CANCEL SUBSCRIPTION' but the vision model swears it says 'CONFIRM PAYMENT' — the mischievous inverse of Ghost Font, scored as a red-team party game.",
-      "tags": [
-        "security",
-        "party-game",
-        "computer-vision",
-        "steganography"
-      ],
-      "score": 71,
-      "source": "hn",
-      "created": "2026-07-11"
-    },
-    {
       "slug": "craving",
       "title": "Craving",
       "hook": "Everyone drafts from one shared pantry on the TV, but each phone hides a different secret craving — so the real game is guessing what your rivals want and snatching it before they can.",
@@ -10983,34 +9093,6 @@
       "created": "2026-07-11"
     },
     {
-      "slug": "markdown",
-      "title": "Markdown",
-      "hook": "A single absurd lot drops in price on the TV while every phone secretly knows only its own max — first thumb to slap BUY steals it, and nobody can read your nerve.",
-      "tags": [
-        "party",
-        "auction",
-        "real-time",
-        "bluffing"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "unsigned",
-      "title": "Unsigned",
-      "hook": "Everyone secretly writes an anonymous kind note to a randomly assigned player, and the game you win is leaving with a card full of compliments while nobody can prove which one you wrote.",
-      "tags": [
-        "party",
-        "anonymity",
-        "social-deduction",
-        "keepsake"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
       "slug": "zoetrope",
       "title": "Zoetrope",
       "hook": "Everyone secretly draws one frame of the same short animation while glimpsing only a ghost of the frame before theirs, and the host stitches the wobbling result into a looping GIF you all keep.",
@@ -11021,20 +9103,6 @@
         "keepsake"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "clave",
-      "title": "Clave",
-      "hook": "The TV is a slow metronome and an empty drum machine; each phone secretly owns one clap-slot and privately whispers 'early / late' from its own mic, so the room becomes a human beat you can only lock by spreading out.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative",
-        "rhythm"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-11"
     },
@@ -11233,20 +9301,6 @@
       "created": "2026-07-11"
     },
     {
-      "slug": "pin-drop",
-      "title": "Pin Drop",
-      "hook": "A silent heist where each phone whispers a different private clue into your ear — but only while the whole room stays quiet enough to hear a pin drop.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative",
-        "sensor"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
       "slug": "sitter",
       "title": "Sitter",
       "hook": "Everyone draws one blind region of the same face — each with a secret emotional brief — and the reveal stitches a gorgeously incoherent group portrait you keep.",
@@ -11343,19 +9397,6 @@
       "created": "2026-07-11"
     },
     {
-      "slug": "blindside",
-      "title": "Blindside",
-      "hook": "A stealth game where one runner threads a grid full of guard vision-cones that each sentry can see only their own of — so the guards have to describe their coverage out loud while the runner listens for the gap.",
-      "tags": [
-        "party",
-        "hidden-info",
-        "asymmetric"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
       "slug": "seam",
       "title": "Seam",
       "hook": "One giant match-3 board sliced into private strips, where the only big-scoring clears are the ones that cross the seam and demand two players tap in the same heartbeat.",
@@ -11366,20 +9407,6 @@
         "simultaneous"
       ],
       "score": 71,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "quiet-car-2",
-      "title": "Quiet Car",
-      "hook": "Musical chairs where the chairs are quiet spots in the room and each player secretly needs a different amount of silence — so you fight over the good corner without knowing who actually needs it.",
-      "tags": [
-        "party",
-        "audio",
-        "sensor",
-        "elimination"
-      ],
-      "score": 66,
       "source": "party",
       "created": "2026-07-11"
     },
@@ -11425,20 +9452,6 @@
       "created": "2026-07-11"
     },
     {
-      "slug": "knock-2",
-      "title": "Knock",
-      "hook": "Hold your phone near a running engine and it FFTs the growl against a firing-order model to tell you the cylinder that's misfiring — a combustion toy turned pocket mechanic.",
-      "tags": [
-        "audio",
-        "computer-vision",
-        "ml",
-        "automotive"
-      ],
-      "score": 61,
-      "source": "hn",
-      "created": "2026-07-11"
-    },
-    {
       "slug": "blame-war",
       "title": "Blame War",
       "hook": "Turns `git log` into an interactive war atlas where files are contested territory, merge conflicts and reverts are battles, and commit messages are the casus belli.",
@@ -11464,20 +9477,6 @@
       ],
       "score": 73,
       "source": "hn",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "crosshair",
-      "title": "Crosshair",
-      "hook": "Every phone secretly holds one cell of a shared word-grid, everyone gives a one-word clue for their own hidden target at once, and the silent room must place all the anonymous clues onto the right squares before the timer burns down.",
-      "tags": [
-        "party",
-        "wordgame",
-        "cooperative",
-        "hidden-information"
-      ],
-      "score": 69,
-      "source": "party",
       "created": "2026-07-11"
     },
     {
@@ -11519,34 +9518,6 @@
         "real-time"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "on-three-2-2",
-      "title": "On Three",
-      "hook": "Each phone holds one dial of a shared vault whose setting depends on a number another player has to shout — set your dial from what you hear, then everyone release on the same beat or the lock resets.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-11"
-    },
-    {
-      "slug": "cold-read-2",
-      "title": "Cold Read",
-      "hook": "A breaking-news bulletin is scattered in fragments across your phones, only one mic can be live at a time, and nobody knows the running order until you read each other's lines aloud.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "audio"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-11"
     },
@@ -11621,20 +9592,6 @@
       "created": "2026-07-10"
     },
     {
-      "slug": "countersign",
-      "title": "Countersign",
-      "hook": "The host lights a link between two random players and one reads their secret challenge aloud — the other must find the matching countersign buried in decoys on their own phone and shout it back before the sentry line goes cold.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
       "slug": "safe-hands",
       "title": "Safe Hands",
       "hook": "You each control one wheel of a shared vault lock — but the only clues you hold are about everyone else's wheel, so you must talk the whole combination into existence and slam it home together.",
@@ -11643,32 +9600,6 @@
         "cooperative",
         "voice",
         "real-time"
-      ],
-      "score": 75,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "downstream",
-      "title": "Downstream",
-      "hook": "A booster draft where everyone opens a pack at once and your phone secretly remembers every card you've passed — so when a pack wheels back to you gutted, you alone know who upstream is starving your suit.",
-      "tags": [
-        "party",
-        "drafting",
-        "deduction"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "wildcat-2",
-      "title": "Wildcat",
-      "hook": "Everyone's drilling the same oil field, but your phone shows only YOUR secret geologist's estimate — bid the lease high on a bad hunch and you'll own a dry hole.",
-      "tags": [
-        "party",
-        "auction",
-        "bluffing"
       ],
       "score": 75,
       "source": "party",
@@ -11741,46 +9672,6 @@
         "hidden-info"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "tote-2",
-      "title": "Tote",
-      "hook": "The TV shows a menu the group is about to pick from; secretly bet your chips on what the room will crown — nail the underbet dark horse and clean up, back the obvious favorite and win pennies.",
-      "tags": [
-        "party",
-        "betting",
-        "social",
-        "browser-game"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "tout",
-      "title": "Tout",
-      "hook": "Everyone watches the same dumb video clip, but your phone secretly slips you one real insider tip about what's coming — cash in without tipping the sharks that you know.",
-      "tags": [
-        "party",
-        "betting",
-        "hidden-information"
-      ],
-      "score": 75,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "blackball",
-      "title": "Blackball",
-      "hook": "Eight options sit on the table and each phone secretly, silently drops black balls on the ones it wants gone — the room wins by converging to exactly ONE survivor, and loses the instant it nervously nukes them all.",
-      "tags": [
-        "party",
-        "cooperative",
-        "social-deduction"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-10"
     },
@@ -11976,20 +9867,6 @@
       "created": "2026-07-10"
     },
     {
-      "slug": "baton-2",
-      "title": "Baton",
-      "hook": "A live token has to visit every player exactly once and come home — but each phone privately knows only the two people IT is allowed to hand off to, so the room has to talk its way through a hidden relay graph before the clock kills the run.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "real-time"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
       "slug": "contour",
       "title": "Contour",
       "hook": "One player hides a single line on a grid; everyone else is a blind bead trying to land on it — but the mapkeeper can only whisper 'warmer' to one of you at a time.",
@@ -12012,19 +9889,6 @@
         "real-time"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "wallflower",
-      "title": "Wallflower",
-      "hook": "Everyone draws the exact same thing, and you win not by standing out but by being so forgettably generic that nobody in the room can point to your drawing.",
-      "tags": [
-        "party",
-        "drawing",
-        "anonymity"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-10"
     },
@@ -12360,20 +10224,6 @@
       "created": "2026-07-10"
     },
     {
-      "slug": "reserve",
-      "title": "Reserve",
-      "hook": "An all-pay auction where your budget drains silently and only you can see how broke you are — bid on lots worth a private amount only your phone knows, and everyone pays what they bid whether they win or not.",
-      "tags": [
-        "party",
-        "bluffing",
-        "auction",
-        "browser-game"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-10"
-    },
-    {
       "slug": "escrow",
       "title": "Escrow",
       "hook": "Everyone trades resources at once through silent private offers, and the server quietly executes only the deals that actually close — including three-way loops nobody at the table could have negotiated out loud.",
@@ -12385,33 +10235,6 @@
       ],
       "score": 75,
       "source": "party",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "hash-match",
-      "title": "Hash Match",
-      "hook": "A pass-the-phone party game: doctor an image to slip past an on-device perceptual-hash 'scanner' while friends still have to recognize it — Chat Control as a sport.",
-      "tags": [],
-      "score": 66,
-      "source": "scan",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "loaded-mile",
-      "title": "Loaded Mile",
-      "hook": "Upload the surprise ambulance bill; it cross-references your city's public rate ordinance + Medicare's fee schedule to auto-draft the appeal letter the billing office hopes you never write.",
-      "tags": [],
-      "score": 69,
-      "source": "scan",
-      "created": "2026-07-10"
-    },
-    {
-      "slug": "overtime",
-      "title": "Overtime",
-      "hook": "A wallpaper that redraws itself daily from how many milliseconds longer or shorter than 86,400s the Earth actually spun — a year-long self-portrait of the planet running late.",
-      "tags": [],
-      "score": 73,
-      "source": "scan",
       "created": "2026-07-10"
     },
     {
@@ -12635,20 +10458,6 @@
       "created": "2026-07-09"
     },
     {
-      "slug": "s-ance-2",
-      "title": "Séance",
-      "hook": "Phasmophobia for your LAN: a process is haunting the network, and you spend a limited probe budget deploying instruments — packet capture, DNS logs, netflow, timing — to match the evidence against a fixed table of network ghosts and name it before it does damage.",
-      "tags": [
-        "homelab",
-        "security",
-        "party-game",
-        "observability"
-      ],
-      "score": 71,
-      "source": "steam",
-      "created": "2026-07-09"
-    },
-    {
       "slug": "fresnel",
       "title": "Fresnel",
       "hook": "A daily guess-the-material game: drag albedo, roughness, metalness, and IOR sliders until your live-rendered sphere matches a mystery real-world material — brushed copper, wet asphalt, human skin — scored against measured PBR values.",
@@ -12660,20 +10469,6 @@
       ],
       "score": 65,
       "source": "lobsters",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "potluck",
-      "title": "Potluck",
-      "hook": "Everyone secretly commits one dish from their own random fridge to a shared table — but if two of you show up with the potato salad, both dishes spoil and you eat the shame.",
-      "tags": [
-        "party",
-        "deduction",
-        "hidden-commit",
-        "social"
-      ],
-      "score": 65,
-      "source": "party",
       "created": "2026-07-09"
     },
     {
@@ -12701,20 +10496,6 @@
         "browser-game"
       ],
       "score": 67,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "house-special",
-      "title": "House Special",
-      "hook": "The takeout menu on the TV becomes a betting slip: everyone secretly wagers on what the table will actually end up ordering, and you cash out by reading the room, not your own cravings.",
-      "tags": [
-        "party",
-        "prediction-market",
-        "social",
-        "browser-game"
-      ],
-      "score": 72,
       "source": "party",
       "created": "2026-07-09"
     },
@@ -12855,20 +10636,6 @@
       "created": "2026-07-09"
     },
     {
-      "slug": "unison-2",
-      "title": "Unison",
-      "hook": "The whole room hums a chord it can't hear itself sing — each phone whispers your private note and its own mic tells only you whether you're sharp or flat, so you shout to find who's dragging the pitch down.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative",
-        "sensor"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
       "slug": "scale-to-zero",
       "title": "Scale to Zero",
       "hook": "You're the anti-autoscaler: bin-pack every running pod onto fewer and fewer nodes and race the cluster down to zero cost without dropping a single request.",
@@ -12880,20 +10647,6 @@
       ],
       "score": 61,
       "source": "github",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "dwell-2",
-      "title": "Dwell",
-      "hook": "Truckers lose hours parked at docks and can't prove it — Dwell geofences the arrival, timestamps the wait, and spits out the detention invoice evidence before they even leave the lot.",
-      "tags": [
-        "logistics",
-        "automation",
-        "side-hustle",
-        "gis"
-      ],
-      "score": 67,
-      "source": "wild",
       "created": "2026-07-09"
     },
     {
@@ -12921,20 +10674,6 @@
         "anonymity"
       ],
       "score": 69,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "overdub",
-      "title": "Overdub",
-      "hook": "Everyone records one blind layer of the same song at the same time, hearing nobody else — then the host plays back the stack you built together and hands you the track.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative",
-        "keepsake"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-09"
     },
@@ -13035,19 +10774,6 @@
       "created": "2026-07-09"
     },
     {
-      "slug": "table-stakes-2",
-      "title": "Table Stakes",
-      "hook": "A menu goes up on the TV and, before anyone speaks, every phone secretly locks in their own order AND bets on what everyone else will order — you win by reading the table, or by being the dish no one saw coming.",
-      "tags": [
-        "party",
-        "betting",
-        "social-prediction"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
       "slug": "the-spread",
       "title": "The Spread",
       "hook": "The host plays a 40-second clip while every phone becomes a private betting window, quietly stacking chips on 'does the soufflé collapse?' as live pari-mutuel odds twitch under everyone's fingers.",
@@ -13058,20 +10784,6 @@
         "real-time"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "shibboleth-2",
-      "title": "Shibboleth",
-      "hook": "Your group builds and memorizes a secret passphrase from private ingredients only each of you can see, then every phone must recall it at once — the prize is a shared secret and a wax-sealed charter, never shown again.",
-      "tags": [
-        "party",
-        "cooperative",
-        "memory",
-        "social"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-09"
     },
@@ -13104,20 +10816,6 @@
       "created": "2026-07-09"
     },
     {
-      "slug": "nerve-2",
-      "title": "Nerve",
-      "hook": "A silent, cooperative race to empty every hand in perfect ascending order — sabotaged from within by one player whose phone hides a very different objective.",
-      "tags": [
-        "party",
-        "cooperative",
-        "social-deduction",
-        "real-time"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
       "slug": "wideband",
       "title": "Wideband",
       "hook": "A Zachtronics-flavored tuning bench where you hand-fill a fuel table cell by cell and a simulated engine screams, knocks, or sings back at you through a virtual wideband O2 sensor.",
@@ -13146,34 +10844,6 @@
       "created": "2026-07-09"
     },
     {
-      "slug": "reclass-2-2",
-      "title": "Reclass",
-      "hook": "Snap a pallet's dimensions and description and it hands you the right NMFC freight class before the carrier's scale does it for you—at a $200 reweigh markup.",
-      "tags": [
-        "logistics",
-        "b2b",
-        "automation",
-        "side-hustle"
-      ],
-      "score": 71,
-      "source": "wild",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "metamer",
-      "title": "Metamer",
-      "hook": "You're all art forgers matching the same masterpiece on your phones — except the real forger's palette is metamerically shifted, so their honest gut answer to 'is the sky bluer or greener than the sea?' is quietly wrong and they can't tell which of their colors betrays them.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "perception",
-        "browser-game"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
       "slug": "parallax-2",
       "title": "Parallax",
       "hook": "Everyone stares at the same tiny 3D diorama on their own phone — but the imposter's camera is quietly rotated fifteen degrees, so the object they swear is 'behind the vase' isn't, and their honest description convicts them.",
@@ -13184,20 +10854,6 @@
         "browser-game"
       ],
       "score": 77,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "blackout",
-      "title": "Blackout",
-      "hook": "A redacted paragraph is split among your phones — each player secretly owns one blank, and you all fill them blind, praying the little LLM finds your rebuilt sentence as unsurprising as the original.",
-      "tags": [
-        "party",
-        "cooperative",
-        "wordgame",
-        "browser-game"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-09"
     },
@@ -13226,20 +10882,6 @@
         "competitive"
       ],
       "score": 70,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "sump",
-      "title": "Sump",
-      "hook": "One player holds the cave survey while blind cavers feel only the walls of their own cell, and neither side can see what the other knows.",
-      "tags": [
-        "party",
-        "cooperative",
-        "hidden-information",
-        "spatial"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-09"
     },
@@ -13308,20 +10950,6 @@
         "asymmetric"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-09"
-    },
-    {
-      "slug": "bounce",
-      "title": "Bounce",
-      "hook": "Each phone is a private one-instrument step sequencer and you build your part half-deaf to the others, until the TV plays the full mix and you bounce it to a loop you keep.",
-      "tags": [
-        "party",
-        "cooperative",
-        "audio",
-        "keepsake"
-      ],
-      "score": 71,
       "source": "party",
       "created": "2026-07-09"
     },
@@ -13584,34 +11212,6 @@
         "real-time"
       ],
       "score": 70,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
-      "slug": "report",
-      "title": "Report",
-      "hook": "A phone-native Hanabi where the device does the one thing your hands can't — every screen shows everyone's fireworks but your own, so the only way to play your hand is to trust what the room tells you.",
-      "tags": [
-        "party",
-        "cooperative",
-        "card-game",
-        "hidden-information"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
-      "slug": "crib-2",
-      "title": "Crib",
-      "hook": "Two teams share one room but never one screen — each phone privately guards your squad's four secret keywords while your rival tries to break the code you keep leaking.",
-      "tags": [
-        "party",
-        "wordgame",
-        "code-breaking",
-        "team"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-08"
     },
@@ -13946,20 +11546,6 @@
       "created": "2026-07-08"
     },
     {
-      "slug": "tumbler",
-      "title": "Tumbler",
-      "hook": "You're each one wheel of the same safe, feeling for your own click by vibration alone, and it only cracks if every wheel is held on-number at the same instant.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "sensor"
-      ],
-      "score": 76,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
       "slug": "even-hand",
       "title": "Even Hand",
       "hook": "Everyone hand-writes the exact same line on a group card, disguising their own handwriting — and you win only if nobody can pick your scrawl out of the lineup.",
@@ -13970,20 +11556,6 @@
         "anonymity"
       ],
       "score": 74,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
-      "slug": "marginalia",
-      "title": "Marginalia",
-      "hook": "Everyone scribbles in the margins of the same page at once — each secretly playing a different obsessive reader — until the passage looks like a beloved book passed through a hundred hands, and you keep the palimpsest.",
-      "tags": [
-        "party",
-        "cooperative",
-        "keepsake",
-        "wordgame"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-08"
     },
@@ -14068,19 +11640,6 @@
       "created": "2026-07-08"
     },
     {
-      "slug": "detune",
-      "title": "Detune",
-      "hook": "Wavelength, but your phone IS the dial — tilt it to a hidden target, and everyone locks their guess blind at the exact same second so nobody sways the room.",
-      "tags": [
-        "party",
-        "sensor",
-        "real-time"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
       "slug": "cadence-2",
       "title": "Cadence",
       "hook": "Count to eight out loud as a group with no turn order — but every phone hides a private rule about which numbers you're allowed to say, and any two voices at once resets you to zero.",
@@ -14091,20 +11650,6 @@
         "real-time"
       ],
       "score": 72,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
-      "slug": "airtime",
-      "title": "Airtime",
-      "hook": "Everyone has urgent traffic and there's exactly one radio channel — key up over each other and you both get jammed to static.",
-      "tags": [
-        "party",
-        "cooperative",
-        "voice",
-        "audio"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-08"
     },
@@ -14146,34 +11691,6 @@
       ],
       "score": 75,
       "source": "wild",
-      "created": "2026-07-08"
-    },
-    {
-      "slug": "confluence-2",
-      "title": "Confluence",
-      "hook": "Each phone secretly owns one tile of a fantasy map and can only glimpse the rivers and roads bleeding in from its neighbors — the room draws blind and keeps whatever map it stitches together.",
-      "tags": [
-        "party",
-        "cooperative",
-        "drawing",
-        "keepsake"
-      ],
-      "score": 70,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
-      "slug": "composite",
-      "title": "Composite",
-      "hook": "The whole room secretly co-writes one anonymous note in a single voice, then everyone tries to fingerprint which line is yours — you win only by staying unidentified.",
-      "tags": [
-        "party",
-        "anonymity",
-        "wordgame",
-        "social-deduction"
-      ],
-      "score": 74,
-      "source": "party",
       "created": "2026-07-08"
     },
     {
@@ -14260,20 +11777,6 @@
       "created": "2026-07-08"
     },
     {
-      "slug": "reclass-2",
-      "title": "Reclass",
-      "hook": "Snap a pallet's dims and weight and get the correct density-based NMFC freight class plus BOL-ready text — before the carrier reweighs you and slaps on a reclass fee.",
-      "tags": [
-        "logistics",
-        "b2b",
-        "saas",
-        "automation"
-      ],
-      "score": 73,
-      "source": "wild",
-      "created": "2026-07-08"
-    },
-    {
       "slug": "bleed",
       "title": "Bleed",
       "hook": "A silent all-pay auction where your dwindling bankroll and your private worth for each lot live only on your phone — you bid, and whether you win or lose, everyone pays.",
@@ -14298,20 +11801,6 @@
         "hidden-info"
       ],
       "score": 77,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
-      "slug": "family-style",
-      "title": "Family Style",
-      "hook": "The takeout menu becomes a market: privately bet how many of you secretly want each dish, then cash in for reading the table's appetite better than they read themselves.",
-      "tags": [
-        "party",
-        "betting",
-        "social",
-        "prediction"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-08"
     },
@@ -14400,19 +11889,6 @@
       "created": "2026-07-08"
     },
     {
-      "slug": "crosstalk",
-      "title": "Crosstalk",
-      "hook": "Every phone privately cycles its own secret category, and the instant two players' hidden shapes collide, both buzz and race to shout an answer in the other's category — multiple duels erupting across the room at once.",
-      "tags": [
-        "party",
-        "real-time",
-        "wordgame"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-08"
-    },
-    {
       "slug": "off-model",
       "title": "Off-Model",
       "hook": "Six players draw the same secret word at once, blind on their own phones — but one got a sneakily different word, and the gallery reveal is a lineup to find the fake.",
@@ -14479,34 +11955,6 @@
       "score": 71,
       "source": "party",
       "created": "2026-07-08"
-    },
-    {
-      "slug": "deadfall-2",
-      "title": "Deadfall",
-      "hook": "One phone is a grid only the Trapper sees, secretly seeding pits; the prey creep across blind, each feeling only a private, maddeningly vague 'something's close' buzz.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "asymmetric",
-        "browser-game"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-07"
-    },
-    {
-      "slug": "portage",
-      "title": "Portage",
-      "hook": "One phone is the only map of a pitch-dark cavern; the Guide is muted and can spotlight just one blind Porter per tick, so someone is always stumbling in the dark.",
-      "tags": [
-        "party",
-        "cooperative",
-        "asymmetric",
-        "browser-game"
-      ],
-      "score": 73,
-      "source": "party",
-      "created": "2026-07-07"
     },
     {
       "slug": "continuity-error",
@@ -14881,19 +12329,6 @@
       "created": "2026-07-07"
     },
     {
-      "slug": "on-three-2",
-      "title": "On Three",
-      "hook": "Everyone slaps down a face-down symbol at once and the room tries to silently collapse onto a single shared pick as every matched symbol burns off the board forever.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "cooperative"
-      ],
-      "score": 72,
-      "source": "party",
-      "created": "2026-07-07"
-    },
-    {
       "slug": "ignition",
       "title": "Ignition",
       "hook": "A Jackbox-style party game where everyone holds a piece of the answer but the shared screen only fits three ideas at once — say the wrong thing and someone's clue gets evicted forever.",
@@ -15072,20 +12507,6 @@
       "created": "2026-07-07"
     },
     {
-      "slug": "chalk",
-      "title": "Chalk",
-      "hook": "Every phone privately splits a stack of chips onto which word a tiny in-browser language model thinks comes next — and betting the crowd's favorite pays peanuts.",
-      "tags": [
-        "party",
-        "betting",
-        "wordgame",
-        "browser-game"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-07"
-    },
-    {
       "slug": "wipe",
       "title": "Wipe",
       "hook": "An MMO raid boss on the TV hands each phone a SECRET mechanic — spread, stack, take the tower — and the whole room must physically scramble to the right floor spots before the cast bar fills or everyone wipes.",
@@ -15110,32 +12531,6 @@
         "simultaneous"
       ],
       "score": 76,
-      "source": "party",
-      "created": "2026-07-07"
-    },
-    {
-      "slug": "downbeat",
-      "title": "Downbeat",
-      "hook": "With no count-in and no shared sound, the whole room tries to tap their phones at the exact same instant — each phone privately whispering, through haptics, whether you tend to rush or drag the group's invisible pulse.",
-      "tags": [
-        "party",
-        "cooperative",
-        "rhythm"
-      ],
-      "score": 68,
-      "source": "party",
-      "created": "2026-07-07"
-    },
-    {
-      "slug": "handshake",
-      "title": "Handshake",
-      "hook": "Everyone secretly points a finger at one other player; a pair only clicks into place when the choice is mutual, and the whole room must silently converge on a perfect matching before the clock runs out.",
-      "tags": [
-        "party",
-        "cooperative",
-        "real-time"
-      ],
-      "score": 74,
       "source": "party",
       "created": "2026-07-07"
     },
@@ -15206,20 +12601,6 @@
         "hidden-info"
       ],
       "score": 73,
-      "source": "party",
-      "created": "2026-07-07"
-    },
-    {
-      "slug": "order-up",
-      "title": "Order Up",
-      "hook": "A gorgeous diner menu fills the TV, everyone secretly picks what they'd really order, and then you spend the whole game betting chips on what your friends chose — reading their tastes like a bookie reads a horse.",
-      "tags": [
-        "party",
-        "betting",
-        "social",
-        "hidden-info"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-07"
     },
@@ -15362,20 +12743,6 @@
       "created": "2026-07-06"
     },
     {
-      "slug": "quarry",
-      "title": "Quarry",
-      "hook": "One player hides a monster only their phone can see and moves it every turn, while the blind hunters each feel a private heartbeat that pounds faster the closer their own token creeps — and they have to drop the net on the same square, together.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "hidden-info",
-        "browser-game"
-      ],
-      "score": 69,
-      "source": "party",
-      "created": "2026-07-06"
-    },
-    {
       "slug": "usher",
       "title": "Usher",
       "hook": "One player's phone is a pitch-black manor only they can see, and they sweep a lantern that lights just one blind guest's phone at a time — so everyone else must feel their way to the ballroom before the candle gutters.",
@@ -15439,19 +12806,6 @@
         "party",
         "hidden-movement",
         "one-vs-many"
-      ],
-      "score": 60,
-      "source": "party",
-      "created": "2026-07-06"
-    },
-    {
-      "slug": "lighthouse",
-      "title": "Lighthouse",
-      "hook": "One keeper sees the whole rock-strewn sea and sweeps a single beam; the blind boats steer for harbor on nothing but the glimpses that beam grants them, one at a time.",
-      "tags": [
-        "party",
-        "cooperative",
-        "real-time"
       ],
       "score": 60,
       "source": "party",
@@ -15680,19 +13034,6 @@
       "created": "2026-07-06"
     },
     {
-      "slug": "warmer",
-      "title": "Warmer",
-      "hook": "One player buries treasure on a board only they can see; everyone else gropes across it blind with nothing but a private 'warmer/colder' pulse — and the board-keeper gets to secretly move the loot exactly once.",
-      "tags": [
-        "party",
-        "competitive",
-        "hidden-info"
-      ],
-      "score": 66,
-      "source": "party",
-      "created": "2026-07-06"
-    },
-    {
       "slug": "due-north",
       "title": "Due North",
       "hook": "One player sees the whole maze; everyone else is a blind runner inside it whose phone secretly points a different way, so the guide's every shouted 'go up!' scatters the room in four directions at once.",
@@ -15703,34 +13044,6 @@
         "spatial"
       ],
       "score": 76,
-      "source": "party",
-      "created": "2026-07-06"
-    },
-    {
-      "slug": "offbeat",
-      "title": "Offbeat",
-      "hook": "Everyone claps along to the same beat in their earbud — except one player's private track is dragging half a beat behind, and the room has to hear who's out of time.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "audio",
-        "rhythm"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-06"
-    },
-    {
-      "slug": "understudy-2",
-      "title": "Understudy",
-      "hook": "Your troupe performs a tiny whodunit from private scripts read off your phones — but one actor's script quietly rewrote the facts, and you have to catch the liar before the curtain falls.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "improv",
-        "hidden-role"
-      ],
-      "score": 75,
       "source": "party",
       "created": "2026-07-06"
     },
@@ -15748,19 +13061,6 @@
       "created": "2026-07-06"
     },
     {
-      "slug": "lockstep",
-      "title": "Lockstep",
-      "hook": "The Mind, but every phone hides its own numbers and the whole room must empty their hands in ascending order by held-breath feel alone — no talking, no signals.",
-      "tags": [
-        "party",
-        "cooperative",
-        "real-time"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-06"
-    },
-    {
       "slug": "chum",
       "title": "Chum",
       "hook": "Inverts a leak-hunting framework: instead of scanning for your real breaches, it manufactures believable fake ones and seeds them where scrapers look, so a decoy phoning home is your earliest breach alarm.",
@@ -15772,20 +13072,6 @@
       ],
       "score": 69,
       "source": "github",
-      "created": "2026-07-06"
-    },
-    {
-      "slug": "siteswap",
-      "title": "Siteswap",
-      "hook": "A browser puzzle where you compose juggling in mathematical notation and a two-handed physics sim throws it back at you — solve for a valid 4-ball pattern with exactly one gap.",
-      "tags": [
-        "puzzle",
-        "physics",
-        "browser-game",
-        "procedural"
-      ],
-      "score": 66,
-      "source": "hn",
       "created": "2026-07-06"
     },
     {
@@ -15852,20 +13138,6 @@
         "real-time",
         "cooperative",
         "spatial"
-      ],
-      "score": 74,
-      "source": "party",
-      "created": "2026-07-06"
-    },
-    {
-      "slug": "cash-out",
-      "title": "Cash Out",
-      "hook": "A 60-second clip plays on the TV and every phone is a live sportsbook — bet on what happens next, ride your streak, and pray you cash out before the room busts you.",
-      "tags": [
-        "party",
-        "press-your-luck",
-        "prediction",
-        "realtime"
       ],
       "score": 74,
       "source": "party",
@@ -16176,19 +13448,6 @@
       "created": "2026-07-06"
     },
     {
-      "slug": "graze",
-      "title": "Graze",
-      "hook": "Everyone tilts their phone through their OWN private bullet-hell, and skimming bullets dangerously close is exactly how you load a barrage to dump into a rival's screen.",
-      "tags": [
-        "party",
-        "sensor",
-        "arcade"
-      ],
-      "score": 66,
-      "source": "party",
-      "created": "2026-07-06"
-    },
-    {
       "slug": "reroll",
       "title": "Reroll",
       "hook": "A blind auto-battler where every phone gets its own secret shop drawn from one shared unit pool — so buying the last Knight quietly starves everyone else's rolls.",
@@ -16421,19 +13680,6 @@
       "created": "2026-07-05"
     },
     {
-      "slug": "dibs",
-      "title": "Dibs",
-      "hook": "Five treasures sit on the table, each phone secretly knows how much YOU'D pay for each — call dibs at the same instant, and anything two people grab shatters in their hands.",
-      "tags": [
-        "party",
-        "hidden-info",
-        "bluffing"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
       "slug": "crumple",
       "title": "Crumple",
       "hook": "Everyone drives a token across a shared intersection at the same instant, blind to each other's next move — and any two tokens that lunge into the same square both crumple into scrap.",
@@ -16581,20 +13827,6 @@
         "sensor"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
-      "slug": "holdout",
-      "title": "Holdout",
-      "hook": "A silent war of attrition where your phone is the referee — the last mouth to stay shut takes the pot, but only you know how much this round is secretly worth to you.",
-      "tags": [
-        "party",
-        "audio",
-        "bluffing",
-        "sensor"
-      ],
-      "score": 69,
       "source": "party",
       "created": "2026-07-05"
     },
@@ -16818,20 +14050,6 @@
       "created": "2026-07-05"
     },
     {
-      "slug": "swerve",
-      "title": "Swerve",
-      "hook": "Write the continuation that most SURPRISES a tiny in-browser LLM — without losing the humans, who privately vote whether you're brilliant or just word salad.",
-      "tags": [
-        "party",
-        "wordgame",
-        "browser-game",
-        "voting"
-      ],
-      "score": 67,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
       "slug": "coax",
       "title": "Coax",
       "hook": "Secretly steer a tiny in-browser language model into blurting YOUR hidden word as its very next token — no cheating, no saying it.",
@@ -16944,20 +14162,6 @@
       "created": "2026-07-05"
     },
     {
-      "slug": "off-color",
-      "title": "Off-Color",
-      "hook": "You and your two neighbors each secretly pick a color and must all differ — but you can't talk, can't see their pick, and every match flashes red and burns you both.",
-      "tags": [
-        "party",
-        "puzzle",
-        "competitive",
-        "blind-coordination"
-      ],
-      "score": 66,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
       "slug": "backoff",
       "title": "Backoff",
       "hook": "A shared radio channel that only works when exactly one of you talks at a time — the instant two phones grab the same open slot, both jam into static.",
@@ -17027,19 +14231,6 @@
       "created": "2026-07-05"
     },
     {
-      "slug": "read-back",
-      "title": "Read Back",
-      "hook": "A cockpit where the only way to execute a command is to say it back perfectly — and a hidden crewmate holds the true text and decides if your read-back lives or dies.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
       "slug": "skew",
       "title": "Skew",
       "hook": "The room cooperatively steers a dot to the exit by privately tapping direction pads — but one player's grid is secretly rotated 90°, so their honest taps keep dragging everyone off course.",
@@ -17049,19 +14240,6 @@
         "cooperative"
       ],
       "score": 70,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
-      "slug": "parallax",
-      "title": "Parallax",
-      "hook": "Everyone gives one-word clues about the same target symbol — except one player unknowingly sees the target shifted one seat over, and their sincere clues quietly betray them.",
-      "tags": [
-        "party",
-        "social-deduction",
-        "wordgame"
-      ],
-      "score": 73,
       "source": "party",
       "created": "2026-07-05"
     },
@@ -17149,34 +14327,6 @@
       "created": "2026-07-05"
     },
     {
-      "slug": "simmer",
-      "title": "Simmer",
-      "hook": "Everyone secretly drags a private slider toward the same spot on a spectrum — you can't see anyone else, only a shared thermometer that glows hotter the tighter the room clusters, and you have to blind-anneal your way to consensus before the timer runs out.",
-      "tags": [
-        "party",
-        "cooperative",
-        "convergence",
-        "sensor"
-      ],
-      "score": 75,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
-      "slug": "ballast",
-      "title": "Ballast",
-      "hook": "The whole room tilts their phones to keep a listing ship level on the TV, but one secret Ballast is dead weight dragging it under — spot the wobble that doesn't belong.",
-      "tags": [
-        "party",
-        "sensor",
-        "cooperative",
-        "social-deduction"
-      ],
-      "score": 71,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
       "slug": "sightline",
       "title": "Sightline",
       "hook": "A silent compass duel where everyone secretly aims their phone at a target across the room, and you only score if you drew a bead on your mark before anyone drew on you.",
@@ -17201,20 +14351,6 @@
         "asymmetric"
       ],
       "score": 75,
-      "source": "party",
-      "created": "2026-07-05"
-    },
-    {
-      "slug": "fathom",
-      "title": "Fathom",
-      "hook": "Nobody can see the whole map — each phone holds one secret slice of the terrain, and one player must fathom the full board from the babble.",
-      "tags": [
-        "party",
-        "cooperative",
-        "spatial",
-        "deduction"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-05"
     },
@@ -17312,20 +14448,6 @@
         "real-time"
       ],
       "score": 73,
-      "source": "party",
-      "created": "2026-07-04"
-    },
-    {
-      "slug": "hot-mic",
-      "title": "Hot Mic",
-      "hook": "A relay where exactly one phone is 'on air' at a time — only that player may speak, everyone else's mic must stay dead silent, and you keep a 60-second broadcast alive by silently tapping the live mic to the next person without ever letting two voices collide.",
-      "tags": [
-        "party",
-        "audio",
-        "cooperative",
-        "sensor"
-      ],
-      "score": 68,
       "source": "party",
       "created": "2026-07-04"
     },
@@ -17942,20 +15064,6 @@
       "created": "2026-07-02"
     },
     {
-      "slug": "conveyor",
-      "title": "Conveyor",
-      "hook": "A Satisfactory-style factory builder where the resource on the belts is your paycheck — route income through splitters and buffers into rent, debt, and savings, and watch overflow pile up wherever your budget is actually broken.",
-      "tags": [
-        "budgeting",
-        "sim",
-        "game",
-        "data-viz"
-      ],
-      "score": 72,
-      "source": "steam",
-      "created": "2026-07-02"
-    },
-    {
       "slug": "recuse",
       "title": "Recuse",
       "hook": "Cross-references every federal judge's financial disclosures against the parties in cases on their docket and pings you the moment a judge is sitting on a case they own stock in.",
@@ -18052,20 +15160,6 @@
       "created": "2026-07-02"
     },
     {
-      "slug": "deadlock",
-      "title": "Deadlock",
-      "hook": "An extraction roguelike where you're on-call at 3am: drop into a randomly-broken production database, hunt the monster query strangling it with a limited diagnostic budget, and fix it before the pager kills your run.",
-      "tags": [
-        "game",
-        "roguelike",
-        "sql",
-        "observability"
-      ],
-      "score": 74,
-      "source": "github",
-      "created": "2026-07-02"
-    },
-    {
       "slug": "heartwood",
       "title": "Heartwood",
       "hook": "A live wallpaper that grows one tree-ring a day from your machine's pulse—wide green rings for good days, charred fire-scars for the outages, a readable cross-section by New Year's.",
@@ -18077,20 +15171,6 @@
       ],
       "score": 68,
       "source": "hn",
-      "created": "2026-07-02"
-    },
-    {
-      "slug": "backflow",
-      "title": "Backflow",
-      "hook": "The one-tap field app that turns a plumber's annual backflow-preventer test into the exact PDF your water district demands—filed before the truck leaves the curb.",
-      "tags": [
-        "logistics",
-        "ops-tool",
-        "automation",
-        "b2b"
-      ],
-      "score": 71,
-      "source": "wild",
       "created": "2026-07-02"
     },
     {
@@ -18147,20 +15227,6 @@
       ],
       "score": 65,
       "source": "hn",
-      "created": "2026-07-02"
-    },
-    {
-      "slug": "setback",
-      "title": "Setback",
-      "hook": "Snap your address, say \"6-foot cedar fence\" or \"120 sq ft shed,\" and it tells you in ten seconds whether you need a permit here — before you waste a Saturday at the counter.",
-      "tags": [
-        "ops-tool",
-        "gis",
-        "saas",
-        "automation"
-      ],
-      "score": 71,
-      "source": "wild",
       "created": "2026-07-02"
     },
     {
@@ -18260,20 +15326,6 @@
       "score": 74,
       "source": "github",
       "created": "2026-07-02"
-    },
-    {
-      "slug": "compost-2",
-      "title": "Compost",
-      "hook": "The mischievous opposite of self-managing agent memory: your notes rot on a half-life unless you tend them, and the ones that die decompose into keyword 'soil' that seeds whatever you write next.",
-      "tags": [
-        "productivity",
-        "writing",
-        "whimsy",
-        "sim"
-      ],
-      "score": 63,
-      "source": "github",
-      "created": "2026-07-01"
     },
     {
       "slug": "backtick",
@@ -18649,20 +15701,6 @@
       "created": "2026-07-01"
     },
     {
-      "slug": "core-sample",
-      "title": "Core Sample",
-      "hook": "A menubar app that samples one minute of your room's ambient sound each day and lays down a tree ring of color — after a year you have a drillable core of what your year actually sounded like.",
-      "tags": [
-        "ambient",
-        "audio",
-        "quantified-self",
-        "generative"
-      ],
-      "score": 70,
-      "source": "hn",
-      "created": "2026-07-01"
-    },
-    {
       "slug": "deadhead",
       "title": "Deadhead",
       "hook": "A freight-routing minigame on real OpenStreetMap roads where the enemy isn't traffic — it's the empty miles, and every deadhead leg bleeds your margin.",
@@ -18674,20 +15712,6 @@
       ],
       "score": 66,
       "source": "steam",
-      "created": "2026-07-01"
-    },
-    {
-      "slug": "load-bearing",
-      "title": "Load Bearing",
-      "hook": "A daily 3D demolition puzzle: remove exactly ONE beam so the whole structure collapses onto the target — par is measured in pieces knocked loose.",
-      "tags": [
-        "puzzle",
-        "physics",
-        "browser-game",
-        "procedural"
-      ],
-      "score": 69,
-      "source": "hn",
       "created": "2026-07-01"
     },
     {
@@ -18719,20 +15743,6 @@
       "created": "2026-07-01"
     },
     {
-      "slug": "backseat",
-      "title": "Backseat",
-      "hook": "A live second-screen game layered over esports streams: predict the next play in real time and score against the whole crowd watching with you.",
-      "tags": [
-        "competitive",
-        "social",
-        "multiplayer",
-        "leaderboard"
-      ],
-      "score": 60,
-      "source": "steam",
-      "created": "2026-07-01"
-    },
-    {
       "slug": "fragment",
       "title": "Fragment",
       "hook": "Wordle for shaders: everyone gets the same target image each day, and you race to reproduce it in the fewest characters of GLSL.",
@@ -18758,20 +15768,6 @@
       ],
       "score": 64,
       "source": "github",
-      "created": "2026-07-01"
-    },
-    {
-      "slug": "splice",
-      "title": "Splice",
-      "hook": "Code-golf for life: build the smallest gene set that still grows, divides, and survives — fewer genes, higher score.",
-      "tags": [
-        "biology",
-        "puzzle",
-        "sim",
-        "procedural"
-      ],
-      "score": 69,
-      "source": "hn",
       "created": "2026-07-01"
     },
     {
@@ -18900,19 +15896,6 @@
       "created": "2026-07-01"
     },
     {
-      "slug": "tangent",
-      "title": "Tangent",
-      "hook": "A search engine tuned backwards: it hides the obvious hits and surfaces only the interesting near-misses, for when you want to get productively lost instead of answered.",
-      "tags": [
-        "nlp",
-        "embeddings",
-        "whimsy"
-      ],
-      "score": 60,
-      "source": "github",
-      "created": "2026-07-01"
-    },
-    {
       "slug": "jewel-case",
       "title": "Jewel Case",
       "hook": "Print-and-fold physical box art, spine, and a fake manual for any game in your all-digital Steam library — a papercraft wake for the death of the disc.",
@@ -18965,20 +15948,6 @@
       ],
       "score": 76,
       "source": "github",
-      "created": "2026-07-01"
-    },
-    {
-      "slug": "clawback",
-      "title": "Clawback",
-      "hook": "A memorial wall and radar for the movies, games, and books you legally bought and a platform quietly deleted out from under you.",
-      "tags": [
-        "data-viz",
-        "privacy",
-        "self-hosted",
-        "provenance"
-      ],
-      "score": 58,
-      "source": "hn",
       "created": "2026-07-01"
     },
     {
@@ -19080,20 +16049,6 @@
       "created": "2026-07-01"
     },
     {
-      "slug": "fallow-2",
-      "title": "Fallow",
-      "hook": "A live wallpaper that grows a shared garden only while your machine sits idle — and ranks your longest untouched streak against strangers worldwide.",
-      "tags": [
-        "desktop-toy",
-        "ambient",
-        "leaderboard",
-        "quantified-self"
-      ],
-      "score": 66,
-      "source": "steam",
-      "created": "2026-07-01"
-    },
-    {
       "slug": "ballista",
       "title": "Ballista",
       "hook": "A physics puzzle where you play an ambush spider building spring-loaded snares — wind up potential energy, aim, and release to yank prey off the ground.",
@@ -19136,20 +16091,6 @@
       "created": "2026-07-01"
     },
     {
-      "slug": "ligature",
-      "title": "Ligature",
-      "hook": "A tool that bakes any short secret into a custom font, so typing a harmless trigger word suddenly renders a QR code or hidden glyph — steganography you can paste into any chat that supports web fonts.",
-      "tags": [
-        "steganography",
-        "generative",
-        "wordgame",
-        "graphics"
-      ],
-      "score": 68,
-      "source": "github",
-      "created": "2026-07-01"
-    },
-    {
       "slug": "last-call",
       "title": "Last Call",
       "hook": "A watch-race league where friends compete to finish movies before streaming services delete them — turning your guilt-ridden watchlist into a scoreboard against the expiry clock.",
@@ -19161,20 +16102,6 @@
       ],
       "score": 62,
       "source": "hn",
-      "created": "2026-07-01"
-    },
-    {
-      "slug": "s-ance",
-      "title": "Séance",
-      "hook": "Co-op ghost hunting for your homelab: an incident spawns a haunting, and you and your on-call crew collect readings from spooky instruments until you can name and banish the root cause.",
-      "tags": [
-        "observability",
-        "homelab",
-        "multiplayer",
-        "party-game"
-      ],
-      "score": 74,
-      "source": "steam",
       "created": "2026-07-01"
     },
     {
@@ -19214,32 +16141,6 @@
       ],
       "score": 76,
       "source": "hn",
-      "created": "2026-07-01"
-    },
-    {
-      "slug": "squint",
-      "title": "Squint",
-      "hook": "A twitchy reflex arcade where lookalike domains flash for a shrinking half-second and you snap SAFE or FAKE — secretly drilling your eye against real homoglyph phishing.",
-      "tags": [
-        "security",
-        "arcade",
-        "phishing"
-      ],
-      "score": 70,
-      "source": "github",
-      "created": "2026-07-01"
-    },
-    {
-      "slug": "warren",
-      "title": "Warren",
-      "hook": "A dungeon that builds itself one room a night — each real day of your life becomes a tile-mapped chamber you can walk through at year's end.",
-      "tags": [
-        "ambient",
-        "tiled",
-        "dungeon"
-      ],
-      "score": 73,
-      "source": "github",
       "created": "2026-07-01"
     },
     {
@@ -19828,19 +16729,6 @@
       "created": "2026-07-01"
     },
     {
-      "slug": "dowser",
-      "title": "Dowser",
-      "hook": "A $20 mmWave radar board skinned as a mystical dowsing rod that actually finds studs, pipes, and water behind your walls by classifying material permittivity.",
-      "tags": [
-        "radar",
-        "hardware",
-        "diy"
-      ],
-      "score": 74,
-      "source": "hn",
-      "created": "2026-07-01"
-    },
-    {
       "slug": "mainspring",
       "title": "Mainspring",
       "hook": "A pull-back toy-car derby where you engineer the spring, gears, and wheels to nail a target distance — a child's toy tuned with the seriousness of a real drivetrain.",
@@ -20020,32 +16908,6 @@
       ],
       "score": 66,
       "source": "wild",
-      "created": "2026-07-01"
-    },
-    {
-      "slug": "understudy",
-      "title": "Understudy",
-      "hook": "A slow apprenticeship game where you learn a dying craft only by watching the last aging master — and any technique you fail to master before they pass is erased from your save forever.",
-      "tags": [
-        "slow-game",
-        "permadeath",
-        "craft"
-      ],
-      "score": 69,
-      "source": "hn",
-      "created": "2026-07-01"
-    },
-    {
-      "slug": "cutaway",
-      "title": "Cutaway",
-      "hook": "Paste a tiny function and watch it explode into an animated mechanical teardown diagram — registers as labeled parts, data flowing through the gears like a wound-up pull-back car.",
-      "tags": [
-        "assembly",
-        "teardown",
-        "education"
-      ],
-      "score": 71,
-      "source": "github",
       "created": "2026-07-01"
     },
     {
@@ -21180,19 +18042,6 @@
       "created": "2026-07-01"
     },
     {
-      "slug": "zero-width",
-      "title": "Zero-Width",
-      "hook": "A party word-game where one player smuggles a secret word into an ordinary group chat using invisible steganographic characters, and everyone else — reading the same visible text — has to sniff out who's hiding a signal and what it says.",
-      "tags": [
-        "party-game",
-        "steganography",
-        "social-deduction"
-      ],
-      "score": 71,
-      "source": "hn",
-      "created": "2026-07-01"
-    },
-    {
       "slug": "uptime-rings",
       "title": "Uptime Rings",
       "hook": "A tiny app that turns your Mac's own reboot, sleep, and wake log into a slowly-growing tree-ring mandala — one full ring per year, one scar per crash, so your machine quietly draws a portrait of its own life while you use it.",
@@ -21380,21 +18229,6 @@
         "browser-game"
       ],
       "score": 74,
-      "source": "brainstorm",
-      "created": "2026-07-04"
-    },
-    {
-      "slug": "flash-mob",
-      "title": "Flash Mob",
-      "hook": "Room-scale party game where each phone is one pixel in a synchronized light-show photo.",
-      "tags": [
-        "party",
-        "game",
-        "cooperative",
-        "browser-game",
-        "whimsy"
-      ],
-      "score": 72,
       "source": "brainstorm",
       "created": "2026-07-04"
     },
@@ -21606,20 +18440,6 @@
       "created": "2026-07-04"
     },
     {
-      "slug": "split-brain",
-      "title": "Split Brain",
-      "hook": "Cooperative visual puzzle where each phone shows one tile of a cropped image and the group must describe their pieces via a word-budgeted chat to guess the whole.",
-      "tags": [
-        "party",
-        "game",
-        "cooperative",
-        "browser-game"
-      ],
-      "score": 72,
-      "source": "brainstorm",
-      "created": "2026-07-04"
-    },
-    {
       "slug": "distributed-alibi",
       "title": "Distributed Alibi",
       "hook": "LLM-generated mystery where each phone privately holds one witness testimony — some of which are lies — and the group must jointly identify culprit and liars.",
@@ -21689,21 +18509,6 @@
         "deception"
       ],
       "score": 73,
-      "source": "brainstorm",
-      "created": "2026-07-04"
-    },
-    {
-      "slug": "tell",
-      "title": "Tell",
-      "hook": "Everyone has a hidden axis for placing words; one player's axis is subtly shifted — vote out the odd one.",
-      "tags": [
-        "party",
-        "game",
-        "social-deduction",
-        "wordgame",
-        "deception"
-      ],
-      "score": 75,
       "source": "brainstorm",
       "created": "2026-07-04"
     },
@@ -21811,20 +18616,6 @@
       "created": "2026-07-04"
     },
     {
-      "slug": "cadence",
-      "title": "Cadence",
-      "hook": "Everyone privately scrolls the same deck at their own pace — group wins if all phones land on the same card at the buzzer.",
-      "tags": [
-        "party",
-        "game",
-        "cooperative",
-        "browser-game"
-      ],
-      "score": 69,
-      "source": "brainstorm",
-      "created": "2026-07-04"
-    },
-    {
       "slug": "same-wavelength",
       "title": "Same Wavelength",
       "hook": "Assigned pairs must independently type the same word from a category with zero communication.",
@@ -21913,21 +18704,6 @@
       "created": "2026-07-04"
     },
     {
-      "slug": "shortlist",
-      "title": "Shortlist",
-      "hook": "Privately rank 10 items by an objective external truth (IMDB, Trends) — closest guess wins the reveal.",
-      "tags": [
-        "party",
-        "game",
-        "competitive",
-        "trivia",
-        "browser-game"
-      ],
-      "score": 68,
-      "source": "brainstorm",
-      "created": "2026-07-04"
-    },
-    {
       "slug": "truth-serum",
       "title": "Truth Serum",
       "hook": "Anonymous 'who's most likely to X' group vote where the room only ever sees aggregate counts, never individual ballots.",
@@ -21938,20 +18714,6 @@
         "browser-game"
       ],
       "score": 73,
-      "source": "brainstorm",
-      "created": "2026-07-04"
-    },
-    {
-      "slug": "fingerprint",
-      "title": "Fingerprint",
-      "hook": "Privately confess whether a real-life scenario has happened to you, then the group tries to guess who the confessors are.",
-      "tags": [
-        "party",
-        "game",
-        "social-deduction",
-        "browser-game"
-      ],
-      "score": 70,
       "source": "brainstorm",
       "created": "2026-07-04"
     },
@@ -21997,21 +18759,6 @@
         "wholesome"
       ],
       "score": 68,
-      "source": "brainstorm",
-      "created": "2026-07-04"
-    },
-    {
-      "slug": "redact",
-      "title": "Redact",
-      "hook": "Everyone sees the same paragraph on their phone but with different words blacked out; ask yes/no questions to reconstruct the original as a group.",
-      "tags": [
-        "party",
-        "game",
-        "cooperative",
-        "wordgame",
-        "browser-game"
-      ],
-      "score": 71,
       "source": "brainstorm",
       "created": "2026-07-04"
     },
