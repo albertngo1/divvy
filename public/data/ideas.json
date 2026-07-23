@@ -2,6 +2,129 @@
   "lastScan": "2026-07-23",
   "ideas": [
     {
+      "slug": "blackout",
+      "title": "Blackout",
+      "hook": "You're each handed the same paragraph and told to black out every word but four — win only if all three of you leave the exact same words standing, spelling one shared found-poem.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "junction",
+      "title": "Junction",
+      "hook": "Everyone walks a maze of labeled doors alone, seeing only their own room — converge on the same final chamber with no way to call out where you are.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "garland",
+      "title": "Garland",
+      "hook": "You secretly ring three words into a triangle and write a one-word clue on each edge — then hand the room only the clues and a jumble of words, and watch them try to rebuild the shape that lives only in your head.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "rung",
+      "title": "Rung",
+      "hook": "Lay every phone's secret number in one ascending line across the room without speaking, breathing, or blinking wrong — a hair-trigger telepathy test where 40 milliseconds late means a broken heart.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "watermark",
+      "title": "Watermark",
+      "hook": "Everyone secretly rewrites the same sentence while hiding a stylistic 'tell' only their phone knows — and the whole room wins only if, in the reveal, nobody's fingerprint can be pinned.",
+      "tags": [
+        "party",
+        "wordgame",
+        "anonymity",
+        "social-deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "cel-2",
+      "title": "Cel",
+      "hook": "Everyone secretly draws one frame of a looping animation, seeing only a faint ghost of the frame before theirs — hit play and the blind flipbook wobbles to life as a shared GIF.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "sequester",
+      "title": "Sequester",
+      "hook": "Point it at your own docs and it forges a private, uncontaminated eval set on the spot — so you can rank LLMs on questions no model could have memorized, and watch scores drift as new models ship.",
+      "tags": [
+        "llm",
+        "agents",
+        "ml",
+        "saas"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "badness",
+      "title": "Badness",
+      "hook": "An explorable explanation of Knuth-Plass line-breaking where you drag one slider and watch the paragraph solve itself as a shortest-path problem — demerits, rivers, and all.",
+      "tags": [
+        "data-viz",
+        "visualization",
+        "writing"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "residual",
+      "title": "Residual",
+      "hook": "A Kelley Blue Book for used AI accelerators: type in an H100 pallet and get a defensible market value, depreciation curve, and lease-residual forecast built from sold comps and benchmark-per-dollar.",
+      "tags": [
+        "finance",
+        "markets",
+        "saas",
+        "b2b"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
       "slug": "cadence",
       "title": "Cadence",
       "hook": "With no metronome, no audio, and no peeking, everyone rocks their phone like a pendulum until three bodies silently fall into the same unspoken tempo.",
