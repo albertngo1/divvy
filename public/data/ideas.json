@@ -2,6 +2,89 @@
   "lastScan": "2026-07-23",
   "ideas": [
     {
+      "slug": "grain",
+      "title": "Grain",
+      "hook": "Everyone secretly designs tiles for one shared tapestry — make it beautiful together, but design distinctively enough and the group will trace a tile back to you; you win by staying un-pinned.",
+      "tags": [
+        "party",
+        "anonymity",
+        "social-deduction",
+        "keepsake"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "cylinder",
+      "title": "Cylinder",
+      "hook": "Everyone privately punches one blind lane of a shared music-box strip, then the host cranks it and the room hears the tune assemble for the very first time — take home the punch-card.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "wisp",
+      "title": "Wisp",
+      "hook": "A single guide holds the only map and leads three blindfolded travelers step by step toward a hidden haven — but the guide might be a will-o'-the-wisp steering you into the bog, and your only defense is the private sense reading buzzing on your own phone.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "sensor"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "resonance",
+      "title": "Resonance",
+      "hook": "A menubar radio station tuned to the real universe: it sonifies actual multi-planet exoplanet systems as slow polyrhythms, turning orbital resonances into harmony and the transit-timing wobble of hidden moons into swing.",
+      "tags": [
+        "ambient",
+        "generative",
+        "audio",
+        "astronomy"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "spillage",
+      "title": "Spillage",
+      "hook": "Point it at your exported ChatGPT/Claude history and it forensically surfaces every API key, credential, and piece of PII you've ever pasted into a chatbot — a retrospective audit of what you've already handed the models.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics",
+        "cli"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "half-space",
+      "title": "Half-Space",
+      "hook": "A Zachtronics-style puzzle where you hand-assemble a triangle rasterizer — edge tests, barycentric interpolation, depth and blend on a tiny fixed-cycle VM — to reproduce target images at the lowest instruction count.",
+      "tags": [
+        "puzzle",
+        "game",
+        "graphics",
+        "devtool"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
       "slug": "wolf-tone",
       "title": "Wolf Tone",
       "hook": "Every phone in the room sings its own held tone from its own speaker, and your job is to keep yours clean — because when two pitches drift too close the whole room hears the ugly beating, and both of you get buzzed to zero.",
