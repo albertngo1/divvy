@@ -2,6 +2,73 @@
   "lastScan": "2026-07-23",
   "ideas": [
     {
+      "slug": "token-ring",
+      "title": "Token Ring",
+      "hook": "Every phone defuses its own module using a manual that only the player to your left can read aloud — a cycle of dependence where nobody can solve alone and the room never stops talking.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "falter",
+      "title": "Falter",
+      "hook": "The model writes a sentence one word at a time — everybody secretly bets which word it will choke on hardest.",
+      "tags": [
+        "party",
+        "prediction",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "nudge",
+      "title": "Nudge",
+      "hook": "You're handed one absurd secret word — now write the lead-in that makes a tiny language model say it next, all on its own.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "elute",
+      "title": "Elute",
+      "hook": "A meditative chemistry puzzle where you coax a muddy mixture of rare-earth ions into clean rainbow bands down a chromatography column — the hardest thing on Earth to separate, made satisfying.",
+      "tags": [
+        "chemistry",
+        "puzzle",
+        "sim"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
+      "slug": "round-trip-2",
+      "title": "Round-Trip",
+      "hook": "An explorable money-flow map of the AI boom's circular financing — edge-bundled arcs that light up red wherever the dollars quietly loop back to where they started.",
+      "tags": [
+        "finance",
+        "data-viz",
+        "markets",
+        "economics"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-23"
+    },
+    {
       "slug": "grain",
       "title": "Grain",
       "hook": "Everyone secretly designs tiles for one shared tapestry — make it beautiful together, but design distinctively enough and the group will trace a tile back to you; you win by staying un-pinned.",
