@@ -2,6 +2,75 @@
   "lastScan": "2026-07-24",
   "ideas": [
     {
+      "slug": "vouch",
+      "title": "Vouch",
+      "hook": "Slide a face-down card across the table swearing it's a frog — the only person who knows if you're lying is you, until someone peeks and inherits the lie.",
+      "tags": [
+        "party",
+        "bluffing",
+        "social-deduction"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "face-out",
+      "title": "Face Out",
+      "hook": "A Hanabi where your phone shows everyone's hand but your own — the one secret in the room is the one in your own fingers.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "reagent",
+      "title": "Reagent",
+      "hook": "A co-op roguelike where the room fights one monster on the TV while every phone holds a shelf of unidentified potions — and 'blue' means fire for you but poison for me, so you have to drink, learn, and shout.",
+      "tags": [
+        "party",
+        "roguelike",
+        "cooperative",
+        "hidden-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "nakaya",
+      "title": "Nakaya",
+      "hook": "A snowflake grows in your browser with the morphology real physics demands — dial temperature and humidity and watch needles, plates, or ferny dendrites emerge exactly where Nakaya's diagram says they should.",
+      "tags": [
+        "cellular-automata",
+        "generative",
+        "nature",
+        "physics"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "changeling",
+      "title": "Changeling",
+      "hook": "A forensic watchdog that fingerprints every app on your Mac and screams the instant a trusted binary is silently swapped underneath a legitimate version number.",
+      "tags": [
+        "security",
+        "forensics",
+        "provenance",
+        "cli"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-24"
+    },
+    {
       "slug": "doctored",
       "title": "Doctored",
       "hook": "Everyone privately holds the same busy illustrated scene and describes details out loud — but one phone's copy has three subtle edits, and its owner must talk their way through never knowing which of their details is the fake.",
