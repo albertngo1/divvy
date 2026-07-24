@@ -2,6 +2,118 @@
   "lastScan": "2026-07-24",
   "ideas": [
     {
+      "slug": "stall",
+      "title": "Stall",
+      "hook": "A train only moves while the room is silent, and the only brake is your own voice — which stops it, taxes you, and tells everyone you were hoping to get off early.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "bluffing"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "personal-space",
+      "title": "Personal Space",
+      "hook": "Every phone screams a private ultrasonic tone nobody can hear; you must drift close to your secret mark for five seconds without letting the stranger who's hunting you get equally close — and no one is allowed to say a word about it.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "hidden-role"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "joist",
+      "title": "Joist",
+      "hook": "Every phone lies flat on a different piece of furniture; you knock on wood and discover the room's hidden vibration network — which surfaces are secretly connected, and which of you are structurally alone.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "bump",
+      "title": "Bump",
+      "hook": "A roguelike run where the whole party shares one character, but each phone privately holds a different item that only reveals its true effect when someone else triggers it — so every choice is a bet on a stranger's inventory.",
+      "tags": [
+        "party",
+        "roguelike",
+        "hidden-info",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "iframe",
+      "title": "Iframe",
+      "hook": "A fighting-game combo is split limb-by-limb across four phones — each player owns one body part of a single shared fighter, and the combo only lands if every limb's input arrives inside the same three-frame window.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "dead-time",
+      "title": "Dead Time",
+      "hook": "Control-theory lab for your own body: it measures how many days lie between pulling a lever and seeing the result, then tells you you're oscillating because you keep correcting daily on a four-day delay.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "habits",
+        "data-viz"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "stale-frame",
+      "title": "Stale Frame",
+      "hook": "Your prod crash points at payments/charge.py:412 from a release three months old — Stale Frame walks that exact line forward through history and tells you where it lives now, and whether someone already fixed it.",
+      "tags": [
+        "saas",
+        "devtool",
+        "git",
+        "observability"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "ragged-right",
+      "title": "Ragged Right",
+      "hook": "Typeset your year of bills like a paragraph — Knuth-Plass line-breaking decides which bill goes in which paycheck, and an overdraft prints as an Overfull \\hbox warning.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "data-viz",
+        "cli"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-24"
+    },
+    {
       "slug": "finder-s-fee",
       "title": "Finder's Fee",
       "hook": "The only map is on the Fixer's phone, the Fixer is on nobody's team, and every hint has a price the Fixer makes up on the spot.",
