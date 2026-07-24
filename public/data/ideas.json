@@ -1,6 +1,33 @@
 {
-  "lastScan": "2026-07-23",
+  "lastScan": "2026-07-24",
   "ideas": [
+    {
+      "slug": "doctored",
+      "title": "Doctored",
+      "hook": "Everyone privately holds the same busy illustrated scene and describes details out loud — but one phone's copy has three subtle edits, and its owner must talk their way through never knowing which of their details is the fake.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "fork",
+      "title": "Fork",
+      "hook": "At a sentence's crossroads, secretly pick a next word the model still finds plausible but no other human would ever think of — the lonely-but-legal branch wins.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-24"
+    },
     {
       "slug": "token-ring",
       "title": "Token Ring",
