@@ -2,6 +2,88 @@
   "lastScan": "2026-07-24",
   "ideas": [
     {
+      "slug": "register",
+      "title": "Register",
+      "hook": "Write one sentence that reads as flawless nursery rhyme yet total gibberish when the model rereads it as a legal contract — the bigger the perplexity gap between the two hats, the better.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "forgery",
+      "title": "Forgery",
+      "hook": "The room draws one secret object stroke-by-stroke onto the TV, but one player never learned the word — and every spectator privately logs live suspicion the instant each stroke lands, building a secret dossier instead of one end-vote.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "drawing",
+        "hidden-role"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "cutthroat",
+      "title": "Cutthroat",
+      "hook": "A row of loot on the TV, everyone secretly grabs one at the exact same instant — and if two of you grab the same thing it shatters and nobody gets it.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "tilt",
+      "title": "Tilt",
+      "hook": "Import your real brokerage trade history and it reconstructs your worst year as a boss-rush roguelike where each behavioral bias — holding losers, selling winners, revenge-sizing — is a monster you learn to beat.",
+      "tags": [
+        "finance",
+        "game",
+        "roguelike",
+        "quantified-self"
+      ],
+      "score": 69,
+      "source": "wild",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "left-behind",
+      "title": "Left Behind",
+      "hook": "A migration-completeness auditor that diffs your old git forge against the new one and proves — issue by issue, webhook by webhook — that nothing silently vanished in the move off GitHub.",
+      "tags": [
+        "business",
+        "saas",
+        "git",
+        "devtool"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "deadman",
+      "title": "Deadman",
+      "hook": "A local egress proxy that fingerprints your coding agent's request loops and trips a circuit breaker the instant it starts accidentally DoSing an endpoint or torching your API budget.",
+      "tags": [
+        "security",
+        "devtool",
+        "cli",
+        "observability"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-24"
+    },
+    {
       "slug": "next-hop",
       "title": "Next Hop",
       "hook": "A message has to reach Priya, but nobody can see the whole map — you only know who YOU can reach, so the room becomes a shouting, self-organizing routing table racing the packet's dying timer.",
