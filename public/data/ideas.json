@@ -2,6 +2,90 @@
   "lastScan": "2026-07-24",
   "ideas": [
     {
+      "slug": "next-hop",
+      "title": "Next Hop",
+      "hook": "A message has to reach Priya, but nobody can see the whole map — you only know who YOU can reach, so the room becomes a shouting, self-organizing routing table racing the packet's dying timer.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "break-break",
+      "title": "Break Break",
+      "hook": "Everyone jabbers routine radio chatter to keep the net alive — until your phone hands you an urgent message and you have to shout the room into silence to squeeze it through.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "fresco",
+      "title": "Fresco",
+      "hook": "A group mural drawn one private brushstroke at a time — but one painter never learned the word, and their phone quietly fed them a plausible wrong one.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "drawing",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "unfold",
+      "title": "Unfold",
+      "hook": "Type in the dimensions of a square-to-round HVAC duct transition and get back the triangulated flat sheet-metal pattern — fold lines, seam allowance, cut list, and a DXF ready for the plasma table.",
+      "tags": [
+        "b2b",
+        "saas",
+        "logistics",
+        "automation"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "sand-song",
+      "title": "Sand Song",
+      "hook": "A playable Chladni plate where humming or plucking a note drives real standing waves and thousands of sand grains crawl into the exact nodal pattern — then freeze it as a print.",
+      "tags": [
+        "generative",
+        "audio",
+        "physics",
+        "art"
+      ],
+      "score": 61,
+      "source": "arxiv",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "dip",
+      "title": "Dip",
+      "hook": "Grab and bend a virtual wire loop and watch a real soap film relax into the true minimal surface — catenoids that pinch and snap, helicoids that twist, all obeying actual mean-curvature physics.",
+      "tags": [
+        "physics",
+        "desktop-toy",
+        "materials",
+        "generative"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-07-24"
+    },
+    {
       "slug": "vouch",
       "title": "Vouch",
       "hook": "Slide a face-down card across the table swearing it's a frog — the only person who knows if you're lying is you, until someone peeks and inherits the lie.",
