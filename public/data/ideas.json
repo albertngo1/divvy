@@ -2,6 +2,103 @@
   "lastScan": "2026-07-24",
   "ideas": [
     {
+      "slug": "coxswain",
+      "title": "Coxswain",
+      "hook": "The rowers face backward and can't see the river — each phone is one oar — while the single Cartographer up front holds the only chart of the rapids and can only steer them with their voice.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "shoal",
+      "title": "Shoal",
+      "hook": "One player's phone is the only chart of a drowning tidal flat — everyone else is a blind fish they must herd onto shrinking high ground before the water swallows the last safe cell.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "nightcap",
+      "title": "Nightcap",
+      "hook": "Each phone is secretly handed one slot of a cocktail — base, sour, sweet, wildcard, garnish — and fills it blind, so the shaker reveal is a Frankenstein drink nobody saw coming, printed as a recipe card you now have to actually make.",
+      "tags": [
+        "party",
+        "collaborative",
+        "keepsake"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "flourish",
+      "title": "Flourish",
+      "hook": "Given one abstract prompt, everyone secretly draws a single freehand squiggle on their phone — and you win only if all three strokes turn out to be the same shape.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "sensor"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "ladder",
+      "title": "Ladder",
+      "hook": "Everyone silently drags the same five cards into a ranked order and prays the whole room landed on the exact same list — with no way to see anyone else's hand.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "sandhi",
+      "title": "Sandhi",
+      "hook": "A daily wordgame about the seams between words — you're shown a target hidden word and must find a natural everyday phrase that secretly contains it across the spaces, like the 'nitrate' buried in 'the night rate.'",
+      "tags": [
+        "wordgame",
+        "language",
+        "nlp",
+        "puzzle"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "beacon-frame",
+      "title": "Beacon Frame",
+      "hook": "A menubar generative-music toy that turns the invisible RF around you into an ever-shifting ambient soundscape — every nearby WiFi network becomes a voice, its signal strength the volume, so the room's radio weather composes a piece that's never the same twice.",
+      "tags": [
+        "generative",
+        "audio",
+        "ambient",
+        "menubar"
+      ],
+      "score": 70,
+      "source": "steam",
+      "created": "2026-07-24"
+    },
+    {
       "slug": "flam",
       "title": "Flam",
       "hook": "Everyone drums into the same 8-slot loop, but two hits on the same beat clash into an ugly flam — so the room must silently carve up the groove into non-overlapping pieces.",
