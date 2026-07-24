@@ -2,6 +2,74 @@
   "lastScan": "2026-07-24",
   "ideas": [
     {
+      "slug": "flam",
+      "title": "Flam",
+      "hook": "Everyone drums into the same 8-slot loop, but two hits on the same beat clash into an ugly flam — so the room must silently carve up the groove into non-overlapping pieces.",
+      "tags": [
+        "party",
+        "audio",
+        "rhythm",
+        "anti-coordination"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "swap-meet",
+      "title": "Swap Meet",
+      "hook": "Everyone haggles at once in dead silence — your phone quietly floats secret 'I give X, I want Y' offers onto a trading floor and the server snaps compatible ones into instant, atomic trades before you complete your hidden recipe.",
+      "tags": [
+        "party",
+        "negotiation",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "float",
+      "title": "Float",
+      "hook": "A silent heist where every quiet second banks loot for the crew — until the vault privately taps ONE of you to whisper a keycode, and everyone else must figure out, without speaking, that it isn't their turn.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "day-field",
+      "title": "Day Field",
+      "hook": "Every morning your desktop wallpaper becomes an abstract Rothko-style color-field painting of the day ahead — dense and agitated where you're back-to-back, soft and open where you're free — art you can't quite read but can always feel.",
+      "tags": [
+        "generative",
+        "art",
+        "wallpaper",
+        "calendar"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "second-run",
+      "title": "Second Run",
+      "hook": "Independent and repertory cinemas just lost the free box-office data they lived on — this gives them a booking brain that tells them which title to play next weekend and whether the terms will pencil out.",
+      "tags": [
+        "business",
+        "saas",
+        "marketplace",
+        "data-viz"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-24"
+    },
+    {
       "slug": "register",
       "title": "Register",
       "hook": "Write one sentence that reads as flawless nursery rhyme yet total gibberish when the model rereads it as a legal contract — the bigger the perplexity gap between the two hats, the better.",
