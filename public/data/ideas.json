@@ -2,6 +2,104 @@
   "lastScan": "2026-07-24",
   "ideas": [
     {
+      "slug": "finder-s-fee",
+      "title": "Finder's Fee",
+      "hook": "The only map is on the Fixer's phone, the Fixer is on nobody's team, and every hint has a price the Fixer makes up on the spot.",
+      "tags": [
+        "party",
+        "hidden-info",
+        "negotiation",
+        "economy"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "ground-truth",
+      "title": "Ground Truth",
+      "hook": "Three blind scouts each have one useless sense; the fourth player holds the only map in the room, and it starts blank.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric",
+        "spatial"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "drone",
+      "title": "Drone",
+      "hook": "Everyone types at once and the only rule is: never surprise the model — until the host privately shoves a rare word into your hands and gives you six words to make it feel obvious.",
+      "tags": [
+        "party",
+        "real-time",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "elide",
+      "title": "Elide",
+      "hook": "Delete as many words as you dare from a shared sentence — you get paid in bits for every word a tiny language model can put back, and fined in bits for every one it guesses wrong.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "llm"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "follow-suit",
+      "title": "Follow Suit",
+      "hook": "A silent cooperative trick-taking hand where your goal card is secret even from your teammates, and the only thing you may ever say out loud is one true sentence about one card.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "card-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "freight-elevator",
+      "title": "Freight Elevator",
+      "hook": "A single-player tycoon where you run a commercial building's freight elevator as a scarce contested resource — every tenant move-in, caterer, and drywall delivery bids for a booking slot, and your whole business is the schedule.",
+      "tags": [
+        "tycoon",
+        "sim",
+        "puzzle",
+        "logistics"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-07-24"
+    },
+    {
+      "slug": "blast-freeze",
+      "title": "Blast Freeze",
+      "hook": "A CI-repo watchdog that treats your git history like a cold-chain: it flags the exact commit where a repository's clone weight crossed the line from \"code\" to \"landfill\" and prices the ongoing carrying cost in CI-minutes and bandwidth for every downstream consumer.",
+      "tags": [
+        "git",
+        "ci",
+        "devtool",
+        "observability"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-24"
+    },
+    {
       "slug": "coxswain",
       "title": "Coxswain",
       "hook": "The rowers face backward and can't see the river — each phone is one oar — while the single Cartographer up front holds the only chart of the rapids and can only steer them with their voice.",
