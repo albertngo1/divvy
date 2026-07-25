@@ -2,6 +2,76 @@
   "lastScan": "2026-07-25",
   "ideas": [
     {
+      "slug": "trace-paper",
+      "title": "Trace Paper",
+      "hook": "One town map, torn into three transparent layers — one per phone — and you all must drop a pin on the single landmark you believe everyone else can also see.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "odd-lot",
+      "title": "Odd Lot",
+      "hook": "Everyone secretly carves the same six goods into three lots at once, the server enacts whichever division looks fairest by public weight, and then all phones blind-grab a lot — where any two hands reaching for the same pile leave both empty.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "step-response",
+      "title": "Step Response",
+      "hook": "Your slow CI doesn't just slow the team down — it makes the team oscillate, and this fits a control-theory model to your GitHub history so you can report the damping ratio in the runner-budget meeting.",
+      "tags": [
+        "observability",
+        "devtool",
+        "ci",
+        "data-viz"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "legal-tender",
+      "title": "Legal Tender",
+      "hook": "A menubar central bank that strikes one engraved banknote per day — guilloche spun from your hourly activity, an intaglio portrait in wavy-line halftone, microtext of the day's longest sentence — until a year of them tiles into an uncut printer's sheet you can hang.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "generative",
+        "quantified-self"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "walk-in",
+      "title": "Walk-In",
+      "hook": "Recall notices arrive as press releases full of lot codes nobody reads — this quietly cross-matches every federal food recall against the invoices your distributor already emailed you and tells you exactly which case in your walk-in to pull.",
+      "tags": [
+        "business",
+        "saas",
+        "logistics",
+        "automation"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-25"
+    },
+    {
       "slug": "carrier-sense",
       "title": "Carrier Sense",
       "hook": "Eight icons on the TV, a secret list of ones you're forbidden to pick, and the only way to talk to the room is one shared lamp that lights the same way no matter who pressed — so you have to invent Morse code in ninety seconds.",
