@@ -2,6 +2,104 @@
   "lastScan": "2026-07-25",
   "ideas": [
     {
+      "slug": "prestige",
+      "title": "Prestige",
+      "hook": "An idle-game economy for the whole room: the TV shows one shared bank exploding upward, every phone privately owns a generator and a shop, spending is anonymous, and the target is only reachable if somebody volunteers to hit the button that wipes everyone's progress.",
+      "tags": [
+        "party",
+        "economy",
+        "real-time",
+        "competitive"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "soak",
+      "title": "Soak",
+      "hook": "The TV is an MMO raid boss with an eight-second cast bar, the room's three corners are the arena, and each phone privately holds one debuff whose survival rule references debuffs it cannot see — so the only way to live is to start shouting raid callouts.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "hidden-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "pay-grade",
+      "title": "Pay Grade",
+      "hook": "The machine only obeys an order given by someone who outranks you — and nobody in the room knows the whole org chart.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "pidgin",
+      "title": "Pidgin",
+      "hook": "Every phone's buttons are labeled in its own private industrial dialect, and the only glossary that can translate your words is sitting in someone else's pocket.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "misprint",
+      "title": "Misprint",
+      "hook": "A cooperative tile-chain game where every phone quietly refuses to let you make an illegal move — except one player's rulebook has a single clause swapped, so they play flawlessly by rules nobody else has.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "adverse-possession",
+      "title": "Adverse Possession",
+      "hook": "A menubar keyboard map that shows which of your key combinations have been quietly squatted by background apps — you press ⌥Space, it lights up occupied, and names the tenant that took it without asking.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "security",
+        "whimsy"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "in-district",
+      "title": "In District",
+      "hook": "Small advocacy orgs upload their member list and get back the only thing a congressional staffer actually cares about — which districts they have real constituents in, ranked by whether that representative is pivotal on the bill they're fighting.",
+      "tags": [
+        "business",
+        "saas",
+        "gis",
+        "b2b"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-07-25"
+    },
+    {
       "slug": "trace-paper",
       "title": "Trace Paper",
       "hook": "One town map, torn into three transparent layers — one per phone — and you all must drop a pin on the single landmark you believe everyone else can also see.",
