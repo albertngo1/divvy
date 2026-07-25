@@ -2,6 +2,90 @@
   "lastScan": "2026-07-25",
   "ideas": [
     {
+      "slug": "beat-the-bounds",
+      "title": "Beat the Bounds",
+      "hook": "Three phones each drag one stake of a shared triangle across a neighborhood map, each obeying an ordinance only that phone can see, until all three lamps glow green — and the room walks away with a dated poster and a GPX of a route it just invented.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "wheel-bid",
+      "title": "Wheel Bid",
+      "hook": "A rotating draft where you never pick from a pack — you privately rank the whole pack once, and the server resolves everyone's rankings into simultaneous picks, so the wheel spins in a single second instead of ten minutes.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "sealed-nickel",
+      "title": "Sealed Nickel",
+      "hook": "A blind auction where the only currency is the cards you already drafted — bid one of your own cards face-down, and the loser's bid is what the winner actually takes home.",
+      "tags": [
+        "party",
+        "auction",
+        "drafting",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "duty-cycle",
+      "title": "Duty Cycle",
+      "hook": "Small SaaS that reads a cold-storage warehouse's meter data and tells the owner exactly what their compressor's ability to pause is worth in dollars per year — then files the paperwork.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "energy"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "bias-point",
+      "title": "Bias Point",
+      "hook": "A browser synthesizer with no oscillator module — you breadboard actual transistors, and if you bias one wrong it sounds wrong, for the real reason.",
+      "tags": [
+        "audio",
+        "music",
+        "physics",
+        "sim"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "unblockable",
+      "title": "Unblockable",
+      "hook": "Import a year of your own bank statement and fight it as a Sekiro boss, where every expense's telegraph length is derived from how predictable it actually was.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "game",
+        "quantified-self"
+      ],
+      "score": 73,
+      "source": "steam",
+      "created": "2026-07-25"
+    },
+    {
       "slug": "tine",
       "title": "Tine",
       "hook": "Three phones each own five tines of a hand-crank music box and can only see their own five lanes, while the TV scrolls the strip past a playhead and forgets it — so the tune exists whole only in the room, until you all punch it and take the paper home.",
