@@ -1,6 +1,104 @@
 {
-  "lastScan": "2026-07-24",
+  "lastScan": "2026-07-25",
   "ideas": [
+    {
+      "slug": "nap",
+      "title": "Nap",
+      "hook": "Your phone's microphone is a texture reader: rub a finger on carpet, oak, or glass and it knows which — so the board is every surface in your apartment, and somewhere in the room another player is secretly hunting the exact same one.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "cold-shoulder",
+      "title": "Cold Shoulder",
+      "hook": "The TV tells the whole room to point at the oldest thing in it — but your phone has secretly forbidden one 60° wedge of the room, so you must pick a worse answer and hope nobody notices which direction you keep avoiding.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "spatial"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "weak-link",
+      "title": "Weak Link",
+      "hook": "Five phones each secretly fill a different blank in one sentence, one of you was privately told to wreck it, and the only evidence is the model's per-player blame chart.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "dead-end",
+      "title": "Dead End",
+      "hook": "You privately write an innocent-looking half-sentence engineered to strand whoever inherits it — while simultaneously fighting your way out of the cul-de-sac someone else built for you.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "competitive"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "bycatch",
+      "title": "Bycatch",
+      "hook": "A menubar aquarium stocked with the Wi-Fi networks around you — each neighbor's SSID is a fish whose size is its signal and whose depth is its band, and after a week it can tell you which ones are residents and which are just passing through.",
+      "tags": [
+        "menubar",
+        "ambient",
+        "desktop-toy",
+        "quantified-self"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "test-card",
+      "title": "Test Card",
+      "hook": "A screensaver that renders a live broadcast test card built entirely from the death rate of the world's free public IPTV streams — it never shows a single frame of video, only the decay.",
+      "tags": [
+        "generative",
+        "screensaver",
+        "ambient",
+        "audio"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "grainline",
+      "title": "Grainline",
+      "hook": "A Zachtronics-style solo puzzle where you cut seams and place darts on a 3D form, then watch it flatten into sewing-pattern pieces — scored on how much you tortured the fabric and how much you wasted.",
+      "tags": [
+        "puzzle",
+        "game",
+        "graphics",
+        "procedural"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-07-25"
+    },
     {
       "slug": "stall",
       "title": "Stall",
