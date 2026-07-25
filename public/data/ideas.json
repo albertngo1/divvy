@@ -2,6 +2,104 @@
   "lastScan": "2026-07-25",
   "ideas": [
     {
+      "slug": "sharp-money",
+      "title": "Sharp Money",
+      "hook": "The room bets on a 90-second clip while one player has already seen it — and the only way to catch the insider is to read the anonymous line movement they leave behind.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "betting"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "prepaid-minutes",
+      "title": "Prepaid Minutes",
+      "hook": "Every phone has a private balance of talk-seconds that its own mic burns down, and the player who can see the problem was issued ten seconds while the players holding the tools were issued forty-five.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "resource-management"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "split-band",
+      "title": "Split Band",
+      "hook": "A spoken repair order is diced into 120ms slices and dealt across the room's phones, so the message only becomes intelligible in the air between them — and everybody hears a slightly different version.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "tectonic",
+      "title": "Tectonic",
+      "hook": "The Cartographer's phone is the only place the marble and its maze exist; the other players can't see any of it and each secretly owns exactly one way to rotate, mirror, or shove the entire world.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "you-are-here",
+      "title": "You Are Here",
+      "hook": "One player's phone holds the whole maze — but the dots on it are anonymous, so the three blind pieces have to figure out which dot they are before they can follow a single instruction.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "trabecula",
+      "title": "Trabecula",
+      "hook": "Topology-optimize a bracket into a beautiful bone-like lattice, then watch the game load it from an angle you weren't told about and snap it — a puzzle game about overfitting to your load case.",
+      "tags": [
+        "materials",
+        "physics",
+        "puzzle",
+        "sim"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "river",
+      "title": "River",
+      "hook": "Every reviewer gets a visually identical PDF whose justified line breaks are secretly a different valid Knuth-Plass solution — so when a page photo leaks, the whitespace rivers name the leaker.",
+      "tags": [
+        "steganography",
+        "language",
+        "provenance",
+        "writing"
+      ],
+      "score": 76,
+      "source": "lobsters",
+      "created": "2026-07-25"
+    },
+    {
       "slug": "nap",
       "title": "Nap",
       "hook": "Your phone's microphone is a texture reader: rub a finger on carpet, oak, or glass and it knows which — so the board is every surface in your apartment, and somewhere in the room another player is secretly hunting the exact same one.",
