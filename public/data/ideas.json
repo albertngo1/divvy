@@ -2,6 +2,132 @@
   "lastScan": "2026-07-25",
   "ideas": [
     {
+      "slug": "carrier-sense",
+      "title": "Carrier Sense",
+      "hook": "Eight icons on the TV, a secret list of ones you're forbidden to pick, and the only way to talk to the room is one shared lamp that lights the same way no matter who pressed — so you have to invent Morse code in ninety seconds.",
+      "tags": [
+        "party",
+        "cooperative",
+        "timing",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "convoy",
+      "title": "Convoy",
+      "hook": "Three phones, three cars in a hidden ring, and no speedometer anywhere — the only thing you can see is the gap to the car ahead, so the room has to silently agree on a cruising speed nobody can name.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "make-a-market",
+      "title": "Make a Market",
+      "hook": "One player is secretly the bookmaker, privately pricing both sides of a prop about the show you're all watching — too greedy and nobody bets, too generous and the room eats their bank.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "economic",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "wall-crossed",
+      "title": "Wall Crossed",
+      "hook": "Everyone bets private chips on what the clip will do next — but one of you was quietly handed a spoiler beforehand, and the only tell is the shape of the money.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "social-deduction",
+        "prediction-market"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "cursed-item",
+      "title": "Cursed Item",
+      "hook": "A roguelike where the loot is real: every item you equip grants a power on the TV and a private curse that quietly corrupts what YOUR phone is allowed to show you — and the party has to finish the dungeon without ever seeing each other's screens.",
+      "tags": [
+        "party",
+        "roguelike",
+        "cooperative",
+        "hidden-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "iron-manual",
+      "title": "Iron Manual",
+      "hook": "A fighting-game boss telegraphs one attack per beat, but each phone privately holds only two of the six frame-data pages needed to know what actually punishes it — so the block call has to be shouted across the room before the startup frames run out.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "craze",
+      "title": "Craze",
+      "hook": "Type in a glaze recipe and watch the crackle network actually grow — thermal-expansion mismatch simulated crack by crack into a pattern no one has ever seen before.",
+      "tags": [
+        "materials",
+        "chemistry",
+        "generative",
+        "procedural"
+      ],
+      "score": 76,
+      "source": "wild",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "hold-tag",
+      "title": "Hold Tag",
+      "hook": "Forwards your food distributor's invoice PDFs into a live FDA recall feed, tells you exactly which case on your shelf is poison, and chases the credit.",
+      "tags": [
+        "business",
+        "saas",
+        "logistics",
+        "b2b"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "gnomon",
+      "title": "Gnomon",
+      "hook": "Click one pole and its shadow in a photo, and the sun tells you whether the timestamp is lying.",
+      "tags": [
+        "forensics",
+        "security",
+        "computer-vision",
+        "astronomy"
+      ],
+      "score": 73,
+      "source": "arxiv",
+      "created": "2026-07-25"
+    },
+    {
       "slug": "sharp-money",
       "title": "Sharp Money",
       "hook": "The room bets on a 90-second clip while one player has already seen it — and the only way to catch the insider is to read the anonymous line movement they leave behind.",
