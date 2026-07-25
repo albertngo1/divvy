@@ -2,6 +2,104 @@
   "lastScan": "2026-07-25",
   "ideas": [
     {
+      "slug": "both-modified",
+      "title": "Both Modified",
+      "hook": "Everyone edits the same paragraph at once, blind — and any two edits that touch overlapping words annihilate each other and scar those words permanently unusable.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-objective",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "cold-weld",
+      "title": "Cold Weld",
+      "hook": "Every time two of you slam the same button at the same instant, your phones are permanently welded into a single pair of hands — and half of each panel disappears.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "slow-play",
+      "title": "Slow Play",
+      "hook": "Skull & Roses where your disc stays secret but your hesitation doesn't — the TV publishes exactly how long each player agonized before committing, so the only tell in the room is a truthful bar chart.",
+      "tags": [
+        "party",
+        "bluffing",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "structure-borne",
+      "title": "Structure Borne",
+      "hook": "Phones go face-down on real furniture and knocking is the only network — find your secret partner by getting both your phones onto the same table, and make sure nobody else's phone is on it.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "hard-iron",
+      "title": "Hard Iron",
+      "hook": "Hide-and-seek where the hidden thing isn't an object but a spot on your floor, and the only clue is how badly that spot bends a phone compass.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "tenured",
+      "title": "Tenured",
+      "hook": "A desktop terrarium where every object your program allocates is a critter in a pond, the garbage collector is the tide that drowns most of them, and the survivors who reach tenure get engraved nameplates — which is to say, your memory leak becomes a visible aristocracy.",
+      "tags": [
+        "desktop-toy",
+        "ambient",
+        "observability",
+        "whimsy"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "stand-dev",
+      "title": "Stand Dev",
+      "hook": "A wallpaper that develops one photograph a day in a physically simulated darkroom — and it only advances while you leave the computer alone, because every keystroke sloshes the tray and leaves surge marks in the print.",
+      "tags": [
+        "generative",
+        "wallpaper",
+        "screensaver",
+        "art"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-25"
+    },
+    {
       "slug": "prestige",
       "title": "Prestige",
       "hook": "An idle-game economy for the whole room: the TV shows one shared bank exploding upward, every phone privately owns a generator and a shop, spending is anonymous, and the target is only reachable if somebody volunteers to hit the button that wipes everyone's progress.",
