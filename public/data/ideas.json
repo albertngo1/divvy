@@ -2,6 +2,90 @@
   "lastScan": "2026-07-25",
   "ideas": [
     {
+      "slug": "tine",
+      "title": "Tine",
+      "hook": "Three phones each own five tines of a hand-crank music box and can only see their own five lanes, while the TV scrolls the strip past a playhead and forgets it — so the tune exists whole only in the room, until you all punch it and take the paper home.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "siphon",
+      "title": "Siphon",
+      "hook": "Your score grows only while you're talking and drains only while your secret, unknown parasite is talking — so the only way to work out who's robbing you is to shut up and stop earning.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "hidden-information"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "near-field",
+      "title": "Near Field",
+      "hook": "Four phones lie flat on the table as a listening array, and how loudly you speak decides who receives your message — a whisper delivers to exactly one device, a normal voice broadcasts to the whole room and everyone gets to steal it.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "stealth"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "under-oath",
+      "title": "Under Oath",
+      "hook": "A GPS stamp on a photo proves nothing, so this cross-examines your own field photo against the barometric pressure, the visible cell towers, and the direction of its own shadows before it lets you swear to it.",
+      "tags": [
+        "security",
+        "forensics",
+        "provenance",
+        "b2b"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "whistle-print",
+      "title": "Whistle Print",
+      "hook": "Whistle a photograph across the room: one laptop screeches it out as 30-line mechanical-television audio, another listens with its microphone, and the reverb, the fridge hum, and the two machines' disagreeing clocks become the print.",
+      "tags": [
+        "art",
+        "audio",
+        "graphics",
+        "generative"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-25"
+    },
+    {
+      "slug": "right-of-way",
+      "title": "Right of Way",
+      "hook": "A wildlife-crossing puzzle where placing one canopy bridge is literally a rank-one update to the landscape's Laplacian, so you watch gene flow re-light across a severed forest in real time.",
+      "tags": [
+        "nature",
+        "sim",
+        "puzzle",
+        "gis"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-07-25"
+    },
+    {
       "slug": "both-modified",
       "title": "Both Modified",
       "hook": "Everyone edits the same paragraph at once, blind — and any two edits that touch overlapping words annihilate each other and scar those words permanently unusable.",
