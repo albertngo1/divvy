@@ -2,6 +2,104 @@
   "lastScan": "2026-07-26",
   "ideas": [
     {
+      "slug": "point-shave",
+      "title": "Point Shave",
+      "hook": "The room yells answers at a game-show clip like always — except each phone secretly holds an over/under on the room's own score, and somebody in here is being paid for you to fail.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "trivia"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "reaction-shot",
+      "title": "Reaction Shot",
+      "hook": "Everyone watches the same horror trailer, but the real market is on each other — your phone holds shares in your friends' gasps plus a secret directive about your own.",
+      "tags": [
+        "party",
+        "betting",
+        "audio",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "carry-on-only",
+      "title": "Carry-On Only",
+      "hook": "Your sentence has to fit in 24 bits of luggage, and the price of every word is exactly how surprised a language model is to see it — so keeping \"marzipan\" costs more than keeping six whole clauses, and a stranger's phone has to unpack whatever survived.",
+      "tags": [
+        "party",
+        "wordgame",
+        "asymmetric",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "proximity-effect",
+      "title": "Proximity Effect",
+      "hook": "To be heard, the phone must be at your lips — which means you can't see the screen, so every word you bank is muttered blind from memory, and reading the screen loudly is rejected as a shout.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "noise-floor",
+      "title": "Noise Floor",
+      "hook": "Your phone whispers one digit of the vault code at a volume only you can hear — and any cough, laugh or \"sorry, what?\" buries somebody's digit forever, which is exactly why one of you is secretly being paid to cough.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "marching-orders",
+      "title": "Marching Orders",
+      "hook": "Your coding agent obeys thousands of words you never wrote and have never read — this reconstructs the full text of its instructions from every source, hashes it, and tells you exactly what changed since yesterday and who changed it.",
+      "tags": [
+        "security",
+        "provenance",
+        "agents",
+        "forensics"
+      ],
+      "score": 66,
+      "source": "github",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "never-moved",
+      "title": "Never Moved",
+      "hook": "You've lived at the same address for thirty years and been redistricted eleven times — here's the scrolling timeline of every political boundary that has ever quietly closed around your kitchen table.",
+      "tags": [
+        "data-viz",
+        "map",
+        "timeline",
+        "gis"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-07-26"
+    },
+    {
       "slug": "minutes",
       "title": "Minutes",
       "hook": "Everyone watched the same five people answer the same four questions — then one phone hands you the official minutes with two cells quietly flipped, and nobody, including you, knows whose copy is the doctored one.",
