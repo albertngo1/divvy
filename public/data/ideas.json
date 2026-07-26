@@ -2,6 +2,117 @@
   "lastScan": "2026-07-26",
   "ideas": [
     {
+      "slug": "common-hand",
+      "title": "Common Hand",
+      "hook": "Three phones hand-draw one shared alphabet, but you only ever glimpse a letter from one secret neighbor for four seconds — and never your own again — so a single coherent handwriting has to survive around a hidden ring.",
+      "tags": [
+        "party",
+        "shared-artifact",
+        "drawing",
+        "cooperative"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "envy-free",
+      "title": "Envy Free",
+      "hook": "Three phones simultaneously paint claims onto one shared image, each guided by a private map of what it's secretly worth to them — and nobody takes a piece home unless the partition is envy-free.",
+      "tags": [
+        "party",
+        "shared-artifact",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "second-printing",
+      "title": "Second Printing",
+      "hook": "Everyone's phone greys out the illegal moves — but one player's rulebook has a single clause quietly misprinted, so they play honestly, look like a cheater, and become convinced everyone else is cheating.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "dowsing",
+      "title": "Dowsing",
+      "hook": "One player hides a virtual object by physically walking to a spot; everyone else's phone becomes a compass needle that lies — it points true only when you're facing the wrong way.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "spatial"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "plumb-line",
+      "title": "Plumb Line",
+      "hook": "Every phone is a private spirit level for a different invisible plane, and the only way to find the room's true horizon is to tilt your body until four strangers' bubbles agree without anyone seeing anyone else's bubble.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "harmless-instrument",
+      "title": "Harmless Instrument",
+      "hook": "A menubar widget that watches the weather balloons descending over your county and taps you on the shoulder only when one is about to land somewhere you could actually walk to and pick it up.",
+      "tags": [
+        "menubar",
+        "map",
+        "gis",
+        "ambient"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "why-stopped",
+      "title": "Why Stopped",
+      "hook": "An obituary column for drugs: every terminated clinical trial in ClinicalTrials.gov, given a headstone, a cause of death, and a warning label for the next team about to try the same target.",
+      "tags": [
+        "data-viz",
+        "biology",
+        "timeline",
+        "business"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "slow-mover",
+      "title": "Slow Mover",
+      "hook": "A single-player air-defense duty shift where you never learn the truth in time: a slow, cold, non-squawking track is either a lost Cessna, a decoy, or a Geran, and your job is to hold a probability — not a trigger.",
+      "tags": [
+        "game",
+        "sim",
+        "procedural"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-07-26"
+    },
+    {
       "slug": "rider",
       "title": "Rider",
       "hook": "Everyone answers the same three innocent categories on the TV — but each phone is secretly holding a different weird contract clause every one of your answers must obey, and the round is won by reading everyone else's.",
