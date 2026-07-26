@@ -1,6 +1,130 @@
 {
-  "lastScan": "2026-07-25",
+  "lastScan": "2026-07-26",
   "ideas": [
+    {
+      "slug": "elbows-out",
+      "title": "Elbows Out",
+      "hook": "A real-time draft with no turns and no passing: claim a card by holding it for 2.5 seconds, during which your phone blacks out the entire rest of the board — commitment literally costs you your eyes.",
+      "tags": [
+        "party",
+        "drafting",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "inch-of-candle",
+      "title": "Inch of Candle",
+      "hook": "A 17th-century candle auction: hold your thumb down to push your bid up, and the flame dies at a moment only the server knows — though each phone was whispered one true, partial clue about when.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "ration-card",
+      "title": "Ration Card",
+      "hook": "Every word you're allowed to say is a coupon with a punch count, and the switch on your friend's panel stays dead until somebody spends the coupon for its name.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "do-not-combine",
+      "title": "Do Not Combine",
+      "hook": "A Spaceteam where the hard part isn't learning what your panel says — it's that the warning you shouted eight seconds ago silently expired and became a lie.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "blur-radius",
+      "title": "Blur Radius",
+      "hook": "Everyone privately types one true, specific, mortifying thing — then blurs it, word by word, until it stops being about you and starts being about at least one other person in the room.",
+      "tags": [
+        "party",
+        "anonymity",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "leather-hard",
+      "title": "Leather Hard",
+      "hook": "Three phones become three hands on one potter's wheel — one spins, one slides up the wall, one leans in — and the wobbling vase you somehow make together is the only thing you take home.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "shared-artifact"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "free-lunch",
+      "title": "Free Lunch",
+      "hook": "A scanner that treats those \"free V2Ray servers, updated every 15 minutes\" lists as what they probably are — and scores each node for TLS interception, DNS lying, and content injection before you route your life through a stranger's box.",
+      "tags": [
+        "security",
+        "privacy",
+        "cli"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "deferral",
+      "title": "Deferral",
+      "hook": "A blood donor's private pharmacokinetic model of their own iron — because the 56-day rule was written for the blood supply, not for your marrow.",
+      "tags": [
+        "health",
+        "quantified-self",
+        "biology"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "firm-price",
+      "title": "Firm Price",
+      "hook": "A quoting sidecar for small system integrators that watches real distributor prices and tells you exactly how many days your quote can stay firm before the DRAM market eats your margin.",
+      "tags": [
+        "business",
+        "saas",
+        "finance",
+        "logistics"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-26"
+    },
     {
       "slug": "beat-the-bounds",
       "title": "Beat the Bounds",
