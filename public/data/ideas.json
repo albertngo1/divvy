@@ -2,6 +2,103 @@
   "lastScan": "2026-07-26",
   "ideas": [
     {
+      "slug": "rider",
+      "title": "Rider",
+      "hook": "Everyone answers the same three innocent categories on the TV — but each phone is secretly holding a different weird contract clause every one of your answers must obey, and the round is won by reading everyone else's.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "over-the-shoulder",
+      "title": "Over the Shoulder",
+      "hook": "Cooperative one-word clue-giving where your phone secretly live-mirrors one other player's half-typed clue — and someone you can't identify is watching yours the same way.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "light-lag",
+      "title": "Light Lag",
+      "hook": "The pilot's viewport — and the TV everyone is watching — runs four seconds behind reality, so the only live truth in the room lives on two other phones, and the pilot has to fly on voice alone while their own eyes lie to them.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "all-hands",
+      "title": "All Hands",
+      "hook": "Every job on this sinking ship needs an exact number of thumbs held down on different phones at the same instant — so the room spends sixty seconds screaming about who has the winch and how many hands are already on it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "voice"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "cargo-cult",
+      "title": "Cargo Cult",
+      "hook": "Mines your own shell history for the incantations you actually perform after a command fails, so the next time it fails it hands the fix straight back to you — deadpan about the fact that neither of you knows why it works.",
+      "tags": [
+        "cli",
+        "devtool",
+        "logs",
+        "automation"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "data-collapse",
+      "title": "Data Collapse",
+      "hook": "A puzzle game where you are handed ten ugly scattered experimental curves and a deck of physical quantities, and you win by inventing the dimensionless group that snaps them all onto one master curve.",
+      "tags": [
+        "physics",
+        "data-viz",
+        "puzzle",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "magic-comma",
+      "title": "Magic Comma",
+      "hook": "A covert channel hidden in the one formatting choice Black refuses to normalize — the magic trailing comma — so a project can stamp an invisible, reformat-proof watermark into Python source and later prove who (or what) wrote it.",
+      "tags": [
+        "steganography",
+        "provenance",
+        "devtool"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-07-26"
+    },
+    {
       "slug": "point-shave",
       "title": "Point Shave",
       "hook": "The room yells answers at a game-show clip like always — except each phone secretly holds an over/under on the room's own score, and somebody in here is being paid for you to fail.",
