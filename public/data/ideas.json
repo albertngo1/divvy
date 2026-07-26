@@ -2,6 +2,90 @@
   "lastScan": "2026-07-26",
   "ideas": [
     {
+      "slug": "minutes",
+      "title": "Minutes",
+      "hook": "Everyone watched the same five people answer the same four questions — then one phone hands you the official minutes with two cells quietly flipped, and nobody, including you, knows whose copy is the doctored one.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "memory"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "spell-out",
+      "title": "Spell Out",
+      "hook": "Every phone shows everyone's secret letter but your own, so the only way to learn what you are is to watch other people spell words around the hole where you're standing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "composite-sketch",
+      "title": "Composite Sketch",
+      "hook": "Two witnesses privately hold two different suspects in the same 12-card police lineup, and every card one of them rules out might be the other's suspect walking free.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "cooperative",
+        "deduction"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "clear-cut",
+      "title": "Clear Cut",
+      "hook": "Sixty words stand on the TV like a forest, and every single word any phone hears you say is felled forever for everybody — so the whole room is racing to harvest a vocabulary they are simultaneously destroying.",
+      "tags": [
+        "party",
+        "audio",
+        "wordgame",
+        "sensor"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "part-15",
+      "title": "Part 15",
+      "hook": "A solo pirate-radio roguelike on a real elevation map: pick a rooftop, pick a frequency, and let terrain physics decide your audience while listener complaints — not scanners — slowly draw the FCC's direction-finding cone toward your transmitter.",
+      "tags": [
+        "game",
+        "sim",
+        "gis",
+        "procedural"
+      ],
+      "score": 77,
+      "source": "steam",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "grandfathered",
+      "title": "Grandfathered",
+      "hook": "You granted Screen Recording to an app in 2022; the app was sold, resigned by a new company, and still has it — this tool diffs the code-signing requirement stored in TCC.db against the binary sitting on disk today and shows you every grant that has quietly changed hands.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics",
+        "menubar"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-26"
+    },
+    {
       "slug": "elbows-out",
       "title": "Elbows Out",
       "hook": "A real-time draft with no turns and no passing: claim a card by holding it for 2.5 seconds, during which your phone blacks out the entire rest of the board — commitment literally costs you your eyes.",
