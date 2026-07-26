@@ -2,6 +2,104 @@
   "lastScan": "2026-07-26",
   "ideas": [
     {
+      "slug": "bloom",
+      "title": "Bloom",
+      "hook": "In a dark living room, every phone is a signal lamp blinking a private codeword at the laptop's webcam — and when two of you flash in the same 700ms slot, the camera whites out and both messages die.",
+      "tags": [
+        "party",
+        "sensor",
+        "real-time",
+        "cooperative"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "tailwind",
+      "title": "Tailwind",
+      "hook": "Two strangers write about the same card in separate rooms, and the model measures how much each sentence made the other one cheaper to say — convergence you can't negotiate for.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "trade-dress",
+      "title": "Trade Dress",
+      "hook": "You're secretly assigned a genre, and you win by writing one sentence that the little language model finds obvious in YOUR genre and baffling in everyone else's.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "llm"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "iso-cam",
+      "title": "Iso Cam",
+      "hook": "The TV plays the clip smeared into unreadable blocks while your phone alone holds a sharp keyhole onto one corner of the frame — bet parimutuel on what's about to happen, knowing your edge only pays if everyone else is blind to it.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "real-time",
+        "video"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "trade-deficit",
+      "title": "Trade Deficit",
+      "hook": "The mischievous opposite of a keep-in-touch app: it reads your message history, works out who actually breaks the silences, and hands you a ledger of the friendships you have been quietly subsidizing for years.",
+      "tags": [
+        "relationships",
+        "quantified-self",
+        "privacy",
+        "nlp"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "stepped-on",
+      "title": "Stepped On",
+      "hook": "A CLI that asks the uncomfortable question about that suspiciously cheap OpenAI-compatible endpoint you're routing through: is this actually the model you're paying for, or has it been cut with a 4-bit knockoff and a hidden system prompt?",
+      "tags": [
+        "llm",
+        "security",
+        "provenance",
+        "cli"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "mark-to-myth",
+      "title": "Mark to Myth",
+      "hook": "Mutual funds are legally required to publish their own private-market fair-value marks every quarter, so you can reconstruct a live, unofficial price chart for SpaceX or Stripe out of nothing but SEC filings — and watch Fidelity and T. Rowe disagree with each other by 40%.",
+      "tags": [
+        "finance",
+        "markets",
+        "data-viz",
+        "sql"
+      ],
+      "score": 78,
+      "source": "hn",
+      "created": "2026-07-26"
+    },
+    {
       "slug": "bogey",
       "title": "Bogey",
       "hook": "Ground Control's phone is a radar scope showing three identical unlabeled blips, three blind pilots know who they are but not where, and one of them is flying for the other side.",
