@@ -2,6 +2,118 @@
   "lastScan": "2026-07-26",
   "ideas": [
     {
+      "slug": "bogey",
+      "title": "Bogey",
+      "hook": "Ground Control's phone is a radar scope showing three identical unlabeled blips, three blind pilots know who they are but not where, and one of them is flying for the other side.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "asymmetric"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "declination",
+      "title": "Declination",
+      "hook": "One player holds the only map — on their own phone — and must talk three blind teammates across a flooding grid whose d-pads are each secretly rotated by an unknown quarter-turn.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "steerage",
+      "title": "Steerage",
+      "hook": "A story writes itself one token at a time on the TV, and you spend a private wallet of bits to shove it toward your secret word — but bending the model costs exactly what it costs, so the whole game is waiting until your word gets cheap.",
+      "tags": [
+        "party",
+        "browser-game",
+        "real-time",
+        "wordgame"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "small-bills",
+      "title": "Small Bills",
+      "hook": "A sealed-bid auction paid in indivisible bills from a wallet only you can see — no change is given, so you lose not because you're poor but because you can't make 14 — and every bill the winner spends is dealt straight into a loser's pocket.",
+      "tags": [
+        "party",
+        "auction",
+        "economic",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "dwell-time",
+      "title": "Dwell Time",
+      "hook": "Twelve face-down lots on the TV: tap and hold to flip one privately on your phone — but the room sees exactly whose eyes are on which slot, and the card you stared at longest is the one you'll lose the tie for.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "retrace",
+      "title": "Retrace",
+      "hook": "Every time you SSH in and poke at a broken box, your fingers write an acceptance test — this mines your shell history for the read-only commands you ran to confirm the fix, learns which parts of their output are stable, and compiles them into a real health-check suite.",
+      "tags": [
+        "devtool",
+        "cli",
+        "observability",
+        "self-hosted"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "in-scope",
+      "title": "In Scope",
+      "hook": "Companies quietly add domains to their bug bounty scope before they announce owning them — this backtests eight years of hourly scope diffs against acquirers' stock returns to find out how often the security team leaks the deal.",
+      "tags": [
+        "finance",
+        "security",
+        "markets",
+        "forensics"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-26"
+    },
+    {
+      "slug": "rule-of-six",
+      "title": "Rule of Six",
+      "hook": "A soap foam coarsens on your screen for eight minutes and plays itself: every bubble with fewer than six sides is doomed, and each death is a note in a piece that starts as a hiss of thousands and ends with three lonely low tones.",
+      "tags": [
+        "physics",
+        "generative",
+        "materials",
+        "audio"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-07-26"
+    },
+    {
       "slug": "common-hand",
       "title": "Common Hand",
       "hook": "Three phones hand-draw one shared alphabet, but you only ever glimpse a letter from one secret neighbor for four seconds — and never your own again — so a single coherent handwriting has to survive around a hidden ring.",
