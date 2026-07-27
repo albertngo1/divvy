@@ -2,6 +2,117 @@
   "lastScan": "2026-07-27",
   "ideas": [
     {
+      "slug": "green-light",
+      "title": "Green Light",
+      "hook": "The forty-minute argument about what to watch becomes a live anonymous price chart of the room's indecision — and every person shilling a title is secretly long on it.",
+      "tags": [
+        "party",
+        "bluffing",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "bump-steer",
+      "title": "Bump Steer",
+      "hook": "You can see the whole yard but you have no hands; they have hands but can only shove each other, and nobody can move themselves an inch.",
+      "tags": [
+        "party",
+        "asymmetric-info",
+        "real-time",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "quitclaim",
+      "title": "Quitclaim",
+      "hook": "The one player who can see the map is forbidden to speak, and the only way they can tell you anything is by permanently cutting a tile out of their own screen and deeding it to yours.",
+      "tags": [
+        "party",
+        "asymmetric-info",
+        "cooperative",
+        "puzzle"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "out-of-true",
+      "title": "Out of True",
+      "hook": "Every phone becomes a spirit level, the party surveys the real slopes of your actual crooked apartment, and the whole thing detonates when two people unknowingly measured the same coffee table and got different answers.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "zero-beat",
+      "title": "Zero Beat",
+      "hook": "The TV screams a 19kHz tone you can't hear, and every phone reads the Doppler shift of its own owner's body — so you can sprint sideways for free, but creeping one inch toward the screen charges a bust meter only you can see.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "push-your-luck"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "skeleton-track",
+      "title": "Skeleton Track",
+      "hook": "A logging-railroad puzzle-tycoon where you never have enough rail, so the only way forward is to tear up the line behind you and lay it again — a little more worn each time.",
+      "tags": [
+        "game",
+        "tycoon",
+        "puzzle",
+        "procedural"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "high-water",
+      "title": "High Water",
+      "hook": "Plots your parser as a seismograph — input position against step count — so exponential backtracking shows up as a visible sawtooth cliff instead of a mystery hang.",
+      "tags": [
+        "data-viz",
+        "visualization",
+        "devtool",
+        "language"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "double-delta",
+      "title": "Double Delta",
+      "hook": "A rhythm machine descended from Colossus: nothing triggers on a note, everything triggers when two punched paper-tape loops statistically agree more than they should.",
+      "tags": [
+        "music",
+        "generative",
+        "audio"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-27"
+    },
+    {
       "slug": "estate-sale",
       "title": "Estate Sale",
       "hook": "The house map lives on the Realtor's phone and updates as they walk; the buyers wander blind through rooms that only exist on someone else's screen, and the Realtor is quietly lying about at least one of them.",
