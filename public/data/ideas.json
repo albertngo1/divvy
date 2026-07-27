@@ -2,6 +2,132 @@
   "lastScan": "2026-07-27",
   "ideas": [
     {
+      "slug": "estate-sale",
+      "title": "Estate Sale",
+      "hook": "The house map lives on the Realtor's phone and updates as they walk; the buyers wander blind through rooms that only exist on someone else's screen, and the Realtor is quietly lying about at least one of them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "spatial"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "cartographer-s-hands",
+      "title": "Cartographer's Hands",
+      "hook": "One player's phone holds the only map of a dark maze, but they may never speak — they can only squeeze, tilt, and tap their phone to send haptic pulses that arrive on the walkers' phones as a private felt language nobody agreed on in advance.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "haptics"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "tween",
+      "title": "Tween",
+      "hook": "Four people simultaneously draw four frames of one looping animation, each phone showing a live ghost of the frame ahead of you being drawn *right now* — so you're all chasing each other around a ring that has to close.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "heads-you-lie",
+      "title": "Heads You Lie",
+      "hook": "Every phone secretly flips a weighted coin that decides whether you must answer a personal question truthfully or lie on command — so the room ends the night holding an honest statistical census of itself that can never be pinned on anyone.",
+      "tags": [
+        "party",
+        "anonymity",
+        "keepsake",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "live-end",
+      "title": "Live End",
+      "hook": "Your phone chirps and listens to its own echo, and the private number on your screen sends you diving into the coat closet while someone else stands in the tile doorway — and if you both crowd the same hard corner, your bodies absorb each other's reading.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "still-life",
+      "title": "Still Life",
+      "hook": "Four phones rest on four different surfaces in your living room — a palm, a couch arm, a hardwood floor — and one of you must whisper a three-beat code into the furniture without the room figuring out which twitching body owns which spiking line on the TV.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "accelerometer"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "fake-crawler",
+      "title": "Fake Crawler",
+      "hook": "An explorable map of everyone pretending to be Googlebot in your access logs — reverse-DNS every claimed crawler, plot the liars by ASN and hunting pattern, and watch which parts of your site the impostors care about that the real bots don't.",
+      "tags": [
+        "data-viz",
+        "dashboard",
+        "security",
+        "logs"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "panel-wash",
+      "title": "Panel Wash",
+      "hook": "A dashboard that watches your rooftop solar quietly lose money to dust and tells you the one thing no monitoring app will: the exact dollar day on which washing the panels stops being a waste of a Saturday.",
+      "tags": [
+        "finance",
+        "dashboard",
+        "data-viz",
+        "quantified-self"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "shay-grade",
+      "title": "Shay Grade",
+      "hook": "A single-player logging-railroad tycoon where you don't lay track on a map — you lay it on a real USGS elevation raster, and the geared Shay locomotive's brutal physics decides whether your greedy shortcut up the ridge is a route or a runaway.",
+      "tags": [
+        "tycoon",
+        "sim",
+        "gis",
+        "procedural"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-27"
+    },
+    {
       "slug": "plane-table",
       "title": "Plane Table",
       "hook": "The Plotter's phone shows three live dots on a blank white sheet with no walls drawn; the three blind players drag on featureless black pads and feel the walls by flash and buzz — the actual map exists nowhere except in what the room shouts at each other.",
