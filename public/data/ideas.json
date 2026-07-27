@@ -1,6 +1,104 @@
 {
-  "lastScan": "2026-07-26",
+  "lastScan": "2026-07-27",
   "ideas": [
+    {
+      "slug": "cut-through",
+      "title": "Cut Through",
+      "hook": "Three drivers silently plan the same route across one city map — except each phone secretly shows only YOUR tolls, and the delivery van stalls dead at the first junction where your routes disagree.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "namespace",
+      "title": "Namespace",
+      "hook": "Everyone types a word for the same category at the same time, and the TV lights up the exact letter where two of you are about to collide — swerve now, or you both score nothing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "typing"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "party-favor",
+      "title": "Party Favor",
+      "hook": "Four cards circulate through four phones at once, each phone writing blind on someone else's card and never its own, so everybody goes home holding a small printed thing about them that nobody will ever admit to writing.",
+      "tags": [
+        "party",
+        "keepsake",
+        "anonymous",
+        "cooperative"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "wet-ink",
+      "title": "Wet Ink",
+      "hook": "Four phones type into one paragraph on the TV at the same time, every keystroke surfaces after a random delay so no one can tell who wrote what, and the group leaves with a signed-by-nobody note they actually keep.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "negative-space",
+      "title": "Negative Space",
+      "hook": "The anti-recommender: it embeds everything you've read, finds the holes — regions dense in the world's corpus and empty in yours — and each morning hands you one thing from your largest adjacent blind spot.",
+      "tags": [
+        "embeddings",
+        "ml",
+        "data-viz",
+        "productivity"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "toile",
+      "title": "Toile",
+      "hook": "A single-player pattern-cutting puzzle: slash darts and seams into a 3D garment until its curvature can lie flat, then nest the pieces on a bolt of striped fabric where every stripe has to match across every seam.",
+      "tags": [
+        "puzzle",
+        "game",
+        "procedural",
+        "3d-viz"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "same-camera",
+      "title": "Same Camera",
+      "hook": "Drop in the photo you're about to post anonymously and it plays hostile analyst — proving your metadata scrub left the sensor's fingerprint, the camera's quantization signature, and the sun's angle intact.",
+      "tags": [
+        "forensics",
+        "privacy",
+        "computer-vision",
+        "provenance"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-07-27"
+    },
     {
       "slug": "bloom",
       "title": "Bloom",
