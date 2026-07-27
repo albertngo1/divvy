@@ -2,6 +2,104 @@
   "lastScan": "2026-07-27",
   "ideas": [
     {
+      "slug": "turnstile",
+      "title": "Turnstile",
+      "hook": "Five gates, one last train, and every phone holds a different sliver of who can go where — walk into a gate someone else picked and it jams welded-shut for the rest of the night.",
+      "tags": [
+        "party",
+        "bluffing",
+        "hidden-information",
+        "strategy"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "slapback",
+      "title": "Slapback",
+      "hook": "The TV fires a chirp, every phone records how the room echoes back at it, and three seekers crawl under tables trying to find the one spot in the house that *sounds* like their secret target.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "hide-and-seek"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "speed-trap",
+      "title": "Speed Trap",
+      "hook": "The TV screams an 18kHz tone, your phone reads the Doppler shift off your own walking, and everyone in the room is racing to the screen under a different secret speed limit.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "toss-up",
+      "title": "Toss-Up",
+      "hook": "Write a sentence fragment the model finds maximally undecided — then get punished for every pair of humans in the room who fill the blank with the same word.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "competitive"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "print-through",
+      "title": "Print Through",
+      "hook": "A menubar cassette deck for your own music library where tapes physically wear out with every play, and taping over an old mixtape leaves the erased songs bleeding through as ghostly pre-echo.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "audio",
+        "music"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "last-flight",
+      "title": "Last Flight",
+      "hook": "An API that scores the last thirty meters of a delivery address — stoop steps, walk-up floors, sidewalk grade, door width — so movers stop quoting curbside prices for fourth-floor walk-ups.",
+      "tags": [
+        "business",
+        "logistics",
+        "gis",
+        "saas"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "hygral-fatigue",
+      "title": "Hygral Fatigue",
+      "hook": "A salon roguelike where the hair is an actual physics simulation — every wash irreversibly damages a hidden strand state you can only probe with a loupe and a stretch test.",
+      "tags": [
+        "game",
+        "sim",
+        "physics",
+        "puzzle"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-07-27"
+    },
+    {
       "slug": "cut-through",
       "title": "Cut Through",
       "hook": "Three drivers silently plan the same route across one city map — except each phone secretly shows only YOUR tolls, and the delivery van stalls dead at the first junction where your routes disagree.",
