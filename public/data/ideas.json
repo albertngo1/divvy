@@ -2,6 +2,117 @@
   "lastScan": "2026-07-27",
   "ideas": [
     {
+      "slug": "sidetone",
+      "title": "Sidetone",
+      "hook": "Your own voice comes back into your earbud a half-second late so speaking makes you stutter like a broken record — and the delay is a weapon your silent rivals buy with the seconds they didn't spend talking.",
+      "tags": [
+        "party",
+        "audio",
+        "real-time",
+        "sabotage"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "half-duplex",
+      "title": "Half Duplex",
+      "hook": "The TV whispers a secret list exactly once, and your phone's live captions freeze dead the instant you make a sound — so every word you say is a hole punched in your own copy.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "two-piles",
+      "title": "Two Piles",
+      "hook": "Eight objects, two unlabeled piles, three phones — split them however you like, but the room only wins if all three splits are the same set, and nobody may say a word about why.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "convergence"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "blink-twice",
+      "title": "Blink Twice",
+      "hook": "Three phones in a dark room tap out silent flashes, but each player can only see one other player's light — the room has to reach unison through a chain nobody can see the whole of.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "timing"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "not-it",
+      "title": "Not It",
+      "hook": "Eight jobs are melting down and only the phone holding a job knows how much it actually costs — so the entire game is four people yelling half-truths about their workload to shove the worst task onto somebody else.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "social-deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "throw-your-voice",
+      "title": "Throw Your Voice",
+      "hook": "Every phone is a mailbox and your voice is the parcel — you have to physically walk over and speak into the right person's handset, because the phones compare loudness to decide whose inbox your sentence actually landed in.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "pocket-knot",
+      "title": "Pocket Knot",
+      "hook": "Tumble a virtual cord in a virtual box and watch it tie itself, then have the app compute the Alexander polynomial and tell you it's a 5₁ — the earbud-tangle experiment, playable.",
+      "tags": [
+        "physics",
+        "sim",
+        "3d-viz"
+      ],
+      "score": 76,
+      "source": "arxiv",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "natural-long",
+      "title": "Natural Long",
+      "hook": "Your bank statement is a leveraged commodities book you never opened — this tool prints your real position in gallons, therms, and euros, then quotes the smallest hedge that flattens it.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "markets",
+        "quantified-self"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-07-27"
+    },
+    {
       "slug": "below-the-line",
       "title": "Below the Line",
       "hook": "The TV crawls a real end-credits roll while everyone secretly owns shares in things like \"any line containing ASSISTANT\" — dividends fire line by line, and the only public signal is an anonymous tape of who just panic-sold.",
