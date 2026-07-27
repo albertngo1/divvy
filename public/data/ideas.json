@@ -2,6 +2,90 @@
   "lastScan": "2026-07-27",
   "ideas": [
     {
+      "slug": "plus-on-block",
+      "title": "Plus on Block",
+      "hook": "Four phones each hold two moves' secret frame data, and the room has to yell startup and advantage numbers at each other fast enough to keep one shared combo alive as the hitstun bar drains.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "fighting-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "zip-tie",
+      "title": "Zip Tie",
+      "hook": "Match someone else's answer and you don't lose points — you get cable-tied to them for the rest of the game, sharing one answer slot, one shrinking menu, and one split score, while the untied players watch you argue.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "social-deduction",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "overprint",
+      "title": "Overprint",
+      "hook": "Four people draw at the same time on one shared canvas they can't see themselves in — every cell two brushes touch turns to permanent mud, and the TV renders all ink in identical flat black so you slowly lose track of which marks are yours.",
+      "tags": [
+        "party",
+        "drawing",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "fine-motor",
+      "title": "Fine Motor",
+      "hook": "A menubar app that never records what you type, only how — turning your keyboard into a passive neurological instrument that scores your motor steadiness every day for years.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "privacy",
+        "habits"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "time-error",
+      "title": "Time Error",
+      "hook": "A menubar clock that runs on grid time instead of atomic time, drifting seconds behind whenever a continent is short of power — and notching a mark when it hears a power plant fall over.",
+      "tags": [
+        "data-viz",
+        "ambient",
+        "menubar",
+        "physics"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "underwater-fill",
+      "title": "Underwater Fill",
+      "hook": "A Wednesday-morning email that tells an independent pharmacist exactly which prescriptions will lose them money this week — and which A-rated equivalent NDC to stock instead.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 76,
+      "source": "wild",
+      "created": "2026-07-27"
+    },
+    {
       "slug": "turnstile",
       "title": "Turnstile",
       "hook": "Five gates, one last train, and every phone holds a different sliver of who can go where — walk into a gate someone else picked and it jams welded-shut for the rest of the night.",
