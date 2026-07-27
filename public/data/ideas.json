@@ -2,6 +2,90 @@
   "lastScan": "2026-07-27",
   "ideas": [
     {
+      "slug": "below-the-line",
+      "title": "Below the Line",
+      "hook": "The TV crawls a real end-credits roll while everyone secretly owns shares in things like \"any line containing ASSISTANT\" — dividends fire line by line, and the only public signal is an anonymous tape of who just panic-sold.",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "maker-s-mark",
+      "title": "Maker's Mark",
+      "hook": "You secretly craft a tiny charm for one person in the room out of materials you don't have — and asking for what you need is how you sign your work.",
+      "tags": [
+        "party",
+        "trading",
+        "social-deduction",
+        "keepsake"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "return-address",
+      "title": "Return Address",
+      "hook": "Your group writes one letter to itself a year out — and it only gets sent if none of you can tell who wrote which line.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction",
+        "keepsake"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "since-last-run",
+      "title": "Since Last Run",
+      "hook": "A CLI wrapper that reruns your command and shows only what actually changed since the last time — after learning which tokens in your output are just timestamps, durations, and PIDs pretending to be news.",
+      "tags": [
+        "devtool",
+        "cli",
+        "logs",
+        "observability"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "cross-slope",
+      "title": "Cross Slope",
+      "hook": "Cities are legally required to inventory every non-compliant sidewalk and currently do it by walking miles with a digital level — so measure it from public LiDAR instead and sell them the prioritized repair list.",
+      "tags": [
+        "gis",
+        "map",
+        "business",
+        "data-viz"
+      ],
+      "score": 75,
+      "source": "arxiv",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "greedy-star",
+      "title": "Greedy Star",
+      "hook": "A generative music instrument where the score is a regular expression and the performance is its catastrophic backtracking — forty bytes of pattern unfolding into a ninety-second self-similar piece.",
+      "tags": [
+        "generative",
+        "music",
+        "audio",
+        "whimsy"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-27"
+    },
+    {
       "slug": "plus-on-block",
       "title": "Plus on Block",
       "hook": "Four phones each hold two moves' secret frame data, and the room has to yell startup and advantage numbers at each other fast enough to keep one shared combo alive as the hitstun bar drains.",
