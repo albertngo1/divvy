@@ -2,6 +2,118 @@
   "lastScan": "2026-07-27",
   "ideas": [
     {
+      "slug": "plane-table",
+      "title": "Plane Table",
+      "hook": "The Plotter's phone shows three live dots on a blank white sheet with no walls drawn; the three blind players drag on featureless black pads and feel the walls by flash and buzz — the actual map exists nowhere except in what the room shouts at each other.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "haptics"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "grid-north",
+      "title": "Grid North",
+      "hook": "One player's phone holds the maze and three anonymous dots; the other three hold D-pads whose \"up\" is secretly rotated, and nobody can win until the room jointly works out both who is which dot and which way each person's north actually points.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "puzzle"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "dinner-theater",
+      "title": "Dinner Theater",
+      "hook": "Everyone reads the same restaurant menu, but each phone secretly holds a different diner's hidden appetite — you bet on what the table will actually order, and the winner is whoever read the room, not the menu.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "social-deduction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "minor-edit",
+      "title": "Minor Edit",
+      "hook": "One sentence sits on the TV and everyone edits it at the same time toward a different secret agenda — but two commits landing on the same word merge-conflict, revert, and weld that word shut permanently.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-agenda",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "typebar",
+      "title": "Typebar",
+      "hook": "The host TV is one mechanical typewriter and every phone is a fistful of its typebars — the room must strike a word letter by letter, and any two bars that swing at the same instant lock together and kill that letter forever.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "timing"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "locked-groove",
+      "title": "Locked Groove",
+      "hook": "A year of your health data becomes a physically playable 3D-printed record — one revolution per day, eleven minutes of lo-fi drone — and the last day is cut as a locked groove so it repeats forever.",
+      "tags": [
+        "generative",
+        "audio",
+        "quantified-self",
+        "art"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "index-case",
+      "title": "Index Case",
+      "hook": "Stop asking which test is flaky and start running an outbreak investigation: pull odds ratios over runners, shards, and execution predecessors until your CI names the shared resource that's actually the pathogen.",
+      "tags": [
+        "devtool",
+        "ci",
+        "observability",
+        "cli"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-07-27"
+    },
+    {
+      "slug": "certificate-holder",
+      "title": "Certificate Holder",
+      "hook": "Compile the insurance exhibit buried in your subcontract into machine-checkable rules, then red-line every ACORD 25 a broker faxes you against it — so you find out a sub is uninsured before the crane falls, not after.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 63,
+      "source": "wild",
+      "created": "2026-07-27"
+    },
+    {
       "slug": "sidetone",
       "title": "Sidetone",
       "hook": "Your own voice comes back into your earbud a half-second late so speaking makes you stutter like a broken record — and the delay is a weapon your silent rivals buy with the seconds they didn't spend talking.",
