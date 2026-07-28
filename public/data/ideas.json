@@ -2,6 +2,104 @@
   "lastScan": "2026-07-28",
   "ideas": [
     {
+      "slug": "stack-marker",
+      "title": "Stack Marker",
+      "hook": "An MMO raid boss with no MMO: the TV shows everyone's position publicly while your phone privately tells you that you're the bomb, or the chain, or that your legend for reading the boss's telegraph went stale one cast ago — and the wipe replay reveals every hidden card so the room can find out exactly who killed it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "deduction"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "try-jumping",
+      "title": "Try Jumping",
+      "hook": "Everyone plays their own private text roguelike at the same time, and the only thing you can send each other is a Dark Souls message assembled from eighteen canned words — except the dungeon quietly reseeds itself per player, so the most honest advice in the room is also the most lethal.",
+      "tags": [
+        "party",
+        "roguelike",
+        "asymmetric-information",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "fair-coin",
+      "title": "Fair Coin",
+      "hook": "Every phone privately flips a coin that decides whether you must answer honestly or answer whatever the coin says — so the room ends up with a true, printable map of who trusts whom that no one can ever be pinned to.",
+      "tags": [
+        "party",
+        "cooperative",
+        "anonymity",
+        "data-viz"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "hard-out",
+      "title": "Hard Out",
+      "hook": "Everyone listens to the same three-minute interview, but each phone is privately hunting a different moment, your stake bleeds away one point per second, and you have to bail before your moment fires.",
+      "tags": [
+        "party",
+        "betting",
+        "audio",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "grantee",
+      "title": "Grantee",
+      "hook": "Sells honest electronics importers the one thing they can't assemble themselves: a court-ready evidence packet showing the $19 competitor's FCC ID belongs to somebody else's product.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "computer-vision"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "dicing",
+      "title": "Dicing",
+      "hook": "A WebGPU sandbox where you design the tempering profile of a sheet of safety glass, then smash it and see whether the fragments actually pass the EN 12150 dice-count test.",
+      "tags": [
+        "materials",
+        "physics",
+        "sim",
+        "graphics"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "crib-sheet",
+      "title": "Crib Sheet",
+      "hook": "A roguelike where the only thing that carries between runs is one 3×5 index card you write yourself — and the game literally refuses to show you any tooltip you didn't bother to record.",
+      "tags": [
+        "game",
+        "roguelike",
+        "writing",
+        "embeddings"
+      ],
+      "score": 77,
+      "source": "arxiv",
+      "created": "2026-07-28"
+    },
+    {
       "slug": "cognate",
       "title": "Cognate",
       "hook": "Nobody holds the same cards, so you can't play the same card — you have to play the same *idea*, and the idea is never named out loud or on screen.",
