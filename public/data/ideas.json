@@ -2,6 +2,90 @@
   "lastScan": "2026-07-28",
   "ideas": [
     {
+      "slug": "cognate",
+      "title": "Cognate",
+      "hook": "Nobody holds the same cards, so you can't play the same card — you have to play the same *idea*, and the idea is never named out loud or on screen.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "last-seen",
+      "title": "Last Seen",
+      "hook": "You can only see one neighbor, one tick late, in a closed ring — so if everyone copies what they saw, the room rotates forever and never agrees.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "convergence"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "clean-copy",
+      "title": "Clean Copy",
+      "hook": "Everyone's phone holds the same nine evidence cards — except one player's copy is the uncorrupted original, so the only person in the room reading the truth is also the only person who sounds completely insane.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "street-name",
+      "title": "Street Name",
+      "hook": "You're a search party splitting up a neighborhood by radio, except every phone shows the same map with completely different names for every corner — so the two of you who confidently agreed to cover different places are about to walk into each other.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "nobody-else",
+      "title": "Nobody Else",
+      "hook": "Everyone gets the same private prompt and 60 seconds to point their camera at something in the room that satisfies it — and if two of you framed the same lamp, you both get nothing.",
+      "tags": [
+        "party",
+        "camera",
+        "scavenger-hunt",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "known-issue",
+      "title": "Known Issue",
+      "hook": "Describe your car's weird noise in plain English and get back the exact failure cluster from two million public NHTSA complaints — plus the odometer reading where it usually breaks.",
+      "tags": [
+        "embeddings",
+        "nlp",
+        "data-viz",
+        "side-hustle"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-28"
+    },
+    {
       "slug": "trap-line",
       "title": "Trap Line",
       "hook": "You must say your word aloud to find who holds its other half — but any player can arm a silent 8-second snare that punishes the next voice in the room, at the cost of going blind and possibly trapping their own partner.",
