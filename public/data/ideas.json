@@ -2,6 +2,103 @@
   "lastScan": "2026-07-28",
   "ideas": [
     {
+      "slug": "under-the-table",
+      "title": "Under the Table",
+      "hook": "Phones lie face-down on one wooden table thumping 55 Hz pulses through it, and you get exactly three pulses out — but if two of you fire in the same slot the table turns to mush and both messages die, so the whole game is felt in your fingertips.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "type-ahead",
+      "title": "Type Ahead",
+      "hook": "Everyone types an answer at the same time, and the instant two of you are typing the same first three letters, that prefix burns for both of you — so you spend the round frantically swerving away from words you can't see anyone else writing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "on-the-book",
+      "title": "On the Book",
+      "hook": "Nobody bids live — everyone secretly writes a two-rule bidding bot, and then the whole room watches your bots bankrupt each other over a worthless lot.",
+      "tags": [
+        "party",
+        "auction",
+        "programming",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "net-out",
+      "title": "Net Out",
+      "hook": "Everyone posts secret barter rates, and the server finds the four-way trade ring nobody at the table could ever have negotiated out loud.",
+      "tags": [
+        "party",
+        "trading",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "column-inch",
+      "title": "Column Inch",
+      "hook": "A cheat sheet that shrinks 3% every week, forcing you to keep evicting facts — and anything you can still recall from memory after eviction stays gone forever, so the page physically contracts as you actually learn.",
+      "tags": [
+        "habits",
+        "productivity",
+        "writing"
+      ],
+      "score": 65,
+      "source": "arxiv",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "native-speaker",
+      "title": "Native Speaker",
+      "hook": "It quietly harvests the diff between what you dictated and what you finally typed, builds a phrasebook of your own two registers, and can then run the translation backwards — turning your stiff written prose back into the way you actually talk.",
+      "tags": [
+        "language",
+        "writing",
+        "nlp",
+        "audio"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "fat-finger",
+      "title": "Fat Finger",
+      "hook": "A linter for identifier schemes that shoves your whole ID corpus through the lossy channels real IDs actually travel — handwriting, dictation, OCR, autocorrect, Unicode normalization, case-insensitive collation — and hands you the exact pairs that are one plausible human error apart.",
+      "tags": [
+        "security",
+        "forensics",
+        "cli",
+        "provenance"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
       "slug": "backlog",
       "title": "Backlog",
       "hook": "A booster draft where packs never wait for you — you can hoard as many open packs as you dare on your phone, but every held pack rots, and you choose which neighbor eats the mess.",
