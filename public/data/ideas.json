@@ -2,6 +2,76 @@
   "lastScan": "2026-07-28",
   "ideas": [
     {
+      "slug": "in-stock",
+      "title": "In Stock",
+      "hook": "Twelve items on the TV, but your phone's shelf is quietly missing three of them — and the only way to learn what everyone else can see is to fail together, out loud, on the big screen.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "circle-of-confusion",
+      "title": "Circle of Confusion",
+      "hook": "The TV shows one badly blurred photo; every phone shows it a little sharper, and exactly one phone shows it sharper still — so the person who can actually see it has to learn to sound as lost as everyone else.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "remit-to",
+      "title": "Remit To",
+      "hook": "Your DMARC protects your outbound mail; nobody checks whether the 300 *suppliers* who email you invoices are trivially spoofable — this watches their DNS every night and pings your AP team when a vendor becomes impersonable the week their payment is due.",
+      "tags": [
+        "business",
+        "saas",
+        "security",
+        "b2b"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "catchment",
+      "title": "Catchment",
+      "hook": "Every transit isochrone map draws one crisp 30-minute blob and lies to you; this one runs the trip from every departure minute of the morning and shows nested probability bands — where you can *reliably* get, versus where you get only if you're lucky.",
+      "tags": [
+        "data-viz",
+        "map",
+        "gis",
+        "timeline"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "secondhand",
+      "title": "Secondhand",
+      "hook": "A writing tool that shades every phrase in your draft by how many other people already wrote it — your prose comes back looking like a worn leather chair, and it tells you which sentence peaked in 1987.",
+      "tags": [
+        "language",
+        "writing",
+        "nlp",
+        "data-viz"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
       "slug": "stack-marker",
       "title": "Stack Marker",
       "hook": "An MMO raid boss with no MMO: the TV shows everyone's position publicly while your phone privately tells you that you're the bomb, or the chain, or that your legend for reading the boss's telegraph went stale one cast ago — and the wipe replay reveals every hidden card so the room can find out exactly who killed it.",
