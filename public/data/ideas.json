@@ -2,6 +2,103 @@
   "lastScan": "2026-07-28",
   "ideas": [
     {
+      "slug": "asked-and-answered",
+      "title": "Asked and Answered",
+      "hook": "Everyone secretly writes one yes/no question about the hidden subject at the same time — and any two questions that mean the same thing are struck from the record unanswered, so the obvious question your private clue is screaming at you to ask is the one most likely to get you nothing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "drumhead",
+      "title": "Drumhead",
+      "hook": "Every phone lies face-down on one hard table, buzzing private rhythms through the wood to claim slots — and while you're transmitting, your own accelerometer is deaf, so you never learn who else was buzzing at the same instant until the table has already swallowed both your claims.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "yardstick",
+      "title": "Yardstick",
+      "hook": "Everyone drafts from the same sixteen face-up cards, but each phone privately scores the whole table under a different secret rule — so your screen is a live leaderboard of a game nobody else is playing.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-objectives",
+        "asymmetric-info"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "standing-order",
+      "title": "Standing Order",
+      "hook": "Your hand isn't a hand, it's a line you can never reorder — and every card a rival gives you gets wedged in at a slot they choose, so your next play is always partly someone else's decision.",
+      "tags": [
+        "party",
+        "drafting",
+        "asymmetric-info",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "cross-date",
+      "title": "Cross-Date",
+      "hook": "Photograph a stump in your backyard, trace one line from pith to bark, and get back the exact calendar year that tree was born — plus the droughts and fire scars written into its rings.",
+      "tags": [
+        "data-viz",
+        "nature",
+        "timeline",
+        "computer-vision"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "hour-meter",
+      "title": "Hour Meter",
+      "hook": "A $9 diagnostic that reads a used GPU's actual wear — memory retention errors, fan bearing coast-down time, thermal paste pump-out — and issues a signed condition report buyers can verify before they wire money.",
+      "tags": [
+        "business",
+        "marketplace",
+        "b2b",
+        "hardware"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "peel-ply",
+      "title": "Peel Ply",
+      "hook": "Debug scaffolding that bonds hard to your working tree and never, ever commits — one command peels it off, another lays it back down after a rebase.",
+      "tags": [
+        "devtool",
+        "git",
+        "cli"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
       "slug": "under-the-table",
       "title": "Under the Table",
       "hook": "Phones lie face-down on one wooden table thumping 55 Hz pulses through it, and you get exactly three pulses out — but if two of you fire in the same slot the table turns to mush and both messages die, so the whole game is felt in your fingertips.",
