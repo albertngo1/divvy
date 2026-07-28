@@ -2,6 +2,117 @@
   "lastScan": "2026-07-28",
   "ideas": [
     {
+      "slug": "trap-line",
+      "title": "Trap Line",
+      "hook": "You must say your word aloud to find who holds its other half — but any player can arm a silent 8-second snare that punishes the next voice in the room, at the cost of going blind and possibly trapping their own partner.",
+      "tags": [
+        "party",
+        "audio",
+        "bluffing",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "reading-room",
+      "title": "Reading Room",
+      "hook": "Your private page only develops while the room is silent — and the first person to finish reading is suddenly free to talk, burning everyone else's text off the screen.",
+      "tags": [
+        "party",
+        "audio",
+        "competitive",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "getting-warm",
+      "title": "Getting Warm",
+      "hook": "You describe a secret word out loud while two opponents have quietly buried semantic landmines around it — and you're the only person in the room who can feel the heat rising.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "audio"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "sealed-until",
+      "title": "Sealed Until",
+      "hook": "The room writes a time capsule of predictions about each other, and every line survives into the final artifact only if the group fails to guess who wrote it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "keepsake",
+        "writing"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "squash-fold",
+      "title": "Squash Fold",
+      "hook": "Six people fold one sheet of paper into an object none of them can see coming, because each phone holds exactly one secret step and nobody is told whose turn it is.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "craft"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "yield-to-scrap",
+      "title": "Yield to Scrap",
+      "hook": "Prices used GPUs the way a bond desk would: rental income is the coupon, depreciation is the pull-to-par, and the result is an actual yield curve across silicon generations telling you which cards are trading rich.",
+      "tags": [
+        "finance",
+        "markets",
+        "dashboard",
+        "homelab"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "almost-every",
+      "title": "Almost Every",
+      "hook": "A zoomable microscope on the number line that shows you which points have names — zoom far enough and the screen goes empty, because you have finally arrived somewhere no expression can reach.",
+      "tags": [
+        "data-viz",
+        "visualization",
+        "whimsy"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "third-row",
+      "title": "Third Row",
+      "hook": "A route planner that optimizes for not throwing up: it scores every candidate route by frequency-weighted motion-sickness dose, so you can pick the boring highway over the pretty switchbacks before your kid decides for you.",
+      "tags": [
+        "physics",
+        "map",
+        "health",
+        "gis"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
       "slug": "asked-and-answered",
       "title": "Asked and Answered",
       "hook": "Everyone secretly writes one yes/no question about the hidden subject at the same time — and any two questions that mean the same thing are struck from the record unanswered, so the obvious question your private clue is screaming at you to ask is the one most likely to get you nothing.",
