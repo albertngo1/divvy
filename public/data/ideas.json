@@ -2,6 +2,118 @@
   "lastScan": "2026-07-28",
   "ideas": [
     {
+      "slug": "clapper",
+      "title": "Clapper",
+      "hook": "Three phones scrub through the same silent twelve-second clip — but one is mirrored, one is tinted, and each holds a different slice of the timeline — and you all have to park on the exact same instant with nothing to go on but which flicker you think the others found interesting.",
+      "tags": [
+        "party",
+        "cooperative",
+        "timing",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "monitor-mix",
+      "title": "Monitor Mix",
+      "hook": "Three people must all talk nonstop at once to keep the show running — but no phone shows you your own levels, only your neighbor's, so the only way to hit your target is for someone to shout it at you while you're mid-sentence.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "tongue-tied-2",
+      "title": "Tongue Tied",
+      "hook": "One sentence scrolls on the TV and the room must read it aloud without a gap — except each player is secretly forbidden from voicing certain words, so the sentence has to be handed mouth-to-mouth mid-clause while everyone shouts logistics over each other.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "cheap-talk",
+      "title": "Cheap Talk",
+      "hook": "Every word you write costs bits of surprisal under a tiny LLM, deducted from a private wallet — so the only way to afford your secret word is to get other people to make it predictable first.",
+      "tags": [
+        "party",
+        "wordgame",
+        "economy",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "tip-of-tongue",
+      "title": "Tip of Tongue",
+      "hook": "You write a hidden prompt; the only thing the room ever sees is the tiny LLM's top-5 next-word bar chart — and if your secret word shows up in it, you score zero.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "cooperative"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "fair-weather",
+      "title": "Fair Weather",
+      "hook": "A menubar barometer for your own dependency tree that reads the *maintenance weather* over each package — not vulnerabilities, but the slow atmospheric signs a maintainer is drifting away.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "devtool",
+        "observability"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "enforcement-gap",
+      "title": "Enforcement Gap",
+      "hook": "An explorable map of the internet's unlocked front doors — every domain's DMARC posture rendered as a city where buildings without door locks are the ones anyone can send mail as, and you can walk your own street.",
+      "tags": [
+        "data-viz",
+        "security",
+        "visualization",
+        "map"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "boiling-point",
+      "title": "Boiling Point",
+      "hook": "A single-player extremophile roguelike where you don't shoot anything — you allocate a fixed protein budget across heat-shock chaperones, membrane lipid saturation, and DNA repair, then watch a real Arrhenius-curve hot spring cook your lineage over 200 generations.",
+      "tags": [
+        "biology",
+        "roguelike",
+        "sim",
+        "procedural"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
       "slug": "in-stock",
       "title": "In Stock",
       "hook": "Twelve items on the TV, but your phone's shelf is quietly missing three of them — and the only way to learn what everyone else can see is to fail together, out loud, on the big screen.",
