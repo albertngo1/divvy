@@ -1,6 +1,118 @@
 {
-  "lastScan": "2026-07-27",
+  "lastScan": "2026-07-28",
   "ideas": [
+    {
+      "slug": "backlog",
+      "title": "Backlog",
+      "hook": "A booster draft where packs never wait for you — you can hoard as many open packs as you dare on your phone, but every held pack rots, and you choose which neighbor eats the mess.",
+      "tags": [
+        "party",
+        "drafting",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "still-holding",
+      "title": "Still Holding",
+      "hook": "A silent all-pay auction bid with your thumb: hold the button as long as you dare, pay every second you held whether you win or lose, and watch the TV count fingers still down without ever telling you whose.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "by-omission",
+      "title": "By Omission",
+      "hook": "Everyone holds a secret hand of seven cards and must end up holding the same one as somebody else — and the only way to say anything is to visibly throw the wrong cards away.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "card-game",
+        "cooperative"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "push-poll",
+      "title": "Push Poll",
+      "hook": "Everyone answers the same poll question — except each phone was privately handed a differently rigged version of it, and the round ends when the TV finally shows you what everyone else was actually asked.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "pinch-hit",
+      "title": "Pinch Hit",
+      "hook": "Everyone secretly writes one brutal category as a trap for somebody else — and when two symbols collide on the TV, your phone hands you the stranger's category and ten seconds to blurt.",
+      "tags": [
+        "party",
+        "real-time",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "dutch-book",
+      "title": "Dutch Book",
+      "hook": "A scanner that hunts for sets of prediction markets whose prices are mathematically incoherent — not identical markets on two venues, but markets that logically imply each other and don't know it.",
+      "tags": [
+        "finance",
+        "prediction-market",
+        "markets",
+        "dashboard"
+      ],
+      "score": 62,
+      "source": "wild",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "seek-time",
+      "title": "Seek Time",
+      "hook": "A menubar toy that re-sonifies your silent SSD as a 2003 desktop hard drive, deriving head-seek distance from the inode numbers of the files you actually touch.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "desktop-toy",
+        "audio"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-28"
+    },
+    {
+      "slug": "rolls-downhill",
+      "title": "Rolls Downhill",
+      "hook": "Drop a virtual marble on any doorstep and watch which street corner in your city everything — rainwater, litter, runaway shopping carts — eventually ends up at.",
+      "tags": [
+        "data-viz",
+        "gis",
+        "map",
+        "visualization"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-07-28"
+    },
     {
       "slug": "green-light",
       "title": "Green Light",
