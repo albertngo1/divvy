@@ -2,6 +2,132 @@
   "lastScan": "2026-07-29",
   "ideas": [
     {
+      "slug": "crowd-cover",
+      "title": "Crowd Cover",
+      "hook": "Your phone will only submit your secret while at least one other body in the room is facing the same direction you are — so confessing means quietly convincing someone to turn and stand with you.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "cooperative"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "valet-key",
+      "title": "Valet Key",
+      "hook": "You read your phone's secret objective, hand the phone to the player on your left, and now they hold the only feedback meter for a goal only you know — while three other pairs shout their own contradictory instructions across the same room.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "hold-that-thought",
+      "title": "Hold That Thought",
+      "hook": "Every player must read a private list aloud without losing their place, while their phone secretly orders them to break into a specific teammate's sentence and drag a specific word out of them.",
+      "tags": [
+        "party",
+        "voice",
+        "real-time",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "wake-word",
+      "title": "Wake Word",
+      "hook": "Every phone in the room is a smart speaker with a private wake word and a private set of skills — and none of them will take orders from their own owner, so clearing the chore queue means four people shouting near-identical vegetable names at each other's hands.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "gang-run",
+      "title": "Gang Run",
+      "hook": "You're print shops ganged onto one shared press sheet, each dragging a job you can see and nobody else can — and if two jobs overlap by a single cell the press prints ink over ink and ruins them both.",
+      "tags": [
+        "party",
+        "spatial",
+        "negotiation",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "mutual-aid",
+      "title": "Mutual Aid",
+      "hook": "Everyone secretly pledges to have one other player's back — and any two people who pledge to each other both die on the spot, so the only deal that pays is a ring of three or more that has to be negotiated out loud without a single handshake.",
+      "tags": [
+        "party",
+        "negotiation",
+        "social-deduction",
+        "simultaneous-play"
+      ],
+      "score": 79,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "mean-time",
+      "title": "Mean Time",
+      "hook": "Scans your Grafana and Prometheus for statistical malpractice, then queries the real data to prove it — \"your API latency panel shows 240ms, a value your system produces roughly never.\"",
+      "tags": [
+        "observability",
+        "devtool",
+        "cli",
+        "telemetry"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "cooling-off",
+      "title": "Cooling Off",
+      "hook": "Replays your entire brokerage history with every single order delayed — one day, one week, one month — and draws the curve of how much richer you'd be if you'd just sat on your hands.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "quantified-self",
+        "markets"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "paid-as",
+      "title": "Paid As",
+      "hook": "Stop phoning insurance companies for a benefits breakdown — reconstruct each payer's real behavior from the thousands of claims they've already adjudicated for you, and quote patients a range instead of a lie.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 76,
+      "source": "wild",
+      "created": "2026-07-29"
+    },
+    {
       "slug": "nightingale-floor",
       "title": "Nightingale Floor",
       "hook": "Everyone plants their phone somewhere in the room as a listening post, then has ninety seconds to run a private errand across that floor without any of the four microphones chirping — and a single spoken sentence costs five times a dropped spoon.",
