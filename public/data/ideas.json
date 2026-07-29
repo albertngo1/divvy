@@ -2,6 +2,104 @@
   "lastScan": "2026-07-29",
   "ideas": [
     {
+      "slug": "market-price",
+      "title": "Market Price",
+      "hook": "Everyone at the table is secretly betting over/under on tonight's bill — but each phone was handed a *different* line, orders lock in simultaneously and blind, and whatever you bet, you have to eat it.",
+      "tags": [
+        "party",
+        "betting-market",
+        "hidden-information",
+        "food"
+      ],
+      "score": 79,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "tipped-off",
+      "title": "Tipped Off",
+      "hook": "Everyone watches the same four-minute clip, but each phone holds a different piece of inside information about it — and the only way to cash in is to trade, which prints your secret onto the public tape.",
+      "tags": [
+        "party",
+        "betting-market",
+        "asymmetric-information",
+        "video"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "one-size",
+      "title": "One Size",
+      "hook": "Everyone writes one sentence at the same time, but each phone is secretly running the same model against a different hidden voice — and the sentence that wins is the one whose *worst* secret fit is best.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "surge-pricing",
+      "title": "Surge Pricing",
+      "hook": "A shared sentence grows word by word while a tiny language model quotes every player a different, constantly-moving price for the one secret word they're stuck holding — and the room's bit budget is draining.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "real-time"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "tracking",
+      "title": "Tracking",
+      "hook": "Fingerprint every copy of a document in the microscopic gaps between its words, so a leaked page photographed on someone's phone still names the recipient it came from — and a reverse mode that tells you whether the PDF *you* just received is marked.",
+      "tags": [
+        "language",
+        "steganography",
+        "provenance",
+        "security"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "torn-write",
+      "title": "Torn Write",
+      "hook": "A drop-in SQLite VFS that lies to your app the way a real disk does — torn sectors, fsync that didn't, power loss mid-checkpoint — then shrinks the exact fault schedule that corrupted you down to a three-line repro.",
+      "tags": [
+        "devtool",
+        "sql",
+        "cli",
+        "observability"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "named-peril",
+      "title": "Named Peril",
+      "hook": "Stop scoring your dependency risk out of 10 and start quoting it in dollars — an underwriting engine that turns your lockfile into an actual insurance premium, because a number you'd have to pay out on is a number you can't fudge.",
+      "tags": [
+        "business",
+        "saas",
+        "security",
+        "b2b"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-29"
+    },
+    {
       "slug": "first-refusal",
       "title": "First Refusal",
       "hook": "A Dutch auction where every bidder gets their own secret clock — the price falls from 12 to 1, but your four-second window might only ever offer you nine.",
