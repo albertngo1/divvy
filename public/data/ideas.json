@@ -2,6 +2,132 @@
   "lastScan": "2026-07-29",
   "ideas": [
     {
+      "slug": "dry-fit",
+      "title": "Dry Fit",
+      "hook": "Everyone rearranges the same tile board at the same time on their own phone — and your beautiful three-tile play is checked last, against a board the cautious players already pulled apart underneath you.",
+      "tags": [
+        "party",
+        "puzzle",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "assemblage",
+      "title": "Assemblage",
+      "hook": "Five land parcels go up for auction all at once, and the blueprint on your phone only pays if you win two that touch — so every raise is a confession about which corner of the map you actually need.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "clear-to-send",
+      "title": "Clear to Send",
+      "hook": "You are a human network buffer holding exactly one packet, you can't see whether the person downstream is full, and the only flow control is your own voice.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "hot-desk",
+      "title": "Hot Desk",
+      "hook": "Spaceteam, except the server keeps silently reassigning your controls to other people's phones and never tells anyone who got what.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "trickle-charge",
+      "title": "Trickle Charge",
+      "hook": "A shared battery fills only while the room is silent, everyone's phone privately forbids them to cash out below a different secret level, and the only way to stop the greedy player is to make a noise your own phone will snitch about.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "negotiation"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "safelight",
+      "title": "Safelight",
+      "hook": "Your private briefing is photographic paper that only develops in silence — every word you say fogs your page and every page within earshot, permanently.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "bait-bucket",
+      "title": "Bait Bucket",
+      "hook": "A fish can only reach a lake by swimming there — so every occurrence record in a hydrologically disconnected basin is a signed confession that somebody carried it.",
+      "tags": [
+        "biology",
+        "gis",
+        "map",
+        "nature"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "shovel-ready",
+      "title": "Shovel Ready",
+      "hook": "Backup-generator air permits are filed a year before anyone announces a data center — so you can tell a county's electricians they're about to get poached before their boss knows.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "map"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "wrong-fount",
+      "title": "Wrong Fount",
+      "hook": "Your great-grandfather is in 20 million newspaper pages, but the scanner spelled him \"Ohas. Muclieil\" — so search for the typo instead of the name.",
+      "tags": [
+        "language",
+        "nlp",
+        "genealogy",
+        "forensics"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-07-29"
+    },
+    {
       "slug": "wrong-number",
       "title": "Wrong Number",
       "hook": "Every phone privately holds a different scrambled keypad, and the room must silently converge on dialing the same seven digits when nobody can see anybody's screen and no two thumbs travel the same path.",
