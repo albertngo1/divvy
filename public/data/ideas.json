@@ -2,6 +2,104 @@
   "lastScan": "2026-07-29",
   "ideas": [
     {
+      "slug": "peremptory",
+      "title": "Peremptory",
+      "hook": "Nine jurors on the TV, each phone judging them through a different private lens, and every player must strike six — the room wins only if exactly one candidate survives all three secret strike lists.",
+      "tags": [
+        "party",
+        "cooperative",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "muster-point",
+      "title": "Muster Point",
+      "hook": "Three identical dots drift on the TV, one is secretly yours, your swipe direction is secretly rotated, and the room has ninety seconds to silently agree on a place to meet.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "someone-keep-talking",
+      "title": "Someone Keep Talking",
+      "hook": "Two valves are held open by the sound of a human voice, only the person not talking is allowed to touch anything, and the instructions get dealt exclusively to whoever can't stop mid-sentence to read them.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "dual-key",
+      "title": "Dual Key",
+      "hook": "Two people must shout the same secret phrase at the exact same instant — and if either one says it alone, even by accident, that order is dead forever.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "audio"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "bad-merge",
+      "title": "Bad Merge",
+      "hook": "The room has to sort itself by a real, embarrassing number using ten privately-dealt comparisons — one of which the server quietly reversed, and its holder knows they're poisoned but not where.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "true-up",
+      "title": "True Up",
+      "hook": "Property-based testing pointed at your Stripe account: it replays every invoice against an independent model of proration and hands you a dollar-quantified list of the money your billing code quietly loses.",
+      "tags": [
+        "saas",
+        "b2b",
+        "finance",
+        "automation"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "tempco",
+      "title": "Tempco",
+      "hook": "A browser toy where resistance fights temperature: build circuits out of real alloys and watch the coupled electro-thermal feedback loop settle, oscillate, or scream into runaway — sonified.",
+      "tags": [
+        "physics",
+        "sim",
+        "puzzle",
+        "audio"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-07-29"
+    },
+    {
       "slug": "crowd-cover",
       "title": "Crowd Cover",
       "hook": "Your phone will only submit your secret while at least one other body in the room is facing the same direction you are — so confessing means quietly convincing someone to turn and stand with you.",
