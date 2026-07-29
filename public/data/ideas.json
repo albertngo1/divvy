@@ -2,6 +2,132 @@
   "lastScan": "2026-07-29",
   "ideas": [
     {
+      "slug": "nightingale-floor",
+      "title": "Nightingale Floor",
+      "hook": "Everyone plants their phone somewhere in the room as a listening post, then has ninety seconds to run a private errand across that floor without any of the four microphones chirping — and a single spoken sentence costs five times a dropped spoon.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "splash-zone",
+      "title": "Splash Zone",
+      "hook": "Every phone bills its owner for the decibels it hears, so your pocket taxes you for talking and taxes everyone who leans in to listen — and the only way to trade your secret is out loud.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "information-market"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "ring-test",
+      "title": "Ring Test",
+      "hook": "Knock on the furniture: each phone privately holds a different secret target timbre, and the room has to find the one real object in it that sounds right to everyone at once — without ever being able to say what \"right\" means.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "lubber-line",
+      "title": "Lubber Line",
+      "hook": "Every phone secretly rotates the room's 360° answer wheel by a different amount — so you vote by physically turning your body, in full view of everyone, and the two players whose wheels match must find each other before the clock runs out.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "saw-it-coming",
+      "title": "Saw It Coming",
+      "hook": "Everyone secretly needs to land their own word in one shared sentence, but any word you add that makes the model too confident about what comes next is rejected out loud — so the moment your intent becomes predictable, you're locked out.",
+      "tags": [
+        "party",
+        "llm",
+        "wordgame",
+        "hidden-intent"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "mixed-company",
+      "title": "Mixed Company",
+      "hook": "Every phone secretly primes the same tiny language model with a different world, and you win by writing one sentence that reads as perfectly native to your model and completely alien to everyone else's.",
+      "tags": [
+        "party",
+        "llm",
+        "wordgame",
+        "hidden-role"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "snowfall-line",
+      "title": "Snowfall Line",
+      "hook": "A scrubbable map of the elevation at which rain turned to snow, every hour, for the last forty years — so you can watch the freezing level migrate up your own mountain across your lifetime.",
+      "tags": [
+        "data-viz",
+        "map",
+        "timeline",
+        "gis"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "sniff-test",
+      "title": "Sniff Test",
+      "hook": "A local forensic scope that shows you what your phone is *actually* saying about you on your own wifi, ranked not by bytes but by how weird the traffic is compared to the same app on everyone else's network.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics",
+        "self-hosted"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "bisect-cassette",
+      "title": "Bisect Cassette",
+      "hook": "Every test run you do all day is silently recorded as a (commit, test, pass/fail) tape, so when a bug finally surfaces `git bisect` is already over before you type it.",
+      "tags": [
+        "devtool",
+        "git",
+        "ci",
+        "cli"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-29"
+    },
+    {
       "slug": "upstage",
       "title": "Upstage",
       "hook": "Lights off, the TV is the only light in the room, and your phone's camera is quietly hunting for your secret color — while the person standing in front of you eclipses it.",
