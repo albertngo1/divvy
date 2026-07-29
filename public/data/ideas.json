@@ -1,6 +1,131 @@
 {
-  "lastScan": "2026-07-28",
+  "lastScan": "2026-07-29",
   "ideas": [
+    {
+      "slug": "upstage",
+      "title": "Upstage",
+      "hook": "Lights off, the TV is the only light in the room, and your phone's camera is quietly hunting for your secret color — while the person standing in front of you eclipses it.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "competitive"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "hammer-price",
+      "title": "Hammer Price",
+      "hook": "A sealed-bid auction where your bid is a punch — everyone sees the size of your swing, only your phone knows how hard it actually landed.",
+      "tags": [
+        "party",
+        "sensor",
+        "bluffing",
+        "auction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "band-pass",
+      "title": "Band Pass",
+      "hook": "Talk normally for ninety seconds while your phone secretly measures how surprising you are in bits per word — and your secret quota is to be dull, or to be strange, and the person speaking before you controls how hard that is.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "room-temperature",
+      "title": "Room Temperature",
+      "hook": "Every phone runs the same tiny language model fed a different secret paragraph, and the room must build one sentence that bores all of them at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "fill-or-kill",
+      "title": "Fill or Kill",
+      "hook": "Trade with all three people at once, back every offer with the same cubes you only own once, and let the server publicly execute you for the promises you couldn't keep.",
+      "tags": [
+        "party",
+        "negotiation",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "last-thumb",
+      "title": "Last Thumb",
+      "hook": "One mystery lot, four thumbs pressed to four screens, a price ladder climbing — and every finger that lifts tells you something about what you're bidding on.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "racemize",
+      "title": "Racemize",
+      "hook": "A browser toy where you watch a flask of molecules spontaneously choose a handedness — the same symmetry break that decided every amino acid in your body is left-handed, and you can tilt the odds and lose.",
+      "tags": [
+        "chemistry",
+        "physics",
+        "sim",
+        "visualization"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "blame-blind",
+      "title": "Blame Blind",
+      "hook": "A git subcommand that answers \"who last touched this line\" when the line has been reformatted, moved between files, and renamed twice — by tracking the AST node instead of the byte offset.",
+      "tags": [
+        "devtool",
+        "git",
+        "cli"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "bench-depth",
+      "title": "Bench Depth",
+      "hook": "A menubar toy that turns your CPU's power-management telemetry into a live rowing crew — cores that boost hard, sag, and get benched, so you can see thermal throttling as a shell losing its stroke rate.",
+      "tags": [
+        "ambient",
+        "desktop-toy",
+        "menubar",
+        "observability"
+      ],
+      "score": 66,
+      "source": "github",
+      "created": "2026-07-29"
+    },
     {
       "slug": "clapper",
       "title": "Clapper",
