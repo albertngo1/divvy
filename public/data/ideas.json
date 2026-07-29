@@ -2,6 +2,62 @@
   "lastScan": "2026-07-29",
   "ideas": [
     {
+      "slug": "wrong-number",
+      "title": "Wrong Number",
+      "hook": "Every phone privately holds a different scrambled keypad, and the room must silently converge on dialing the same seven digits when nobody can see anybody's screen and no two thumbs travel the same path.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "strange-track",
+      "title": "Strange Track",
+      "hook": "A bubble chamber simulator where the game never tells you what particle you saw — you measure the curvature yourself, do the kinematics, and defend your identification.",
+      "tags": [
+        "physics",
+        "puzzle",
+        "sim",
+        "procedural"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "dirty-set",
+      "title": "Dirty Set",
+      "hook": "Treat your portfolio like an incremental compiler: write each position's thesis as a graph of premises, and when a premise is falsified by real data the tool marks every dependent holding STALE and hands you a rebuild queue.",
+      "tags": [
+        "finance",
+        "markets",
+        "automation",
+        "cli"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "felt-report",
+      "title": "Felt Report",
+      "hook": "Your keyboard and mouse are ground motion: a drum-paper wallpaper that runs a real seismic trigger algorithm over your input stream and publishes a nightly earthquake catalog of your own working day.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "quantified-self",
+        "physics"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-07-29"
+    },
+    {
       "slug": "market-price",
       "title": "Market Price",
       "hook": "Everyone at the table is secretly betting over/under on tonight's bill — but each phone was handed a *different* line, orders lock in simultaneously and blind, and whatever you bet, you have to eat it.",
