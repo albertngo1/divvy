@@ -2,6 +2,90 @@
   "lastScan": "2026-07-29",
   "ideas": [
     {
+      "slug": "first-refusal",
+      "title": "First Refusal",
+      "hook": "A Dutch auction where every bidder gets their own secret clock — the price falls from 12 to 1, but your four-second window might only ever offer you nine.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "meet-order",
+      "title": "Meet Order",
+      "hook": "Three dispatchers share one single-track railroad, and every phone's clock is secretly running on a different town's local time — so when you shout \"I'm clear of Ferndale at 8:15,\" you are lying without knowing it.",
+      "tags": [
+        "party",
+        "real-time",
+        "anti-coordination",
+        "voice"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "lazy-s",
+      "title": "Lazy S",
+      "hook": "Three ranchers draw cattle brands on their phones at the same time, and the registry rejects any two brands that look alike when rotated or flipped — so you can see you're colliding, but never with whom.",
+      "tags": [
+        "party",
+        "drawing",
+        "anti-coordination",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "rated-load",
+      "title": "Rated Load",
+      "hook": "Upload your G-code and we'll tell you the exact force that snaps the part, which layer line it fails at, and how to rotate it on the plate to triple its strength.",
+      "tags": [
+        "materials",
+        "physics",
+        "saas",
+        "b2b"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "as-of-right",
+      "title": "As of Right",
+      "hook": "Fly through the ghost city that zoning already permits — every unbuilt-but-legal floor in New York rendered as translucent volume hovering above the real buildings.",
+      "tags": [
+        "data-viz",
+        "map",
+        "gis",
+        "3d-viz"
+      ],
+      "score": 78,
+      "source": "wild",
+      "created": "2026-07-29"
+    },
+    {
+      "slug": "off-nominal",
+      "title": "Off Nominal",
+      "hook": "Your wallpaper is a year-long cardiogram of the continent's power grid, measured by your own machine — and it can timestamp any recording you drop on it.",
+      "tags": [
+        "ambient",
+        "wallpaper",
+        "physics",
+        "forensics"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-07-29"
+    },
+    {
       "slug": "peremptory",
       "title": "Peremptory",
       "hook": "Nine jurors on the TV, each phone judging them through a different private lens, and every player must strike six — the room wins only if exactly one candidate survives all three secret strike lists.",
