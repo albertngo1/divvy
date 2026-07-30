@@ -2,6 +2,118 @@
   "lastScan": "2026-07-30",
   "ideas": [
     {
+      "slug": "backpressure",
+      "title": "Backpressure",
+      "hook": "A Wavelength riff where three phones drag the same needle at the same time and the TV shows only the resultant — so when your phone secretly turns red because the needle drifted into the one zone you know is wrong, your only voice is how hard you pull.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "dead-level",
+      "title": "Dead Level",
+      "hook": "Every phone gets a secret slope — like \"1.6° downhill, facing roughly north\" — and the only way to win is to find the one real sagging surface in the actual house that matches it, then keep everyone's footsteps from ruining your reading.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "competitive"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "open-book",
+      "title": "Open Book",
+      "hook": "Your secret only unlocks while your phone lies flat and screaming a tone only other phones can hear — so reading it tells the whole room exactly where you're hiding.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "stealth"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "cosigner",
+      "title": "Cosigner",
+      "hook": "Every word you say aloud is billed to one specific other player whose name only you know — and if you bankrupt them before they've spoken their word, the whole room loses.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "baud-rate",
+      "title": "Baud Rate",
+      "hook": "Your phones talk to each other in a 14 kHz band you can barely hear — and a whisper is the loudest, most destructive thing in that band, so the room's only working protocol is total silence and pointing.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "shelf-life",
+      "title": "Shelf Life",
+      "hook": "Stolen straight from Project Zomboid: reading a book grants you zero skill points, only an expiring multiplier — so your unpracticed courses rot on the shelf and the tracker won't let you buy another one.",
+      "tags": [
+        "habits",
+        "productivity",
+        "quantified-self",
+        "game"
+      ],
+      "score": 64,
+      "source": "steam",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "freeze-line",
+      "title": "Freeze Line",
+      "hook": "Every Postgres row secretly carries the transaction that wrote it, so your tables already contain a full undocumented audit log — this digs it out and dates it, even for tables with no timestamp column.",
+      "tags": [
+        "postgres",
+        "forensics",
+        "observability",
+        "sql"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "give-or-take",
+      "title": "Give or Take",
+      "hook": "Every ETA your computer shows you is a confident lie; this menubar widget replaces them all with honest, self-calibrating intervals that publicly track their own coverage.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "ml",
+        "quantified-self"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-07-30"
+    },
+    {
       "slug": "had-to-be-there",
       "title": "Had to Be There",
       "hook": "Finish the sentence so your friends can guess it word-for-word and a language model never could — clichés score zero because the machine saw them coming.",
