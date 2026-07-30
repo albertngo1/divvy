@@ -2,6 +2,131 @@
   "lastScan": "2026-07-30",
   "ideas": [
     {
+      "slug": "word-of-mouth",
+      "title": "Word of Mouth",
+      "hook": "The one person who can read the magic word is the one person whose phone won't let them say it — so you have four minutes to grow that word in somebody else's mouth while they're busy growing one in yours.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "chorus-line",
+      "title": "Chorus Line",
+      "hook": "Every call needs exactly three voices at once — so the hardest part isn't recruiting the third mouth, it's shouting the fourth one away before it ruins your chant.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "minimum-necessary",
+      "title": "Minimum Necessary",
+      "hook": "You have one sentence you must say out loud, and how loud you're allowed to be is a slider in everybody else's hands, drawn from a shared pot of air that pays out whatever's left.",
+      "tags": [
+        "party",
+        "audio",
+        "negotiation",
+        "resource-management"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "retention-policy",
+      "title": "Retention Policy",
+      "hook": "Your phone is a wiretap pointed only at you, and at the end of the round the TV plays your single most damning three seconds with no context whatsoever.",
+      "tags": [
+        "party",
+        "audio",
+        "bluffing",
+        "hidden-agenda"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "beam-width",
+      "title": "Beam Width",
+      "hook": "The model writes the whole story and you are never allowed to type a word — your only power is secretly striking one of its four proposed continuations, while your phone privately whispers which one sounds most like the voice you're hiding.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "two-words-back",
+      "title": "Two Words Back",
+      "hook": "A hidden paragraph advances one word at a time and the room must guess what comes next — but each phone secretly sees a different amount of the past, and nobody is told how blind they are.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "title-search",
+      "title": "Title Search",
+      "hook": "Before you drop $4,000 on that perfect expiring domain, get the rap sheet — every blocklist it ever sat on, every phishing kit it ever hosted, and crucially whether all of it belongs to the previous owner.",
+      "tags": [
+        "business",
+        "saas",
+        "security",
+        "provenance"
+      ],
+      "score": 66,
+      "source": "github",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "romberg-quotient",
+      "title": "Romberg Quotient",
+      "hook": "Ninety seconds a day of standing still with your phone at your waistband, and a year later you know which of your three balance senses is quietly carrying you — and which one is failing.",
+      "tags": [
+        "health",
+        "quantified-self",
+        "habits"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "blue-wool",
+      "title": "Blue Wool",
+      "hook": "Your wallpaper photo-fades like a poster in a sunny window — except the sun is your empty desktop and your app windows are the mask, so after a year the bleached ghost of your own workflow is printed into it.",
+      "tags": [
+        "wallpaper",
+        "generative",
+        "ambient",
+        "quantified-self"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-07-30"
+    },
+    {
       "slug": "error-bars",
       "title": "Error Bars",
       "hook": "Wavelength where the hidden target band is split across two phones — one player sees only its left edge, one sees only its right — so how badly their two clue words disagree is the only way the room can tell how wide the target is.",
