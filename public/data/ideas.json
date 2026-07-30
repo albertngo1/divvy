@@ -2,6 +2,90 @@
   "lastScan": "2026-07-30",
   "ideas": [
     {
+      "slug": "error-bars",
+      "title": "Error Bars",
+      "hook": "Wavelength where the hidden target band is split across two phones — one player sees only its left edge, one sees only its right — so how badly their two clue words disagree is the only way the room can tell how wide the target is.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "character-limit",
+      "title": "Character Limit",
+      "hook": "It's The Chameleon, except your clue is capped at a secret number of letters nobody else knows — so the terse, shifty-looking clue might be an innocent who only had three characters to work with.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "shim-stock",
+      "title": "Shim Stock",
+      "hook": "Every phone privately holds a resting-pose spec — a tilt band, a stillness ceiling — and you must hunt the real room for a surface that satisfies it, set the phone down, and let go of the only thing that was telling you what you needed.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "sheeting-grade",
+      "title": "Sheeting Grade",
+      "hook": "A phone on your dashboard, a calibration patch taped to the hood, and one night drive turns a $12,000 retroreflectometer into a county-wide traffic sign compliance survey.",
+      "tags": [
+        "computer-vision",
+        "gis",
+        "b2b",
+        "automation"
+      ],
+      "score": 77,
+      "source": "wild",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "terminal-digit",
+      "title": "Terminal Digit",
+      "hook": "Audits your own health-tracking history for rounding lies — finds the real step size of every metric, tests your last digits for human fudging, and redraws your charts with an honest noise band that erases most of your \"streaks\".",
+      "tags": [
+        "quantified-self",
+        "health",
+        "data-viz",
+        "forensics"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "recommended-value",
+      "title": "Recommended Value",
+      "hook": "Paste any physical constant from an old paper and this thing carbon-dates it — telling you which CODATA vintage the author used, and how many sigmas that number is from today's truth.",
+      "tags": [
+        "data-viz",
+        "timeline",
+        "physics",
+        "provenance"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-07-30"
+    },
+    {
       "slug": "worse-half",
       "title": "Worse Half",
       "hook": "Wavelength with a two-headed psychic: two clue-givers each secretly hold a different target on the same spectrum, must build one clue phrase word by word without talking, and are scored on whichever target the guessers stranded.",
