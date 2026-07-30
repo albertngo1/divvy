@@ -2,6 +2,104 @@
   "lastScan": "2026-07-30",
   "ideas": [
     {
+      "slug": "had-to-be-there",
+      "title": "Had to Be There",
+      "hook": "Finish the sentence so your friends can guess it word-for-word and a language model never could — clichés score zero because the machine saw them coming.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "social-deduction"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "cut-in",
+      "title": "Cut In",
+      "hook": "You bid a secret, unequal purse for a place in line — then the game tells you only who stands directly in front of you and directly behind you, and you have to talk your way into guessing whether that means you're second or last.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "second-lap",
+      "title": "Second Lap",
+      "hook": "Four card packs circle the room on a 20-second beat, everyone drafting at once — and before you pass, you secretly bet that the card you're leaving behind will still be there when the pack comes back around.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "barge-in",
+      "title": "Barge In",
+      "hook": "One player is reading aloud, and the only way the round advances is for someone to cut them off at exactly the right word — a word only that listener can see.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "whole-degree",
+      "title": "Whole Degree",
+      "hook": "Kalshi's daily-high-temperature contracts don't resolve on the weather, they resolve on one thermometer's rounded integer — so model the thermometer's personal bias, and trade the buckets whose edges the market prices as if the sensor were unbiased.",
+      "tags": [
+        "finance",
+        "prediction-market",
+        "markets",
+        "ml"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "bathtub-mode",
+      "title": "Bathtub Mode",
+      "hook": "Lake Erie is a 240-mile bathtub that rings like a struck bell for two days after a windstorm — this watches seven NOAA gauges, decomposes the sloshing into its standing modes, and pitches the 14-hour fundamental up into something you can actually hear.",
+      "tags": [
+        "data-viz",
+        "physics",
+        "nature",
+        "audio"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "cube-out",
+      "title": "Cube Out",
+      "hook": "Point your phone at a pallet and it fits a box to the real thing — overhang and all — then hands you a timestamped 3D scan that is the evidence you need when the carrier's reweigh crew invents 400 extra pounds of freight class.",
+      "tags": [
+        "computer-vision",
+        "logistics",
+        "b2b",
+        "3d-viz"
+      ],
+      "score": 77,
+      "source": "hn",
+      "created": "2026-07-30"
+    },
+    {
       "slug": "ahead-of-the-tape",
       "title": "Ahead of the Tape",
       "hook": "A 90-second clip becomes a three-window betting market — and exactly one person in the room has already seen it, so the real game is spotting whose bet sizes are too confident to be honest.",
