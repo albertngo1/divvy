@@ -2,6 +2,104 @@
   "lastScan": "2026-07-30",
   "ideas": [
     {
+      "slug": "worse-half",
+      "title": "Worse Half",
+      "hook": "Wavelength with a two-headed psychic: two clue-givers each secretly hold a different target on the same spectrum, must build one clue phrase word by word without talking, and are scored on whichever target the guessers stranded.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "take-the-watch",
+      "title": "Take the Watch",
+      "hook": "Exactly one phone in the room shows the live board — and whoever holds it can't move, so the map is a hot potato and everyone else is navigating from a snapshot that's quietly fogging over.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "memory"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "same-hat",
+      "title": "Same Hat",
+      "hook": "One phone holds the whole map — but every player's token on it is an identical dot, so the Cartographer can watch you move and still have no idea you're you.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "grid-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "held-breath",
+      "title": "Held Breath",
+      "hook": "The room shares one lungful of air: only one person may be making sound at a time, and your phone never tells you whether the slot is free.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "loud-neighbor",
+      "title": "Loud Neighbor",
+      "hook": "Your phone's mic doesn't police you — it polices the person sitting next to you, and only you can hear the alarm.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "anneal",
+      "title": "Anneal",
+      "hook": "A profiler that tells you the smallest set of Python functions you could freeze into static, compilable code — ranked by CPU time, proven monomorphic by watching your program actually run, and handed back as a patch of type annotations.",
+      "tags": [
+        "devtool",
+        "cli",
+        "observability",
+        "telemetry"
+      ],
+      "score": 68,
+      "source": "github",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "probate",
+      "title": "Probate",
+      "hook": "When an employee leaves, their Zapiers, Apps Scripts and Retool apps keep running with prod write access forever — Probate is the estate lawyer that finds every orphaned automation, ranks it by blast radius, and gets it buried or adopted.",
+      "tags": [
+        "business",
+        "saas",
+        "security",
+        "automation"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-30"
+    },
+    {
       "slug": "let-it-cook",
       "title": "Let It Cook",
       "hook": "Your clue only develops while your phone lies face-down and untouched — so reading it stops it, walking blanks it, and the whole room can watch your patience run out.",
