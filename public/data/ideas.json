@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-07-29",
+  "lastScan": "2026-07-30",
   "ideas": [
+    {
+      "slug": "mother-tongue",
+      "title": "Mother Tongue",
+      "hook": "Every phone secretly holds a scrap of real text in a different register and quietly scores everyone's writing against it — you win by writing the line that only your private corpus finds boring.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "asymmetric-information"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "headroom",
+      "title": "Headroom",
+      "hook": "The room writes one sentence out loud while each phone secretly watches how bored a tiny language model would be by your one smuggled word — and only the blandest submission each turn survives.",
+      "tags": [
+        "party",
+        "browser-game",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "least-common",
+      "title": "Least Common",
+      "hook": "Everyone's counter walks the same ring of sixty, but your stride length is a secret — and the TV shows the three positions sorted, so you can see the numbers without knowing whose they are.",
+      "tags": [
+        "party",
+        "cooperative",
+        "math-puzzle",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "take-a-penny",
+      "title": "Take a Penny",
+      "hook": "Three secret hands of tokens must become identical — and the only way to say anything is what you leave in the communal tray.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "never-lift",
+      "title": "Never Lift",
+      "hook": "One pen, ninety seconds, and it never leaves the paper — the server hands control between phones on a hidden schedule with a crossfade, so the finished line drawing has no seams and no author.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "nem-con",
+      "title": "Nem Con",
+      "hook": "Four people write a communal poster together, but any line can be silently blocked by anyone — the TV shows only how many hands are up, never whose, so the room must argue itself into something nobody objects to.",
+      "tags": [
+        "party",
+        "keepsake",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "steady-rest",
+      "title": "Steady Rest",
+      "hook": "Your mouse is already a sub-millimeter motion sensor sampling your hand a thousand times a second — this reads the tremor and overshoot hiding in your ordinary cursor movements and shows you, without a wearable, the hour your hands stopped being steady.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "menubar",
+        "telemetry"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "full-charge",
+      "title": "Full Charge",
+      "hook": "Every time an HVAC tech tops off a leaking system, this quietly computes the EPA-mandated annualized leak rate, starts the 30-day repair clock, and prints the dollar value of the refrigerant that will hiss out of that unit next year — turning a compliance chore into the contractor's best closing argument.",
+      "tags": [
+        "saas",
+        "b2b",
+        "automation",
+        "logistics"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "droop",
+      "title": "Droop",
+      "hook": "A live wallpaper painted by the actual electrical grid your laptop is plugged into — the mains hum sags a few millihertz when the whole city turns on its air conditioning, and your screen sags with it.",
+      "tags": [
+        "generative",
+        "audio",
+        "screensaver",
+        "wallpaper"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-07-30"
+    },
     {
       "slug": "dry-fit",
       "title": "Dry Fit",
