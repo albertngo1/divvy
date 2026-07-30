@@ -2,6 +2,62 @@
   "lastScan": "2026-07-30",
   "ideas": [
     {
+      "slug": "ahead-of-the-tape",
+      "title": "Ahead of the Tape",
+      "hook": "A 90-second clip becomes a three-window betting market — and exactly one person in the room has already seen it, so the real game is spotting whose bet sizes are too confident to be honest.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "social-deduction",
+        "hidden-information"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "wall-bounce",
+      "title": "Wall Bounce",
+      "hook": "The room builds one juggle combo on a shared dummy, damage scales down with every hit so everyone wants to go first — and only your phone knows whether your move can actually link right now.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "real-time",
+        "cooperative"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "save-scum",
+      "title": "Save Scum",
+      "hook": "Every phone gets one silent save and one reload — and when someone rolls the whole room back forty seconds, only their loot comes back with them.",
+      "tags": [
+        "party",
+        "roguelike",
+        "push-your-luck",
+        "hidden-info"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "push-window",
+      "title": "Push Window",
+      "hook": "CI queues are quantized like Mario's frame rule, so this CLI learns your pipeline's hidden boundaries and tells you that pushing 90 seconds from now saves you nine minutes — then optionally holds the push until then.",
+      "tags": [
+        "ci",
+        "devtool",
+        "cli",
+        "observability"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-30"
+    },
+    {
       "slug": "mother-tongue",
       "title": "Mother Tongue",
       "hook": "Every phone secretly holds a scrap of real text in a different register and quietly scores everyone's writing against it — you win by writing the line that only your private corpus finds boring.",
