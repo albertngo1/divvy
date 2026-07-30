@@ -2,6 +2,76 @@
   "lastScan": "2026-07-30",
   "ideas": [
     {
+      "slug": "let-it-cook",
+      "title": "Let It Cook",
+      "hook": "Your clue only develops while your phone lies face-down and untouched — so reading it stops it, walking blanks it, and the whole room can watch your patience run out.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "race"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "double-claim",
+      "title": "Double Claim",
+      "hook": "Everyone drafts from the same pool at the same instant, and when two of you grab the same card the room stops dead for a five-second sealed bidding war that only the two of you can participate in.",
+      "tags": [
+        "party",
+        "drafting",
+        "simultaneous",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "change-hands",
+      "title": "Change Hands",
+      "hook": "Twelve numbered bidding chips are dealt in secret and never leave the room — every time you win a lot, your winning chip is silently handed to whoever bid lowest, so the room's power quietly redistributes and nobody but you knows what's in your fist.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "write-only",
+      "title": "Write Only",
+      "hook": "Your Mac's own metadata already knows which of the 1,400 things you made last year nobody — including you — has ever opened again.",
+      "tags": [
+        "productivity",
+        "quantified-self",
+        "forensics",
+        "devtool"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-30"
+    },
+    {
+      "slug": "kiln-chime",
+      "title": "Kiln Chime",
+      "hook": "Fire a virtual tin-glazed tile, then watch and *hear* the glaze craze — every crack propagating under real thin-film fracture physics, each one pinging like cooling pottery.",
+      "tags": [
+        "generative",
+        "physics",
+        "audio",
+        "materials"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-07-30"
+    },
+    {
       "slug": "backpressure",
       "title": "Backpressure",
       "hook": "A Wavelength riff where three phones drag the same needle at the same time and the TV shows only the resultant — so when your phone secretly turns red because the needle drifted into the one zone you know is wrong, your only voice is how hard you pull.",
