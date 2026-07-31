@@ -2,6 +2,116 @@
   "lastScan": "2026-07-31",
   "ideas": [
     {
+      "slug": "third-wheel",
+      "title": "Third Wheel",
+      "hook": "Your phone privately tells you who your partner is, and for one player that card is a lie — so they spend the whole game loyally chasing someone who is busy being loyal to someone else.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "wrong-aisle",
+      "title": "Wrong Aisle",
+      "hook": "Everyone's phone deals five items from the same mystery place — except one phone, which is quietly drawing from the store next door, and its owner has no idea their evidence is wrong.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "sore-subject",
+      "title": "Sore Subject",
+      "hook": "The room must talk to survive, but every word is taxed and each phone privately holds one topic that quietly bleeds its owner dry whenever the conversation drifts near it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "conversation-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "hands-full",
+      "title": "Hands Full",
+      "hook": "Your phone's mic is wired to your own buttons — the moment you open your mouth, your controls die, so talking literally costs you your hands.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "rebus",
+      "title": "Rebus",
+      "hook": "Two silent builders assemble one pictogram sentence on the TV out of two private icon trays that share nothing, so you're always missing the exact symbol you need and have to imply it instead.",
+      "tags": [
+        "party",
+        "cooperative",
+        "visual-puzzle",
+        "asymmetric-information"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "sigma-weather",
+      "title": "Sigma Weather",
+      "hook": "A menubar barometer for scientific disagreement: at a glance, how many sigma apart the world's two best measurements of the neutron lifetime, the Hubble constant, or the muon's magnetic moment are *today*.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "physics",
+        "data-viz"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "pity-timer",
+      "title": "Pity Timer",
+      "hook": "A drum machine with no step sequencer: you don't place notes, you sculpt the *statistics* — clumpiness, refractory periods, guaranteed-hit pity counters, and cross-voice correlations — and the groove falls out of the randomness.",
+      "tags": [
+        "music",
+        "generative",
+        "audio"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "the-new-zero",
+      "title": "The New Zero",
+      "hook": "The United States is rewriting the definition of \"sea level,\" and your house's official elevation moves by up to a meter overnight — this map shows who silently gains, and who loses, a flood zone.",
+      "tags": [
+        "data-viz",
+        "map",
+        "gis"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-31"
+    },
+    {
       "slug": "free-busy",
       "title": "Free Busy",
       "hook": "Everyone's calendar is public but blurred and six seconds stale, so you politely book a meeting into a gap that closed while you were looking at it — and then all three of you flee into the same new gap.",
