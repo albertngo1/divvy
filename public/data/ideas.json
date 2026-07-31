@@ -2,6 +2,118 @@
   "lastScan": "2026-07-31",
   "ideas": [
     {
+      "slug": "too-many-cooks",
+      "title": "Too Many Cooks",
+      "hook": "Twelve tiles, four silent cooks, one survivor — but any tile two of you try to cut at the same instant refuses to die and keeps the scar forever.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "anti-coordination"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "late-money",
+      "title": "Late Money",
+      "hook": "Four people watch the same 90-second clip paused one beat before the payoff — but each phone was slipped a different true fragment of the ending, and the live odds board quietly tells you which of them the others believe.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "media"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "upsell",
+      "title": "Upsell",
+      "hook": "Everyone at the table gets the same public threshold for tonight's bill and a secret instruction to push it over or under — and your only lever is the food you actually have to eat.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "dinner-party"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "as-is-2",
+      "title": "As Is",
+      "hook": "You're auctioning a mystery lot you alone can see, your phone forces you to reveal exactly two of its five true attributes, and the three you hide say more about it than the two you show.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "economic"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "moving-knife",
+      "title": "Moving Knife",
+      "hook": "A knife sweeps slowly across a shared pile of loot on the TV, and each phone secretly knows what that loot is worth to *you* — tap CLAIM and the piece is yours, but you never learn why anyone else was greedy.",
+      "tags": [
+        "party",
+        "auction",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "late-fee",
+      "title": "Late Fee",
+      "hook": "Turns your bottomless media library back into a 1998 video store: six titles faced out on a shelf, two checkouts at a time, everything else literally invisible until you return them.",
+      "tags": [
+        "habits",
+        "self-hosted",
+        "whimsy",
+        "productivity"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "cast-iron",
+      "title": "Cast Iron",
+      "hook": "A deep-zoomable map of all four billion float32 bit patterns, colored by what `(int)f` *actually* does on real hardware — with the compiler and the CPU disagreeing in plain sight.",
+      "tags": [
+        "data-viz",
+        "map",
+        "visualization",
+        "explorable"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "first-boot",
+      "title": "First Boot",
+      "hook": "A Raspberry Pi wiretaps a brand-new gadget's first ten minutes of life — before you tap a single button — and issues it a signed birth certificate you can look up before you buy.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics",
+        "provenance"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-07-31"
+    },
+    {
       "slug": "third-wheel",
       "title": "Third Wheel",
       "hook": "Your phone privately tells you who your partner is, and for one player that card is a lie — so they spend the whole game loyally chasing someone who is busy being loyal to someone else.",
