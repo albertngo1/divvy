@@ -2,6 +2,104 @@
   "lastScan": "2026-07-31",
   "ideas": [
     {
+      "slug": "free-busy",
+      "title": "Free Busy",
+      "hook": "Everyone's calendar is public but blurred and six seconds stale, so you politely book a meeting into a gap that closed while you were looking at it — and then all three of you flee into the same new gap.",
+      "tags": [
+        "party",
+        "simultaneous",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "whip-pan",
+      "title": "Whip Pan",
+      "hook": "One camera, one scene, three people who each secretly need it pointed somewhere else — and two grabs at the lens at once smears the shot for everybody.",
+      "tags": [
+        "party",
+        "real-time",
+        "timing",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "trace-amounts",
+      "title": "Trace Amounts",
+      "hook": "Every phone in the room is quietly screaming a different inaudible tone, and yours is measuring the dose you are getting from exactly one of them — so the party becomes people trying to peel each other off one at a time to find out who they are allergic to.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "relative-north",
+      "title": "Relative North",
+      "hook": "One player becomes a human protractor, slowly sweeping the room and calling out compass numbers only they can see, while everyone else silently listens for the one private number that tells them where to go stand.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "call-waiting",
+      "title": "Call Waiting",
+      "hook": "Every player is a switchboard with two lines and one mouth — you can shout a secret at someone all you like, but if they're on the other line, your phone is playing them hold music and nothing you said ever happened.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "safe-yield",
+      "title": "Safe Yield",
+      "hook": "A groundwater tycoon sim where the storage meter always reads out of 100% — because the denominator is secretly shrinking every time you overpump, and you can never get it back.",
+      "tags": [
+        "game",
+        "sim",
+        "tycoon",
+        "gis"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "keep-full",
+      "title": "Keep Full",
+      "hook": "The propane dealer's paper K-factor card, turned into a change-point detector that quietly catches leaks, theft, and new tenants before it schedules tomorrow's truck.",
+      "tags": [
+        "business",
+        "saas",
+        "logistics",
+        "automation"
+      ],
+      "score": 67,
+      "source": "wild",
+      "created": "2026-07-31"
+    },
+    {
       "slug": "short-memory",
       "title": "Short Memory",
       "hook": "The room votes on the next word of a shared sentence, but each phone's private surprisal meter is computed under a different amount of context — so everyone is honestly reading a different, partial truth off the same model.",
