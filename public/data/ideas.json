@@ -2,6 +2,130 @@
   "lastScan": "2026-07-31",
   "ideas": [
     {
+      "slug": "poison-pill",
+      "title": "Poison Pill",
+      "hook": "You describe a secret word to the room while every listener sits on a different forbidden word they planted themselves — and the word they trapped is usually the one that would have helped them guess.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "table-for-two",
+      "title": "Table for Two",
+      "hook": "Everyone answers the same silly prompt, but your phone secretly tells you how many people you have to match — exactly one, exactly two, exactly four — while a private live meter counts how many others are typing your answer right now.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction",
+        "real-time"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "sight-read",
+      "title": "Sight Read",
+      "hook": "A rhythm game with no chart: you're playing the notes the person on your right is tapping out live, while writing the chart for the person on your left — and you can't see their screen.",
+      "tags": [
+        "party",
+        "rhythm",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "liar-ahead",
+      "title": "Liar Ahead",
+      "hook": "Everyone speed-runs the same 6-room dungeon at once, and the only way to warn — or sabotage — the players behind you is an anonymous Dark Souls message stuck to a door you've already survived.",
+      "tags": [
+        "party",
+        "roguelike",
+        "hidden-info",
+        "competitive"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "room-tone",
+      "title": "Room Tone",
+      "hook": "You may talk as much as you like — but only in the flat monotone your phone privately assigned you, while everyone secretly works to make you sound like a human being.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "performance"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "on-the-hook",
+      "title": "On the Hook",
+      "hook": "Every word you say is silently charged to another player's account — you never learn whose, and the only way to find out who's draining you is to make them talk.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "round-up",
+      "title": "Round Up",
+      "hook": "An explorable staircase of every lie your allocator tells you: hover any byte count and watch malloc(1025) quietly hand you 1280 bytes, across four allocators at once.",
+      "tags": [
+        "data-viz",
+        "visualization",
+        "devtool"
+      ],
+      "score": 62,
+      "source": "github",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "q-factor",
+      "title": "Q Factor",
+      "hook": "Every breathing app tells you to breathe six times a minute; this one sweeps your own cardiorespiratory system like a Bode plot and finds the exact frequency where *your* heart rate swings hardest.",
+      "tags": [
+        "health",
+        "quantified-self",
+        "dashboard"
+      ],
+      "score": 68,
+      "source": "arxiv",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "growth-habit",
+      "title": "Growth Habit",
+      "hook": "Every snowflake generator is decorative fiction — this one flies a seed crystal down through the *actual* atmospheric sounding over your house on a real snow day, so the shape it grows is the shape that really fell.",
+      "tags": [
+        "nature",
+        "wallpaper",
+        "ambient",
+        "visualization"
+      ],
+      "score": 77,
+      "source": "wild",
+      "created": "2026-07-31"
+    },
+    {
       "slug": "same-frame",
       "title": "Same Frame",
       "hook": "Every phone becomes a live camera pointed anywhere in the room, and the TV shows the pixel-median of all of them — gray mush until you're all silently aiming at the same object, at which point it snaps into focus.",
