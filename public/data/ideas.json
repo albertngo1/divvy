@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-07-30",
+  "lastScan": "2026-07-31",
   "ideas": [
+    {
+      "slug": "short-memory",
+      "title": "Short Memory",
+      "hook": "The room votes on the next word of a shared sentence, but each phone's private surprisal meter is computed under a different amount of context — so everyone is honestly reading a different, partial truth off the same model.",
+      "tags": [
+        "party",
+        "wordgame",
+        "asymmetric-information",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "soft-spot",
+      "title": "Soft Spot",
+      "hook": "Everyone writes one sentence, then everyone is secretly handed one ugly word to jam into someone else's — and a tiny in-browser LLM scores, in bits, exactly how much damage a single wedge did.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "no-card",
+      "title": "No Card",
+      "hook": "You make a small emblem for one secret person out of the same kit everyone else has — it has to be unmistakable to them and untraceable to you.",
+      "tags": [
+        "party",
+        "anonymous",
+        "keepsake",
+        "social-deduction"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "long-exposure",
+      "title": "Long Exposure",
+      "hook": "Turn off the lights: the laptop's webcam holds one long exposure while every phone screen becomes a colored brush painting a picture nobody gets to see until the shutter closes.",
+      "tags": [
+        "party",
+        "keepsake",
+        "cooperative",
+        "camera"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "group-delay",
+      "title": "Group Delay",
+      "hook": "A symbol wheel spins on every phone at once and you all have to stop it on the same symbol — except each phone is secretly running a few hundred milliseconds behind, and nobody told you which one is you.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "timing"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "one-too-many",
+      "title": "One Too Many",
+      "hook": "Everyone's phone shows the same nine answers — except one of your nine is a plant only you can see, it's the best answer on the board, and you have to figure out that you're the one being seduced.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "hidden-information"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "pure-tin",
+      "title": "Pure Tin",
+      "hook": "Lay out a pretend circuit board, pick your finish, and watch twenty years of spontaneous tin whisker growth in thirty seconds — then read the cause-of-death report.",
+      "tags": [
+        "materials",
+        "physics",
+        "sim",
+        "visualization"
+      ],
+      "score": 63,
+      "source": "wild",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "burn-hours",
+      "title": "Burn Hours",
+      "hook": "A softsynth whose every voice is a simulated tungsten filament — you hear the light, not the current — and the filaments evaporate, drift, and permanently burn out as you play.",
+      "tags": [
+        "music",
+        "audio",
+        "physics",
+        "generative"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "one-pot",
+      "title": "One Pot",
+      "hook": "A roguelike deckbuilder where the run *is* a synthesis route — your cards are named reactions, RDKit enforces the rules, and your HP is cumulative yield.",
+      "tags": [
+        "deckbuilder",
+        "roguelike",
+        "chemistry",
+        "procedural"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-07-31"
+    },
     {
       "slug": "word-of-mouth",
       "title": "Word of Mouth",
