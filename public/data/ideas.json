@@ -2,6 +2,118 @@
   "lastScan": "2026-07-31",
   "ideas": [
     {
+      "slug": "same-frame",
+      "title": "Same Frame",
+      "hook": "Every phone becomes a live camera pointed anywhere in the room, and the TV shows the pixel-median of all of them — gray mush until you're all silently aiming at the same object, at which point it snaps into focus.",
+      "tags": [
+        "party",
+        "convergence",
+        "camera",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "letter-perfect",
+      "title": "Letter Perfect",
+      "hook": "Everyone types the same word at once and the TV shows only the letters all of you agree on so far — so the shared word grows one character at a time, stalls the instant someone diverges, and nobody may say a thing.",
+      "tags": [
+        "party",
+        "convergence",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "claim-ticket",
+      "title": "Claim Ticket",
+      "hook": "You and everyone else are standing at the same baggage carousel with vague claim tickets, one grab each, and three seconds per bag — and two hands on the same suitcase bursts it open for both of you.",
+      "tags": [
+        "party",
+        "real-time",
+        "timing",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "call-your-shot",
+      "title": "Call Your Shot",
+      "hook": "You write one word and simultaneously bet on exactly how surprising it will be relative to everyone else's — and if two of you claim the same rank, you both get nothing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "bluffing"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "scion",
+      "title": "Scion",
+      "hook": "Four players each grow a private sentence they alone can read — until you graft yourself onto the leader's branch sight unseen and must keep writing a sentence you have never seen, steering only by what a tiny language model expects next.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "break-seal",
+      "title": "Break Seal",
+      "hook": "A $120k-a-gallon certified reference material sits in a lab fridge, its certificate lost in someone's inbox and its expiry two months past — Break Seal is the ampoule-level registry that turns every CRM into a control chart and builds the ISO 17025 audit binder by itself.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "chemistry"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "hall-call",
+      "title": "Hall Call",
+      "hook": "Your CI queue is an elevator bank with a stupid dispatcher — replay 30 days of your real job log through express zones, destination dispatch, and cache-affinity routing, and watch p95 wait time collapse without buying a single runner.",
+      "tags": [
+        "ci",
+        "devtool",
+        "data-viz",
+        "observability"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "second-owner",
+      "title": "Second Owner",
+      "hook": "Package registries tell you who a maintainer *is*, never when the hands on the keyboard silently changed — so fingerprint the build environment baked into every tarball's gzip header, tar uname, and zip timezone offset, and watch a package quietly get a new owner.",
+      "tags": [
+        "security",
+        "provenance",
+        "forensics",
+        "devtool"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-07-31"
+    },
+    {
       "slug": "in-season",
       "title": "In Season",
       "hook": "The model's next-token distribution is literally the deck — you hold six words nobody else can see, watch their probability bars ripen and rot as the room writes a sentence together, and try to cash each one at its peak.",
