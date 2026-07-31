@@ -2,6 +2,132 @@
   "lastScan": "2026-07-31",
   "ideas": [
     {
+      "slug": "in-season",
+      "title": "In Season",
+      "hook": "The model's next-token distribution is literally the deck — you hold six words nobody else can see, watch their probability bars ripen and rot as the room writes a sentence together, and try to cash each one at its peak.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "card-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "goes-without-saying",
+      "title": "Goes Without Saying",
+      "hook": "You write a private clue for your secret word, but before the TV shows it, a tiny language model silently overwrites every word it could have predicted with its own second-favorite word — so only what surprised the machine survives intact.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "circuit-breaker",
+      "title": "Circuit Breaker",
+      "hook": "A 24/7 bird-feeder cam on the TV is the market, and the only way to trade is to spend a token that pauses the stream for everyone — so buying is a public act of stopping the show.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "livestream",
+        "trading"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "still-watching-2",
+      "title": "Still Watching",
+      "hook": "The twenty minutes your group wastes scrolling the streaming home screen becomes a hidden-shares market — everyone argues in bad faith, and one player is secretly paid if you never agree.",
+      "tags": [
+        "party",
+        "hidden-agenda",
+        "prediction-market",
+        "negotiation"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "slip-of-the-tongue",
+      "title": "Slip of the Tongue",
+      "hook": "The room drives one robot arm by voice, but certain words come out wrong from certain mouths — and only that mouth knows which, so every command is a two-second casting decision shouted across the couch.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "belay-my-last",
+      "title": "Belay My Last",
+      "hook": "You shout an order across the room, then your phone secretly tells you to cancel it — and your only tool is out-talking your teammate's thumb.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "left-up",
+      "title": "Left Up",
+      "hook": "A wallpaper that breeds: it never asks whether you like it, it only counts how many hours you tolerated it before hitting the kill switch — and after a year it shows you the phylogeny of your own taste.",
+      "tags": [
+        "desktop-toy",
+        "generative",
+        "wallpaper",
+        "ambient"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "lapse-rate",
+      "title": "Lapse Rate",
+      "hook": "A fatigue dispatcher for your own brain: an alertness forecast built from real two-process sleep math, where you drag espressos and naps onto tomorrow's timeline and watch the curve bend.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "sim",
+        "habits"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-07-31"
+    },
+    {
+      "slug": "trap-table",
+      "title": "Trap Table",
+      "hook": "An explorable map of every Linux syscall number ever assigned — 30 years, 20 architectures — where the holes, the renumberings, and the `_time64` twins are the story.",
+      "tags": [
+        "devtool",
+        "data-viz",
+        "timeline",
+        "security"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-07-31"
+    },
+    {
       "slug": "too-many-cooks",
       "title": "Too Many Cooks",
       "hook": "Twelve tiles, four silent cooks, one survivor — but any tile two of you try to cut at the same instant refuses to die and keeps the scar forever.",
