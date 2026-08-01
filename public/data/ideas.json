@@ -2,6 +2,118 @@
   "lastScan": "2026-08-01",
   "ideas": [
     {
+      "slug": "sympathetic",
+      "title": "Sympathetic",
+      "hook": "Your phone buzzes a secret rhythm down into the tabletop and listens with its accelerometer for someone else's — find your partner through the furniture, in total silence.",
+      "tags": [
+        "party",
+        "sensor",
+        "haptics",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "jostle",
+      "title": "Jostle",
+      "hook": "Everyone has to wave their phone around to complete a private motion — but yours takes a sharp quarter-second and theirs takes a slow two seconds, and any overlap jolts the table and breaks a glass, so 'okay, go' is nowhere near precise enough.",
+      "tags": [
+        "party",
+        "sensor",
+        "real-time",
+        "physical"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "wake-the-house",
+      "title": "Wake the House",
+      "hook": "Three siblings creep around a dark house on private errands; when two of you land in the same room the floor creaks — and only the sibling who wasn't there learns where it happened, which is exactly the lie they'll tell you next.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "bluffing",
+        "social-deduction"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "deadband",
+      "title": "Deadband",
+      "hook": "One needle on the TV, everyone's thumb pushing it at once, and each phone privately knows a different narrow window it needs the needle to sit in — so you have to negotiate a shared resting place using nothing but force.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "secret-admirer",
+      "title": "Secret Admirer",
+      "hook": "Everyone is secretly assigned one other player to imitate — and since nobody knows who is imitating them, the only way the room scores is if it accidentally collapses onto a single answer.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "hidden-roles"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "point-mutation",
+      "title": "Point Mutation",
+      "hook": "A daily puzzle where you turn one real sentence into another by swapping a single word at a time — and every intermediate has to survive as a sentence a human would actually say.",
+      "tags": [
+        "wordgame",
+        "language",
+        "puzzle",
+        "nlp"
+      ],
+      "score": 63,
+      "source": "lobsters",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "orphaned",
+      "title": "Orphaned",
+      "hook": "A management sim where the map is the real Debian dependency graph, your customers are real popcon install counts, and every week you decide which piece of software the world is allowed to lose.",
+      "tags": [
+        "tycoon",
+        "sim",
+        "browser-game",
+        "procedural"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "meteoric-line",
+      "title": "Meteoric Line",
+      "hook": "Every glass of tap water is stamped with the latitude, altitude and storm history of the rain that made it — paint that isotopic fingerprint across a map and let people back-solve where a hair, a bottle, or a beer actually came from.",
+      "tags": [
+        "chemistry",
+        "map",
+        "data-viz",
+        "forensics"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-01"
+    },
+    {
       "slug": "swatch-book",
       "title": "Swatch Book",
       "hook": "Each phone privately answers a different secret prompt with a photo from its own camera roll — but only five colors ever leave the device, so the group assembles a poster of its year out of images nobody will ever see.",
