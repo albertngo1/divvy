@@ -2,6 +2,118 @@
   "lastScan": "2026-08-01",
   "ideas": [
     {
+      "slug": "salt-the-well",
+      "title": "Salt the Well",
+      "hook": "Everyone secretly slips one sentence into the same shared briefing memo, then the model reads that memo and finishes a public letter — and you score in bits, by how much likelier your own secret word got, while the room hunts for whose sentence was the poison.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "bad-line",
+      "title": "Bad Line",
+      "hook": "You type a clue for your secret word and watch your own sentence get censored live — because the phone line between you and one other player only passes words the language model finds surprising enough (or boring enough), and nobody told you which.",
+      "tags": [
+        "party",
+        "wordgame",
+        "asymmetric-information",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "set-a-pick",
+      "title": "Set a Pick",
+      "hook": "Every phone screams a private ultrasonic tone at every other phone, and the only walls you have are each other's bodies.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "hidden-roles"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "powder-dry",
+      "title": "Powder Dry",
+      "hook": "You get a tiny secret ration of noises for the whole round — and since talking burns them at the same rate as playing, planning the round costs you the round.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "resource-management"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "not-a-word",
+      "title": "Not a Word",
+      "hook": "Sound is free and words are not — hum, whistle, or bang the table all you like, but the instant your own phone transcribes a real English word it lands on the TV in 90-point type with your name on it and a price only you can see.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "speech-recognition"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "spectral-test",
+      "title": "Spectral Test",
+      "hook": "Play a broken random number generator like an instrument — patch its output bits to oscillators and hear RANDU's lattice as a buzzing chord while you rotate the point cloud until its 15 hyperplanes snap into view.",
+      "tags": [
+        "generative",
+        "audio",
+        "graphics",
+        "physics"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "mute-the-moon",
+      "title": "Mute the Moon",
+      "hook": "A mixing desk for the ocean: pull down the faders for the Moon and the Sun on a real tide-gauge record, and what's left twitching on the master bus is the hurricane.",
+      "tags": [
+        "nature",
+        "physics",
+        "data-viz",
+        "visualization"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "ratchet-clause",
+      "title": "Ratchet Clause",
+      "hook": "Fifteen minutes last August quietly set the floor under every electric bill your shop has paid since — this finds that quarter-hour, names it, and prices exactly what it would have cost to shave it.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "b2b",
+        "automation"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-08-01"
+    },
+    {
       "slug": "slipstream",
       "title": "Slipstream",
       "hook": "Your phone buzzes points when a word fits your secret category — but one other player is secretly hunting you, waiting to slam right after you do and take it.",
