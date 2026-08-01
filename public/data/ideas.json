@@ -2,6 +2,104 @@
   "lastScan": "2026-08-01",
   "ideas": [
     {
+      "slug": "skyline",
+      "title": "Skyline",
+      "hook": "Your sentence is never shown to anyone — only the jagged skyline of how surprised the model was, word by word, and you were secretly assigned the shape you had to draw.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "social-deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "speak-now",
+      "title": "Speak Now",
+      "hook": "You must announce every move out loud before you make it, because someone else is privately holding the one rule that says this move will blow the whole thing up.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "for-instance",
+      "title": "For Instance",
+      "hook": "Nobody is told the rule, everyone gets different examples of it, and the room must silently pick the same one item off the TV.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "spot-me",
+      "title": "Spot Me",
+      "hook": "You are a color you can never see, and the only controls that can change it are in other people's hands.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "body-tide",
+      "title": "Body Tide",
+      "hook": "A menubar toy that shows how far the solid ground under your desk has risen since 3am — because the Moon stretches the whole planet, not just the ocean, and you go up and down about 30 cm twice a day without noticing.",
+      "tags": [
+        "ambient",
+        "physics",
+        "menubar",
+        "astronomy"
+      ],
+      "score": 65,
+      "source": "wild",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "first-passage",
+      "title": "First Passage",
+      "hook": "A menubar app that models your day as a Markov chain and tells you the real price of opening Slack — not the four minutes you spend there, but the twenty-three expected minutes before you touch your editor again.",
+      "tags": [
+        "quantified-self",
+        "productivity",
+        "telemetry",
+        "menubar"
+      ],
+      "score": 69,
+      "source": "producthunt",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "always-green",
+      "title": "Always Green",
+      "hook": "Audits your CI suite by how many bits of information each required check actually carries about whether a PR is broken, then prints the dollar cost of the ones that have never once told you anything.",
+      "tags": [
+        "ci",
+        "saas",
+        "b2b",
+        "observability"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-08-01"
+    },
+    {
       "slug": "good-for-it",
       "title": "Good for It",
       "hook": "Nobody can bet with their own money — to wager on the game on TV you have to privately borrow from another player at a rate you negotiate face-to-face, so the real market isn't the broadcast, it's whether the room thinks you're good for it.",
