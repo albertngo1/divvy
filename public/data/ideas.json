@@ -2,6 +2,132 @@
   "lastScan": "2026-08-01",
   "ideas": [
     {
+      "slug": "good-for-it",
+      "title": "Good for It",
+      "hook": "Nobody can bet with their own money — to wager on the game on TV you have to privately borrow from another player at a rate you negotiate face-to-face, so the real market isn't the broadcast, it's whether the room thinks you're good for it.",
+      "tags": [
+        "party",
+        "negotiation",
+        "betting-market",
+        "bluffing"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "no-action",
+      "title": "No Action",
+      "hook": "Everyone at the party writes one betting line about the movie playing — and the props you refuse to bet on are the only ones you're allowed to referee, so a line nobody passes on can't be scored at all and dies as 'no action'.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "hidden-information",
+        "video"
+      ],
+      "score": 79,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "uncredited",
+      "title": "Uncredited",
+      "hook": "Three phones build one eight-step drum loop at the same time, hearing only the finished mix out of the TV and never their own part alone — and you win by being the one nobody can pick out when the host solos the lanes.",
+      "tags": [
+        "party",
+        "audio",
+        "anonymous",
+        "cooperative"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "split-key",
+      "title": "Split Key",
+      "hook": "The room writes one sealed message nobody is allowed to read, splits the key across everyone's phones, and then has to survive ninety seconds of a big red OPEN IT button whose count is public but whose fingers are not.",
+      "tags": [
+        "party",
+        "keepsake",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "hand-me-down",
+      "title": "Hand Me Down",
+      "hook": "You never draft for yourself — you draft for the person on your left, you only see one third of what they actually need, and the only way to get fed is to beg out loud to the one person feeding you.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "table-talk"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "back-channel-2",
+      "title": "Back Channel",
+      "hook": "Every pair in the room negotiates a binding trade at the same time, out loud and in private at once — the TV shows the room exactly WHO you're wired to, never what you just sent them.",
+      "tags": [
+        "party",
+        "negotiation",
+        "hidden-information",
+        "trading"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "bake-off",
+      "title": "Bake Off",
+      "hook": "Drop a before-and-after pair and it evolves its way backwards to the actual G'MIC command line that made the look — including a de-bake mode that tries to unwind someone else's edit.",
+      "tags": [
+        "graphics",
+        "art",
+        "generative",
+        "cli"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "arch-support",
+      "title": "Arch Support",
+      "hook": "Prediction markets settle on model-launch announcements, but the launch leaks weeks earlier as a pull request adding a new architecture to vLLM — so watch the plumbing, not the press release.",
+      "tags": [
+        "finance",
+        "prediction-market",
+        "llm",
+        "markets"
+      ],
+      "score": 74,
+      "source": "producthunt",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "total-float",
+      "title": "Total Float",
+      "hook": "Critical-path scheduling math turned on your own life, so the app can tell you — with a proof — exactly which obligations you are allowed to ignore today.",
+      "tags": [
+        "productivity",
+        "calendar",
+        "visualization",
+        "quantified-self"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-08-01"
+    },
+    {
       "slug": "salt-the-well",
       "title": "Salt the Well",
       "hook": "Everyone secretly slips one sentence into the same shared briefing memo, then the model reads that memo and finishes a public letter — and you score in bits, by how much likelier your own secret word got, while the room hunts for whose sentence was the poison.",
