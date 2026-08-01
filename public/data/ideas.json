@@ -2,6 +2,62 @@
   "lastScan": "2026-08-01",
   "ideas": [
     {
+      "slug": "slipstream",
+      "title": "Slipstream",
+      "hook": "Your phone buzzes points when a word fits your secret category — but one other player is secretly hunting you, waiting to slam right after you do and take it.",
+      "tags": [
+        "party",
+        "reflex",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "off-axis",
+      "title": "Off Axis",
+      "hook": "Everyone rates the same eight objects on a secret scale — and the whole room shares that scale except one person, who doesn't know it's them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "corpsing",
+      "title": "Corpsing",
+      "hook": "You watch a comedy clip together while secretly buying and selling shares in which of your friends will crack up first — and your own phone is the exchange's laugh sensor.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "betting"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "second-source",
+      "title": "Second Source",
+      "hook": "Every phone shows the same three gauges, but the machine is quietly lying to exactly one of you at a time — and nothing can be committed until two people say the same number out loud.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
       "slug": "sympathetic",
       "title": "Sympathetic",
       "hook": "Your phone buzzes a secret rhythm down into the tabletop and listens with its accelerometer for someone else's — find your partner through the furniture, in total silence.",
