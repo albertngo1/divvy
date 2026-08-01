@@ -2,6 +2,62 @@
   "lastScan": "2026-08-01",
   "ideas": [
     {
+      "slug": "swatch-book",
+      "title": "Swatch Book",
+      "hook": "Each phone privately answers a different secret prompt with a photo from its own camera roll — but only five colors ever leave the device, so the group assembles a poster of its year out of images nobody will ever see.",
+      "tags": [
+        "party",
+        "keepsake",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "scrollback",
+      "title": "Scrollback",
+      "hook": "Four phones privately read the same group-chat thread for 75 seconds — except one phone gets an extra message that never existed, and that player will defend a memory nobody else has.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "runs-fast",
+      "title": "Runs Fast",
+      "hook": "Four phones, one shared task, no clock on the TV — and one player's private countdown ticks at the wrong speed without ever telling them, so the tell isn't what they know, it's how fast they feel.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "below-speech",
+      "title": "Below Speech",
+      "hook": "Everyone scatters to different rooms of the house, and the only channel that passes through the walls is the sub-100Hz thump of a closing door — so four people must invent a transmission schedule using nothing but doors.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
       "slug": "too-fluent",
       "title": "Too Fluent",
       "hook": "One four-word span of this novel excerpt was secretly written by someone in this room, and the only evidence is a surprisal trace that's been sliced four ways so nobody can read it alone — including the liar.",
