@@ -1,6 +1,131 @@
 {
-  "lastScan": "2026-07-31",
+  "lastScan": "2026-08-01",
   "ideas": [
+    {
+      "slug": "too-fluent",
+      "title": "Too Fluent",
+      "hook": "One four-word span of this novel excerpt was secretly written by someone in this room, and the only evidence is a surprisal trace that's been sliced four ways so nobody can read it alone — including the liar.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "exact-change",
+      "title": "Exact Change",
+      "hook": "Your room owes a bill denominated in bits of surprise — four people write simultaneously against one public gauge, clichés cost pennies, weird words cost a fortune, and the total has to land exactly.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "heavy-thumb",
+      "title": "Heavy Thumb",
+      "hook": "One needle on the TV is the live weighted average of everyone's thumb — you each have a secret target band and a secret pull strength, so the whole round is arguing about where it should go while lying about how hard you're pushing.",
+      "tags": [
+        "party",
+        "real-time",
+        "hidden-information",
+        "negotiation"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "shoulder-surf",
+      "title": "Shoulder Surf",
+      "hook": "Everyone types their one-word Chameleon clue at the same time — and the hidden Chameleon's phone watches you type it, keystroke by keystroke, exactly two seconds behind.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "asymmetric-info"
+      ],
+      "score": 79,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "talk-over",
+      "title": "Talk Over",
+      "hook": "Every phone holds loud spoken orders meant for someone else's console — and if two phones talk at once the audio turns to mush, so the humans' only real job is verbally scheduling when the machines get to speak.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "crossfade",
+      "title": "Crossfade",
+      "hook": "The room must produce 90 seconds of unbroken radio with no silence and no pileup — so you have to start talking while someone else is still talking, and only your phone knows the word that means it's your turn.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "washout",
+      "title": "Washout",
+      "hook": "An n-of-1 trial engine that designs a properly randomized, blinded, carryover-aware self-experiment, pulls the outcome straight off your watch so you can't fudge it, and refuses to show you results until the trial ends.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "habits"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "never-read",
+      "title": "Never Read",
+      "hook": "Wraps your process so every environment variable it actually reads gets logged, then prints a receipt showing that of the 47 secrets you inject, 12 are read, 32 have never been touched, and 3 are read while unset.",
+      "tags": [
+        "devtool",
+        "cli",
+        "security",
+        "observability"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "nearest-even",
+      "title": "Nearest Even",
+      "hook": "A browser puzzle game where you crush a real neural network into a shrinking memory budget by choosing each layer's bit width — and watch its actual accuracy, and eventually its actual sentences, fall apart in your hands.",
+      "tags": [
+        "ml",
+        "puzzle",
+        "browser-game",
+        "visualization"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-08-01"
+    },
     {
       "slug": "poison-pill",
       "title": "Poison Pill",
