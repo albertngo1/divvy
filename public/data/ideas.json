@@ -2,6 +2,90 @@
   "lastScan": "2026-08-01",
   "ideas": [
     {
+      "slug": "exit-poll",
+      "title": "Exit Poll",
+      "hook": "Nobody sees how the room actually voted — each phone gets two anonymous secondhand reports, one phone's reports contain a person who doesn't exist, and the arithmetic proves someone's feed is cooked without saying whose.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "rev-b",
+      "title": "Rev B",
+      "hook": "The room builds a machine to a shop manual on their phones — but one manual is the wrong revision, its holder has no idea, and their defense when the line faults is literally true: 'I did exactly what the book says.'",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "sufficient-funds",
+      "title": "Sufficient Funds",
+      "hook": "Every price is public and every wallet is secret, so the TV keeps a live ledger of what each player has *proven* they can pay versus what they've merely *claimed* — and the gap between those two bars is the whole game.",
+      "tags": [
+        "party",
+        "auction",
+        "bluffing",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "backdate",
+      "title": "Backdate",
+      "hook": "A habit tracker that lets you rewrite your past — and then shows you the blame view, because how often you edit yesterday says more about you than any streak.",
+      "tags": [
+        "quantified-self",
+        "habits",
+        "git",
+        "data-viz"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "quit-line",
+      "title": "Quit Line",
+      "hook": "An explorable that subtracts the gravity of \"everyone reads the first paragraph\" from millions of public web annotations, so you can finally see which sentences actually earned their ink — and exactly where readers gave up.",
+      "tags": [
+        "language",
+        "data-viz",
+        "writing",
+        "nlp"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-08-01"
+    },
+    {
+      "slug": "off-spec",
+      "title": "Off Spec",
+      "hook": "A fleet of sandbox accounts quietly re-runs the same API calls every night so you find out that Stripe changed a response shape before your customers do.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "observability"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-08-01"
+    },
+    {
       "slug": "skyline",
       "title": "Skyline",
       "hook": "Your sentence is never shown to anyone — only the jagged skyline of how surprised the model was, word by word, and you were secretly assigned the shape you had to draw.",
