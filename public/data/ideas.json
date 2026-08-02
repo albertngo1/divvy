@@ -2,6 +2,104 @@
   "lastScan": "2026-08-02",
   "ideas": [
     {
+      "slug": "shorthand",
+      "title": "Shorthand",
+      "hook": "You write a sentence ending, one other player secretly tries to finish it from the first two words, and each word they nail is worth exactly as many points as the language model found it shocking.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "nose-blind",
+      "title": "Nose Blind",
+      "hook": "A tiny language model rates how weird everything you type is — and your phone shows you everyone's weirdness meter except your own, so the only way to find yourself is to triangulate off the room.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "asymmetric-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "understeer",
+      "title": "Understeer",
+      "hook": "The map-holder can say \"two squares north\" all they like — you're holding a private hand of four movement cards, none of which is two squares north, and they have to figure out what you actually have from where their token keeps ending up.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "asymmetric-info"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "acetate",
+      "title": "Acetate",
+      "hook": "One player's phone is the only map of the maze, but it renders nothing on its own — the walls, the pits, and the exit each live in a different blind player's thumb, and only one of them can hold their layer up at a time.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "rod-break",
+      "title": "Rod Break",
+      "hook": "Turn your phone into a clinical dark adaptometer: after a 45-second bleach it tracks your night vision coming back in real time, finds the exact minute your rods take over from your cones, and shows you what one glance at a bright screen just cost you.",
+      "tags": [
+        "health",
+        "quantified-self",
+        "biology",
+        "vision"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "left-the-building",
+      "title": "Left the Building",
+      "hook": "Every coding agent on your laptop keeps a full plaintext diary of everything you ever pasted at it — this reads all of them, reconstructs which secrets were actually uploaded to whose servers and when, and hands you a dated revocation checklist.",
+      "tags": [
+        "security",
+        "forensics",
+        "privacy",
+        "devtool"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "scatter-bar",
+      "title": "Scatter Bar",
+      "hook": "A browser puzzle game where you're the mask designer at a chip fab: draw a shape, watch 193nm light smear it into unrecognizable blobs, then win by adding serifs and sub-resolution assist bars until the printed resist matches the target across the whole dose-focus window.",
+      "tags": [
+        "physics",
+        "puzzle",
+        "graphics",
+        "materials"
+      ],
+      "score": 77,
+      "source": "hn",
+      "created": "2026-08-02"
+    },
+    {
       "slug": "wristband",
       "title": "Wristband",
       "hook": "Everyone's phone shows the room as four colored wristbands — but on one phone, two people's names are wearing each other's bands, so that player keeps sincerely nominating the wrong human and has to figure out which two friends they've been confusing.",
