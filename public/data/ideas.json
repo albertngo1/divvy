@@ -2,6 +2,47 @@
   "lastScan": "2026-08-02",
   "ideas": [
     {
+      "slug": "ready-check",
+      "title": "Ready Check",
+      "hook": "An MMO raid boss squeezed into four phones, where the one thing your screen refuses to show you is your own debuff — only your two neighbors can see it, and they're busy.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "mosquito-noise",
+      "title": "Mosquito Noise",
+      "hook": "A paint program where the document isn't pixels — it's the JPEG's quantized DCT coefficients, so you stamp basis functions and locally crank the quantizer, and the file you save is byte-exactly what you painted.",
+      "tags": [
+        "generative",
+        "art",
+        "graphics"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "not-included",
+      "title": "Not Included",
+      "hook": "Your \"download all my data\" export is legally compliant and quietly lossy — this audits the delivered archive against the live API, field by field, and publishes which services silently drop your revision history.",
+      "tags": [
+        "privacy",
+        "forensics",
+        "data-viz",
+        "cli"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-08-02"
+    },
+    {
       "slug": "trade-paint",
       "title": "Trade Paint",
       "hook": "Four invisible cars race around a shared ring where nobody can see anyone else — and every crash paints a permanent public skid mark that tells the whole room exactly where you were.",
