@@ -2,6 +2,132 @@
   "lastScan": "2026-08-02",
   "ideas": [
     {
+      "slug": "conditions-of-sale",
+      "title": "Conditions of Sale",
+      "hook": "One lot, three bidders, and three different secret auction rulebooks — so you're not just guessing what they'll pay, you're guessing what game they think they're playing.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "bluffing"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "comes-around",
+      "title": "Comes Around",
+      "hook": "A pick-and-pass draft where you score not for what you take but for secretly calling which card will still be in the pack when it wheels back to you.",
+      "tags": [
+        "party",
+        "drafting",
+        "bluffing",
+        "card-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "great-minds",
+      "title": "Great Minds",
+      "hook": "Four players interrogate the same oracle at the same time, and any two questions that mean roughly the same thing are both thrown out and displayed side by side on the TV under the words GREAT MINDS.",
+      "tags": [
+        "party",
+        "deduction",
+        "wordgame",
+        "llm"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "smoke-screen",
+      "title": "Smoke Screen",
+      "hook": "You and three friends fire one fireworks show into the same sky, and every shell you launch leaves smoke only YOU know the duration of — so the finale belongs to whoever can lie best about how dirty they burn.",
+      "tags": [
+        "party",
+        "real-time",
+        "timing",
+        "bluffing"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "off-book",
+      "title": "Off Book",
+      "hook": "The room sits in total silence while everyone privately types insults that a text-to-speech voice whispers into one chosen rival's earbud — and the first person who makes any sound at all is out.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "billable",
+      "title": "Billable",
+      "hook": "A shared machine on the TV only runs on room noise — but every second of your own voice is billed to you personally, so the fastest way to win is to get someone else to do the talking.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "social-deduction"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "books-and-records",
+      "title": "Books and Records",
+      "hook": "Regulated firms retain every AI chat transcript and none of the system prompts that produced them — this seals the prompt, tools, and retrieved documents into WORM storage as the regulated communication they legally are.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "llm"
+      ],
+      "score": 65,
+      "source": "arxiv",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "involute",
+      "title": "Involute",
+      "hook": "A browser synthesizer made of actual gears, where pitch comes only from tooth counts — so equal temperament is physically unbuildable and every chord you make is forced into pure just intonation.",
+      "tags": [
+        "music",
+        "generative",
+        "audio",
+        "sim"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "carried-forward",
+      "title": "Carried Forward",
+      "hook": "Every Linux and BSD distro secretly maintains a private fork of your favorite library — this mines all their patch directories at once and shows you which packages have been quietly held together by strangers for eleven years.",
+      "tags": [
+        "devtool",
+        "data-viz",
+        "git",
+        "b2b"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-08-02"
+    },
+    {
       "slug": "shorthand",
       "title": "Shorthand",
       "hook": "You write a sentence ending, one other player secretly tries to finish it from the first two words, and each word they nail is worth exactly as many points as the language model found it shocking.",
