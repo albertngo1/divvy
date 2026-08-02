@@ -2,6 +2,132 @@
   "lastScan": "2026-08-02",
   "ideas": [
     {
+      "slug": "pass-the-buck",
+      "title": "Pass the Buck",
+      "hook": "Every task on your phone must be dumped on another player to execute, and since everyone dumps on whoever sounds least busy, the room reliably overloads the same person and both senders' tasks die.",
+      "tags": [
+        "party",
+        "real-time",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "sole-source",
+      "title": "Sole Source",
+      "hook": "Your phone hands you a secret shopping spec, the room is the only supplier, and if two people type the same object's name into their phones the object is publicly burned and both buyers walk away empty-handed.",
+      "tags": [
+        "party",
+        "physical-play",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "sounds-like-you",
+      "title": "Sounds Like You",
+      "hook": "You're secretly assigned another player to impersonate, and your phone's only live feedback is a meter screaming how much you still sound like *yourself*.",
+      "tags": [
+        "party",
+        "wordgame",
+        "bluffing",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "stop-words",
+      "title": "Stop Words",
+      "hook": "One sentence is cut into private bands by information content — you're holding \"the of and was,\" someone else is holding \"armadillo,\" and neither of you can see the other's half.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "heads-down",
+      "title": "Heads Down",
+      "hook": "Your phone offers you a bet on what's about to happen in the clip, but reading the bet takes your eyes off the clip — and for two chips you can shove your card onto someone else's phone at the exact moment they can't afford to look away.",
+      "tags": [
+        "party",
+        "betting-market",
+        "attention",
+        "video"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "quiet-period",
+      "title": "Quiet Period",
+      "hook": "Everyone bets on what happens next in a clip playing on the TV — except one phone was privately shown a still frame from forty seconds in the future, and the only way to cash in is to move a price everyone can see.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "betting-market",
+        "video"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "ghost-import",
+      "title": "Ghost Import",
+      "hook": "A continuously-updated census of the package names language models invent, ranked by how many models hallucinate the same one — and whether an attacker has already registered it.",
+      "tags": [
+        "security",
+        "llm",
+        "provenance",
+        "saas"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "cold-soak",
+      "title": "Cold Soak",
+      "hook": "Your thermostat has been quietly running a free blower-door test for years — this fits the physics and tells you how many hours your house stays livable when the power dies.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "homelab",
+        "data-viz"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "cast-doubt",
+      "title": "Cast Doubt",
+      "hook": "A puzzle game where you are a one-token-lookahead C parser, and the only weapon you have is deciding which words are types.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "procedural",
+        "devtool"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-02"
+    },
+    {
       "slug": "ready-check",
       "title": "Ready Check",
       "hook": "An MMO raid boss squeezed into four phones, where the one thing your screen refuses to show you is your own debuff — only your two neighbors can see it, and they're busy.",
