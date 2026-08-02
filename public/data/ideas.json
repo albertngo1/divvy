@@ -2,6 +2,90 @@
   "lastScan": "2026-08-02",
   "ideas": [
     {
+      "slug": "even-money",
+      "title": "Even Money",
+      "hook": "A real takeout menu becomes a betting board where one player is the bookmaker — they know the true price, and their job isn't to be right, it's to set a line that splits the room.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "bluffing"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "sandbag",
+      "title": "Sandbag",
+      "hook": "The model's per-word surprise is drawn as a public skyline across one shared sentence — you secretly own one word, you're forbidden from touching it, and the only way to make it surprising is to make everything around it strange.",
+      "tags": [
+        "party",
+        "browser-game",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "early-exit",
+      "title": "Early Exit",
+      "hook": "Four phones are each secretly wired to a different layer of the same tiny language model, so every player holds a confidently wrong opinion about the next word — and nobody gets the final layer.",
+      "tags": [
+        "party",
+        "browser-game",
+        "hidden-information",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "twelve-gores",
+      "title": "Twelve Gores",
+      "hook": "A cartography puzzle game where every level is a real printable papercraft globe — cut the sphere into gores, pick a projection per strip, and endure a client who complains that Australia looks stretched.",
+      "tags": [
+        "puzzle",
+        "game",
+        "map",
+        "gis"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "mood-ring",
+      "title": "Mood Ring",
+      "hook": "A docs linter that reads grammatical mood instead of prose style, painting every page as a four-color stripe so you can see at a glance where your tutorial mutated into a reference manual halfway down.",
+      "tags": [
+        "writing",
+        "nlp",
+        "devtool",
+        "cli"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "dev-full",
+      "title": "Dev Full",
+      "hook": "A conformance harness that drags your CLI through the twelve hostile terminals it will actually meet — piped to `head`, redirected to `/dev/full`, Ctrl-C'd mid-render — and hands back a scorecard of how badly it misbehaves.",
+      "tags": [
+        "cli",
+        "devtool",
+        "ci",
+        "telemetry"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-08-02"
+    },
+    {
       "slug": "pass-the-buck",
       "title": "Pass the Buck",
       "hook": "Every task on your phone must be dumped on another player to execute, and since everyone dumps on whoever sounds least busy, the room reliably overloads the same person and both senders' tasks die.",
