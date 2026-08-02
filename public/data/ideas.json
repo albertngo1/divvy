@@ -1,6 +1,76 @@
 {
-  "lastScan": "2026-08-01",
+  "lastScan": "2026-08-02",
   "ideas": [
+    {
+      "slug": "wristband",
+      "title": "Wristband",
+      "hook": "Everyone's phone shows the room as four colored wristbands — but on one phone, two people's names are wearing each other's bands, so that player keeps sincerely nominating the wrong human and has to figure out which two friends they've been confusing.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "voting"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "reads-high",
+      "title": "Reads High",
+      "hook": "Four phones read the same machine, but one is silently miscalibrated — every number that player shouts is honest, true, and in the wrong units, and they have five minutes to reverse-engineer their own error out loud before the room notices.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "cooperative"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "attract-mode",
+      "title": "Attract Mode",
+      "hook": "Your screensaver is a deterministic replay of the last ninety seconds you ever played of a game you abandoned — usually your own death, on loop, until you hit a key and take the controller back on that exact frame.",
+      "tags": [
+        "screensaver",
+        "ambient",
+        "desktop-toy",
+        "whimsy"
+      ],
+      "score": 64,
+      "source": "github",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "burn-three",
+      "title": "Burn Three",
+      "hook": "A roguelike where luck is a physical tape you can see 24 values ahead — and the whole game is arranging who eats the bad rolls, you or the wolf.",
+      "tags": [
+        "roguelike",
+        "game",
+        "puzzle",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "same-bytes",
+      "title": "Same Bytes",
+      "hook": "The same model on four runtimes sees four different prompts — this range-reads GGUF headers straight off Hugging Face and shows you the exact token IDs where your chat template rotted.",
+      "tags": [
+        "llm",
+        "devtool",
+        "observability",
+        "provenance"
+      ],
+      "score": 75,
+      "source": "github",
+      "created": "2026-08-02"
+    },
     {
       "slug": "exit-poll",
       "title": "Exit Poll",
