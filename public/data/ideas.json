@@ -2,6 +2,132 @@
   "lastScan": "2026-08-02",
   "ideas": [
     {
+      "slug": "trade-paint",
+      "title": "Trade Paint",
+      "hook": "Four invisible cars race around a shared ring where nobody can see anyone else — and every crash paints a permanent public skid mark that tells the whole room exactly where you were.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "real-time",
+        "deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "type-over",
+      "title": "Type Over",
+      "hook": "Everyone types into the same 40-character headline at the same time, and any cell two people touch turns into an unusable black scar — so you must verbally carve up a sentence you can all see being destroyed live.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "chaos"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "latent-image",
+      "title": "Latent Image",
+      "hook": "Your private clue is a photographic plate that fogs permanently under room noise — and only you know how fragile yours is, so you must beg for silence without speaking.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "asymmetric-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "silent-partner",
+      "title": "Silent Partner",
+      "hook": "Your phone doesn't listen to you — it watches one other player, and you get paid only for the seconds that person keeps their mouth shut.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "asymmetric-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "all-rise",
+      "title": "All Rise",
+      "hook": "Your phone silently knows whether you are sitting or standing, everyone holds a different secret rule about when they're allowed to be up, and the TV only ever tells the room how many people are currently standing.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "physical-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "sound-proof",
+      "title": "Sound Proof",
+      "hook": "Every phone chirps at itself to measure how buried it is, and each player must stash their own phone somewhere in the room that muffles it to a *different* secret degree — without two phones ending up close enough to hear each other.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "line-of-descent",
+      "title": "Line of Descent",
+      "hook": "`git blame` that refuses to tell you \"chore: run prettier\" — it walks back through reformats, renames, and file moves until it finds the commit where the line's meaning actually entered the codebase.",
+      "tags": [
+        "devtool",
+        "git",
+        "cli",
+        "embeddings"
+      ],
+      "score": 61,
+      "source": "hn",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "last-legs",
+      "title": "Last Legs",
+      "hook": "Before you turn off TLS 1.2, it tells you the three customers who will break, by name, with a drafted email to each.",
+      "tags": [
+        "business",
+        "saas",
+        "security",
+        "observability"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "own-words",
+      "title": "Own Words",
+      "hook": "A leak-tracing watermark that survives being laundered through \"rewrite this in your own words\" — because it hides in the choices paraphrase can't touch, not in the wording.",
+      "tags": [
+        "steganography",
+        "language",
+        "llm",
+        "security"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-02"
+    },
+    {
       "slug": "conditions-of-sale",
       "title": "Conditions of Sale",
       "hook": "One lot, three bidders, and three different secret auction rulebooks — so you're not just guessing what they'll pay, you're guessing what game they think they're playing.",
