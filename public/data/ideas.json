@@ -2,6 +2,132 @@
   "lastScan": "2026-08-03",
   "ideas": [
     {
+      "slug": "nobody-s-handwriting",
+      "title": "Nobody's Handwriting",
+      "hook": "The room co-writes a single letter one word at a time, but every phone privately renders that word in a different stolen handwriting style and nobody ever learns which hand was theirs — the finished letter is beautiful, signed by no one, and undeletable.",
+      "tags": [
+        "party",
+        "cooperative",
+        "drawing",
+        "anonymous"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "left-in-the-frame",
+      "title": "Left in the Frame",
+      "hook": "Five phones each hold one strip of a single group photo that no one has taken yet — you pose, shoot, and stitch a portrait of the room that only exists as one exported PNG, and one player is secretly trying to never appear in it.",
+      "tags": [
+        "party",
+        "camera",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "common-time",
+      "title": "Common Time",
+      "hook": "Every phone silently buzzes a different secret tempo against your palm, and the only way the room can find one shared beat is by watching each other's bodies give it away.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "rhythm"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "under-tungsten",
+      "title": "Under Tungsten",
+      "hook": "Three players each mix the same color from a different secret set of primaries, on a TV where the swatches are shuffled so nobody knows which one is theirs — and when they finally match, the host changes the light and the match falls apart.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "perception"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "straight-man",
+      "title": "Straight Man",
+      "hook": "Everyone secretly holds a different absurd punchline and writes a setup line for the room — but only ONE setup gets used, so the perfect feed for your line is also a gift to three rivals you can't see.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "keystone",
+      "title": "Keystone",
+      "hook": "Everyone writes one claim; a tiny local model then yanks each secret fact out of its context one at a time, and whoever's card the room's model misses most loudly wins.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "asymmetric-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "springback",
+      "title": "Springback",
+      "hook": "Draw the wire hook, spring, or hairpin you want, tell it your spool, and it solves the elastica backwards to hand you the over-bend angles and a printable pegboard jig — because the wire always relaxes past where you bent it and nobody does that math by hand.",
+      "tags": [
+        "physics",
+        "materials",
+        "sim",
+        "3d-viz"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "second-reading",
+      "title": "Second Reading",
+      "hook": "Paste a spec, ticket, or contract clause and it doesn't tell you it's ambiguous — it shows you the four different things forty independent readers actually thought you meant, then highlights the exact sentence where the readings fork.",
+      "tags": [
+        "llm",
+        "prompt",
+        "writing",
+        "embeddings"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "glass-miles",
+      "title": "Glass Miles",
+      "hook": "A live map of every host your laptop talks to, each one pinned not where GeoIP claims but at the maximum radius the speed of light in fiber allows — so anycast edges, VPN exits, and stale geolocation snap into view as physically impossible claims.",
+      "tags": [
+        "data-viz",
+        "map",
+        "visualization",
+        "telemetry"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-08-03"
+    },
+    {
       "slug": "aiming-off",
       "title": "Aiming Off",
       "hook": "You hold the map but not the pieces — the pieces know only what the ground feels like under them, and describing gravel is the entire game.",
