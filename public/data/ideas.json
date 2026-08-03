@@ -2,6 +2,104 @@
   "lastScan": "2026-08-03",
   "ideas": [
     {
+      "slug": "eyes-only",
+      "title": "Eyes Only",
+      "hook": "The TV holds the answer key but stays blacked out — exactly one player at a time may reveal it, and while they look, their own phone goes dark.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "word-for-it",
+      "title": "Word for It",
+      "hook": "Nobody's controls have names — the room has to invent a shared vocabulary out loud, mid-panic, faster than the order queue drains.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "aim-assist",
+      "title": "Aim Assist",
+      "hook": "You are hunting someone in the room through a hot-cold meter and nothing else — and the only real targeting data is the noise they make when you nearly hit them.",
+      "tags": [
+        "party",
+        "real-time",
+        "audio",
+        "hidden-information"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "item-box",
+      "title": "Item Box",
+      "hook": "Four survival-horror attaché cases, one shared loot crate, ninety seconds — and nobody can see the shape of the hole in your bag but you.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle-game",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "one-megahertz",
+      "title": "One Megahertz",
+      "hook": "An infinite chiptune generator that is a real neural net running on a real 6502 — the whole model, player, and 10,000 hours of unrepeating music fit in a 32KB C64 program with no samples in it.",
+      "tags": [
+        "music",
+        "generative",
+        "audio",
+        "art"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "print-the-key",
+      "title": "Print the Key",
+      "hook": "Steganography whose entire language model is small enough to print on two sheets of paper as QR codes — because the only way LLM stego actually decodes on someone else's machine is if the model is integer-only and bit-exact.",
+      "tags": [
+        "steganography",
+        "language",
+        "privacy",
+        "llm"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "punch-ticket",
+      "title": "Punch Ticket",
+      "hook": "A tachistoscope lab that breeds dashboard status icons your own eyes can identify in 120 milliseconds, in the idiom of hand-drawn 1940s transit passes designed to be forged-checked at a glance.",
+      "tags": [
+        "data-viz",
+        "dashboard",
+        "visualization",
+        "graphics"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-03"
+    },
+    {
       "slug": "off-limits",
       "title": "Off Limits",
       "hook": "Eight options on the TV, two secretly forbidden to you alone — the room must land on one answer everybody is actually allowed to give, and the only way to signal what you can pick is to pick it and fail.",
