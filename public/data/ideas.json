@@ -2,6 +2,104 @@
   "lastScan": "2026-08-03",
   "ideas": [
     {
+      "slug": "aiming-off",
+      "title": "Aiming Off",
+      "hook": "You hold the map but not the pieces — the pieces know only what the ground feels like under them, and describing gravel is the entire game.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "palm-rejection",
+      "title": "Palm Rejection",
+      "hook": "One player's phone is the whole maze — but steering a piece means holding a finger on it, and that finger covers exactly the part of the map you needed to see.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "asymmetric"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "run-hot",
+      "title": "Run Hot",
+      "hook": "The room co-writes one sentence to land inside a target surprisal band, but each phone is secretly rolling its word choices at a different sampling temperature — so someone at the table is physically incapable of being weird.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "wide-berth",
+      "title": "Wide Berth",
+      "hook": "Everyone secretly forbids one word to the same tiny language model, and the TV shows only the mangled sentence it writes while frantically steering around four landmines it can't mention.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 79,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "says-who",
+      "title": "Says Who",
+      "hook": "Paste a famous quotation and watch its mutation tree grow across 150 years of newspapers — the decade a word swapped, the year the attribution jumped to Mark Twain, and the single OCR'd page that started it.",
+      "tags": [
+        "language",
+        "nlp",
+        "timeline",
+        "data-viz"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "weak-bit",
+      "title": "Weak Bit",
+      "hook": "You are the copy-protection engineer at a 1982 floppy-disk games publisher, and the game is not against pirates — it's against the returns desk, because the scheme that stops the crackers also bricks legit drives.",
+      "tags": [
+        "game",
+        "tycoon",
+        "sim",
+        "procedural"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "hung-jury",
+      "title": "Hung Jury",
+      "hook": "Feed one payload to eight real JSON parsers in eight real runtimes and watch them quietly return eight different values — then fail the build.",
+      "tags": [
+        "devtool",
+        "ci",
+        "saas",
+        "observability"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-08-03"
+    },
+    {
       "slug": "eyes-only",
       "title": "Eyes Only",
       "hook": "The TV holds the answer key but stays blacked out — exactly one player at a time may reveal it, and while they look, their own phone goes dark.",
