@@ -2,6 +2,90 @@
   "lastScan": "2026-08-03",
   "ideas": [
     {
+      "slug": "rally-point",
+      "title": "Rally Point",
+      "hook": "Three phones drop a pin on the same map, but each of you can see landmarks the others can't — and the only way to meet is to ignore everything you privately know.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "offcut",
+      "title": "Offcut",
+      "hook": "Every card you throw away is the only sentence you're allowed to say — dump seven-eighths of your hand and pray the three of you are all clutching the same word.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "sum-of-best",
+      "title": "Sum of Best",
+      "hook": "A four-leg speedrun where only you can see your own split, so calling for the reset means convincing the room you choked without any proof.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "speedrun"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "just-frame",
+      "title": "Just Frame",
+      "hook": "Four phones are four links of one fighting-game combo, and every player knows only their own secret timing window — drop it and the TV names you in milliseconds.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "timing"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "loose-line",
+      "title": "Loose Line",
+      "hook": "Hide bits in *which* of a paragraph's near-equally-perfect Knuth-Plass line breaks you chose, so a leaked memo can be traced to its recipient from a phone photo of the printout.",
+      "tags": [
+        "steganography",
+        "language",
+        "provenance",
+        "graphics"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "no-quorum",
+      "title": "No Quorum",
+      "hook": "Feed one JSON payload to twelve real parsers in twelve real runtimes and get a disagreement matrix showing exactly where your pipeline will silently lose a number, a key, or a byte.",
+      "tags": [
+        "devtool",
+        "cli",
+        "ci",
+        "observability"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-08-03"
+    },
+    {
       "slug": "noise-ordinance",
       "title": "Noise Ordinance",
       "hook": "The room co-ops on a puzzle that can only be solved by talking, while every player privately needs the room's total decibels to land inside a secret window — and you cannot tell anyone to shut up without making noise.",
