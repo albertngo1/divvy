@@ -2,6 +2,132 @@
   "lastScan": "2026-08-03",
   "ideas": [
     {
+      "slug": "chef-s-choice",
+      "title": "Chef's Choice",
+      "hook": "Nobody orders their own food — each phone secretly serves someone else, secretly bets on how much they'll hate it, and secretly holds one true fact about one person's palate that they don't know you have.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "hidden-information",
+        "irl"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "matched-book",
+      "title": "Matched Book",
+      "hook": "Everyone watches the same eight-minute clip, but each phone holds a different sliver of insider information — and no bet pays out unless you can talk someone into taking the other side of it.",
+      "tags": [
+        "party",
+        "prediction-market",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "personal-effects",
+      "title": "Personal Effects",
+      "hook": "Split a dead relative's estate by talking it out — except every phone lists the same objects under totally different descriptions, so two people claiming \"the tall thing\" may or may not be fighting over one lamp, and if they are, the movers drop it.",
+      "tags": [
+        "party",
+        "negotiation",
+        "hidden-information",
+        "social-deduction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "black-square",
+      "title": "Black Square",
+      "hook": "One crossword grid, but every phone holds clues from a different puzzle filled over it — cross a rival's word with the wrong letter and that square turns black forever, killing both of you.",
+      "tags": [
+        "party",
+        "wordgame",
+        "simultaneous",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "no-mirror",
+      "title": "No Mirror",
+      "hook": "Three invisible dots must meet in the middle, and your phone shows you everyone's position except your own.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "dead-key",
+      "title": "Dead Key",
+      "hook": "Everyone must type the exact same word — but six letters on your keyboard silently do nothing, and nobody's six are the same.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "abuse-desk",
+      "title": "Abuse Desk",
+      "hook": "A solo forensics roguelike where you pivot through fake WHOIS, cert logs, and passive DNS to map a phishing campaign — and the automation rules you write to go faster become the false positives that wreck your next shift.",
+      "tags": [
+        "roguelike",
+        "puzzle",
+        "security",
+        "procedural"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "air-seed",
+      "title": "Air Seed",
+      "hook": "Clamp a piezo to a houseplant and hear it cavitate — a desktop toy that pitch-shifts the ultrasonic clicks a thirsty plant actually makes down into hearing range, so drought becomes a sound in your room.",
+      "tags": [
+        "biology",
+        "audio",
+        "nature",
+        "desktop-toy"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "free-time",
+      "title": "Free Time",
+      "hook": "Truckers lose detention pay because nobody can prove when they arrived — this app builds a broker-proof evidence packet automatically and, more importantly, nags you to send the notification that makes the claim collectible.",
+      "tags": [
+        "logistics",
+        "business",
+        "automation",
+        "saas"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-08-03"
+    },
+    {
       "slug": "double-cut",
       "title": "Double Cut",
       "hook": "Seven cards, three players, two silent rounds of simultaneous elimination — you all have to agree on which one survives while never once reaching for the same blade.",
