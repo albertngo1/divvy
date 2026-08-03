@@ -1,6 +1,104 @@
 {
-  "lastScan": "2026-08-02",
+  "lastScan": "2026-08-03",
   "ideas": [
+    {
+      "slug": "off-limits",
+      "title": "Off Limits",
+      "hook": "Eight options on the TV, two secretly forbidden to you alone — the room must land on one answer everybody is actually allowed to give, and the only way to signal what you can pick is to pick it and fail.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "blind-sort",
+      "title": "Blind Sort",
+      "hook": "Six items, two unlabeled bins, and nobody can see the whole set — you must silently agree on a rule you can never state, using only cards the other players half-share with you.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "dead-draw",
+      "title": "Dead Draw",
+      "hook": "A co-op deckbuilder where the cards you buy are overlays on your own phone's readout of an unreadable signal — and by wave three your engine is so cluttered you have to start deleting it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deckbuilder",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "hit-confirm",
+      "title": "Hit Confirm",
+      "hook": "The room shares one fighting-game character, each phone secretly knows a different half of the move list, and you have two seconds to prove you can read the pose your neighbor just left behind.",
+      "tags": [
+        "party",
+        "reflex",
+        "fighting-game",
+        "cooperative"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "crush-load",
+      "title": "Crush Load",
+      "hook": "A menubar glyph for your one commute that says how packed the next train is *for a Tuesday at 8:10* — and, unlike every transit app, visibly admits when the agency is feeding it nothing.",
+      "tags": [
+        "menubar",
+        "data-viz",
+        "gis",
+        "ambient"
+      ],
+      "score": 62,
+      "source": "arxiv",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "take-dictation",
+      "title": "Take Dictation",
+      "hook": "A pre-commit hook that blanks out the few tokens in your LLM-written diff you couldn't have produced yourself and makes you type them from memory — and quietly scores every file by how much of it nobody in the repo can reproduce.",
+      "tags": [
+        "nlp",
+        "devtool",
+        "llm",
+        "git"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-08-02"
+    },
+    {
+      "slug": "stage-whisper",
+      "title": "Stage Whisper",
+      "hook": "A line of text on your page that humans literally cannot see but AI browsing agents read out loud and obey — so you finally know which of your \"users\" is a robot driving a real Chrome.",
+      "tags": [
+        "llm",
+        "agents",
+        "saas",
+        "security"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-08-02"
+    },
     {
       "slug": "even-money",
       "title": "Even Money",
