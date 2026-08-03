@@ -2,6 +2,132 @@
   "lastScan": "2026-08-03",
   "ideas": [
     {
+      "slug": "double-cut",
+      "title": "Double Cut",
+      "hook": "Seven cards, three players, two silent rounds of simultaneous elimination — you all have to agree on which one survives while never once reaching for the same blade.",
+      "tags": [
+        "party",
+        "cooperative",
+        "simultaneous",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "two-of-three",
+      "title": "Two of Three",
+      "hook": "Three players stare at the same sixteen cards, but each phone has one whole sense surgically removed — and the only way to win is for every pair to secretly match on the one channel that pair happens to share.",
+      "tags": [
+        "party",
+        "cooperative",
+        "puzzle",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "bury-the-needle",
+      "title": "Bury the Needle",
+      "hook": "Your phone's compass lies whenever steel is near, so the room's hidden ironwork becomes a treasure map — except one player has a fridge magnet in their pocket and is walking around forging anomalies that vanish when anyone comes back to check.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "angle-of-repose",
+      "title": "Angle of Repose",
+      "hook": "Every phone privately demands a different tilt, so you go hunting the room for a slanted surface — a sofa arm, a paperback wedge, a shoe — set the phone down, let go, and walk away, and your own footsteps across the floor are what knock it out of band.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "ink-trap",
+      "title": "Ink Trap",
+      "hook": "Four phones are four ink plates of the same print — you can only ever see your own color, the TV shows the composite so blurred you can argue about balance but not detail, and the round doesn't end until all four of you sign off on a picture none of you has seen.",
+      "tags": [
+        "party",
+        "cooperative",
+        "drawing",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "so-do-i",
+      "title": "So Do I",
+      "hook": "You write one true thing about yourself, and you are forbidden from protecting it — your confession only makes it into the room's keepsake zine if two other people secretly spend a scarce token to say \"so do I.\"",
+      "tags": [
+        "party",
+        "cooperative",
+        "anonymity",
+        "storytelling"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "lay-flat",
+      "title": "Lay Flat",
+      "hook": "A generative art toy that grows a flat sheet with a random non-Euclidean metric until it buckles into a ruffled surface nobody designed — then exports the cut pattern so you can print it on cardstock and watch real paper fold into the same shape.",
+      "tags": [
+        "physics",
+        "generative",
+        "materials",
+        "graphics"
+      ],
+      "score": 76,
+      "source": "arxiv",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "as-written",
+      "title": "As Written",
+      "hook": "Prediction markets don't blow up because you were wrong — they blow up because the rules text was ambiguous, so this scores every open Polymarket/Kalshi market on how likely its own resolution language is to get disputed, trained on every UMA dispute ever filed.",
+      "tags": [
+        "finance",
+        "prediction-market",
+        "nlp",
+        "markets"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "tell-time",
+      "title": "Tell Time",
+      "hook": "Runs your build twice while lying to it about the clock, the hostname, and the dice — then bisects the lies until it can point at the exact source line that made your artifact non-reproducible.",
+      "tags": [
+        "devtool",
+        "ci",
+        "cli",
+        "observability"
+      ],
+      "score": 67,
+      "source": "github",
+      "created": "2026-08-03"
+    },
+    {
       "slug": "rally-point",
       "title": "Rally Point",
       "hook": "Three phones drop a pin on the same map, but each of you can see landmarks the others can't — and the only way to meet is to ignore everything you privately know.",
