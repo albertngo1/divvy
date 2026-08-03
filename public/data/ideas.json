@@ -2,6 +2,131 @@
   "lastScan": "2026-08-03",
   "ideas": [
     {
+      "slug": "noise-ordinance",
+      "title": "Noise Ordinance",
+      "hook": "The room co-ops on a puzzle that can only be solved by talking, while every player privately needs the room's total decibels to land inside a secret window — and you cannot tell anyone to shut up without making noise.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "hidden-role"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "cold-joint",
+      "title": "Cold Joint",
+      "hook": "Three phones each steer one axis of a soldering tip under a microscope, and the room's own voices are the hand tremor — talk above a whisper and the bead smears across a trace.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "sensor"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "out-of-sorts",
+      "title": "Out of Sorts",
+      "hook": "A cooperative pointing game where each teammate's icon board is missing two-thirds of its symbols — so the obvious clue is silently unavailable and nobody can say so.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "everyone-but-you",
+      "title": "Everyone But You",
+      "hook": "A speed-blurting game where every player can see all the categories except their own — so you never know which shouted word is the one that fouls you out.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "wheel-of-six",
+      "title": "Wheel of Six",
+      "hook": "A booster draft where nobody passes anything — the pack rotates on the TV while each phone privately watches a different, partly-lying window into what's already been taken.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "reserve-price",
+      "title": "Reserve Price",
+      "hook": "A live auction where the auctioneer is the room itself — every phone privately owns one hidden clause of the item's description, and the only way to raise the price is to leak your clause out loud.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "negotiation"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "export-blame",
+      "title": "Export Blame",
+      "hook": "`git blame` for environment variables: one command that tells you exactly which file, at which line, set the PATH you are actually running.",
+      "tags": [
+        "devtool",
+        "cli",
+        "observability"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "runoff",
+      "title": "Runoff",
+      "hook": "Type your home address and play the raindrop that fell on your roof as a roguelike run down the real drainage network to the sea.",
+      "tags": [
+        "nature",
+        "procedural",
+        "roguelike",
+        "gis"
+      ],
+      "score": 76,
+      "source": "steam",
+      "created": "2026-08-03"
+    },
+    {
+      "slug": "coat-hanger",
+      "title": "Coat Hanger",
+      "hook": "A single steel wire on your desktop that you bend with the mouse while it rings — the partials glide because you are literally changing the eigenvalues of the rod.",
+      "tags": [
+        "audio",
+        "physics",
+        "desktop-toy",
+        "generative"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-08-03"
+    },
+    {
       "slug": "nobody-s-handwriting",
       "title": "Nobody's Handwriting",
       "hook": "The room co-writes a single letter one word at a time, but every phone privately renders that word in a different stolen handwriting style and nobody ever learns which hand was theirs — the finished letter is beautiful, signed by no one, and undeletable.",
