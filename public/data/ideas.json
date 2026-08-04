@@ -2,6 +2,104 @@
   "lastScan": "2026-08-04",
   "ideas": [
     {
+      "slug": "still-wet",
+      "title": "Still Wet",
+      "hook": "Everyone holds one unlabeled slider on one shared generative image, each phone privately previewing a future only its owner can see — and the picture doesn't dry until every hand lifts at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "generative-art"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "colophon",
+      "title": "Colophon",
+      "hook": "The room co-writes one twelve-line house document, then secretly ballots on who wrote what — and only if the room guesses no better than chance does the broadside print, credited entirely to the wrong people.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "under-embargo",
+      "title": "Under Embargo",
+      "hook": "Everyone watches the same 90-second clip — but before it plays, each phone privately shows you one still frame from later in it, and the only way to say what you saw is to move money on a public tote board.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "betting-market",
+        "video"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "call-the-ball",
+      "title": "Call the Ball",
+      "hook": "You can see the whole board and your three teammates cannot — but the only thing the game lets you send them is one typed word to one person per turn, plus a single veto to cancel one of the three moves they've already locked in blind.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "running-fix",
+      "title": "Running Fix",
+      "hook": "One player holds the only map — and it has no dots on it, because the three blind pieces stumbling across it each report terrain through a movement pad that's secretly rotated a different way, so the mapholder has to figure out where everyone is before they can steer anyone.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "p-frame",
+      "title": "P-Frame",
+      "hook": "Inverts a video codec on your own desktop: it throws away every pixel and keeps only the motion vectors, painting the day's window drags, scrolls, and typing as a slowly decaying flow-field wallpaper.",
+      "tags": [
+        "generative",
+        "wallpaper",
+        "graphics",
+        "desktop-toy"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "strictly-necessary",
+      "title": "Strictly Necessary",
+      "hook": "A SaaS whose entire success metric is deleting a UI element: it proves your site qualifies for the ePrivacy \"strictly necessary\" exemption, hands you the diff to get there, and a dated memo your lawyer can sign.",
+      "tags": [
+        "saas",
+        "b2b",
+        "privacy",
+        "automation"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-04"
+    },
+    {
       "slug": "hold-still",
       "title": "Hold Still",
       "hook": "The map only comes into focus when nobody is moving — so the map-holder spends the whole game screaming \"WHO IS STILL MOVING?\" at three blind people who have no way of knowing it's them.",
