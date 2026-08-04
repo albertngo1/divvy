@@ -1,6 +1,90 @@
 {
-  "lastScan": "2026-08-03",
+  "lastScan": "2026-08-04",
   "ideas": [
+    {
+      "slug": "passband",
+      "title": "Passband",
+      "hook": "Three faint sounds hide under the room's noise floor and your phone shows you only one narrow frequency band of them — describe it aloud and your own voice fills the band you were reading.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "shoe-leather",
+      "title": "Shoe Leather",
+      "hook": "A co-op errand list where every step, and every wave of your hands while arguing, drains a private fuel gauge nobody else can see — so the loudest volunteer may be the one about to go dark.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "bluffing"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "bass-trap",
+      "title": "Bass Trap",
+      "hook": "Three sine tones play at once and each phone hears only one of them, so every player is hunting a quiet spot in a different invisible room — and everyone's advice to everyone else is confidently, hilariously wrong.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "still-warm",
+      "title": "Still Warm",
+      "hook": "A menubar count of how many daemons, cron jobs, containers, and listening ports on your Mac are still faithfully running for absolutely nobody — an abandoned-factory tour of your own machine, with epitaphs.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "self-hosted",
+        "forensics"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "custody-chain",
+      "title": "Custody Chain",
+      "hook": "Git blame tells you who wrote a line; this tells you whether it was typed, pasted, or produced by an agent — and paints the map of your codebase no human has ever actually thought about.",
+      "tags": [
+        "provenance",
+        "forensics",
+        "devtool",
+        "git"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "last-known-good",
+      "title": "Last Known Good",
+      "hook": "Weekly, in your own AWS account, we actually restore your Postgres backup, time it with a stopwatch, run your assertions against it, and hand you a cryptographically signed RTO certificate your cyber-insurer will accept.",
+      "tags": [
+        "business",
+        "saas",
+        "postgres",
+        "b2b"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-08-04"
+    },
     {
       "slug": "chef-s-choice",
       "title": "Chef's Choice",
