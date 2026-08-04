@@ -2,6 +2,103 @@
   "lastScan": "2026-08-04",
   "ideas": [
     {
+      "slug": "hold-still",
+      "title": "Hold Still",
+      "hook": "The map only comes into focus when nobody is moving — so the map-holder spends the whole game screaming \"WHO IS STILL MOVING?\" at three blind people who have no way of knowing it's them.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "traffic-calming",
+      "title": "Traffic Calming",
+      "hook": "You hold the only map, three blind drivers are moving at once, and you can only talk to one of them at a time — so stop giving directions and start building walls in front of them.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "double-text",
+      "title": "Double Text",
+      "hook": "Three ghostwriters share the keyboard of one person's group chat, each hoarding private constraint cards — and when two of you lunge at the same incoming message, the double-text lands, both cards burn, and the other end goes cold.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "simultaneous"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "blown-out",
+      "title": "Blown Out",
+      "hook": "Three phones blink secret light-codes at one webcam in a dark room, and the camera's single auto-exposure is the resource you're all fighting over — two flashes at once and the whole frame whites out, blinding everybody including the player who stayed quiet.",
+      "tags": [
+        "party",
+        "sensor",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "here-be-charts",
+      "title": "Here Be Charts",
+      "hook": "A navigable map of every chart you could make from one dataset, where the named types are just gravity wells with fuzzy borders — and most of the map is valid, useful charts nobody has bothered to name.",
+      "tags": [
+        "data-viz",
+        "visualization",
+        "embeddings"
+      ],
+      "score": 64,
+      "source": "arxiv",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "dye-pack",
+      "title": "Dye Pack",
+      "hook": "Every process that reads your `.env` gets its own uniquely-poisoned copy of the secrets, so when a supply-chain worm phones your credentials home, the callback tells you exactly which package, which version, and which minute.",
+      "tags": [
+        "security",
+        "provenance",
+        "forensics",
+        "devtool"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "skipped-hour",
+      "title": "Skipped Hour",
+      "hook": "Your Postgres, your Node containers, and your iOS app each believe a different version of what time it is in Cairo — this sells you the calendar of exact future instants where that disagreement becomes an outage.",
+      "tags": [
+        "saas",
+        "b2b",
+        "observability",
+        "automation"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-04"
+    },
+    {
       "slug": "free-rider",
       "title": "Free Rider",
       "hook": "Four words have to be said out loud for you to win — but the only words that cost you anything are the ones you say yourself, so the whole room sits there waiting for someone else to pay.",
