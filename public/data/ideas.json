@@ -2,6 +2,104 @@
   "lastScan": "2026-08-04",
   "ideas": [
     {
+      "slug": "title-safe",
+      "title": "Title Safe",
+      "hook": "Everyone's phone shows the same busy photograph — except one, which is cropped 8% tighter and scaled back up, so its owner sincerely misremembers where everything is.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "one-seat-over",
+      "title": "One Seat Over",
+      "hook": "Four people watch the same silent dinner-party crime, but one phone's name key is rotated a single seat — so the traitor's testimony is meticulous, sincere, and consistently about the wrong person.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "splitting-hairs",
+      "title": "Splitting Hairs",
+      "hook": "Wavelength with no psychic: everyone holds a different secret target zone on the same spectrum, you may only speak in examples, and only the median of three locked dials scores.",
+      "tags": [
+        "party",
+        "negotiation",
+        "wordgame",
+        "cooperative"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "answer-key",
+      "title": "Answer Key",
+      "hook": "Anomia where only the two duelists know a duel started — everyone else hears two people abruptly screaming toothpaste brands and has to reverse-engineer why.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "social-deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "once-a-year",
+      "title": "Once a Year",
+      "hook": "Design a lump of plastic whose shadow is meaningless gibberish every day of the year except one, when the sun at your exact address drops it into a legible word.",
+      "tags": [
+        "art",
+        "generative",
+        "procedural",
+        "3d-viz"
+      ],
+      "score": 77,
+      "source": "arxiv",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "credit-memo",
+      "title": "Credit Memo",
+      "hook": "Your cloud vendors owe you SLA credits every quarter and quietly bank on you missing the 30-day claim window — this watches the clock, builds the evidence packet, and takes 25% of what it recovers.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 73,
+      "source": "producthunt",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "middle-name",
+      "title": "Middle Name",
+      "hook": "A daily rap sheet for every free proxy on GitHub — which ones are reading your traffic, and which 400 \"independent\" IPs are secretly one guy with one TLS-intercepting appliance.",
+      "tags": [
+        "security",
+        "forensics",
+        "privacy",
+        "provenance"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-08-04"
+    },
+    {
       "slug": "name-drop",
       "title": "Name Drop",
       "hook": "Anomia where your matching symbol is secret: shapes flip on the TV, exactly one other person is watching for the same one you are, and every time you lunge for the buzzer you permanently hand the room a fact about your card.",
