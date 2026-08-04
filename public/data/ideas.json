@@ -2,6 +2,118 @@
   "lastScan": "2026-08-04",
   "ideas": [
     {
+      "slug": "one-look",
+      "title": "One Look",
+      "hook": "The map is on one phone and it burns as it's read — every tile you reveal is gone forever, so the only surviving copy of the dungeon is whatever the other players managed to scribble into their private, character-limited notebooks.",
+      "tags": [
+        "party",
+        "cooperative",
+        "memory",
+        "asymmetric-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "symbol-table",
+      "title": "Symbol Table",
+      "hook": "One phone holds a map of unlabeled glyphs and no idea what any of them mean; the other phones each privately hold two entries of the legend — and none of them can see the map.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "puzzle"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "blind-bearing",
+      "title": "Blind Bearing",
+      "hook": "You answer by laying your phone face-down on the floor like a compass needle aimed at something real in the room — a quarter-turn off, because your phone secretly told you to lie, and the moment it touches the ground the screen goes dark and you can't check.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "social"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "free-gyro",
+      "title": "Free Gyro",
+      "hook": "Every phone navigates the room by gyroscope alone, so each player's sense of north silently rots at a different rate — and the only cure is physically pressing two phones together to average your lies.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "stuff-the-deck",
+      "title": "Stuff the Deck",
+      "hook": "A co-op deckbuilder where you never see your own deck — you build the deck of the player on your left, and the only person who knows what's in yours is the rival sitting on your right.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "cooperative",
+        "hidden-info"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "illusory-wall",
+      "title": "Illusory Wall",
+      "hook": "Three players race the same lethal 12-room dungeon at once, and the only map is the anonymous messages the dead leave behind — which are worth points whether they're true or not.",
+      "tags": [
+        "party",
+        "hidden-info",
+        "competitive",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "degree-day",
+      "title": "Degree Day",
+      "hook": "Upload two years of daily sales and it tells an ice cream shop exactly how many dollars each degree of temperature is worth — then hands them a $180 basket of Kalshi weather contracts that flattens the curve.",
+      "tags": [
+        "finance",
+        "prediction-market",
+        "markets",
+        "b2b"
+      ],
+      "score": 76,
+      "source": "wild",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "binding-precedent",
+      "title": "Binding Precedent",
+      "hook": "Git's rerere already remembers how you resolved that conflict — this turns its secret local cache into shared, citable case law your whole team can audit before it auto-applies.",
+      "tags": [
+        "devtool",
+        "git",
+        "cli",
+        "ci"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-04"
+    },
+    {
       "slug": "slow-push",
       "title": "Slow Push",
       "hook": "Three clinicians, one IV line, and each phone can see exactly one of the patient's three vital signs — any two drugs pushed within six seconds of each other react in the tubing and are destroyed, so the only way to survive is to queue out loud while all three of you are certain yours is the emergency.",
