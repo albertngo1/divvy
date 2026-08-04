@@ -2,6 +2,104 @@
   "lastScan": "2026-08-04",
   "ideas": [
     {
+      "slug": "slow-push",
+      "title": "Slow Push",
+      "hook": "Three clinicians, one IV line, and each phone can see exactly one of the patient's three vital signs — any two drugs pushed within six seconds of each other react in the tubing and are destroyed, so the only way to survive is to queue out loud while all three of you are certain yours is the emergency.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "clobber",
+      "title": "Clobber",
+      "hook": "Three phones, one system clipboard: you copy a string off the shared screen, and in the second before you paste it, someone else's copy silently overwrites it — so your form gets filled with their word, permanently.",
+      "tags": [
+        "party",
+        "real-time",
+        "browser-game",
+        "timing"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "quad-box",
+      "title": "Quad Box",
+      "hook": "Four clips play at once on a muted split screen and you spend chips buying the right to actually hear one — then get quizzed on whichever quadrant nobody bothered to pay attention to.",
+      "tags": [
+        "party",
+        "betting",
+        "video",
+        "attention"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "ad-buy",
+      "title": "Ad Buy",
+      "hook": "Before the video plays, you secretly buy 20-second slots of it at sealed auction — then spend the whole runtime talking the room out of skipping your minutes without ever admitting they're yours.",
+      "tags": [
+        "party",
+        "betting",
+        "auction",
+        "video"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "would-have-anyway",
+      "title": "Would Have Anyway",
+      "hook": "Point it at your health and habit data and it grades every self-experiment you've ever run against a null model built from your own noise — most of your wins turn out to be regression to the mean, and it will tell you which ones aren't.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "habits",
+        "productivity"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "second-ferment",
+      "title": "Second Ferment",
+      "hook": "A generative art vat that ferments on real-world time — you get one feeding a day, opening it early permanently brands the bottle \"young,\" and a finished batch can be poured as starter into the next one, so images inherit lineage like sourdough.",
+      "tags": [
+        "generative",
+        "art",
+        "audio",
+        "desktop-toy"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "last-one-wins",
+      "title": "Last One Wins",
+      "hook": "A polyglot JSON differential fuzzer that runs the same payload through seven real parsers in seven languages and hands you a map of every field where your services quietly disagree about what the data says.",
+      "tags": [
+        "devtool",
+        "ci",
+        "cli",
+        "saas"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-08-04"
+    },
+    {
       "slug": "passband",
       "title": "Passband",
       "hook": "Three faint sounds hide under the room's noise floor and your phone shows you only one narrow frequency band of them — describe it aloud and your own voice fills the band you were reading.",
