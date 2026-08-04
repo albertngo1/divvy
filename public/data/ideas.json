@@ -2,6 +2,117 @@
   "lastScan": "2026-08-04",
   "ideas": [
     {
+      "slug": "name-drop",
+      "title": "Name Drop",
+      "hook": "Anomia where your matching symbol is secret: shapes flip on the TV, exactly one other person is watching for the same one you are, and every time you lunge for the buzzer you permanently hand the room a fact about your card.",
+      "tags": [
+        "party",
+        "realtime",
+        "bluffing",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "bookends",
+      "title": "Bookends",
+      "hook": "Wavelength with the psychic dismantled: one player sees where the target is but not what the scale means, and the two people who each own one end of that scale must define it with a single blind-locked word apiece.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "off-tank",
+      "title": "Off Tank",
+      "hook": "A 60-second raid boss whose aggro table is invisible: you know your own threat number exactly, nobody else's at all, and the only public signal in the room is which way the boss is facing.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "spectator-mode",
+      "title": "Spectator Mode",
+      "hook": "A one-life dungeon crawl where dying is a promotion: dead players' phones flip to the full map, but the dead aren't allowed to speak — they can only drop four unlabeled ping icons into the fog the living are stumbling through.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "roguelike"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "long-story",
+      "title": "Long Story",
+      "hook": "One friend rambles through an anecdote while everyone else silently trades secret prop bets on it — and the only way to steer the story toward your contract is to ask a question the whole room watches you spend.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "storytelling"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "closing-bell",
+      "title": "Closing Bell",
+      "hook": "Everyone's watching the same clip with a private bet window open on their phone — but the market slams shut the instant anyone in the room makes a sound, so the moment you lock in, your best move is to cough.",
+      "tags": [
+        "party",
+        "betting",
+        "audio",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "plane-change",
+      "title": "Plane Change",
+      "hook": "A Kerbal-style delta-v subway map for occupational licensing: nodes are states, edges are burn costs in dollars, retraining hours, and calendar months, and you plan a route from your license to the one you want — including the gravity-assist detours that beat going direct.",
+      "tags": [
+        "data-viz",
+        "visualization",
+        "economics"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "serial-number",
+      "title": "Serial Number",
+      "hook": "A public index that scores every discontinued lab instrument on whether you can still *drive* it today — open-source drivers, open protocols, consumables still made — so a $40k HPLC doesn't get scrapped for want of a Windows 7 DLL.",
+      "tags": [
+        "business",
+        "marketplace",
+        "b2b",
+        "lab-instruments"
+      ],
+      "score": 64,
+      "source": "github",
+      "created": "2026-08-04"
+    },
+    {
       "slug": "one-look",
       "title": "One Look",
       "hook": "The map is on one phone and it burns as it's read — every tile you reveal is gone forever, so the only surviving copy of the dungeon is whatever the other players managed to scribble into their private, character-limited notebooks.",
