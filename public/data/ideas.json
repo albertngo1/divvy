@@ -2,6 +2,90 @@
   "lastScan": "2026-08-04",
   "ideas": [
     {
+      "slug": "free-rider",
+      "title": "Free Rider",
+      "hook": "Four words have to be said out loud for you to win — but the only words that cost you anything are the ones you say yourself, so the whole room sits there waiting for someone else to pay.",
+      "tags": [
+        "party",
+        "audio",
+        "wordgame",
+        "economy"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "mountain-valley",
+      "title": "Mountain Valley",
+      "hook": "Four people fold one real paper fortune teller from a diagram split three ways across their phones — nobody ever sees the whole instruction, and the object on the table at the end holds eight fortunes in nobody's name.",
+      "tags": [
+        "party",
+        "cooperative",
+        "keepsake",
+        "papercraft"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "fair-copy",
+      "title": "Fair Copy",
+      "hook": "Four friends write one letter at once, each staring at a private mirror of their own writing tics, because the keepsake only prints unsigned if nobody can tell who wrote what.",
+      "tags": [
+        "party",
+        "keepsake",
+        "anonymous",
+        "wordgame"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "two-panels",
+      "title": "Two Panels",
+      "hook": "Type your address, drag an arrow off your balcony railing, and find out whether the building across the courtyard eats your €400 solar kit — with your real skyline drawn onto the sun-path chart.",
+      "tags": [
+        "gis",
+        "map",
+        "data-viz",
+        "solar"
+      ],
+      "score": 76,
+      "source": "wild",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "zone-a",
+      "title": "Zone A",
+      "hook": "An explorable explanation that walks you through building a webcam \"blood glucose monitor\" with a gorgeous 96%-accurate Clarke grid, then hands you four toggles that prove it was measuring nothing at all.",
+      "tags": [
+        "biology",
+        "health",
+        "ml",
+        "data-viz"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-08-04"
+    },
+    {
+      "slug": "gyroid-choir",
+      "title": "Gyroid Choir",
+      "hook": "Sculpt a triply periodic minimal surface and hear its own Laplace–Beltrami eigenmodes sing back — then listen to the chord reorganize the instant the surface changes topology.",
+      "tags": [
+        "audio",
+        "generative",
+        "physics",
+        "materials"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-08-04"
+    },
+    {
       "slug": "title-safe",
       "title": "Title Safe",
       "hook": "Everyone's phone shows the same busy photograph — except one, which is cropped 8% tighter and scaled back up, so its owner sincerely misremembers where everything is.",
