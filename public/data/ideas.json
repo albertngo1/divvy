@@ -2,6 +2,62 @@
   "lastScan": "2026-08-05",
   "ideas": [
     {
+      "slug": "water-hammer",
+      "title": "Water Hammer",
+      "hook": "One player holds the pipe network on their phone but can't see a single gauge; the other three each hold one valve and one lever, know nothing about what they're connected to, and will burst the whole system if they shut it too fast.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "simulation"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "step-off",
+      "title": "Step Off",
+      "hook": "One player holds the only map and three identical dots that won't say which is which — everyone else is a dot with a secret, private reason they never move the way they're told.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "previous-owner",
+      "title": "Previous Owner",
+      "hook": "The room invents the life story of one imaginary object by each writing a different decade of its history — but every phone can only see the entry immediately before its own, so the truth has to be reconciled blind.",
+      "tags": [
+        "party",
+        "cooperative",
+        "keepsake",
+        "writing-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "yours-truly",
+      "title": "Yours Truly",
+      "hook": "The room writes one anonymous, sincere letter to a single player — who gets three cuts to name who wrote which line, and every cut permanently scars the keepsake they're about to keep forever.",
+      "tags": [
+        "party",
+        "keepsake",
+        "anonymity",
+        "writing-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
       "slug": "temperature-check",
       "title": "Temperature Check",
       "hook": "A tiny language model writes one paragraph live on the TV while each player secretly twists one anonymous dial on the sampler, each of them paid only for the tokens where the model's entropy sat inside their own secret band.",
