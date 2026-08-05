@@ -2,6 +2,132 @@
   "lastScan": "2026-08-05",
   "ideas": [
     {
+      "slug": "temperature-check",
+      "title": "Temperature Check",
+      "hook": "A tiny language model writes one paragraph live on the TV while each player secretly twists one anonymous dial on the sampler, each of them paid only for the tokens where the model's entropy sat inside their own secret band.",
+      "tags": [
+        "party",
+        "hidden-agenda",
+        "browser-game",
+        "language-model"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "priced-in",
+      "title": "Priced In",
+      "hook": "Build one sentence together, one word at a time, where every word's cost is how surprised a tiny GPT-2 is to see it — and you win the slot by being the most boring player at the table while trying to score by being the weirdest.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "auction"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "dead-hand",
+      "title": "Dead Hand",
+      "hook": "A cursor crawls toward the room's shared goal only while nobody is speaking, and steering is handed to a secretly rotating driver — so the moment you say \"no, LEFT,\" you've stopped the thing you're trying to steer.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "per-word",
+      "title": "Per Word",
+      "hook": "Before anyone speaks, every player secretly sets a private tax on every other player's talking — so the only way to get paid is to bait someone into a sentence, and baiting costs you your own money.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "information-market"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "your-next-piece",
+      "title": "Your Next Piece",
+      "hook": "A versus block-stacker where you don't pick your own pieces — you privately choose what falls into your neighbour's well, from a hand of three increasingly hostile shapes.",
+      "tags": [
+        "party",
+        "real-time",
+        "competitive",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "watch-my-dot",
+      "title": "Watch My Dot",
+      "hook": "A bullet-hell boss fight where the TV shows only the bullets, your phone shows everyone's hitbox except your own, and surviving means four people screaming steering directions at each other.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "do-not-press",
+      "title": "Do Not Press",
+      "hook": "A proxy that slips a plausible `delete_all_backups` tool into your agent's toolbox and tells you, with a confidence interval, how often it reaches for it.",
+      "tags": [
+        "agents",
+        "security",
+        "devtool",
+        "llm"
+      ],
+      "score": 62,
+      "source": "producthunt",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "b-horizon",
+      "title": "B Horizon",
+      "hook": "Type your address and scroll straight down through the actual soil beneath it — real horizon colors, real textures — then pour water and watch it perch on the clay.",
+      "tags": [
+        "nature",
+        "data-viz",
+        "gis",
+        "physics"
+      ],
+      "score": 69,
+      "source": "wild",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "green-bar",
+      "title": "Green Bar",
+      "hook": "A test runner for prose: your manuscript gets a red/green bar that goes red the moment chapter 12 changes her eye color.",
+      "tags": [
+        "writing",
+        "nlp",
+        "llm",
+        "devtool"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-08-05"
+    },
+    {
       "slug": "open-vowel",
       "title": "Open Vowel",
       "hook": "Your phone doesn't listen for words — it listens for consonants, so the room can groan, hum and swoop all it likes, but the instant a hard S or T leaves your mouth your channel fills with static.",
