@@ -2,6 +2,90 @@
   "lastScan": "2026-08-05",
   "ideas": [
     {
+      "slug": "open-vowel",
+      "title": "Open Vowel",
+      "hook": "Your phone doesn't listen for words — it listens for consonants, so the room can groan, hum and swoop all it likes, but the instant a hard S or T leaves your mouth your channel fills with static.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "reading-distance",
+      "title": "Reading Distance",
+      "hook": "Your phone is both your private clue feed and the snitch that hears you — the only way to say something loud enough for the room is to walk your screen away and let your clues scroll past unread.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "that-one-s-me",
+      "title": "That One's Me",
+      "hook": "The map-holder gets a half-second radar flash of three identical white dots and has to figure out which dot is which friend before steering any of them home.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "memory"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "which-one-s-blue",
+      "title": "Which One's Blue",
+      "hook": "You hold the only map and you are screaming correct directions at people whose phones are privately refusing them for reasons nobody in the room can translate into words.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "full-scan",
+      "title": "Full Scan",
+      "hook": "A single-player roguelike deckbuilder where you are the query planner and every enemy's HP number on screen is only an *estimate* — stale statistics are how you die.",
+      "tags": [
+        "game",
+        "deckbuilder",
+        "roguelike",
+        "sql"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "press-check",
+      "title": "Press Check",
+      "hook": "pytest, but the thing under test is the PDF your pipeline just generated — deterministic geometry assertions for overlap and clipping, plus a handful of cached vision-model assertions for the fuzzy stuff.",
+      "tags": [
+        "computer-vision",
+        "devtool",
+        "ci",
+        "llm"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-08-05"
+    },
+    {
       "slug": "arm-s-length",
       "title": "Arm's Length",
       "hook": "Your phone hands you a secret rule about who you must be standing nearest to, phones range each other with inaudible chirps, and you have 90 seconds to physically herd four adults into position without ever saying what you need.",
