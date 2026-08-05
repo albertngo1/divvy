@@ -1,6 +1,117 @@
 {
-  "lastScan": "2026-08-04",
+  "lastScan": "2026-08-05",
   "ideas": [
+    {
+      "slug": "arm-s-length",
+      "title": "Arm's Length",
+      "hook": "Your phone hands you a secret rule about who you must be standing nearest to, phones range each other with inaudible chirps, and you have 90 seconds to physically herd four adults into position without ever saying what you need.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "social-deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "off-camber",
+      "title": "Off Camber",
+      "hook": "Every phone secretly needs to rest at a different impossible angle somewhere in your living room, all at the same time — and the person still hunting for a slope is the one wobbling everyone else's off.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "room-scale"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "reading-glasses",
+      "title": "Reading Glasses",
+      "hook": "A ten-word sentence is hidden behind boxes on the TV, and every phone shows you a complete, fluent, confidently wrong version of it — the true words are only the ones your four different hallucinations happen to agree on.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-information",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "full-stop",
+      "title": "Full Stop",
+      "hook": "The room writes one sentence together, but after every word the tiny model rolls a die weighted by how much it wants to put a period there — and each phone is secretly praying the sentence dies at a different length.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "four-hands",
+      "title": "Four Hands",
+      "hook": "One unbroken ink line on the TV, and each phone owns exactly one degree of freedom of the pen — heading, speed, width, or where the page even is.",
+      "tags": [
+        "party",
+        "drawing",
+        "cooperative",
+        "keepsake"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "remailer",
+      "title": "Remailer",
+      "hook": "Your sentence gets laundered through two other people's phones — it only survives on the final printed page if the room can't tell it was ever yours.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "social-deduction"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "turkish-i",
+      "title": "Turkish I",
+      "hook": "A live disagreement matrix for Unicode case folding that shows you exactly which strings your signup validator calls distinct while your database calls them the same person.",
+      "tags": [
+        "language",
+        "security",
+        "devtool"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "peer-dependency",
+      "title": "Peer Dependency",
+      "hook": "A single-player deckbuilder where the deck is your actual lockfile — every card is a package you really installed, and the ones with real CVEs shuffle curses into your hand at the worst moment.",
+      "tags": [
+        "game",
+        "deckbuilder",
+        "roguelike",
+        "security"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-08-05"
+    },
     {
       "slug": "still-wet",
       "title": "Still Wet",
