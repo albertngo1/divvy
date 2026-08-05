@@ -2,6 +2,132 @@
   "lastScan": "2026-08-05",
   "ideas": [
     {
+      "slug": "crosshatch",
+      "title": "Crosshatch",
+      "hook": "Everyone draws a secret letter on one shared canvas at the same time, and any line that crosses someone else's is erased for both — so the room is really fighting over empty space it can see but can't claim.",
+      "tags": [
+        "party",
+        "drawing",
+        "real-time",
+        "anti-coordination"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "point-taken",
+      "title": "Point Taken",
+      "hook": "Everyone secretly gets a thing in the room to point their phone at — but two people pointing within 15° of each other cancel both, so the game becomes a silent staring contest over who abandons their real target.",
+      "tags": [
+        "party",
+        "sensor",
+        "anti-coordination",
+        "bluffing"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "hush-money",
+      "title": "Hush Money",
+      "hook": "Half the room needs to shout to finish their jobs and half needs dead silence to finish theirs, the TV meters the actual noise in the room, and \"EVERYBODY SHUT UP\" is itself loud enough to blow it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "use-your-words",
+      "title": "Use Your Words",
+      "hook": "Every word of the order lives in someone else's mouth — you have to describe the word you're forbidden to say and hope its owner recognizes it and shouts it into the slot before the timer runs out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "wordgame"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "cocktail-party",
+      "title": "Cocktail Party",
+      "hook": "Every phone screams a different inaudible tone and listens for the others, so the room becomes a proximity graph you can only map by physically walking toward people and watching which anonymous bar goes up.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "deviation-card",
+      "title": "Deviation Card",
+      "hook": "Your phone's compass lies whenever it's near iron — so the game is a silent race to find the spots in the room where it lies the most, or the least, and nobody knows which one you're hunting.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "social-deduction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "dead-metaphor",
+      "title": "Dead Metaphor",
+      "hook": "A prose linter that tags every idiom with the world it came from — war, sailing, farming, poker — and lights up red when one sentence drags a battlefield, a barn, and a card table into the same clause.",
+      "tags": [
+        "language",
+        "writing",
+        "nlp",
+        "data-viz"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "season-to-taste",
+      "title": "Season to Taste",
+      "hook": "Paste a restaurant menu and it composes a course-by-course soundtrack engineered from published crossmodal research — high consonant bells for the sorbet, detuned low brass for the bitter chocolate — so the room's music is literally seasoning the food.",
+      "tags": [
+        "music",
+        "audio",
+        "generative",
+        "language"
+      ],
+      "score": 73,
+      "source": "arxiv",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "lookback-time",
+      "title": "Lookback Time",
+      "hook": "A screensaver that spends your idle minutes flying through the real Rubin LSST galaxy catalog — and every time you come back, the galaxy you stopped at is pinned to your menubar forever, so being away from your computer is how you build a private atlas of the universe.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "astronomy",
+        "whimsy"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-05"
+    },
+    {
       "slug": "aldis-lamp",
       "title": "Aldis Lamp",
       "hook": "Hold your phone screen-outward like a signal lamp you can't see, hunt your secret mark by aiming your flickering screen at their front camera — and every time you turn the phone around to remember who your mark is, you go dark and blind.",
