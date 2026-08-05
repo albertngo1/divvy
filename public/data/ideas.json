@@ -2,6 +2,90 @@
   "lastScan": "2026-08-05",
   "ideas": [
     {
+      "slug": "lane-discipline",
+      "title": "Lane Discipline",
+      "hook": "A tower-defense wave where the monsters are anonymous gray blobs on the TV and only the phone whose zone they're currently crossing can see what they actually are — so the game is shouting accurate intel downstream before it goes stale.",
+      "tags": [
+        "party",
+        "cooperative",
+        "tower-defense",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "finish-my-sentence",
+      "title": "Finish My Sentence",
+      "hook": "Your phone holds the first halves of commands and someone else's phone holds the second halves — and the machine will happily execute any grammatically valid nonsense you accidentally assemble out loud.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "lean-in",
+      "title": "Lean In",
+      "hook": "Every phone is a lock that opens for whoever's voice it hears loudest — so shout the password and you'll unlock your neighbor's phone instead, and the only way in is to lean across the table and whisper right into the handset.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "wind-chest",
+      "title": "Wind Chest",
+      "hook": "A browser sandbox where you plumb bellows, siphons, and weighted reservoirs into a pipe organ that plays worse as your engineering gets sloppier — and the wheezing, sagging, overblowing result is the instrument.",
+      "tags": [
+        "music",
+        "audio",
+        "sim",
+        "whimsy"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "prevailing-price",
+      "title": "Prevailing Price",
+      "hook": "Paste the municipal bond you bought last Tuesday and it finds the same CUSIP trading between dealers that same afternoon, then tells you — in dollars, in yield, and in months of coupon — exactly how much your broker kept.",
+      "tags": [
+        "finance",
+        "markets",
+        "dashboard",
+        "data-viz"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "altimeter-setting",
+      "title": "Altimeter Setting",
+      "hook": "Every airliner overhead is quietly broadcasting the difference between its GPS altitude and its pressure altitude — harvest a few hundred of them and you can draw a live barometric map of your whole region without owning a single weather station.",
+      "tags": [
+        "data-viz",
+        "map",
+        "gis",
+        "visualization"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-08-05"
+    },
+    {
       "slug": "water-hammer",
       "title": "Water Hammer",
       "hook": "One player holds the pipe network on their phone but can't see a single gauge; the other three each hold one valve and one lever, know nothing about what they're connected to, and will burst the whole system if they shut it too fast.",
