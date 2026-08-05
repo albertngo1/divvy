@@ -2,6 +2,132 @@
   "lastScan": "2026-08-05",
   "ideas": [
     {
+      "slug": "both-fit",
+      "title": "Both Fit",
+      "hook": "Four detectives each hold two private clues about the same case, and one detective's clues are true — of a different, perfectly consistent solution, which they'll only discover if they're smart enough to notice their world never contradicts itself.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "deduction",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "out-of-phase",
+      "title": "Out of Phase",
+      "hook": "After every either/or prompt your phone privately tells you who matched you — except one player's feed has a single other person's dots flipped for the whole game, so two friends walk into the room insisting they're opposites and only a third witness can say which one is broken.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "set-it-down",
+      "title": "Set It Down",
+      "hook": "Every phone buzzes a secret rhythm into whatever it's resting on, and the only way to find out who's sharing your table is to feel them through the wood.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "quarter-turn",
+      "title": "Quarter Turn",
+      "hook": "Four phones lie flat on the coffee table as physical puzzle tiles — each screen shows one secret pipe segment, and the only control is grabbing the actual device and rotating it until the water finally makes it across the table.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "scale-model",
+      "title": "Scale Model",
+      "hook": "Everyone rates the same three objects on a different secret ruler, and then you stare at a wall of anonymous dots trying to work out which invisible question each person was answering.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "lead-the-witness",
+      "title": "Lead the Witness",
+      "hook": "Everyone chats normally about a mundane prompt on the TV while each phone secretly hunts for a different category of word — and you only score when someone *else* says one, so the whole room is quietly steering the conversation into traps.",
+      "tags": [
+        "party",
+        "audio",
+        "wordgame",
+        "social-deduction"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "exit-interview",
+      "title": "Exit Interview",
+      "hook": "A scanner that routes only its own canaries through every node in those \"free V2Ray servers, updated every 15 minutes\" lists and grades which exits are quietly stripping your TLS, replaying your DNS, and selling your traffic.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics",
+        "cli"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "warm-front",
+      "title": "Warm Front",
+      "hook": "Point your webcam at a bookshelf and watch the invisible air in your room — breath, coffee steam, the heat off your laptop — bloom into living generative art you can hang as a wallpaper.",
+      "tags": [
+        "graphics",
+        "physics",
+        "generative",
+        "desktop-toy"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "half-life",
+      "title": "Half-Life",
+      "hook": "Every temporary hack in your company gets a real expiry date, and when it passes the bot opens the revert PR and gets progressively louder until someone deals with it.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 64,
+      "source": "lobsters",
+      "created": "2026-08-05"
+    },
+    {
       "slug": "crosshatch",
       "title": "Crosshatch",
       "hook": "Everyone draws a secret letter on one shared canvas at the same time, and any line that crosses someone else's is erased for both — so the room is really fighting over empty space it can see but can't claim.",
