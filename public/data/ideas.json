@@ -2,6 +2,118 @@
   "lastScan": "2026-08-05",
   "ideas": [
     {
+      "slug": "aldis-lamp",
+      "title": "Aldis Lamp",
+      "hook": "Hold your phone screen-outward like a signal lamp you can't see, hunt your secret mark by aiming your flickering screen at their front camera — and every time you turn the phone around to remember who your mark is, you go dark and blind.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "camera"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "table-talk",
+      "title": "Table Talk",
+      "hook": "Everyone's hands go under the table, one person secretly knocks the underside, and the four phones lying face-up on top become a distributed contact microphone that draws the knock as a glowing blob on the TV.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "spatial"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "partial-panel",
+      "title": "Partial Panel",
+      "hook": "Five people land a plane by reading five gauges out loud, one gauge is silently drifting, and the moment its owner realizes it's them they get to choose between confessing and crashing everyone.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "false-color",
+      "title": "False Color",
+      "hook": "The TV shows one unlabeled chart, every phone holds the private key that decodes it, and exactly one player's key has two categories quietly swapped — so the imposter argues sincerely, fluently, and wrong.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "browser-game",
+        "dataviz"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "bid-with-time",
+      "title": "Bid With Time",
+      "hook": "An auction where nobody has money — you bid by giving away seconds off your own clock, and only your phone knows how little you have left.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "wheel-cut",
+      "title": "Wheel Cut",
+      "hook": "A booster draft where the pack is a live shared slot machine on the TV — every card you pass is chosen simultaneously, and your phone secretly shows the one card you know is coming back around.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "major-order",
+      "title": "Major Order",
+      "hook": "Your house is a galactic war map: every domain of upkeep is a planet whose liberation percentage decays on its own half-life, and each week entropy issues one Major Order you can actually fail.",
+      "tags": [
+        "habits",
+        "chores",
+        "productivity",
+        "sim"
+      ],
+      "score": 63,
+      "source": "steam",
+      "created": "2026-08-05"
+    },
+    {
+      "slug": "bot-special",
+      "title": "Bot Special",
+      "hook": "A crawler that fetches every page twice — once as Chrome, once as ClaudeBot — and publishes a public diff index of every site quietly serving language models a different reality.",
+      "tags": [
+        "llm",
+        "provenance",
+        "privacy",
+        "data-viz"
+      ],
+      "score": 78,
+      "source": "hn",
+      "created": "2026-08-05"
+    },
+    {
       "slug": "lane-discipline",
       "title": "Lane Discipline",
       "hook": "A tower-defense wave where the monsters are anonymous gray blobs on the TV and only the phone whose zone they're currently crossing can see what they actually are — so the game is shouting accurate intel downstream before it goes stale.",
