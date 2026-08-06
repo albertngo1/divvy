@@ -2,6 +2,117 @@
   "lastScan": "2026-08-06",
   "ideas": [
     {
+      "slug": "take-the-floor",
+      "title": "Take the Floor",
+      "hook": "Everyone has a private phrase they must say out loud into their own phone, the room shares one 100-second clock, and any two people speaking at once garbles both of them — so the only way through is to silently negotiate a speaking order without knowing whose phrase is fourteen words long.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "strike-that",
+      "title": "Strike That",
+      "hook": "A chaotic friend keeps changing the plan over text, every message self-destructs after four seconds on your phone alone, and one player's feed silently lost the retraction everyone else got.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "memory"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "read-the-room",
+      "title": "Read the Room",
+      "hook": "Everyone privately watches a live needle showing what the room thinks — but one phone's needle is mirrored, so that player sincerely herds everyone the wrong way and doesn't know it's them.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "cast-off",
+      "title": "Cast Off",
+      "hook": "Three hands of cards, one secret target none of you can see, and the only way to talk is to throw something away in front of everyone.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "hot-spot",
+      "title": "Hot Spot",
+      "hook": "Every phone is a private searchlight over the same field of dots, and the only clue anyone gets is that the TV quietly warms up where two beams already overlap.",
+      "tags": [
+        "party",
+        "cooperative",
+        "convergence",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "pull-early",
+      "title": "Pull Early",
+      "hook": "Your thermometer app beeps at the target temperature, which is already too late — this one fits a heat-conduction model to your roast in real time and tells you the exact moment to pull so that carryover lands the center dead on.",
+      "tags": [
+        "health",
+        "physics",
+        "quantified-self"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "regression-path",
+      "title": "Regression Path",
+      "hook": "Paste a paragraph and watch a simulated reader's eyes move across it — every fixation, every saccade, and every place they gave up and jumped backward to reread.",
+      "tags": [
+        "writing",
+        "nlp",
+        "visualization",
+        "llm"
+      ],
+      "score": 77,
+      "source": "arxiv",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "sea-state",
+      "title": "Sea State",
+      "hook": "A screensaver of the actual ocean — not a procedural fake, but the real directional wave spectrum measured by your nearest NOAA buoy in the last hour, rendered as water.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "data-viz",
+        "nature"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-08-06"
+    },
+    {
       "slug": "close-enough",
       "title": "Close Enough",
       "hook": "Four people write one sentence together, one word at a time, and one of them is reading a copy where every word the others played has been quietly swapped for its near-neighbour.",
