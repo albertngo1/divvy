@@ -1,6 +1,104 @@
 {
-  "lastScan": "2026-08-05",
+  "lastScan": "2026-08-06",
   "ideas": [
+    {
+      "slug": "sotto-voce",
+      "title": "Sotto Voce",
+      "hook": "A volume ceiling on the TV ratchets down toward a whisper while each phone privately holds messages that are too long to survive the quiet — so the room has to decide whose sentence is worth spending the loud window on, knowing that deciding costs the loud window.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "hum-a-few-bars",
+      "title": "Hum a Few Bars",
+      "hook": "A four-ring lock opens only when two players hold a musical interval together — but words are illegal, so you have to find your partner by humming at strangers until one of them hums back in tune.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "unit-b",
+      "title": "Unit B",
+      "hook": "Everyone gets a different private close-up of the same apartment and has to describe it into a shared floor plan — but one player's crops are secretly from the near-identical unit next door, so almost everything they say is true.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "local-rule",
+      "title": "Local Rule",
+      "hook": "Everyone plays tiles onto one shared board, and your phone helpfully highlights every legal square — except one player's rules card has an erratum, so their phone is confidently lighting up squares the rest of the table considers illegal.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "sort-or-ship",
+      "title": "Sort or Ship",
+      "hook": "For scrap yards: point your handheld XRF gun at a mixed load and get a live answer to the only question that matters — is another hour of hand-sorting worth more than today's mill spread, or do you ship it as-is?",
+      "tags": [
+        "business",
+        "b2b",
+        "saas",
+        "logistics"
+      ],
+      "score": 62,
+      "source": "wild",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "forced-move",
+      "title": "Forced Move",
+      "hook": "Paste a scene of English dialogue and it highlights every sentence where translating into Japanese, Spanish, or Russian would force you to reveal something you deliberately left ambiguous — the narrator's gender, how close these two people are, whether the knife was one or many.",
+      "tags": [
+        "language",
+        "translation",
+        "writing",
+        "nlp"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "grain-boundary",
+      "title": "Grain Boundary",
+      "hook": "A metallurgy-detective puzzle game: you get a micrograph of mystery metal, a budget of destructive tests, and must name the event that made it — a forge weld, a house fire, a meteorite falling for four million years, or a blast.",
+      "tags": [
+        "puzzle",
+        "materials",
+        "sim",
+        "procedural"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-06"
+    },
     {
       "slug": "both-fit",
       "title": "Both Fit",
