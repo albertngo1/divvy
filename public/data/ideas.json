@@ -2,6 +2,118 @@
   "lastScan": "2026-08-06",
   "ideas": [
     {
+      "slug": "common-ancestor",
+      "title": "Common Ancestor",
+      "hook": "You each build a four-part machine from the same public bin of parts, and the earlier in the build two of you happen to grab the same part, the more of your machine falls off.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "drafting",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "exempt-in-part",
+      "title": "Exempt in Part",
+      "hook": "One shared classified document on the TV, one black redaction bar per phone — and any two bars that touch both dissolve, exposing exactly the secret you were hiding.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "spatial",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "number-four",
+      "title": "Number Four",
+      "hook": "Six items, one shared conversation, and one phone whose list is secretly shuffled — and nobody, not even the odd player, is told whose.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "steer-clear",
+      "title": "Steer Clear",
+      "hook": "You're giving clues for a word while two opponents sit there holding private landmines they planted in your vocabulary — and they only detonate when you say the word out loud.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction",
+        "real-time"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "blind-blurt",
+      "title": "Blind Blurt",
+      "hook": "Anomia where you're the only person in the room who can't see your own category — you shout guesses into the dark and triangulate what you are from whatever the table lets through.",
+      "tags": [
+        "party",
+        "wordgame",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "herbarium-clock",
+      "title": "Herbarium Clock",
+      "hook": "A screensaver that quietly assembles an inked herbarium sheet of exactly the plants flowering within your county this week, effort-normalized from a million strangers' observations.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "nature",
+        "data-viz"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "boots-into-itself",
+      "title": "Boots Into Itself",
+      "hook": "Drop in a photo and get back a file whose raw bytes are simultaneously the picture and a working program that draws that picture — every pixel is a legal opcode.",
+      "tags": [
+        "generative",
+        "art",
+        "graphics",
+        "whimsy"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "off-the-fast-path",
+      "title": "Off the Fast Path",
+      "hook": "A CI check that ignores wall-clock noise entirely and fails your PR the moment a hot function silently falls out of the JIT's optimizing tier — naming the unrelated line that poisoned it.",
+      "tags": [
+        "devtool",
+        "ci",
+        "observability",
+        "telemetry"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-08-06"
+    },
+    {
       "slug": "sold-as-seen",
       "title": "Sold As Seen",
       "hook": "You're dealt secret prop bets on the song playing in the background that you never chose and can't fold — the only exit is selling one to a friend who can see its grade but not its text, so every offer is either a gift or a lemon.",
