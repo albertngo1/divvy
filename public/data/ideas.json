@@ -2,6 +2,103 @@
   "lastScan": "2026-08-06",
   "ideas": [
     {
+      "slug": "what-s-left",
+      "title": "What's Left",
+      "hook": "An inverted draft where you never pick a card — you delete one from the pack in your hands, pass it on, and eventually get back the mangled remains of your own.",
+      "tags": [
+        "party",
+        "drafting",
+        "hidden-information",
+        "card-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "bigger-half",
+      "title": "Bigger Half",
+      "hook": "One player secretly worth-ranks the loot and splits it into three bundles — and the other two must silently claim different bundles or both walk away with nothing.",
+      "tags": [
+        "party",
+        "auction",
+        "negotiation",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "obstructed-view",
+      "title": "Obstructed View",
+      "hook": "The TV secretly whispers different orders to different corners of its own screen, but the signal only carries about a metre — so five people end up shoulder-barging each other out of the way with their cameras up.",
+      "tags": [
+        "party",
+        "sensor",
+        "spatial",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "hand-on-the-table",
+      "title": "Hand on the Table",
+      "hook": "Phones lying on one table talk to each other by buzzing through the wood — and a traitor kills the signal by quietly laying a palm flat on the surface.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "reads-like-nobody",
+      "title": "Reads Like Nobody",
+      "hook": "Mines your git history as a decade-long corpus of your own prose, then marks the paragraphs in today's draft that read less like you in 2019 and more like nobody in particular.",
+      "tags": [
+        "language",
+        "writing",
+        "nlp",
+        "quantified-self"
+      ],
+      "score": 63,
+      "source": "lobsters",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "just-this-once",
+      "title": "Just This Once",
+      "hook": "Every exception you grant yourself gets a hard expiry date, and after a few months it hands you the actuarial truth: your median 'just for tonight' actually lasts nineteen days.",
+      "tags": [
+        "habits",
+        "quantified-self",
+        "productivity",
+        "menubar"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "dispute-window",
+      "title": "Dispute Window",
+      "hook": "Prediction markets don't resolve on the headline, they resolve on the rules text — this reads every market's fine print like a hostile lawyer and ranks where the wording, not the world, decides who gets paid.",
+      "tags": [
+        "finance",
+        "prediction-market",
+        "nlp"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-08-06"
+    },
+    {
       "slug": "hard-of-hearing",
       "title": "Hard of Hearing",
       "hook": "Your secrets only reach the phones that physically heard you say them, so the game becomes a room-shaped network you tune with your own volume — whisper and nobody gets it, speak up and everybody does.",
