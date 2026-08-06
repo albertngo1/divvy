@@ -2,6 +2,104 @@
   "lastScan": "2026-08-06",
   "ideas": [
     {
+      "slug": "close-enough",
+      "title": "Close Enough",
+      "hook": "Four people write one sentence together, one word at a time, and one of them is reading a copy where every word the others played has been quietly swapped for its near-neighbour.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "wrong-file",
+      "title": "Wrong File",
+      "hook": "Three players get a dossier on the person sitting across from them — one of those dossiers is somebody else's real secrets, filed under the wrong name, and that somebody is in the room listening.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "conversation-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "sliver",
+      "title": "Sliver",
+      "hook": "Wavelength where the hidden target is the overlap of three private arcs — nobody can see the answer, so every clue is an honest description of a band that's too wide.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "second-buzz",
+      "title": "Second Buzz",
+      "hook": "Anomia's shout-race, except you can't see who you match — buzzing first is a bid, buzzing second is a read, and a wrong pair costs you both.",
+      "tags": [
+        "party",
+        "real-time",
+        "hidden-information",
+        "bluffing"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "not-on-mine",
+      "title": "Not on Mine",
+      "hook": "Twelve pictures on the TV, and the room must all tap the same one — except two are silently missing from your phone, different two for everybody, and the vote tally is the only sentence anyone gets to speak.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "same-bird",
+      "title": "Same Bird",
+      "hook": "The TV shows a busy park full of moving creatures, but your phone is a narrow pair of binoculars — and the room only scores when every pair is silently locked on the exact same bird.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "halo-odds",
+      "title": "Halo Odds",
+      "hook": "A 14-day forecast for the sky's rare optics — 22° halos, sun dogs, circumzenithal arcs, green flash — computed for your exact address and your actual horizon.",
+      "tags": [
+        "physics",
+        "nature",
+        "astronomy",
+        "gis"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-08-06"
+    },
+    {
       "slug": "know-too-much",
       "title": "Know Too Much",
       "hook": "You all have to sort the same six pictures into the same order without talking — but your phone quietly shows you their prices, hers shows the years, and his shows nothing at all, and only the ignorant one can be followed.",
