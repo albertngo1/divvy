@@ -2,6 +2,118 @@
   "lastScan": "2026-08-06",
   "ideas": [
     {
+      "slug": "sold-as-seen",
+      "title": "Sold As Seen",
+      "hook": "You're dealt secret prop bets on the song playing in the background that you never chose and can't fold — the only exit is selling one to a friend who can see its grade but not its text, so every offer is either a gift or a lemon.",
+      "tags": [
+        "party",
+        "betting-market",
+        "audio",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "curb-appeal",
+      "title": "Curb Appeal",
+      "hook": "The room scrolls a real house listing with the price hidden and every photo blurred — and you can spend your own chips to un-blur photos on YOUR phone only, so the tell isn't the house, it's watching which photos your friends thought were worth paying for.",
+      "tags": [
+        "party",
+        "betting-market",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "chandelier-bid",
+      "title": "Chandelier Bid",
+      "hook": "Every lot in the auction was secretly consigned by one of the players, who can anonymously bump the price up to shill you — and gets stuck owning the junk if nobody bumps back.",
+      "tags": [
+        "party",
+        "auction",
+        "social-deduction",
+        "bluffing"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "balance-inquiry",
+      "title": "Balance Inquiry",
+      "hook": "You can see exactly how much money everyone else has left — everyone except you, whose bank balance you must infer from how confidently the room bids against you.",
+      "tags": [
+        "party",
+        "auction",
+        "hidden-information",
+        "bluffing"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "choke-point",
+      "title": "Choke Point",
+      "hook": "Four players each walk a different path through the same tiny language model's continuation tree, and the only shared map is entropy — corridors that narrow to one door are the only place a room can agree to meet.",
+      "tags": [
+        "party",
+        "cooperative",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "bits-per-switch",
+      "title": "Bits Per Switch",
+      "hook": "A menubar widget that models your window-focus history as a Markov chain and shows one number — the entropy rate of your attention — with a ghost preview of the app it thinks you're about to switch to.",
+      "tags": [
+        "menubar",
+        "ambient",
+        "quantified-self",
+        "visualization"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "undocumented",
+      "title": "Undocumented",
+      "hook": "A single-player sysadmin sim where each run is one admin's tenure, and when you burn out the next admin inherits every cron job you wrote — with the comments stripped, leaving only the name you typed at 2am.",
+      "tags": [
+        "sim",
+        "roguelike",
+        "homelab",
+        "narrative"
+      ],
+      "score": 76,
+      "source": "steam",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "born-on-date",
+      "title": "Born On Date",
+      "hook": "Point your phone at a corroded HVAC data plate and it tells you the unit's true manufacture date, refrigerant, and whether the customer you're about to sell a $9k replacement to still has four years of free parts warranty.",
+      "tags": [
+        "computer-vision",
+        "b2b",
+        "automation",
+        "logistics"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-08-06"
+    },
+    {
       "slug": "what-s-left",
       "title": "What's Left",
       "hook": "An inverted draft where you never pick a card — you delete one from the pack in your hands, pass it on, and eventually get back the mangled remains of your own.",
