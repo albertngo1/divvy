@@ -2,6 +2,76 @@
   "lastScan": "2026-08-06",
   "ideas": [
     {
+      "slug": "know-too-much",
+      "title": "Know Too Much",
+      "hook": "You all have to sort the same six pictures into the same order without talking — but your phone quietly shows you their prices, hers shows the years, and his shows nothing at all, and only the ignorant one can be followed.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-information",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "second-witness",
+      "title": "Second Witness",
+      "hook": "Every phone secretly plays a different four-second window of the same ten-second scene, and the room only wins if all three of you tap the exact same set of moments you believe everyone witnessed.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "non-dominated",
+      "title": "Non-Dominated",
+      "hook": "A screensaver where twenty little ragdolls evolve while you're at lunch — each one the champion of a different tradeoff between speed and effort — and the whole Pareto front walks across your monitor in polyrhythm, footfalls as percussion.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "generative",
+        "sim"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "first-attested",
+      "title": "First Attested",
+      "hook": "Paste your Regency novel, set the dial to 1813, and every word — and every *sense* of a word — that hadn't been coined yet lights up, with a period-correct substitute one click away.",
+      "tags": [
+        "language",
+        "writing",
+        "nlp",
+        "data-viz"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "walk-in-cooler",
+      "title": "Walk-In Cooler",
+      "hook": "Public liquor-license surrenders, lapsed health inspections and UCC-1 equipment liens, fused into a weekly list of restaurants that will be dark in 90 days — sold to the people who want the lease, the fryer, or the customer.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "gis"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-06"
+    },
+    {
       "slug": "common-ancestor",
       "title": "Common Ancestor",
       "hook": "You each build a four-part machine from the same public bin of parts, and the earlier in the build two of you happen to grab the same part, the more of your machine falls off.",
