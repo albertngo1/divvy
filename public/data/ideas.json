@@ -2,6 +2,132 @@
   "lastScan": "2026-08-06",
   "ideas": [
     {
+      "slug": "hard-of-hearing",
+      "title": "Hard of Hearing",
+      "hook": "Your secrets only reach the phones that physically heard you say them, so the game becomes a room-shaped network you tune with your own volume — whisper and nobody gets it, speak up and everybody does.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "information-market"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "last-word",
+      "title": "Last Word",
+      "hook": "The TV holds exactly one sentence — the last thing anyone said — and it only pays out if the room can shut up for four seconds, but only you know whether the word sitting up there is worth your silence.",
+      "tags": [
+        "party",
+        "audio",
+        "wordgame",
+        "social-deduction"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "overlap",
+      "title": "Overlap",
+      "hook": "Everyone holds seven letter tiles, only four of which exist on every other phone — and the room wins by silently spelling the exact same word out of letters nobody can name aloud.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "convergence"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "same-mistake",
+      "title": "Same Mistake",
+      "hook": "The right answer is on nobody's phone — three players must silently agree on the exact same wrong one, from three different lists of lies.",
+      "tags": [
+        "party",
+        "convergence",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "seam-allowance",
+      "title": "Seam Allowance",
+      "hook": "Four people each paint one quarter of a picture none of them can see, and the finished thing exists exactly once — when you lay all four phones face-up on the table in a square.",
+      "tags": [
+        "party",
+        "keepsake",
+        "drawing",
+        "cooperative"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "also-true",
+      "title": "Also True",
+      "hook": "Everyone anonymously contributes a true statement about themselves, and the only way one survives onto the printed poster is if someone else quietly admits it's also true of them.",
+      "tags": [
+        "party",
+        "keepsake",
+        "anonymous",
+        "wordgame"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "six-second-hum",
+      "title": "Six Second Hum",
+      "hook": "Speeds up live seismometer data 600× so you can hear the low ocean-storm growl the ground under your feet never stops making — and pans it toward the storm actually causing it.",
+      "tags": [
+        "nature",
+        "audio",
+        "generative",
+        "data-viz"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "break-clause",
+      "title": "Break Clause",
+      "hook": "Prices every 'save 20% with annual billing' offer as what it actually is — you selling the vendor an option to quit, usually for far less than it's worth.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "saas",
+        "economics"
+      ],
+      "score": 69,
+      "source": "producthunt",
+      "created": "2026-08-06"
+    },
+    {
+      "slug": "trip-step",
+      "title": "Trip Step",
+      "hook": "An editing tool that finds the sentences your reader will parse wrong on the first pass and have to back up and re-read — the potholes no grammar checker can see.",
+      "tags": [
+        "language",
+        "writing",
+        "nlp",
+        "devtool"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-08-06"
+    },
+    {
       "slug": "sotto-voce",
       "title": "Sotto Voce",
       "hook": "A volume ceiling on the TV ratchets down toward a whisper while each phone privately holds messages that are too long to survive the quiet — so the room has to decide whose sentence is worth spending the loud window on, knowing that deciding costs the loud window.",
