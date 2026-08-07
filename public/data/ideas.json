@@ -2,6 +2,104 @@
   "lastScan": "2026-08-07",
   "ideas": [
     {
+      "slug": "save-your-breath",
+      "title": "Save Your Breath",
+      "hook": "The whole room plays twenty questions against the TV at once, and any two people who ask the same thing in different words both get their turn thrown in the bin.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "anti-coordination"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "lot-line",
+      "title": "Lot Line",
+      "hook": "Everyone silently claims a wedge of the same circle — the bigger your grab, the blurrier your view of where everyone else's fence already is.",
+      "tags": [
+        "party",
+        "real-time",
+        "spatial",
+        "anti-coordination"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "two-blocks-down",
+      "title": "Two Blocks Down",
+      "hook": "The map-holder can only answer yes-or-no questions, but every question they answer burns a piece of their own map away — so the better you interrogate them, the blinder they get.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "hold-the-map",
+      "title": "Hold the Map",
+      "hook": "One player's phone is the only map of a dark house, and they can only steer the other three by pressing four unlabeled colored buttons that mean whatever the room decides they mean.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "ruderal",
+      "title": "Ruderal",
+      "hook": "An ambient desktop lot you cannot plant anything in — you get a bare patch of disturbed ground seeded only with the weeds actually recorded in your county, real local weather drives it in real time, and your only verbs are destructive ones: mow, burn, flood, graze.",
+      "tags": [
+        "nature",
+        "ambient",
+        "sim",
+        "idle"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "working-set",
+      "title": "Working Set",
+      "hook": "A grid puzzle where the board is bigger than your memory: only the last twelve tiles you touched stay visible, everything evicted keeps simulating in the dark, and winning means planning an access pattern instead of a route.",
+      "tags": [
+        "puzzle",
+        "game",
+        "procedural",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "design-day",
+      "title": "Design Day",
+      "hook": "Type a US street address and get a permit-ready ACCA Manual J load calculation in 90 seconds, assembled from parcel records, satellite roof geometry, and ASHRAE design-day weather — the two-hour spreadsheet ritual every HVAC contractor skips and every plan reviewer now demands.",
+      "tags": [
+        "business",
+        "b2b",
+        "automation",
+        "gis"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-08-07"
+    },
+    {
       "slug": "says-here",
       "title": "Says Here",
       "hook": "Your phone hands you a tidy printout of the five buttons you just pressed — and one player's printout is a lie, so the most confident testimony in the room is the only wrong one.",
