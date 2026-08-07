@@ -2,6 +2,118 @@
   "lastScan": "2026-08-07",
   "ideas": [
     {
+      "slug": "delay-line",
+      "title": "Delay Line",
+      "hook": "Everything you say is held and released into the room minutes later on a delay only your phone knows — so every word you speak now is a landmine buried in your teammates' future.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "co-traveler",
+      "title": "Co-Traveler",
+      "hook": "Your phone pays you for every second you and your secret partner are quiet at the same time — while the TV draws that exact correlation on a graph everyone can see.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "sensor"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "shuffle-in",
+      "title": "Shuffle In",
+      "hook": "A push-your-luck deckbuilder where all fifteen cards live in one communal deck on the TV — but you secretly stocked five of them, so you're the only person who knows when your own bomb is due and exactly how greedy everyone else is being.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "push-your-luck",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "ride-it-out",
+      "title": "Ride It Out",
+      "hook": "Your stake grows every second the show runs, but somewhere in this clip is the one moment that wipes you out — and only your phone knows what it looks like.",
+      "tags": [
+        "party",
+        "betting",
+        "nerve",
+        "video"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "underlying",
+      "title": "Underlying",
+      "hook": "The TV shows a live price chart ticking off the show you're watching — nobody is told what it measures, and the clue in your pocket is the only edge you've got.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "thermal-age",
+      "title": "Thermal Age",
+      "hook": "A de-extinction lab sim built on the real depurination math, where every specimen's DNA is already shattering on a temperature-dependent clock and the honest ending is that most things are simply unreadable.",
+      "tags": [
+        "biology",
+        "sim",
+        "puzzle",
+        "procedural"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "first-kettle",
+      "title": "First Kettle",
+      "hook": "Your electricity meter is a wearable you never have to charge — this reads the shape of your day out of it and tells you your true wake time, your night wakeups, and how far your circadian rhythm has drifted this month.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "habits",
+        "telemetry"
+      ],
+      "score": 70,
+      "source": "github",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "autorun",
+      "title": "Autorun",
+      "hook": "An agent that drives dead 1990s CD-ROM software inside an emulator, reads its screens pixel-by-pixel, and pours the data trapped in it back out as CSV — a web crawler for abandonware.",
+      "tags": [
+        "computer-vision",
+        "agents",
+        "forensics",
+        "data-viz"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-08-07"
+    },
+    {
       "slug": "resection",
       "title": "Resection",
       "hook": "The mapholder can see the whole map but not a single one of you — you're standing somewhere on it feeling a draft, and each round you get to tell the room exactly one thing you notice.",
