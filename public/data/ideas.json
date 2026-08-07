@@ -2,6 +2,76 @@
   "lastScan": "2026-08-07",
   "ideas": [
     {
+      "slug": "says-here",
+      "title": "Says Here",
+      "hook": "Your phone hands you a tidy printout of the five buttons you just pressed — and one player's printout is a lie, so the most confident testimony in the room is the only wrong one.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "memory"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "left-off",
+      "title": "Left Off",
+      "hook": "The room argues about how to split eight things four ways, but one player's phone quietly shows a roster with only three names on it — so somebody in the room is being ignored by a person who has no idea they're doing it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "machine-cut",
+      "title": "Machine Cut",
+      "hook": "Photograph the drawer side, the screw, and the underside, and it dates the furniture the way an appraiser does — from tool marks — and shows its evidence chain instead of a guess.",
+      "tags": [
+        "computer-vision",
+        "provenance",
+        "side-hustle",
+        "llm"
+      ],
+      "score": 66,
+      "source": "wild",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "wears-off",
+      "title": "Wears Off",
+      "hook": "A three-minute daily aiming game that secretly runs a real motor-neuroscience experiment on you, and scores you not on the hits but on how crooked you throw once it stops cheating.",
+      "tags": [
+        "biology",
+        "quantified-self",
+        "game",
+        "sim"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "practice-hand",
+      "title": "Practice Hand",
+      "hook": "A screensaver that spends every night teaching itself to forge your handwriting, and every morning shows you six signatures and asks which one you actually wrote.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "ml",
+        "animation"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-08-07"
+    },
+    {
       "slug": "palm-down",
       "title": "Palm Down",
       "hook": "Everyone drums on the table at once so the room hears mush, but one player's phone secretly told them a rhythm to smuggle through the wood — and every other phone, lying flat at a different seat, privately sees only how loudly that rhythm arrived at *its* corner.",
