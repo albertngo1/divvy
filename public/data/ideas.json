@@ -2,6 +2,132 @@
   "lastScan": "2026-08-07",
   "ideas": [
     {
+      "slug": "palm-down",
+      "title": "Palm Down",
+      "hook": "Everyone drums on the table at once so the room hears mush, but one player's phone secretly told them a rhythm to smuggle through the wood — and every other phone, lying flat at a different seat, privately sees only how loudly that rhythm arrived at *its* corner.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "squared-up",
+      "title": "Squared Up",
+      "hook": "Phones go in your back pocket and the screens go dark — you turn your whole body to aim at a secret person while a click in one earbud tells you how close you are, and afterwards everyone privately guesses who was aiming at their back.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "physical"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "keep-alive",
+      "title": "Keep Alive",
+      "hook": "Your station faults if you stop talking, only one person in the room may talk at a time, and the sum of everyone's secret talking quotas is more than the room can possibly supply.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "going-by",
+      "title": "Going By",
+      "hook": "Every phone secretly renames its owner every twenty seconds, so the only way anyone can route work to you is if you keep shouting your new name over everyone else shouting theirs.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "training-dummy",
+      "title": "Training Dummy",
+      "hook": "Everyone spends 45 seconds heads-down on their phone beating up what they're told is a CPU practice dummy — then the TV reveals nobody fought a CPU, and you have to name whose panic you were exploiting.",
+      "tags": [
+        "party",
+        "fighting-game",
+        "social-deduction",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "dead-space",
+      "title": "Dead Space",
+      "hook": "Three phones drag loot into one shared briefcase on the TV in real time — but only you can see what your own pieces are worth, and the case won't zip shut unless the room leaves almost no empty cells.",
+      "tags": [
+        "party",
+        "real-time",
+        "spatial-puzzle",
+        "semi-cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "hangs-on-the-wall",
+      "title": "Hangs on the Wall",
+      "hook": "A generator that emits desktop wallpapers which are simultaneously valid Piet programs — the blocky abstract painting on your monitor, fed to an interpreter, prints today's date.",
+      "tags": [
+        "generative",
+        "art",
+        "graphics",
+        "wallpaper"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "plus-or-minus",
+      "title": "Plus or Minus",
+      "hook": "A world map colored not by any statistic but by how violently the world's four most-cited sources disagree about it — with a detector that flags when two \"independent\" sources are actually just copying each other.",
+      "tags": [
+        "data-viz",
+        "map",
+        "dashboard",
+        "visualization"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "sun-patch",
+      "title": "Sun Patch",
+      "hook": "A menubar toy that knows exactly which rectangle of your floor the sun is standing on right now, tells you when it will leave the reading chair, and after a year hands you a heatmap of everywhere the light has ever been in your apartment.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "desktop-toy",
+        "data-viz"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-07"
+    },
+    {
       "slug": "are-you-still-watching",
       "title": "Are You Still Watching",
       "hook": "The clip is fine. The bet is on when the room quietly gives up on it — and you are both a trader and part of the asset.",
