@@ -2,6 +2,132 @@
   "lastScan": "2026-08-07",
   "ideas": [
     {
+      "slug": "resection",
+      "title": "Resection",
+      "hook": "The mapholder can see the whole map but not a single one of you — you're standing somewhere on it feeling a draft, and each round you get to tell the room exactly one thing you notice.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "spend-a-no",
+      "title": "Spend a No",
+      "hook": "One player privately holds the maze; everyone else secretly picks a direction, and the mapholder gets only four vetoes all game — so mostly they have to sit there and watch you walk into a wall.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "mic-bleed",
+      "title": "Mic Bleed",
+      "hook": "A draft where the currency is decibels measured by your own phone — but whispering to your neighbor bleeds into their mic too, so every word you say is billed partly to whoever you say it to.",
+      "tags": [
+        "party",
+        "audio",
+        "negotiation",
+        "sensor"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "wild-track",
+      "title": "Wild Track",
+      "hook": "The TV plays a room-tone bed with one faint sound buried in it, each phone holds a different question about that sound, and the loop physically mutes the instant anyone in the room speaks — so the only way to compare notes is a five-glyph silent channel.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "off-temp",
+      "title": "Off Temp",
+      "hook": "You're secretly assigned a temperature and have to hand-write one sentence that the model measures as exactly that hot — then everyone finds out human intuitions about \"surprising\" are wildly miscalibrated.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "asymmetric-information"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "shared-cursor",
+      "title": "Shared Cursor",
+      "hook": "Four people type into one 140-character sentence at the same time, each secretly trying to bend it toward a phrase only their own phone can see getting warmer.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "steady-state",
+      "title": "Steady State",
+      "hook": "Factorio's ratio solver pointed at your fridge: it never plans a meal, it just tells you the rates — cook 1.4 batches of chili a week, buy spinach in 180g units every 4.5 days — and highlights the one bottleneck (usually your single baking sheet) making the whole line stall.",
+      "tags": [
+        "chores",
+        "habits",
+        "productivity",
+        "health"
+      ],
+      "score": 63,
+      "source": "steam",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "label-says",
+      "title": "Label Says",
+      "hook": "A bench tester that ignores what's printed on a USB-C cable and fingerprints what's actually inside it — then screams when the cable in your bag stops matching the fingerprint you recorded last month.",
+      "tags": [
+        "security",
+        "forensics",
+        "provenance",
+        "hardware"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "cat-s-eye",
+      "title": "Cat's Eye",
+      "hook": "Type a sentence and watch it grow into a wallpaper — the words become the perturbation spectrum seeding a real Kelvin–Helmholtz instability between two colorfields, so the same phrase always rolls up into the same billows and no two phrases ever look alike.",
+      "tags": [
+        "generative",
+        "wallpaper",
+        "physics",
+        "art"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-07"
+    },
+    {
       "slug": "take-the-floor",
       "title": "Take the Floor",
       "hook": "Everyone has a private phrase they must say out loud into their own phone, the room shares one 100-second clock, and any two people speaking at once garbles both of them — so the only way through is to silently negotiate a speaking order without knowing whose phrase is fourteen words long.",
