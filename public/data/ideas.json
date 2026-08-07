@@ -2,6 +2,118 @@
   "lastScan": "2026-08-07",
   "ideas": [
     {
+      "slug": "are-you-still-watching",
+      "title": "Are You Still Watching",
+      "hook": "The clip is fine. The bet is on when the room quietly gives up on it — and you are both a trader and part of the asset.",
+      "tags": [
+        "party",
+        "betting",
+        "social-deduction",
+        "hidden-information"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "eyes-up",
+      "title": "Eyes Up",
+      "hook": "A betting terminal that only works while your thumb is pressed to it and your eyes are off the TV — so every price you check costs you the scene you were betting on.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "tight-corner",
+      "title": "Tight Corner",
+      "hook": "Every phone chirps softly and listens to its own echo, so each player privately knows how enclosed they are — and the group must play cards in ascending order of enclosure, without speaking numbers, while everyone is free to crawl under the coffee table to change their number mid-game.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "audio"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "clink",
+      "title": "Clink",
+      "hook": "You have 90 seconds to physically tap your phone against one specific stranger-in-the-room's phone — except you don't know who they are yet, the only way to learn is to clink someone and find out, and every clink you make is drawn on the TV for everyone to read.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "physical"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "left-holding",
+      "title": "Left Holding",
+      "hook": "A hot-potato card game where you dump six private word cards into one shared sentence, trying to strand the next player in a corner so tight the model only allows one word.",
+      "tags": [
+        "party",
+        "wordgame",
+        "card-game",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "well-read",
+      "title": "Well Read",
+      "hook": "Every phone secretly primes the same tiny language model with a different 120-word passage, then you race to write the one sentence that reads as utterly obvious to your reader and completely deranged to everyone else's.",
+      "tags": [
+        "party",
+        "wordgame",
+        "asymmetric-information",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "rated-for",
+      "title": "Rated For",
+      "hook": "Stop trusting the ticker's name — plug a thematic ETF into a meter that reads its actual N-PORT holdings and reports what percent of your money is genuinely in the thing on the label.",
+      "tags": [
+        "finance",
+        "embeddings",
+        "markets",
+        "data-viz"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-08-07"
+    },
+    {
+      "slug": "head-of-line",
+      "title": "Head of Line",
+      "hook": "A single-player scheduling puzzle where you are the LLM inference server's batcher — evict, chunk, and admit requests by hand, and your final score isn't a number but a dot you plant on a latency-vs-throughput Pareto front.",
+      "tags": [
+        "puzzle",
+        "sim",
+        "llm",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-08-07"
+    },
+    {
       "slug": "delay-line",
       "title": "Delay Line",
       "hook": "Everything you say is held and released into the room minutes later on a delay only your phone knows — so every word you speak now is a landmine buried in your teammates' future.",
