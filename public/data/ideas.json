@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-08-07",
+  "lastScan": "2026-08-08",
   "ideas": [
+    {
+      "slug": "save-me-one",
+      "title": "Save Me One",
+      "hook": "You don't score the cards you draft — you score the one card you secretly bet nobody else would take, and everyone picks at the exact same moment, so two people reaching for the same thing destroys it forever.",
+      "tags": [
+        "party",
+        "drafting",
+        "asymmetric-info",
+        "bluffing"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "best-interest",
+      "title": "Best Interest",
+      "hook": "You never bid for yourself — you spend the wallet of the player on your left, whose secret taste card only you can see, while they loudly and confidently tell you to buy the wrong thing.",
+      "tags": [
+        "party",
+        "auction",
+        "asymmetric-info",
+        "negotiation"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "say-it-for-me",
+      "title": "Say It For Me",
+      "hook": "The order on your phone can only be executed once its key word is spoken out loud — and that exact word is on your own private banned list, so you have to trick someone else into saying it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "standing-by",
+      "title": "Standing By",
+      "hook": "Every order on your phone is addressed to someone else and stamped with a beat it must happen ON — so the room becomes a shouting, self-organizing scheduler, racing a 32-beat clock nobody's phone displays.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "black-marker",
+      "title": "Black Marker",
+      "hook": "One dense page of real prose on the TV, and every single word on it is secretly owned by exactly one player — carve a blackout poem out of it together, spending a shared fourteen-word budget, while nobody can see anyone else's vocabulary.",
+      "tags": [
+        "party",
+        "cooperative",
+        "shared-artifact",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "point-of-order",
+      "title": "Point of Order",
+      "hook": "The room drafts a house charter it will actually live by — but any rule whose author the group correctly fingers gets permanently blacked out on the printed keepsake, with their name under the bar.",
+      "tags": [
+        "party",
+        "shared-artifact",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "rarest-order",
+      "title": "Rarest Order",
+      "hook": "Drag the six words of a line of Virgil into any of its 720 orders, watch which ones a parser still accepts, and discover that the order he actually wrote is almost always one of the least likely — poetry lives in the tail of the distribution.",
+      "tags": [
+        "language",
+        "data-viz",
+        "nlp",
+        "wordgame"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "dark-silicon",
+      "title": "Dark Silicon",
+      "hook": "A menubar toy that quietly fuzzes your own CPU's undocumented instruction encodings a few hundred at a time and slowly paints the 4-billion-address opcode space as a Hilbert-curve wallpaper — the black regions are the parts of your chip nobody has ever named.",
+      "tags": [
+        "ambient",
+        "desktop-toy",
+        "visualization",
+        "wallpaper"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "prior-version",
+      "title": "Prior Version",
+      "hook": "A device farm that re-runs old builds of consumer apps and hash-chains what it sees, so when a company swears \"that toggle was always off by default,\" you can pull the timestamped video of it being on.",
+      "tags": [
+        "business",
+        "b2b",
+        "forensics",
+        "timeline"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-08-08"
+    },
     {
       "slug": "save-your-breath",
       "title": "Save Your Breath",
