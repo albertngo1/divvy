@@ -2,6 +2,132 @@
   "lastScan": "2026-08-08",
   "ideas": [
     {
+      "slug": "out-of-spite",
+      "title": "Out of Spite",
+      "hook": "A snake draft where your phone quietly marks which cards other people want, so every pick is a fork: take what you need, or take what they need.",
+      "tags": [
+        "party",
+        "drafting",
+        "bluffing",
+        "asymmetric-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "fail-to-deliver",
+      "title": "Fail to Deliver",
+      "hook": "A 90-second barter frenzy where you can promise the folding chair you don't actually own — and the bell exposes every double-promise as a public DEFAULT.",
+      "tags": [
+        "party",
+        "trading",
+        "bluffing",
+        "asymmetric-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "home-row",
+      "title": "Home Row",
+      "hook": "The TV shows nine pictures everyone can see; your phone is nine blank keys secretly wired to them in an order only you have to discover, so agreeing on the cat is easy and pressing the cat is not.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "spot-meter",
+      "title": "Spot Meter",
+      "hook": "Every phone shows the same cluttered photo — rotated, mirrored and zoomed differently for each of you — and the TV stays pitch black except where all three of your spotlights land on the same detail.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "broken-record",
+      "title": "Broken Record",
+      "hook": "The TV shows a tiny language model muttering to itself, and you win by feeding it the one card from your hidden hand that makes it stutter — the first player to lock it into a groove it can't climb out of takes the round.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "asymmetric-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "without-you",
+      "title": "Without You",
+      "hook": "Everyone secretly owns one blank in the same clunky sentence, and your score isn't how clever your word is — it's how much the sentence collapses when the model reads it back with your word pulled out.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "bad-bytes",
+      "title": "Bad Bytes",
+      "hook": "A daily assembly puzzle where the machine code itself is the constraint: write something that works, but whose compiled bytes contain no zeros, are all printable ASCII, or spell out a word in hex.",
+      "tags": [
+        "puzzle",
+        "game",
+        "browser-game",
+        "security"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "no-results",
+      "title": "No Results",
+      "hook": "A $199/month service that sells small water and wastewater utilities a certified, monthly-refreshed empty search result — documented proof that none of their control systems are findable on the public internet.",
+      "tags": [
+        "business",
+        "saas",
+        "security",
+        "b2b"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "last-full-server",
+      "title": "Last Full Server",
+      "hook": "A live world map of where on Earth — and at what local hour — you can still find a full server in a twenty-year-old shooter, so dying games get an obituary written in time zones instead of player counts.",
+      "tags": [
+        "data-viz",
+        "map",
+        "timeline",
+        "game"
+      ],
+      "score": 71,
+      "source": "steam",
+      "created": "2026-08-08"
+    },
+    {
       "slug": "save-me-one",
       "title": "Save Me One",
       "hook": "You don't score the cards you draft — you score the one card you secretly bet nobody else would take, and everyone picks at the exact same moment, so two people reaching for the same thing destroys it forever.",
