@@ -2,6 +2,104 @@
   "lastScan": "2026-08-08",
   "ideas": [
     {
+      "slug": "once-each",
+      "title": "Once Each",
+      "hook": "Every word you say aloud is spent forever, your dwindling vocabulary is visible only to you, and asking someone \"can you still say VALVE?\" costs you the word VALVE.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "wordgame"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "bad-ears",
+      "title": "Bad Ears",
+      "hook": "Your teammate's console has a private hearing defect, so the only way to make it accept VALVE is to shout FALF — and only they can see what the machine actually heard.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "voice-control"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "guide-my-hand",
+      "title": "Guide My Hand",
+      "hook": "Three people drag their fingers on blank black squares to draw a duck on a canvas only one player can see — and the server is secretly rotating, mirroring, and amplifying each hand.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "drawing"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "if-that-s-you",
+      "title": "If That's You",
+      "hook": "The only person with the map is forbidden to say your name — every order must be a condition, and half the room has to decide, in secret and at the same time, whether it means them.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "wake-on-get",
+      "title": "Wake on GET",
+      "hook": "Savestates for your homelab: freeze every idle service to disk with CRIU and thaw it in 200 ms on the first TCP connection, because RAM costs more than patience now.",
+      "tags": [
+        "homelab",
+        "self-hosted",
+        "devtool",
+        "observability"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "skip-rate",
+      "title": "Skip Rate",
+      "hook": "A prose linter that simulates a reader's eyes: it tints the words they'll never fixate and flags the exact spot where they'll jerk backwards to reread you.",
+      "tags": [
+        "writing",
+        "nlp",
+        "language",
+        "devtool"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "concert-pitch",
+      "title": "Concert Pitch",
+      "hook": "Your building hums one low note you can't hear — this listens for a year and shows you it going flat every time the concrete warms up.",
+      "tags": [
+        "physics",
+        "ambient",
+        "visualization",
+        "quantified-self"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-08"
+    },
+    {
       "slug": "out-of-spite",
       "title": "Out of Spite",
       "hook": "A snake draft where your phone quietly marks which cards other people want, so every pick is a fork: take what you need, or take what they need.",
