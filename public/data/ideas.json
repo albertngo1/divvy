@@ -2,6 +2,115 @@
   "lastScan": "2026-08-08",
   "ideas": [
     {
+      "slug": "wrong-the-same-way",
+      "title": "Wrong the Same Way",
+      "hook": "A quiz where getting it right is free and getting it wrong is only fatal if someone else got it wrong the same way — so when you don't know, your best move is the stupidest available answer.",
+      "tags": [
+        "party",
+        "trivia",
+        "anti-coordination",
+        "bluffing"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "guard-band",
+      "title": "Guard Band",
+      "hook": "Every phone in the room is a radio transmitter squatting on one shared band, and if two of you park too close together the server jams you both to silence — so you tune by ear, in a room full of tinny speakers, all of them lying to you.",
+      "tags": [
+        "party",
+        "audio",
+        "anti-coordination",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "under-their-feet",
+      "title": "Under Their Feet",
+      "hook": "The map-holder can't move you — they can only slide the entire world sideways under your feet while you're already mid-step, and each of you is secretly forbidden a different kind of step.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "bring-your-own-wall",
+      "title": "Bring Your Own Wall",
+      "hook": "You each secretly drew four walls into a maze nobody has seen whole — and when your blind pawn bumps into a shape you recognize, it's your own wall telling you where you are.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "closed-circuit",
+      "title": "Closed Circuit",
+      "hook": "Four phones face-up on a coffee table, each secretly needing an exact number of fingers on it — and since nobody may touch their own phone, the room has to build one tangled human circuit out of four private targets.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "physical"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "sale-pending",
+      "title": "Sale Pending",
+      "hook": "Domains can now advertise for sale in their own DNS — so watch every zone nightly and sell the one event nobody publishes: the record quietly disappearing while the nameservers move, which means it just sold.",
+      "tags": [
+        "finance",
+        "markets",
+        "automation"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "slow-lane",
+      "title": "Slow Lane",
+      "hook": "A screensaver that spends your idle nights racing the worst code ever written — false sharing, denormal storms, TLB thrash — down a drag strip, until you have a portrait of exactly how your CPU likes to suffer.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "telemetry"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "blind-reach",
+      "title": "Blind Reach",
+      "hook": "A 45-second daily trackpad task that measures not how accurately you move, but how fast your motor system re-calibrates when the world lies to it — plotted against last night's sleep.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "habits"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-08-08"
+    },
+    {
       "slug": "start-with-mine",
       "title": "Start With Mine",
       "hook": "A Skull riff where, the moment the flipper reaches into someone's stack, every other phone buzzes with a 1.5-second SHUFFLE button — and the TV reports only how many people used it, never who.",
