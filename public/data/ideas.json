@@ -2,6 +2,104 @@
   "lastScan": "2026-08-08",
   "ideas": [
     {
+      "slug": "search-party",
+      "title": "Search Party",
+      "hook": "Three rescuers sweep a dark hillside for one lost hiker, and the cell your gut screams about is the exact cell everyone else's gut is screaming about too.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "deduction"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "ice-machine",
+      "title": "Ice Machine",
+      "hook": "It's 2am in a hotel hallway, everyone's in a bathrobe on a secret errand, and the only way to lose is to run into someone.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "simultaneous-planning",
+        "spatial-puzzle"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "fold-line",
+      "title": "Fold Line",
+      "hook": "Four people write one sentence together while none of them is ever allowed to read it — your only guidance is a private needle telling you whether your last word made the whole thing better or worse.",
+      "tags": [
+        "party",
+        "cooperative",
+        "wordgame",
+        "asymmetric-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "small-cell",
+      "title": "Small Cell",
+      "hook": "Everyone answers a personal question honestly, then blurs their answer just enough to share a bucket with someone else — the keepsake is the most specific portrait of the room in which nobody can be picked out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "privacy",
+        "asymmetric-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "thin-book",
+      "title": "Thin Book",
+      "hook": "Marks your collection of games, cards and vinyl to market the way a trading desk would — not the price guide, but what you'd actually realize after fees, spread, and moving the market on your own inventory.",
+      "tags": [
+        "finance",
+        "markets",
+        "data-viz",
+        "quantified-self"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "not-yet-released",
+      "title": "Not Yet Released",
+      "hook": "Drop in a contract, invoice or screenshot and it hunts for anachronisms — a PDF dated 2019 that embeds a font shipped in 2023, a Word doc claiming three minutes of editing across four revision IDs.",
+      "tags": [
+        "security",
+        "forensics",
+        "provenance",
+        "cli"
+      ],
+      "score": 73,
+      "source": "github",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "hot-metal",
+      "title": "Hot Metal",
+      "hook": "A screensaver that recasts your day's actual writing on a simulated Linotype — and melts every line you deleted, amended away, or dropped from a stash back into the hellbox.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "git",
+        "generative"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-08-08"
+    },
+    {
       "slug": "white-balance",
       "title": "White Balance",
       "hook": "Every phone's screen is secretly color-shifted by a different amount, so the room must agree on one hue that nobody can name, see truly, or point at — and the TV's honest reveal never says which dot was yours.",
