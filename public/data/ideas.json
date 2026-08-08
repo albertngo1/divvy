@@ -2,6 +2,118 @@
   "lastScan": "2026-08-08",
   "ideas": [
     {
+      "slug": "never-happened",
+      "title": "Never Happened",
+      "hook": "The room co-invents a shared memory of a night that never took place, but each phone is secretly required to smuggle in one detail that contradicts someone else's — and a machine interviewer keeps pulling people aside, one phone at a time, to find the seam.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "llm"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "no-retakes",
+      "title": "No Retakes",
+      "hook": "One photo, one shutter click, no second try — and every phone is privately holding a secret pose rule that only makes sense in relation to where everybody else ends up standing.",
+      "tags": [
+        "party",
+        "keepsake",
+        "physical",
+        "hidden-information"
+      ],
+      "score": 60,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "long-way-round",
+      "title": "Long Way Round",
+      "hook": "Three phones show the same maze, but each one draws only a third of the walls — so the shortcut you can walk is exactly where someone else's invisible wall is standing.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial-puzzle",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "click-track",
+      "title": "Click Track",
+      "hook": "Every phone silently ticks a different secret tempo, and all three of you must tap on beat 8 at the same real instant — which means someone has to figure out they're the one rushing.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "over-its-head",
+      "title": "Over Its Head",
+      "hook": "Build one sentence together, word by word, so your friends can tell which secret word is yours — while the language model scoring you stays clueless.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "won-t-be-missed",
+      "title": "Won't Be Missed",
+      "hook": "One paragraph on the TV, one word deleted by each phone at the same instant — and a tiny language model decides whose word the sentence couldn't live without.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "asymmetric-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "struck-twice",
+      "title": "Struck Twice",
+      "hook": "A browser petri dish of random polymer chemistry that hunts for autocatalytic sets and scores each soup by how many *completely independent* ones ignited in it — a playable answer to whether life can start twice in the same pot.",
+      "tags": [
+        "chemistry",
+        "biology",
+        "visualization",
+        "sim"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "logged-out",
+      "title": "Logged Out",
+      "hook": "Harvest every share link you've ever sent from your own browser history and mail, then re-fetch each one as a cold anonymous stranger to find which of your documents are quietly world-readable.",
+      "tags": [
+        "security",
+        "privacy",
+        "forensics",
+        "quantified-self"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-08-08"
+    },
+    {
       "slug": "once-each",
       "title": "Once Each",
       "hook": "Every word you say aloud is spent forever, your dwindling vocabulary is visible only to you, and asking someone \"can you still say VALVE?\" costs you the word VALVE.",
