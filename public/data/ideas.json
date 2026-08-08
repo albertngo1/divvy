@@ -2,6 +2,76 @@
   "lastScan": "2026-08-08",
   "ideas": [
     {
+      "slug": "white-balance",
+      "title": "White Balance",
+      "hook": "Every phone's screen is secretly color-shifted by a different amount, so the room must agree on one hue that nobody can name, see truly, or point at — and the TV's honest reveal never says which dot was yours.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "someone-s-in-here",
+      "title": "Someone's In Here",
+      "hook": "Everyone plays their own tiny roguelike run at once, and one player is secretly piloting a monster inside someone else's run — a monster whose exact behavior script the victim can read on their own phone.",
+      "tags": [
+        "party",
+        "browser-game",
+        "roguelike",
+        "social-deduction"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "hold-it",
+      "title": "Hold It",
+      "hook": "A witness testifies on the TV, the contradiction that breaks their story is split across two players' private evidence hands, and slamming the buzzer is a bid for a partner you cannot identify.",
+      "tags": [
+        "party",
+        "deduction",
+        "bluffing",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "stale-copy",
+      "title": "Stale Copy",
+      "hook": "Two players are both certain they're holding the live map; one of them has been reading a frozen snapshot that keeps politely simulating a world that stopped existing 40 seconds ago.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "that-was-me",
+      "title": "That Was Me",
+      "hook": "One player's phone is the only maze; everyone else gets two blank buttons whose meaning is secret, unknown even to them, and reshuffled every time you hit a wall.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
       "slug": "never-happened",
       "title": "Never Happened",
       "hook": "The room co-invents a shared memory of a night that never took place, but each phone is secretly required to smuggle in one detail that contradicts someone else's — and a machine interviewer keeps pulling people aside, one phone at a time, to find the seam.",
