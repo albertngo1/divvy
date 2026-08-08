@@ -2,6 +2,90 @@
   "lastScan": "2026-08-08",
   "ideas": [
     {
+      "slug": "start-with-mine",
+      "title": "Start With Mine",
+      "hook": "A Skull riff where, the moment the flipper reaches into someone's stack, every other phone buzzes with a 1.5-second SHUFFLE button — and the TV reports only how many people used it, never who.",
+      "tags": [
+        "party",
+        "bluffing",
+        "auction",
+        "sabotage"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "who-moved-last",
+      "title": "Who Moved Last",
+      "hook": "The mapholder can only see a 3×3 window around whoever moved most recently, so every player must burn a step just to show her where they are — and she can see the shapes on the map but has no idea what any of them mean.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "keep-that-up",
+      "title": "Keep That Up",
+      "hook": "The only player who can see the board sees nothing but where everyone will be in four seconds, so every warning she gives destroys the future she just read.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "signed-clean",
+      "title": "Signed Clean",
+      "hook": "80% of freight damage claims are denied because a receiving clerk signed the delivery receipt without writing anything on it — this is the app that tells the clerk exactly what sentence to write, in the ninety seconds the driver is still standing there.",
+      "tags": [
+        "business",
+        "logistics",
+        "b2b",
+        "saas"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "which-client",
+      "title": "Which Client",
+      "hook": "A linter for long documents that catches the moment you quietly started using the same word to mean two different things — \"the client\" is the browser in §2 and the paying customer in §7, and nobody noticed for six months.",
+      "tags": [
+        "writing",
+        "nlp",
+        "embeddings",
+        "language"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-08-08"
+    },
+    {
+      "slug": "saddle-point",
+      "title": "Saddle Point",
+      "hook": "A screensaver that draws the weather as pure topology — no coastlines, no color ramp, just the highs, lows and the little X-shaped cols between them, drifting through the next 16 days of the real GFS forecast.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "data-viz",
+        "visualization"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-08-08"
+    },
+    {
       "slug": "search-party",
       "title": "Search Party",
       "hook": "Three rescuers sweep a dark hillside for one lost hiker, and the cell your gut screams about is the exact cell everyone else's gut is screaming about too.",
