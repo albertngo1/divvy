@@ -2,6 +2,132 @@
   "lastScan": "2026-08-09",
   "ideas": [
     {
+      "slug": "for-the-table",
+      "title": "For the Table",
+      "hook": "The menu everyone's been scrolling for ten minutes becomes a pari-mutuel market: you bet chips on which dishes survive to the final order of four, but you're forbidden from betting on anything you added yourself — so the only way to profit is to talk someone else into it.",
+      "tags": [
+        "party",
+        "betting",
+        "negotiation",
+        "market"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "blink-first",
+      "title": "Blink First",
+      "hook": "A 90-second clip plays while a shared multiplier bleeds from 5.00× down to 1.00×, and every phone is holding a different secret prop bet — so when a rival panic-locks at 3.4×, you have no idea whether they just saw the thing you're waiting for.",
+      "tags": [
+        "party",
+        "betting",
+        "real-time",
+        "asymmetric-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "tracer",
+      "title": "Tracer",
+      "hook": "Everyone has to tap at the same second on a sixty-second sweep, but your phone will only accept taps inside a hidden window nobody else can see — and the only way to tell the room where your window is, is to burn your one throwaway tap and let them watch when it lands.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "signaling"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "missed-stop",
+      "title": "Missed Stop",
+      "hook": "Three phones ride three different private train lines toward one station they all share, nobody can ever back up, and the only clue is a quiet number telling you how many of the others have already rattled past the stop you're standing on.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "deduction"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "won-t-zip",
+      "title": "Won't Zip",
+      "hook": "Ninety seconds to grab from one shared pile of loot into a case only you can see the shape of — so the whole room is lying about what they need while frantically rotating a shotgun to make it fit.",
+      "tags": [
+        "party",
+        "real-time",
+        "spatial-puzzle",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "on-my-go",
+      "title": "On My Go",
+      "hook": "You privately plot the next eight seconds of the player to your left, someone else plots yours, and everyone scores on where their own body ends up — so the whole game is a minute of loud bargaining followed by one silent, simultaneous betrayal.",
+      "tags": [
+        "party",
+        "negotiation",
+        "simultaneous-turns",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "three-ways-across",
+      "title": "Three Ways Across",
+      "hook": "Word squares have two axes; a hex grid has three, so every line you fill in has to be a real word in all three directions at once.",
+      "tags": [
+        "wordgame",
+        "language",
+        "procedural",
+        "puzzle"
+      ],
+      "score": 62,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "crack-the-whip",
+      "title": "Crack the Whip",
+      "hook": "A physics puzzle where you sculpt the mass taper of a falling chain and try to break the sound barrier using nothing but gravity — the same trick that makes a bullwhip crack and a supersonic trebuchet work.",
+      "tags": [
+        "physics",
+        "sim",
+        "puzzle",
+        "animation"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "kept-warm",
+      "title": "Kept Warm",
+      "hook": "A pet cricket colony that lives inside your Mac's thermal sensors — CPU heat is summer, an idle machine is a cold night, and the chirp rate obeys Dolbear's law exactly.",
+      "tags": [
+        "audio",
+        "ambient",
+        "desktop-toy",
+        "generative"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
       "slug": "take-this",
       "title": "Take This",
       "hook": "Four phones lie face-down as game tokens with secret orders, and the only way to read one is to lift it to your face — which lights up the TV so everyone knows you just spent one of the room's six looks.",
