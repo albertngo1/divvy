@@ -2,6 +2,76 @@
   "lastScan": "2026-08-09",
   "ideas": [
     {
+      "slug": "generic-equivalent",
+      "title": "Generic Equivalent",
+      "hook": "Three specialists treat one patient, each phone listing drugs under different brand names — so you cannot tell that your Bexatrol and their Nurofast are the same molecule until the patient turns blue.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "cooperative",
+        "wordgame"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "after-you",
+      "title": "After You",
+      "hook": "Everyone politely steps out of everyone else's way at the exact same moment, forever — a sidewalk shuffle for five phones, where the room can only stop lurching when someone stubbornly refuses to move.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "asymmetric-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "unusual-for-you",
+      "title": "Unusual For You",
+      "hook": "It never schedules, nags, or streaks — it just says, once a day, \"41 days since you called your mother; for you that's the 92nd percentile,\" and lets you sit with it.",
+      "tags": [
+        "quantified-self",
+        "habits",
+        "productivity",
+        "data-viz"
+      ],
+      "score": 63,
+      "source": "lobsters",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "somewhere-now",
+      "title": "Somewhere Now",
+      "hook": "Every launch, it picks a random point of land on Earth and synthesizes ten minutes of what that exact place sounds like right this minute — real birds, real weather, real time of day.",
+      "tags": [
+        "ambient",
+        "generative",
+        "audio",
+        "gis"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "rest-beat",
+      "title": "Rest Beat",
+      "hook": "Chart your novel's chapter like a Mario level — a difficulty curve of reader load with peaks, ramps, and the rest beats you forgot to write.",
+      "tags": [
+        "writing",
+        "nlp",
+        "language",
+        "data-viz"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
       "slug": "because-you-watched",
       "title": "Because You Watched",
       "hook": "The twenty-minute what-should-we-watch browse becomes a rigged betting market: you can secretly shove titles up the shared shelf, but every boost shortens that title's odds, so promoting the thing you're paid to promote is exactly how you go broke.",
