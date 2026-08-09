@@ -2,6 +2,102 @@
   "lastScan": "2026-08-09",
   "ideas": [
     {
+      "slug": "same-breath",
+      "title": "Same Breath",
+      "hook": "One oracle answers one question at a time; release your query in the same instant as someone else and the TV publishes the word-by-word hybrid of both your secrets for the whole room to read.",
+      "tags": [
+        "party",
+        "real-time",
+        "wordgame",
+        "asymmetric-info"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "root-rot",
+      "title": "Root Rot",
+      "hook": "Three wilting plants, three watering cans, one rule: anything two of you water on the same tick drowns instantly — and the plant you can see clearly is the one somebody else can see clearly too.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "carry-a-torch",
+      "title": "Carry a Torch",
+      "hook": "Every phone shows an identically-formatted card naming the partner whose winnings you score — but one card is one-sided, and that player spends the whole game generously funding someone who isn't funding them back.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "bluffing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "numbers-only",
+      "title": "Numbers Only",
+      "hook": "Everyone holds the same ranked list of eight things and may argue about it using only position numbers — except one phone has two near-ties quietly swapped, so one player is defending a ladder nobody else can see.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "where-to-stand",
+      "title": "Where to Stand",
+      "hook": "A puzzle game where you never move the character — you place the landmarks that teach the pathfinder how to think, and you're scored on how few tiles it had to search.",
+      "tags": [
+        "puzzle",
+        "game",
+        "visualization",
+        "procedural"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "both-feet-down",
+      "title": "Both Feet Down",
+      "hook": "A browser sandbox where you bury copper under a substation and watch the voltage contours that decide whether a lineman standing on the gravel walks home.",
+      "tags": [
+        "physics",
+        "visualization",
+        "puzzle"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "nonexistent-hour",
+      "title": "Nonexistent Hour",
+      "hook": "Re-runs your existing test suite under the forty nastiest (timezone, instant) pairs the IANA database actually contains, then hands you the single minimal one that breaks your date math.",
+      "tags": [
+        "devtool",
+        "ci",
+        "cli"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-08-09"
+    },
+    {
       "slug": "soften-up",
       "title": "Soften Up",
       "hook": "Everyone builds one sentence out of a shared 60-bit budget, and you secretly have to slip your own rare word in — priced live, in bits, by how predictable the room has made it.",
