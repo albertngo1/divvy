@@ -1,6 +1,61 @@
 {
-  "lastScan": "2026-08-08",
+  "lastScan": "2026-08-09",
   "ideas": [
+    {
+      "slug": "because-you-watched",
+      "title": "Because You Watched",
+      "hook": "The twenty-minute what-should-we-watch browse becomes a rigged betting market: you can secretly shove titles up the shared shelf, but every boost shortens that title's odds, so promoting the thing you're paid to promote is exactly how you go broke.",
+      "tags": [
+        "party",
+        "betting",
+        "market",
+        "bluffing"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "ten-seconds-back",
+      "title": "Ten Seconds Back",
+      "hook": "One 90-second clip, and the playhead only moves where the room's money drags it — every phone secretly owns eight seconds of that clip and burns coins, win or lose, trying to park everyone's eyes inside it.",
+      "tags": [
+        "party",
+        "betting",
+        "video",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "zero-order",
+      "title": "Zero Order",
+      "hook": "Drop in a drawing, and it computes a diffraction pattern you print on an overhead transparency — shine a laser pointer through it and your drawing appears two metres away on the wall.",
+      "tags": [
+        "graphics",
+        "physics",
+        "generative",
+        "art"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "strobe-tax",
+      "title": "Strobe Tax",
+      "hook": "Point your laptop camera at any light bulb and it tells you, in IEEE-1789 numbers, exactly how much of a headache that bulb is going to give you.",
+      "tags": [
+        "physics",
+        "computer-vision",
+        "health"
+      ],
+      "score": 63,
+      "source": "wild",
+      "created": "2026-08-09"
+    },
     {
       "slug": "wrong-the-same-way",
       "title": "Wrong the Same Way",
