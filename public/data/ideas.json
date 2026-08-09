@@ -2,6 +2,61 @@
   "lastScan": "2026-08-09",
   "ideas": [
     {
+      "slug": "watch-your-mouth",
+      "title": "Watch Your Mouth",
+      "hook": "You're describing a word to the room, and every listener has secretly buried one landmine word under someone else's name — so people start going silent one by one and you never learn which word killed them.",
+      "tags": [
+        "party",
+        "wordgame",
+        "social-deduction",
+        "audio"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "count-me-in",
+      "title": "Count Me In",
+      "hook": "Spell a word by pointing at people instead of letters — every phone privately renders that same finger-pointing sequence into a different half-blanked word, because the one letter you can never see is your own.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "didn-t-catch-that",
+      "title": "Didn't Catch That",
+      "hook": "Sell companies the number they can't get from their voice-AI vendor: how badly their phone bot fails specific accents — measured by whether the caller's problem got solved, not by word error rate.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "audio"
+      ],
+      "score": 65,
+      "source": "arxiv",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "same-object",
+      "title": "Same Object",
+      "hook": "A CI check that proves your 4,000-line \"pure refactor\" PR changed nothing, by compiling both revisions and diffing the normalized machine code function by function.",
+      "tags": [
+        "devtool",
+        "ci",
+        "git"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-08-09"
+    },
+    {
       "slug": "generic-equivalent",
       "title": "Generic Equivalent",
       "hook": "Three specialists treat one patient, each phone listing drugs under different brand names — so you cannot tell that your Bexatrol and their Nurofast are the same molecule until the patient turns blue.",
