@@ -2,6 +2,118 @@
   "lastScan": "2026-08-09",
   "ideas": [
     {
+      "slug": "take-this",
+      "title": "Take This",
+      "hook": "Four phones lie face-down as game tokens with secret orders, and the only way to read one is to lift it to your face — which lights up the TV so everyone knows you just spent one of the room's six looks.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "physical"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "within-an-inch",
+      "title": "Within an Inch",
+      "hook": "Every phone is a magnet and a magnetometer, so tagging someone means getting your phone within a hand's width of theirs — while a third person you must never touch is circling behind you.",
+      "tags": [
+        "party",
+        "sensor",
+        "physical",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "short-count",
+      "title": "Short Count",
+      "hook": "A virtual box of twelve diamonds passes phone to phone, each player sees only the count that reached them, and the TV shows nothing but what's left.",
+      "tags": [
+        "party",
+        "deduction",
+        "hidden-information",
+        "negotiation"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "false-start",
+      "title": "False Start",
+      "hook": "Anomia where the match is secret: only the two duelling phones know a race started, so the rest of the room watches two people panic for no visible reason — and anyone can fake it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "real-time",
+        "hidden-information"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "account-holder",
+      "title": "Account Holder",
+      "hook": "Four people are one customer on a live support call, only one phone holds the line at a time, and every time the voice on the line changes mid-sentence the agent gets a little more suspicious.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "improv"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "sum-to-mono",
+      "title": "Sum to Mono",
+      "hook": "The machine can't tell your voices apart — it only reads the room's average pitch, pace and brightness, and shouting to be heard drags all three needles toward you.",
+      "tags": [
+        "party",
+        "voice",
+        "cooperative",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "overlay-complex",
+      "title": "Overlay Complex",
+      "hook": "An explorable history of every North American area code since 1947, where geographic splits crack the map apart and overlays stack into glowing towers over the cities that ran out of phone numbers.",
+      "tags": [
+        "data-viz",
+        "map",
+        "timeline",
+        "3d-viz"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "still-scans",
+      "title": "Still Scans",
+      "hook": "A painting game where the canvas is a QR code and your paint budget is literally its Reed–Solomon error correction — every brushstroke is stolen from the code's ability to survive being scanned.",
+      "tags": [
+        "puzzle",
+        "browser-game",
+        "graphics",
+        "generative"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
       "slug": "same-breath",
       "title": "Same Breath",
       "hook": "One oracle answers one question at a time; release your query in the same instant as someone else and the TV publishes the word-by-word hybrid of both your secrets for the whole room to read.",
