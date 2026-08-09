@@ -2,6 +2,103 @@
   "lastScan": "2026-08-09",
   "ideas": [
     {
+      "slug": "soften-up",
+      "title": "Soften Up",
+      "hook": "Everyone builds one sentence out of a shared 60-bit budget, and you secretly have to slip your own rare word in — priced live, in bits, by how predictable the room has made it.",
+      "tags": [
+        "party",
+        "wordgame",
+        "bluffing",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "bottom-two",
+      "title": "Bottom Two",
+      "hook": "Five half-finished sentences race on the TV and the worst one dies every 25 seconds — only your phone knows which one is yours, so nursing it is a confession.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "every-other-word",
+      "title": "Every Other Word",
+      "hook": "One microphone on the TV transcribes the whole room, but each phone is fed the transcript with a different half of the words missing — so getting a single number across the table takes saying it three ways.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "audio"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "not-from-you",
+      "title": "Not From You",
+      "hook": "Every phone secretly obeys exactly one other player, nobody is told who, and the only way to get an order executed is to keep relaying it out loud until it lands in a mouth that particular panel will listen to.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "leaf-litter",
+      "title": "Leaf Litter",
+      "hook": "A screensaver that grows every link you've ever saved as a leaf, yellows the ones going stale, drops the dead ones onto the forest floor — and quietly marks the ones that still return 200 but are no longer the same website.",
+      "tags": [
+        "ambient",
+        "screensaver",
+        "provenance",
+        "desktop-toy"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "stub-period",
+      "title": "Stub Period",
+      "hook": "Point it at your lending code and it tells you, in dollars, how much money your interest math disagrees with ISDA about — and the exact date that caused it.",
+      "tags": [
+        "finance",
+        "devtool",
+        "economics"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-08-09"
+    },
+    {
+      "slug": "carry-the-rest",
+      "title": "Carry the Rest",
+      "hook": "Floyd–Steinberg dithering, but for meaning: rewrite any text into a 900-word vocabulary and carry the leftover meaning forward into the next few words instead of throwing it away.",
+      "tags": [
+        "language",
+        "nlp",
+        "writing",
+        "embeddings"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-08-09"
+    },
+    {
       "slug": "watch-your-mouth",
       "title": "Watch Your Mouth",
       "hook": "You're describing a word to the room, and every listener has secretly buried one landmine word under someone else's name — so people start going silent one by one and you never learn which word killed them.",
