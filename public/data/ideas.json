@@ -2,6 +2,76 @@
   "lastScan": "2026-08-10",
   "ideas": [
     {
+      "slug": "patch-notes",
+      "title": "Patch Notes",
+      "hook": "Every phone in the room gets one silent edit during the briefing — and the traitor isn't chosen by the server, it's whoever was too slow to notice theirs.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "memory"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "back-me-up",
+      "title": "Back Me Up",
+      "hook": "Nothing you say counts until another player stakes their own score on it — and one dossier in the room has been quietly doctored, so the fastest way to lose is to vouch for a friend who is wrong and doesn't know it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "hedge-fund",
+      "title": "Hedge Fund",
+      "hook": "A meter for your prose that shows what percentage of your claims you've quietly insured — then deletes every hedge at once so you can read the aggressive thing you were actually implying.",
+      "tags": [
+        "writing",
+        "nlp",
+        "language",
+        "devtool"
+      ],
+      "score": 66,
+      "source": "arxiv",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "attitude-control",
+      "title": "Attitude Control",
+      "hook": "Draw a solar sail with your finger and real photon pressure decides whether it flies or cartwheels — because your doodle's center of pressure is nowhere near its center of mass.",
+      "tags": [
+        "physics",
+        "sim",
+        "generative",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "cert-first",
+      "title": "Cert First",
+      "hook": "Every TLS certificate on earth is published within hours of issuance, so when a company mints one for `pay-de.acme.com` and DNS still says NXDOMAIN, you're looking at something built but not launched.",
+      "tags": [
+        "finance",
+        "markets",
+        "security",
+        "automation"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-08-10"
+    },
+    {
       "slug": "edition-of-one",
       "title": "Edition of One",
       "hook": "Five people each control one hidden knob of a generative poster and can only ever see one small crop of it — and the poster prints, once, only when all five sign something none of them has seen whole.",
