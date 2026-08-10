@@ -2,6 +2,132 @@
   "lastScan": "2026-08-10",
   "ideas": [
     {
+      "slug": "exactly-one",
+      "title": "Exactly One",
+      "hook": "You and one named rival share exactly one symbol out of eight — find it by calling symbols out loud, while the other two players build a public dossier on everything you just leaked.",
+      "tags": [
+        "party",
+        "real-time",
+        "hidden-information",
+        "audio"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "one-word-off",
+      "title": "One Word Off",
+      "hook": "Decrypto where nobody shares a codebook: your clue is crystal clear to whoever's phone happens to show the same word as yours, and nonsense to everyone else.",
+      "tags": [
+        "party",
+        "wordgame",
+        "hidden-information",
+        "social-deduction"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "next-best",
+      "title": "Next Best",
+      "hook": "A story streams itself onto the TV one token at a time and you can veto the next one — but killing a word the model is *sure* about drains your battery, and you can only see two of its eight options.",
+      "tags": [
+        "party",
+        "browser-game",
+        "real-time",
+        "press-your-luck"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "set-me-up",
+      "title": "Set Me Up",
+      "hook": "Everyone is secretly farming one shared paragraph until a tiny language model finds *their* private word boring — obvious to the machine, invisible to the humans.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "bluffing"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "picked-over",
+      "title": "Picked Over",
+      "hook": "Every phone rerolls its own private shop out of one shared bag of units — so when the archers stop showing up in your shop, somebody at this table is hoarding them.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "rubber-band",
+      "title": "Rubber Band",
+      "hook": "The standings are secret all race — but the catch-up item your phone quietly hands you tells you exactly what place you're in, and firing it announces to the room that somebody is dead last.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "bluffing",
+        "racing"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "still-resolves",
+      "title": "Still Resolves",
+      "hook": "It excavates every URL your domain has ever served out of the Internet Archive, matches the dead ones to their living successors by content, and hands you the redirect map plus a CI test that fails the build the next time you break a link you promised not to break.",
+      "tags": [
+        "devtool",
+        "cli",
+        "ci",
+        "provenance"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "essential-character",
+      "title": "Essential Character",
+      "hook": "A daily puzzle where you must classify a real imported object into the U.S. tariff schedule — is a chocolate-filled toy egg candy or a toy? — scored against the actual binding ruling U.S. Customs issued, with the legal reasoning revealed at the end.",
+      "tags": [
+        "wordgame",
+        "language",
+        "logistics",
+        "browser-game"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "omen-table",
+      "title": "Omen Table",
+      "hook": "Your Mac's fan curves, thermal spikes and swap pressure are read as serpent-omens and inscribed each night onto an illuminated manuscript page, so that after a year you can print and bind a codex that is secretly an honest anomaly log of your machine's health.",
+      "tags": [
+        "ambient",
+        "desktop-toy",
+        "generative",
+        "observability"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-08-10"
+    },
+    {
       "slug": "through-the-table",
       "title": "Through the Table",
       "hook": "Phones face-down on the furniture buzz one at a time, and only your phone knows whether it felt that — because the oak table conducts, the couch cushion doesn't, and you can lie about all of it.",
