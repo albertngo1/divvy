@@ -2,6 +2,76 @@
   "lastScan": "2026-08-10",
   "ideas": [
     {
+      "slug": "through-the-table",
+      "title": "Through the Table",
+      "hook": "Phones face-down on the furniture buzz one at a time, and only your phone knows whether it felt that — because the oak table conducts, the couch cushion doesn't, and you can lie about all of it.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "physical"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "in-the-way",
+      "title": "In the Way",
+      "hook": "Every phone screams a different inaudible tone, human bodies cast real acoustic shadows, and you've been secretly ordered to stand between two people who badly want to hear each other.",
+      "tags": [
+        "party",
+        "sensor",
+        "audio",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "ad-interval",
+      "title": "Ad Interval",
+      "hook": "A passive scanner that names the always-on recording wearables in the room by the rhythm of their Bluetooth chirps — because randomized MAC addresses rotate, but advertising cadence doesn't.",
+      "tags": [
+        "privacy",
+        "security",
+        "forensics",
+        "sensor"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "twelve-octaves-down",
+      "title": "Twelve Octaves Down",
+      "hook": "A keyboard where every key is a real mineral, played by transposing its actual phonon spectrum down twelve octaves — so you can hear that diamond is a bell and rock salt is a thud.",
+      "tags": [
+        "materials",
+        "physics",
+        "audio",
+        "chemistry"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "toxic-flow",
+      "title": "Toxic Flow",
+      "hook": "An idle game where you run a market-making desk on replayed real Nasdaq order-book data, and the only score it shows you is how badly you're being picked off.",
+      "tags": [
+        "finance",
+        "markets",
+        "idle",
+        "sim"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-10"
+    },
+    {
       "slug": "don-t-send-me",
       "title": "Don't Send Me",
       "hook": "Only the Navigator can see the track, only you can see how your own legs work — and every turn the whole table secretly volunteers or ducks for a move nobody can evaluate.",
