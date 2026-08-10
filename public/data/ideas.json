@@ -2,6 +2,62 @@
   "lastScan": "2026-08-10",
   "ideas": [
     {
+      "slug": "belt-and-suspenders",
+      "title": "Belt and Suspenders",
+      "hook": "The map-holder gets twelve words per turn to steer three blind players, but the channel silently deletes a few words from each phone independently — so the turn you drop someone's name, the wrong person walks off the ledge.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "communication"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "pan-and-scan",
+      "title": "Pan and Scan",
+      "hook": "The one player holding the map can only see a 3x3 window of it, and re-aiming that window blinds them for two full seconds while three blind runners keep moving in the dark.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "leave-it-there",
+      "title": "Leave It There",
+      "hook": "Before the round starts you physically put your phone down somewhere in the room — and it spends the next three minutes as a bug with a secret grudge, scoring you for the silence, or the one voice, or the argument it happens to overhear.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "one-take",
+      "title": "One Take",
+      "hook": "The room is recording a take, your phone privately tells you the two seconds where you must make a sound, and at playback everyone tries to name whose noise was whose — so the only safe cough is one hidden under somebody else's.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "sensor"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
       "slug": "patch-notes",
       "title": "Patch Notes",
       "hook": "Every phone in the room gets one silent edit during the briefing — and the traitor isn't chosen by the server, it's whoever was too slow to notice theirs.",
