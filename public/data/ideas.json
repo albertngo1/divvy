@@ -2,6 +2,76 @@
   "lastScan": "2026-08-10",
   "ideas": [
     {
+      "slug": "edition-of-one",
+      "title": "Edition of One",
+      "hook": "Five people each control one hidden knob of a generative poster and can only ever see one small crop of it — and the poster prints, once, only when all five sign something none of them has seen whole.",
+      "tags": [
+        "party",
+        "cooperative",
+        "generative-art",
+        "asymmetric-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "four-up",
+      "title": "Four Up",
+      "hook": "Four phones become four physical tiles on the table — nobody can see the picture until the room lays their screens into the right 2×2, and the host webcam photographs the assembled table as the only copy anyone gets to keep.",
+      "tags": [
+        "party",
+        "cooperative",
+        "sensor",
+        "spatial-puzzle"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "last-island",
+      "title": "Last Island",
+      "hook": "Flood a real place millimetre by millimetre and let the topology sing — every time two islands merge, the drowned peak plays its last note.",
+      "tags": [
+        "generative",
+        "art",
+        "music",
+        "screensaver"
+      ],
+      "score": 64,
+      "source": "arxiv",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "losing-altitude",
+      "title": "Losing Altitude",
+      "hook": "Adopt a real piece of orbital debris in your menubar and watch it die a little faster every time the sun throws a tantrum.",
+      "tags": [
+        "ambient",
+        "astronomy",
+        "desktop-toy",
+        "physics"
+      ],
+      "score": 67,
+      "source": "wild",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "shadow-objective",
+      "title": "Shadow Objective",
+      "hook": "Your planners override the optimizer 40% of the time — this reverse-engineers the cost function they're *actually* using and hands it back to you as a config diff.",
+      "tags": [
+        "business",
+        "b2b",
+        "saas",
+        "logistics"
+      ],
+      "score": 73,
+      "source": "arxiv",
+      "created": "2026-08-10"
+    },
+    {
       "slug": "exactly-one",
       "title": "Exactly One",
       "hook": "You and one named rival share exactly one symbol out of eight — find it by calling symbols out loud, while the other two players build a public dossier on everything you just leaked.",
