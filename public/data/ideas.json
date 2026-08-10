@@ -2,6 +2,76 @@
   "lastScan": "2026-08-10",
   "ideas": [
     {
+      "slug": "last-hit",
+      "title": "Last Hit",
+      "hook": "A MOBA minion wave crawls across the TV with deliberately vague health bars, and only the killing blow pays — but your phone shows the exact HP of one minion, so every confident snipe tells the room which one you can see.",
+      "tags": [
+        "party",
+        "real-time",
+        "asymmetric-info",
+        "reflex"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "just-friends",
+      "title": "Just Friends",
+      "hook": "The room steers one visual-novel protagonist through six choices, but every phone is secretly chasing a different romance route — so everybody hedges, nobody's flag checklist completes, and the TV plays the ending where you all agree to stay friends.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "asymmetric-info",
+        "storytelling"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "break-the-seal",
+      "title": "Break the Seal",
+      "hook": "Software escrow is a ritual where a zip file nobody has ever built sits in a vault until the day it matters — this is the service that quietly builds it every release, in a box with the network cut, and grades whether it would actually save you.",
+      "tags": [
+        "business",
+        "b2b",
+        "saas",
+        "security"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "am-i-muted",
+      "title": "Am I Muted",
+      "hook": "A linter for the single worst sentence in software — the one-word toggle label that never tells you whether it describes the current state or what will happen if you press it.",
+      "tags": [
+        "language",
+        "writing",
+        "devtool",
+        "translation"
+      ],
+      "score": 65,
+      "source": "lobsters",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "joint-space",
+      "title": "Joint Space",
+      "hook": "Draw a room, drop in a two-link robot arm, and watch the doorway that looks wide open in your kitchen become a hair-thin thread on the donut where the robot actually lives.",
+      "tags": [
+        "data-viz",
+        "3d-viz",
+        "visualization",
+        "physics"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-08-10"
+    },
+    {
       "slug": "check-valve",
       "title": "Check Valve",
       "hook": "Every dial in the room only goes up, and the number you all need to land on is the highest secret start nobody can see — so one impatient thumb condemns everyone to climb after it.",
