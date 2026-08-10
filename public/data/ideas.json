@@ -1,6 +1,104 @@
 {
-  "lastScan": "2026-08-09",
+  "lastScan": "2026-08-10",
   "ideas": [
+    {
+      "slug": "don-t-send-me",
+      "title": "Don't Send Me",
+      "hook": "Only the Navigator can see the track, only you can see how your own legs work — and every turn the whole table secretly volunteers or ducks for a move nobody can evaluate.",
+      "tags": [
+        "party",
+        "bluffing",
+        "negotiation",
+        "asymmetric-info"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "look-or-talk",
+      "title": "Look or Talk",
+      "hook": "The only map of the maze lives on one player's phone and vanishes the instant they open their mouth — so they memorize in silence, narrate blind, and go quiet again while three teammates grope forward through a keyhole.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "asymmetric-info"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "waiting-on-you",
+      "title": "Waiting On You",
+      "hook": "A pick-and-pass draft where every pack you're holding sets one of its own cards on fire every six seconds, and the TV keeps a running, named tally of exactly whose dithering burned what.",
+      "tags": [
+        "party",
+        "drafting",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "package-deal",
+      "title": "Package Deal",
+      "hook": "Four lots, and every phone secretly knows a different set of things that are only worth anything together — so you either bid for the pair and risk losing both, or bid separately and risk winning exactly one worthless half.",
+      "tags": [
+        "party",
+        "auction",
+        "bidding",
+        "browser-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "blue-book",
+      "title": "Blue Book",
+      "hook": "A single-player run at the London cabbie's Knowledge for any real city: you type the streets turn by turn from memory, and every junction you truly learn is permanently erased from the map you're allowed to study.",
+      "tags": [
+        "game",
+        "puzzle",
+        "map",
+        "habits"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "locally-sourced",
+      "title": "Locally Sourced",
+      "hook": "Paste a local-news URL and it scores how much of the article could only have been written by someone standing there — then diffs it against sibling domains to catch the pink-slime networks that publish the same story with the town name swapped.",
+      "tags": [
+        "language",
+        "nlp",
+        "map",
+        "provenance"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "plate-reader",
+      "title": "Plate Reader",
+      "hook": "Feed it a year of your own location history and it replays that year as the automated license-plate cameras saw it — then shows you the home address, workplace, and weekly routine those camera hits alone can reconstruct without your GPS.",
+      "tags": [
+        "data-viz",
+        "map",
+        "privacy",
+        "timeline"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-10"
+    },
     {
       "slug": "for-the-table",
       "title": "For the Table",
