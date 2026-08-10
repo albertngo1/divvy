@@ -2,6 +2,104 @@
   "lastScan": "2026-08-10",
   "ideas": [
     {
+      "slug": "check-valve",
+      "title": "Check Valve",
+      "hook": "Every dial in the room only goes up, and the number you all need to land on is the highest secret start nobody can see — so one impatient thumb condemns everyone to climb after it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "real-time"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "loop-gain",
+      "title": "Loop Gain",
+      "hook": "Your phone shows one other player's dial, two seconds late, and you don't know whose — three people trying to meet in the middle discover that chasing each other forever is a shape, not a strategy.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "signaling"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "nothing-s-on",
+      "title": "Nothing's On",
+      "hook": "The background TV becomes a commodity market where airtime pays rent — you're secretly long 'animals' and short 'sports', and nobody can change the channel alone.",
+      "tags": [
+        "party",
+        "betting",
+        "negotiation",
+        "hidden-information"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "behind-live",
+      "title": "Behind Live",
+      "hook": "Everyone is watching the same clip on their own phone, each on a different secret delay — so your friend's gasp is a price signal, and the only edge in the room is being four seconds early.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 79,
+      "source": "party",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "bathtub-curve",
+      "title": "Bathtub Curve",
+      "hook": "Photograph the label on your water heater and get back its true manufacture date, the probability it fails in the next twelve months, and the monthly amount you should be quietly setting aside so that when it does, it's already paid for.",
+      "tags": [
+        "chores",
+        "dashboard",
+        "budgeting",
+        "habits"
+      ],
+      "score": 58,
+      "source": "wild",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "left-of-the-plot",
+      "title": "Left of the Plot",
+      "hook": "A screensaver that plots the power spectrum of your own life on log-log axes, where the interesting low-frequency end can only be bought with time — one more decade to the left costs ten times longer than the last one.",
+      "tags": [
+        "data-viz",
+        "quantified-self",
+        "ambient",
+        "screensaver"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-10"
+    },
+    {
+      "slug": "top-off",
+      "title": "Top-Off",
+      "hook": "Every time an HVAC tech quietly tops off a leaking rooftop unit, this ledger logs the pounds — and by August it has computed a federally-reportable leak rate and a receipt showing the building owner they've been paying to refrigerate the sky.",
+      "tags": [
+        "business",
+        "b2b",
+        "saas",
+        "automation"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-08-10"
+    },
+    {
       "slug": "belt-and-suspenders",
       "title": "Belt and Suspenders",
       "hook": "The map-holder gets twelve words per turn to steer three blind players, but the channel silently deletes a few words from each phone independently — so the turn you drop someone's name, the wrong person walks off the ledge.",
