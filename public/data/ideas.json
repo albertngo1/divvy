@@ -2,6 +2,104 @@
   "lastScan": "2026-08-11",
   "ideas": [
     {
+      "slug": "give-up-trade",
+      "title": "Give-Up Trade",
+      "hook": "Every bet you place on the show is worthless unless you can talk someone else into taking it off your hands before the scene ends — and they have to accept it without being told what it says.",
+      "tags": [
+        "party",
+        "private-betting",
+        "negotiation",
+        "market-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "previously-on",
+      "title": "Previously On",
+      "hook": "You all watch the same clip in silence — then one player has to recap it out loud while everyone else holds secret bets on what their retelling gets in, leaves out, and quietly gets wrong.",
+      "tags": [
+        "party",
+        "private-betting",
+        "memory",
+        "social-deduction"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "ask-me-if",
+      "title": "Ask Me If",
+      "hook": "The one player who can see the board may only ever speak in vectors — \"two right, one up?\" — and you have to answer yes or no from a movement rule your phone showed you once, eight seconds, at the start.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "puzzle"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "same-gravity",
+      "title": "Same Gravity",
+      "hook": "One player's phone IS the marble maze and tilting it drags every teammate's marble at once — the only thing you control is a four-second brake, and only you know which pad is yours.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "sensor"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "worth-asking",
+      "title": "Worth Asking",
+      "hook": "Ablate one field at a time from your intake form and watch which ones never change the answer — most 23-field forms have five load-bearing questions and eighteen pieces of theater.",
+      "tags": [
+        "llm",
+        "prompt",
+        "nlp",
+        "automation"
+      ],
+      "score": 61,
+      "source": "arxiv",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "short-of-e",
+      "title": "Short of E",
+      "hook": "You write with a real printer's type case — finite metal letters — so running out of lowercase 'e' forces you to reword the sentence, and deleting a paragraph doesn't give the letters back until you've spent a turn putting them away.",
+      "tags": [
+        "wordgame",
+        "writing",
+        "language",
+        "puzzle"
+      ],
+      "score": 68,
+      "source": "hn",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "arc-second",
+      "title": "Arc Second",
+      "hook": "A desktop toy that draws your 3D objects as nothing but circular scratches — and the glint sliding along them as the light moves is real parallax, so you can plot the file onto acrylic and hold the hologram in your hand.",
+      "tags": [
+        "desktop-toy",
+        "graphics",
+        "generative",
+        "3d-viz"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-08-11"
+    },
+    {
       "slug": "clean-on-yours",
       "title": "Clean on Yours",
       "hook": "Set, but the cards on the TV are blank grey tiles and each phone can see exactly one attribute — so nobody in the room can verify a set alone, and the whole game is shouted cross-checking.",
