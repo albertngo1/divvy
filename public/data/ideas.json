@@ -2,6 +2,76 @@
   "lastScan": "2026-08-11",
   "ideas": [
     {
+      "slug": "read-the-gauges",
+      "title": "Read the Gauges",
+      "hook": "One hidden distribution, four phones, and each phone can see exactly one instrument reading off it — so the argument about what the model will say next is really an argument about whose gauge is lying.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "browser-game",
+        "bluffing"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "a-through-f",
+      "title": "A Through F",
+      "hook": "The model's whole vocabulary is sorted by how common each word is and cut into four shelves — one secretly dealt to each phone — and you are paid, word by word, for how much of what the model wants to say next lands on YOUR shelf.",
+      "tags": [
+        "party",
+        "wordgame",
+        "browser-game",
+        "hidden-information"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "nothing-here",
+      "title": "Nothing Here",
+      "hook": "A GitHub app whose entire job is to tell reviewers what NOT to read: it proves which 1,700 lines of your 1,740-line PR are lockfile churn, pure moves, or formatting, and points you at the 40 that actually change behavior.",
+      "tags": [
+        "business",
+        "devtool",
+        "saas",
+        "git"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "default-since",
+      "title": "Default Since",
+      "hook": "An explorable stratigraphy of every preference Firefox has ever shipped — when each toggle was born, when its default quietly flipped, when it died, and which hundred prefs are still read by absolutely no code.",
+      "tags": [
+        "data-viz",
+        "timeline",
+        "visualization",
+        "devtool"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "raised-nearby",
+      "title": "Raised Nearby",
+      "hook": "A map of every private company that raised money within five miles of your house since 2009 — the hedge fund above the nail salon, the $4M crypto raise three doors down — pulled straight out of SEC Form D.",
+      "tags": [
+        "finance",
+        "map",
+        "data-viz",
+        "markets"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-11"
+    },
+    {
       "slug": "give-up-trade",
       "title": "Give-Up Trade",
       "hook": "Every bet you place on the show is worthless unless you can talk someone else into taking it off your hands before the scene ends — and they have to accept it without being told what it says.",
