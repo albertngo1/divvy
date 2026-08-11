@@ -1,6 +1,76 @@
 {
-  "lastScan": "2026-08-10",
+  "lastScan": "2026-08-11",
   "ideas": [
+    {
+      "slug": "flat-by-close",
+      "title": "Flat by Close",
+      "hook": "The movie's runtime is a trading session and you've been dealt three contracts you didn't choose — the only way out is to pay someone to take one sight-unseen, because all they get to see is your price, a one-word tag, and your face.",
+      "tags": [
+        "party",
+        "betting",
+        "bluffing",
+        "trading"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "act-of-god",
+      "title": "Act of God",
+      "hook": "Everyone privately names the one thing they'd hate to see happen in the movie, and the rest of the room competes to sell them insurance against it — cheapest sealed quote wins the policy, and the sucker who underprices a stranger's dread pays out on the spot.",
+      "tags": [
+        "party",
+        "betting",
+        "hidden-information",
+        "second-screen"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "alpha-decay",
+      "title": "Alpha Decay",
+      "hook": "Every Polymarket whale-copy bot ranks wallets by profit; this one replays the tape to measure how much of each whale's edge is left if you're 60 seconds late — and shows that most of them are selling you the price they already moved.",
+      "tags": [
+        "prediction-market",
+        "finance",
+        "markets",
+        "data-viz"
+      ],
+      "score": 64,
+      "source": "github",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "any-branch",
+      "title": "Any Branch",
+      "hook": "Point it at your AWS account and it answers the question no IAM console will: exactly which humans, forks, tags, and total strangers can mint a GitHub OIDC token your trust policy will accept — then it writes the six-line workflow that proves it.",
+      "tags": [
+        "ci",
+        "security",
+        "devtool",
+        "git"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "three-phase",
+      "title": "Three Phase",
+      "hook": "Build a computer out of the 1954 parametron — where a bit isn't a voltage but a *phase*, gates are majority votes, and because every element is a real oscillator integrated at 48 kHz, the machine you wire up is literally the chord you hear.",
+      "tags": [
+        "physics",
+        "puzzle",
+        "audio",
+        "simulation"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-08-11"
+    },
     {
       "slug": "last-hit",
       "title": "Last Hit",
