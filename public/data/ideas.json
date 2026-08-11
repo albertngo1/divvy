@@ -2,6 +2,76 @@
   "lastScan": "2026-08-11",
   "ideas": [
     {
+      "slug": "clean-on-yours",
+      "title": "Clean on Yours",
+      "hook": "Set, but the cards on the TV are blank grey tiles and each phone can see exactly one attribute — so nobody in the room can verify a set alone, and the whole game is shouted cross-checking.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "puzzle"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "as-far-as-i-know",
+      "title": "As Far As I Know",
+      "hook": "Twenty questions where nobody knows the answer — the secret is shredded into three private fact cards, so every question comes back as three simultaneous, honest, contradictory-looking lamps.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "wordgame"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "contributing-factor",
+      "title": "Contributing Factor",
+      "hook": "The NTSB never blames the pilot, it finds the latent condition that was sitting there all along — so this logs your small daily disasters and, crucially, asks you the same questions on random days nothing went wrong.",
+      "tags": [
+        "quantified-self",
+        "productivity",
+        "habits",
+        "health"
+      ],
+      "score": 64,
+      "source": "arxiv",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "successor-in-interest",
+      "title": "Successor in Interest",
+      "hook": "Type the name off the dead stock certificate in your grandmother's shoebox and it walks every merger, split, and spinoff since — telling you whether you hold $0, $11,400 of Sempra, or a claim sitting in a state unclaimed-property vault.",
+      "tags": [
+        "finance",
+        "business",
+        "markets",
+        "provenance"
+      ],
+      "score": 69,
+      "source": "producthunt",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "still-argued",
+      "title": "Still Argued",
+      "hook": "Wikipedia looks equally confident in every sentence, but its edit history knows exactly which clauses editors have deleted and restored fourteen times — this shades the article so you can see the fights.",
+      "tags": [
+        "language",
+        "provenance",
+        "nlp",
+        "data-viz"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-08-11"
+    },
+    {
       "slug": "running-order",
       "title": "Running Order",
       "hook": "Everyone writes one clause, and the model's cost of putting any clause after any other exists — but each phone can see only its own row of that table, so no one in the room can find the good order alone.",
