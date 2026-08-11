@@ -2,6 +2,75 @@
   "lastScan": "2026-08-11",
   "ideas": [
     {
+      "slug": "whole-rest",
+      "title": "Whole Rest",
+      "hook": "A single silence clock on the TV counts up and slams to zero at any sound, while your phone holds cards that only score if you speak their word after a specific number of unbroken silent seconds — so the person holding a nine-second card is at the mercy of everyone holding twos.",
+      "tags": [
+        "party",
+        "audio",
+        "real-time",
+        "sensor"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "ring-it-up",
+      "title": "Ring It Up",
+      "hook": "Your score grows only while the room is perfectly silent — and the only way to bank it is to make your phone scream a cash-register chime that wipes everyone else's progress to zero.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "press-your-luck"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "attaches-to",
+      "title": "Attaches To",
+      "hook": "A linter for contracts and specs that finds every sentence a lawyer could read two different ways, shows you both readings side by side as plain paraphrases, and rewrites it into the one you meant.",
+      "tags": [
+        "language",
+        "nlp",
+        "writing"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "reservoir-host",
+      "title": "Reservoir Host",
+      "hook": "An elimination-endgame puzzle where you can never see how many infections are left — you only see what your own tests found, and you win by *proving* zero, not by reaching it.",
+      "tags": [
+        "biology",
+        "sim",
+        "puzzle",
+        "procedural"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "length-only",
+      "title": "Length Only",
+      "hook": "Point it at your own web app and it proves how much an on-path observer reads from encrypted packet sizes alone — then draws the exact curve of how many wasted bytes of padding buy back your secrecy.",
+      "tags": [
+        "security",
+        "privacy",
+        "observability",
+        "devtool"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-08-11"
+    },
+    {
       "slug": "read-the-gauges",
       "title": "Read the Gauges",
       "hook": "One hidden distribution, four phones, and each phone can see exactly one instrument reading off it — so the argument about what the model will say next is really an argument about whose gauge is lying.",
