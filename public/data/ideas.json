@@ -2,6 +2,76 @@
   "lastScan": "2026-08-11",
   "ideas": [
     {
+      "slug": "running-order",
+      "title": "Running Order",
+      "hook": "Everyone writes one clause, and the model's cost of putting any clause after any other exists — but each phone can see only its own row of that table, so no one in the room can find the good order alone.",
+      "tags": [
+        "party",
+        "wordgame",
+        "negotiation",
+        "llm-entropy"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "three-down",
+      "title": "Three Down",
+      "hook": "A six-word message crosses the room as six digits — because the only thing that travels is each word's rank in the model's guess list, and your partner's model was primed with a different world.",
+      "tags": [
+        "party",
+        "wordgame",
+        "llm-entropy",
+        "cooperative"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "per-serving",
+      "title": "Per Serving",
+      "hook": "An explorable that lets you play food-label lawyer: drag the serving size of a real product and watch 4.6 grams of trans fat legally round down to '0g' in front of you.",
+      "tags": [
+        "data-viz",
+        "dashboard",
+        "visualization",
+        "nutrition-labels"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "magic-angle",
+      "title": "Magic Angle",
+      "hook": "A pneumatic-muscle sandbox where you set the braid angle and watch the actuator pull — until you cross 54.7°, where it stops pulling and starts pushing, and then it hands you a $6 parts list to build the real thing.",
+      "tags": [
+        "physics",
+        "materials",
+        "sim",
+        "3d-viz"
+      ],
+      "score": 64,
+      "source": "arxiv",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "turn-rate",
+      "title": "Turn Rate",
+      "hook": "Draw the curvature, not the curve: you scribble a graph of how fast a line should be turning, and the app integrates it into a shape — then snaps it closed for you.",
+      "tags": [
+        "graphics",
+        "art",
+        "generative",
+        "visualization"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-11"
+    },
+    {
       "slug": "spoken-for",
       "title": "Spoken For",
       "hook": "Twelve common words hang on the TV, and every one you say out loud dies forever — you're protecting three of them in secret while trying to bait someone into burning the one word you were told to kill.",
