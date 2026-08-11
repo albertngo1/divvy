@@ -2,6 +2,62 @@
   "lastScan": "2026-08-11",
   "ideas": [
     {
+      "slug": "spoken-for",
+      "title": "Spoken For",
+      "hook": "Twelve common words hang on the TV, and every one you say out loud dies forever — you're protecting three of them in secret while trying to bait someone into burning the one word you were told to kill.",
+      "tags": [
+        "party",
+        "wordgame",
+        "audio",
+        "bluffing"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "collect-call",
+      "title": "Collect Call",
+      "hook": "Every pair of players shares a hidden budget of talk-seconds, and speaking bills the line between you and whoever spoke last — so the whole game is silently maneuvering to change who goes before you.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "cooperative"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "where-it-lands",
+      "title": "Where It Lands",
+      "hook": "Everyone spins their phone flat on the table at once — the phone privately counts how many turns you got, everyone publicly sees which way it ends up pointing, and spinning hard enough to win the bid is exactly what makes the landing unaimable.",
+      "tags": [
+        "party",
+        "sensor",
+        "bluffing",
+        "physical"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
+      "slug": "left-ajar",
+      "title": "Left Ajar",
+      "hook": "Every player mans a real door, cabinet, or fridge in the house, holding their phone flat against the panel so the compass reads the hinge angle — and each phone privately demands your door sit in a relationship to someone else's that only you can see.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-11"
+    },
+    {
       "slug": "flat-by-close",
       "title": "Flat by Close",
       "hook": "The movie's runtime is a trading session and you've been dealt three contracts you didn't choose — the only way out is to pay someone to take one sight-unseen, because all they get to see is your price, a one-word tag, and your face.",
