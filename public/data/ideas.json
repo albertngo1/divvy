@@ -2,6 +2,76 @@
   "lastScan": "2026-08-12",
   "ideas": [
     {
+      "slug": "trackage-rights",
+      "title": "Trackage Rights",
+      "hook": "Everyone runs trains across one shared rail map, but each phone secretly owns three pieces of the track — and the only way to learn who owns what is to run over it and watch the toll leave your account.",
+      "tags": [
+        "party",
+        "asymmetric-info",
+        "economy",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "you-missed-one",
+      "title": "You Missed One",
+      "hook": "You count your own hand out loud like it's cribbage — and every other phone shows only three of your five cards, so anyone who calls you short is betting the two cards they can't see don't help you.",
+      "tags": [
+        "party",
+        "bluffing",
+        "card-game",
+        "asymmetric-info"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "at-this-rate",
+      "title": "At This Rate",
+      "hook": "A menubar toy that takes a real glacier's terminus retreat and walks it down your own street at true speed, announcing the corner store and the bus stop as the ice passes them.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "map",
+        "nature"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "top-forty",
+      "title": "Top Forty",
+      "hook": "You are the recommendation algorithm, and the only thing you can see is a dashboard that lags reality by two quarters — engagement is climbing beautifully right up until the catalog you strangled takes your users with it.",
+      "tags": [
+        "sim",
+        "game",
+        "ml",
+        "data-viz"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "zone-zero",
+      "title": "Zone Zero",
+      "hook": "Walk your phone around your house once; it rebuilds the yard in 3D, measures every shrub, fence, and woodpile against the wildfire clearance rules, and hands you a dated photo packet your insurer can't argue with.",
+      "tags": [
+        "computer-vision",
+        "ml",
+        "gis",
+        "side-hustle"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-08-12"
+    },
+    {
       "slug": "nobody-s-favorite",
       "title": "Nobody's Favorite",
       "hook": "Eight options on the TV, three phones each showing a completely different private scoreboard for them, and no way to say the sentence 'fine, I'll take yours.'",
