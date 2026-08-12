@@ -2,6 +2,132 @@
   "lastScan": "2026-08-12",
   "ideas": [
     {
+      "slug": "no-second",
+      "title": "No Second",
+      "hook": "One token, four directions, and any direction two of you are pushing at the same time counts as zero — so the room's instinct to all shove UP together is exactly what nails it to the floor.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "asymmetric-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "middle-seat",
+      "title": "Middle Seat",
+      "hook": "Two people across the table accidentally pick the same number and the blast doesn't touch either of them — it flattens everybody sitting between them.",
+      "tags": [
+        "party",
+        "bluffing",
+        "asymmetric-info",
+        "press-your-luck"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "cue-to-cue",
+      "title": "Cue to Cue",
+      "hook": "The room has to perform a sentence none of them can see, because each phone holds only one link — 'when you hear KETTLE, say ANVIL' — and three seconds of dead air kills the run.",
+      "tags": [
+        "party",
+        "voice",
+        "speech-recognition",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "since-when",
+      "title": "Since When",
+      "hook": "A Spaceteam-style panel where the controls quietly change hands every few seconds, so the only thing that ever breaks is the room's shared idea of who owns what.",
+      "tags": [
+        "party",
+        "voice",
+        "real-time",
+        "cooperative"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "under-the-thumb",
+      "title": "Under the Thumb",
+      "hook": "The map-holder's screen is pitch black except under their fingertip — and anyone lit by that fingertip is frozen in place, so you can only ever see the person you're currently preventing from moving.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "touch"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "as-you-were",
+      "title": "As You Were",
+      "hook": "The one phone holding the map shows the board four seconds in the future — but only while nobody changes what they're doing, so every order the map-holder shouts blinds them to its consequences.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "mass-rebuild",
+      "title": "Mass Rebuild",
+      "hook": "A single-player tycoon where you're the distro maintainer: one soname bump dirties nine thousand reverse-dependencies, your build farm has forty slots, and the CVE clock does not care that you batched.",
+      "tags": [
+        "game",
+        "sim",
+        "tycoon",
+        "devtool"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "surprisal-tax",
+      "title": "Surprisal Tax",
+      "hook": "Prices every log template in your pipeline by how many bits of actual news it carries per dollar shipped — and proves the cuts are safe by replaying them against your last six incidents.",
+      "tags": [
+        "observability",
+        "logs",
+        "devtool",
+        "telemetry"
+      ],
+      "score": 67,
+      "source": "lobsters",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "fails-closed",
+      "title": "Fails Closed",
+      "hook": "A two-week wiretap of your own office, then one scheduled 30-minute blackout of every vendor your software phones home to — and a report naming exactly which apps die, which limp, and which never noticed.",
+      "tags": [
+        "business",
+        "b2b",
+        "security",
+        "self-hosted"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-08-12"
+    },
+    {
       "slug": "break-squelch",
       "title": "Break Squelch",
       "hook": "Every word the room speaks raises the static playing out of everyone's phone, and each player goes deaf at a different volume they can't see — so the only fix for not being heard is talking more, which is what deafened you.",
