@@ -1,6 +1,48 @@
 {
-  "lastScan": "2026-08-11",
+  "lastScan": "2026-08-12",
   "ideas": [
+    {
+      "slug": "let-it-spin",
+      "title": "Let It Spin",
+      "hook": "Flick your phone flat on any surface in the house and it clocks the friction — your private target band means only the glass table will do, and someone else needs it too.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "spatial"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "call-the-question",
+      "title": "Call the Question",
+      "hook": "You cannot argue and vote in the same round — your ballot only arms after enough personal silence, and since everyone's required silence is a different secret length, the loudest person in the room might be the one who can still vote.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "audio",
+        "negotiation"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "third-quietest",
+      "title": "Third Quietest",
+      "hook": "Your phone secretly tells you which place you must finish in on a talk-time leaderboard nobody can see — so you spend the party frantically manufacturing conversation or eating your own words, and the only way to learn where the pack is costs you the exact seconds you're trying to protect.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-12"
+    },
     {
       "slug": "whole-rest",
       "title": "Whole Rest",
