@@ -2,6 +2,74 @@
   "lastScan": "2026-08-12",
   "ideas": [
     {
+      "slug": "break-squelch",
+      "title": "Break Squelch",
+      "hook": "Every word the room speaks raises the static playing out of everyone's phone, and each player goes deaf at a different volume they can't see — so the only fix for not being heard is talking more, which is what deafened you.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "rhymes-with",
+      "title": "Rhymes With",
+      "hook": "Every switch in the room is a homophone of somebody else's switch, so shouting its name reaches the wrong hands until the room invents a way to say a word without saying it.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "wrong-but-slower",
+      "title": "Wrong but Slower",
+      "hook": "A puzzle game where you never see the program — only a black box that answers one number per query — and you must steal its secret from nothing but how long it took or how small it compressed.",
+      "tags": [
+        "puzzle",
+        "security",
+        "browser-game"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "it-pulls-back",
+      "title": "It Pulls Back",
+      "hook": "A modular synth where patch cables have no direction and no buffering — plug a second cable into an output and it genuinely loads the source, sagging the tone, exactly like the hardware everyone emulates and nobody simulates.",
+      "tags": [
+        "audio",
+        "music",
+        "physics",
+        "generative"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "last-syscall",
+      "title": "Last Syscall",
+      "hook": "Your build has printed nothing for ninety seconds — this wrapper walks the process tree and tells you flatly \"cc is blocked in read() on a TCP socket to registry.npmjs.org, 43s, zero bytes moved.\"",
+      "tags": [
+        "devtool",
+        "cli",
+        "observability"
+      ],
+      "score": 76,
+      "source": "github",
+      "created": "2026-08-12"
+    },
+    {
       "slug": "let-it-spin",
       "title": "Let It Spin",
       "hook": "Flick your phone flat on any surface in the house and it clocks the friction — your private target band means only the glass table will do, and someone else needs it too.",
