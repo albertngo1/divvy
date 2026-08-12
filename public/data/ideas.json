@@ -2,6 +2,103 @@
   "lastScan": "2026-08-12",
   "ideas": [
     {
+      "slug": "nobody-s-favorite",
+      "title": "Nobody's Favorite",
+      "hook": "Eight options on the TV, three phones each showing a completely different private scoreboard for them, and no way to say the sentence 'fine, I'll take yours.'",
+      "tags": [
+        "party",
+        "cooperative",
+        "negotiation",
+        "browser-game"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "coming-my-way",
+      "title": "Coming My Way",
+      "hook": "Your phone shows everyone in the room except you — so the only way to find out where you're standing is to watch two strangers walk toward an empty spot.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "spatial-puzzle"
+      ],
+      "score": 79,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "two-sources",
+      "title": "Two Sources",
+      "hook": "Ninety silent seconds where four people separately type what they remember about the same night — then the page prints only the details at least two of you came up with independently, everything else struck through, and one token each to sign your name to a memory nobody else can back you on.",
+      "tags": [
+        "party",
+        "keepsake",
+        "cooperative",
+        "memory"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "sign-the-card",
+      "title": "Sign the Card",
+      "hook": "Four people write one sincere greeting card at once, each secretly smuggling a single letter of a six-letter inside joke into a line they don't control the rest of — while the person the card is for sits right there, holding three flags and watching it get written.",
+      "tags": [
+        "party",
+        "keepsake",
+        "wordgame",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "underpowered",
+      "title": "Underpowered",
+      "hook": "Before you run yet another 'does magnesium help my sleep' self-experiment, this measures your own biological noise floor and tells you flatly which questions your body will never answer — and exactly how many days the rest would take.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "habits"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "sounds-thin",
+      "title": "Sounds Thin",
+      "hook": "A physics toy that synthesizes the eerie laser-pew of a stone skipped across a frozen lake from first principles — then runs backwards, listening to a real recording and telling you how thick the ice under it was.",
+      "tags": [
+        "audio",
+        "physics",
+        "generative",
+        "nature"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "fifty-or-sixty",
+      "title": "Fifty or Sixty",
+      "hook": "Drop in any indoor photo and it reads the invisible light-flicker banding baked into the rolling shutter to tell you whether the room was on a 50 Hz or 60 Hz grid — and whether two photos were really lit by the same lamp.",
+      "tags": [
+        "forensics",
+        "security",
+        "provenance",
+        "computer-vision"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-08-12"
+    },
+    {
       "slug": "no-second",
       "title": "No Second",
       "hook": "One token, four directions, and any direction two of you are pushing at the same time counts as zero — so the room's instinct to all shove UP together is exactly what nails it to the floor.",
