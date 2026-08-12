@@ -2,6 +2,118 @@
   "lastScan": "2026-08-12",
   "ideas": [
     {
+      "slug": "wrong-byline",
+      "title": "Wrong Byline",
+      "hook": "Ten anonymous lines sit numbered on the TV, and each phone privately holds who wrote four of them — except one player's slice has two names transposed, so the only way to catch them is to make them cite their sources out loud.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "leave-me-out",
+      "title": "Leave Me Out",
+      "hook": "Everyone's phone shows an identically-formatted scoring card, but one card pays you for every pair of OTHER people who agree with each other while you don't — so the imposter has to build a consensus and then step out of it before the buzzer.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "voting"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "dead-still",
+      "title": "Dead Still",
+      "hook": "Your private evidence only develops while the phone lies face-up and motionless on a table — the exact state in which anyone in the room can lean over and read it.",
+      "tags": [
+        "party",
+        "sensor",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "off-my-bow",
+      "title": "Off My Bow",
+      "hook": "Your phone's needle points not north but at the difference between your heading and one secret other player's — so the only way to find your mark is to stand dead still and watch which body in the room turns when your needle does.",
+      "tags": [
+        "party",
+        "sensor",
+        "social-deduction",
+        "spatial"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "my-two-bits",
+      "title": "My Two Bits",
+      "hook": "Each phone privately holds a tape of random bits that pick which of the model's four candidate words gets emitted, you get paid every time the room spends you, and nobody can check whether your bits are as cheap as you claim.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "bluffing",
+        "cooperative"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "run-ahead",
+      "title": "Run Ahead",
+      "hook": "Everyone privately drafts the next five words of a story, then the model verifies each draft token-by-token and guillotines it at the first word it wouldn't have tolerated — longest surviving prefix becomes canon.",
+      "tags": [
+        "party",
+        "wordgame",
+        "press-your-luck",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "types-too-fast",
+      "title": "Types Too Fast",
+      "hook": "A browser extension that spots generated text without any classifier — it just watches the DOM, because an LLM streaming into a page appends characters with an inhuman steadiness that no human typist or canned animation can fake.",
+      "tags": [
+        "llm",
+        "privacy",
+        "devtool",
+        "forensics"
+      ],
+      "score": 64,
+      "source": "github",
+      "created": "2026-08-12"
+    },
+    {
+      "slug": "visual-purple",
+      "title": "Visual Purple",
+      "hook": "A menubar toy that models the rhodopsin in your actual eyes from your actual screen brightness, and tells you the faintest star you could see if you walked outside right now.",
+      "tags": [
+        "ambient",
+        "menubar",
+        "astronomy",
+        "biology"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-12"
+    },
+    {
       "slug": "trackage-rights",
       "title": "Trackage Rights",
       "hook": "Everyone runs trains across one shared rail map, but each phone secretly owns three pieces of the track — and the only way to learn who owns what is to run over it and watch the toll leave your account.",
