@@ -2,6 +2,48 @@
   "lastScan": "2026-08-13",
   "ideas": [
     {
+      "slug": "left-uncorrected",
+      "title": "Left Uncorrected",
+      "hook": "Hide a message in which typos you choose to leave in a scanned document — the channel is genuinely noisy, so every carrier is deniable as \"that's just what the scanner read.\"",
+      "tags": [
+        "steganography",
+        "language",
+        "nlp",
+        "privacy"
+      ],
+      "score": 68,
+      "source": "lobsters",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "escape-rate",
+      "title": "Escape Rate",
+      "hook": "A puzzle game where you arrange mirrors to trap a pulse of light forever — and a theorem proved this year guarantees you cannot, so the whole game is a scored race toward a wall that mathematics built.",
+      "tags": [
+        "physics",
+        "puzzle",
+        "procedural",
+        "audio"
+      ],
+      "score": 71,
+      "source": "hn",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "herstatt-window",
+      "title": "Herstatt Window",
+      "hook": "Pick a currency pair and a trade date, and watch the exact hours during which you have already paid one leg and cannot yet be paid the other — the settlement risk that killed a bank in 1974 and still rides on a third of FX turnover.",
+      "tags": [
+        "finance",
+        "markets",
+        "visualization",
+        "timeline"
+      ],
+      "score": 75,
+      "source": "hn",
+      "created": "2026-08-13"
+    },
+    {
       "slug": "ran-it-back",
       "title": "Ran It Back",
       "hook": "Any phone can rewind the shared screen eight seconds — but the world re-rolls when it replays, and the person who spent the token is the only one who still remembers the version that got erased.",
