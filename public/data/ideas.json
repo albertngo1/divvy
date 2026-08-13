@@ -2,6 +2,73 @@
   "lastScan": "2026-08-13",
   "ideas": [
     {
+      "slug": "just-outside",
+      "title": "Just Outside",
+      "hook": "Four fighters share one line on the TV, everyone can see exactly where everyone stands, and the only thing that's secret is how far your arm reaches — so a whiff tells the whole room more about you than a hit does.",
+      "tags": [
+        "party",
+        "deduction",
+        "simultaneous-turns",
+        "spatial"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "green-to-me",
+      "title": "Green to Me",
+      "hook": "A boss that silently scales to the room's average level, and your phone will only ever tell you what color it cons to you — so when your screen slides from blue to red, somebody got greedy and you'll never know who.",
+      "tags": [
+        "party",
+        "semi-cooperative",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "still-firing",
+      "title": "Still Firing",
+      "hook": "A $4 piezo taped to your quad turns the low-frequency hum of your own muscle into a live fatigue curve, so you know which rep was the last one that actually counted.",
+      "tags": [
+        "quantified-self",
+        "health",
+        "audio"
+      ],
+      "score": 75,
+      "source": "arxiv",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "half-a-meg",
+      "title": "Half a Meg",
+      "hook": "A music toy where 512KB of Amiga chip RAM is the only currency: every note you add steals fidelity from your own samples, so a busy arrangement audibly rots itself.",
+      "tags": [
+        "music",
+        "audio",
+        "generative"
+      ],
+      "score": 66,
+      "source": "hn",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "too-new",
+      "title": "Too New",
+      "hook": "Drop in your Linux binary and it tells you exactly which distros it will refuse to start on — and which three lines of your code are costing you RHEL 9.",
+      "tags": [
+        "devtool",
+        "cli",
+        "ci"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-13"
+    },
+    {
       "slug": "sound-off",
       "title": "Sound Off",
       "hook": "The alarm beeps out of the wrong person's phone, the codebook that decodes it is on a third phone, and the switch that fixes it belongs to a fourth — so the only wire in the building is the room's own voice.",
