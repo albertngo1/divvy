@@ -2,6 +2,76 @@
   "lastScan": "2026-08-13",
   "ideas": [
     {
+      "slug": "four-to-the-bar",
+      "title": "Four to the Bar",
+      "hook": "A four-beat bar loops forever and each phone secretly holds one rule about which beats must be silent — and every attempt to explain your rule puts your voice in beats you were supposed to keep empty.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "deduction"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "say-less",
+      "title": "Say Less",
+      "hook": "Your voice is the throttle: a shared dot only moves while somebody is talking, it never moves backwards, and the checkpoint you must stop it on is visible only on your phone.",
+      "tags": [
+        "party",
+        "audio",
+        "cooperative",
+        "sensor"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "familiar-enough",
+      "title": "Familiar Enough",
+      "hook": "A reading tool that highlights only the foreign words you'd never think to look up — the ones that look exactly like a word you know and mean something else entirely.",
+      "tags": [
+        "language",
+        "nlp",
+        "translation",
+        "writing"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "case-stack",
+      "title": "Case Stack",
+      "hook": "Watches the shelf drain store by store and tells small importers which boring pantry item is six weeks from a nationwide stockout, while it's still cheap by the pallet.",
+      "tags": [
+        "finance",
+        "markets",
+        "logistics",
+        "b2b"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "ends-like-this",
+      "title": "Ends Like This",
+      "hook": "Draw the wreckage you want — the dominoes fallen just so, the marble parked in the cup — and a solver hunts backwards through a physics engine for the flick that gets there.",
+      "tags": [
+        "physics",
+        "puzzle",
+        "sim",
+        "procedural"
+      ],
+      "score": 74,
+      "source": "wild",
+      "created": "2026-08-13"
+    },
+    {
       "slug": "just-outside",
       "title": "Just Outside",
       "hook": "Four fighters share one line on the TV, everyone can see exactly where everyone stands, and the only thing that's secret is how far your arm reaches — so a whiff tells the whole room more about you than a hit does.",
