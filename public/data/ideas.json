@@ -2,6 +2,104 @@
   "lastScan": "2026-08-13",
   "ideas": [
     {
+      "slug": "sound-off",
+      "title": "Sound Off",
+      "hook": "The alarm beeps out of the wrong person's phone, the codebook that decodes it is on a third phone, and the switch that fixes it belongs to a fourth — so the only wire in the building is the room's own voice.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "in-that-order",
+      "title": "In That Order",
+      "hook": "The machine ignores every word you say and reads only who spoke next, so the room cannot discuss the plan without spending the plan.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "wasn-t-there-before",
+      "title": "Wasn't There Before",
+      "hook": "The map-holder's floor plan is one renovation out of date, so when a blind piece reports a wall that shouldn't exist, nobody can tell whether the building changed or the piece just isn't where anyone thinks they are.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "asymmetric-info"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "rubbed-out",
+      "title": "Rubbed Out",
+      "hook": "The map-holder starts omniscient and ends blind, because every tile the blind pieces walk on smudges itself off their phone forever — so by the end the only surviving map is three contradictory notebooks nobody can read aloud straight.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-reasoning"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "route-setter",
+      "title": "Route Setter",
+      "hook": "A tiny climber lives on your desktop and treats your open windows as a bouldering wall — and the menubar grades the route your window layout accidentally set today.",
+      "tags": [
+        "desktop-toy",
+        "ambient",
+        "whimsy",
+        "animation"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "last-circulated",
+      "title": "Last Circulated",
+      "hook": "A librarian daemon that applies real deaccessioning math to your own notes — measuring how often each one is actually opened, then quietly boxing the dead ones into an annex it promises never to delete.",
+      "tags": [
+        "productivity",
+        "quantified-self",
+        "writing",
+        "habits"
+      ],
+      "score": 69,
+      "source": "producthunt",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "cross-fingering",
+      "title": "Cross Fingering",
+      "hook": "Every time you press run it invents a woodwind that has never existed — solves its actual acoustics, discovers what scale that bore happens to produce, and hands you a piece of music plus the fingering chart no human has ever read.",
+      "tags": [
+        "generative",
+        "audio",
+        "music",
+        "procedural"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-13"
+    },
+    {
       "slug": "hard-to-call",
       "title": "Hard to Call",
       "hook": "The room writes a sentence to keep a tiny LLM confused, because a token it was sure about isn't a fair coin — only genuinely uncertain words get flipped onto the public bit tape, and each phone is secretly waiting on a different four-bit pattern.",
