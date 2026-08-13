@@ -1,6 +1,62 @@
 {
-  "lastScan": "2026-08-12",
+  "lastScan": "2026-08-13",
   "ideas": [
+    {
+      "slug": "low-water",
+      "title": "Low Water",
+      "hook": "All three of you secretly drop six chips into five boxes, and the only thing the room ever sees is the elementwise minimum — the water line of what everybody already agrees on, which cements in place and leaves you fighting silently over the residue.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "negotiation"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "drop-test",
+      "title": "Drop Test",
+      "hook": "Three unlabeled sliders, three secret gains, and one giant number on the TV that is only their sum — the only way to learn what you're worth is to slide yourself to zero and watch the total fall, which two people can't do at once.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "signaling"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "whoever-you-are",
+      "title": "Whoever You Are",
+      "hook": "Your phone tells you how far away you are from one specific other player — but never which one — and the four secret distances only close if the whole room walks itself into a shape nobody can see.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "audio"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "take-a-seat",
+      "title": "Take a Seat",
+      "hook": "Every phone privately holds a rule about how many people should be standing, the TV shows the count 1.5 seconds late, and the room becomes a wobbling human bar chart that has to physically settle into a fixed point.",
+      "tags": [
+        "party",
+        "sensor",
+        "real-time",
+        "minority-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-13"
+    },
     {
       "slug": "wrong-byline",
       "title": "Wrong Byline",
