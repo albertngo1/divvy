@@ -2,6 +2,76 @@
   "lastScan": "2026-08-13",
   "ideas": [
     {
+      "slug": "hard-to-call",
+      "title": "Hard to Call",
+      "hook": "The room writes a sentence to keep a tiny LLM confused, because a token it was sure about isn't a fair coin — only genuinely uncertain words get flipped onto the public bit tape, and each phone is secretly waiting on a different four-bit pattern.",
+      "tags": [
+        "party",
+        "real-time",
+        "browser-game",
+        "cooperative"
+      ],
+      "score": 67,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "take-mine-out",
+      "title": "Take Mine Out",
+      "hook": "Everyone feeds one blind clue into a tiny LLM's context, and you are paid only the bits the model loses when your clue is deleted — so writing the same true thing as somebody else pays exactly nothing.",
+      "tags": [
+        "party",
+        "wordgame",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "tap-test",
+      "title": "Tap Test",
+      "hook": "Foundry workers judge a casting by tapping it and listening; this lets you tap all twelve thousand crystals in the Materials Project, hear the tuning fork each one would make, and rotate the lumpy 3D blob of its stiffness while it rings.",
+      "tags": [
+        "materials",
+        "audio",
+        "3d-viz",
+        "physics"
+      ],
+      "score": 76,
+      "source": "hn",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "write-ahead",
+      "title": "Write Ahead",
+      "hook": "A menubar aquarium where every SQLite database on your Mac is a glass cistern that fills with write-ahead log and audibly drains on checkpoint — pretty enough to leave running, and it will notice the one that stops draining months before your data quietly rots.",
+      "tags": [
+        "ambient",
+        "desktop-toy",
+        "menubar",
+        "observability"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "sun-debt",
+      "title": "Sun Debt",
+      "hook": "Your phone counted your steps all year but never noticed you walked every one of them in a building's shadow — this raycasts your location history against OSM roof heights and hands you a bill for the daylight you actually missed.",
+      "tags": [
+        "health",
+        "quantified-self",
+        "gis",
+        "map"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-08-13"
+    },
+    {
       "slug": "low-water",
       "title": "Low Water",
       "hook": "All three of you secretly drop six chips into five boxes, and the only thing the room ever sees is the elementwise minimum — the water line of what everybody already agrees on, which cements in place and leaves you fighting silently over the residue.",
