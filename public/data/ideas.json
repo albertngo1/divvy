@@ -2,6 +2,34 @@
   "lastScan": "2026-08-13",
   "ideas": [
     {
+      "slug": "ran-it-back",
+      "title": "Ran It Back",
+      "hook": "Any phone can rewind the shared screen eight seconds — but the world re-rolls when it replays, and the person who spent the token is the only one who still remembers the version that got erased.",
+      "tags": [
+        "party",
+        "cooperative",
+        "hidden-information",
+        "memory"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
+      "slug": "looks-empty",
+      "title": "Looks Empty",
+      "hook": "Everyone secretly buries one invisible troll block in the same bare Mario level, nobody knows where anyone else's is, and then one of you has to actually clear the thing live on the TV.",
+      "tags": [
+        "party",
+        "level-editor",
+        "hidden-information",
+        "platformer"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-13"
+    },
+    {
       "slug": "four-to-the-bar",
       "title": "Four to the Bar",
       "hook": "A four-beat bar loops forever and each phone secretly holds one rule about which beats must be silent — and every attempt to explain your rule puts your voice in beats you were supposed to keep empty.",
