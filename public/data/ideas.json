@@ -2,6 +2,76 @@
   "lastScan": "2026-08-14",
   "ideas": [
     {
+      "slug": "lay-it-off",
+      "title": "Lay It Off",
+      "hook": "Everyone rearranges the same table of tiles at once, each in a private sandbox nobody else can see — and the first person to commit a legal board detonates everyone else's half-finished masterpiece.",
+      "tags": [
+        "party",
+        "tabletop-adaptation",
+        "real-time",
+        "puzzle"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "full-disclosure",
+      "title": "Full Disclosure",
+      "hook": "You and your partner invent a secret bidding code before the deal — then the rules force your partner to explain it, truthfully, to your opponents' phones only, and you don't find out what they said until the hand is over.",
+      "tags": [
+        "party",
+        "tabletop-adaptation",
+        "hidden-information",
+        "partnership"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "still-cited",
+      "title": "Still Cited",
+      "hook": "Pick any paper and watch how much of the evidence under it traces back, hop by hop, to work that was later retracted — and how many years the field kept citing it after the notice went out.",
+      "tags": [
+        "data-viz",
+        "timeline",
+        "provenance",
+        "visualization"
+      ],
+      "score": 61,
+      "source": "arxiv",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "beam-hardening",
+      "title": "Beam Hardening",
+      "hook": "A tomography puzzle where you reconstruct a hidden slice from a handful of X-ray projections — except one object is steel, and steel lies, so the only perfect fit to the data is wrong.",
+      "tags": [
+        "game",
+        "puzzle",
+        "physics",
+        "procedural"
+      ],
+      "score": 70,
+      "source": "arxiv",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "mostly-air",
+      "title": "Mostly Air",
+      "hook": "Upload three months of carrier invoices and your product dims, and it tells you what fraction of your shipping bill is literally empty space — then names the four boxes to stock instead.",
+      "tags": [
+        "business",
+        "logistics",
+        "saas",
+        "b2b"
+      ],
+      "score": 73,
+      "source": "wild",
+      "created": "2026-08-14"
+    },
+    {
       "slug": "already-said-that",
       "title": "Already Said That",
       "hook": "The panel remembers every word the room has spoken and refuses to hear it twice — so each successful shout burns the name of the thing you shouted about, and by second sixty you're screaming \"THE ONE UNDER THE THING I CAN'T SAY ANYMORE.\"",
