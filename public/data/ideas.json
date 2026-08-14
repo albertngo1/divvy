@@ -2,6 +2,48 @@
   "lastScan": "2026-08-14",
   "ideas": [
     {
+      "slug": "participants-were",
+      "title": "Participants Were",
+      "hook": "A desk-check service that reads a submitted paper's methods section and flags the human-subjects work that has no ethics approval, no consent language, and no stated participant compensation — before the conference publishes it and has to retract it.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "nlp"
+      ],
+      "score": 67,
+      "source": "arxiv",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "melting-point",
+      "title": "Melting Point",
+      "hook": "A stippling engine that treats your photo as a physical substance with a temperature: freeze it and it crystallizes into a meaningless hex lattice, heat it and it boils into white noise, and the image only exists in the narrow blue-noise mesophase between the two.",
+      "tags": [
+        "generative",
+        "art",
+        "graphics",
+        "physics"
+      ],
+      "score": 71,
+      "source": "arxiv",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "cursor-home",
+      "title": "Cursor Home",
+      "hook": "Your CI log isn't a transcript, it's a movie stored badly — this replays the raw ANSI byte stream as the terminal screen it actually was, and jumps you straight to the frame the build sat frozen on for four minutes.",
+      "tags": [
+        "devtool",
+        "ci",
+        "logs",
+        "observability"
+      ],
+      "score": 74,
+      "source": "github",
+      "created": "2026-08-14"
+    },
+    {
       "slug": "no-shoulder",
       "title": "No Shoulder",
       "hook": "Everyone holds a segment of one shrinking line you can't see, your phone's rising buzz is your only sense of the neighbor you're about to crush, and by the end there is provably not enough room for all of you.",
