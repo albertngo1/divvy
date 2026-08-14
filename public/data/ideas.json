@@ -1,6 +1,131 @@
 {
-  "lastScan": "2026-08-13",
+  "lastScan": "2026-08-14",
   "ideas": [
+    {
+      "slug": "next-voice",
+      "title": "Next Voice",
+      "hook": "A stack of face-down consequences sits on the TV aimed at whoever speaks next — it grows every five seconds the room stays quiet, each of you secretly slipped one card into it, and each of you has a sentence you must say out loud before the clock runs out.",
+      "tags": [
+        "party",
+        "audio",
+        "bluffing",
+        "social-deduction"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "different-ruler",
+      "title": "Different Ruler",
+      "hook": "The room produces one shared 90-second trace of sound and silence, and every phone is secretly paid on a different statistic of that same trace — so the only way to learn what anyone wants is to make a noise and watch their bar move.",
+      "tags": [
+        "party",
+        "audio",
+        "sensor",
+        "social-deduction"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "aged-out",
+      "title": "Aged Out",
+      "hook": "The room shares one tiny model's context window and everyone is quietly stuffing it with words, because each of you is being scored on a secret sentence you can never say out loud — and the oldest words keep falling off the front.",
+      "tags": [
+        "party",
+        "wordgame",
+        "llm",
+        "hidden-goals"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "shallow-end",
+      "title": "Shallow End",
+      "hook": "Every phone shows what the same tiny model was thinking at a different depth of its own brain — the layer-4 players confidently say \"the\" while layer-12 sees the joke, and nobody knows how deep they're reading from.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "llm",
+        "browser-game"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "still-typing",
+      "title": "Still Typing",
+      "hook": "Everyone answers the same prompt on their own phone, but one player's screen also carries a live, 1.5-second-delayed feed of the letters everyone else is typing — so you can bait them by typing a word, erasing it, and submitting something else.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 73,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "consistent-so-far",
+      "title": "Consistent So Far",
+      "hook": "The imposter's phone silently rewrites their three fact cards after every public claim so they can never be caught contradicting anyone — the only way to catch them is to ask about the corner of the puzzle nobody has spoken about yet.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "asymmetric-info",
+        "logic-puzzle"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "cold-by-thursday",
+      "title": "Cold by Thursday",
+      "hook": "A survival curve fitted to your own mailbox that tells you the honest date after which you have never, statistically, replied to anything — so you can archive the guilt with a confidence interval.",
+      "tags": [
+        "quantified-self",
+        "relationships",
+        "productivity"
+      ],
+      "score": 63,
+      "source": "producthunt",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "from-visit",
+      "title": "From Visit",
+      "hook": "Chrome's history table secretly stores a parent pointer for every click, so your day is really a forest of navigation trees — here it is, drawn, with the 3 links that actually mattered highlighted out of 22.",
+      "tags": [
+        "data-viz",
+        "timeline",
+        "privacy",
+        "sql"
+      ],
+      "score": 69,
+      "source": "lobsters",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "no-two-agree",
+      "title": "No Two Agree",
+      "hook": "Scroll a book's spine of translator disagreement — the hottest lines are exactly the ones scholars have fought over for four centuries, computed instead of asserted.",
+      "tags": [
+        "language",
+        "translation",
+        "data-viz",
+        "nlp"
+      ],
+      "score": 71,
+      "source": "wild",
+      "created": "2026-08-14"
+    },
     {
       "slug": "left-uncorrected",
       "title": "Left Uncorrected",
