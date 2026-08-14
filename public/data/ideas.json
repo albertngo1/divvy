@@ -2,6 +2,104 @@
   "lastScan": "2026-08-14",
   "ideas": [
     {
+      "slug": "rolled-back",
+      "title": "Rolled Back",
+      "hook": "Every phone runs its own optimistic version of the match that guesses what everyone else is doing by assuming they'll repeat themselves — so being predictable and then breaking pattern poisons three screens at once.",
+      "tags": [
+        "party",
+        "real-time",
+        "asymmetric-info",
+        "bluffing"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "whose-left",
+      "title": "Whose Left",
+      "hook": "Three phones pack one shared inventory case, but every phone sees a different overlapping window of it — each rotated 90° from the next, so nobody's \"top left\" is anybody else's.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "go-look-for-me",
+      "title": "Go Look For Me",
+      "hook": "The map-holder can't choose what to look at — their map only lights up around whichever blind piece moved last, so seeing the room means sending someone into the dark on faith.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "point-it-at-me",
+      "title": "Point It At Me",
+      "hook": "The Cartographer's map is pinned to the room like a porthole — and they may only give orders to the player they're physically facing, so every word costs them the corner of the map they were reading.",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "sensor"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "opted-out",
+      "title": "Opted Out",
+      "hook": "Flip the privacy switch to off, and it watches the wire for ten minutes to see whether the app agrees with you — then hands you a signed, reproducible receipt of everything it sent anyway.",
+      "tags": [
+        "privacy",
+        "forensics",
+        "provenance",
+        "security"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "out-of-character",
+      "title": "Out of Character",
+      "hook": "It replays your last year one hour at a time, asking a model to guess what you were doing before it looks — and the hours it never sees coming are the only ones that were actually yours.",
+      "tags": [
+        "llm",
+        "calendar",
+        "quantified-self",
+        "ambient"
+      ],
+      "score": 72,
+      "source": "arxiv",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "two-by-two",
+      "title": "Two by Two",
+      "hook": "Tape your old phone outside the kitchen window for one day and it computes an hour-by-hour map of how convincingly that glass pretends to be sky — then prints the exact decal grid, at the exact spots, for the panes that are killing birds.",
+      "tags": [
+        "nature",
+        "computer-vision",
+        "gis",
+        "whimsy"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-08-14"
+    },
+    {
       "slug": "allowed-one",
       "title": "Allowed One",
       "hook": "Every single phone is holding one lie it can't identify — so the imposter isn't the player who's wrong, it's the player who's wrong twice, and the room has to convict on arithmetic.",
