@@ -2,6 +2,34 @@
   "lastScan": "2026-08-14",
   "ideas": [
     {
+      "slug": "allowed-one",
+      "title": "Allowed One",
+      "hook": "Every single phone is holding one lie it can't identify — so the imposter isn't the player who's wrong, it's the player who's wrong twice, and the room has to convict on arithmetic.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "logic-puzzle",
+        "asymmetric-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "both-right",
+      "title": "Both Right",
+      "hook": "One player's phone is an exact, byte-for-byte copy of somebody else's — so when the two of them publish the same line to the plan, the room has to break a tie where both people are honestly telling the truth.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-information",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
       "slug": "participants-were",
       "title": "Participants Were",
       "hook": "A desk-check service that reads a submitted paper's methods section and flags the human-subjects work that has no ethics approval, no consent language, and no stated participant compensation — before the conference publishes it and has to retract it.",
