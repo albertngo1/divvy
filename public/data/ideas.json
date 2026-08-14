@@ -2,6 +2,76 @@
   "lastScan": "2026-08-14",
   "ideas": [
     {
+      "slug": "first-to-go",
+      "title": "First to Go",
+      "hook": "Before anyone speaks, you rank your four secrets from most expendable to most fatal — because every three seconds your own voice is heard, the TV burns the next one off the top of your pile and reads it to the room.",
+      "tags": [
+        "party",
+        "audio",
+        "bluffing",
+        "hidden-information"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "on-my-tab",
+      "title": "On My Tab",
+      "hook": "Your phone's fuel gauge drains only when one specific other player talks — you're never told who — so the room fills with people desperately shushing someone for a reason they can't say out loud without draining somebody else.",
+      "tags": [
+        "party",
+        "audio",
+        "social-deduction",
+        "sensor"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "follow-my-finger",
+      "title": "Follow My Finger",
+      "hook": "A 20-second morning webcam test that runs the same smooth-pursuit and saccade-latency checks a doctor does when they say 'follow my finger' — quietly turning your eyes into a daily fatigue and impairment gauge, plotted against last night's sleep.",
+      "tags": [
+        "health",
+        "quantified-self",
+        "computer-vision",
+        "habits"
+      ],
+      "score": 61,
+      "source": "arxiv",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "fifty-eight",
+      "title": "Fifty-Eight",
+      "hook": "A browser toy that grows a real Naica-cave selenite crystal under honest thermodynamics — the giant translucent beams only form when you hold the water just below 58°C, and the fast-forward button you'll desperately reach for visibly wrecks the crystal, because you cannot cheat 500,000 years of patience.",
+      "tags": [
+        "physics",
+        "chemistry",
+        "desktop-toy",
+        "materials"
+      ],
+      "score": 65,
+      "source": "hn",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "write-tax",
+      "title": "Write Tax",
+      "hook": "Point it at your service and it tells you the brutal truth journald just taught everyone: that one-line DEBUG log you added to a hot loop is silently costing 110KB of physical disk writes per call and burning a measurable slice of your SSD's daily lifespan.",
+      "tags": [
+        "observability",
+        "telemetry",
+        "devtool",
+        "cli"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-08-14"
+    },
+    {
       "slug": "lay-it-off",
       "title": "Lay It Off",
       "hook": "Everyone rearranges the same table of tiles at once, each in a private sandbox nobody else can see — and the first person to commit a legal board detonates everyone else's half-finished masterpiece.",
