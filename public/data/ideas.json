@@ -2,6 +2,104 @@
   "lastScan": "2026-08-14",
   "ideas": [
     {
+      "slug": "no-shoulder",
+      "title": "No Shoulder",
+      "hook": "Everyone holds a segment of one shrinking line you can't see, your phone's rising buzz is your only sense of the neighbor you're about to crush, and by the end there is provably not enough room for all of you.",
+      "tags": [
+        "party",
+        "anti-coordination",
+        "real-time",
+        "haptics"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "one-account",
+      "title": "One Account",
+      "hook": "Answer the same word as someone else and you don't lose points — you lose your body: the two of you are fused into a single shared account, typing into one text field on two phones for the rest of the game.",
+      "tags": [
+        "party",
+        "anti-coordination",
+        "wordgame",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "turn-something",
+      "title": "Turn Something",
+      "hook": "Nobody's controls affect their own instruments — your three unlabelled knobs move somebody else's gauges — so surviving the sixty-second alarm means running a shouted physics experiment with strangers while the hull count runs down.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "puzzle"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "mine-too",
+      "title": "Mine Too",
+      "hook": "Every phone holds six labelled switches, nobody knows which labels are duplicated across the room, and the ship faults if two people helpfully throw the same switch — so the whole round is people shouting \"I've got it, hands off.\"",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "last-decoder",
+      "title": "Last Decoder",
+      "hook": "Scans your archive and tells you, per file, which single unmaintained C library is the last thing on earth that can still open it — and how many CVEs that library has.",
+      "tags": [
+        "security",
+        "forensics",
+        "provenance",
+        "cli"
+      ],
+      "score": 63,
+      "source": "hn",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "destroy-eligible",
+      "title": "Destroy Eligible",
+      "hook": "Reconciles a company's offsite records-storage invoice against its actual retention schedule and hands back the list of boxes it is paying rent on that it is legally allowed — sometimes required — to have already destroyed.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "marked-and-lit",
+      "title": "Marked and Lit",
+      "hook": "Every registered tower in America, blinking on a dark map at its own legally-mandated flash rate — wind farms pulsing in eerie unison, and tonight's burned-out beacons rendered as the only holes in the constellation.",
+      "tags": [
+        "data-viz",
+        "map",
+        "gis",
+        "ambient"
+      ],
+      "score": 71,
+      "source": "github",
+      "created": "2026-08-14"
+    },
+    {
       "slug": "first-to-go",
       "title": "First to Go",
       "hook": "Before anyone speaks, you rank your four secrets from most expendable to most fatal — because every three seconds your own voice is heard, the TV burns the next one off the top of your pile and reads it to the room.",
