@@ -2,6 +2,104 @@
   "lastScan": "2026-08-14",
   "ideas": [
     {
+      "slug": "already-said-that",
+      "title": "Already Said That",
+      "hook": "The panel remembers every word the room has spoken and refuses to hear it twice — so each successful shout burns the name of the thing you shouted about, and by second sixty you're screaming \"THE ONE UNDER THE THING I CAN'T SAY ANYMORE.\"",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "wordgame"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "same-second",
+      "title": "Same Second",
+      "hook": "Your action fires on a countdown you are not allowed to see — only the person to your left can see your clock, and only you know which machine you're about to slam into, so the whole room is one continuous panicked merge of \"WHICH ONE?\" and \"FOUR! YOU'RE AT FOUR!\"",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "audio"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "take-it-home",
+      "title": "Take It Home",
+      "hook": "The room writes one postcard together, then learns only a single copy will ever exist — and it goes to the one person who didn't secretly claim it, so if two of you play saint or nobody does, the file burns.",
+      "tags": [
+        "party",
+        "keepsake",
+        "bluffing",
+        "hidden-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "fifty-lux",
+      "title": "Fifty Lux",
+      "hook": "A newly found photograph hangs on the TV in near-total darkness, and every private look you take at it bleaches that exact spot forever — so the souvenir you go home with is a map of how curious you were.",
+      "tags": [
+        "party",
+        "cooperative",
+        "keepsake",
+        "asymmetric-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "mass-overhead",
+      "title": "Mass Overhead",
+      "hook": "Tape a phone face-down in a dark room overnight and it counts the muons punching through its camera sensor — leave it on each floor of your house and you've weighed the concrete above your head.",
+      "tags": [
+        "physics",
+        "astronomy",
+        "computer-vision",
+        "desktop-toy"
+      ],
+      "score": 64,
+      "source": "wild",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "dot-gain",
+      "title": "Dot Gain",
+      "hook": "A halftone engine that anneals its dots like a physical system instead of stamping a screen — stochastic, moiré-proof separations for risograph and screenprint, calibrated against a test chart you print and scan back in.",
+      "tags": [
+        "graphics",
+        "art",
+        "generative",
+        "materials"
+      ],
+      "score": 69,
+      "source": "arxiv",
+      "created": "2026-08-14"
+    },
+    {
+      "slug": "wall-clock",
+      "title": "Wall Clock",
+      "hook": "Your Mac quietly records the 60 Hz hum off a wall wart 24/7, so any clip anyone hands you later can be timestamped to the minute — or exposed as spliced — by matching its buried mains wobble against your private grid archive.",
+      "tags": [
+        "forensics",
+        "security",
+        "audio",
+        "provenance"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-08-14"
+    },
+    {
       "slug": "next-voice",
       "title": "Next Voice",
       "hook": "A stack of face-down consequences sits on the TV aimed at whoever speaks next — it grows every five seconds the room stays quiet, each of you secretly slipped one card into it, and each of you has a sentence you must say out loud before the clock runs out.",
