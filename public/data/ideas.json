@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-08-14",
+  "lastScan": "2026-08-15",
   "ideas": [
+    {
+      "slug": "where-it-wobbles",
+      "title": "Where It Wobbles",
+      "hook": "A story types itself onto the TV and every phone may buzz only inside its own secret band of the model's uncertainty — so you have to feel, from the words alone, whether the machine is confident or lost.",
+      "tags": [
+        "party",
+        "llm",
+        "cooperative",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "bites-its-tongue",
+      "title": "Bites Its Tongue",
+      "hook": "Nobody in the room writes a word — you each secretly forbid the tiny LLM a slice of its vocabulary, and the only evidence your wall exists is how strangled its sentence sounds.",
+      "tags": [
+        "party",
+        "llm",
+        "social-deduction",
+        "wordgame"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "one-wall-off",
+      "title": "One Wall Off",
+      "hook": "Three dots race to meet in the same maze cell, except the TV shows the dots with no walls at all and every phone's private map has exactly one wall that is a lie.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "spatial-puzzle"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "what-you-threw",
+      "title": "What You Threw",
+      "hook": "Everyone holds six secret emoji and must discard down to one identical survivor — and the only channel in the silent room is which cards you throw away, in what order, in front of everybody.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "asymmetric-info"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "under-mine",
+      "title": "Under Mine",
+      "hook": "Nobody moves — the world does: one player drags and rotates the entire map under four frozen tokens, while each teammate sees only the single tile directly beneath themselves and privately knows the one tile they need to be standing on.",
+      "tags": [
+        "party",
+        "cooperative",
+        "spatial-puzzle",
+        "asymmetric-information"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "twice-for-left",
+      "title": "Twice for Left",
+      "hook": "The one player holding the maze isn't allowed to speak — they steer four blindfolded teammates by tapping vibration patterns onto each phone in parallel, inventing a private code on the fly that nobody agreed on first.",
+      "tags": [
+        "party",
+        "cooperative",
+        "haptics",
+        "asymmetric-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "never-slept",
+      "title": "Never Slept",
+      "hook": "Point it at a git repo and it tells you whether that history was lived or manufactured — because a human who coded for three years slept sometimes, and a backdated commit graph never does.",
+      "tags": [
+        "security",
+        "forensics",
+        "provenance",
+        "git"
+      ],
+      "score": 76,
+      "source": "github",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "as-converted",
+      "title": "As Converted",
+      "hook": "Upload a year of card statements and it recomputes every foreign charge against Visa's and Mastercard's own published daily rates, itemizing exactly who skimmed you — your bank, the network, the settlement lag, or the shop that 'helpfully' billed you in dollars.",
+      "tags": [
+        "finance",
+        "budgeting",
+        "forensics",
+        "markets"
+      ],
+      "score": 70,
+      "source": "wild",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "runs-anyway",
+      "title": "Runs Anyway",
+      "hook": "A screensaver that feeds 3.5KB of random bytes into a CHIP-8 interpreter all night, and keeps only the garbage that accidentally draws something beautiful.",
+      "tags": [
+        "ambient",
+        "generative",
+        "procedural",
+        "screensaver"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-08-15"
+    },
     {
       "slug": "rolled-back",
       "title": "Rolled Back",
