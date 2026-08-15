@@ -2,6 +2,62 @@
   "lastScan": "2026-08-15",
   "ideas": [
     {
+      "slug": "keep-it-lit",
+      "title": "Keep It Lit",
+      "hook": "The cartographer's map is black unless someone is walking — motion is the only light source, it glows only around whoever is moving, and if two people move at once the map shows two identical blobs and the cartographer can no longer tell who is who.",
+      "tags": [
+        "party",
+        "cooperative",
+        "real-time",
+        "asymmetric-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "your-turn-to-look",
+      "title": "Your Turn to Look",
+      "hook": "The only map is a two-handed object: whoever holds it can see the whole dark house but cannot take a single step, and it only renders around their own frozen body — so vision teleports around the room every time somebody says \"give it to me.\"",
+      "tags": [
+        "party",
+        "cooperative",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 75,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "the-other-one",
+      "title": "The Other One",
+      "hook": "Ask a model about your name and it hands back a chimera stitched from three strangers — this maps exactly which stranger donated which fact, and computes the shortest phrase that pries you back apart.",
+      "tags": [
+        "llm",
+        "embeddings",
+        "privacy",
+        "nlp"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "solved-once",
+      "title": "Solved Once",
+      "hook": "Git already remembers how you resolved that conflict — this makes it remember how your *teammate* did, so nobody re-resolves the same merge hunk twice during a long migration.",
+      "tags": [
+        "devtool",
+        "git",
+        "cli",
+        "automation"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-08-15"
+    },
+    {
       "slug": "take-my-word",
       "title": "Take My Word",
       "hook": "Cockroach Poker where the lie is a private text message: you slide a face-down card to one person with a claim only they can read, the room hears only your performance — and when the card finally lands, the TV publishes the entire chain of whispers and shows exactly who lied to whom.",
