@@ -2,6 +2,76 @@
   "lastScan": "2026-08-15",
   "ideas": [
     {
+      "slug": "let-it-stand",
+      "title": "Let It Stand",
+      "hook": "Everyone is proofreading the same notice, everyone's copy has one line quietly wrong, and one person's has three — but nobody knows which of their own lines is the bad one.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "wordgame"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "dealt-twice",
+      "title": "Dealt Twice",
+      "hook": "Five players, four cards: the imposter holds a photocopy of somebody's card, and that somebody has no way to prove which of them is the original.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-role",
+        "asymmetric-info"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "blame-the-box",
+      "title": "Blame the Box",
+      "hook": "Your benchmark didn't regress 12% — CI dealt you a worse CPU this morning, and this proves it by fingerprinting the machine you drew and calibrating the number back.",
+      "tags": [
+        "ci",
+        "devtool",
+        "observability",
+        "telemetry"
+      ],
+      "score": 62,
+      "source": "github",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "long-way-around",
+      "title": "Long Way Around",
+      "hook": "Every real lightning stroke on Earth dumps energy into the magnetosphere, which smears it into a descending whistle — this plays you that whistle, live, so your desk sounds like a receiver pointed at the sky.",
+      "tags": [
+        "audio",
+        "physics",
+        "generative",
+        "ambient"
+      ],
+      "score": 68,
+      "source": "wild",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "never-rendered",
+      "title": "Never Rendered",
+      "hook": "Drop in a viral screenshot and it re-renders the exact UI it claims to be, glyph by glyph, until it can say \"no iPhone has ever drawn this line of text at this width.\"",
+      "tags": [
+        "security",
+        "forensics",
+        "provenance",
+        "computer-vision"
+      ],
+      "score": 73,
+      "source": "lobsters",
+      "created": "2026-08-15"
+    },
+    {
       "slug": "where-it-wobbles",
       "title": "Where It Wobbles",
       "hook": "A story types itself onto the TV and every phone may buzz only inside its own secret band of the model's uncertainty — so you have to feel, from the words alone, whether the machine is confident or lost.",
