@@ -2,6 +2,76 @@
   "lastScan": "2026-08-15",
   "ideas": [
     {
+      "slug": "no-answer",
+      "title": "No Answer",
+      "hook": "Two secret rooms overlaid on the one room you're actually sitting in — and when your card-share gets no reply, you can't tell whether they refused you or were never in the room at all.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "asymmetric-info",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "yours-is-showing",
+      "title": "Yours Is Showing",
+      "hook": "An Anomia riff where the two people in a duel are the only ones in the room who can't see that they're in it — so the bystanders become the screaming announcers.",
+      "tags": [
+        "party",
+        "reflex",
+        "asymmetric-info",
+        "wordgame"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "per-what",
+      "title": "Per What",
+      "hook": "A compile-time units library, but for English prose — it type-checks the quantities in your article and flags the '5 kWh per hour' battery, the '3× less' comparison, and the giant whose legs Galileo already broke.",
+      "tags": [
+        "language",
+        "writing",
+        "nlp",
+        "cli"
+      ],
+      "score": 66,
+      "source": "github",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "list-196",
+      "title": "List 196",
+      "hook": "Every ebook sold in the EU must now be accessible — this takes a small publisher's backlist of broken EPUBs and hands back remediated files plus the exact ONIX accessibility codes retailers refuse to list without.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "automation"
+      ],
+      "score": 73,
+      "source": "hn",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "fog-of-desk",
+      "title": "Fog of Desk",
+      "hook": "A screensaver that draws only the pixels your mouse has never touched — a roguelike fog of war over your own monitor, quietly proving you use 38% of the display you paid for.",
+      "tags": [
+        "desktop-toy",
+        "ambient",
+        "screensaver",
+        "quantified-self"
+      ],
+      "score": 69,
+      "source": "wild",
+      "created": "2026-08-15"
+    },
+    {
       "slug": "keep-it-lit",
       "title": "Keep It Lit",
       "hook": "The cartographer's map is black unless someone is walking — motion is the only light source, it glows only around whoever is moving, and if two people move at once the map shows two identical blobs and the cartographer can no longer tell who is who.",
