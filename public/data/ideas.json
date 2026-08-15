@@ -2,6 +2,104 @@
   "lastScan": "2026-08-15",
   "ideas": [
     {
+      "slug": "taught-it-that",
+      "title": "Taught It That",
+      "hook": "Everyone secretly hands the room's tiny language model one training example, all four are applied in a single gradient step, and then you find out together that the model got measurably worse at the one sentence you all agreed to protect.",
+      "tags": [
+        "party",
+        "cooperative",
+        "llm",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "fixed-on",
+      "title": "Fixed On",
+      "hook": "One tiny model reads the sentence the room just built, and each phone gets to watch exactly one of its attention heads — so you're the only person alive who can see that this particular gremlin cannot stop staring at word 3, and you have to bet whose word that is without telling anyone which word is yours.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "llm",
+        "wordgame"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "not-like-that",
+      "title": "Not Like That",
+      "hook": "The panel accepts the right word said the wrong way as a fault, so your whole job is making someone else ask a question you are forbidden to pronounce.",
+      "tags": [
+        "party",
+        "cooperative",
+        "voice",
+        "real-time"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "bleep-it",
+      "title": "Bleep It",
+      "hook": "The TV reads your own classified briefing aloud, six words in it must never be heard, and the only censor you have is four people screaming at exactly the right 400 milliseconds.",
+      "tags": [
+        "party",
+        "cooperative",
+        "audio",
+        "real-time"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "second-sheet",
+      "title": "Second Sheet",
+      "hook": "A loop pedal that refuses to loop: drag the control point around a branch point and the chord comes back with its voices permuted, so your four-bar phrase needs six passes before it's ever the same phrase again.",
+      "tags": [
+        "music",
+        "generative",
+        "audio",
+        "art"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "since-that-build",
+      "title": "Since That Build",
+      "hook": "Paste a stack trace from a three-week-old production build and it comes back rewritten against your working tree, every frame re-pointed at the line the code actually moved to — and the frames whose code genuinely changed flagged in red.",
+      "tags": [
+        "devtool",
+        "git",
+        "observability",
+        "cli"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "noise-budget",
+      "title": "Noise Budget",
+      "hook": "A puzzle game where you program a machine that can add and multiply your data but is never allowed to look at it — and every multiply burns a little more of the noise budget before the answer turns to garbage.",
+      "tags": [
+        "puzzle",
+        "security",
+        "browser-game",
+        "privacy"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-15"
+    },
+    {
       "slug": "no-answer",
       "title": "No Answer",
       "hook": "Two secret rooms overlaid on the one room you're actually sitting in — and when your card-share gets no reply, you can't tell whether they refused you or were never in the room at all.",
