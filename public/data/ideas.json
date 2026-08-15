@@ -2,6 +2,132 @@
   "lastScan": "2026-08-15",
   "ideas": [
     {
+      "slug": "two-and-twenty",
+      "title": "Two and Twenty",
+      "hook": "Half the room bets on the show; the other half can't see a single bet — only two anonymous equity curves — and has to decide which one to keep funding.",
+      "tags": [
+        "party",
+        "betting",
+        "asymmetric-info",
+        "social-deduction"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "move-the-line",
+      "title": "Move the Line",
+      "hook": "You write the odds on a prop about the clip's unplayed ending — and the person you hand it to picks which side to take, leaving you stuck with the other.",
+      "tags": [
+        "party",
+        "betting",
+        "negotiation",
+        "asymmetric-info"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "all-one-field",
+      "title": "All One Field",
+      "hook": "The map on the TV shows every border and every prize, but nobody's claim markers — so when your tile silently welds two fields together, only you know whose empire just got diluted.",
+      "tags": [
+        "party",
+        "area-control",
+        "asymmetric-info",
+        "spatial-puzzle"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "if-still-tied",
+      "title": "If Still Tied",
+      "hook": "Every game ends in a dead heat, so the winner is decided by a chain of tiebreakers — and each player privately holds one link in that chain without knowing where in the order it sits.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "bluffing",
+        "board-game"
+      ],
+      "score": 78,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "shut-it-behind-you",
+      "title": "Shut It Behind You",
+      "hook": "The doors of your actual apartment are the buttons — every phone hears the thump of a closing door from wherever its owner happens to be standing, so four people must key a combination into the house itself without ever slamming two doors at once.",
+      "tags": [
+        "party",
+        "sensor",
+        "cooperative",
+        "audio"
+      ],
+      "score": 65,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "once-around",
+      "title": "Once Around",
+      "hook": "Your phone secretly names one person in the room and pays you only for walking a complete circle around them — so the whole party becomes four people orbiting each other while backing quietly into corners where no one can loop them.",
+      "tags": [
+        "party",
+        "sensor",
+        "bluffing",
+        "movement"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "two-of-me",
+      "title": "Two of Me",
+      "hook": "Computes Amdahl's law over your own week and tells you the hard ceiling: hiring a second you gets you 1.31×, five of you gets 1.44×, and infinite help gets you 1.47× — so stop buying parallelism.",
+      "tags": [
+        "quantified-self",
+        "productivity",
+        "menubar",
+        "calendar"
+      ],
+      "score": 62,
+      "source": "lobsters",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "nod-through",
+      "title": "Nod Through",
+      "hook": "One in six agent-written diffs gets a plausible bug quietly seeded into it before you see it — and the tool keeps score, until it can tell you the exact diff size at which you stop actually reading.",
+      "tags": [
+        "llm",
+        "agents",
+        "devtool",
+        "ci"
+      ],
+      "score": 75,
+      "source": "lobsters",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "no-such-option",
+      "title": "No Such Option",
+      "hook": "A linter that proves a config line does nothing — asks the program itself what it actually parsed, then dates each dead line with `git log -S` so you learn that setting has been inert since the 2019 outage it was added to fix.",
+      "tags": [
+        "devtool",
+        "cli",
+        "git",
+        "observability"
+      ],
+      "score": 69,
+      "source": "hn",
+      "created": "2026-08-15"
+    },
+    {
       "slug": "taught-it-that",
       "title": "Taught It That",
       "hook": "Everyone secretly hands the room's tiny language model one training example, all four are applied in a single gradient step, and then you find out together that the model got measurably worse at the one sentence you all agreed to protect.",
