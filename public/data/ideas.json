@@ -2,6 +2,104 @@
   "lastScan": "2026-08-15",
   "ideas": [
     {
+      "slug": "take-my-word",
+      "title": "Take My Word",
+      "hook": "Cockroach Poker where the lie is a private text message: you slide a face-down card to one person with a claim only they can read, the room hears only your performance — and when the card finally lands, the TV publishes the entire chain of whispers and shows exactly who lied to whom.",
+      "tags": [
+        "party",
+        "bluffing",
+        "social-deduction",
+        "card-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "third-of-six",
+      "title": "Third of Six",
+      "hook": "Wits & Wagers stripped to pure ordinal information: nobody's guess is ever shown, the TV holds six blank slots in secret sorted order, and your phone tells you only that you are third — now bet a stranger's number is better than yours.",
+      "tags": [
+        "party",
+        "betting",
+        "deduction",
+        "hidden-information"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "cut-with",
+      "title": "Cut With",
+      "hook": "Four phones show four different answers to the same sentence because each of you is secretly running a differently-butchered copy of the same model — and the more damaged your copy, the more confident it looks, and the more chips the game forces you to bet on it.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "llm",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "ran-with-it",
+      "title": "Ran With It",
+      "hook": "Everyone secretly drafts the next three words of the same story, and the model verifies all the drafts at once with the real speculative-decoding accept-or-reject coin flip — your tiles fill green until one turns red, and whoever got furthest gets their words carved into the story forever.",
+      "tags": [
+        "party",
+        "llm",
+        "wordgame",
+        "browser-game"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "kerf-loss",
+      "title": "Kerf Loss",
+      "hook": "A mining roguelike where you can only ever *remove* material, a live stress solver decides what the rock will forgive, and every cut also destroys the millimeter beside it — so the ore is always inside the pillar holding up your ceiling.",
+      "tags": [
+        "roguelike",
+        "puzzle",
+        "procedural",
+        "physics"
+      ],
+      "score": 65,
+      "source": "steam",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "football-mode",
+      "title": "Football Mode",
+      "hook": "After every great earthquake the whole planet rings like a struck bell for a week — this wallpaper shows your globe actually squashing and stretching on the real 53.9-minute beat, fading as the Earth goes quiet.",
+      "tags": [
+        "ambient",
+        "desktop-toy",
+        "physics",
+        "wallpaper"
+      ],
+      "score": 70,
+      "source": "hn",
+      "created": "2026-08-15"
+    },
+    {
+      "slug": "either-way",
+      "title": "Either Way",
+      "hook": "Replay your own AI chat history with your opinions secretly flipped, and find out what percentage of the time the model would have agreed with whichever side you took.",
+      "tags": [
+        "quantified-self",
+        "llm",
+        "prompt",
+        "writing"
+      ],
+      "score": 74,
+      "source": "arxiv",
+      "created": "2026-08-15"
+    },
+    {
       "slug": "let-it-stand",
       "title": "Let It Stand",
       "hook": "Everyone is proofreading the same notice, everyone's copy has one line quietly wrong, and one person's has three — but nobody knows which of their own lines is the bad one.",
