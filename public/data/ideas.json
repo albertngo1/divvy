@@ -2,6 +2,102 @@
   "lastScan": "2026-08-16",
   "ideas": [
     {
+      "slug": "read-it-without-me",
+      "title": "Read It Without Me",
+      "hook": "The room writes one letter to its future selves, then each phone secretly locks lines to the people who must be physically present to ever read them again — and reading any line tonight burns it out of the letter forever.",
+      "tags": [
+        "party",
+        "keepsake",
+        "asymmetric-info",
+        "cooperative"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "edge-to-edge",
+      "title": "Edge to Edge",
+      "hook": "Every phone in the room is one physical tile of a single drawing — shuffled and rotated so nobody knows which tile they hold — and the only way to claim two tiles are neighbors is for two people to touch the facing edges at the exact same instant.",
+      "tags": [
+        "party",
+        "cooperative",
+        "shared-artifact",
+        "sensor"
+      ],
+      "score": 77,
+      "source": "party",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "meet-the-call",
+      "title": "Meet the Call",
+      "hook": "One prop, one live price, and everyone's leverage is secret — so the winning move is to shove the price against whoever you think is over-extended and let the server liquidate them into your lap.",
+      "tags": [
+        "party",
+        "betting",
+        "market",
+        "asymmetric-info"
+      ],
+      "score": 70,
+      "source": "party",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "right-there",
+      "title": "Right There",
+      "hook": "You spend your chips flagging moments in a clip before anyone tells you what makes a moment worth flagging — the question is drawn from the deck only after the credits, and you may only answer it with a second you already bet on.",
+      "tags": [
+        "party",
+        "betting",
+        "video",
+        "real-time"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "nothing-added",
+      "title": "Nothing Added",
+      "hook": "The song is already inside the noise — you just have to erase everything that isn't it, with a brush that secretly compiles to real filters and a strict budget of cuts.",
+      "tags": [
+        "audio",
+        "music",
+        "puzzle",
+        "generative"
+      ],
+      "score": 65,
+      "source": "arxiv",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "off-by-a-hair",
+      "title": "Off by a Hair",
+      "hook": "Print two transparencies, overlay them, and a misalignment your eye can't see becomes a fat dark stripe crawling across the page — a paper instrument that measures thousandths of an inch with no electronics, no dial indicator, and no batteries.",
+      "tags": [
+        "physics",
+        "graphics",
+        "side-hustle"
+      ],
+      "score": 72,
+      "source": "hn",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "build-chart",
+      "title": "Build Chart",
+      "hook": "Every life insurer has a secret height-weight table, they disagree by 40 pounds at the same rating class, and your GLP-1 weight loss helps you at some carriers and gets you declined at others — this finds the one that grades you best before you ever get poked.",
+      "tags": [
+        "finance",
+        "business",
+        "health"
+      ],
+      "score": 74,
+      "source": "hn",
+      "created": "2026-08-16"
+    },
+    {
       "slug": "sinking-fund",
       "title": "Sinking Fund",
       "hook": "A shared meter fills while the room stays quiet — and every phone has a secret raid button whose withdrawal looks, on the meter, exactly like somebody coughing.",
