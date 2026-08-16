@@ -2,6 +2,76 @@
   "lastScan": "2026-08-16",
   "ideas": [
     {
+      "slug": "gift-receipt",
+      "title": "Gift Receipt",
+      "hook": "Four people shop for one aunt from overlapping private evidence, broadcast one word each simultaneously, and learn that any two gifts in the same category are both stamped RETURNED — so the person who read the room right and the person who read it right at the same time both score zero.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "bluffing",
+        "social"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "thought-you-had-it",
+      "title": "Thought You Had It",
+      "hook": "Every alarm in the failing plant needs exactly one hand — but the TV never shows the alarms, only your phone does, and your phone only shows the ones it happens to see, so the rupture nobody caught and the valve two people cross-threaded are the same joke told twice.",
+      "tags": [
+        "party",
+        "real-time",
+        "cooperative",
+        "asymmetric-info"
+      ],
+      "score": 76,
+      "source": "party",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "fits-in-two-bytes",
+      "title": "Fits in Two Bytes",
+      "hook": "A puzzle roguelike where you design an instruction set: you get 65,536 encoding slots, and real compiled binaries get squeezed through whatever table you build — every bit you spend on a wide immediate is a bit some other instruction will never get back.",
+      "tags": [
+        "puzzle",
+        "game",
+        "roguelike",
+        "devtool"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "handled-it",
+      "title": "Handled It",
+      "hook": "An audit of every failure your infrastructure quietly ate on your behalf — the restarts, retries, and repaired blocks nobody paged you about — so you can find out which manual skill you no longer have.",
+      "tags": [
+        "observability",
+        "homelab",
+        "self-hosted",
+        "telemetry"
+      ],
+      "score": 71,
+      "source": "lobsters",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "trial-period",
+      "title": "Trial Period",
+      "hook": "Your alt-data vendor's 30-day free trial, priced in bits: it measures whether the feed actually shortens the description of tomorrow's returns beyond price and calendar alone — and quietly checks whether the vendor's history is time-traveling.",
+      "tags": [
+        "finance",
+        "markets",
+        "b2b",
+        "embeddings"
+      ],
+      "score": 74,
+      "source": "lobsters",
+      "created": "2026-08-16"
+    },
+    {
       "slug": "can-t-happen",
       "title": "Can't Happen",
       "hook": "Instrument every defensive `if` and `??` fallback in your service, run it in production for a week, and get back three lists: the guards that never once fired, the ones that fire every single request (your fallback *is* your app), and the dozen that are genuinely load-bearing.",
