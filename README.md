@@ -94,6 +94,17 @@ writes nothing (verification).
   `DIVVY_N=3`). Either generator can fail without blocking the other's commit.
   `scanner/overnight-burst.sh` grows to a target.
 
+  **The timer is currently STOPPED** (2026-08-16) — `launchctl bootout` +
+  `launchctl disable gui/501/com.divvy-scanner`, so it stays off across logins.
+  The plist is still at `~/Library/LaunchAgents/com.divvy-scanner.plist`; the
+  scanner itself is unchanged and still runs by hand
+  (`scanner/run.sh`, or `overnight-burst.sh`). To turn the timer back on:
+
+  ```sh
+  launchctl enable gui/501/com.divvy-scanner
+  launchctl bootstrap gui/501 ~/Library/LaunchAgents/com.divvy-scanner.plist
+  ```
+
 ## Deploy — Cloudflare Pages
 Connected to this repo: build command **`npm run build`**, output directory **`dist`**.
 Every push to `main` (including the scanner's idea commits) auto-builds and deploys.
