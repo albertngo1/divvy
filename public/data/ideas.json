@@ -1,6 +1,48 @@
 {
-  "lastScan": "2026-08-15",
+  "lastScan": "2026-08-16",
   "ideas": [
+    {
+      "slug": "can-t-happen",
+      "title": "Can't Happen",
+      "hook": "Instrument every defensive `if` and `??` fallback in your service, run it in production for a week, and get back three lists: the guards that never once fired, the ones that fire every single request (your fallback *is* your app), and the dozen that are genuinely load-bearing.",
+      "tags": [
+        "devtool",
+        "observability",
+        "telemetry",
+        "cli"
+      ],
+      "score": 65,
+      "source": "github",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "unaccounted-for",
+      "title": "Unaccounted For",
+      "hook": "Every water utility in a mandate state fills in the same dreadful AWWA spreadsheet and gets back one unactionable loss number — this gives them error bars instead, then tells them which single meter to re-test to shrink those bars the most per dollar.",
+      "tags": [
+        "data-viz",
+        "dashboard",
+        "business",
+        "b2b"
+      ],
+      "score": 72,
+      "source": "wild",
+      "created": "2026-08-16"
+    },
+    {
+      "slug": "carbon-source",
+      "title": "Carbon Source",
+      "hook": "A solo deckbuilder where your cards are metabolic reactions and your damage number is a real flux-balance LP — thin your deck by knocking out genes, and learn the hard way that your cell died of NADH, not of glucose.",
+      "tags": [
+        "biology",
+        "deckbuilder",
+        "sim",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "steam",
+      "created": "2026-08-16"
+    },
     {
       "slug": "two-and-twenty",
       "title": "Two and Twenty",
