@@ -4,3 +4,9 @@ scanner/scan.log
 scanner/launchd.log
 scanner/overnight-burst.log
 .DS_Store
+
+# Embedding index for the novelty gate: a rebuildable local cache (scanner/embed-corpus.mjs),
+# ~4MB that would churn on every 3-hourly commit. Model weights live in ~/.cache/huggingface,
+# never in the repo.
+public/data/embeddings.bin
+public/data/embeddings.json

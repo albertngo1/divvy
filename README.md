@@ -74,8 +74,8 @@ to no-op (counts show 0, no peer cursors).
 ## Scanner (the "grows itself" engine)
 `scanner/scan.mjs` draws a **random subset** (default 4) of a pool of 6 trusted feeds — HN,
 Lobsters, GitHub, Steam, Product Hunt, arXiv (cs.HC/cs.GR) — so no single feed anchors every
-run, then calls `claude -p` to riff N ideas + PRDs, dedupes against existing titles, and
-writes `public/data/ideas.json` + `public/data/prds/<slug>.md`. Scoring uses a **calibrated
+run, then calls `claude -p` to riff N ideas + PRDs, dedupes against existing ideas (exact
+title **and** embedding similarity — see *Novelty gate* below), and writes `public/data/ideas.json` + `public/data/prds/<slug>.md`. Scoring uses a **calibrated
 rubric** (be stingy, spread the scores) and tags come from a **controlled vocabulary**
 aligned to the galaxy domains. (`DIVVY_SOURCES` sets how many feeds per run.)
 
@@ -87,6 +87,50 @@ phones as private controllers, under two hard rules (per-phone privacy must be l
 v1 humiliatingly small). Winners merge into `ideas.json` with `source: "party"`. Shared
 helpers for both generators live in `scanner/lib.mjs`. `DIVVY_DRY=1` calls the agents but
 writes nothing (verification).
+
+### Novelty gate (semantic dedup)
+Both generators run a **two-pass** novelty check. Pass 1 is the old exact-title dedup
+(`normTitle` in `lib.mjs`) — free, catches literal repeats. Pass 2 is semantic: every
+candidate is embedded (`title + hook + first 200 words of PRD`) with **all-MiniLM-L6-v2**
+running on-device via `@xenova/transformers`, and rejected if its cosine against any existing
+idea is **>= 0.82** (`DIVVY_NOVELTY_MAX`).
+
+The threshold is measured, not borrowed. Over all 3,360,528 pairs of the 2,593-idea corpus:
+
+| cosine | pairs | ideas with such a neighbour |
+|---|---|---|
+| >= 0.95 | 0 | 0 (0.00%) |
+| >= 0.90 | 0 | 0 (0.00%) |
+| >= 0.85 | 90 | 103 (3.97%) |
+| >= 0.82 | 377 | 339 (13.07%) |
+| >= 0.80 | 788 | 545 (21.02%) |
+| >= 0.75 | 3,618 | 1,188 (45.82%) |
+
+Per-idea nearest-neighbour cosine: p50 0.742, p90 0.828, p99 0.870, max 0.897 — so nothing in
+the corpus is a verbatim clone, but the tail is dense. **Duplication is almost entirely a
+party-game problem**: 740 of the 788 pairs at >= 0.80 are party-vs-party, 48 are
+non-party-vs-non-party, and *zero* cross the boundary. Party ideas have a p50 NN of 0.776
+(475 of 1,482 have a >= 0.80 twin) against 0.640 for everything else (70 of 1,111).
+0.82 is the knee: hand-inspecting random pairs, ~half of `[0.795, 0.815)` are genuinely
+distinct ideas, while ~85% of `[0.820, 0.835)` are the same idea renamed (*Footsie*/*Footsies*,
+*Duty Free*/*Wave Through*, *Mixup*/*Hitstop*, *Face Out*/*Outward*). Re-run the measurement
+any time with `node scanner/embed-corpus.mjs --all --report`.
+
+The same embeddings power a **retrieved avoid-list**: instead of showing the model 300 random
+existing titles, `scan.mjs` embeds the run's feed digest and `party.mjs` embeds each agent's
+theme, then injects the `DIVVY_AVOID_K` (default 40) nearest existing ideas *with their hooks*
+— same token budget, aimed at the region the model is about to generate into.
+
+`scanner/embed-corpus.mjs` builds the index into `public/data/embeddings.{bin,json}` (raw
+Float32 + a slug list, ~4MB). Both are **gitignored** — a rebuildable local cache, not source;
+committing them would churn ~4MB per 3-hourly commit. `run.sh` refreshes it incrementally
+(~1s) before each run; `--all` rebuilds from scratch (~2min for 2.6k ideas). Model weights
+(~90MB) live in `~/.cache/huggingface`, never in the repo.
+
+**Everything here fails soft.** Missing index, corrupt index, missing package, model that
+won't load — each logs one line, disables the gate, and falls back to exact-title dedup plus
+the old sampled avoid-list. The generators still run and still commit. Force that path with
+`DIVVY_NO_EMBED=1` to test it.
 
 - Needs `CLAUDE_CODE_OAUTH_TOKEN` (whitespace-stripped from `~/.happy/claude-token.txt`).
 - `scanner/run.sh` runs **both** generators (feed scan, then the parallel party fan-out),

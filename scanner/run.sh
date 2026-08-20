@@ -15,6 +15,13 @@ cd "$REPO"
 LOG="$REPO/scanner/scan.log"
 echo "=== $(date) ===" >> "$LOG"
 
+# Refresh the embedding index BEFORE generating so the novelty gate + retrieved avoid-list see
+# every idea added since last run. Incremental (~1s) unless the index is missing. Non-fatal:
+# if embeddings are unavailable the generators fall back to exact-title dedup and still run.
+if ! node "$REPO/scanner/embed-corpus.mjs" >> "$LOG" 2>&1; then
+  echo "embed-corpus.mjs failed — generators will run without the novelty gate" >> "$LOG"
+fi
+
 # Generate feed-sparked ideas + PRDs (writes public/data/ideas.json + public/data/prds/*.md).
 if ! node "$REPO/scanner/scan.mjs" >> "$LOG" 2>&1; then
   echo "scan.mjs failed — see log" >> "$LOG"

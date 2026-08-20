@@ -2,11 +2,16 @@
 // Divvy scanner: scrape several public feeds (Hacker News, trending GitHub repos,
 // popular Steam games), riff new project/game ideas via `claude -p`, then merge into
 // data/ideas.json and write data/prds/<slug>.md for each new idea.
+//
+// Knobs: DIVVY_N (ideas per run, default 3), DIVVY_SOURCES (feeds per run, default 4),
+// DIVVY_DRY=1 (call the agent but write nothing), DIVVY_AVOID_K (retrieved neighbours in the
+// prompt, default 40), DIVVY_NOVELTY_MAX (semantic dup threshold), DIVVY_NO_EMBED=1 (force
+// the no-embeddings fallback path).
 
 import { writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { slugify, normTitle, shuffle, extractJSON, callClaude, loadIdeas } from "./lib.mjs";
+import { slugify, normTitle, shuffle, extractJSON, callClaude, loadIdeas, openNovelty, avoidBlock } from "./lib.mjs";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, "..");
 const DATA = join(ROOT, "public", "data"); // Vite serves public/ at the site root
@@ -14,6 +19,8 @@ const PRDS = join(DATA, "prds");
 const IDEAS_FILE = join(DATA, "ideas.json");
 
 const HOW_MANY = Number(process.env.DIVVY_N || 3);
+const DRY = process.env.DIVVY_DRY === "1"; // call claude, write nothing
+const AVOID_K = Number(process.env.DIVVY_AVOID_K || 40); // retrieved neighbours in the prompt
 
 async function tryFetchJSON(url, opts) {
   const res = await fetch(url, opts);
@@ -178,9 +185,6 @@ function buildPrompt(digest, avoid) {
   const spark = shuffle(PROVOCATIONS).slice(0, 2).map((p) => `- ${p}`).join("\n");
   const focus = shuffle(HUNGRY_DOMAINS).slice(0, Math.min(HOW_MANY, 3));
   const focusBlock = focus.map((d) => `- ${d}`).join("\n");
-  const avoidBlock = avoid.length
-    ? `\n\nAlready in the cloud — do NOT repeat these or produce near-duplicates of them (this is a sample; the cloud has ~1400 ideas, so also avoid obvious cousins of these):\n${avoid.map((t) => `- ${t}`).join("\n")}`
-    : "";
   return `You are the idea engine for "Divvy", an idea cloud. Below are live signals scraped from an arbitrary subset of several trusted public feeds (which feeds appear varies run to run).
 
 Riff ${HOW_MANY} FRESH, buildable weekend-project or video-game ideas. Let the feeds spark you SIDEWAYS — do not summarize or clone them. Cross-pollinate across sources. Favor a novel ANGLE over a novel topic. Be genuinely creative and a little mischievous. Skip anything generic or done to death (another wrapper, another to-do app, "run a local model", a straight clone of something in the feed).
@@ -211,7 +215,7 @@ Tag vocabulary by domain (first tag picks the domain/galaxy):
 ${DOMAIN_LINES}
 
 Live signals:
-${digest}${avoidBlock}`;
+${digest}${avoid}`;
 }
 
 async function main() {
@@ -219,33 +223,49 @@ async function main() {
   const store = await loadIdeas(IDEAS_FILE);
   const existing = new Set(store.ideas.map((i) => i.slug));
   const seenTitles = new Set(store.ideas.map((i) => normTitle(i.title)));
-  // avoid-list: 50 titles was far too small once the cloud passed 1000 ideas — the scanner
-  // kept regenerating the same names ("Table Stakes" x6). Sample the newest 120 PLUS a random
-  // 180 from the rest so the model sees a broad cross-section without blowing the prompt up.
-  const recent = store.ideas.slice(0, 120).map((i) => i.title);
-  const older = shuffle(store.ideas.slice(120).map((i) => i.title)).slice(0, 180);
-  const avoid = [...recent, ...older];
+  const byslug = new Map(store.ideas.map((i) => [i.slug, i]));
 
   const digest = await gatherSources();
+
+  // Novelty index (semantic). Fails soft: `enabled:false` => every candidate is admitted and
+  // the avoid-list falls back to the old newest-120 + random-180 title sample.
+  const novelty = await openNovelty(DATA);
+  // RETRIEVED avoid-list: embed this run's feed digest and show the model the ideas already
+  // sitting where it is about to generate — same token budget as 300 random titles, aimed.
+  const neighbours = await novelty.near(digest, AVOID_K);
+  const fallback = [
+    ...store.ideas.slice(0, 120).map((i) => i.title),
+    ...shuffle(store.ideas.slice(120).map((i) => i.title)).slice(0, 180),
+  ];
+  const avoid = avoidBlock(neighbours, byslug, fallback);
+  console.log(`Divvy scan: novelty ${novelty.enabled ? `on (${novelty.size} vectors, max cos ${novelty.threshold})` : "OFF — title dedup only"}; avoid-list ${neighbours.length ? `${neighbours.length} retrieved` : `${fallback.length} sampled`}${DRY ? " [dry]" : ""}`);
+
   const raw = await callClaude(buildPrompt(digest, avoid));
   const fresh = extractJSON(raw);
   const SOURCES = new Set(["hn", "github", "steam", "lobsters", "producthunt", "arxiv", "wild"]);
   const today = new Date().toISOString().slice(0, 10);
-  let added = 0;
+  let added = 0, skipped = 0, tooSimilar = 0;
 
-  let skipped = 0;
   for (const idea of fresh) {
     if (!idea.title) continue;
     const tkey = normTitle(idea.title);
-    if (seenTitles.has(tkey)) { skipped++; continue; } // title-level dedup — the real fix
+    if (seenTitles.has(tkey)) { skipped++; continue; } // cheap first pass: exact-title dedup
+
+    // Second pass: semantic novelty gate.
+    const verdict = await novelty.check(idea, idea.prd || "");
+    if (!verdict.ok) {
+      tooSimilar++;
+      console.log(`  [dup] "${idea.title}" ~ ${verdict.nearestSlug} (cos ${verdict.score.toFixed(3)})`);
+      continue;
+    }
+
     seenTitles.add(tkey);
     let slug = slugify(idea.title);
     if (!slug) continue;
     for (let n = 2; existing.has(slug); n++) slug = `${slugify(idea.title)}-${n}`;
     existing.add(slug);
 
-    if (idea.prd) await writeFile(join(PRDS, `${slug}.md`), idea.prd.trim() + "\n");
-    store.ideas.unshift({
+    const rec = {
       slug,
       title: idea.title,
       hook: idea.hook || "",
@@ -253,17 +273,34 @@ async function main() {
       score: Number.isFinite(idea.score) ? idea.score : 55,
       source: SOURCES.has(idea.source) ? idea.source : "scan",
       created: today,
-    });
+    };
+
+    // Admit into the in-memory index so a later candidate in THIS run can't duplicate it.
+    novelty.admit(slug, verdict.vec);
+    if (DRY) {
+      console.log(`  [dry] ${rec.score}  ${slug}${verdict.score !== null ? `  (nearest ${verdict.score.toFixed(3)})` : ""}  — ${rec.hook}`);
+      added++;
+      continue;
+    }
+    if (idea.prd) await writeFile(join(PRDS, `${slug}.md`), idea.prd.trim() + "\n");
+    store.ideas.unshift(rec);
+    byslug.set(slug, rec);
     added++;
+  }
+
+  const notes = [skipped ? `${skipped} dup-title` : "", tooSimilar ? `${tooSimilar} too-similar` : ""].filter(Boolean).join(", ");
+  if (DRY) {
+    console.log(`Divvy scan [dry]: would add ${added} idea(s)${notes ? ` (${notes} skipped)` : ""}.`);
+    return;
   }
 
   store.lastScan = today;
   await writeFile(IDEAS_FILE, JSON.stringify(store, null, 2) + "\n");
+  await novelty.persist();
   const bySource = {};
   for (const i of store.ideas.slice(0, added)) bySource[i.source] = (bySource[i.source] || 0) + 1;
   const breakdown = Object.entries(bySource).map(([s, n]) => `${s}:${n}`).join(" ");
-  const skipNote = skipped ? ` (${skipped} dup-title skipped)` : "";
-  console.log(`Divvy scan: added ${added} idea(s) [${breakdown}]${skipNote}; ${store.ideas.length} total.`);
+  console.log(`Divvy scan: added ${added} idea(s) [${breakdown}]${notes ? ` (${notes} skipped)` : ""}; ${store.ideas.length} total.`);
 }
 
 main().catch((e) => { console.error("scan failed:", e.message); process.exit(1); });
