@@ -4,8 +4,8 @@
 set -euo pipefail
 
 # Auth for non-interactive `claude -p` (same pattern as com.weekend-ideas).
-export HOME=/Users/mac-mini-server
-export PATH=/Users/mac-mini-server/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
+export HOME="${HOME:-$(cd ~ && pwd)}"
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 # NOTE: the token file is line-wrapped; strip ALL whitespace or the Bearer header is invalid.
 export CLAUDE_CODE_OAUTH_TOKEN="$(tr -d '[:space:]' < "$HOME/.happy/claude-token.txt")"
 

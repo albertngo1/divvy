@@ -5,8 +5,8 @@
 # (the 3h com.divvy-scanner is booted out at start, restored at end).
 set -uo pipefail
 
-export HOME=/Users/mac-mini-server
-export PATH=/Users/mac-mini-server/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
+export HOME="${HOME:-$(cd ~ && pwd)}"
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 
 REPO="$HOME/public-src/divvy"
 cd "$REPO" || exit 1
@@ -21,7 +21,7 @@ tok()   { tr -d '[:space:]' < "$HOME/.happy/claude-token.txt"; }
 echo "=== overnight burst START $(date) | current=$(count) target=$TARGET ===" >> "$LOG"
 
 # single writer: pause the scheduled scanner for the night
-launchctl bootout gui/501/com.divvy-scanner 2>/dev/null && echo "paused com.divvy-scanner" >> "$LOG"
+launchctl bootout gui/$(id -u)/com.divvy-scanner 2>/dev/null && echo "paused com.divvy-scanner" >> "$LOG"
 
 fails=0
 while :; do
@@ -51,5 +51,5 @@ while :; do
 done
 
 # restore the normal scheduled scanner
-launchctl bootstrap gui/501 "$HOME/Library/LaunchAgents/com.divvy-scanner.plist" 2>/dev/null && echo "restored com.divvy-scanner" >> "$LOG"
+launchctl bootstrap gui/$(id -u) "$HOME/Library/LaunchAgents/com.divvy-scanner.plist" 2>/dev/null && echo "restored com.divvy-scanner" >> "$LOG"
 echo "=== overnight burst DONE $(date) | final=$(count) ===" >> "$LOG"

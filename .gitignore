@@ -10,3 +10,4 @@ scanner/overnight-burst.log
 # never in the repo.
 public/data/embeddings.bin
 public/data/embeddings.json
+*.tsbuildinfo
