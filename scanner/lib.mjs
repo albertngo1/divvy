@@ -32,10 +32,13 @@ export function extractJSON(stdout) {
   return JSON.parse(stdout.slice(start, end + 1));
 }
 
+// Pinned so a CLI default change never silently swaps the generator. Override: DIVVY_MODEL=...
+export const MODEL = process.env.DIVVY_MODEL || "claude-opus-5-5";
+
 // One-shot `claude -p`. stdin is ignored so claude doesn't block waiting on it.
 export function callClaude(prompt, { timeoutMs = 1000 * 300 } = {}) {
   return new Promise((resolve, reject) => {
-    const child = spawn("claude", ["-p", prompt, "--dangerously-skip-permissions"], {
+    const child = spawn("claude", ["-p", prompt, "--model", MODEL, "--dangerously-skip-permissions"], {
       stdio: ["ignore", "pipe", "inherit"],
       timeout: timeoutMs,
     });
