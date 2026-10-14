@@ -2,6 +2,90 @@
   "lastScan": "2026-10-14",
   "ideas": [
     {
+      "slug": "spiked",
+      "title": "Spiked",
+      "hook": "Every phone is a newsroom with a private stack of tips that partly overlap with the other desks. File a story first and you get the front page, but if two desks file the same story within three seconds, the editor spikes both as duplicates.",
+      "tags": [
+        "party",
+        "real-time",
+        "bluffing",
+        "timing"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "gift-receipt",
+      "title": "Gift Receipt",
+      "hook": "One player is the birthday guest and the rest secretly shop from different torn-off slices of their wishlist. Any two identical gifts both get returned on the spot, and since the guest is sitting right there listening, saying 'I've got the headphones' out loud spoils the surprise and halves that gift.",
+      "tags": [
+        "party",
+        "hidden-information",
+        "social",
+        "bluffing"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "guard-bench",
+      "title": "Guard Bench",
+      "hook": "One lifeguard calls in sick and a pool shuts its lap lanes on the swim club that already paid for them. Guard Bench is a shared, cert-verified substitute pool across city, YMCA and school pools, so the shift gets filled instead of cancelled.",
+      "tags": [
+        "civic",
+        "staffing",
+        "recreation",
+        "scheduling"
+      ],
+      "score": 58,
+      "source": "news",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "lot-check",
+      "title": "Lot Check",
+      "hook": "Food pantries hand out donated canned goods, baby formula and pain relievers with no realistic way to check each one against this week's recalls. Lot Check lets a volunteer scan the barcode, type or photograph the lot code, and get a red or green answer against FDA, USDA and CPSC enforcement data.",
+      "tags": [
+        "food",
+        "food-banks",
+        "recalls",
+        "nonprofits"
+      ],
+      "score": 64,
+      "source": "news",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "desk-check",
+      "title": "Desk Check",
+      "hook": "A five-person startup ships a laptop to a 'remote engineer' and has no way to know it's sitting on a shelf in a Texas laptop farm with 40 others. Desk Check is a tiny agent that reports where the laptop really lives, whether it's being driven by a KVM, and whether it's on a network shared with other companies' fleets.",
+      "tags": [
+        "security",
+        "remote-work",
+        "hiring",
+        "endpoint"
+      ],
+      "score": 66,
+      "source": "news",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "still-waiting",
+      "title": "Still Waiting",
+      "hook": "Families wait years on housing-voucher lists and then get purged because one 'are you still interested?' letter went to an old address. Still Waiting tracks every list a client is on, catches each purge window, and has their caseworker answer before the deadline.",
+      "tags": [
+        "housing",
+        "case-management",
+        "public-housing",
+        "nonprofits"
+      ],
+      "score": 67,
+      "source": "news",
+      "created": "2026-10-14"
+    },
+    {
       "slug": "message-received",
       "title": "Message Received",
       "hook": "One scout knows tonight is safe, and confirmation messages pass phone to phone but one in four quietly vanishes. Everyone has to hit ATTACK in the same two seconds, and no number of \"got it\"s ever makes you sure.",
