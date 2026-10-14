@@ -27,16 +27,22 @@ if ! node "$REPO/scanner/scan.mjs" >> "$LOG" 2>&1; then
   echo "scan.mjs failed — see log" >> "$LOG"
 fi
 
+# Problem-hunter: news aggregators -> concrete real-world problems -> buildable fixes.
+if ! node "$REPO/scanner/problems.mjs" >> "$LOG" 2>&1; then
+  echo "problems.mjs failed — see log" >> "$LOG"
+fi
+
 # Fan out a batch of concurrent-room party games via parallel agents. Independent of the
 # feed scan above — a failure in either one still lets the other's ideas get committed.
-if ! node "$REPO/scanner/party.mjs" >> "$LOG" 2>&1; then
+# One agent x 2 ideas: party games are a minority track, not the bulk of each run.
+if ! DIVVY_PARTY_AGENTS=1 node "$REPO/scanner/party.mjs" >> "$LOG" 2>&1; then
   echo "party.mjs failed — see log" >> "$LOG"
 fi
 
 # Commit + push only if something changed.
 if [[ -n "$(git status --porcelain public/data/)" ]]; then
   git add public/data/
-  git commit -q -m "divvy: scan + party $(date +%F) — new ideas"
+  git commit -q -m "divvy: scan + problems + party $(date +%F) — new ideas"
   git push -q
   echo "pushed" >> "$LOG"
 else
