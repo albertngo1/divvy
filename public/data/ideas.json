@@ -1,1 +1,128 @@
-{"lastScan":"","ideas":[]}
+{
+  "lastScan": "2026-10-14",
+  "ideas": [
+    {
+      "slug": "message-received",
+      "title": "Message Received",
+      "hook": "One scout knows tonight is safe, and confirmation messages pass phone to phone but one in four quietly vanishes. Everyone has to hit ATTACK in the same two seconds, and no number of \"got it\"s ever makes you sure.",
+      "tags": [
+        "party",
+        "cooperative",
+        "bluffing",
+        "game-theory"
+      ],
+      "score": 65,
+      "source": "party",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "same-corner",
+      "title": "Same Corner",
+      "hook": "Every phone shows the same unlabeled maze of dots and lines, but each one is scrambled, rotated and mirrored differently. Without talking, everyone has to walk their token to the same dot, and \"top left\" means nothing because no two screens agree.",
+      "tags": [
+        "party",
+        "cooperative",
+        "coordination",
+        "puzzle"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "told-me-different",
+      "title": "Told Me Different",
+      "hook": "Only the map-holder sees the maze, and they send each piece directions over a private channel while secretly trying to walk one hidden victim into the pit, so the pieces have to check their directions against the four walls each of them can feel and catch the lie before it's too late.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "bluffing",
+        "browser-game"
+      ],
+      "score": 68,
+      "source": "party",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "press-square",
+      "title": "Press Square",
+      "hook": "The map-holder sees four identical grey dots and four colored exits, and each piece's phone has four unlabeled shape buttons wired to a secret direction, so the map-holder has to work out who is which dot and what each button does while the shared move budget runs out.",
+      "tags": [
+        "party",
+        "cooperative",
+        "deduction",
+        "browser-game"
+      ],
+      "score": 74,
+      "source": "party",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "nobody-in-particular",
+      "title": "Nobody in Particular",
+      "hook": "The room fills in one group census poster where every column is your own private answer and every blur you add costs the poster ink. Your friends then try to link your row to you using what they already know, and any row they unmask gets blacked out of the keepsake.",
+      "tags": [
+        "party",
+        "anonymity",
+        "social-deduction",
+        "keepsake"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "someone-paid",
+      "title": "Someone Paid",
+      "hook": "Four phones run a real dining-cryptographers network, so the room types an anonymous card onto a shared tape one letter per second and nobody, not even the server, can tell who wrote what. Two people typing in the same slot leave an ink blot, and the only way to avoid one is to say out loud that you are typing.",
+      "tags": [
+        "party",
+        "anonymity",
+        "keepsake",
+        "cryptography"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "downstream",
+      "title": "Downstream",
+      "hook": "Your Mac wallpaper becomes a live Navier–Stokes fluid where every open window is a solid obstacle — drag a window and you stir the desktop, leave Slack open in the current and it sheds a lazy Kármán vortex street behind it all day.",
+      "tags": [
+        "ambient",
+        "desktop-toy",
+        "physics"
+      ],
+      "score": 66,
+      "source": "lobsters",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "read-it-before",
+      "title": "Read It Before",
+      "hook": "A cryptomnesia checker that scans your draft against everything you've actually read — browser history, Readwise highlights, saved PDFs — and flags the sentence you think is yours but is really a half-remembered line from a blog post you read in March.",
+      "tags": [
+        "writing",
+        "nlp",
+        "provenance"
+      ],
+      "score": 70,
+      "source": "lobsters",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "pass-blame",
+      "title": "Pass Blame",
+      "hook": "Your benchmark got slower at -O2 — this CLI binary-searches LLVM's own optimization pipeline, pass by pass, and names the exact pass invocation that made your hot loop worse.",
+      "tags": [
+        "devtool",
+        "cli",
+        "observability"
+      ],
+      "score": 72,
+      "source": "lobsters",
+      "created": "2026-10-14"
+    }
+  ]
+}
