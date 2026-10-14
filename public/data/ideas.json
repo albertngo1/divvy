@@ -2,6 +2,48 @@
   "lastScan": "2026-10-14",
   "ideas": [
     {
+      "slug": "front-of-the-line",
+      "title": "Front of the Line",
+      "hook": "You're handed the real mempool from a real Ethereum block and get to be the block builder: reorder it, slip your own trades in, sandwich whoever set sloppy slippage, then see how your take compares to what the actual builder got.",
+      "tags": [
+        "finance",
+        "puzzle",
+        "markets",
+        "game"
+      ],
+      "score": 69,
+      "source": "github",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "downdrift",
+      "title": "Downdrift",
+      "hook": "Draw a coastline, set the prevailing swell, and watch a century of longshore drift run in two minutes: build one groyne to save your favourite beach and see the town downdrift lose its sand by year 40.",
+      "tags": [
+        "nature",
+        "sim",
+        "physics",
+        "gis"
+      ],
+      "score": 72,
+      "source": "steam",
+      "created": "2026-10-14"
+    },
+    {
+      "slug": "the-chair-is-a-buffer",
+      "title": "The Chair Is a Buffer",
+      "hook": "Log the start and stop of your recurring chores for two weeks and get back a Satisfactory-style factory diagram of your household, with the chair of clean unfolded laundry correctly labelled as a work-in-progress buffer and the one station that actually caps your throughput glowing red.",
+      "tags": [
+        "chores",
+        "quantified-self",
+        "sim",
+        "productivity"
+      ],
+      "score": 66,
+      "source": "steam",
+      "created": "2026-10-14"
+    },
+    {
       "slug": "spiked",
       "title": "Spiked",
       "hook": "Every phone is a newsroom with a private stack of tips that partly overlap with the other desks. File a story first and you get the front page, but if two desks file the same story within three seconds, the editor spikes both as duplicates.",

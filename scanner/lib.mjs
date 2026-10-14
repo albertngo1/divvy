@@ -29,7 +29,25 @@ export function extractJSON(stdout) {
   const start = stdout.indexOf("[");
   const end = stdout.lastIndexOf("]");
   if (start === -1 || end === -1) throw new Error("no JSON array in claude output");
-  return JSON.parse(stdout.slice(start, end + 1));
+  return JSON.parse(escapeRawControls(stdout.slice(start, end + 1)));
+}
+
+// Models sometimes emit literal newlines/tabs inside long string values (the PRD), which
+// JSON.parse rejects ("Bad control character in string literal"). Escape them in-string only.
+function escapeRawControls(text) {
+  let out = "", inStr = false, esc = false;
+  for (const ch of text) {
+    if (inStr) {
+      if (esc) esc = false;
+      else if (ch === "\\") esc = true;
+      else if (ch === '"') inStr = false;
+      else if (ch === "\n") { out += "\\n"; continue; }
+      else if (ch === "\r") { out += "\\r"; continue; }
+      else if (ch === "\t") { out += "\\t"; continue; }
+    } else if (ch === '"') inStr = true;
+    out += ch;
+  }
+  return out;
 }
 
 // Pinned so a CLI default change never silently swaps the generator. Override: DIVVY_MODEL=...
