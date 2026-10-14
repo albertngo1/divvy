@@ -74,7 +74,7 @@ to no-op (counts show 0, no peer cursors).
 ## Scanner (the "grows itself" engine)
 `scanner/scan.mjs` draws a **random subset** (default 4) of a pool of 6 trusted feeds — HN,
 Lobsters, GitHub, Steam, Product Hunt, arXiv (cs.HC/cs.GR) — so no single feed anchors every
-run, then calls `claude -p` to riff N ideas + PRDs, dedupes against existing ideas (exact
+run, then calls `claude -p --model claude-opus-5-5` (pinned in `scanner/lib.mjs`; override with `DIVVY_MODEL`) to riff N ideas + PRDs, dedupes against existing ideas (exact
 title **and** embedding similarity — see *Novelty gate* below), and writes `public/data/ideas.json` + `public/data/prds/<slug>.md`. Scoring uses a **calibrated
 rubric** (be stingy, spread the scores) and tags come from a **controlled vocabulary**
 aligned to the galaxy domains. (`DIVVY_SOURCES` sets how many feeds per run.)
