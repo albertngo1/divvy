@@ -2,6 +2,132 @@
   "lastScan": "2026-10-15",
   "ideas": [
     {
+      "slug": "knock-on",
+      "title": "Knock-On",
+      "hook": "Each player secretly rewrites one event on a shared history timeline and scores for everything their change ripples into, but each phone sees only a few of the cause-and-effect arrows, and if two players' ripples ever reach the same event, both rewrites are cancelled.",
+      "tags": [
+        "party",
+        "deduction",
+        "hidden-information",
+        "browser-game"
+      ],
+      "score": 65,
+      "source": "party",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "looks-clear",
+      "title": "Looks Clear",
+      "hook": "Every player steers a bead inside one shared 3D cube, but each phone shows a different flat shadow of it, so a bead that looks miles away on your screen may be about to hit yours, and when two beads touch, both are knocked out.",
+      "tags": [
+        "party",
+        "spatial",
+        "real-time",
+        "browser-game"
+      ],
+      "score": 72,
+      "source": "party",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "amnesty-window",
+      "title": "Amnesty Window",
+      "hook": "NYC small landlords and shopkeepers carry years-old ECB/OATH violation judgments that block refinancings and sales and keep accruing interest. When a time-limited relief program like the Debt Demolisher opens, most of them never learn which of their debts qualify. Amnesty Window looks up every open city judgment tied to their BBL or business name and shows exactly how much they'd save by paying under the program before it closes.",
+      "tags": [
+        "housing",
+        "small-landlords",
+        "nyc",
+        "fines"
+      ],
+      "score": 60,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "cola-cliff",
+      "title": "COLA Cliff",
+      "hook": "Every January the Social Security raise pushes some low-income seniors a few dollars over the line for the Medicare Savings Program, Extra Help or SNAP, and they lose $185/month in Part B premiums to gain $40. COLA Cliff lets a SHIP counselor batch-screen their caseload against next year's limits in October and act before the cliff: reapply, shift deductions, or file an appeal.",
+      "tags": [
+        "civic",
+        "benefits",
+        "seniors",
+        "eligibility"
+      ],
+      "score": 71,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "hold-temp",
+      "title": "Hold Temp",
+      "hook": "When PG&E cuts power for 30 hours or a town-wide outage hits, restaurants and corner stores either throw out every cooler or gamble with the health inspector, and the insurer later wants proof. Hold Temp is a $25 battery temperature logger per cooler that records the whole outage and outputs a per-unit keep/discard sheet (based on the FDA 41°F/4-hour rule) plus an itemized spoilage claim.",
+      "tags": [
+        "food",
+        "small-business",
+        "power-outage",
+        "insurance"
+      ],
+      "score": 69,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "pump-price-clause",
+      "title": "Pump Price Clause",
+      "hook": "Small school-bus contractors are stuck on fixed per-route rates while diesel jumps 30%, and most of their contracts have no fuel clause or one nobody ever invokes. Pump Price Clause tracks EIA's weekly regional diesel index against each contract's baseline and produces the escalator invoice addendum, plus model clause language for the next bid.",
+      "tags": [
+        "logistics",
+        "school-transport",
+        "contracts",
+        "fuel"
+      ],
+      "score": 66,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "lost-texton",
+      "title": "Lost Texton",
+      "hook": "A generative wallpaper that grows a new texture every morning by matching textons across two photos you took 365 days apart, so today's pattern is literally made of the shared visual vocabulary of you-now and you-a-year-ago, and it plays a drone tuned from the same match.",
+      "tags": [
+        "generative",
+        "art",
+        "audio",
+        "wallpaper"
+      ],
+      "score": 63,
+      "source": "arxiv",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "over-hours",
+      "title": "Over Hours",
+      "hook": "Your calendar, phone location and screen time get drawn on a real trucker's paper logbook grid, with the four rows Off Duty, Sleeper, Driving and On Duty, and the regulations trucking companies are fined for (11-hour driving limit, 14-hour on-duty window, 30-minute break, 70-hour/8-day cap) get stamped in red across your week.",
+      "tags": [
+        "data-viz",
+        "quantified-self",
+        "timeline",
+        "logistics"
+      ],
+      "score": 70,
+      "source": "steam",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "changed-hands",
+      "title": "Changed Hands",
+      "hook": "Your site runs 31 WordPress plugins and your browser runs 14 extensions, and Changed Hands pings you the day one of them quietly gets a new owner, before the first update from that owner reaches your machines.",
+      "tags": [
+        "security",
+        "provenance",
+        "saas",
+        "forensics"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-10-15"
+    },
+    {
       "slug": "terminal-collision",
       "title": "Terminal Collision",
       "hook": "Everyone holds a private Dominion hand and slams cards into one shared turn at the same time, against a single Actions counter on the TV, and the first person to play a card when it hits zero fizzles the whole chain for the room.",
