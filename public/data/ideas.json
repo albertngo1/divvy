@@ -2,6 +2,90 @@
   "lastScan": "2026-10-15",
   "ideas": [
     {
+      "slug": "silent-partner",
+      "title": "Silent Partner",
+      "hook": "Acquire's hotel mergers with every share count hidden on your own phone, so when two chains merge the server pays out majority bonuses privately, and the size of your payout is the only thing that tells you whether you were first, second, or nobody.",
+      "tags": [
+        "party",
+        "economic",
+        "hidden-information",
+        "bluffing"
+      ],
+      "score": 64,
+      "source": "party",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "everyone-s-mr-x",
+      "title": "Everyone's Mr. X",
+      "hook": "Every player is the fugitive at the same time, sneaking around one shared subway map while the TV shows only which ticket each of you just spent, so you have to track four rivals from their bus and taxi stubs while they track you from yours.",
+      "tags": [
+        "party",
+        "social-deduction",
+        "hidden-movement",
+        "browser-game"
+      ],
+      "score": 69,
+      "source": "party",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "surcharge-audit",
+      "title": "Surcharge Audit",
+      "hook": "Every time a ship is hit in the Strait of Hormuz, carriers and forwarders add war-risk and emergency surcharges to every invoice, including containers that never pass near the strait, and small importers pay without checking. Surcharge Audit matches each surcharge line to the container's actual route and the carrier's published notice, and drafts the dispute when the charge doesn't apply.",
+      "tags": [
+        "logistics",
+        "trade",
+        "finance",
+        "small-business"
+      ],
+      "score": 63,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "descriptor-hop",
+      "title": "Descriptor Hop",
+      "hook": "'Free sample' skincare schemes keep charging victims after card disputes because they rotate merchant names and processor accounts faster than any single card issuer notices. Descriptor Hop lets small credit unions pool anonymized dispute records, groups new merchant descriptors that belong to the same operation, and blocks the next charge before the member is billed.",
+      "tags": [
+        "finance",
+        "fraud",
+        "consumer-protection",
+        "data"
+      ],
+      "score": 66,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "lumpy-income-cliff",
+      "title": "Lumpy Income Cliff",
+      "hook": "Farm families buying marketplace health insurance lose thousands in subsidies when one good harvest year pushes their income over a cutoff, even though the previous two years lost money. Lumpy Income Cliff lets an ag lender or extension agent model, in November, the legal year-end moves (prepaying inputs, deferring grain sales, Section 179 timing) that keep the family's MAGI under the cliff without hiding income.",
+      "tags": [
+        "health",
+        "finance",
+        "agriculture",
+        "tax"
+      ],
+      "score": 64,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "cash-trough",
+      "title": "Cash Trough",
+      "hook": "School districts like Leon County end up taking emergency short-term loans to make payroll because nobody has charted the weeks when state aid and property-tax receipts fall behind expenses. Cash Trough builds a 52-week cash forecast from the district's own ledger plus the state's published aid payment calendar, so the finance office sees the gap months ahead and can borrow less, later, or not at all.",
+      "tags": [
+        "education",
+        "finance",
+        "forecasting",
+        "public-sector"
+      ],
+      "score": 69,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
       "slug": "knock-on",
       "title": "Knock-On",
       "hook": "Each player secretly rewrites one event on a shared history timeline and scores for everything their change ripples into, but each phone sees only a few of the cause-and-effect arrows, and if two players' ripples ever reach the same event, both rewrites are cancelled.",
