@@ -1,6 +1,132 @@
 {
-  "lastScan": "2026-10-14",
+  "lastScan": "2026-10-15",
   "ideas": [
+    {
+      "slug": "terminal-collision",
+      "title": "Terminal Collision",
+      "hook": "Everyone holds a private Dominion hand and slams cards into one shared turn at the same time, against a single Actions counter on the TV, and the first person to play a card when it hits zero fizzles the whole chain for the room.",
+      "tags": [
+        "party",
+        "deckbuilder",
+        "real-time",
+        "push-your-luck"
+      ],
+      "score": 66,
+      "source": "party",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "bones-file",
+      "title": "Bones File",
+      "hook": "Everyone dives their own five-room roguelike on their phone at the same time, and when you die your floor, your angry ghost and your hand-labelled potions get spliced into a living friend's run, labels and all, whether you labelled them honestly or not.",
+      "tags": [
+        "party",
+        "roguelike",
+        "social-deduction",
+        "browser-game"
+      ],
+      "score": 71,
+      "source": "party",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "haul-count",
+      "title": "Haul Count",
+      "hook": "Rural residents living beside a new sand mine can't prove the dump trucks start at 4 a.m. or run triple their permitted count. Haul Count is a $150 solar camera on a fencepost that counts every loaded truck and produces a dated log formatted for the county permit hearing.",
+      "tags": [
+        "civic",
+        "hardware",
+        "land-use",
+        "computer-vision"
+      ],
+      "score": 60,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "repair-receipt",
+      "title": "Repair Receipt",
+      "hook": "Public-housing tenants report the same ceiling leak for months by phone and have nothing to prove it. Repair Receipt turns a text plus a photo into a timestamped record, sends the landlord a properly cited notice, and counts down the legal deadline.",
+      "tags": [
+        "housing",
+        "tenants",
+        "civic",
+        "legal"
+      ],
+      "score": 63,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "not-my-debt",
+      "title": "Not My Debt",
+      "hook": "A domestic-violence survivor leaves with $14k of car loans and credit cards an abuser opened in her name, and the advocate helping her has no time to fight each one. Not My Debt reads the survivor's credit report, helps tag each coerced account, and produces the right block, dispute and state coerced-debt letters in one sitting.",
+      "tags": [
+        "housing",
+        "finance",
+        "legal",
+        "domestic-violence"
+      ],
+      "score": 69,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "last-swipe",
+      "title": "Last Swipe",
+      "hook": "EBT families find their whole month's SNAP balance drained minutes after it loads, and since federal replacement ended nobody pays them back. Last Swipe gathers the 'where did I last use my card' answers from every victim and clusters them to pinpoint the compromised checkout lane, so the processor can pull the skimmer before the next deposit day.",
+      "tags": [
+        "civic",
+        "fraud",
+        "food-security",
+        "data"
+      ],
+      "score": 64,
+      "source": "news",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "out-of-sight-discount",
+      "title": "Out of Sight Discount",
+      "hook": "Amazon's fair-pricing bot drops your Buy Box the moment it finds your product cheaper on your own site, so this SaaS shows DTC brands which of their discounts the crawler can actually see and rebuilds each promo in a form it can't price-match, such as member pricing, bundles, or checkout-time codes.",
+      "tags": [
+        "business",
+        "saas",
+        "b2b",
+        "markets"
+      ],
+      "score": 67,
+      "source": "hn",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "handshake-tax",
+      "title": "Handshake Tax",
+      "hook": "A one-command eBPF probe for your homelab or prod box that counts every TCP+TLS handshake your services redo to hosts they already have connections open to, then bills each service in milliseconds and CPU like an itemized tab.",
+      "tags": [
+        "observability",
+        "devtool",
+        "homelab",
+        "telemetry"
+      ],
+      "score": 64,
+      "source": "hn",
+      "created": "2026-10-15"
+    },
+    {
+      "slug": "nothing-to-see",
+      "title": "Nothing to See",
+      "hook": "A generator reads all ~70k EasyList cosmetic rules, builds a fake web page made only of elements those rules hide, and paints it as a loud collage, so with your ad blocker on the URL shows a blank white page and with it off you get the mural.",
+      "tags": [
+        "art",
+        "generative",
+        "privacy",
+        "graphics"
+      ],
+      "score": 72,
+      "source": "github",
+      "created": "2026-10-15"
+    },
     {
       "slug": "front-of-the-line",
       "title": "Front of the Line",
